@@ -1,0 +1,457 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="classbittensor_1_1__axon_1_1axon" kind="class" language="Python" prot="public">
+    <compoundname>bittensor::_axon::axon</compoundname>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classbittensor_1_1__axon_1_1axon_1ad8b3b44a2b5e1e585286ab542a2b4892" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type> &apos;<ref refid="classbittensor_1_1__axon_1_1axon__impl_1_1_axon" kindref="compound">bittensor.Axon</ref>&apos;</type>
+        <definition> &apos;bittensor.Axon&apos; bittensor._axon.axon.__new__</definition>
+        <argsstring>(cls, Optional[&apos;bittensor.config&apos;] config=None, Optional[&apos;bittensor.Wallet&apos;] wallet=None, Optional[&apos;Callable&apos;] forward_text=None, Optional[&apos;Callable&apos;] backward_text=None, Optional[&apos;Callable&apos;] synapse_last_hidden=None, Optional[&apos;Callable&apos;] synapse_causal_lm=None, Optional[&apos;Callable&apos;] synapse_causal_lm_next=None, Optional[&apos;Callable&apos;] synapse_seq_2_seq=None, Optional[int] synapse_lasthidden_timeout=None, Optional[int] synapse_causallm_timeout=None, Optional[int] synapse_causallmnext_timeout=None, Optional[int] synapse_seq2seq_timeout=None, Optional[&apos;Callable&apos;] synapse_checks=None, Optional[&apos;futures.ThreadPoolExecutor&apos;] thread_pool=None, Optional[&apos;bittensor.prioritythreadpool&apos;] priority_threadpool=None, Optional[&apos;grpc._Server&apos;] server=None, Optional[int] port=None, Optional[str] ip=None, Optional[str] external_ip=None, Optional[int] external_port=None, Optional[int] max_workers=None, Optional[int] maximum_concurrent_rpcs=None, Optional[&apos;Callable&apos;] blacklist=None, Optional[&apos;Callable&apos;] priority=None, Optional[int] forward_timeout=None, Optional[int] backward_timeout=None, Optional[str] compression=None)</argsstring>
+        <name>__new__</name>
+        <qualifiedname>bittensor._axon.axon.__new__</qualifiedname>
+        <param>
+          <type>cls</type>
+          <defname>cls</defname>
+        </param>
+        <param>
+          <type>Optional</type>
+          <declname>config</declname>
+          <array>[ &apos;bittensor.config&apos;]</array>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type>Optional</type>
+          <declname>wallet</declname>
+          <array>[ &apos;bittensor.Wallet&apos;]</array>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type>Optional</type>
+          <declname>forward_text</declname>
+          <array>[ &apos;Callable&apos;]</array>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type>Optional</type>
+          <declname>backward_text</declname>
+          <array>[ &apos;Callable&apos;]</array>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type>Optional</type>
+          <declname>synapse_last_hidden</declname>
+          <array>[ &apos;Callable&apos;]</array>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type>Optional</type>
+          <declname>synapse_causal_lm</declname>
+          <array>[ &apos;Callable&apos;]</array>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type>Optional</type>
+          <declname>synapse_causal_lm_next</declname>
+          <array>[ &apos;Callable&apos;]</array>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type>Optional</type>
+          <declname>synapse_seq_2_seq</declname>
+          <array>[ &apos;Callable&apos;]</array>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type>Optional</type>
+          <declname>synapse_lasthidden_timeout</declname>
+          <array>[int]</array>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type>Optional</type>
+          <declname>synapse_causallm_timeout</declname>
+          <array>[int]</array>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type>Optional</type>
+          <declname>synapse_causallmnext_timeout</declname>
+          <array>[int]</array>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type>Optional</type>
+          <declname>synapse_seq2seq_timeout</declname>
+          <array>[int]</array>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type>Optional</type>
+          <declname>synapse_checks</declname>
+          <array>[ &apos;Callable&apos;]</array>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type>Optional</type>
+          <declname>thread_pool</declname>
+          <array>[ &apos;futures.ThreadPoolExecutor&apos;]</array>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type>Optional</type>
+          <declname>priority_threadpool</declname>
+          <array>[ &apos;bittensor.prioritythreadpool&apos;]</array>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type>Optional</type>
+          <declname>server</declname>
+          <array>[ &apos;grpc._Server&apos;]</array>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type>Optional</type>
+          <declname>port</declname>
+          <array>[int]</array>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type>Optional</type>
+          <declname>ip</declname>
+          <array>[str]</array>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type>Optional</type>
+          <declname>external_ip</declname>
+          <array>[str]</array>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type>Optional</type>
+          <declname>external_port</declname>
+          <array>[int]</array>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type>Optional</type>
+          <declname>max_workers</declname>
+          <array>[int]</array>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type>Optional</type>
+          <declname>maximum_concurrent_rpcs</declname>
+          <array>[int]</array>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type>Optional</type>
+          <declname>blacklist</declname>
+          <array>[ &apos;Callable&apos;]</array>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type>Optional</type>
+          <declname>priority</declname>
+          <array>[ &apos;Callable&apos;]</array>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type>Optional</type>
+          <declname>forward_timeout</declname>
+          <array>[int]</array>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type>Optional</type>
+          <declname>backward_timeout</declname>
+          <array>[int]</array>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type>Optional</type>
+          <declname>compression</declname>
+          <array>[str]</array>
+          <defval>None</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Creates a new bittensor.Axon object from passed arguments.
+        Args:
+            config (:obj:`Optional[bittensor.Config]`, `optional`): 
+                bittensor.axon.config()
+            wallet (:obj:`Optional[bittensor.Wallet]`, `optional`):
+                bittensor wallet with hotkey and coldkeypub.
+            forward_text (:obj:`Optional[callable]`, `optional`):
+                function which is called on forward text requests.
+            backward_text (:obj:`Optional[callable]`, `optional`):
+                function which is called on backward text requests.
+            synapse_last_hidden (:obj:`Optional[callable]`, `optional`):
+                function which is called by the last hidden synapse
+            synapse_causal_lm (:obj:`Optional[callable]`, `optional`):
+                function which is called by the causal lm synapse
+            synapse_causal_lm_next (:obj:`Optional[callable]`, `optional`):
+                function which is called by the TextCausalLMNext synapse
+            synapse_seq_2_seq (:obj:`Optional[callable]`, `optional`):
+                function which is called by the seq2seq synapse   
+            synapse_checks (:obj:`Optional[callable]`, &apos;optional&apos;):
+                function which is called before each synapse to check for stake        
+            thread_pool (:obj:`Optional[ThreadPoolExecutor]`, `optional`):
+                Threadpool used for processing server queries.
+            server (:obj:`Optional[grpc._Server]`, `required`):
+                Grpc server endpoint, overrides passed threadpool.
+            port (:type:`Optional[int]`, `optional`):
+                Binding port.
+            ip (:type:`Optional[str]`, `optional`):
+                Binding ip.
+            external_ip (:type:`Optional[str]`, `optional`):
+                The external ip of the server to broadcast to the network.
+            external_port (:type:`Optional[int]`, `optional`):
+                The external port of the server to broadcast to the network.
+            max_workers (:type:`Optional[int]`, `optional`):
+                Used to create the threadpool if not passed, specifies the number of active threads servicing requests.
+            maximum_concurrent_rpcs (:type:`Optional[int]`, `optional`):
+                Maximum allowed concurrently processed RPCs.
+            blacklist (:obj:`Optional[callable]`, `optional`):
+                function to blacklist requests.
+            priority (:obj:`Optional[callable]`, `optional`):
+                function to assign priority on requests.
+            forward_timeout (:type:`Optional[int]`, `optional`):
+                timeout on the forward requests. 
+            backward_timeout (:type:`Optional[int]`, `optional`):
+                timeout on the backward requests.              </verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_axon/__init__.py" line="50" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_axon/__init__.py" bodystart="80" bodyend="206"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__axon_1_1axon_1a3517455cb9fa2f6f1e0374dc0bf18c85" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type> &apos;<ref refid="classbittensor_1_1__config_1_1config__impl_1_1_config" kindref="compound">bittensor.Config</ref>&apos;</type>
+        <definition> &apos;bittensor.Config&apos; bittensor._axon.axon.config</definition>
+        <argsstring>(cls)</argsstring>
+        <name>config</name>
+        <qualifiedname>bittensor._axon.axon.config</qualifiedname>
+        <param>
+          <type>cls</type>
+          <defname>cls</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Get config from the argument parser
+Return: bittensor.config object
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_axon/__init__.py" line="208" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_axon/__init__.py" bodystart="208" bodyend="215"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__axon_1_1axon_1a98606f3151d07d9e823ce4e2b752ca6f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._axon.axon.help</definition>
+        <argsstring>(cls)</argsstring>
+        <name>help</name>
+        <qualifiedname>bittensor._axon.axon.help</qualifiedname>
+        <param>
+          <type>cls</type>
+          <defname>cls</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Print help to stdout
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_axon/__init__.py" line="217" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_axon/__init__.py" bodystart="217" bodyend="224"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__axon_1_1axon_1ad1dcb057c01dbc6b554db2d12da3dfd5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._axon.axon.add_args</definition>
+        <argsstring>(cls, argparse.ArgumentParser parser, str prefix=None)</argsstring>
+        <name>add_args</name>
+        <qualifiedname>bittensor._axon.axon.add_args</qualifiedname>
+        <param>
+          <type>cls</type>
+          <defname>cls</defname>
+        </param>
+        <param>
+          <type>argparse.ArgumentParser</type>
+          <declname>parser</declname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>prefix</declname>
+          <defval>None</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Accept specific arguments from parser
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_axon/__init__.py" line="226" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_axon/__init__.py" bodystart="226" bodyend="273"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__axon_1_1axon_1af9abc05533106e0341f45debac14e34b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._axon.axon.add_defaults</definition>
+        <argsstring>(cls, defaults)</argsstring>
+        <name>add_defaults</name>
+        <qualifiedname>bittensor._axon.axon.add_defaults</qualifiedname>
+        <param>
+          <type>cls</type>
+          <defname>cls</defname>
+        </param>
+        <param>
+          <type>defaults</type>
+          <defname>defaults</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Adds parser defaults to object from enviroment variables.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_axon/__init__.py" line="275" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_axon/__init__.py" bodystart="275" bodyend="295"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__axon_1_1axon_1afae997ebc64b4bdd9b881c954eb8f8cd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._axon.axon.check_config</definition>
+        <argsstring>(cls, &apos;bittensor.Config&apos; config)</argsstring>
+        <name>check_config</name>
+        <qualifiedname>bittensor._axon.axon.check_config</qualifiedname>
+        <param>
+          <type>cls</type>
+          <defname>cls</defname>
+        </param>
+        <param>
+          <type>&apos;<ref refid="classbittensor_1_1__config_1_1config__impl_1_1_config" kindref="compound">bittensor.Config</ref>&apos;</type>
+          <declname>config</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Check config for axon port and wallet
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_axon/__init__.py" line="297" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_axon/__init__.py" bodystart="297" bodyend="304"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__axon_1_1axon_1a32210d255dbc303de928cdc08a5a834c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._axon.axon.default_synapse_check</definition>
+        <argsstring>(cls, synapse, hotkey)</argsstring>
+        <name>default_synapse_check</name>
+        <qualifiedname>bittensor._axon.axon.default_synapse_check</qualifiedname>
+        <param>
+          <type>cls</type>
+          <defname>cls</defname>
+        </param>
+        <param>
+          <type><ref refid="classbittensor_1_1__synapse_1_1synapse" kindref="compound">synapse</ref></type>
+          <defname>synapse</defname>
+        </param>
+        <param>
+          <type>hotkey</type>
+          <defname>hotkey</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> default synapse check function
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_axon/__init__.py" line="306" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_axon/__init__.py" bodystart="306" bodyend="313"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classbittensor_1_1__axon_1_1axon_1a8692b67b65ebcf43f3b42eefc0df1f1c" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._axon.axon.check_backward_callback</definition>
+        <argsstring>(Callable backward_callback, str pubkey=&apos;_&apos;)</argsstring>
+        <name>check_backward_callback</name>
+        <qualifiedname>bittensor._axon.axon.check_backward_callback</qualifiedname>
+        <param>
+          <type>Callable</type>
+          <declname>backward_callback</declname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>pubkey</declname>
+          <defval>&apos;_&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Check and test axon backward callback function
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_axon/__init__.py" line="315" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_axon/__init__.py" bodystart="315" bodyend="327"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__axon_1_1axon_1aac806993bad87f22eead3ef25a77945a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._axon.axon.check_forward_callback</definition>
+        <argsstring>(Callable forward_callback, list synapses=[])</argsstring>
+        <name>check_forward_callback</name>
+        <qualifiedname>bittensor._axon.axon.check_forward_callback</qualifiedname>
+        <param>
+          <type>Callable</type>
+          <declname>forward_callback</declname>
+        </param>
+        <param>
+          <type>list</type>
+          <declname>synapses</declname>
+          <defval>[]</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Check and test axon forward callback function
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_axon/__init__.py" line="329" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_axon/__init__.py" bodystart="329" bodyend="341"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim> The factory class for bittensor.Axon object
+The Axon is a grpc server for the bittensor network which opens up communication between it and other neurons.
+The server protocol is defined in bittensor.proto and describes the manner in which forward and backwards requests
+are transported / encoded between validators and servers
+
+Examples:: 
+        &gt;&gt;&gt; config = bittensor.axon.config()
+        &gt;&gt;&gt; axon = bittensor.axon( config = config )
+        &gt;&gt;&gt; subtensor = bittensor.subtensor( network = &apos;nakamoto&apos; )
+        &gt;&gt;&gt; axon.serve( subtensor = subtensor )
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/Users/macthrasher/bittensor/bittensor/_axon/__init__.py" line="37" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_axon/__init__.py" bodystart="37" bodyend="341"/>
+    <listofallmembers>
+      <member refid="classbittensor_1_1__axon_1_1axon_1ad8b3b44a2b5e1e585286ab542a2b4892" prot="public" virt="non-virtual"><scope>bittensor::_axon::axon</scope><name>__new__</name></member>
+      <member refid="classbittensor_1_1__axon_1_1axon_1ad1dcb057c01dbc6b554db2d12da3dfd5" prot="public" virt="non-virtual"><scope>bittensor::_axon::axon</scope><name>add_args</name></member>
+      <member refid="classbittensor_1_1__axon_1_1axon_1af9abc05533106e0341f45debac14e34b" prot="public" virt="non-virtual"><scope>bittensor::_axon::axon</scope><name>add_defaults</name></member>
+      <member refid="classbittensor_1_1__axon_1_1axon_1a8692b67b65ebcf43f3b42eefc0df1f1c" prot="public" virt="non-virtual"><scope>bittensor::_axon::axon</scope><name>check_backward_callback</name></member>
+      <member refid="classbittensor_1_1__axon_1_1axon_1afae997ebc64b4bdd9b881c954eb8f8cd" prot="public" virt="non-virtual"><scope>bittensor::_axon::axon</scope><name>check_config</name></member>
+      <member refid="classbittensor_1_1__axon_1_1axon_1aac806993bad87f22eead3ef25a77945a" prot="public" virt="non-virtual"><scope>bittensor::_axon::axon</scope><name>check_forward_callback</name></member>
+      <member refid="classbittensor_1_1__axon_1_1axon_1a3517455cb9fa2f6f1e0374dc0bf18c85" prot="public" virt="non-virtual"><scope>bittensor::_axon::axon</scope><name>config</name></member>
+      <member refid="classbittensor_1_1__axon_1_1axon_1a32210d255dbc303de928cdc08a5a834c" prot="public" virt="non-virtual"><scope>bittensor::_axon::axon</scope><name>default_synapse_check</name></member>
+      <member refid="classbittensor_1_1__axon_1_1axon_1a98606f3151d07d9e823ce4e2b752ca6f" prot="public" virt="non-virtual"><scope>bittensor::_axon::axon</scope><name>help</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

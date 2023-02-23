@@ -1,0 +1,219 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="classbittensor_1_1utils_1_1registration_1_1_c_u_d_a_solver" kind="class" language="Python" prot="public">
+    <compoundname>bittensor::utils::registration::CUDASolver</compoundname>
+    <basecompoundref refid="classbittensor_1_1utils_1_1registration_1_1_solver_base" prot="public" virt="non-virtual">bittensor.utils.registration.SolverBase</basecompoundref>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classbittensor_1_1utils_1_1registration_1_1_c_u_d_a_solver_1a73ce5e6e755aefb17e35d975c36a7f7e" prot="public" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int bittensor.utils.registration.CUDASolver::dev_id</definition>
+        <argsstring></argsstring>
+        <name>dev_id</name>
+        <qualifiedname>bittensor.utils.registration.CUDASolver.dev_id</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/registration.py" line="216" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/registration.py" bodystart="216" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1utils_1_1registration_1_1_c_u_d_a_solver_1a242d65d1d78cb31d1079ef3a5535c4cf" prot="public" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int bittensor.utils.registration.CUDASolver::TPB</definition>
+        <argsstring></argsstring>
+        <name>TPB</name>
+        <qualifiedname>bittensor.utils.registration.CUDASolver.TPB</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/registration.py" line="217" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/registration.py" bodystart="217" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classbittensor_1_1utils_1_1registration_1_1_c_u_d_a_solver_1aa9cf66b49b7e77e54000170c48f05779" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor.utils.registration.CUDASolver::dev_id</definition>
+        <argsstring></argsstring>
+        <name>dev_id</name>
+        <qualifiedname>bittensor.utils.registration.CUDASolver.dev_id</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/registration.py" line="221" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/registration.py" bodystart="221" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1utils_1_1registration_1_1_c_u_d_a_solver_1a9ef23801a925d5b97346960e2fc7797a" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor.utils.registration.CUDASolver::TPB</definition>
+        <argsstring></argsstring>
+        <name>TPB</name>
+        <qualifiedname>bittensor.utils.registration.CUDASolver.TPB</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/registration.py" line="222" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/registration.py" bodystart="222" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classbittensor_1_1utils_1_1registration_1_1_c_u_d_a_solver_1a6be04816536ef399338558f6d6b40495" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor.utils.registration.CUDASolver.__init__</definition>
+        <argsstring>(self, proc_num, num_proc, update_interval, finished_queue, solution_queue, stopEvent, curr_block, curr_block_num, curr_diff, check_block, limit, int dev_id, int TPB)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>bittensor.utils.registration.CUDASolver.__init__</qualifiedname>
+        <reimplements refid="classbittensor_1_1utils_1_1registration_1_1_solver_base_1ac051a1bfd6228037178c238934e828cd">__init__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>proc_num</type>
+          <defname>proc_num</defname>
+        </param>
+        <param>
+          <type>num_proc</type>
+          <defname>num_proc</defname>
+        </param>
+        <param>
+          <type>update_interval</type>
+          <defname>update_interval</defname>
+        </param>
+        <param>
+          <type>finished_queue</type>
+          <defname>finished_queue</defname>
+        </param>
+        <param>
+          <type>solution_queue</type>
+          <defname>solution_queue</defname>
+        </param>
+        <param>
+          <type>stopEvent</type>
+          <defname>stopEvent</defname>
+        </param>
+        <param>
+          <type>curr_block</type>
+          <defname>curr_block</defname>
+        </param>
+        <param>
+          <type>curr_block_num</type>
+          <defname>curr_block_num</defname>
+        </param>
+        <param>
+          <type>curr_diff</type>
+          <defname>curr_diff</defname>
+        </param>
+        <param>
+          <type>check_block</type>
+          <defname>check_block</defname>
+        </param>
+        <param>
+          <type>limit</type>
+          <defname>limit</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>dev_id</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>TPB</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/registration.py" line="219" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/registration.py" bodystart="219" bodyend="223"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1utils_1_1registration_1_1_c_u_d_a_solver_1a4ee1ea8c13e6ed65db51b65e80ae2177" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor.utils.registration.CUDASolver.run</definition>
+        <argsstring>(self)</argsstring>
+        <name>run</name>
+        <qualifiedname>bittensor.utils.registration.CUDASolver.run</qualifiedname>
+        <reimplements refid="classbittensor_1_1utils_1_1registration_1_1_solver_base_1aee1da22d8fa4ec1a7ad0c006c097fca9">run</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/registration.py" line="224" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/registration.py" bodystart="224" bodyend="257"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>bittensor.utils.registration.CUDASolver</label>
+        <link refid="classbittensor_1_1utils_1_1registration_1_1_c_u_d_a_solver"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>bittensor.utils.registration.SolverBase</label>
+        <link refid="classbittensor_1_1utils_1_1registration_1_1_solver_base"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>multiprocessing::Process</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>bittensor.utils.registration.CUDASolver</label>
+        <link refid="classbittensor_1_1utils_1_1registration_1_1_c_u_d_a_solver"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>bittensor.utils.registration.SolverBase</label>
+        <link refid="classbittensor_1_1utils_1_1registration_1_1_solver_base"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>check_block</edgelabel>
+          <edgelabel>curr_block</edgelabel>
+          <edgelabel>curr_block_num</edgelabel>
+          <edgelabel>curr_diff</edgelabel>
+          <edgelabel>finished_queue</edgelabel>
+          <edgelabel>newBlockEvent</edgelabel>
+          <edgelabel>solution_queue</edgelabel>
+          <edgelabel>stopEvent</edgelabel>
+        </childnode>
+      </node>
+      <node id="4">
+        <label>multiprocessing</label>
+      </node>
+      <node id="3">
+        <label>multiprocessing::Process</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/macthrasher/bittensor/bittensor/utils/registration.py" line="215" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/registration.py" bodystart="215" bodyend="257"/>
+    <listofallmembers>
+      <member refid="classbittensor_1_1utils_1_1registration_1_1_c_u_d_a_solver_1a6be04816536ef399338558f6d6b40495" prot="public" virt="non-virtual"><scope>bittensor::utils::registration::CUDASolver</scope><name>__init__</name></member>
+      <member refid="classbittensor_1_1utils_1_1registration_1_1_c_u_d_a_solver_1a73ce5e6e755aefb17e35d975c36a7f7e" prot="public" virt="non-virtual"><scope>bittensor::utils::registration::CUDASolver</scope><name>dev_id</name></member>
+      <member refid="classbittensor_1_1utils_1_1registration_1_1_c_u_d_a_solver_1aa9cf66b49b7e77e54000170c48f05779" prot="public" virt="non-virtual"><scope>bittensor::utils::registration::CUDASolver</scope><name>dev_id</name></member>
+      <member refid="classbittensor_1_1utils_1_1registration_1_1_c_u_d_a_solver_1a4ee1ea8c13e6ed65db51b65e80ae2177" prot="public" virt="non-virtual"><scope>bittensor::utils::registration::CUDASolver</scope><name>run</name></member>
+      <member refid="classbittensor_1_1utils_1_1registration_1_1_c_u_d_a_solver_1a242d65d1d78cb31d1079ef3a5535c4cf" prot="public" virt="non-virtual"><scope>bittensor::utils::registration::CUDASolver</scope><name>TPB</name></member>
+      <member refid="classbittensor_1_1utils_1_1registration_1_1_c_u_d_a_solver_1a9ef23801a925d5b97346960e2fc7797a" prot="public" virt="non-virtual"><scope>bittensor::utils::registration::CUDASolver</scope><name>TPB</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

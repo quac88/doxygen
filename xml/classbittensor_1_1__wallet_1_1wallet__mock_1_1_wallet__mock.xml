@@ -1,0 +1,184 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="classbittensor_1_1__wallet_1_1wallet__mock_1_1_wallet__mock" kind="class" language="Python" prot="public">
+    <compoundname>bittensor::_wallet::wallet_mock::Wallet_mock</compoundname>
+    <basecompoundref refid="classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet" prot="public" virt="non-virtual">bittensor._wallet.wallet_impl.Wallet</basecompoundref>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classbittensor_1_1__wallet_1_1wallet__mock_1_1_wallet__mock_1a53a62881ffc84cd95e96e6ce49abbefa" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._wallet.wallet_mock.Wallet_mock::_is_mock</definition>
+        <argsstring></argsstring>
+        <name>_is_mock</name>
+        <qualifiedname>bittensor._wallet.wallet_mock.Wallet_mock._is_mock</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_wallet/wallet_mock.py" line="22" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_wallet/wallet_mock.py" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__wallet_1_1wallet__mock_1_1_wallet__mock_1a73f42439c5b68cd8e8d6a20d165f04c7" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._wallet.wallet_mock.Wallet_mock::_mocked_coldkey_keyfile</definition>
+        <argsstring></argsstring>
+        <name>_mocked_coldkey_keyfile</name>
+        <qualifiedname>bittensor._wallet.wallet_mock.Wallet_mock._mocked_coldkey_keyfile</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_wallet/wallet_mock.py" line="23" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_wallet/wallet_mock.py" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__wallet_1_1wallet__mock_1_1_wallet__mock_1a9330a943747380672fbc53280c43e4f4" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._wallet.wallet_mock.Wallet_mock::_mocked_hotkey_keyfile</definition>
+        <argsstring></argsstring>
+        <name>_mocked_hotkey_keyfile</name>
+        <qualifiedname>bittensor._wallet.wallet_mock.Wallet_mock._mocked_hotkey_keyfile</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_wallet/wallet_mock.py" line="24" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_wallet/wallet_mock.py" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classbittensor_1_1__wallet_1_1wallet__mock_1_1_wallet__mock_1a29fd0a26fad819aee57614b3146d9862" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._wallet.wallet_mock.Wallet_mock.__init__</definition>
+        <argsstring>(self, bool _mock, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>bittensor._wallet.wallet_mock.Wallet_mock.__init__</qualifiedname>
+        <reimplements refid="classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet_1aa7add4c474e3294236fd088017f02de5">__init__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>_mock</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Init bittensor wallet object containing a hot and coldkey.
+        Args:
+            _mock (required=True, default=False):
+                If true creates a mock wallet with random keys.</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_wallet/wallet_mock.py" line="10" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_wallet/wallet_mock.py" bodystart="14" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__wallet_1_1wallet__mock_1_1_wallet__mock_1aa0fb55aba0c5233efea28877026b969a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type> &apos;<ref refid="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_keyfile" kindref="compound">bittensor.Keyfile</ref>&apos;</type>
+        <definition> &apos;bittensor.Keyfile&apos; bittensor._wallet.wallet_mock.Wallet_mock.hotkey_file</definition>
+        <argsstring>(self)</argsstring>
+        <name>hotkey_file</name>
+        <qualifiedname>bittensor._wallet.wallet_mock.Wallet_mock.hotkey_file</qualifiedname>
+        <reimplements refid="classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet_1a2cb735875ddc5f971cd45bfdebc98052">hotkey_file</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_wallet/wallet_mock.py" line="29" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_wallet/wallet_mock.py" bodystart="29" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__wallet_1_1wallet__mock_1_1_wallet__mock_1a819bf8c13f70c196bbc23a388433b5d5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type> &apos;<ref refid="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_keyfile" kindref="compound">bittensor.Keyfile</ref>&apos;</type>
+        <definition> &apos;bittensor.Keyfile&apos; bittensor._wallet.wallet_mock.Wallet_mock.coldkey_file</definition>
+        <argsstring>(self)</argsstring>
+        <name>coldkey_file</name>
+        <qualifiedname>bittensor._wallet.wallet_mock.Wallet_mock.coldkey_file</qualifiedname>
+        <reimplements refid="classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet_1a69c1a8f249e4bf4e13b9ee63e39ac8e1">coldkey_file</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_wallet/wallet_mock.py" line="40" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_wallet/wallet_mock.py" bodystart="40" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__wallet_1_1wallet__mock_1_1_wallet__mock_1a19db9e4d69df8c25ee220e7ecfd72ec7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type> &apos;<ref refid="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_keyfile" kindref="compound">bittensor.Keyfile</ref>&apos;</type>
+        <definition> &apos;bittensor.Keyfile&apos; bittensor._wallet.wallet_mock.Wallet_mock.coldkeypub_file</definition>
+        <argsstring>(self)</argsstring>
+        <name>coldkeypub_file</name>
+        <qualifiedname>bittensor._wallet.wallet_mock.Wallet_mock.coldkeypub_file</qualifiedname>
+        <reimplements refid="classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet_1a7d2b88fb8f661b338d948906ba5d33d4">coldkeypub_file</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_wallet/wallet_mock.py" line="51" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_wallet/wallet_mock.py" bodystart="51" bodyend="60"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Mocked Version of the bittensor wallet class, meant to be used for testing
+</verbatim> </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>bittensor._wallet.wallet_mock.Wallet_mock</label>
+        <link refid="classbittensor_1_1__wallet_1_1wallet__mock_1_1_wallet__mock"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>bittensor._wallet.wallet_impl.Wallet</label>
+        <link refid="classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>bittensor._wallet.wallet_mock.Wallet_mock</label>
+        <link refid="classbittensor_1_1__wallet_1_1wallet__mock_1_1_wallet__mock"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>bittensor._wallet.wallet_impl.Wallet</label>
+        <link refid="classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>regen_coldkeypub</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/macthrasher/bittensor/bittensor/_wallet/wallet_mock.py" line="6" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_wallet/wallet_mock.py" bodystart="6" bodyend="60"/>
+    <listofallmembers>
+      <member refid="classbittensor_1_1__wallet_1_1wallet__mock_1_1_wallet__mock_1a29fd0a26fad819aee57614b3146d9862" prot="public" virt="non-virtual"><scope>bittensor::_wallet::wallet_mock::Wallet_mock</scope><name>__init__</name></member>
+      <member refid="classbittensor_1_1__wallet_1_1wallet__mock_1_1_wallet__mock_1a53a62881ffc84cd95e96e6ce49abbefa" prot="protected" virt="non-virtual"><scope>bittensor::_wallet::wallet_mock::Wallet_mock</scope><name>_is_mock</name></member>
+      <member refid="classbittensor_1_1__wallet_1_1wallet__mock_1_1_wallet__mock_1a73f42439c5b68cd8e8d6a20d165f04c7" prot="protected" virt="non-virtual"><scope>bittensor::_wallet::wallet_mock::Wallet_mock</scope><name>_mocked_coldkey_keyfile</name></member>
+      <member refid="classbittensor_1_1__wallet_1_1wallet__mock_1_1_wallet__mock_1a9330a943747380672fbc53280c43e4f4" prot="protected" virt="non-virtual"><scope>bittensor::_wallet::wallet_mock::Wallet_mock</scope><name>_mocked_hotkey_keyfile</name></member>
+      <member refid="classbittensor_1_1__wallet_1_1wallet__mock_1_1_wallet__mock_1a819bf8c13f70c196bbc23a388433b5d5" prot="public" virt="non-virtual"><scope>bittensor::_wallet::wallet_mock::Wallet_mock</scope><name>coldkey_file</name></member>
+      <member refid="classbittensor_1_1__wallet_1_1wallet__mock_1_1_wallet__mock_1a19db9e4d69df8c25ee220e7ecfd72ec7" prot="public" virt="non-virtual"><scope>bittensor::_wallet::wallet_mock::Wallet_mock</scope><name>coldkeypub_file</name></member>
+      <member refid="classbittensor_1_1__wallet_1_1wallet__mock_1_1_wallet__mock_1aa0fb55aba0c5233efea28877026b969a" prot="public" virt="non-virtual"><scope>bittensor::_wallet::wallet_mock::Wallet_mock</scope><name>hotkey_file</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

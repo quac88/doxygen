@@ -1,0 +1,137 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="namespacebittensor_1_1__endpoint" kind="namespace" language="Python">
+    <compoundname>bittensor::_endpoint</compoundname>
+    <innerclass refid="classbittensor_1_1__endpoint_1_1endpoint" prot="public">bittensor::_endpoint::endpoint</innerclass>
+    <innernamespace refid="namespacebittensor_1_1__endpoint_1_1endpoint__impl">bittensor::_endpoint::endpoint_impl</innernamespace>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="namespacebittensor_1_1__endpoint_1a15ec0365289a2eef3d6eabfab6afd35d" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int bittensor::_endpoint.MAX_IP_LENGTH</definition>
+        <argsstring></argsstring>
+        <name>MAX_IP_LENGTH</name>
+        <qualifiedname>bittensor._endpoint.MAX_IP_LENGTH</qualifiedname>
+        <initializer>=  8*4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_endpoint/__init__.py" line="27" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_endpoint/__init__.py" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacebittensor_1_1__endpoint_1af52f19eb5ba1041c1d12c9aba3f4ac6a" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int bittensor::_endpoint.MAX_VERSION</definition>
+        <argsstring></argsstring>
+        <name>MAX_VERSION</name>
+        <qualifiedname>bittensor._endpoint.MAX_VERSION</qualifiedname>
+        <initializer>=  999</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_endpoint/__init__.py" line="28" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_endpoint/__init__.py" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacebittensor_1_1__endpoint_1a4961df63415cb96d7ef472f283126287" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int bittensor::_endpoint.SS58_LENGTH</definition>
+        <argsstring></argsstring>
+        <name>SS58_LENGTH</name>
+        <qualifiedname>bittensor._endpoint.SS58_LENGTH</qualifiedname>
+        <initializer>=  48</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_endpoint/__init__.py" line="29" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_endpoint/__init__.py" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacebittensor_1_1__endpoint_1a0b0c598fcbba4632ee4db980e5ddc605" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int bittensor::_endpoint.MAXPORT</definition>
+        <argsstring></argsstring>
+        <name>MAXPORT</name>
+        <qualifiedname>bittensor._endpoint.MAXPORT</qualifiedname>
+        <initializer>=  65535</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_endpoint/__init__.py" line="30" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_endpoint/__init__.py" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacebittensor_1_1__endpoint_1a2971c138b69ec28e4bf9214072509d5a" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int bittensor::_endpoint.MAXUID</definition>
+        <argsstring></argsstring>
+        <name>MAXUID</name>
+        <qualifiedname>bittensor._endpoint.MAXUID</qualifiedname>
+        <initializer>=  4294967295</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_endpoint/__init__.py" line="31" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_endpoint/__init__.py" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacebittensor_1_1__endpoint_1aa2ee6f294d8838e5adcc337a30687712" prot="public" static="no" mutable="no">
+        <type>list</type>
+        <definition>list bittensor::_endpoint.ACCEPTABLE_IPTYPES</definition>
+        <argsstring></argsstring>
+        <name>ACCEPTABLE_IPTYPES</name>
+        <qualifiedname>bittensor._endpoint.ACCEPTABLE_IPTYPES</qualifiedname>
+        <initializer>=  [4,6,0]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_endpoint/__init__.py" line="32" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_endpoint/__init__.py" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacebittensor_1_1__endpoint_1ad2b96b29c3b8c6a09b36cb3ec1f2d9a0" prot="public" static="no" mutable="no">
+        <type>list</type>
+        <definition>list bittensor::_endpoint.ACCEPTABLE_MODALITIES</definition>
+        <argsstring></argsstring>
+        <name>ACCEPTABLE_MODALITIES</name>
+        <qualifiedname>bittensor._endpoint.ACCEPTABLE_MODALITIES</qualifiedname>
+        <initializer>=  [0,1,2]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_endpoint/__init__.py" line="33" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_endpoint/__init__.py" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacebittensor_1_1__endpoint_1a358ee8f511ec099b183d9ec90af4a396" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int bittensor::_endpoint.ENDPOINT_BUFFER_SIZE</definition>
+        <argsstring></argsstring>
+        <name>ENDPOINT_BUFFER_SIZE</name>
+        <qualifiedname>bittensor._endpoint.ENDPOINT_BUFFER_SIZE</qualifiedname>
+        <initializer>=  250</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_endpoint/__init__.py" line="34" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_endpoint/__init__.py" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim> Create and init endpoint object, with attr hotkey, coldkey, modality and ip
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/Users/macthrasher/bittensor/bittensor/_endpoint/__init__.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

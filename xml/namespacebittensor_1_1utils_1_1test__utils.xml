@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="namespacebittensor_1_1utils_1_1test__utils" kind="namespace" language="Python">
+    <compoundname>bittensor::utils::test_utils</compoundname>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="test__utils_8py_1aa7bf5c983170bdd0fd1a491a92526e89" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int bittensor::utils::test_utils.max_tries</definition>
+        <argsstring></argsstring>
+        <name>max_tries</name>
+        <qualifiedname>bittensor.utils.test_utils.max_tries</qualifiedname>
+        <initializer>=  10</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/test_utils.py" line="5" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/test_utils.py" bodystart="5" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="test__utils_8py_1ae783b5292efd23497f182ef90491b52f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor.utils.test_utils.get_random_unused_port</definition>
+        <argsstring>(Set allocated_ports=set())</argsstring>
+        <name>get_random_unused_port</name>
+        <qualifiedname>bittensor.utils.test_utils.get_random_unused_port</qualifiedname>
+        <param>
+          <type>Set</type>
+          <declname>allocated_ports</declname>
+          <defval>set()</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/test_utils.py" line="8" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/test_utils.py" bodystart="8" bodyend="23"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/macthrasher/bittensor/bittensor/utils/test_utils.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

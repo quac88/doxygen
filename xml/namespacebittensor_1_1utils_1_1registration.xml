@@ -1,0 +1,725 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="namespacebittensor_1_1utils_1_1registration" kind="namespace" language="Python">
+    <compoundname>bittensor::utils::registration</compoundname>
+    <innerclass refid="classbittensor_1_1utils_1_1registration_1_1_c_u_d_a_exception" prot="public">bittensor::utils::registration::CUDAException</innerclass>
+    <innerclass refid="classbittensor_1_1utils_1_1registration_1_1_c_u_d_a_solver" prot="public">bittensor::utils::registration::CUDASolver</innerclass>
+    <innerclass refid="classbittensor_1_1utils_1_1registration_1_1_p_o_w_solution" prot="public">bittensor::utils::registration::POWSolution</innerclass>
+    <innerclass refid="classbittensor_1_1utils_1_1registration_1_1_registration_statistics" prot="public">bittensor::utils::registration::RegistrationStatistics</innerclass>
+    <innerclass refid="classbittensor_1_1utils_1_1registration_1_1_registration_statistics_logger" prot="public">bittensor::utils::registration::RegistrationStatisticsLogger</innerclass>
+    <innerclass refid="classbittensor_1_1utils_1_1registration_1_1_solver" prot="public">bittensor::utils::registration::Solver</innerclass>
+    <innerclass refid="classbittensor_1_1utils_1_1registration_1_1_solver_base" prot="public">bittensor::utils::registration::SolverBase</innerclass>
+    <innerclass refid="classbittensor_1_1utils_1_1registration_1_1_using_spawn_start_method" prot="public">bittensor::utils::registration::UsingSpawnStartMethod</innerclass>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="registration_8py_1abf77b1074f21e08fa2da3c0f9d65028f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor.utils.registration.hex_bytes_to_u8_list</definition>
+        <argsstring>(bytes hex_bytes)</argsstring>
+        <name>hex_bytes_to_u8_list</name>
+        <qualifiedname>bittensor.utils.registration.hex_bytes_to_u8_list</qualifiedname>
+        <param>
+          <type>bytes</type>
+          <declname>hex_bytes</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/registration.py" line="28" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/registration.py" bodystart="28" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="registration_8py_1ab1bfdbd96c22c07abcb72b8ccbc8fe62" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor.utils.registration.u8_list_to_hex</definition>
+        <argsstring>(list values)</argsstring>
+        <name>u8_list_to_hex</name>
+        <qualifiedname>bittensor.utils.registration.u8_list_to_hex</qualifiedname>
+        <param>
+          <type>list</type>
+          <declname>values</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/registration.py" line="33" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/registration.py" bodystart="33" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="registration_8py_1abf3136dbedab86f9bd387d6800755132" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bytes</type>
+        <definition> bytes bittensor.utils.registration.create_seal_hash</definition>
+        <argsstring>(bytes block_hash, int nonce)</argsstring>
+        <name>create_seal_hash</name>
+        <qualifiedname>bittensor.utils.registration.create_seal_hash</qualifiedname>
+        <param>
+          <type>bytes</type>
+          <declname>block_hash</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nonce</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/registration.py" line="40" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/registration.py" bodystart="40" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="registration_8py_1ab93576431130ee6797d24f123f430ed6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor.utils.registration.seal_meets_difficulty</definition>
+        <argsstring>(bytes seal, int difficulty)</argsstring>
+        <name>seal_meets_difficulty</name>
+        <qualifiedname>bittensor.utils.registration.seal_meets_difficulty</qualifiedname>
+        <param>
+          <type>bytes</type>
+          <declname>seal</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>difficulty</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/registration.py" line="50" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/registration.py" bodystart="50" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="registration_8py_1aa545c271f47bcc63d2e419c7c24f9f48" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor.utils.registration.solve_for_difficulty</definition>
+        <argsstring>(block_hash, difficulty)</argsstring>
+        <name>solve_for_difficulty</name>
+        <qualifiedname>bittensor.utils.registration.solve_for_difficulty</qualifiedname>
+        <param>
+          <type>block_hash</type>
+          <defname>block_hash</defname>
+        </param>
+        <param>
+          <type>difficulty</type>
+          <defname>difficulty</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/registration.py" line="60" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/registration.py" bodystart="60" bodyend="71"/>
+      </memberdef>
+      <memberdef kind="function" id="registration_8py_1a96d082b232e2f07e3cbfcccf36d3ff4d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor.utils.registration.get_human_readable</definition>
+        <argsstring>(num, suffix=&quot;H&quot;)</argsstring>
+        <name>get_human_readable</name>
+        <qualifiedname>bittensor.utils.registration.get_human_readable</qualifiedname>
+        <param>
+          <type>num</type>
+          <defname>num</defname>
+        </param>
+        <param>
+          <type>suffix</type>
+          <defname>suffix</defname>
+          <defval>&quot;H&quot;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/registration.py" line="72" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/registration.py" bodystart="72" bodyend="79"/>
+      </memberdef>
+      <memberdef kind="function" id="registration_8py_1ac27b584f8099744deeddf5260638d4a8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor.utils.registration.millify</definition>
+        <argsstring>(int n)</argsstring>
+        <name>millify</name>
+        <qualifiedname>bittensor.utils.registration.millify</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/registration.py" line="80" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/registration.py" bodystart="80" bodyend="88"/>
+      </memberdef>
+      <memberdef kind="function" id="registration_8py_1a5d6b929bb31df660eb9a7bfe21868fe6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool bittensor.utils.registration.POWNotStale</definition>
+        <argsstring>(&apos;bittensor.Subtensor&apos; subtensor, Dict pow_result)</argsstring>
+        <name>POWNotStale</name>
+        <qualifiedname>bittensor.utils.registration.POWNotStale</qualifiedname>
+        <param>
+          <type>&apos;<ref refid="classbittensor_1_1__subtensor_1_1subtensor__impl_1_1_subtensor" kindref="compound">bittensor.Subtensor</ref>&apos;</type>
+          <declname>subtensor</declname>
+        </param>
+        <param>
+          <type>Dict</type>
+          <declname>pow_result</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Returns True if the POW is not stale.
+This means the block the POW is solved for is within 3 blocks of the current block.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/registration.py" line="89" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/registration.py" bodystart="89" bodyend="96"/>
+      </memberdef>
+      <memberdef kind="function" id="registration_8py_1a9c9865df7bce952fe1b7e12d161c28a2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Optional[<ref refid="classbittensor_1_1utils_1_1registration_1_1_p_o_w_solution" kindref="compound">POWSolution</ref>]</type>
+        <definition> Optional[POWSolution] bittensor.utils.registration.solve_for_nonce_block_cuda</definition>
+        <argsstring>(CUDASolver solver, int nonce_start, int update_interval, bytes block_bytes, int difficulty, int limit, int block_number, int dev_id, int TPB)</argsstring>
+        <name>solve_for_nonce_block_cuda</name>
+        <qualifiedname>bittensor.utils.registration.solve_for_nonce_block_cuda</qualifiedname>
+        <param>
+          <type><ref refid="classbittensor_1_1utils_1_1registration_1_1_c_u_d_a_solver" kindref="compound">CUDASolver</ref></type>
+          <declname>solver</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nonce_start</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>update_interval</declname>
+        </param>
+        <param>
+          <type>bytes</type>
+          <declname>block_bytes</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>difficulty</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>limit</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>block_number</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>dev_id</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>TPB</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Tries to solve the POW on a CUDA device for a block of nonces (nonce_start, nonce_start + update_interval * TPB</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/registration.py" line="258" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/registration.py" bodystart="258" bodyend="275"/>
+      </memberdef>
+      <memberdef kind="function" id="registration_8py_1a9532c01506777a3a051292dbb69a6886" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Optional[<ref refid="classbittensor_1_1utils_1_1registration_1_1_p_o_w_solution" kindref="compound">POWSolution</ref>]</type>
+        <definition> Optional[POWSolution] bittensor.utils.registration.solve_for_nonce_block</definition>
+        <argsstring>(Solver solver, int nonce_start, int nonce_end, bytes block_bytes, int difficulty, int limit, int block_number)</argsstring>
+        <name>solve_for_nonce_block</name>
+        <qualifiedname>bittensor.utils.registration.solve_for_nonce_block</qualifiedname>
+        <param>
+          <type><ref refid="classbittensor_1_1utils_1_1registration_1_1_solver" kindref="compound">Solver</ref></type>
+          <declname>solver</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nonce_start</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nonce_end</declname>
+        </param>
+        <param>
+          <type>bytes</type>
+          <declname>block_bytes</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>difficulty</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>limit</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>block_number</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Tries to solve the POW for a block of nonces (nonce_start, nonce_end)</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/registration.py" line="276" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/registration.py" bodystart="276" bodyend="295"/>
+      </memberdef>
+      <memberdef kind="function" id="registration_8py_1adfe1ac40e953c8d10f69638d4285dc7e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int bittensor.utils.registration.registration_diff_unpack</definition>
+        <argsstring>(multiprocessing.Array packed_diff)</argsstring>
+        <name>registration_diff_unpack</name>
+        <qualifiedname>bittensor.utils.registration.registration_diff_unpack</qualifiedname>
+        <param>
+          <type>multiprocessing.Array</type>
+          <declname>packed_diff</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Unpacks the packed two 32-bit integers into one 64-bit integer. Little endian.</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/registration.py" line="296" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/registration.py" bodystart="296" bodyend="300"/>
+      </memberdef>
+      <memberdef kind="function" id="registration_8py_1a380a8d7db8e86aa4a53bddd74cc80567" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor.utils.registration.registration_diff_pack</definition>
+        <argsstring>(int diff, multiprocessing.Array packed_diff)</argsstring>
+        <name>registration_diff_pack</name>
+        <qualifiedname>bittensor.utils.registration.registration_diff_pack</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>diff</declname>
+        </param>
+        <param>
+          <type>multiprocessing.Array</type>
+          <declname>packed_diff</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Packs the difficulty into two 32-bit integers. Little endian.</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/registration.py" line="301" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/registration.py" bodystart="301" bodyend="306"/>
+      </memberdef>
+      <memberdef kind="function" id="registration_8py_1a8121de47c494c0c25272f98cf94633ab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor.utils.registration.update_curr_block</definition>
+        <argsstring>(multiprocessing.Array curr_diff, multiprocessing.Array curr_block, multiprocessing.Value curr_block_num, int block_number, bytes block_bytes, int diff, multiprocessing.Lock lock)</argsstring>
+        <name>update_curr_block</name>
+        <qualifiedname>bittensor.utils.registration.update_curr_block</qualifiedname>
+        <param>
+          <type>multiprocessing.Array</type>
+          <declname>curr_diff</declname>
+        </param>
+        <param>
+          <type>multiprocessing.Array</type>
+          <declname>curr_block</declname>
+        </param>
+        <param>
+          <type>multiprocessing.Value</type>
+          <declname>curr_block_num</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>block_number</declname>
+        </param>
+        <param>
+          <type>bytes</type>
+          <declname>block_bytes</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>diff</declname>
+        </param>
+        <param>
+          <type>multiprocessing.Lock</type>
+          <declname>lock</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/registration.py" line="307" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/registration.py" bodystart="307" bodyend="314"/>
+      </memberdef>
+      <memberdef kind="function" id="registration_8py_1aeb1393cd6285a7e6607727d113a10c39" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor.utils.registration.get_cpu_count</definition>
+        <argsstring>()</argsstring>
+        <name>get_cpu_count</name>
+        <qualifiedname>bittensor.utils.registration.get_cpu_count</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/registration.py" line="315" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/registration.py" bodystart="315" bodyend="322"/>
+      </memberdef>
+      <memberdef kind="function" id="registration_8py_1ab92650c6d7cfae926cb1e93e8d3356a1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Optional[<ref refid="classbittensor_1_1utils_1_1registration_1_1_p_o_w_solution" kindref="compound">POWSolution</ref>]</type>
+        <definition> Optional[POWSolution] bittensor.utils.registration.solve_for_difficulty_fast</definition>
+        <argsstring>(subtensor, wallet, bool output_in_place=True, Optional[int] num_processes=None, Optional[int] update_interval=None, int n_samples=10, float alpha_=0.80, bool log_verbose=False)</argsstring>
+        <name>solve_for_difficulty_fast</name>
+        <qualifiedname>bittensor.utils.registration.solve_for_difficulty_fast</qualifiedname>
+        <param>
+          <type><ref refid="classbittensor_1_1__subtensor_1_1subtensor" kindref="compound">subtensor</ref></type>
+          <defname>subtensor</defname>
+        </param>
+        <param>
+          <type><ref refid="classbittensor_1_1__wallet_1_1wallet" kindref="compound">wallet</ref></type>
+          <defname>wallet</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>output_in_place</declname>
+          <defval>True</defval>
+        </param>
+        <param>
+          <type>Optional</type>
+          <declname>num_processes</declname>
+          <array>[int]</array>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type>Optional</type>
+          <declname>update_interval</declname>
+          <array>[int]</array>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>n_samples</declname>
+          <defval>10</defval>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>alpha_</declname>
+          <defval>0.80</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>log_verbose</declname>
+          <defval>False</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Solves the POW for registration using multiprocessing.
+Args:
+    subtensor
+        Subtensor to connect to for block information and to submit.
+    wallet:
+        Wallet to use for registration.
+    output_in_place: bool
+        If true, prints the status in place. Otherwise, prints the status on a new line.
+    num_processes: int
+        Number of processes to use.
+    update_interval: int
+        Number of nonces to solve before updating block information.
+    n_samples: int
+        The number of samples of the hash_rate to keep for the EWMA
+    alpha_: float
+        The alpha for the EWMA for the hash_rate calculation
+    log_verbose: bool
+        If true, prints more verbose logging of the registration metrics.
+Note: The hash rate is calculated as an exponentially weighted moving average in order to make the measure more robust.
+Note: 
+- We can also modify the update interval to do smaller blocks of work,
+    while still updating the block information after a different number of nonces,
+    to increase the transparency of the process while still keeping the speed.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/registration.py" line="381" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/registration.py" bodystart="381" bodyend="548"/>
+      </memberdef>
+      <memberdef kind="function" id="registration_8py_1a8132a159b9571b2b7560380784a35ea0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Tuple[int, int, bytes]</type>
+        <definition> Tuple[int, int, bytes] bittensor.utils.registration.get_block_with_retry</definition>
+        <argsstring>(&apos;bittensor.Subtensor&apos; subtensor)</argsstring>
+        <name>get_block_with_retry</name>
+        <qualifiedname>bittensor.utils.registration.get_block_with_retry</qualifiedname>
+        <param>
+          <type>&apos;<ref refid="classbittensor_1_1__subtensor_1_1subtensor__impl_1_1_subtensor" kindref="compound">bittensor.Subtensor</ref>&apos;</type>
+          <declname>subtensor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/registration.py" line="549" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/registration.py" bodystart="549" bodyend="557"/>
+      </memberdef>
+      <memberdef kind="function" id="registration_8py_1af28694b6779b8262dd63843af34aee81" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int bittensor.utils.registration.check_for_newest_block_and_update</definition>
+        <argsstring>(&apos;bittensor.Subtensor&apos; subtensor, int old_block_number, multiprocessing.Array curr_diff, multiprocessing.Array curr_block, multiprocessing.Value curr_block_num, Callable update_curr_block, &apos;multiprocessing.Lock&apos; check_block, List[Solver] solvers, RegistrationStatistics curr_stats)</argsstring>
+        <name>check_for_newest_block_and_update</name>
+        <qualifiedname>bittensor.utils.registration.check_for_newest_block_and_update</qualifiedname>
+        <param>
+          <type>&apos;<ref refid="classbittensor_1_1__subtensor_1_1subtensor__impl_1_1_subtensor" kindref="compound">bittensor.Subtensor</ref>&apos;</type>
+          <declname>subtensor</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>old_block_number</declname>
+        </param>
+        <param>
+          <type>multiprocessing.Array</type>
+          <declname>curr_diff</declname>
+        </param>
+        <param>
+          <type>multiprocessing.Array</type>
+          <declname>curr_block</declname>
+        </param>
+        <param>
+          <type>multiprocessing.Value</type>
+          <declname>curr_block_num</declname>
+        </param>
+        <param>
+          <type>Callable</type>
+          <declname>update_curr_block</declname>
+        </param>
+        <param>
+          <type>&apos;multiprocessing.Lock&apos;</type>
+          <declname>check_block</declname>
+        </param>
+        <param>
+          <type>List</type>
+          <declname>solvers</declname>
+          <array>[Solver]</array>
+        </param>
+        <param>
+          <type><ref refid="classbittensor_1_1utils_1_1registration_1_1_registration_statistics" kindref="compound">RegistrationStatistics</ref></type>
+          <declname>curr_stats</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Checks for a new block and updates the current block information if a new block is found.
+
+Args:
+    subtensor (:obj:`bittensor.Subtensor`, `required`):
+        The subtensor object to use for getting the current block.
+    old_block_number (:obj:`int`, `required`):
+        The old block number to check against.
+    curr_diff (:obj:`multiprocessing.Array`, `required`):
+        The current difficulty as a multiprocessing array.
+    curr_block (:obj:`multiprocessing.Array`, `required`):
+        Where the current block is stored as a multiprocessing array.
+    curr_block_num (:obj:`multiprocessing.Value`, `required`):
+        Where the current block number is stored as a multiprocessing value.
+    update_curr_block (:obj:`Callable`, `required`):
+        A function that updates the current block.
+    check_block (:obj:`multiprocessing.Lock`, `required`):
+        A mp lock that is used to check for a new block.
+    solvers (:obj:`List[Solver]`, `required`):
+        A list of solvers to update the current block for.
+    curr_stats (:obj:`RegistrationStatistics`, `required`):
+        The current registration statistics to update.
+
+Returns:
+    (int) The current block number.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/registration.py" line="575" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/registration.py" bodystart="585" bodyend="635"/>
+      </memberdef>
+      <memberdef kind="function" id="registration_8py_1a2f3cccb2c5867097e89342a974c7fb9c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Optional[<ref refid="classbittensor_1_1utils_1_1registration_1_1_p_o_w_solution" kindref="compound">POWSolution</ref>]</type>
+        <definition> Optional[POWSolution] bittensor.utils.registration.solve_for_difficulty_fast_cuda</definition>
+        <argsstring>(&apos;bittensor.Subtensor&apos; subtensor, &apos;bittensor.Wallet&apos; wallet, bool output_in_place=True, int update_interval=50_000, int TPB=512, Union[List[int], int] dev_id=0, int n_samples=10, float alpha_=0.80, bool log_verbose=False)</argsstring>
+        <name>solve_for_difficulty_fast_cuda</name>
+        <qualifiedname>bittensor.utils.registration.solve_for_difficulty_fast_cuda</qualifiedname>
+        <param>
+          <type>&apos;<ref refid="classbittensor_1_1__subtensor_1_1subtensor__impl_1_1_subtensor" kindref="compound">bittensor.Subtensor</ref>&apos;</type>
+          <declname>subtensor</declname>
+        </param>
+        <param>
+          <type>&apos;<ref refid="classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet" kindref="compound">bittensor.Wallet</ref>&apos;</type>
+          <declname>wallet</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>output_in_place</declname>
+          <defval>True</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>update_interval</declname>
+          <defval>50_000</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>TPB</declname>
+          <defval>512</defval>
+        </param>
+        <param>
+          <type>Union</type>
+          <defname>dev_id</defname>
+          <array>[List[int]</array>
+        </param>
+        <param>
+          <type>int]</type>
+          <declname>dev_id</declname>
+          <defname>n_samples</defname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>n_samples</declname>
+          <defname>alpha_</defname>
+          <defval>10</defval>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>alpha_</declname>
+          <defname>log_verbose</defname>
+          <defval>0.80</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>log_verbose</declname>
+          <defval>False</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Solves the registration fast using CUDA
+Args:
+    subtensor: bittensor.Subtensor
+        The subtensor node to grab blocks
+    wallet: bittensor.Wallet
+        The wallet to register
+    output_in_place: bool
+        If true, prints the output in place, otherwise prints to new lines
+    update_interval: int
+        The number of nonces to try before checking for more blocks
+    TPB: int
+        The number of threads per block. CUDA param that should match the GPU capability
+    dev_id: Union[List[int], int]
+        The CUDA device IDs to execute the registration on, either a single device or a list of devices
+    n_samples: int
+        The number of samples of the hash_rate to keep for the EWMA
+    alpha_: float
+        The alpha for the EWMA for the hash_rate calculation
+    log_verbose: bool
+        If true, prints more verbose logging of the registration metrics.
+Note: The hash rate is calculated as an exponentially weighted moving average in order to make the measure more robust.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/registration.py" line="636" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/registration.py" bodystart="636" bodyend="806"/>
+      </memberdef>
+      <memberdef kind="function" id="registration_8py_1a0f2eeeb9e5dcb082fe114f1de2987415" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None bittensor.utils.registration.terminate_workers_and_wait_for_exit</definition>
+        <argsstring>(List[multiprocessing.Process] workers)</argsstring>
+        <name>terminate_workers_and_wait_for_exit</name>
+        <qualifiedname>bittensor.utils.registration.terminate_workers_and_wait_for_exit</qualifiedname>
+        <param>
+          <type>List</type>
+          <declname>workers</declname>
+          <array>[multiprocessing.Process]</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/registration.py" line="807" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/registration.py" bodystart="807" bodyend="812"/>
+      </memberdef>
+      <memberdef kind="function" id="registration_8py_1acb9814852ff0e114ec1558ccb593bbec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Optional[Dict[str, Any]]</type>
+        <definition> Optional[Dict[str, Any]] bittensor.utils.registration.create_pow</definition>
+        <argsstring>(subtensor, wallet, bool output_in_place=True, bool cuda=False, Union[List[int], int] dev_id=0, int tpb=256, int num_processes=None, int update_interval=None, bool log_verbose=False)</argsstring>
+        <name>create_pow</name>
+        <qualifiedname>bittensor.utils.registration.create_pow</qualifiedname>
+        <param>
+          <type><ref refid="classbittensor_1_1__subtensor_1_1subtensor" kindref="compound">subtensor</ref></type>
+          <defname>subtensor</defname>
+        </param>
+        <param>
+          <type><ref refid="classbittensor_1_1__wallet_1_1wallet" kindref="compound">wallet</ref></type>
+          <defname>wallet</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>output_in_place</declname>
+          <defval>True</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>cuda</declname>
+          <defval>False</defval>
+        </param>
+        <param>
+          <type>Union</type>
+          <defname>dev_id</defname>
+          <array>[List[int]</array>
+        </param>
+        <param>
+          <type>int]</type>
+          <declname>dev_id</declname>
+          <defname>tpb</defname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>tpb</declname>
+          <defname>num_processes</defname>
+          <defval>256</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>num_processes</declname>
+          <defname>update_interval</defname>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>update_interval</declname>
+          <defname>log_verbose</defname>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>log_verbose</declname>
+          <defval>False</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/registration.py" line="813" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/registration.py" bodystart="823" bodyend="839"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/macthrasher/bittensor/bittensor/utils/registration.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

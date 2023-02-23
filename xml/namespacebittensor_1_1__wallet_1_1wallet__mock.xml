@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="namespacebittensor_1_1__wallet_1_1wallet__mock" kind="namespace" language="Python">
+    <compoundname>bittensor::_wallet::wallet_mock</compoundname>
+    <innerclass refid="classbittensor_1_1__wallet_1_1wallet__mock_1_1_wallet__mock" prot="public">bittensor::_wallet::wallet_mock::Wallet_mock</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/macthrasher/bittensor/bittensor/_wallet/wallet_mock.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

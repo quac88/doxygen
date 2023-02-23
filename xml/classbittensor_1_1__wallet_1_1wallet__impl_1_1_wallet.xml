@@ -1,0 +1,2000 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet" kind="class" language="Python" prot="public">
+    <compoundname>bittensor::_wallet::wallet_impl::Wallet</compoundname>
+    <derivedcompoundref refid="classbittensor_1_1__wallet_1_1wallet__mock_1_1_wallet__mock" prot="public" virt="non-virtual">bittensor._wallet.wallet_mock.Wallet_mock</derivedcompoundref>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet_1a2d38dd8f175ff54c167f2517b3541aa5" prot="public" static="yes" mutable="no">
+        <type>&apos;<ref refid="classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet" kindref="compound">Wallet</ref>&apos;</type>
+        <definition>&apos;Wallet&apos; bittensor._wallet.wallet_impl.Wallet::regen_coldkeypub</definition>
+        <argsstring></argsstring>
+        <name>regen_coldkeypub</name>
+        <qualifiedname>bittensor._wallet.wallet_impl.Wallet.regen_coldkeypub</qualifiedname>
+        <initializer>=  <ref refid="classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet_1a789091d98e86995b2b37af96835d13a8" kindref="member">regenerate_coldkeypub</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_wallet/wallet_impl.py" line="680" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_wallet/wallet_impl.py" bodystart="680" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet_1ae0caa46809659ab7765aa0006f7f1a35" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._wallet.wallet_impl.Wallet::name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <qualifiedname>bittensor._wallet.wallet_impl.Wallet.name</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_wallet/wallet_impl.py" line="69" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_wallet/wallet_impl.py" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet_1a5d0d4383ff4218923f9dafde13acb4a6" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._wallet.wallet_impl.Wallet::path</definition>
+        <argsstring></argsstring>
+        <name>path</name>
+        <qualifiedname>bittensor._wallet.wallet_impl.Wallet.path</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_wallet/wallet_impl.py" line="70" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_wallet/wallet_impl.py" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet_1af8ac6d6f54d50ae26a66841cf8272199" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._wallet.wallet_impl.Wallet::hotkey_str</definition>
+        <argsstring></argsstring>
+        <name>hotkey_str</name>
+        <qualifiedname>bittensor._wallet.wallet_impl.Wallet.hotkey_str</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_wallet/wallet_impl.py" line="71" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_wallet/wallet_impl.py" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet_1a3447ec8988f4a50d2ba4f3f8c001ddf7" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._wallet.wallet_impl.Wallet::config</definition>
+        <argsstring></argsstring>
+        <name>config</name>
+        <qualifiedname>bittensor._wallet.wallet_impl.Wallet.config</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_wallet/wallet_impl.py" line="75" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_wallet/wallet_impl.py" bodystart="75" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet_1ab38788e281c3e8693672467eaa5cf5a4" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._wallet.wallet_impl.Wallet::_hotkey</definition>
+        <argsstring></argsstring>
+        <name>_hotkey</name>
+        <qualifiedname>bittensor._wallet.wallet_impl.Wallet._hotkey</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_wallet/wallet_impl.py" line="72" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_wallet/wallet_impl.py" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet_1a031313797ded1543d8f463cb62d3d866" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._wallet.wallet_impl.Wallet::_coldkey</definition>
+        <argsstring></argsstring>
+        <name>_coldkey</name>
+        <qualifiedname>bittensor._wallet.wallet_impl.Wallet._coldkey</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_wallet/wallet_impl.py" line="73" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_wallet/wallet_impl.py" bodystart="73" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet_1a8dae7325fb89313f027ba7c258eef8f8" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._wallet.wallet_impl.Wallet::_coldkeypub</definition>
+        <argsstring></argsstring>
+        <name>_coldkeypub</name>
+        <qualifiedname>bittensor._wallet.wallet_impl.Wallet._coldkeypub</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_wallet/wallet_impl.py" line="74" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_wallet/wallet_impl.py" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet_1aa7add4c474e3294236fd088017f02de5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._wallet.wallet_impl.Wallet.__init__</definition>
+        <argsstring>(self, str name, str path, str hotkey, &apos;bittensor.Config&apos; config=None)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>bittensor._wallet.wallet_impl.Wallet.__init__</qualifiedname>
+        <reimplementedby refid="classbittensor_1_1__wallet_1_1wallet__mock_1_1_wallet__mock_1a29fd0a26fad819aee57614b3146d9862">__init__</reimplementedby>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>hotkey</declname>
+        </param>
+        <param>
+          <type>&apos;<ref refid="classbittensor_1_1__config_1_1config__impl_1_1_config" kindref="compound">bittensor.Config</ref>&apos;</type>
+          <declname>config</declname>
+          <defval>None</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Init bittensor wallet object containing a hot and coldkey.
+        Args:
+            name (required=True, default=&apos;default):
+                The name of the wallet to unlock for running bittensor
+            hotkey (required=True, default=&apos;default):
+                The name of hotkey used to running the miner.
+            path (required=True, default=&apos;~/.bittensor/wallets/&apos;):
+                The path to your bittensor wallets
+            config (:obj:`bittensor.Config`, `optional`): 
+                bittensor.wallet.config()</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_wallet/wallet_impl.py" line="51" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_wallet/wallet_impl.py" bodystart="57" bodyend="76"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet_1a60e833bb4df632fb7a15fa7d09c3eb0e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._wallet.wallet_impl.Wallet.__str__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__str__</name>
+        <qualifiedname>bittensor._wallet.wallet_impl.Wallet.__str__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_wallet/wallet_impl.py" line="77" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_wallet/wallet_impl.py" bodystart="77" bodyend="79"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet_1a43653c2d135638b85cd94f620295d5f3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._wallet.wallet_impl.Wallet.__repr__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__repr__</name>
+        <qualifiedname>bittensor._wallet.wallet_impl.Wallet.__repr__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_wallet/wallet_impl.py" line="80" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_wallet/wallet_impl.py" bodystart="80" bodyend="82"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet_1acb846ff48daf4f201bcfcbb4c0387a33" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>SimpleNamespace</type>
+        <definition> SimpleNamespace bittensor._wallet.wallet_impl.Wallet.neuron</definition>
+        <argsstring>(self)</argsstring>
+        <name>neuron</name>
+        <qualifiedname>bittensor._wallet.wallet_impl.Wallet.neuron</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_wallet/wallet_impl.py" line="84" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_wallet/wallet_impl.py" bodystart="84" bodyend="86"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet_1a0d9d8fbcf39e513b8149390dcfdd5e77" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>SimpleNamespace</type>
+        <definition> SimpleNamespace bittensor._wallet.wallet_impl.Wallet.trust</definition>
+        <argsstring>(self)</argsstring>
+        <name>trust</name>
+        <qualifiedname>bittensor._wallet.wallet_impl.Wallet.trust</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_wallet/wallet_impl.py" line="88" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_wallet/wallet_impl.py" bodystart="88" bodyend="90"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet_1a5398d5fda2c74b0eb7a0fddebeaaaff1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>SimpleNamespace</type>
+        <definition> SimpleNamespace bittensor._wallet.wallet_impl.Wallet.rank</definition>
+        <argsstring>(self)</argsstring>
+        <name>rank</name>
+        <qualifiedname>bittensor._wallet.wallet_impl.Wallet.rank</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_wallet/wallet_impl.py" line="92" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_wallet/wallet_impl.py" bodystart="92" bodyend="94"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet_1acc142dc7723cea829dec5ffb75779d8f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>SimpleNamespace</type>
+        <definition> SimpleNamespace bittensor._wallet.wallet_impl.Wallet.incentive</definition>
+        <argsstring>(self)</argsstring>
+        <name>incentive</name>
+        <qualifiedname>bittensor._wallet.wallet_impl.Wallet.incentive</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_wallet/wallet_impl.py" line="96" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_wallet/wallet_impl.py" bodystart="96" bodyend="98"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet_1ae754299914f6e38a60e20c7ec6801cd6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>SimpleNamespace</type>
+        <definition> SimpleNamespace bittensor._wallet.wallet_impl.Wallet.dividends</definition>
+        <argsstring>(self)</argsstring>
+        <name>dividends</name>
+        <qualifiedname>bittensor._wallet.wallet_impl.Wallet.dividends</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_wallet/wallet_impl.py" line="100" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_wallet/wallet_impl.py" bodystart="100" bodyend="102"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet_1a424bed698451edcfd9fcd7acfaacf32a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>SimpleNamespace</type>
+        <definition> SimpleNamespace bittensor._wallet.wallet_impl.Wallet.consensus</definition>
+        <argsstring>(self)</argsstring>
+        <name>consensus</name>
+        <qualifiedname>bittensor._wallet.wallet_impl.Wallet.consensus</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_wallet/wallet_impl.py" line="104" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_wallet/wallet_impl.py" bodystart="104" bodyend="106"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet_1a2602db3bb977d36a8a293e8264e37ac7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>SimpleNamespace</type>
+        <definition> SimpleNamespace bittensor._wallet.wallet_impl.Wallet.inflation</definition>
+        <argsstring>(self)</argsstring>
+        <name>inflation</name>
+        <qualifiedname>bittensor._wallet.wallet_impl.Wallet.inflation</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_wallet/wallet_impl.py" line="108" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_wallet/wallet_impl.py" bodystart="108" bodyend="110"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet_1a2eee19b8640c814e60631c5c5c1bd3e8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>SimpleNamespace</type>
+        <definition> SimpleNamespace bittensor._wallet.wallet_impl.Wallet.ip</definition>
+        <argsstring>(self)</argsstring>
+        <name>ip</name>
+        <qualifiedname>bittensor._wallet.wallet_impl.Wallet.ip</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_wallet/wallet_impl.py" line="112" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_wallet/wallet_impl.py" bodystart="112" bodyend="114"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet_1a806da01df6da5de9fa14dce0f10b12ee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>SimpleNamespace</type>
+        <definition> SimpleNamespace bittensor._wallet.wallet_impl.Wallet.last_update</definition>
+        <argsstring>(self)</argsstring>
+        <name>last_update</name>
+        <qualifiedname>bittensor._wallet.wallet_impl.Wallet.last_update</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_wallet/wallet_impl.py" line="116" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_wallet/wallet_impl.py" bodystart="116" bodyend="118"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet_1a66e311652d1132aa092ef3ff13a1caae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>SimpleNamespace</type>
+        <definition> SimpleNamespace bittensor._wallet.wallet_impl.Wallet.weights</definition>
+        <argsstring>(self)</argsstring>
+        <name>weights</name>
+        <qualifiedname>bittensor._wallet.wallet_impl.Wallet.weights</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_wallet/wallet_impl.py" line="120" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_wallet/wallet_impl.py" bodystart="120" bodyend="122"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet_1a558ba5b68408444cdde309fcdfb2afbd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>SimpleNamespace</type>
+        <definition> SimpleNamespace bittensor._wallet.wallet_impl.Wallet.bonds</definition>
+        <argsstring>(self)</argsstring>
+        <name>bonds</name>
+        <qualifiedname>bittensor._wallet.wallet_impl.Wallet.bonds</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_wallet/wallet_impl.py" line="124" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_wallet/wallet_impl.py" bodystart="124" bodyend="126"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet_1a13f908b7fc19a043ab1194e597896651" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>SimpleNamespace</type>
+        <definition> SimpleNamespace bittensor._wallet.wallet_impl.Wallet.uid</definition>
+        <argsstring>(self)</argsstring>
+        <name>uid</name>
+        <qualifiedname>bittensor._wallet.wallet_impl.Wallet.uid</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_wallet/wallet_impl.py" line="128" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_wallet/wallet_impl.py" bodystart="128" bodyend="130"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet_1ac6bcd4248ce12d82e28b255aee5dca4b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>SimpleNamespace</type>
+        <definition> SimpleNamespace bittensor._wallet.wallet_impl.Wallet.stake</definition>
+        <argsstring>(self)</argsstring>
+        <name>stake</name>
+        <qualifiedname>bittensor._wallet.wallet_impl.Wallet.stake</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_wallet/wallet_impl.py" line="132" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_wallet/wallet_impl.py" bodystart="132" bodyend="134"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet_1a1aeac882693058dc0e417c9ccfe29e13" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>SimpleNamespace</type>
+        <definition> SimpleNamespace bittensor._wallet.wallet_impl.Wallet.balance</definition>
+        <argsstring>(self)</argsstring>
+        <name>balance</name>
+        <qualifiedname>bittensor._wallet.wallet_impl.Wallet.balance</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_wallet/wallet_impl.py" line="136" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_wallet/wallet_impl.py" bodystart="136" bodyend="138"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet_1a151661af87b341949438d02e93a84c45" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool bittensor._wallet.wallet_impl.Wallet.is_registered</definition>
+        <argsstring>(self, &apos;bittensor.Subtensor&apos; subtensor=None)</argsstring>
+        <name>is_registered</name>
+        <qualifiedname>bittensor._wallet.wallet_impl.Wallet.is_registered</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>&apos;<ref refid="classbittensor_1_1__subtensor_1_1subtensor__impl_1_1_subtensor" kindref="compound">bittensor.Subtensor</ref>&apos;</type>
+          <declname>subtensor</declname>
+          <defval>None</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Returns true if this wallet is registered.
+    Args:
+        subtensor( &apos;bittensor.Subtensor&apos; ):
+            Bittensor subtensor connection. Overrides with defaults if None.
+            Determines which network we check for registration.
+    Return:
+        is_registered (bool):
+            Is the wallet registered on the chain.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_wallet/wallet_impl.py" line="139" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_wallet/wallet_impl.py" bodystart="139" bodyend="151"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet_1a6eb36dda6ef4ca591adb42e9d44afcce" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Union[SimpleNamespace, None]</type>
+        <definition> Union[ SimpleNamespace, None]  bittensor._wallet.wallet_impl.Wallet.get_neuron</definition>
+        <argsstring>(self, &apos;bittensor.Subtensor&apos; subtensor=None)</argsstring>
+        <name>get_neuron</name>
+        <qualifiedname>bittensor._wallet.wallet_impl.Wallet.get_neuron</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>&apos;<ref refid="classbittensor_1_1__subtensor_1_1subtensor__impl_1_1_subtensor" kindref="compound">bittensor.Subtensor</ref>&apos;</type>
+          <declname>subtensor</declname>
+          <defval>None</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Returns this wallet&apos;s neuron information from subtensor.
+    Args:
+        subtensor( &apos;bittensor.Subtensor&apos; ):
+            Bittensor subtensor connection. Overrides with defaults if None.
+    Return:
+        neuron (Union[ SimpleNamespace, None ]):
+            neuron account on the chain or None if you are not registered.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_wallet/wallet_impl.py" line="152" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_wallet/wallet_impl.py" bodystart="152" bodyend="167"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet_1ae166a8f0522e96ff6cadfcc1449b9cd5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int bittensor._wallet.wallet_impl.Wallet.get_uid</definition>
+        <argsstring>(self, &apos;bittensor.Subtensor&apos; subtensor=None)</argsstring>
+        <name>get_uid</name>
+        <qualifiedname>bittensor._wallet.wallet_impl.Wallet.get_uid</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>&apos;<ref refid="classbittensor_1_1__subtensor_1_1subtensor__impl_1_1_subtensor" kindref="compound">bittensor.Subtensor</ref>&apos;</type>
+          <declname>subtensor</declname>
+          <defval>None</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Returns this wallet&apos;s hotkey uid or -1 if the hotkey is not subscribed.
+    Args:
+        subtensor( &apos;bittensor.Subtensor&apos; ):
+            Bittensor subtensor connection. Overrides with defaults if None.
+    Return:
+        uid (int):
+            Network uid or -1 if you are not registered.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_wallet/wallet_impl.py" line="168" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_wallet/wallet_impl.py" bodystart="168" bodyend="186"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet_1a5dd6425ae009b020ca7e044448526c27" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type> &apos;<ref refid="classbittensor_1_1utils_1_1balance_1_1_balance" kindref="compound">bittensor.Balance</ref>&apos;</type>
+        <definition> &apos;bittensor.Balance&apos; bittensor._wallet.wallet_impl.Wallet.get_stake</definition>
+        <argsstring>(self, &apos;bittensor.Subtensor&apos; subtensor=None)</argsstring>
+        <name>get_stake</name>
+        <qualifiedname>bittensor._wallet.wallet_impl.Wallet.get_stake</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>&apos;<ref refid="classbittensor_1_1__subtensor_1_1subtensor__impl_1_1_subtensor" kindref="compound">bittensor.Subtensor</ref>&apos;</type>
+          <declname>subtensor</declname>
+          <defval>None</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Returns this wallet&apos;s staking balance from passed subtensor connection.
+    Args:
+        subtensor( &apos;bittensor.Subtensor&apos; ):
+            Bittensor subtensor connection. Overrides with defaults if None.
+    Return:
+        balance (bittensor.utils.balance.Balance):
+            Stake account balance.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_wallet/wallet_impl.py" line="187" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_wallet/wallet_impl.py" bodystart="187" bodyend="205"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet_1a0579a3e0363a793241486b0b556798bc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type> &apos;<ref refid="classbittensor_1_1utils_1_1balance_1_1_balance" kindref="compound">bittensor.Balance</ref>&apos;</type>
+        <definition> &apos;bittensor.Balance&apos; bittensor._wallet.wallet_impl.Wallet.get_balance</definition>
+        <argsstring>(self, &apos;bittensor.Subtensor&apos; subtensor=None)</argsstring>
+        <name>get_balance</name>
+        <qualifiedname>bittensor._wallet.wallet_impl.Wallet.get_balance</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>&apos;<ref refid="classbittensor_1_1__subtensor_1_1subtensor__impl_1_1_subtensor" kindref="compound">bittensor.Subtensor</ref>&apos;</type>
+          <declname>subtensor</declname>
+          <defval>None</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Returns this wallet&apos;s coldkey balance from passed subtensor connection.
+    Args:
+        subtensor( &apos;bittensor.Subtensor&apos; ):
+            Bittensor subtensor connection. Overrides with defaults if None.
+    Return:
+        balance (bittensor.utils.balance.Balance):
+            Coldkey balance.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_wallet/wallet_impl.py" line="206" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_wallet/wallet_impl.py" bodystart="206" bodyend="217"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet_1a74aa2a41661f2b53d246760c74437c00" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Optional[ &apos;<ref refid="classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet" kindref="compound">bittensor.Wallet</ref>&apos;]</type>
+        <definition> Optional[&apos;bittensor.Wallet&apos;] bittensor._wallet.wallet_impl.Wallet.reregister</definition>
+        <argsstring>(self, &apos;bittensor.Subtensor&apos; subtensor=None, bool wait_for_inclusion=False, bool wait_for_finalization=True, bool prompt=False)</argsstring>
+        <name>reregister</name>
+        <qualifiedname>bittensor._wallet.wallet_impl.Wallet.reregister</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>&apos;<ref refid="classbittensor_1_1__subtensor_1_1subtensor__impl_1_1_subtensor" kindref="compound">bittensor.Subtensor</ref>&apos;</type>
+          <declname>subtensor</declname>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>wait_for_inclusion</declname>
+          <defval>False</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>wait_for_finalization</declname>
+          <defval>True</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>prompt</declname>
+          <defval>False</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Re-register this wallet on the chain.
+    Args:
+        subtensor( &apos;bittensor.Subtensor&apos; ):
+            Bittensor subtensor connection. Overrides with defaults if None.
+        wait_for_inclusion (bool):
+            if set, waits for the extrinsic to enter a block before returning true, 
+            or returns false if the extrinsic fails to enter the block within the timeout.   
+        wait_for_finalization (bool):
+            if set, waits for the extrinsic to be finalized on the chain before returning true,
+            or returns false if the extrinsic fails to be finalized within the timeout.
+        prompt (bool):
+            If true, the call waits for confirmation from the user before proceeding.
+        
+    Return:
+        wallet (bittensor.Wallet):
+            This wallet.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_wallet/wallet_impl.py" line="218" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_wallet/wallet_impl.py" bodystart="224" bodyend="264"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet_1a77a8fa75f69167cd57ab0034858e4fa3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type> &apos;<ref refid="classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet" kindref="compound">bittensor.Wallet</ref>&apos;</type>
+        <definition> &apos;bittensor.Wallet&apos; bittensor._wallet.wallet_impl.Wallet.register</definition>
+        <argsstring>(self, &apos;bittensor.Subtensor&apos; subtensor=None, bool wait_for_inclusion=False, bool wait_for_finalization=True, bool prompt=False, int max_allowed_attempts=3, bool cuda=False, int dev_id=0, int TPB=256, Optional[int] num_processes=None, Optional[int] update_interval=None, bool output_in_place=True, bool log_verbose=False)</argsstring>
+        <name>register</name>
+        <qualifiedname>bittensor._wallet.wallet_impl.Wallet.register</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>&apos;<ref refid="classbittensor_1_1__subtensor_1_1subtensor__impl_1_1_subtensor" kindref="compound">bittensor.Subtensor</ref>&apos;</type>
+          <declname>subtensor</declname>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>wait_for_inclusion</declname>
+          <defval>False</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>wait_for_finalization</declname>
+          <defval>True</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>prompt</declname>
+          <defval>False</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>max_allowed_attempts</declname>
+          <defval>3</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>cuda</declname>
+          <defval>False</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>dev_id</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>TPB</declname>
+          <defval>256</defval>
+        </param>
+        <param>
+          <type>Optional</type>
+          <declname>num_processes</declname>
+          <array>[int]</array>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type>Optional</type>
+          <declname>update_interval</declname>
+          <array>[int]</array>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>output_in_place</declname>
+          <defval>True</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>log_verbose</declname>
+          <defval>False</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Registers the wallet to chain.
+Args:
+    subtensor( &apos;bittensor.Subtensor&apos; ):
+        Bittensor subtensor connection. Overrides with defaults if None.
+    wait_for_inclusion (bool):
+        If set, waits for the extrinsic to enter a block before returning true, 
+        or returns false if the extrinsic fails to enter the block within the timeout.   
+    wait_for_finalization (bool):
+        If set, waits for the extrinsic to be finalized on the chain before returning true,
+        or returns false if the extrinsic fails to be finalized within the timeout.
+    prompt (bool):
+        If true, the call waits for confirmation from the user before proceeding.
+    max_allowed_attempts (int):
+        Maximum number of attempts to register the wallet.
+    cuda (bool):
+        If true, the wallet should be registered on the cuda device.
+    dev_id (int):
+        The cuda device id.
+    TPB (int):
+        The number of threads per block (cuda).
+    num_processes (int):
+        The number of processes to use to register.
+    update_interval (int):
+        The number of nonces to solve between updates.
+    output_in_place (bool):
+        If true, the registration output is printed in-place.
+    log_verbose (bool):
+        If true, the registration output is more verbose.
+Returns:
+    success (bool):
+        flag is true if extrinsic was finalized or uncluded in the block. 
+        If we did not wait for finalization / inclusion, the response is true.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_wallet/wallet_impl.py" line="265" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_wallet/wallet_impl.py" bodystart="279" bodyend="330"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet_1ad81f1e55da6ccb126cc83f8dfa6456b2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool bittensor._wallet.wallet_impl.Wallet.add_stake</definition>
+        <argsstring>(self, Union[float, bittensor.Balance] amount=None, bool wait_for_inclusion=False, bool wait_for_finalization=True, &apos;bittensor.Subtensor&apos; subtensor=None, bool prompt=False)</argsstring>
+        <name>add_stake</name>
+        <qualifiedname>bittensor._wallet.wallet_impl.Wallet.add_stake</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>Union</type>
+          <declname>amount</declname>
+          <array>[float, bittensor.Balance]</array>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>wait_for_inclusion</declname>
+          <defval>False</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>wait_for_finalization</declname>
+          <defval>True</defval>
+        </param>
+        <param>
+          <type>&apos;<ref refid="classbittensor_1_1__subtensor_1_1subtensor__impl_1_1_subtensor" kindref="compound">bittensor.Subtensor</ref>&apos;</type>
+          <declname>subtensor</declname>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>prompt</declname>
+          <defval>False</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Stakes tokens from this wallet&apos;s coldkey onto it&apos;s hotkey.
+    Args:
+        amount_tao (float):
+            amount of tao to stake or bittensor balance object. If None, stakes all available balance.
+        wait_for_inclusion (bool):
+            if set, waits for the extrinsic to enter a block before returning true, 
+            or returns false if the extrinsic fails to enter the block within the timeout.   
+        wait_for_finalization (bool):
+            if set, waits for the extrinsic to be finalized on the chain before returning true,
+            or returns false if the extrinsic fails to be finalized within the timeout.
+        subtensor( `bittensor.Subtensor` ):
+            Bittensor subtensor connection. Overrides with defaults if None.
+        prompt (bool):
+            If true, the call waits for confirmation from the user before proceeding.
+    Returns:
+        success (bool):
+            flag is true if extrinsic was finalized or uncluded in the block. 
+            If we did not wait for finalization / inclusion, the response is true.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_wallet/wallet_impl.py" line="331" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_wallet/wallet_impl.py" bodystart="337" bodyend="359"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet_1a39e7f1c8964a5e959e5a2579cf6000e7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool bittensor._wallet.wallet_impl.Wallet.remove_stake</definition>
+        <argsstring>(self, Union[float, bittensor.Balance] amount=None, bool wait_for_inclusion=False, bool wait_for_finalization=True, &apos;bittensor.Subtensor&apos; subtensor=None, bool prompt=False)</argsstring>
+        <name>remove_stake</name>
+        <qualifiedname>bittensor._wallet.wallet_impl.Wallet.remove_stake</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>Union</type>
+          <declname>amount</declname>
+          <array>[float, bittensor.Balance]</array>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>wait_for_inclusion</declname>
+          <defval>False</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>wait_for_finalization</declname>
+          <defval>True</defval>
+        </param>
+        <param>
+          <type>&apos;<ref refid="classbittensor_1_1__subtensor_1_1subtensor__impl_1_1_subtensor" kindref="compound">bittensor.Subtensor</ref>&apos;</type>
+          <declname>subtensor</declname>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>prompt</declname>
+          <defval>False</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Removes stake from this wallet&apos;s hotkey and moves them onto it&apos;s coldkey balance.
+    Args:
+        amount_tao (float):
+            amount of tao to unstake or bittensor balance object. If None, unstakes all available hotkey balance.
+        wait_for_inclusion (bool):
+            if set, waits for the extrinsic to enter a block before returning true, 
+            or returns false if the extrinsic fails to enter the block within the timeout.   
+        wait_for_finalization (bool):
+            if set, waits for the extrinsic to be finalized on the chain before returning true,
+            or returns false if the extrinsic fails to be finalized within the timeout.
+        subtensor( `bittensor.Subtensor` ):
+            Bittensor subtensor connection. Overrides with defaults if None.
+        prompt (bool):
+            If true, the call waits for confirmation from the user before proceeding.
+    Returns:
+        success (bool):
+            flag is true if extrinsic was finalized or uncluded in the block. 
+            If we did not wait for finalization / inclusion, the response is true.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_wallet/wallet_impl.py" line="360" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_wallet/wallet_impl.py" bodystart="366" bodyend="388"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet_1a84ec932ec9e974d80b1ca93ac41da163" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool bittensor._wallet.wallet_impl.Wallet.transfer</definition>
+        <argsstring>(self, str dest, Union[float, bittensor.Balance] amount, bool wait_for_inclusion=False, bool wait_for_finalization=True, &apos;bittensor.Subtensor&apos; subtensor=None, bool prompt=False)</argsstring>
+        <name>transfer</name>
+        <qualifiedname>bittensor._wallet.wallet_impl.Wallet.transfer</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>dest</declname>
+        </param>
+        <param>
+          <type>Union</type>
+          <declname>amount</declname>
+          <array>[float, bittensor.Balance]</array>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>wait_for_inclusion</declname>
+          <defval>False</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>wait_for_finalization</declname>
+          <defval>True</defval>
+        </param>
+        <param>
+          <type>&apos;<ref refid="classbittensor_1_1__subtensor_1_1subtensor__impl_1_1_subtensor" kindref="compound">bittensor.Subtensor</ref>&apos;</type>
+          <declname>subtensor</declname>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>prompt</declname>
+          <defval>False</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Transfers Tao from this wallet&apos;s coldkey to the destination address.
+    Args:
+        dest (`type`:str, required):
+            The destination address either encoded as a ss58 or ed255 public-key string of 
+            secondary account.
+        amount (float, required):
+            amount of tao to transfer or a bittensor balance object.
+        wait_for_inclusion (bool):
+            if set, waits for the extrinsic to enter a block before returning true, 
+            or returns false if the extrinsic fails to enter the block within the timeout.   
+        wait_for_finalization (bool):
+            if set, waits for the extrinsic to be finalized on the chain before returning true,
+            or returns false if the extrinsic fails to be finalized within the timeout.
+        subtensor( `bittensor.Subtensor` ):
+            Bittensor subtensor connection. Overrides with defaults if None.
+        prompt (bool):
+            If true, the call waits for confirmation from the user before proceeding.
+    Returns:
+        success (bool):
+            flag is true if extrinsic was finalized or uncluded in the block. 
+            If we did not wait for finalization / inclusion, the response is true.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_wallet/wallet_impl.py" line="389" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_wallet/wallet_impl.py" bodystart="397" bodyend="422"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet_1ad028e482d1c2dc3d8425aa4950a13afd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type> &apos;<ref refid="classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet" kindref="compound">Wallet</ref>&apos;</type>
+        <definition> &apos;Wallet&apos; bittensor._wallet.wallet_impl.Wallet.create_if_non_existent</definition>
+        <argsstring>(self, bool coldkey_use_password=True, bool hotkey_use_password=False)</argsstring>
+        <name>create_if_non_existent</name>
+        <qualifiedname>bittensor._wallet.wallet_impl.Wallet.create_if_non_existent</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>coldkey_use_password</declname>
+          <defval>True</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>hotkey_use_password</declname>
+          <defval>False</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Checks for existing coldkeypub and hotkeys and creates them if non-existent.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_wallet/wallet_impl.py" line="423" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_wallet/wallet_impl.py" bodystart="423" bodyend="427"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet_1ade65bf944db522de59a5958fafc9a94d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type> &apos;<ref refid="classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet" kindref="compound">Wallet</ref>&apos;</type>
+        <definition> &apos;Wallet&apos; bittensor._wallet.wallet_impl.Wallet.create</definition>
+        <argsstring>(self, bool coldkey_use_password=True, bool hotkey_use_password=False)</argsstring>
+        <name>create</name>
+        <qualifiedname>bittensor._wallet.wallet_impl.Wallet.create</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>coldkey_use_password</declname>
+          <defval>True</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>hotkey_use_password</declname>
+          <defval>False</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Checks for existing coldkeypub and hotkeys and creates them if non-existent.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_wallet/wallet_impl.py" line="428" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_wallet/wallet_impl.py" bodystart="428" bodyend="437"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet_1adbc68807f89e813217294033f8023cff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type> &apos;<ref refid="classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet" kindref="compound">Wallet</ref>&apos;</type>
+        <definition> &apos;Wallet&apos; bittensor._wallet.wallet_impl.Wallet.recreate</definition>
+        <argsstring>(self, bool coldkey_use_password=True, bool hotkey_use_password=False)</argsstring>
+        <name>recreate</name>
+        <qualifiedname>bittensor._wallet.wallet_impl.Wallet.recreate</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>coldkey_use_password</declname>
+          <defval>True</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>hotkey_use_password</declname>
+          <defval>False</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Checks for existing coldkeypub and hotkeys and creates them if non-existent.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_wallet/wallet_impl.py" line="438" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_wallet/wallet_impl.py" bodystart="438" bodyend="445"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet_1a2cb735875ddc5f971cd45bfdebc98052" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type> &apos;<ref refid="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_keyfile" kindref="compound">bittensor.Keyfile</ref>&apos;</type>
+        <definition> &apos;bittensor.Keyfile&apos; bittensor._wallet.wallet_impl.Wallet.hotkey_file</definition>
+        <argsstring>(self)</argsstring>
+        <name>hotkey_file</name>
+        <qualifiedname>bittensor._wallet.wallet_impl.Wallet.hotkey_file</qualifiedname>
+        <reimplementedby refid="classbittensor_1_1__wallet_1_1wallet__mock_1_1_wallet__mock_1aa0fb55aba0c5233efea28877026b969a">hotkey_file</reimplementedby>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_wallet/wallet_impl.py" line="447" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_wallet/wallet_impl.py" bodystart="447" bodyend="452"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet_1a69c1a8f249e4bf4e13b9ee63e39ac8e1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type> &apos;<ref refid="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_keyfile" kindref="compound">bittensor.Keyfile</ref>&apos;</type>
+        <definition> &apos;bittensor.Keyfile&apos; bittensor._wallet.wallet_impl.Wallet.coldkey_file</definition>
+        <argsstring>(self)</argsstring>
+        <name>coldkey_file</name>
+        <qualifiedname>bittensor._wallet.wallet_impl.Wallet.coldkey_file</qualifiedname>
+        <reimplementedby refid="classbittensor_1_1__wallet_1_1wallet__mock_1_1_wallet__mock_1a819bf8c13f70c196bbc23a388433b5d5">coldkey_file</reimplementedby>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_wallet/wallet_impl.py" line="454" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_wallet/wallet_impl.py" bodystart="454" bodyend="458"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet_1a7d2b88fb8f661b338d948906ba5d33d4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type> &apos;<ref refid="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_keyfile" kindref="compound">bittensor.Keyfile</ref>&apos;</type>
+        <definition> &apos;bittensor.Keyfile&apos; bittensor._wallet.wallet_impl.Wallet.coldkeypub_file</definition>
+        <argsstring>(self)</argsstring>
+        <name>coldkeypub_file</name>
+        <qualifiedname>bittensor._wallet.wallet_impl.Wallet.coldkeypub_file</qualifiedname>
+        <reimplementedby refid="classbittensor_1_1__wallet_1_1wallet__mock_1_1_wallet__mock_1a19db9e4d69df8c25ee220e7ecfd72ec7">coldkeypub_file</reimplementedby>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_wallet/wallet_impl.py" line="460" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_wallet/wallet_impl.py" bodystart="460" bodyend="464"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet_1a0da33a367dd58b3c190e2e5cd4c48a86" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type> &apos;<ref refid="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_keyfile" kindref="compound">bittensor.Keyfile</ref>&apos;</type>
+        <definition> &apos;bittensor.Keyfile&apos; bittensor._wallet.wallet_impl.Wallet.set_hotkey</definition>
+        <argsstring>(self, &apos;bittensor.Keypair&apos; keypair, bool encrypt=False, bool overwrite=False)</argsstring>
+        <name>set_hotkey</name>
+        <qualifiedname>bittensor._wallet.wallet_impl.Wallet.set_hotkey</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>&apos;bittensor.Keypair&apos;</type>
+          <declname>keypair</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>encrypt</declname>
+          <defval>False</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>overwrite</declname>
+          <defval>False</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_wallet/wallet_impl.py" line="465" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_wallet/wallet_impl.py" bodystart="465" bodyend="468"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet_1a2022e383c80371a7c3c71b8d443e8cf7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type> &apos;<ref refid="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_keyfile" kindref="compound">bittensor.Keyfile</ref>&apos;</type>
+        <definition> &apos;bittensor.Keyfile&apos; bittensor._wallet.wallet_impl.Wallet.set_coldkeypub</definition>
+        <argsstring>(self, &apos;bittensor.Keypair&apos; keypair, bool encrypt=False, bool overwrite=False)</argsstring>
+        <name>set_coldkeypub</name>
+        <qualifiedname>bittensor._wallet.wallet_impl.Wallet.set_coldkeypub</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>&apos;bittensor.Keypair&apos;</type>
+          <declname>keypair</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>encrypt</declname>
+          <defval>False</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>overwrite</declname>
+          <defval>False</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_wallet/wallet_impl.py" line="469" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_wallet/wallet_impl.py" bodystart="469" bodyend="472"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet_1a28e076407b15c402f769c2927207ef16" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type> &apos;<ref refid="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_keyfile" kindref="compound">bittensor.Keyfile</ref>&apos;</type>
+        <definition> &apos;bittensor.Keyfile&apos; bittensor._wallet.wallet_impl.Wallet.set_coldkey</definition>
+        <argsstring>(self, &apos;bittensor.Keypair&apos; keypair, bool encrypt=True, bool overwrite=False)</argsstring>
+        <name>set_coldkey</name>
+        <qualifiedname>bittensor._wallet.wallet_impl.Wallet.set_coldkey</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>&apos;bittensor.Keypair&apos;</type>
+          <declname>keypair</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>encrypt</declname>
+          <defval>True</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>overwrite</declname>
+          <defval>False</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_wallet/wallet_impl.py" line="473" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_wallet/wallet_impl.py" bodystart="473" bodyend="476"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet_1a8d13a1bc28280cadb3dd38201c952ac4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type> &apos;bittensor.Keypair&apos;</type>
+        <definition> &apos;bittensor.Keypair&apos; bittensor._wallet.wallet_impl.Wallet.get_coldkey</definition>
+        <argsstring>(self, str password=None)</argsstring>
+        <name>get_coldkey</name>
+        <qualifiedname>bittensor._wallet.wallet_impl.Wallet.get_coldkey</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>password</declname>
+          <defval>None</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_wallet/wallet_impl.py" line="477" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_wallet/wallet_impl.py" bodystart="477" bodyend="479"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet_1a742ad09ef4d3f898cb3f51b11eed2303" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type> &apos;bittensor.Keypair&apos;</type>
+        <definition> &apos;bittensor.Keypair&apos; bittensor._wallet.wallet_impl.Wallet.get_hotkey</definition>
+        <argsstring>(self, str password=None)</argsstring>
+        <name>get_hotkey</name>
+        <qualifiedname>bittensor._wallet.wallet_impl.Wallet.get_hotkey</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>password</declname>
+          <defval>None</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_wallet/wallet_impl.py" line="480" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_wallet/wallet_impl.py" bodystart="480" bodyend="482"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet_1a02441c2dff42adb6b4f4b9dd5546cd65" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type> &apos;bittensor.Keypair&apos;</type>
+        <definition> &apos;bittensor.Keypair&apos; bittensor._wallet.wallet_impl.Wallet.get_coldkeypub</definition>
+        <argsstring>(self, str password=None)</argsstring>
+        <name>get_coldkeypub</name>
+        <qualifiedname>bittensor._wallet.wallet_impl.Wallet.get_coldkeypub</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>password</declname>
+          <defval>None</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_wallet/wallet_impl.py" line="483" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_wallet/wallet_impl.py" bodystart="483" bodyend="485"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet_1a021381e72a3c4cb5284fb801724f2084" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type> &apos;bittensor.Keypair&apos;</type>
+        <definition> &apos;bittensor.Keypair&apos; bittensor._wallet.wallet_impl.Wallet.hotkey</definition>
+        <argsstring>(self)</argsstring>
+        <name>hotkey</name>
+        <qualifiedname>bittensor._wallet.wallet_impl.Wallet.hotkey</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Loads the hotkey from wallet.path/wallet.name/hotkeys/wallet.hotkey or raises an error.
+        Returns:
+            hotkey (Keypair):
+                hotkey loaded from config arguments.
+        Raises:
+            KeyFileError: Raised if the file is corrupt of non-existent.
+            CryptoKeyError: Raised if the user enters an incorrec password for an encrypted keyfile.</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_wallet/wallet_impl.py" line="487" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_wallet/wallet_impl.py" bodystart="487" bodyend="499"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet_1a10d1fe488398138edf1be82bb3847af9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type> &apos;bittensor.Keypair&apos;</type>
+        <definition> &apos;bittensor.Keypair&apos; bittensor._wallet.wallet_impl.Wallet.coldkey</definition>
+        <argsstring>(self)</argsstring>
+        <name>coldkey</name>
+        <qualifiedname>bittensor._wallet.wallet_impl.Wallet.coldkey</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Loads the hotkey from wallet.path/wallet.name/coldkey or raises an error.
+        Returns:
+            coldkey (Keypair):
+                colkey loaded from config arguments.
+        Raises:
+            KeyFileError: Raised if the file is corrupt of non-existent.
+            CryptoKeyError: Raised if the user enters an incorrec password for an encrypted keyfile.</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_wallet/wallet_impl.py" line="501" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_wallet/wallet_impl.py" bodystart="501" bodyend="513"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet_1a99c3c51aa8dddb6a27280c5b0aa2cac8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type> &apos;bittensor.Keypair&apos;</type>
+        <definition> &apos;bittensor.Keypair&apos; bittensor._wallet.wallet_impl.Wallet.coldkeypub</definition>
+        <argsstring>(self)</argsstring>
+        <name>coldkeypub</name>
+        <qualifiedname>bittensor._wallet.wallet_impl.Wallet.coldkeypub</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Loads the coldkeypub from wallet.path/wallet.name/coldkeypub.txt or raises an error.
+        Returns:
+            coldkeypub (Keypair):
+                colkeypub loaded from config arguments.
+        Raises:
+            KeyFileError: Raised if the file is corrupt of non-existent.
+            CryptoKeyError: Raised if the user enters an incorrect password for an encrypted keyfile.</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_wallet/wallet_impl.py" line="515" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_wallet/wallet_impl.py" bodystart="515" bodyend="527"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet_1a16d95868caa0500589467d7e9da093d2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type> &apos;<ref refid="classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet" kindref="compound">Wallet</ref>&apos;</type>
+        <definition> &apos;Wallet&apos; bittensor._wallet.wallet_impl.Wallet.create_coldkey_from_uri</definition>
+        <argsstring>(self, str uri, bool use_password=True, bool overwrite=False)</argsstring>
+        <name>create_coldkey_from_uri</name>
+        <qualifiedname>bittensor._wallet.wallet_impl.Wallet.create_coldkey_from_uri</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>uri</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>use_password</declname>
+          <defval>True</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>overwrite</declname>
+          <defval>False</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Creates coldkey from suri string, optionally encrypts it with the user&apos;s inputed password.
+    Args:
+        uri: (str, required):
+            URI string to use i.e. /Alice or /Bob
+        use_password (bool, optional):
+            Is the created key password protected.
+        overwrite (bool, optional): 
+            Will this operation overwrite the coldkey under the same path &lt;wallet path&gt;/&lt;wallet name&gt;/coldkey
+    Returns:
+        wallet (bittensor.Wallet):
+            this object with newly created coldkey.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_wallet/wallet_impl.py" line="528" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_wallet/wallet_impl.py" bodystart="528" bodyend="546"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet_1abac3193c6e2e9904e3f6a49326398f70" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type> &apos;<ref refid="classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet" kindref="compound">Wallet</ref>&apos;</type>
+        <definition> &apos;Wallet&apos; bittensor._wallet.wallet_impl.Wallet.create_hotkey_from_uri</definition>
+        <argsstring>(self, str uri, bool use_password=False, bool overwrite=False)</argsstring>
+        <name>create_hotkey_from_uri</name>
+        <qualifiedname>bittensor._wallet.wallet_impl.Wallet.create_hotkey_from_uri</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>uri</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>use_password</declname>
+          <defval>False</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>overwrite</declname>
+          <defval>False</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Creates hotkey from suri string, optionally encrypts it with the user&apos;s inputed password.
+    Args:
+        uri: (str, required):
+            URI string to use i.e. /Alice or /Bob
+        use_password (bool, optional):
+            Is the created key password protected.
+        overwrite (bool, optional): 
+            Will this operation overwrite the hotkey under the same path &lt;wallet path&gt;/&lt;wallet name&gt;/hotkeys/&lt;hotkey&gt;
+    Returns:
+        wallet (bittensor.Wallet):
+            this object with newly created hotkey.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_wallet/wallet_impl.py" line="547" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_wallet/wallet_impl.py" bodystart="547" bodyend="564"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet_1afcb1dfd63435c11cacf75c2b3aa6a88a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type> &apos;<ref refid="classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet" kindref="compound">Wallet</ref>&apos;</type>
+        <definition> &apos;Wallet&apos; bittensor._wallet.wallet_impl.Wallet.new_coldkey</definition>
+        <argsstring>(self, int n_words=12, bool use_password=True, bool overwrite=False)</argsstring>
+        <name>new_coldkey</name>
+        <qualifiedname>bittensor._wallet.wallet_impl.Wallet.new_coldkey</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>n_words</declname>
+          <defval>12</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>use_password</declname>
+          <defval>True</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>overwrite</declname>
+          <defval>False</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Creates a new coldkey, optionally encrypts it with the user&apos;s inputed password and saves to disk.
+    Args:
+        n_words: (int, optional):
+            Number of mnemonic words to use.
+        use_password (bool, optional):
+            Is the created key password protected.
+        overwrite (bool, optional): 
+            Will this operation overwrite the coldkey under the same path &lt;wallet path&gt;/&lt;wallet name&gt;/coldkey
+    Returns:
+        wallet (bittensor.Wallet):
+            this object with newly created coldkey.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_wallet/wallet_impl.py" line="565" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_wallet/wallet_impl.py" bodystart="565" bodyend="579"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet_1ac1effc30b6c576f41be9a28cc48bf5c4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type> &apos;<ref refid="classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet" kindref="compound">Wallet</ref>&apos;</type>
+        <definition> &apos;Wallet&apos; bittensor._wallet.wallet_impl.Wallet.create_new_coldkey</definition>
+        <argsstring>(self, int n_words=12, bool use_password=True, bool overwrite=False)</argsstring>
+        <name>create_new_coldkey</name>
+        <qualifiedname>bittensor._wallet.wallet_impl.Wallet.create_new_coldkey</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>n_words</declname>
+          <defval>12</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>use_password</declname>
+          <defval>True</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>overwrite</declname>
+          <defval>False</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Creates a new coldkey, optionally encrypts it with the user&apos;s inputed password and saves to disk.
+    Args:
+        n_words: (int, optional):
+            Number of mnemonic words to use.
+        use_password (bool, optional):
+            Is the created key password protected.
+        overwrite (bool, optional): 
+            Will this operation overwrite the coldkey under the same path &lt;wallet path&gt;/&lt;wallet name&gt;/coldkey
+    Returns:
+        wallet (bittensor.Wallet):
+            this object with newly created coldkey.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_wallet/wallet_impl.py" line="580" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_wallet/wallet_impl.py" bodystart="580" bodyend="599"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet_1ad20b06a182600521a8feba305dc32339" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type> &apos;<ref refid="classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet" kindref="compound">Wallet</ref>&apos;</type>
+        <definition> &apos;Wallet&apos; bittensor._wallet.wallet_impl.Wallet.new_hotkey</definition>
+        <argsstring>(self, int n_words=12, bool use_password=False, bool overwrite=False)</argsstring>
+        <name>new_hotkey</name>
+        <qualifiedname>bittensor._wallet.wallet_impl.Wallet.new_hotkey</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>n_words</declname>
+          <defval>12</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>use_password</declname>
+          <defval>False</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>overwrite</declname>
+          <defval>False</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Creates a new hotkey, optionally encrypts it with the user&apos;s inputed password and saves to disk.
+    Args:
+        n_words: (int, optional):
+            Number of mnemonic words to use.
+        use_password (bool, optional):
+            Is the created key password protected.
+        overwrite (bool, optional): 
+            Will this operation overwrite the hotkey under the same path &lt;wallet path&gt;/&lt;wallet name&gt;/hotkeys/&lt;hotkey&gt;
+    Returns:
+        wallet (bittensor.Wallet):
+            this object with newly created hotkey.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_wallet/wallet_impl.py" line="600" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_wallet/wallet_impl.py" bodystart="600" bodyend="614"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet_1a945b64d7789cb3f89f5a5c662dd33e93" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type> &apos;<ref refid="classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet" kindref="compound">Wallet</ref>&apos;</type>
+        <definition> &apos;Wallet&apos; bittensor._wallet.wallet_impl.Wallet.create_new_hotkey</definition>
+        <argsstring>(self, int n_words=12, bool use_password=False, bool overwrite=False)</argsstring>
+        <name>create_new_hotkey</name>
+        <qualifiedname>bittensor._wallet.wallet_impl.Wallet.create_new_hotkey</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>n_words</declname>
+          <defval>12</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>use_password</declname>
+          <defval>False</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>overwrite</declname>
+          <defval>False</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Creates a new hotkey, optionally encrypts it with the user&apos;s inputed password and saves to disk.
+    Args:
+        n_words: (int, optional):
+            Number of mnemonic words to use.
+        use_password (bool, optional):
+            Is the created key password protected.
+        overwrite (bool, optional): 
+            Will this operation overwrite the hotkey under the same path &lt;wallet path&gt;/&lt;wallet name&gt;/hotkeys/&lt;hotkey&gt;
+    Returns:
+        wallet (bittensor.Wallet):
+            this object with newly created hotkey.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_wallet/wallet_impl.py" line="615" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_wallet/wallet_impl.py" bodystart="615" bodyend="633"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet_1a95b1b4ab2541665226e570416bd43a21" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type> &apos;<ref refid="classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet" kindref="compound">Wallet</ref>&apos;</type>
+        <definition> &apos;Wallet&apos; bittensor._wallet.wallet_impl.Wallet.regen_coldkey</definition>
+        <argsstring>(self, Optional[Union[list, str]] mnemonic=None, Optional[str] seed=None, bool use_password=True, bool overwrite=False)</argsstring>
+        <name>regen_coldkey</name>
+        <qualifiedname>bittensor._wallet.wallet_impl.Wallet.regen_coldkey</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>Optional]</type>
+          <declname>mnemonic</declname>
+          <array>[Union[list, str]</array>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type>Optional</type>
+          <declname>seed</declname>
+          <array>[str]</array>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>use_password</declname>
+          <defval>True</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>overwrite</declname>
+          <defval>False</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Regenerates the coldkey from passed mnemonic, encrypts it with the user&apos;s password and save the file
+    Args:
+        mnemonic: (Union[list, str], optional):
+            Key mnemonic as list of words or string space separated words.
+        seed: (str, optional):
+            Seed as hex string.
+        use_password (bool, optional):
+            Is the created key password protected.
+        overwrite (bool, optional): 
+            Will this operation overwrite the coldkey under the same path &lt;wallet path&gt;/&lt;wallet name&gt;/coldkey
+    Returns:
+        wallet (bittensor.Wallet):
+            this object with newly created coldkey.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_wallet/wallet_impl.py" line="634" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_wallet/wallet_impl.py" bodystart="634" bodyend="650"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet_1a789091d98e86995b2b37af96835d13a8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type> &apos;<ref refid="classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet" kindref="compound">Wallet</ref>&apos;</type>
+        <definition> &apos;Wallet&apos; bittensor._wallet.wallet_impl.Wallet.regenerate_coldkeypub</definition>
+        <argsstring>(self, Optional[str] ss58_address=None, Optional[Union[str, bytes]] public_key=None, bool overwrite=False)</argsstring>
+        <name>regenerate_coldkeypub</name>
+        <qualifiedname>bittensor._wallet.wallet_impl.Wallet.regenerate_coldkeypub</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>Optional</type>
+          <declname>ss58_address</declname>
+          <array>[str]</array>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type>Optional]</type>
+          <declname>public_key</declname>
+          <array>[Union[str, bytes]</array>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>overwrite</declname>
+          <defval>False</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Regenerates the coldkeypub from passed ss58_address or public_key and saves the file
+       Requires either ss58_address or public_key to be passed.
+    Args:
+        ss58_address: (str, optional):
+            Address as ss58 string.
+        public_key: (str | bytes, optional):
+            Public key as hex string or bytes.
+        overwrite (bool, optional) (default: False):
+            Will this operation overwrite the coldkeypub (if exists) under the same path &lt;wallet path&gt;/&lt;wallet name&gt;/coldkeypub
+    Returns:
+        wallet (bittensor.Wallet):
+            newly re-generated Wallet with coldkeypub.</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_wallet/wallet_impl.py" line="651" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_wallet/wallet_impl.py" bodystart="651" bodyend="678"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet_1afb66bc2c08b70d0c9e9796ccdbf6621a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type> &apos;<ref refid="classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet" kindref="compound">Wallet</ref>&apos;</type>
+        <definition> &apos;Wallet&apos; bittensor._wallet.wallet_impl.Wallet.regenerate_coldkey</definition>
+        <argsstring>(self, Optional[Union[list, str]] mnemonic=None, Optional[str] seed=None, bool use_password=True, bool overwrite=False)</argsstring>
+        <name>regenerate_coldkey</name>
+        <qualifiedname>bittensor._wallet.wallet_impl.Wallet.regenerate_coldkey</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>Optional]</type>
+          <declname>mnemonic</declname>
+          <array>[Union[list, str]</array>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type>Optional</type>
+          <declname>seed</declname>
+          <array>[str]</array>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>use_password</declname>
+          <defval>True</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>overwrite</declname>
+          <defval>False</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Regenerates the coldkey from passed mnemonic, encrypts it with the user&apos;s password and save the file
+    Args:
+        mnemonic: (Union[list, str], optional):
+            Key mnemonic as list of words or string space separated words.
+        seed: (str, optional):
+            Seed as hex string.
+        use_password (bool, optional):
+            Is the created key password protected.
+        overwrite (bool, optional): 
+            Will this operation overwrite the coldkey under the same path &lt;wallet path&gt;/&lt;wallet name&gt;/coldkey
+    Returns:
+        wallet (bittensor.Wallet):
+            this object with newly created coldkey.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_wallet/wallet_impl.py" line="682" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_wallet/wallet_impl.py" bodystart="682" bodyend="712"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet_1aa83c55cdfb136f8eed7db46185dd72b1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type> &apos;<ref refid="classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet" kindref="compound">Wallet</ref>&apos;</type>
+        <definition> &apos;Wallet&apos; bittensor._wallet.wallet_impl.Wallet.regen_hotkey</definition>
+        <argsstring>(self, Optional[Union[list, str]] mnemonic, Optional[str] seed=None, bool use_password=True, bool overwrite=False)</argsstring>
+        <name>regen_hotkey</name>
+        <qualifiedname>bittensor._wallet.wallet_impl.Wallet.regen_hotkey</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>Optional]</type>
+          <declname>mnemonic</declname>
+          <array>[Union[list, str]</array>
+        </param>
+        <param>
+          <type>Optional</type>
+          <declname>seed</declname>
+          <array>[str]</array>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>use_password</declname>
+          <defval>True</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>overwrite</declname>
+          <defval>False</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Regenerates the hotkey from passed mnemonic, encrypts it with the user&apos;s password and save the file
+    Args:
+        mnemonic: (Union[list, str], optional):
+            Key mnemonic as list of words or string space separated words.
+        seed: (str, optional):
+            Seed as hex string.
+        use_password (bool, optional):
+            Is the created key password protected.
+        overwrite (bool, optional): 
+            Will this operation overwrite the hotkey under the same path &lt;wallet path&gt;/&lt;wallet name&gt;/hotkeys/&lt;hotkey&gt;
+    Returns:
+        wallet (bittensor.Wallet):
+            this object with newly created hotkey.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_wallet/wallet_impl.py" line="713" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_wallet/wallet_impl.py" bodystart="713" bodyend="729"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet_1a3846d07c64fbd9c520a9c96ef4134a69" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type> &apos;<ref refid="classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet" kindref="compound">Wallet</ref>&apos;</type>
+        <definition> &apos;Wallet&apos; bittensor._wallet.wallet_impl.Wallet.regenerate_hotkey</definition>
+        <argsstring>(self, Optional[Union[list, str]] mnemonic=None, Optional[str] seed=None, bool use_password=True, bool overwrite=False)</argsstring>
+        <name>regenerate_hotkey</name>
+        <qualifiedname>bittensor._wallet.wallet_impl.Wallet.regenerate_hotkey</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>Optional]</type>
+          <declname>mnemonic</declname>
+          <array>[Union[list, str]</array>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type>Optional</type>
+          <declname>seed</declname>
+          <array>[str]</array>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>use_password</declname>
+          <defval>True</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>overwrite</declname>
+          <defval>False</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Regenerates the hotkey from passed mnemonic, encrypts it with the user&apos;s password and save the file
+    Args:
+        mnemonic: (Union[list, str], optional):
+            Key mnemonic as list of words or string space separated words.
+        seed: (str, optional):
+            Seed as hex string.
+        use_password (bool, optional):
+            Is the created key password protected.
+        overwrite (bool, optional): 
+            Will this operation overwrite the hotkey under the same path &lt;wallet path&gt;/&lt;wallet name&gt;/hotkeys/&lt;hotkey&gt;
+    Returns:
+        wallet (bittensor.Wallet):
+            this object with newly created hotkey.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_wallet/wallet_impl.py" line="730" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_wallet/wallet_impl.py" bodystart="730" bodyend="759"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Bittensor wallet maintenance class. Each wallet contains a coldkey and a hotkey. 
+The coldkey is the user&apos;s primary key for holding stake in their wallet
+and is the only way that users can access Tao. Coldkeys can hold tokens and should be encrypted on your device.
+The coldkey must be used to stake and unstake funds from a running node. The hotkey, on the other hand, is only used
+for suscribing and setting weights from running code. Hotkeys are linked to coldkeys through the metagraph. 
+</verbatim> </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>bittensor._wallet.wallet_impl.Wallet</label>
+        <link refid="classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet"/>
+      </node>
+      <node id="2">
+        <label>bittensor._wallet.wallet_mock.Wallet_mock</label>
+        <link refid="classbittensor_1_1__wallet_1_1wallet__mock_1_1_wallet__mock"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>bittensor._wallet.wallet_impl.Wallet</label>
+        <link refid="classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>regen_coldkeypub</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>bittensor._wallet.wallet_impl.Wallet</label>
+        <link refid="classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>regen_coldkeypub</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/macthrasher/bittensor/bittensor/_wallet/wallet_impl.py" line="43" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_wallet/wallet_impl.py" bodystart="43" bodyend="759"/>
+    <listofallmembers>
+      <member refid="classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet_1aa7add4c474e3294236fd088017f02de5" prot="public" virt="non-virtual"><scope>bittensor::_wallet::wallet_impl::Wallet</scope><name>__init__</name></member>
+      <member refid="classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet_1a43653c2d135638b85cd94f620295d5f3" prot="public" virt="non-virtual"><scope>bittensor::_wallet::wallet_impl::Wallet</scope><name>__repr__</name></member>
+      <member refid="classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet_1a60e833bb4df632fb7a15fa7d09c3eb0e" prot="public" virt="non-virtual"><scope>bittensor::_wallet::wallet_impl::Wallet</scope><name>__str__</name></member>
+      <member refid="classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet_1a031313797ded1543d8f463cb62d3d866" prot="protected" virt="non-virtual"><scope>bittensor::_wallet::wallet_impl::Wallet</scope><name>_coldkey</name></member>
+      <member refid="classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet_1a8dae7325fb89313f027ba7c258eef8f8" prot="protected" virt="non-virtual"><scope>bittensor::_wallet::wallet_impl::Wallet</scope><name>_coldkeypub</name></member>
+      <member refid="classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet_1ab38788e281c3e8693672467eaa5cf5a4" prot="protected" virt="non-virtual"><scope>bittensor::_wallet::wallet_impl::Wallet</scope><name>_hotkey</name></member>
+      <member refid="classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet_1ad81f1e55da6ccb126cc83f8dfa6456b2" prot="public" virt="non-virtual"><scope>bittensor::_wallet::wallet_impl::Wallet</scope><name>add_stake</name></member>
+      <member refid="classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet_1a1aeac882693058dc0e417c9ccfe29e13" prot="public" virt="non-virtual"><scope>bittensor::_wallet::wallet_impl::Wallet</scope><name>balance</name></member>
+      <member refid="classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet_1a558ba5b68408444cdde309fcdfb2afbd" prot="public" virt="non-virtual"><scope>bittensor::_wallet::wallet_impl::Wallet</scope><name>bonds</name></member>
+      <member refid="classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet_1a10d1fe488398138edf1be82bb3847af9" prot="public" virt="non-virtual"><scope>bittensor::_wallet::wallet_impl::Wallet</scope><name>coldkey</name></member>
+      <member refid="classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet_1a69c1a8f249e4bf4e13b9ee63e39ac8e1" prot="public" virt="non-virtual"><scope>bittensor::_wallet::wallet_impl::Wallet</scope><name>coldkey_file</name></member>
+      <member refid="classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet_1a99c3c51aa8dddb6a27280c5b0aa2cac8" prot="public" virt="non-virtual"><scope>bittensor::_wallet::wallet_impl::Wallet</scope><name>coldkeypub</name></member>
+      <member refid="classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet_1a7d2b88fb8f661b338d948906ba5d33d4" prot="public" virt="non-virtual"><scope>bittensor::_wallet::wallet_impl::Wallet</scope><name>coldkeypub_file</name></member>
+      <member refid="classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet_1a3447ec8988f4a50d2ba4f3f8c001ddf7" prot="public" virt="non-virtual"><scope>bittensor::_wallet::wallet_impl::Wallet</scope><name>config</name></member>
+      <member refid="classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet_1a424bed698451edcfd9fcd7acfaacf32a" prot="public" virt="non-virtual"><scope>bittensor::_wallet::wallet_impl::Wallet</scope><name>consensus</name></member>
+      <member refid="classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet_1ade65bf944db522de59a5958fafc9a94d" prot="public" virt="non-virtual"><scope>bittensor::_wallet::wallet_impl::Wallet</scope><name>create</name></member>
+      <member refid="classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet_1a16d95868caa0500589467d7e9da093d2" prot="public" virt="non-virtual"><scope>bittensor::_wallet::wallet_impl::Wallet</scope><name>create_coldkey_from_uri</name></member>
+      <member refid="classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet_1abac3193c6e2e9904e3f6a49326398f70" prot="public" virt="non-virtual"><scope>bittensor::_wallet::wallet_impl::Wallet</scope><name>create_hotkey_from_uri</name></member>
+      <member refid="classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet_1ad028e482d1c2dc3d8425aa4950a13afd" prot="public" virt="non-virtual"><scope>bittensor::_wallet::wallet_impl::Wallet</scope><name>create_if_non_existent</name></member>
+      <member refid="classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet_1ac1effc30b6c576f41be9a28cc48bf5c4" prot="public" virt="non-virtual"><scope>bittensor::_wallet::wallet_impl::Wallet</scope><name>create_new_coldkey</name></member>
+      <member refid="classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet_1a945b64d7789cb3f89f5a5c662dd33e93" prot="public" virt="non-virtual"><scope>bittensor::_wallet::wallet_impl::Wallet</scope><name>create_new_hotkey</name></member>
+      <member refid="classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet_1ae754299914f6e38a60e20c7ec6801cd6" prot="public" virt="non-virtual"><scope>bittensor::_wallet::wallet_impl::Wallet</scope><name>dividends</name></member>
+      <member refid="classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet_1a0579a3e0363a793241486b0b556798bc" prot="public" virt="non-virtual"><scope>bittensor::_wallet::wallet_impl::Wallet</scope><name>get_balance</name></member>
+      <member refid="classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet_1a8d13a1bc28280cadb3dd38201c952ac4" prot="public" virt="non-virtual"><scope>bittensor::_wallet::wallet_impl::Wallet</scope><name>get_coldkey</name></member>
+      <member refid="classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet_1a02441c2dff42adb6b4f4b9dd5546cd65" prot="public" virt="non-virtual"><scope>bittensor::_wallet::wallet_impl::Wallet</scope><name>get_coldkeypub</name></member>
+      <member refid="classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet_1a742ad09ef4d3f898cb3f51b11eed2303" prot="public" virt="non-virtual"><scope>bittensor::_wallet::wallet_impl::Wallet</scope><name>get_hotkey</name></member>
+      <member refid="classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet_1a6eb36dda6ef4ca591adb42e9d44afcce" prot="public" virt="non-virtual"><scope>bittensor::_wallet::wallet_impl::Wallet</scope><name>get_neuron</name></member>
+      <member refid="classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet_1a5dd6425ae009b020ca7e044448526c27" prot="public" virt="non-virtual"><scope>bittensor::_wallet::wallet_impl::Wallet</scope><name>get_stake</name></member>
+      <member refid="classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet_1ae166a8f0522e96ff6cadfcc1449b9cd5" prot="public" virt="non-virtual"><scope>bittensor::_wallet::wallet_impl::Wallet</scope><name>get_uid</name></member>
+      <member refid="classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet_1a021381e72a3c4cb5284fb801724f2084" prot="public" virt="non-virtual"><scope>bittensor::_wallet::wallet_impl::Wallet</scope><name>hotkey</name></member>
+      <member refid="classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet_1a2cb735875ddc5f971cd45bfdebc98052" prot="public" virt="non-virtual"><scope>bittensor::_wallet::wallet_impl::Wallet</scope><name>hotkey_file</name></member>
+      <member refid="classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet_1af8ac6d6f54d50ae26a66841cf8272199" prot="public" virt="non-virtual"><scope>bittensor::_wallet::wallet_impl::Wallet</scope><name>hotkey_str</name></member>
+      <member refid="classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet_1acc142dc7723cea829dec5ffb75779d8f" prot="public" virt="non-virtual"><scope>bittensor::_wallet::wallet_impl::Wallet</scope><name>incentive</name></member>
+      <member refid="classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet_1a2602db3bb977d36a8a293e8264e37ac7" prot="public" virt="non-virtual"><scope>bittensor::_wallet::wallet_impl::Wallet</scope><name>inflation</name></member>
+      <member refid="classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet_1a2eee19b8640c814e60631c5c5c1bd3e8" prot="public" virt="non-virtual"><scope>bittensor::_wallet::wallet_impl::Wallet</scope><name>ip</name></member>
+      <member refid="classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet_1a151661af87b341949438d02e93a84c45" prot="public" virt="non-virtual"><scope>bittensor::_wallet::wallet_impl::Wallet</scope><name>is_registered</name></member>
+      <member refid="classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet_1a806da01df6da5de9fa14dce0f10b12ee" prot="public" virt="non-virtual"><scope>bittensor::_wallet::wallet_impl::Wallet</scope><name>last_update</name></member>
+      <member refid="classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet_1ae0caa46809659ab7765aa0006f7f1a35" prot="public" virt="non-virtual"><scope>bittensor::_wallet::wallet_impl::Wallet</scope><name>name</name></member>
+      <member refid="classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet_1acb846ff48daf4f201bcfcbb4c0387a33" prot="public" virt="non-virtual"><scope>bittensor::_wallet::wallet_impl::Wallet</scope><name>neuron</name></member>
+      <member refid="classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet_1afcb1dfd63435c11cacf75c2b3aa6a88a" prot="public" virt="non-virtual"><scope>bittensor::_wallet::wallet_impl::Wallet</scope><name>new_coldkey</name></member>
+      <member refid="classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet_1ad20b06a182600521a8feba305dc32339" prot="public" virt="non-virtual"><scope>bittensor::_wallet::wallet_impl::Wallet</scope><name>new_hotkey</name></member>
+      <member refid="classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet_1a5d0d4383ff4218923f9dafde13acb4a6" prot="public" virt="non-virtual"><scope>bittensor::_wallet::wallet_impl::Wallet</scope><name>path</name></member>
+      <member refid="classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet_1a5398d5fda2c74b0eb7a0fddebeaaaff1" prot="public" virt="non-virtual"><scope>bittensor::_wallet::wallet_impl::Wallet</scope><name>rank</name></member>
+      <member refid="classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet_1adbc68807f89e813217294033f8023cff" prot="public" virt="non-virtual"><scope>bittensor::_wallet::wallet_impl::Wallet</scope><name>recreate</name></member>
+      <member refid="classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet_1a95b1b4ab2541665226e570416bd43a21" prot="public" virt="non-virtual"><scope>bittensor::_wallet::wallet_impl::Wallet</scope><name>regen_coldkey</name></member>
+      <member refid="classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet_1a2d38dd8f175ff54c167f2517b3541aa5" prot="public" virt="non-virtual"><scope>bittensor::_wallet::wallet_impl::Wallet</scope><name>regen_coldkeypub</name></member>
+      <member refid="classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet_1aa83c55cdfb136f8eed7db46185dd72b1" prot="public" virt="non-virtual"><scope>bittensor::_wallet::wallet_impl::Wallet</scope><name>regen_hotkey</name></member>
+      <member refid="classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet_1afb66bc2c08b70d0c9e9796ccdbf6621a" prot="public" virt="non-virtual"><scope>bittensor::_wallet::wallet_impl::Wallet</scope><name>regenerate_coldkey</name></member>
+      <member refid="classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet_1a789091d98e86995b2b37af96835d13a8" prot="public" virt="non-virtual"><scope>bittensor::_wallet::wallet_impl::Wallet</scope><name>regenerate_coldkeypub</name></member>
+      <member refid="classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet_1a3846d07c64fbd9c520a9c96ef4134a69" prot="public" virt="non-virtual"><scope>bittensor::_wallet::wallet_impl::Wallet</scope><name>regenerate_hotkey</name></member>
+      <member refid="classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet_1a77a8fa75f69167cd57ab0034858e4fa3" prot="public" virt="non-virtual"><scope>bittensor::_wallet::wallet_impl::Wallet</scope><name>register</name></member>
+      <member refid="classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet_1a39e7f1c8964a5e959e5a2579cf6000e7" prot="public" virt="non-virtual"><scope>bittensor::_wallet::wallet_impl::Wallet</scope><name>remove_stake</name></member>
+      <member refid="classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet_1a74aa2a41661f2b53d246760c74437c00" prot="public" virt="non-virtual"><scope>bittensor::_wallet::wallet_impl::Wallet</scope><name>reregister</name></member>
+      <member refid="classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet_1a28e076407b15c402f769c2927207ef16" prot="public" virt="non-virtual"><scope>bittensor::_wallet::wallet_impl::Wallet</scope><name>set_coldkey</name></member>
+      <member refid="classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet_1a2022e383c80371a7c3c71b8d443e8cf7" prot="public" virt="non-virtual"><scope>bittensor::_wallet::wallet_impl::Wallet</scope><name>set_coldkeypub</name></member>
+      <member refid="classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet_1a0da33a367dd58b3c190e2e5cd4c48a86" prot="public" virt="non-virtual"><scope>bittensor::_wallet::wallet_impl::Wallet</scope><name>set_hotkey</name></member>
+      <member refid="classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet_1ac6bcd4248ce12d82e28b255aee5dca4b" prot="public" virt="non-virtual"><scope>bittensor::_wallet::wallet_impl::Wallet</scope><name>stake</name></member>
+      <member refid="classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet_1a84ec932ec9e974d80b1ca93ac41da163" prot="public" virt="non-virtual"><scope>bittensor::_wallet::wallet_impl::Wallet</scope><name>transfer</name></member>
+      <member refid="classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet_1a0d9d8fbcf39e513b8149390dcfdd5e77" prot="public" virt="non-virtual"><scope>bittensor::_wallet::wallet_impl::Wallet</scope><name>trust</name></member>
+      <member refid="classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet_1a13f908b7fc19a043ab1194e597896651" prot="public" virt="non-virtual"><scope>bittensor::_wallet::wallet_impl::Wallet</scope><name>uid</name></member>
+      <member refid="classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet_1a66e311652d1132aa092ef3ff13a1caae" prot="public" virt="non-virtual"><scope>bittensor::_wallet::wallet_impl::Wallet</scope><name>weights</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

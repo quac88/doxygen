@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="namespacebittensor_1_1__neuron_1_1text_1_1core__server" kind="namespace" language="Python">
+    <compoundname>bittensor::_neuron::text::core_server</compoundname>
+    <innerclass refid="classbittensor_1_1__neuron_1_1text_1_1core__server_1_1neuron" prot="public">bittensor::_neuron::text::core_server::neuron</innerclass>
+    <innernamespace refid="namespacebittensor_1_1__neuron_1_1text_1_1core__server_1_1main">bittensor::_neuron::text::core_server::main</innernamespace>
+    <innernamespace refid="namespacebittensor_1_1__neuron_1_1text_1_1core__server_1_1nucleus__impl">bittensor::_neuron::text::core_server::nucleus_impl</innernamespace>
+    <innernamespace refid="namespacebittensor_1_1__neuron_1_1text_1_1core__server_1_1run">bittensor::_neuron::text::core_server::run</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim> Template server.
+
+Example:
+    $ import neurons
+    $ neurons.text.core_server.neuron().run()
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_server/__init__.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

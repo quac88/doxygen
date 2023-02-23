@@ -1,0 +1,97 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="classbittensor_1_1__subtensor_1_1subtensor__mock_1_1mock__subtensor" kind="class" language="Python" prot="public">
+    <compoundname>bittensor::_subtensor::subtensor_mock::mock_subtensor</compoundname>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classbittensor_1_1__subtensor_1_1subtensor__mock_1_1mock__subtensor_1a09200578193938d755996f8f2a4d63ef" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._subtensor.subtensor_mock.mock_subtensor.mock</definition>
+        <argsstring>(cls)</argsstring>
+        <name>mock</name>
+        <qualifiedname>bittensor._subtensor.subtensor_mock.mock_subtensor.mock</qualifiedname>
+        <param>
+          <type>cls</type>
+          <defname>cls</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_subtensor/subtensor_mock.py" line="52" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_subtensor/subtensor_mock.py" bodystart="52" bodyend="80"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__subtensor_1_1subtensor__mock_1_1mock__subtensor_1a506b0e23cec03e5c8669577f0bfbef21" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool bittensor._subtensor.subtensor_mock.mock_subtensor.global_mock_process_is_running</definition>
+        <argsstring>(cle)</argsstring>
+        <name>global_mock_process_is_running</name>
+        <qualifiedname>bittensor._subtensor.subtensor_mock.mock_subtensor.global_mock_process_is_running</qualifiedname>
+        <param>
+          <type>cle</type>
+          <defname>cle</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> If subtensor is running a mock process this kills the mock.</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_subtensor/subtensor_mock.py" line="82" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_subtensor/subtensor_mock.py" bodystart="82" bodyend="90"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__subtensor_1_1subtensor__mock_1_1mock__subtensor_1a023e61cd42591f1b5b321530866916ed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._subtensor.subtensor_mock.mock_subtensor.kill_global_mock_process</definition>
+        <argsstring>(self)</argsstring>
+        <name>kill_global_mock_process</name>
+        <qualifiedname>bittensor._subtensor.subtensor_mock.mock_subtensor.kill_global_mock_process</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Kills the global mocked subtensor process even if not owned.</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_subtensor/subtensor_mock.py" line="92" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_subtensor/subtensor_mock.py" bodystart="92" bodyend="100"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__subtensor_1_1subtensor__mock_1_1mock__subtensor_1a4ad7e429d8d3259514835f02b1135a2d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._subtensor.subtensor_mock.mock_subtensor.create_global_mock_process</definition>
+        <argsstring>(self)</argsstring>
+        <name>create_global_mock_process</name>
+        <qualifiedname>bittensor._subtensor.subtensor_mock.mock_subtensor.create_global_mock_process</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Creates a global mocked subtensor process running in the backgroun with name GLOBAL_SUBTENSOR_MOCK_PROCESS_NAME.</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_subtensor/subtensor_mock.py" line="102" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_subtensor/subtensor_mock.py" bodystart="102" bodyend="120"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim> Returns a subtensor connection interface to a mocked subtensor process running in the background.
+    Optionall creates the background process if it does not exist.
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/Users/macthrasher/bittensor/bittensor/_subtensor/subtensor_mock.py" line="46" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_subtensor/subtensor_mock.py" bodystart="46" bodyend="120"/>
+    <listofallmembers>
+      <member refid="classbittensor_1_1__subtensor_1_1subtensor__mock_1_1mock__subtensor_1a4ad7e429d8d3259514835f02b1135a2d" prot="public" virt="non-virtual"><scope>bittensor::_subtensor::subtensor_mock::mock_subtensor</scope><name>create_global_mock_process</name></member>
+      <member refid="classbittensor_1_1__subtensor_1_1subtensor__mock_1_1mock__subtensor_1a506b0e23cec03e5c8669577f0bfbef21" prot="public" virt="non-virtual"><scope>bittensor::_subtensor::subtensor_mock::mock_subtensor</scope><name>global_mock_process_is_running</name></member>
+      <member refid="classbittensor_1_1__subtensor_1_1subtensor__mock_1_1mock__subtensor_1a023e61cd42591f1b5b321530866916ed" prot="public" virt="non-virtual"><scope>bittensor::_subtensor::subtensor_mock::mock_subtensor</scope><name>kill_global_mock_process</name></member>
+      <member refid="classbittensor_1_1__subtensor_1_1subtensor__mock_1_1mock__subtensor_1a09200578193938d755996f8f2a4d63ef" prot="public" virt="non-virtual"><scope>bittensor::_subtensor::subtensor_mock::mock_subtensor</scope><name>mock</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

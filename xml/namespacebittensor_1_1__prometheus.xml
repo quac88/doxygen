@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="namespacebittensor_1_1__prometheus" kind="namespace" language="Python">
+    <compoundname>bittensor::_prometheus</compoundname>
+    <innerclass refid="classbittensor_1_1__prometheus_1_1prometheus" prot="public">bittensor::_prometheus::prometheus</innerclass>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="namespacebittensor_1_1__prometheus_1a56825d0ec32a838acb176d829dcc4738" prot="public" static="no" mutable="no">
+        <type>logger</type>
+        <definition>logger bittensor::_prometheus.logger</definition>
+        <argsstring></argsstring>
+        <name>logger</name>
+        <qualifiedname>bittensor._prometheus.logger</qualifiedname>
+        <initializer>=  logger.opt(colors=True)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_prometheus/__init__.py" line="29" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_prometheus/__init__.py" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Create and init the config class, which manages the config of different bittensor modules.
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/Users/macthrasher/bittensor/bittensor/_prometheus/__init__.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

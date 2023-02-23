@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="namespacebittensor_1_1__serializer" kind="namespace" language="Python">
+    <compoundname>bittensor::_serializer</compoundname>
+    <innerclass refid="classbittensor_1_1__serializer_1_1serializer" prot="public">bittensor::_serializer::serializer</innerclass>
+    <innernamespace refid="namespacebittensor_1_1__serializer_1_1serializer__impl">bittensor::_serializer::serializer_impl</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim> An interface for serializing and deserializing bittensor tensors</verbatim> </para>
+    </detaileddescription>
+    <location file="/Users/macthrasher/bittensor/bittensor/_serializer/__init__.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

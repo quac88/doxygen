@@ -1,0 +1,269 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="classbittensor_1_1__dataset_1_1dataset__impl_1_1_dataset" kind="class" language="Python" prot="public">
+    <compoundname>bittensor::_dataset::dataset_impl::Dataset</compoundname>
+    <derivedcompoundref refid="classbittensor_1_1__dataset_1_1dataset__impl_1_1_genesis_text_dataset" prot="public" virt="non-virtual">bittensor._dataset.dataset_impl.GenesisTextDataset</derivedcompoundref>
+    <derivedcompoundref refid="classbittensor_1_1__dataset_1_1dataset__mock_1_1_mock_genesis_text_dataset" prot="public" virt="non-virtual">bittensor._dataset.dataset_mock.MockGenesisTextDataset</derivedcompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classbittensor_1_1__dataset_1_1dataset__impl_1_1_dataset_1afc60562ef4c1c4c36878524d4ccb02a6" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._dataset.dataset_impl.Dataset::dataset_dir</definition>
+        <argsstring></argsstring>
+        <name>dataset_dir</name>
+        <qualifiedname>bittensor._dataset.dataset_impl.Dataset.dataset_dir</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_dataset/dataset_impl.py" line="48" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_dataset/dataset_impl.py" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__dataset_1_1dataset__impl_1_1_dataset_1a9a0ae51b8cb646f1c364cf19d6d40ca4" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._dataset.dataset_impl.Dataset::text_dir</definition>
+        <argsstring></argsstring>
+        <name>text_dir</name>
+        <qualifiedname>bittensor._dataset.dataset_impl.Dataset.text_dir</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_dataset/dataset_impl.py" line="49" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_dataset/dataset_impl.py" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__dataset_1_1dataset__impl_1_1_dataset_1a19c33c938f41b7656f9dfa2875dc26b4" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._dataset.dataset_impl.Dataset::mountain_hash</definition>
+        <argsstring></argsstring>
+        <name>mountain_hash</name>
+        <qualifiedname>bittensor._dataset.dataset_impl.Dataset.mountain_hash</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_dataset/dataset_impl.py" line="50" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_dataset/dataset_impl.py" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__dataset_1_1dataset__impl_1_1_dataset_1acaede26d17fc99b179b32dd72dc67bce" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._dataset.dataset_impl.Dataset::refresh_corpus</definition>
+        <argsstring></argsstring>
+        <name>refresh_corpus</name>
+        <qualifiedname>bittensor._dataset.dataset_impl.Dataset.refresh_corpus</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_dataset/dataset_impl.py" line="52" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_dataset/dataset_impl.py" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classbittensor_1_1__dataset_1_1dataset__impl_1_1_dataset_1a60a63337f780daa76d50af7e61402ded" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._dataset.dataset_impl.Dataset.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>bittensor._dataset.dataset_impl.Dataset.__init__</qualifiedname>
+        <reimplementedby refid="classbittensor_1_1__dataset_1_1dataset__impl_1_1_genesis_text_dataset_1ae48b5fbda7942fb14e51b12a47d000ab">__init__</reimplementedby>
+        <reimplementedby refid="classbittensor_1_1__dataset_1_1dataset__mock_1_1_mock_genesis_text_dataset_1a65ab9aa29f7757d7705f08f87632ab95">__init__</reimplementedby>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_dataset/dataset_impl.py" line="45" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_dataset/dataset_impl.py" bodystart="45" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__dataset_1_1dataset__impl_1_1_dataset_1adac9d1df6c5460cadb940da9a735060e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._dataset.dataset_impl.Dataset.get_ipfs_directory</definition>
+        <argsstring>(self, str address, dict file_meta, str action=&apos;post&apos;, int timeout=180)</argsstring>
+        <name>get_ipfs_directory</name>
+        <qualifiedname>bittensor._dataset.dataset_impl.Dataset.get_ipfs_directory</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>address</declname>
+        </param>
+        <param>
+          <type>dict</type>
+          <declname>file_meta</declname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>action</declname>
+          <defval>&apos;post&apos;</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>timeout</declname>
+          <defval>180</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Connects to IPFS gateway and retrieves directory.
+Args:
+    address: (:type:`str`, required):
+        The target address of the request. 
+    params: (:type:`tuple`, optional):
+        The arguments of the request. eg. ((&apos;arg&apos;, dataset_hash),)
+    action: (:type:`str`, optional):
+        POST or GET.
+    timeout: (:type:`int`, optional):
+        Timeout for getting the server&apos;s response. 
+Returns:
+    dict: A dictionary of the files inside of the genesis_datasets and their hashes.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_dataset/dataset_impl.py" line="87" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_dataset/dataset_impl.py" bodystart="87" bodyend="116"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__dataset_1_1dataset__impl_1_1_dataset_1a64b7e8477907e64b2e737833e3802d6f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._dataset.dataset_impl.Dataset.__len__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__len__</name>
+        <qualifiedname>bittensor._dataset.dataset_impl.Dataset.__len__</qualifiedname>
+        <reimplementedby refid="classbittensor_1_1__dataset_1_1dataset__impl_1_1_genesis_text_dataset_1aea845490db793c1d2bab3212e9dc2068">__len__</reimplementedby>
+        <reimplementedby refid="classbittensor_1_1__dataset_1_1dataset__mock_1_1_mock_genesis_text_dataset_1a38c1ef29ee25c9c535bb87dd03f58aec">__len__</reimplementedby>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Returns length of the dataset that the dataset is processing
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_dataset/dataset_impl.py" line="117" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_dataset/dataset_impl.py" bodystart="117" bodyend="120"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__dataset_1_1dataset__impl_1_1_dataset_1a495efa0d0eeee76dc87dad2b6c82036e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._dataset.dataset_impl.Dataset.__getitem__</definition>
+        <argsstring>(self, idx)</argsstring>
+        <name>__getitem__</name>
+        <qualifiedname>bittensor._dataset.dataset_impl.Dataset.__getitem__</qualifiedname>
+        <reimplementedby refid="classbittensor_1_1__dataset_1_1dataset__mock_1_1_mock_genesis_text_dataset_1adcc20e51c20c9698c140469b09655db5">__getitem__</reimplementedby>
+        <reimplementedby refid="classbittensor_1_1__dataset_1_1dataset__impl_1_1_genesis_text_dataset_1a559f292561fa11de57d4f5c8b0cc8d67">__getitem__</reimplementedby>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>idx</type>
+          <defname>idx</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Returns the next batch from the dataset.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_dataset/dataset_impl.py" line="121" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_dataset/dataset_impl.py" bodystart="121" bodyend="124"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classbittensor_1_1__dataset_1_1dataset__impl_1_1_dataset_1a0610ebda290a3a7d1fc7cb59515370fa" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._dataset.dataset_impl.Dataset.requests_retry_session</definition>
+        <argsstring>(retries=1, backoff_factor=0.5, status_forcelist=(104, 500, 502, 504), session=None)</argsstring>
+        <name>requests_retry_session</name>
+        <qualifiedname>bittensor._dataset.dataset_impl.Dataset.requests_retry_session</qualifiedname>
+        <param>
+          <type>retries</type>
+          <defname>retries</defname>
+          <defval>1</defval>
+        </param>
+        <param>
+          <type>backoff_factor</type>
+          <defname>backoff_factor</defname>
+          <defval>0.5</defval>
+        </param>
+        <param>
+          <type>status_forcelist</type>
+          <defname>status_forcelist</defname>
+          <defval>(104, 500, 502, 504)</defval>
+        </param>
+        <param>
+          <type>session</type>
+          <defname>session</defname>
+          <defval>None</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Creates a retriable session for request calls. This enables
+automatic retries and back-off retries should any request calls fail.
+
+Args:
+    retries (int, optional): Maximum number of retries. Defaults to 3.
+    backoff_factor (float, optional): Factor by which to back off if a retry fails. Defaults to 0.3.
+    status_forcelist (tuple, optional): A set of integer HTTP status codes that we should force a retry on. Defaults to (500, 502, 504).
+    session ([type], optional): Session for which to set up the retries. Defaults to None.
+
+Returns:
+    requests.Session(): A Requests Session object set up for retries and backoff.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_dataset/dataset_impl.py" line="56" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_dataset/dataset_impl.py" bodystart="61" bodyend="86"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim> Implementation for the dataset class, which handles dataloading from ipfs
+</verbatim> </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>bittensor._dataset.dataset_impl.Dataset</label>
+        <link refid="classbittensor_1_1__dataset_1_1dataset__impl_1_1_dataset"/>
+      </node>
+      <node id="2">
+        <label>bittensor._dataset.dataset_impl.GenesisTextDataset</label>
+        <link refid="classbittensor_1_1__dataset_1_1dataset__impl_1_1_genesis_text_dataset"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>bittensor._dataset.dataset_mock.MockGenesisTextDataset</label>
+        <link refid="classbittensor_1_1__dataset_1_1dataset__mock_1_1_mock_genesis_text_dataset"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="/Users/macthrasher/bittensor/bittensor/_dataset/dataset_impl.py" line="42" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_dataset/dataset_impl.py" bodystart="42" bodyend="124"/>
+    <listofallmembers>
+      <member refid="classbittensor_1_1__dataset_1_1dataset__impl_1_1_dataset_1a495efa0d0eeee76dc87dad2b6c82036e" prot="public" virt="non-virtual"><scope>bittensor::_dataset::dataset_impl::Dataset</scope><name>__getitem__</name></member>
+      <member refid="classbittensor_1_1__dataset_1_1dataset__impl_1_1_dataset_1a60a63337f780daa76d50af7e61402ded" prot="public" virt="non-virtual"><scope>bittensor::_dataset::dataset_impl::Dataset</scope><name>__init__</name></member>
+      <member refid="classbittensor_1_1__dataset_1_1dataset__impl_1_1_dataset_1a64b7e8477907e64b2e737833e3802d6f" prot="public" virt="non-virtual"><scope>bittensor::_dataset::dataset_impl::Dataset</scope><name>__len__</name></member>
+      <member refid="classbittensor_1_1__dataset_1_1dataset__impl_1_1_dataset_1afc60562ef4c1c4c36878524d4ccb02a6" prot="public" virt="non-virtual"><scope>bittensor::_dataset::dataset_impl::Dataset</scope><name>dataset_dir</name></member>
+      <member refid="classbittensor_1_1__dataset_1_1dataset__impl_1_1_dataset_1adac9d1df6c5460cadb940da9a735060e" prot="public" virt="non-virtual"><scope>bittensor::_dataset::dataset_impl::Dataset</scope><name>get_ipfs_directory</name></member>
+      <member refid="classbittensor_1_1__dataset_1_1dataset__impl_1_1_dataset_1a19c33c938f41b7656f9dfa2875dc26b4" prot="public" virt="non-virtual"><scope>bittensor::_dataset::dataset_impl::Dataset</scope><name>mountain_hash</name></member>
+      <member refid="classbittensor_1_1__dataset_1_1dataset__impl_1_1_dataset_1acaede26d17fc99b179b32dd72dc67bce" prot="public" virt="non-virtual"><scope>bittensor::_dataset::dataset_impl::Dataset</scope><name>refresh_corpus</name></member>
+      <member refid="classbittensor_1_1__dataset_1_1dataset__impl_1_1_dataset_1a0610ebda290a3a7d1fc7cb59515370fa" prot="public" virt="non-virtual"><scope>bittensor::_dataset::dataset_impl::Dataset</scope><name>requests_retry_session</name></member>
+      <member refid="classbittensor_1_1__dataset_1_1dataset__impl_1_1_dataset_1a9a0ae51b8cb646f1c364cf19d6d40ca4" prot="public" virt="non-virtual"><scope>bittensor::_dataset::dataset_impl::Dataset</scope><name>text_dir</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="namespacebittensor_1_1utils_1_1stats" kind="namespace" language="Python">
+    <compoundname>bittensor::utils::stats</compoundname>
+    <innerclass refid="classbittensor_1_1utils_1_1stats_1_1_amount_per_second_rolling_average" prot="public">bittensor::utils::stats::AmountPerSecondRollingAverage</innerclass>
+    <innerclass refid="classbittensor_1_1utils_1_1stats_1_1_events_per_second_rolling_average" prot="public">bittensor::utils::stats::EventsPerSecondRollingAverage</innerclass>
+    <innerclass refid="classbittensor_1_1utils_1_1stats_1_1timed__rolling__avg" prot="public">bittensor::utils::stats::timed_rolling_avg</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim> A exponential moving average that updates values based on time since last update.
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/Users/macthrasher/bittensor/bittensor/utils/stats.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

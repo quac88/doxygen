@@ -1,0 +1,216 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="classbittensor_1_1utils_1_1registration_1_1_registration_statistics_logger" kind="class" language="Python" prot="public">
+    <compoundname>bittensor::utils::registration::RegistrationStatisticsLogger</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classbittensor_1_1utils_1_1registration_1_1_registration_statistics_logger_1a6963bd1b13b6d6e87fe576056ca77ece" prot="public" static="yes" mutable="no">
+        <type>rich_console</type>
+        <definition>rich_console bittensor.utils.registration.RegistrationStatisticsLogger::console</definition>
+        <argsstring></argsstring>
+        <name>console</name>
+        <qualifiedname>bittensor.utils.registration.RegistrationStatisticsLogger.console</qualifiedname>
+        <initializer>.Console</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/registration.py" line="338" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/registration.py" bodystart="338" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1utils_1_1registration_1_1_registration_statistics_logger_1a36d7a1572884c966d9a2e0249baebeda" prot="public" static="yes" mutable="no">
+        <type>Optional</type>
+        <definition>Optional bittensor.utils.registration.RegistrationStatisticsLogger::status</definition>
+        <argsstring></argsstring>
+        <name>status</name>
+        <qualifiedname>bittensor.utils.registration.RegistrationStatisticsLogger.status</qualifiedname>
+        <initializer>[rich_status.Status]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/registration.py" line="339" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/registration.py" bodystart="339" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classbittensor_1_1utils_1_1registration_1_1_registration_statistics_logger_1ac78679aa39d73d467e9a1b3f1d53d82f" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor.utils.registration.RegistrationStatisticsLogger::console</definition>
+        <argsstring></argsstring>
+        <name>console</name>
+        <qualifiedname>bittensor.utils.registration.RegistrationStatisticsLogger.console</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/registration.py" line="342" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/registration.py" bodystart="342" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1utils_1_1registration_1_1_registration_statistics_logger_1abb7f722834fc112bfb567b67ea4ca50c" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor.utils.registration.RegistrationStatisticsLogger::status</definition>
+        <argsstring></argsstring>
+        <name>status</name>
+        <qualifiedname>bittensor.utils.registration.RegistrationStatisticsLogger.status</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/registration.py" line="345" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/registration.py" bodystart="345" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classbittensor_1_1utils_1_1registration_1_1_registration_statistics_logger_1ac52139ae9a09d82ea241ce5fc5c88c96" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None bittensor.utils.registration.RegistrationStatisticsLogger.__init__</definition>
+        <argsstring>(self, rich_console.Console console, bool output_in_place=True)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>bittensor.utils.registration.RegistrationStatisticsLogger.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>rich_console.Console</type>
+          <declname>console</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>output_in_place</declname>
+          <defval>True</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/registration.py" line="341" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/registration.py" bodystart="341" bodyend="348"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1utils_1_1registration_1_1_registration_statistics_logger_1a3b0f578be0836c9d239f52714fce9735" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None bittensor.utils.registration.RegistrationStatisticsLogger.start</definition>
+        <argsstring>(self)</argsstring>
+        <name>start</name>
+        <qualifiedname>bittensor.utils.registration.RegistrationStatisticsLogger.start</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/registration.py" line="349" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/registration.py" bodystart="349" bodyend="352"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1utils_1_1registration_1_1_registration_statistics_logger_1a4492e3b34a1ab99e2a3458969b0bf8cd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None bittensor.utils.registration.RegistrationStatisticsLogger.stop</definition>
+        <argsstring>(self)</argsstring>
+        <name>stop</name>
+        <qualifiedname>bittensor.utils.registration.RegistrationStatisticsLogger.stop</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/registration.py" line="353" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/registration.py" bodystart="353" bodyend="357"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1utils_1_1registration_1_1_registration_statistics_logger_1a413913a29ac5718515fa2569b0542095" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str bittensor.utils.registration.RegistrationStatisticsLogger.get_status_message</definition>
+        <argsstring>(cls, RegistrationStatistics stats, bool verbose=False)</argsstring>
+        <name>get_status_message</name>
+        <qualifiedname>bittensor.utils.registration.RegistrationStatisticsLogger.get_status_message</qualifiedname>
+        <param>
+          <type>cls</type>
+          <defname>cls</defname>
+        </param>
+        <param>
+          <type><ref refid="classbittensor_1_1utils_1_1registration_1_1_registration_statistics" kindref="compound">RegistrationStatistics</ref></type>
+          <declname>stats</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>verbose</declname>
+          <defval>False</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/registration.py" line="358" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/registration.py" bodystart="358" bodyend="373"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1utils_1_1registration_1_1_registration_statistics_logger_1ad2a574604cebc505e304170dcb11c50e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None bittensor.utils.registration.RegistrationStatisticsLogger.update</definition>
+        <argsstring>(self, RegistrationStatistics stats, bool verbose=False)</argsstring>
+        <name>update</name>
+        <qualifiedname>bittensor.utils.registration.RegistrationStatisticsLogger.update</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classbittensor_1_1utils_1_1registration_1_1_registration_statistics" kindref="compound">RegistrationStatistics</ref></type>
+          <declname>stats</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>verbose</declname>
+          <defval>False</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/registration.py" line="374" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/registration.py" bodystart="374" bodyend="380"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Logs statistics for a registration.</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>bittensor.utils.registration.RegistrationStatisticsLogger</label>
+        <link refid="classbittensor_1_1utils_1_1registration_1_1_registration_statistics_logger"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>status</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Optional</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/macthrasher/bittensor/bittensor/utils/registration.py" line="336" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/registration.py" bodystart="336" bodyend="380"/>
+    <listofallmembers>
+      <member refid="classbittensor_1_1utils_1_1registration_1_1_registration_statistics_logger_1ac52139ae9a09d82ea241ce5fc5c88c96" prot="public" virt="non-virtual"><scope>bittensor::utils::registration::RegistrationStatisticsLogger</scope><name>__init__</name></member>
+      <member refid="classbittensor_1_1utils_1_1registration_1_1_registration_statistics_logger_1a6963bd1b13b6d6e87fe576056ca77ece" prot="public" virt="non-virtual"><scope>bittensor::utils::registration::RegistrationStatisticsLogger</scope><name>console</name></member>
+      <member refid="classbittensor_1_1utils_1_1registration_1_1_registration_statistics_logger_1ac78679aa39d73d467e9a1b3f1d53d82f" prot="public" virt="non-virtual"><scope>bittensor::utils::registration::RegistrationStatisticsLogger</scope><name>console</name></member>
+      <member refid="classbittensor_1_1utils_1_1registration_1_1_registration_statistics_logger_1a413913a29ac5718515fa2569b0542095" prot="public" virt="non-virtual"><scope>bittensor::utils::registration::RegistrationStatisticsLogger</scope><name>get_status_message</name></member>
+      <member refid="classbittensor_1_1utils_1_1registration_1_1_registration_statistics_logger_1a3b0f578be0836c9d239f52714fce9735" prot="public" virt="non-virtual"><scope>bittensor::utils::registration::RegistrationStatisticsLogger</scope><name>start</name></member>
+      <member refid="classbittensor_1_1utils_1_1registration_1_1_registration_statistics_logger_1a36d7a1572884c966d9a2e0249baebeda" prot="public" virt="non-virtual"><scope>bittensor::utils::registration::RegistrationStatisticsLogger</scope><name>status</name></member>
+      <member refid="classbittensor_1_1utils_1_1registration_1_1_registration_statistics_logger_1abb7f722834fc112bfb567b67ea4ca50c" prot="public" virt="non-virtual"><scope>bittensor::utils::registration::RegistrationStatisticsLogger</scope><name>status</name></member>
+      <member refid="classbittensor_1_1utils_1_1registration_1_1_registration_statistics_logger_1a4492e3b34a1ab99e2a3458969b0bf8cd" prot="public" virt="non-virtual"><scope>bittensor::utils::registration::RegistrationStatisticsLogger</scope><name>stop</name></member>
+      <member refid="classbittensor_1_1utils_1_1registration_1_1_registration_statistics_logger_1ad2a574604cebc505e304170dcb11c50e" prot="public" virt="non-virtual"><scope>bittensor::utils::registration::RegistrationStatisticsLogger</scope><name>update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

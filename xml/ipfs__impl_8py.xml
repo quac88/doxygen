@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="ipfs__impl_8py" kind="file" language="Python">
+    <compoundname>ipfs_impl.py</compoundname>
+    <innerclass refid="classbittensor_1_1__ipfs_1_1ipfs__impl_1_1_ipfs" prot="public">bittensor::_ipfs::ipfs_impl::Ipfs</innerclass>
+    <innernamespace refid="namespacebittensor">bittensor</innernamespace>
+    <innernamespace refid="namespacebittensor_1_1__ipfs">bittensor::_ipfs</innernamespace>
+    <innernamespace refid="namespacebittensor_1_1__ipfs_1_1ipfs__impl">bittensor::_ipfs::ipfs_impl</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/>socket<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>timeout</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/>requests.adapters<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>HTTPAdapter</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/>requests.packages.urllib3.util.retry<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>Retry</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>requests</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7" refid="classbittensor_1_1__ipfs_1_1ipfs__impl_1_1_ipfs" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classbittensor_1_1__ipfs_1_1ipfs__impl_1_1_ipfs" kindref="compound">Ipfs</ref>():</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;&quot;&quot;<sp/>Implementation<sp/>for<sp/>the<sp/>dataset<sp/>class,<sp/>which<sp/>handles<sp/>dataloading<sp/>from<sp/>ipfs</highlight></codeline>
+<codeline lineno="9"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>&quot;&quot;&quot;</highlight></codeline>
+<codeline lineno="10"><highlight class="stringliteral"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal">__init__(self):</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">#<sp/>Used<sp/>to<sp/>retrieve<sp/>directory<sp/>contentx</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.<ref refid="classbittensor_1_1__ipfs_1_1ipfs__impl_1_1_ipfs_1adf8015010ff73aa00001f8fd12348970" kindref="member">cat</ref><sp/>=<sp/></highlight><highlight class="stringliteral">&apos;http://global.ipfs.opentensor.ai/api/v0/cat&apos;</highlight><highlight class="normal"><sp/></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.<ref refid="classbittensor_1_1__ipfs_1_1ipfs__impl_1_1_ipfs_1a55a93ed160283dfda3dbeec925d32547" kindref="member">node_get</ref><sp/>=<sp/></highlight><highlight class="stringliteral">&apos;http://global.ipfs.opentensor.ai/api/v0/object/get&apos;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.<ref refid="classbittensor_1_1__ipfs_1_1ipfs__impl_1_1_ipfs_1a513327d6de3253324f56808bd26a93b9" kindref="member">ipns_resolve</ref><sp/>=<sp/></highlight><highlight class="stringliteral">&apos;http://global.ipfs.opentensor.ai/api/v0/name/resolve&apos;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.<ref refid="classbittensor_1_1__ipfs_1_1ipfs__impl_1_1_ipfs_1a126094b31bdea74b69c8541b6ee5da6d" kindref="member">mountain_hash</ref><sp/>=<sp/></highlight><highlight class="stringliteral">&apos;QmSdDg6V9dgpdAFtActs75Qfc36qJtm9y8a7yrQ1rHm7ZX&apos;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.<ref refid="classbittensor_1_1__ipfs_1_1ipfs__impl_1_1_ipfs_1a5b302d45d46a9b6d4b09fb5df934f1d8" kindref="member">latest_neurons_ipns</ref><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;k51qzi5uqu5di1eoe0o91g32tbfsgikva6mvz0jw0414zhxzhiakana67shoh7&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.<ref refid="classbittensor_1_1__ipfs_1_1ipfs__impl_1_1_ipfs_1a7d0676ccdf952a0049697b452b2294ea" kindref="member">historical_neurons_ipns</ref><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;k51qzi5uqu5dhf5yxm3kqw9hyrv28q492p3t32s23059z911a23l30ai6ziceh&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">#<sp/>Used<sp/>when<sp/>current<sp/>corpus<sp/>has<sp/>been<sp/>exhausted</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.<ref refid="classbittensor_1_1__ipfs_1_1ipfs__impl_1_1_ipfs_1ad71ed522d8e02f5714f36e1e81d2d6a3" kindref="member">refresh_corpus</ref><sp/>=<sp/></highlight><highlight class="keyword">False</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="preprocessor">@staticmethod</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="classbittensor_1_1__ipfs_1_1ipfs__impl_1_1_ipfs_1a16cda134ae7787ea37f9718a9e260c64" kindref="member">requests_retry_session</ref>(</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>retries=1,</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>backoff_factor=0.5,</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>status_forcelist=(104,<sp/>500,<sp/>502,<sp/>504),</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>session=</highlight><highlight class="keywordtype">None</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>):</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;&quot;&quot;<sp/>Creates<sp/>a<sp/>retriable<sp/>session<sp/>for<sp/>request<sp/>calls.<sp/>This<sp/>enables</highlight></codeline>
+<codeline lineno="32"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>automatic<sp/>retries<sp/></highlight><highlight class="keywordflow">and</highlight><highlight class="normal"><sp/>back-off<sp/>retries<sp/>should<sp/>any<sp/>request<sp/>calls<sp/>fail.</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Args:</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>retries<sp/>(int,<sp/>optional):<sp/>Maximum<sp/>number<sp/>of<sp/>retries.<sp/>Defaults<sp/>to<sp/>3.</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>backoff_factor<sp/>(float,<sp/>optional):<sp/>Factor<sp/>by<sp/>which<sp/>to<sp/>back<sp/>off<sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>a<sp/>retry<sp/>fails.<sp/>Defaults<sp/>to<sp/>0.3.</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>status_forcelist<sp/>(tuple,<sp/>optional):<sp/>A<sp/>set<sp/>of<sp/>integer<sp/>HTTP<sp/>status<sp/>codes<sp/>that<sp/>we<sp/>should<sp/>force<sp/>a<sp/>retry<sp/>on.<sp/>Defaults<sp/>to<sp/>(500,<sp/>502,<sp/>504).</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>session<sp/>([type],<sp/>optional):<sp/>Session<sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>which<sp/>to<sp/>set<sp/>up<sp/>the<sp/>retries.<sp/>Defaults<sp/>to<sp/></highlight><highlight class="keywordtype">None</highlight><highlight class="normal">.</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Returns:</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>requests.Session():<sp/>A<sp/>Requests<sp/>Session<sp/>object<sp/>set<sp/>up<sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>retries<sp/></highlight><highlight class="keywordflow">and</highlight><highlight class="normal"><sp/>backoff.</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;&quot;&quot;</highlight></codeline>
+<codeline lineno="43"><highlight class="stringliteral"></highlight></codeline>
+<codeline lineno="44"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>session<sp/>=<sp/>session<sp/></highlight><highlight class="keywordflow">or</highlight><highlight class="normal"><sp/>requests.Session()</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>retry<sp/>=<sp/>Retry(</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>total=retries,</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>read=retries,</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>connect=retries,</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>backoff_factor=backoff_factor,</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>status_forcelist=status_forcelist,</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>)</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>adapter<sp/>=<sp/>HTTPAdapter(max_retries=retry)</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>session.mount(</highlight><highlight class="stringliteral">&apos;http://&apos;</highlight><highlight class="normal">,<sp/>adapter)</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>session.mount(</highlight><highlight class="stringliteral">&apos;https://&apos;</highlight><highlight class="normal">,<sp/>adapter)</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>session</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="classbittensor_1_1__ipfs_1_1ipfs__impl_1_1_ipfs_1a4f0654421ddc4e28d38c1f512b041d45" kindref="member">retrieve_directory</ref>(self,<sp/>address:<sp/>str,<sp/>params<sp/>=<sp/></highlight><highlight class="keywordtype">None</highlight><highlight class="normal">,<sp/>action:<sp/>str<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;post&apos;</highlight><highlight class="normal">,<sp/>timeout:<sp/>int<sp/>=<sp/>180):</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">r&quot;&quot;&quot;Connects<sp/>to<sp/>Pinata<sp/>IPFS<sp/>gateway<sp/>and<sp/>retrieves<sp/>directory.</highlight></codeline>
+<codeline lineno="59"><highlight class="stringliteral"></highlight></codeline>
+<codeline lineno="60"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Returns:</highlight></codeline>
+<codeline lineno="61"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>dict:<sp/>A<sp/>dictionary<sp/>of<sp/>the<sp/>files<sp/>inside<sp/>of<sp/>the<sp/>genesis_datasets<sp/></highlight><highlight class="keywordflow">and</highlight><highlight class="normal"><sp/>their<sp/>hashes.</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;&quot;&quot;</highlight></codeline>
+<codeline lineno="63"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>session<sp/>=<sp/>requests.Session()</highlight></codeline>
+<codeline lineno="64"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>session.params.update(params)</highlight></codeline>
+<codeline lineno="65"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>action<sp/>==<sp/></highlight><highlight class="stringliteral">&apos;get&apos;</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>response<sp/>=<sp/>Ipfs.requests_retry_session(session=session).get(address,<sp/>timeout=timeout)</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">elif</highlight><highlight class="normal"><sp/>action<sp/>==<sp/></highlight><highlight class="stringliteral">&apos;post&apos;</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>response<sp/>=<sp/>Ipfs.requests_retry_session(session=session).post(address,<sp/>timeout=timeout)</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>response</highlight></codeline>
+    </programlisting>
+    <location file="/Users/macthrasher/bittensor/bittensor/_ipfs/ipfs_impl.py"/>
+  </compounddef>
+</doxygen>

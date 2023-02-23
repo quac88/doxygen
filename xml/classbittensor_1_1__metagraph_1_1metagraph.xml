@@ -1,0 +1,186 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="classbittensor_1_1__metagraph_1_1metagraph" kind="class" language="Python" prot="public">
+    <compoundname>bittensor::_metagraph::metagraph</compoundname>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classbittensor_1_1__metagraph_1_1metagraph_1ab5b2035d804bf82b025d8408980455c8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type> &apos;<ref refid="classbittensor_1_1__metagraph_1_1metagraph__impl_1_1_metagraph" kindref="compound">bittensor.Metagraph</ref>&apos;</type>
+        <definition> &apos;bittensor.Metagraph&apos; bittensor._metagraph.metagraph.__new__</definition>
+        <argsstring>(cls, &apos;bittensor.config&apos; config=None, &apos;bittensor.Subtensor&apos; subtensor=None, str network=None, str chain_endpoint=None, bool _mock=None)</argsstring>
+        <name>__new__</name>
+        <qualifiedname>bittensor._metagraph.metagraph.__new__</qualifiedname>
+        <param>
+          <type>cls</type>
+          <defname>cls</defname>
+        </param>
+        <param>
+          <type>&apos;<ref refid="classbittensor_1_1__config_1_1config" kindref="compound">bittensor.config</ref>&apos;</type>
+          <declname>config</declname>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type>&apos;<ref refid="classbittensor_1_1__subtensor_1_1subtensor__impl_1_1_subtensor" kindref="compound">bittensor.Subtensor</ref>&apos;</type>
+          <declname>subtensor</declname>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>network</declname>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>chain_endpoint</declname>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>_mock</declname>
+          <defval>None</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Creates a new bittensor.Metagraph object from passed arguments.
+        Args:
+            config (:obj:`bittensor.Config`, `optional`): 
+                bittensor.metagraph.config()
+            subtensor (:obj:`bittensor.Subtensor`, `optional`): 
+                bittensor subtensor chain connection.
+            network (default=&apos;local&apos;, type=str)
+                The subtensor network flag. The likely choices are:
+                        -- nobunaga (staging network)
+                        -- nakamoto (main network)
+                        -- local (local running network)
+                If this option is set it overloads subtensor.chain_endpoint with 
+                an entry point node from that network.
+            chain_endpoint (default=None, type=str)
+                The subtensor endpoint flag. If set, overrides the network argument.
+            _mock (:obj:`bool`, `optional`):
+                For testing, if true the metagraph returns mocked outputs.</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_metagraph/__init__.py" line="39" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_metagraph/__init__.py" bodystart="46" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__metagraph_1_1metagraph_1a8b94e1702e4e0deb345284878f115dd9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type> &apos;<ref refid="classbittensor_1_1__config_1_1config__impl_1_1_config" kindref="compound">bittensor.Config</ref>&apos;</type>
+        <definition> &apos;bittensor.Config&apos; bittensor._metagraph.metagraph.config</definition>
+        <argsstring>(cls)</argsstring>
+        <name>config</name>
+        <qualifiedname>bittensor._metagraph.metagraph.config</qualifiedname>
+        <param>
+          <type>cls</type>
+          <defname>cls</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Get config from teh argument parser
+Return: bittensor.config object
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_metagraph/__init__.py" line="76" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_metagraph/__init__.py" bodystart="76" bodyend="83"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__metagraph_1_1metagraph_1a60312264f9c16fd14d40fadceaf7cc3c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._metagraph.metagraph.help</definition>
+        <argsstring>(cls)</argsstring>
+        <name>help</name>
+        <qualifiedname>bittensor._metagraph.metagraph.help</qualifiedname>
+        <param>
+          <type>cls</type>
+          <defname>cls</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Print help to stdout
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_metagraph/__init__.py" line="85" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_metagraph/__init__.py" bodystart="85" bodyend="92"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__metagraph_1_1metagraph_1a256c4780fd08c591fb2e630f7e4cff37" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._metagraph.metagraph.add_args</definition>
+        <argsstring>(cls, argparse.ArgumentParser parser, str prefix=None)</argsstring>
+        <name>add_args</name>
+        <qualifiedname>bittensor._metagraph.metagraph.add_args</qualifiedname>
+        <param>
+          <type>cls</type>
+          <defname>cls</defname>
+        </param>
+        <param>
+          <type>argparse.ArgumentParser</type>
+          <declname>parser</declname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>prefix</declname>
+          <defval>None</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Add specific arguments from parser, 
+which is the identical to subtensor  
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_metagraph/__init__.py" line="94" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_metagraph/__init__.py" bodystart="94" bodyend="106"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__metagraph_1_1metagraph_1ab7eaaa11a5bbce23d8b0b428dcbff0cd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._metagraph.metagraph.check_config</definition>
+        <argsstring>(cls, &apos;bittensor.Config&apos; config)</argsstring>
+        <name>check_config</name>
+        <qualifiedname>bittensor._metagraph.metagraph.check_config</qualifiedname>
+        <param>
+          <type>cls</type>
+          <defname>cls</defname>
+        </param>
+        <param>
+          <type>&apos;<ref refid="classbittensor_1_1__config_1_1config__impl_1_1_config" kindref="compound">bittensor.Config</ref>&apos;</type>
+          <declname>config</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Check config,
+which is identical to subtensor
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_metagraph/__init__.py" line="108" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_metagraph/__init__.py" bodystart="108" bodyend="113"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim> Factory class for the bittensor.Metagraph class or the MockMetagraph
+The Metagraph object serves as the main storage unit for the chain state. 
+By default, it stores all chain information as a torch.nn.Module which can be
+synced using a subtensor connection.
+
+Examples:: 
+        &gt;&gt;&gt; subtensor = bittensor.subtensor(network=&apos;nakamoto&apos;)
+        &gt;&gt;&gt; metagraph = bittensor.metagraph(subtensor=subtensor)
+        &gt;&gt;&gt; metagraph.sync()
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/Users/macthrasher/bittensor/bittensor/_metagraph/__init__.py" line="28" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_metagraph/__init__.py" bodystart="28" bodyend="113"/>
+    <listofallmembers>
+      <member refid="classbittensor_1_1__metagraph_1_1metagraph_1ab5b2035d804bf82b025d8408980455c8" prot="public" virt="non-virtual"><scope>bittensor::_metagraph::metagraph</scope><name>__new__</name></member>
+      <member refid="classbittensor_1_1__metagraph_1_1metagraph_1a256c4780fd08c591fb2e630f7e4cff37" prot="public" virt="non-virtual"><scope>bittensor::_metagraph::metagraph</scope><name>add_args</name></member>
+      <member refid="classbittensor_1_1__metagraph_1_1metagraph_1ab7eaaa11a5bbce23d8b0b428dcbff0cd" prot="public" virt="non-virtual"><scope>bittensor::_metagraph::metagraph</scope><name>check_config</name></member>
+      <member refid="classbittensor_1_1__metagraph_1_1metagraph_1a8b94e1702e4e0deb345284878f115dd9" prot="public" virt="non-virtual"><scope>bittensor::_metagraph::metagraph</scope><name>config</name></member>
+      <member refid="classbittensor_1_1__metagraph_1_1metagraph_1a60312264f9c16fd14d40fadceaf7cc3c" prot="public" virt="non-virtual"><scope>bittensor::_metagraph::metagraph</scope><name>help</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

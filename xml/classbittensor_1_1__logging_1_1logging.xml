@@ -1,0 +1,764 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="classbittensor_1_1__logging_1_1logging" kind="class" language="Python" prot="public">
+    <compoundname>bittensor::_logging::logging</compoundname>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classbittensor_1_1__logging_1_1logging_1ac9b68e7c4aca84d497d65a942d0da387" prot="private" static="yes" mutable="no">
+        <type>bool</type>
+        <definition>bool bittensor._logging.logging::__has_been_inited__</definition>
+        <argsstring></argsstring>
+        <name>__has_been_inited__</name>
+        <qualifiedname>bittensor._logging.logging.__has_been_inited__</qualifiedname>
+        <initializer>=  False</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_logging/__init__.py" line="42" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_logging/__init__.py" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__logging_1_1logging_1a63e800d391465f9015075de04c7deab0" prot="private" static="yes" mutable="no">
+        <type>bool</type>
+        <definition>bool bittensor._logging.logging::__debug_on__</definition>
+        <argsstring></argsstring>
+        <name>__debug_on__</name>
+        <qualifiedname>bittensor._logging.logging.__debug_on__</qualifiedname>
+        <initializer>=  False</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_logging/__init__.py" line="43" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_logging/__init__.py" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__logging_1_1logging_1a51f61ec573b6bdb3066ab981d3c14f5f" prot="private" static="yes" mutable="no">
+        <type>bool</type>
+        <definition>bool bittensor._logging.logging::__trace_on__</definition>
+        <argsstring></argsstring>
+        <name>__trace_on__</name>
+        <qualifiedname>bittensor._logging.logging.__trace_on__</qualifiedname>
+        <initializer>=  False</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_logging/__init__.py" line="44" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_logging/__init__.py" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__logging_1_1logging_1a63a47c29f7d24c06b3d8f694bdfcacf3" prot="private" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int bittensor._logging.logging::__std_sink__</definition>
+        <argsstring></argsstring>
+        <name>__std_sink__</name>
+        <qualifiedname>bittensor._logging.logging.__std_sink__</qualifiedname>
+        <initializer>=  None</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_logging/__init__.py" line="45" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_logging/__init__.py" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__logging_1_1logging_1a249a3732c5a32bd17b60a78712fc5018" prot="private" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int bittensor._logging.logging::__file_sink__</definition>
+        <argsstring></argsstring>
+        <name>__file_sink__</name>
+        <qualifiedname>bittensor._logging.logging.__file_sink__</qualifiedname>
+        <initializer>=  None</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_logging/__init__.py" line="46" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_logging/__init__.py" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classbittensor_1_1__logging_1_1logging_1a4d6cb9518a8aaa6d5fda653350416bea" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._logging.logging::__has_been_inited__</definition>
+        <argsstring></argsstring>
+        <name>__has_been_inited__</name>
+        <qualifiedname>bittensor._logging.logging.__has_been_inited__</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_logging/__init__.py" line="70" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_logging/__init__.py" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__logging_1_1logging_1a1a16418aa060a73dc7eea4b04ffcf153" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._logging.logging::__std_sink__</definition>
+        <argsstring></argsstring>
+        <name>__std_sink__</name>
+        <qualifiedname>bittensor._logging.logging.__std_sink__</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_logging/__init__.py" line="93" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_logging/__init__.py" bodystart="93" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__logging_1_1logging_1ab14ab52b3400fea7d3a1280e3bed592a" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._logging.logging::__file_sink__</definition>
+        <argsstring></argsstring>
+        <name>__file_sink__</name>
+        <qualifiedname>bittensor._logging.logging.__file_sink__</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_logging/__init__.py" line="109" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_logging/__init__.py" bodystart="109" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__logging_1_1logging_1a232b3cd305c7503da73c4654b5347a61" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._logging.logging::__debug_on__</definition>
+        <argsstring></argsstring>
+        <name>__debug_on__</name>
+        <qualifiedname>bittensor._logging.logging.__debug_on__</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_logging/__init__.py" line="176" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_logging/__init__.py" bodystart="176" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__logging_1_1logging_1a13a776a30e8b45c4d969300a207761bc" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._logging.logging::__trace_on__</definition>
+        <argsstring></argsstring>
+        <name>__trace_on__</name>
+        <qualifiedname>bittensor._logging.logging.__trace_on__</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_logging/__init__.py" line="188" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_logging/__init__.py" bodystart="188" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classbittensor_1_1__logging_1_1logging_1ab3c967ee33d0922ba0c4b7fd54819a56" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._logging.logging.__new__</definition>
+        <argsstring>(cls, &apos;bittensor.Config&apos; config=None, bool debug=None, bool trace=None, bool record_log=None, str logging_dir=None)</argsstring>
+        <name>__new__</name>
+        <qualifiedname>bittensor._logging.logging.__new__</qualifiedname>
+        <param>
+          <type>cls</type>
+          <defname>cls</defname>
+        </param>
+        <param>
+          <type>&apos;<ref refid="classbittensor_1_1__config_1_1config__impl_1_1_config" kindref="compound">bittensor.Config</ref>&apos;</type>
+          <declname>config</declname>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>debug</declname>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>trace</declname>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>record_log</declname>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>logging_dir</declname>
+          <defval>None</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Instantiate bittensor logging system backend.
+        Args:
+            config (:obj:`bittensor.Config`, `optional`): 
+                bittensor.logging.config()
+            debug (:obj:`bool`, `optional`):
+                Turn on debug.
+            trace (:obj:`bool`, `optional`):
+                Turn on trace.
+            record_log (:obj:`bool`, `optional`):
+                If true, logs are saved to loggind dir.
+            logging_dir (:obj:`str`, `optional`):
+                Directory where logs are sunk. </verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_logging/__init__.py" line="48" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_logging/__init__.py" bodystart="55" bodyend="121"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__logging_1_1logging_1ac77d64a20b44564f6c9899c212af3a15" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._logging.logging.config</definition>
+        <argsstring>(cls)</argsstring>
+        <name>config</name>
+        <qualifiedname>bittensor._logging.logging.config</qualifiedname>
+        <param>
+          <type>cls</type>
+          <defname>cls</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Get config from the argument parser
+    Return: bittensor.config object
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_logging/__init__.py" line="123" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_logging/__init__.py" bodystart="123" bodyend="130"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__logging_1_1logging_1a2ed6539be7f75fda81d7f82a8dd5f967" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._logging.logging.help</definition>
+        <argsstring>(cls)</argsstring>
+        <name>help</name>
+        <qualifiedname>bittensor._logging.logging.help</qualifiedname>
+        <param>
+          <type>cls</type>
+          <defname>cls</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Print help to stdout
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_logging/__init__.py" line="132" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_logging/__init__.py" bodystart="132" bodyend="139"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__logging_1_1logging_1a2e003cfd2803110d2958b78006432176" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._logging.logging.add_args</definition>
+        <argsstring>(cls, argparse.ArgumentParser parser, str prefix=None)</argsstring>
+        <name>add_args</name>
+        <qualifiedname>bittensor._logging.logging.add_args</qualifiedname>
+        <param>
+          <type>cls</type>
+          <defname>cls</defname>
+        </param>
+        <param>
+          <type>argparse.ArgumentParser</type>
+          <declname>parser</declname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>prefix</declname>
+          <defval>None</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Accept specific arguments fro parser
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_logging/__init__.py" line="141" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_logging/__init__.py" bodystart="141" bodyend="153"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__logging_1_1logging_1ac9f9b9f53ba564c9a5cf43ba70cba448" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._logging.logging.add_defaults</definition>
+        <argsstring>(cls, defaults)</argsstring>
+        <name>add_defaults</name>
+        <qualifiedname>bittensor._logging.logging.add_defaults</qualifiedname>
+        <param>
+          <type>cls</type>
+          <defname>cls</defname>
+        </param>
+        <param>
+          <type>defaults</type>
+          <defname>defaults</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Adds parser defaults to object from enviroment variables.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_logging/__init__.py" line="155" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_logging/__init__.py" bodystart="155" bodyend="163"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__logging_1_1logging_1a3a5967e0ae367d00dfb0bb7af0ff0c83" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._logging.logging.check_config</definition>
+        <argsstring>(cls, &apos;bittensor.Config&apos; config)</argsstring>
+        <name>check_config</name>
+        <qualifiedname>bittensor._logging.logging.check_config</qualifiedname>
+        <param>
+          <type>cls</type>
+          <defname>cls</defname>
+        </param>
+        <param>
+          <type>&apos;<ref refid="classbittensor_1_1__config_1_1config__impl_1_1_config" kindref="compound">bittensor.Config</ref>&apos;</type>
+          <declname>config</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Check config
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_logging/__init__.py" line="165" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_logging/__init__.py" bodystart="165" bodyend="169"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__logging_1_1logging_1abf0e1a127d746978fca5a95bd9c59255" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._logging.logging.set_debug</definition>
+        <argsstring>(cls, bool debug_on=True)</argsstring>
+        <name>set_debug</name>
+        <qualifiedname>bittensor._logging.logging.set_debug</qualifiedname>
+        <param>
+          <type>cls</type>
+          <defname>cls</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>debug_on</declname>
+          <defval>True</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Set debug for the specific cls class 
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_logging/__init__.py" line="171" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_logging/__init__.py" bodystart="171" bodyend="181"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__logging_1_1logging_1aaf642e633c12a2ab90f38e05e3a7ef5c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._logging.logging.set_trace</definition>
+        <argsstring>(cls, bool trace_on=True)</argsstring>
+        <name>set_trace</name>
+        <qualifiedname>bittensor._logging.logging.set_trace</qualifiedname>
+        <param>
+          <type>cls</type>
+          <defname>cls</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>trace_on</declname>
+          <defval>True</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Set trace back for the specific cls class 
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_logging/__init__.py" line="183" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_logging/__init__.py" bodystart="183" bodyend="193"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__logging_1_1logging_1aadf0cb47f3aa973fc61da41a9c430a9a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._logging.logging.log_filter</definition>
+        <argsstring>(cls, record)</argsstring>
+        <name>log_filter</name>
+        <qualifiedname>bittensor._logging.logging.log_filter</qualifiedname>
+        <param>
+          <type>cls</type>
+          <defname>cls</defname>
+        </param>
+        <param>
+          <type>record</type>
+          <defname>record</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Filter out debug log if debug is not on
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_logging/__init__.py" line="195" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_logging/__init__.py" bodystart="195" bodyend="202"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__logging_1_1logging_1ad02edaf38a0486123913fd2150856976" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._logging.logging.log_save_filter</definition>
+        <argsstring>(cls, record)</argsstring>
+        <name>log_save_filter</name>
+        <qualifiedname>bittensor._logging.logging.log_save_filter</qualifiedname>
+        <param>
+          <type>cls</type>
+          <defname>cls</defname>
+        </param>
+        <param>
+          <type>record</type>
+          <defname>record</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_logging/__init__.py" line="204" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_logging/__init__.py" bodystart="204" bodyend="209"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__logging_1_1logging_1a9bbaaa7af91c6bd82c3071f2360fa856" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._logging.logging.log_formatter</definition>
+        <argsstring>(cls, record)</argsstring>
+        <name>log_formatter</name>
+        <qualifiedname>bittensor._logging.logging.log_formatter</qualifiedname>
+        <param>
+          <type>cls</type>
+          <defname>cls</defname>
+        </param>
+        <param>
+          <type>record</type>
+          <defname>record</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Log with different format according to record[&apos;extra&apos;]
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_logging/__init__.py" line="211" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_logging/__init__.py" bodystart="211" bodyend="227"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__logging_1_1logging_1a07c20365564888060e9dd1a58be16528" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._logging.logging.log_save_formatter</definition>
+        <argsstring>(cls, record)</argsstring>
+        <name>log_save_formatter</name>
+        <qualifiedname>bittensor._logging.logging.log_save_formatter</qualifiedname>
+        <param>
+          <type>cls</type>
+          <defname>cls</defname>
+        </param>
+        <param>
+          <type>record</type>
+          <defname>record</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_logging/__init__.py" line="229" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_logging/__init__.py" bodystart="229" bodyend="243"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__logging_1_1logging_1a4ad62ad68f4447ddb6aec4d5ef7d0478" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._logging.logging.rpc_log</definition>
+        <argsstring>(cls, bool axon, bool forward, bool is_response, int code, float call_time, str pubkey, int uid=None, list inputs=None, list outputs=None, str message=&apos;&apos;, &apos;bittensor.Synapse&apos; synapse=None)</argsstring>
+        <name>rpc_log</name>
+        <qualifiedname>bittensor._logging.logging.rpc_log</qualifiedname>
+        <param>
+          <type>cls</type>
+          <defname>cls</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>axon</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>forward</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_response</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>code</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>call_time</declname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>pubkey</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>uid</declname>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type>list</type>
+          <declname>inputs</declname>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type>list</type>
+          <declname>outputs</declname>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>message</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <param>
+          <type>&apos;<ref refid="classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse" kindref="compound">bittensor.Synapse</ref>&apos;</type>
+          <declname>synapse</declname>
+          <defval>None</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Debug logging for the communication between endpoints with axon/dendrite 
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_logging/__init__.py" line="245" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_logging/__init__.py" bodystart="258" bodyend="317"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__logging_1_1logging_1a11f6abdeeccd006aa5995b6f28a617ce" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._logging.logging.create_receptor_log</definition>
+        <argsstring>(cls, &apos;bittensor.Endpoint&apos; endpoint)</argsstring>
+        <name>create_receptor_log</name>
+        <qualifiedname>bittensor._logging.logging.create_receptor_log</qualifiedname>
+        <param>
+          <type>cls</type>
+          <defname>cls</defname>
+        </param>
+        <param>
+          <type>&apos;<ref refid="classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint" kindref="compound">bittensor.Endpoint</ref>&apos;</type>
+          <declname>endpoint</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Debug logging for the connection between endpoints 
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_logging/__init__.py" line="319" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_logging/__init__.py" bodystart="319" bodyend="323"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__logging_1_1logging_1a1103e107f5a1ed33895808b15473b306" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._logging.logging.update_receptor_log</definition>
+        <argsstring>(cls, &apos;bittensor.Endpoint&apos; endpoint)</argsstring>
+        <name>update_receptor_log</name>
+        <qualifiedname>bittensor._logging.logging.update_receptor_log</qualifiedname>
+        <param>
+          <type>cls</type>
+          <defname>cls</defname>
+        </param>
+        <param>
+          <type>&apos;<ref refid="classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint" kindref="compound">bittensor.Endpoint</ref>&apos;</type>
+          <declname>endpoint</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Debug logging for updating the connection with endpoint
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_logging/__init__.py" line="325" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_logging/__init__.py" bodystart="325" bodyend="329"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__logging_1_1logging_1afd3c989d7e0d0ddebbe5b44bc82a5a5e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._logging.logging.destroy_receptor_log</definition>
+        <argsstring>(cls, &apos;bittensor.Endpoint&apos; endpoint)</argsstring>
+        <name>destroy_receptor_log</name>
+        <qualifiedname>bittensor._logging.logging.destroy_receptor_log</qualifiedname>
+        <param>
+          <type>cls</type>
+          <defname>cls</defname>
+        </param>
+        <param>
+          <type>&apos;<ref refid="classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint" kindref="compound">bittensor.Endpoint</ref>&apos;</type>
+          <declname>endpoint</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Debug logging for destroying connection with endpoint
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_logging/__init__.py" line="331" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_logging/__init__.py" bodystart="331" bodyend="335"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__logging_1_1logging_1a4540ca5606ef6f1a32912b9300c970f4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._logging.logging.success</definition>
+        <argsstring>(cls, str prefix, str sufix)</argsstring>
+        <name>success</name>
+        <qualifiedname>bittensor._logging.logging.success</qualifiedname>
+        <param>
+          <type>cls</type>
+          <defname>cls</defname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>prefix</declname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>sufix</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Success logging 
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_logging/__init__.py" line="337" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_logging/__init__.py" bodystart="337" bodyend="346"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__logging_1_1logging_1aa6703c1ae9b6f3d66f10495195375c16" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._logging.logging.warning</definition>
+        <argsstring>(cls, str prefix, str sufix)</argsstring>
+        <name>warning</name>
+        <qualifiedname>bittensor._logging.logging.warning</qualifiedname>
+        <param>
+          <type>cls</type>
+          <defname>cls</defname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>prefix</declname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>sufix</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Warning logging
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_logging/__init__.py" line="348" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_logging/__init__.py" bodystart="348" bodyend="357"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__logging_1_1logging_1afe2a3d20041f811c28ecfb229b8d854d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._logging.logging.error</definition>
+        <argsstring>(cls, str prefix, str sufix)</argsstring>
+        <name>error</name>
+        <qualifiedname>bittensor._logging.logging.error</qualifiedname>
+        <param>
+          <type>cls</type>
+          <defname>cls</defname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>prefix</declname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>sufix</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Error logging
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_logging/__init__.py" line="359" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_logging/__init__.py" bodystart="359" bodyend="368"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__logging_1_1logging_1af3fc68595e163f44002a5fec27d97c5a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._logging.logging.info</definition>
+        <argsstring>(cls, str prefix, str sufix)</argsstring>
+        <name>info</name>
+        <qualifiedname>bittensor._logging.logging.info</qualifiedname>
+        <param>
+          <type>cls</type>
+          <defname>cls</defname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>prefix</declname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>sufix</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Info logging
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_logging/__init__.py" line="370" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_logging/__init__.py" bodystart="370" bodyend="379"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim> Standardize logging for bittensor
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/Users/macthrasher/bittensor/bittensor/_logging/__init__.py" line="39" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_logging/__init__.py" bodystart="39" bodyend="379"/>
+    <listofallmembers>
+      <member refid="classbittensor_1_1__logging_1_1logging_1a63e800d391465f9015075de04c7deab0" prot="private" virt="non-virtual"><scope>bittensor::_logging::logging</scope><name>__debug_on__</name></member>
+      <member refid="classbittensor_1_1__logging_1_1logging_1a232b3cd305c7503da73c4654b5347a61" prot="private" virt="non-virtual"><scope>bittensor::_logging::logging</scope><name>__debug_on__</name></member>
+      <member refid="classbittensor_1_1__logging_1_1logging_1a249a3732c5a32bd17b60a78712fc5018" prot="private" virt="non-virtual"><scope>bittensor::_logging::logging</scope><name>__file_sink__</name></member>
+      <member refid="classbittensor_1_1__logging_1_1logging_1ab14ab52b3400fea7d3a1280e3bed592a" prot="private" virt="non-virtual"><scope>bittensor::_logging::logging</scope><name>__file_sink__</name></member>
+      <member refid="classbittensor_1_1__logging_1_1logging_1ac9b68e7c4aca84d497d65a942d0da387" prot="private" virt="non-virtual"><scope>bittensor::_logging::logging</scope><name>__has_been_inited__</name></member>
+      <member refid="classbittensor_1_1__logging_1_1logging_1a4d6cb9518a8aaa6d5fda653350416bea" prot="private" virt="non-virtual"><scope>bittensor::_logging::logging</scope><name>__has_been_inited__</name></member>
+      <member refid="classbittensor_1_1__logging_1_1logging_1ab3c967ee33d0922ba0c4b7fd54819a56" prot="public" virt="non-virtual"><scope>bittensor::_logging::logging</scope><name>__new__</name></member>
+      <member refid="classbittensor_1_1__logging_1_1logging_1a63a47c29f7d24c06b3d8f694bdfcacf3" prot="private" virt="non-virtual"><scope>bittensor::_logging::logging</scope><name>__std_sink__</name></member>
+      <member refid="classbittensor_1_1__logging_1_1logging_1a1a16418aa060a73dc7eea4b04ffcf153" prot="private" virt="non-virtual"><scope>bittensor::_logging::logging</scope><name>__std_sink__</name></member>
+      <member refid="classbittensor_1_1__logging_1_1logging_1a51f61ec573b6bdb3066ab981d3c14f5f" prot="private" virt="non-virtual"><scope>bittensor::_logging::logging</scope><name>__trace_on__</name></member>
+      <member refid="classbittensor_1_1__logging_1_1logging_1a13a776a30e8b45c4d969300a207761bc" prot="private" virt="non-virtual"><scope>bittensor::_logging::logging</scope><name>__trace_on__</name></member>
+      <member refid="classbittensor_1_1__logging_1_1logging_1a2e003cfd2803110d2958b78006432176" prot="public" virt="non-virtual"><scope>bittensor::_logging::logging</scope><name>add_args</name></member>
+      <member refid="classbittensor_1_1__logging_1_1logging_1ac9f9b9f53ba564c9a5cf43ba70cba448" prot="public" virt="non-virtual"><scope>bittensor::_logging::logging</scope><name>add_defaults</name></member>
+      <member refid="classbittensor_1_1__logging_1_1logging_1a3a5967e0ae367d00dfb0bb7af0ff0c83" prot="public" virt="non-virtual"><scope>bittensor::_logging::logging</scope><name>check_config</name></member>
+      <member refid="classbittensor_1_1__logging_1_1logging_1ac77d64a20b44564f6c9899c212af3a15" prot="public" virt="non-virtual"><scope>bittensor::_logging::logging</scope><name>config</name></member>
+      <member refid="classbittensor_1_1__logging_1_1logging_1a11f6abdeeccd006aa5995b6f28a617ce" prot="public" virt="non-virtual"><scope>bittensor::_logging::logging</scope><name>create_receptor_log</name></member>
+      <member refid="classbittensor_1_1__logging_1_1logging_1afd3c989d7e0d0ddebbe5b44bc82a5a5e" prot="public" virt="non-virtual"><scope>bittensor::_logging::logging</scope><name>destroy_receptor_log</name></member>
+      <member refid="classbittensor_1_1__logging_1_1logging_1afe2a3d20041f811c28ecfb229b8d854d" prot="public" virt="non-virtual"><scope>bittensor::_logging::logging</scope><name>error</name></member>
+      <member refid="classbittensor_1_1__logging_1_1logging_1a2ed6539be7f75fda81d7f82a8dd5f967" prot="public" virt="non-virtual"><scope>bittensor::_logging::logging</scope><name>help</name></member>
+      <member refid="classbittensor_1_1__logging_1_1logging_1af3fc68595e163f44002a5fec27d97c5a" prot="public" virt="non-virtual"><scope>bittensor::_logging::logging</scope><name>info</name></member>
+      <member refid="classbittensor_1_1__logging_1_1logging_1aadf0cb47f3aa973fc61da41a9c430a9a" prot="public" virt="non-virtual"><scope>bittensor::_logging::logging</scope><name>log_filter</name></member>
+      <member refid="classbittensor_1_1__logging_1_1logging_1a9bbaaa7af91c6bd82c3071f2360fa856" prot="public" virt="non-virtual"><scope>bittensor::_logging::logging</scope><name>log_formatter</name></member>
+      <member refid="classbittensor_1_1__logging_1_1logging_1ad02edaf38a0486123913fd2150856976" prot="public" virt="non-virtual"><scope>bittensor::_logging::logging</scope><name>log_save_filter</name></member>
+      <member refid="classbittensor_1_1__logging_1_1logging_1a07c20365564888060e9dd1a58be16528" prot="public" virt="non-virtual"><scope>bittensor::_logging::logging</scope><name>log_save_formatter</name></member>
+      <member refid="classbittensor_1_1__logging_1_1logging_1a4ad62ad68f4447ddb6aec4d5ef7d0478" prot="public" virt="non-virtual"><scope>bittensor::_logging::logging</scope><name>rpc_log</name></member>
+      <member refid="classbittensor_1_1__logging_1_1logging_1abf0e1a127d746978fca5a95bd9c59255" prot="public" virt="non-virtual"><scope>bittensor::_logging::logging</scope><name>set_debug</name></member>
+      <member refid="classbittensor_1_1__logging_1_1logging_1aaf642e633c12a2ab90f38e05e3a7ef5c" prot="public" virt="non-virtual"><scope>bittensor::_logging::logging</scope><name>set_trace</name></member>
+      <member refid="classbittensor_1_1__logging_1_1logging_1a4540ca5606ef6f1a32912b9300c970f4" prot="public" virt="non-virtual"><scope>bittensor::_logging::logging</scope><name>success</name></member>
+      <member refid="classbittensor_1_1__logging_1_1logging_1a1103e107f5a1ed33895808b15473b306" prot="public" virt="non-virtual"><scope>bittensor::_logging::logging</scope><name>update_receptor_log</name></member>
+      <member refid="classbittensor_1_1__logging_1_1logging_1aa6703c1ae9b6f3d66f10495195375c16" prot="public" virt="non-virtual"><scope>bittensor::_logging::logging</scope><name>warning</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

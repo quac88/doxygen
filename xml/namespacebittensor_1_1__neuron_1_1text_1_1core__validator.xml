@@ -1,0 +1,763 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="namespacebittensor_1_1__neuron_1_1text_1_1core__validator" kind="namespace" language="Python">
+    <compoundname>bittensor::_neuron::text::core_validator</compoundname>
+    <innerclass refid="classbittensor_1_1__neuron_1_1text_1_1core__validator_1_1neuron" prot="public">bittensor::_neuron::text::core_validator::neuron</innerclass>
+    <innerclass refid="classbittensor_1_1__neuron_1_1text_1_1core__validator_1_1nucleus" prot="public">bittensor::_neuron::text::core_validator::nucleus</innerclass>
+    <innernamespace refid="namespacebittensor_1_1__neuron_1_1text_1_1core__validator_1_1main">bittensor::_neuron::text::core_validator::main</innernamespace>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="namespacebittensor_1_1__neuron_1_1text_1_1core__validator_1abf245d31bf2b69b6542bb98662ae1b70" prot="public" static="no" mutable="no">
+        <type>logger</type>
+        <definition>logger bittensor::_neuron::text::core_validator.logger</definition>
+        <argsstring></argsstring>
+        <name>logger</name>
+        <qualifiedname>bittensor._neuron.text.core_validator.logger</qualifiedname>
+        <initializer>=  logger.opt( colors=True )</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_validator/__init__.py" line="53" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_validator/__init__.py" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacebittensor_1_1__neuron_1_1text_1_1core__validator_1ac66a622a85b1ee7ea03d6442aa7a04c0" prot="public" static="no" mutable="no">
+        <type>Console</type>
+        <definition>Console bittensor::_neuron::text::core_validator.console</definition>
+        <argsstring></argsstring>
+        <name>console</name>
+        <qualifiedname>bittensor._neuron.text.core_validator.console</qualifiedname>
+        <initializer>=  Console()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_validator/__init__.py" line="54" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_validator/__init__.py" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacebittensor_1_1__neuron_1_1text_1_1core__validator_1a6117e317add107345576af8a89a59aa7" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor::_neuron::text::core_validator.show_locals</definition>
+        <argsstring></argsstring>
+        <name>show_locals</name>
+        <qualifiedname>bittensor._neuron.text.core_validator.show_locals</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_validator/__init__.py" line="55" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_validator/__init__.py" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacebittensor_1_1__neuron_1_1text_1_1core__validator_1a81427319fc32ca2122c1af5aeec009a6" prot="public" static="no" mutable="no">
+        <type>list</type>
+        <definition>list bittensor::_neuron::text::core_validator.neuron_stats_columns</definition>
+        <argsstring></argsstring>
+        <name>neuron_stats_columns</name>
+        <qualifiedname>bittensor._neuron.text.core_validator.neuron_stats_columns</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_validator/__init__.py" line="59" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_validator/__init__.py" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="namespacebittensor_1_1__neuron_1_1text_1_1core__validator_1afbddc9ae968b91105cb4845cdec271d8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._neuron.text.core_validator.scaling_law_loss_to_params</definition>
+        <argsstring>(loss)</argsstring>
+        <name>scaling_law_loss_to_params</name>
+        <qualifiedname>bittensor._neuron.text.core_validator.scaling_law_loss_to_params</qualifiedname>
+        <param>
+          <type>loss</type>
+          <defname>loss</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> (OpenAI scaling laws) Kaplan, Jared, et al. &quot;Scaling laws for neural language models.&quot; arXiv:2001.08361 (2020)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_validator/__init__.py" line="1054" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_validator/__init__.py" bodystart="1054" bodyend="1061"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacebittensor_1_1__neuron_1_1text_1_1core__validator_1a156659d617f14885b3e5c58286bf0ef5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Tuple[torch.FloatTensor, Dict]</type>
+        <definition> Tuple[torch.FloatTensor, Dict] bittensor._neuron.text.core_validator.textcausallm</definition>
+        <argsstring>(torch.Tensor uids, List[List[torch.FloatTensor]] query_responses, List[torch.LongTensor] return_ops, List[torch.FloatTensor] times, torch.FloatTensor routing_score, torch.FloatTensor inputs, int validation_len, Callable loss_fct, float scaling_law_power, float synergy_scaling_law_power, float logits_divergence_penalty, int console_width, logging, &apos;bittensor.TextCausalLM&apos; synapse=None, int index_s=0)</argsstring>
+        <name>textcausallm</name>
+        <qualifiedname>bittensor._neuron.text.core_validator.textcausallm</qualifiedname>
+        <param>
+          <type>torch.Tensor</type>
+          <declname>uids</declname>
+        </param>
+        <param>
+          <type>List]</type>
+          <declname>query_responses</declname>
+          <array>[List[torch.FloatTensor]</array>
+        </param>
+        <param>
+          <type>List</type>
+          <declname>return_ops</declname>
+          <array>[torch.LongTensor]</array>
+        </param>
+        <param>
+          <type>List</type>
+          <declname>times</declname>
+          <array>[torch.FloatTensor]</array>
+        </param>
+        <param>
+          <type>torch.FloatTensor</type>
+          <declname>routing_score</declname>
+        </param>
+        <param>
+          <type>torch.FloatTensor</type>
+          <declname>inputs</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>validation_len</declname>
+        </param>
+        <param>
+          <type>Callable</type>
+          <declname>loss_fct</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>scaling_law_power</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>synergy_scaling_law_power</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>logits_divergence_penalty</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>console_width</declname>
+        </param>
+        <param>
+          <type><ref refid="classbittensor_1_1__logging_1_1logging" kindref="compound">logging</ref></type>
+          <defname>logging</defname>
+        </param>
+        <param>
+          <type>&apos;<ref refid="classbittensor_1_1__synapse_1_1text__causallm__impl_1_1_text_causal_l_m" kindref="compound">bittensor.TextCausalLM</ref>&apos;</type>
+          <declname>synapse</declname>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>index_s</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Calculate Shapley values and neuron response validation measure statistics, given TextCausalLM synapse responses.
+Args:
+    uids (:obj:`torch.Tensor`, `required`): [num_neurons]
+        Neuron UIDs.
+    query_responses (:obj:`List[List[torch.FloatTensor]]`, `required`):
+        List of outputs from synapses, each a list of size num_endpoints of tensors with relevant size. Non-responses are zeroes of relevant
+        synapse shape. Shape num_synapses * ( num_endpoints * ( -1, -1, -1 ) )
+    return_ops (:obj:`List[torch.LongTensor]` of shape :obj:`[num_endpoints]`, `required`):
+        Return code per call per synapse.
+    times (:obj:`List [torch.FloatTensor]` of shape :obj:`[num_endpoints]`, `required`):
+        Times per call per synapse.
+    routing_score (:obj:`torch.FloatTensor`, `required`):
+        [metagraph.n] Predictive routing score per endpoint in the metagraph, mean over the batch.
+    inputs (:obj:`torch.FloatTensor`, `required`):
+        [batch_size, sequence_len + validation_len] Token batch of original inputs with validation tokens.
+    validation_len (:obj:`int`, `required`):
+        Number of held-out phrase token batch for extended validation, not sent to neurons.
+    loss_fct (:obj:`Callable`, `required`):
+        CrossEntropy loss function to use.
+    scaling_law_power (:obj:`float`, `required`):
+        Power for modified scaling law, powered down to improve dynamic range, e.g. 3 → 6 nats for 0.5.
+    synergy_scaling_law_power (:obj:`float`, `required`):
+        Power for synergy modified scaling law, powered down to improve dynamic range, e.g. 3 → 6 nats for 0.5.
+    logits_divergence_penalty (:obj:`float`, `required`):
+        Penalty scaling for logits divergence.
+    console_width (:obj:`int`, `required`):
+        Config console width for table print.
+    logging (:obj:`bool`, `required`):
+        Log tables to console.
+    synapse (:obj:`bittensor.TextCausalLM`, `optional`):
+        TextCausalLM synapse object.
+    index_s (:obj:`int`, `optional`):
+        Index of synapse to extract responses.
+
+Returns:
+    loss (:obj:`torch.FloatTensor`):
+        Loss for training validator nucleus and dendrite backward to endpoints.
+    stats (:obj:`Dict`, `required`):
+        Statistics per endpoint for this batch.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_validator/__init__.py" line="1062" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_validator/__init__.py" bodystart="1067" bodyend="1190"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacebittensor_1_1__neuron_1_1text_1_1core__validator_1ae13e132bc899ab97f56d1243dfdd9628" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Tuple[torch.FloatTensor, Dict]</type>
+        <definition> Tuple[torch.FloatTensor, Dict] bittensor._neuron.text.core_validator.textcausallmnext</definition>
+        <argsstring>(torch.Tensor uids, List[List[torch.FloatTensor]] query_responses, List[torch.LongTensor] return_ops, List[torch.FloatTensor] times, torch.FloatTensor routing_score, torch.FloatTensor inputs, int validation_len, Callable loss_fct, float scaling_law_power, float synergy_scaling_law_power, float logits_divergence_penalty, int console_width, logging, &apos;bittensor.TextCausalLMNext&apos; synapse=None, int index_s=0)</argsstring>
+        <name>textcausallmnext</name>
+        <qualifiedname>bittensor._neuron.text.core_validator.textcausallmnext</qualifiedname>
+        <param>
+          <type>torch.Tensor</type>
+          <declname>uids</declname>
+        </param>
+        <param>
+          <type>List]</type>
+          <declname>query_responses</declname>
+          <array>[List[torch.FloatTensor]</array>
+        </param>
+        <param>
+          <type>List</type>
+          <declname>return_ops</declname>
+          <array>[torch.LongTensor]</array>
+        </param>
+        <param>
+          <type>List</type>
+          <declname>times</declname>
+          <array>[torch.FloatTensor]</array>
+        </param>
+        <param>
+          <type>torch.FloatTensor</type>
+          <declname>routing_score</declname>
+        </param>
+        <param>
+          <type>torch.FloatTensor</type>
+          <declname>inputs</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>validation_len</declname>
+        </param>
+        <param>
+          <type>Callable</type>
+          <declname>loss_fct</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>scaling_law_power</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>synergy_scaling_law_power</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>logits_divergence_penalty</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>console_width</declname>
+        </param>
+        <param>
+          <type><ref refid="classbittensor_1_1__logging_1_1logging" kindref="compound">logging</ref></type>
+          <defname>logging</defname>
+        </param>
+        <param>
+          <type>&apos;<ref refid="classbittensor_1_1__synapse_1_1text__causallmnext__impl_1_1_text_causal_l_m_next" kindref="compound">bittensor.TextCausalLMNext</ref>&apos;</type>
+          <declname>synapse</declname>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>index_s</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Calculate Shapley values and neuron response validation measure statistics, given TextCausalLMNext synapse responses.
+    Args:
+        uids (:obj:`torch.Tensor`, `required`): [num_neurons]
+            Neuron UIDs.
+        query_responses (:obj:`List[List[torch.FloatTensor]]`, `required`):
+            List of outputs from synapses, each a list of size num_endpoints of tensors with relevant size. Non-responses are zeroes of relevant
+            synapse shape. Shape num_synapses * ( num_endpoints * ( -1, -1, -1 ) )
+        return_ops (:obj:`List[torch.LongTensor]` of shape :obj:`[num_endpoints]`, `required`):
+            Return code per call per synapse.
+        times (:obj:`List [torch.FloatTensor]` of shape :obj:`[num_endpoints]`, `required`):
+            Times per call per synapse.
+        routing_score (:obj:`torch.FloatTensor`, `required`):
+            [metagraph.n] Predictive routing score per endpoint in the metagraph, mean over the batch.
+        inputs (:obj:`torch.FloatTensor`, `required`):
+            [batch_size, sequence_len + validation_len] Token batch of original inputs with validation tokens.
+        validation_len (:obj:`int`, `required`):
+            Number of held-out phrase token batch for extended validation, not sent to neurons.
+        loss_fct (:obj:`Callable`, `required`):
+            CrossEntropy loss function to use.
+        scaling_law_power (:obj:`float`, `required`):
+            Power for modified scaling law, powered down to improve dynamic range, e.g. 3 → 6 nats for 0.5.
+        synergy_scaling_law_power (:obj:`float`, `required`):
+            Power for synergy modified scaling law, powered down to improve dynamic range, e.g. 3 → 6 nats for 0.5.
+        logits_divergence_penalty (:obj:`float`, `required`):
+            Penalty scaling for logits divergence.
+        console_width (:obj:`int`, `required`):
+            Config console width for table print.
+        logging (:obj:`bool`, `required`):
+            Log tables to console.
+        synapse (:obj:`bittensor.TextCausalLMNext`, `optional`):
+            TextCausalLMNext Synapse object.
+        index_s (:obj:`int`, `optional`):
+            Index of synapse to extract responses.
+
+    Returns:
+        loss (:obj:`torch.FloatTensor`):
+            Loss for training validator nucleus and dendrite backward to endpoints.
+        stats (:obj:`Dict`, `required`):
+            Statistics per endpoint for this batch.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_validator/__init__.py" line="1191" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_validator/__init__.py" bodystart="1196" bodyend="1306"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacebittensor_1_1__neuron_1_1text_1_1core__validator_1a826517b0b4f17e635dafcc3076a57a43" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Tuple[Union[float, torch.FloatTensor], Dict, List]</type>
+        <definition> Tuple[Union[float, torch.FloatTensor],
+                                                                                    Dict,
+                                                                                    List] bittensor._neuron.text.core_validator.shapley_base</definition>
+        <argsstring>(torch.Tensor uids, List[List[torch.FloatTensor]] query_responses, List[torch.LongTensor] return_ops, List[torch.FloatTensor] times, torch.FloatTensor routing_score, Callable base_params, int index_s=0, str ext=None)</argsstring>
+        <name>shapley_base</name>
+        <qualifiedname>bittensor._neuron.text.core_validator.shapley_base</qualifiedname>
+        <param>
+          <type>torch.Tensor</type>
+          <declname>uids</declname>
+        </param>
+        <param>
+          <type>List]</type>
+          <declname>query_responses</declname>
+          <array>[List[torch.FloatTensor]</array>
+        </param>
+        <param>
+          <type>List</type>
+          <declname>return_ops</declname>
+          <array>[torch.LongTensor]</array>
+        </param>
+        <param>
+          <type>List</type>
+          <declname>times</declname>
+          <array>[torch.FloatTensor]</array>
+        </param>
+        <param>
+          <type>torch.FloatTensor</type>
+          <declname>routing_score</declname>
+        </param>
+        <param>
+          <type>Callable</type>
+          <declname>base_params</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>index_s</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>ext</declname>
+          <defval>None</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Calculate Shapley base values and neuron response validation measure statistics, given responses from a synapse.
+    Args:
+        uids (:obj:`torch.Tensor`, `required`): [num_neurons]
+            Neuron UIDs.
+        query_responses (:obj:`List[List[torch.FloatTensor]]`, `required`):
+            List of outputs from synapses, each a list of size num_endpoints of tensors with relevant size. Non-responses are zeroes of relevant
+            synapse shape. Shape num_synapses * ( num_endpoints * ( -1, -1, -1 ) )
+        return_ops (:obj:`List[torch.LongTensor]` of shape :obj:`[num_endpoints]`, `required`):
+            Return code per call per synapse.
+        times (:obj:`List [torch.FloatTensor]` of shape :obj:`[num_endpoints]`, `required`):
+            Times per call per synapse.
+        routing_score (:obj:`torch.FloatTensor`, `required`):
+            [metagraph.n] Predictive routing score per endpoint in the metagraph, mean over the batch.
+        base_params (:obj:`Callable`, `required`):
+            CrossEntropy loss function to use.
+        index_s (:obj:`int`, `optional`):
+            Index of synapse to extract responses.
+        ext (:obj:`str`, `optional`):
+            Extension to parameter string for stats key.
+
+    Returns:
+        loss (:obj:`torch.FloatTensor`):
+            Loss for training validator nucleus and dendrite backward to endpoints.
+        stats (:obj:`Dict`, `required`):
+            Statistics per endpoint for this batch.
+        unsuccessful (:obj:`List`, `required`):
+            Unsuccessful endpoints [(uid, return_op, time)].
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_validator/__init__.py" line="1307" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_validator/__init__.py" bodystart="1311" bodyend="1385"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacebittensor_1_1__neuron_1_1text_1_1core__validator_1a3d48b0eacf487ad14a36ef50ef21df07" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._neuron.text.core_validator.logits_divergence</definition>
+        <argsstring>(Dict stats, torch.Tensor uids, List[List[torch.FloatTensor]] query_responses, List[torch.LongTensor] return_ops, List[torch.FloatTensor] times, int index_s=0, str ext=None)</argsstring>
+        <name>logits_divergence</name>
+        <qualifiedname>bittensor._neuron.text.core_validator.logits_divergence</qualifiedname>
+        <param>
+          <type>Dict</type>
+          <declname>stats</declname>
+        </param>
+        <param>
+          <type>torch.Tensor</type>
+          <declname>uids</declname>
+        </param>
+        <param>
+          <type>List]</type>
+          <declname>query_responses</declname>
+          <array>[List[torch.FloatTensor]</array>
+        </param>
+        <param>
+          <type>List</type>
+          <declname>return_ops</declname>
+          <array>[torch.LongTensor]</array>
+        </param>
+        <param>
+          <type>List</type>
+          <declname>times</declname>
+          <array>[torch.FloatTensor]</array>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>index_s</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>ext</declname>
+          <defval>None</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Calculate each logits divergence per neuron per task from the average logits over all neurons per task,
+given responses from a synapse.
+Args:
+stats (:obj:`Dict`, `required`):
+Statistics per endpoint for this batch.
+uids (:obj:`torch.Tensor`, `required`): [num_neurons]
+Neuron UIDs.
+query_responses (:obj:`List[List[torch.FloatTensor]]`, `required`):
+List of outputs from synapses, each a list of size num_endpoints of tensors with relevant size.
+Non-responses are zeroes of relevant synapse shape.
+Shape num_synapses * ( num_endpoints * ( -1, -1, -1 ) )
+return_ops (:obj:`List[torch.LongTensor]` of shape :obj:`[num_endpoints]`, `required`):
+Return code per call per synapse.
+times (:obj:`List [torch.FloatTensor]` of shape :obj:`[num_endpoints]`, `required`):
+Times per call per synapse.
+index_s (:obj:`int`, `optional`):
+Index of synapse to extract responses.
+ext (:obj:`str`, `optional`):
+Extension to parameter string for stats key.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_validator/__init__.py" line="1386" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_validator/__init__.py" bodystart="1388" bodyend="1484"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacebittensor_1_1__neuron_1_1text_1_1core__validator_1a1bd51d8fbf1d03308c1beb60fd961dd1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._neuron.text.core_validator.shapley_synergy</definition>
+        <argsstring>(Dict stats, Callable synergy, str ext, torch.Tensor target=None, float scaling_law_power=0.5)</argsstring>
+        <name>shapley_synergy</name>
+        <qualifiedname>bittensor._neuron.text.core_validator.shapley_synergy</qualifiedname>
+        <param>
+          <type>Dict</type>
+          <declname>stats</declname>
+        </param>
+        <param>
+          <type>Callable</type>
+          <declname>synergy</declname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>ext</declname>
+        </param>
+        <param>
+          <type>torch.Tensor</type>
+          <declname>target</declname>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>scaling_law_power</declname>
+          <defval>0.5</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Calculates Shapley synergy for coalition size 2, measured performance above expected performance.
+Measured in effective number of model parameters, just like base Shapley values.
+Args:
+stats (:obj:`Dict`, `required`):
+Statistics per endpoint for this batch.
+synergy (:obj:`Callable`, `required`)
+Function to calculate measured loss.
+ext (:obj:`str`, `optional`):
+Extension to parameter string for stats key.
+target (:obj:`torch.Tensor`, `optional`):
+Target to measure loss against.
+scaling_law_power (:obj:`float`, `optional`):
+Power for modified scaling law, powered down to improve dynamic range, e.g. 3 → 6 nats for 0.5.
+
+Returns:
+syn_loss_diff (:obj:`Dict`, `required`):
+Dictionary table of pairwise synergies as loss reductions, with direct loss on diagonal.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_validator/__init__.py" line="1485" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_validator/__init__.py" bodystart="1485" bodyend="1550"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacebittensor_1_1__neuron_1_1text_1_1core__validator_1ad73b7e74829f07cd55e096f14a9a39a8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>List</type>
+        <definition> List bittensor._neuron.text.core_validator.format_predictions</definition>
+        <argsstring>(torch.Tensor uids, List[List[torch.FloatTensor]] query_responses, List[torch.LongTensor] return_ops, torch.FloatTensor inputs, int validation_len, int index_s=0, int number_of_predictions=3)</argsstring>
+        <name>format_predictions</name>
+        <qualifiedname>bittensor._neuron.text.core_validator.format_predictions</qualifiedname>
+        <param>
+          <type>torch.Tensor</type>
+          <declname>uids</declname>
+        </param>
+        <param>
+          <type>List]</type>
+          <declname>query_responses</declname>
+          <array>[List[torch.FloatTensor]</array>
+        </param>
+        <param>
+          <type>List</type>
+          <declname>return_ops</declname>
+          <array>[torch.LongTensor]</array>
+        </param>
+        <param>
+          <type>torch.FloatTensor</type>
+          <declname>inputs</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>validation_len</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>index_s</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>number_of_predictions</declname>
+          <defval>3</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Format batch task topk predictions for rich table print of query responses.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_validator/__init__.py" line="1551" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_validator/__init__.py" bodystart="1553" bodyend="1593"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacebittensor_1_1__neuron_1_1text_1_1core__validator_1a0c000ee81cd21336cf103755b8ffbe89" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._neuron.text.core_validator.response_table</definition>
+        <argsstring>(List batch_predictions, Dict stats, str sort_col, int console_width, int task_repeat=4, int tasks_per_server=3)</argsstring>
+        <name>response_table</name>
+        <qualifiedname>bittensor._neuron.text.core_validator.response_table</qualifiedname>
+        <param>
+          <type>List</type>
+          <declname>batch_predictions</declname>
+        </param>
+        <param>
+          <type>Dict</type>
+          <declname>stats</declname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>sort_col</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>console_width</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>task_repeat</declname>
+          <defval>4</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>tasks_per_server</declname>
+          <defval>3</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Prints the query response table: top prediction probabilities and texts for batch tasks.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_validator/__init__.py" line="1594" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_validator/__init__.py" bodystart="1595" bodyend="1656"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacebittensor_1_1__neuron_1_1text_1_1core__validator_1a6fd9748649f8e6a6f82cbbcb48b164a4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._neuron.text.core_validator.synergy_table</definition>
+        <argsstring>(stats, syn_loss_diff, sort_col, console_width)</argsstring>
+        <name>synergy_table</name>
+        <qualifiedname>bittensor._neuron.text.core_validator.synergy_table</qualifiedname>
+        <param>
+          <type>stats</type>
+          <defname>stats</defname>
+        </param>
+        <param>
+          <type>syn_loss_diff</type>
+          <defname>syn_loss_diff</defname>
+        </param>
+        <param>
+          <type>sort_col</type>
+          <defname>sort_col</defname>
+        </param>
+        <param>
+          <type>console_width</type>
+          <defname>console_width</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Prints the synergy loss diff matrix with pairwise loss reduction due to synergy (original loss on diagonal)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_validator/__init__.py" line="1657" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_validator/__init__.py" bodystart="1657" bodyend="1683"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacebittensor_1_1__neuron_1_1text_1_1core__validator_1a3b98321f53ed9671d10985f26470e151" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._neuron.text.core_validator.stats_table</definition>
+        <argsstring>(stats, sort_col, console_width, title, caption, mark_uids=None)</argsstring>
+        <name>stats_table</name>
+        <qualifiedname>bittensor._neuron.text.core_validator.stats_table</qualifiedname>
+        <param>
+          <type>stats</type>
+          <defname>stats</defname>
+        </param>
+        <param>
+          <type>sort_col</type>
+          <defname>sort_col</defname>
+        </param>
+        <param>
+          <type>console_width</type>
+          <defname>console_width</defname>
+        </param>
+        <param>
+          <type>title</type>
+          <defname>title</defname>
+        </param>
+        <param>
+          <type>caption</type>
+          <defname>caption</defname>
+        </param>
+        <param>
+          <type>mark_uids</type>
+          <defname>mark_uids</defname>
+          <defval>None</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Gathers data and constructs neuron statistics table and prints it
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_validator/__init__.py" line="1684" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_validator/__init__.py" bodystart="1684" bodyend="1726"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacebittensor_1_1__neuron_1_1text_1_1core__validator_1ac65c768421ed57928ee56b3da28e5cf8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._neuron.text.core_validator.synapse_table</definition>
+        <argsstring>(name, stats, sort_col, console_width, start_time)</argsstring>
+        <name>synapse_table</name>
+        <qualifiedname>bittensor._neuron.text.core_validator.synapse_table</qualifiedname>
+        <param>
+          <type>name</type>
+          <defname>name</defname>
+        </param>
+        <param>
+          <type>stats</type>
+          <defname>stats</defname>
+        </param>
+        <param>
+          <type>sort_col</type>
+          <defname>sort_col</defname>
+        </param>
+        <param>
+          <type>console_width</type>
+          <defname>console_width</defname>
+        </param>
+        <param>
+          <type>start_time</type>
+          <defname>start_time</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Prints the evaluation of the neuron responses to the validator request
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_validator/__init__.py" line="1727" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_validator/__init__.py" bodystart="1727" bodyend="1737"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacebittensor_1_1__neuron_1_1text_1_1core__validator_1ab1b9785136040aef8a5a3e0588151ca1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._neuron.text.core_validator.unsuccess</definition>
+        <argsstring>(_name, _unsuccessful)</argsstring>
+        <name>unsuccess</name>
+        <qualifiedname>bittensor._neuron.text.core_validator.unsuccess</qualifiedname>
+        <param>
+          <type>_name</type>
+          <defname>_name</defname>
+        </param>
+        <param>
+          <type>_unsuccessful</type>
+          <defname>_unsuccessful</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Prints the return codes and response times of unsuccessful responses
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_validator/__init__.py" line="1738" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_validator/__init__.py" bodystart="1738" bodyend="1746"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim> The bittensor base validator
+
+Example:
+    $ python3 miners/text/core_validator.py --logging.debug</verbatim> </para>
+    </detaileddescription>
+    <location file="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_validator/__init__.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

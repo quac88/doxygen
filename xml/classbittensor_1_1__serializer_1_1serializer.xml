@@ -1,0 +1,140 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="classbittensor_1_1__serializer_1_1serializer" kind="class" language="Python" prot="public">
+    <compoundname>bittensor::_serializer::serializer</compoundname>
+    <innerclass refid="classbittensor_1_1__serializer_1_1serializer_1_1_deserialization_exception" prot="public">bittensor::_serializer::serializer::DeserializationException</innerclass>
+    <innerclass refid="classbittensor_1_1__serializer_1_1serializer_1_1_no_serializer_for_enum" prot="public">bittensor::_serializer::serializer::NoSerializerForEnum</innerclass>
+    <innerclass refid="classbittensor_1_1__serializer_1_1serializer_1_1_serialization_exception" prot="public">bittensor::_serializer::serializer::SerializationException</innerclass>
+    <innerclass refid="classbittensor_1_1__serializer_1_1serializer_1_1_serialization_type_not_implemented_exception" prot="public">bittensor::_serializer::serializer::SerializationTypeNotImplementedException</innerclass>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classbittensor_1_1__serializer_1_1serializer_1a9b6be95cc06967dfc7e6f21677848c63" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type> &apos;<ref refid="classbittensor_1_1__serializer_1_1serializer__impl_1_1_serializer" kindref="compound">bittensor.Serializer</ref>&apos;</type>
+        <definition> &apos;bittensor.Serializer&apos; bittensor._serializer.serializer.__new__</definition>
+        <argsstring>(cls, bittensor.proto.Serializer serializer_type=bittensor.proto.Serializer.MSGPACK)</argsstring>
+        <name>__new__</name>
+        <qualifiedname>bittensor._serializer.serializer.__new__</qualifiedname>
+        <param>
+          <type>cls</type>
+          <defname>cls</defname>
+        </param>
+        <param>
+          <type>bittensor.proto.Serializer</type>
+          <declname>serializer_type</declname>
+          <defval>bittensor.proto.Serializer.MSGPACK</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Returns the correct serializer object for the passed Serializer enum. 
+
+        Args:
+            serializer_type (:obj:`bittensor.proto.Serializer`, `required`): 
+                The serializer_type ENUM from bittensor.proto.
+
+        Returns:
+            Serializer: (obj: `bittensor.Serializer`, `required`): 
+                The bittensor serializer/deserialzer for the passed type.
+
+        Raises:
+            NoSerializerForEnum: (Exception): 
+                Raised if the passed there is no serialzier for the passed type. </verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_serializer/__init__.py" line="42" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_serializer/__init__.py" bodystart="42" bodyend="66"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classbittensor_1_1__serializer_1_1serializer_1a8c22a42e5718f4a216a5fea222bf2f1d" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._serializer.serializer.torch_dtype_to_bittensor_dtype</definition>
+        <argsstring>(tdtype)</argsstring>
+        <name>torch_dtype_to_bittensor_dtype</name>
+        <qualifiedname>bittensor._serializer.serializer.torch_dtype_to_bittensor_dtype</qualifiedname>
+        <param>
+          <type>tdtype</type>
+          <defname>tdtype</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Translates between torch.dtypes and bittensor.dtypes.
+
+    Args:
+        tdtype (torch.dtype): torch.dtype to translate.
+
+    Returns:
+        dtype: (bittensor.dtype): translated bittensor.dtype.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_serializer/__init__.py" line="68" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_serializer/__init__.py" bodystart="68" bodyend="90"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__serializer_1_1serializer_1a9f374d241012cf0758c17a22f24f5fac" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._serializer.serializer.bittensor_dtype_to_torch_dtype</definition>
+        <argsstring>(bdtype)</argsstring>
+        <name>bittensor_dtype_to_torch_dtype</name>
+        <qualifiedname>bittensor._serializer.serializer.bittensor_dtype_to_torch_dtype</qualifiedname>
+        <param>
+          <type>bdtype</type>
+          <defname>bdtype</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Translates between bittensor.dtype and torch.dtypes.
+
+    Args:
+        bdtype (bittensor.dtype): bittensor.dtype to translate.
+
+    Returns:
+        dtype: (torch.dtype): translated torch.dtype.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_serializer/__init__.py" line="92" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_serializer/__init__.py" bodystart="92" bodyend="116"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__serializer_1_1serializer_1a96395c79dd5f42cbfe5c466e6a92a404" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._serializer.serializer.bittensor_dtype_np_dtype</definition>
+        <argsstring>(bdtype)</argsstring>
+        <name>bittensor_dtype_np_dtype</name>
+        <qualifiedname>bittensor._serializer.serializer.bittensor_dtype_np_dtype</qualifiedname>
+        <param>
+          <type>bdtype</type>
+          <defname>bdtype</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Translates between bittensor.dtype and np.dtypes.
+
+    Args:
+        bdtype (bittensor.dtype): bittensor.dtype to translate.
+
+    Returns:
+        dtype: (numpy.dtype): translated np.dtype.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_serializer/__init__.py" line="118" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_serializer/__init__.py" bodystart="118" bodyend="141"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim> An interface for serializing and deserializing bittensor tensors</verbatim> </para>
+    </detaileddescription>
+    <location file="/Users/macthrasher/bittensor/bittensor/_serializer/__init__.py" line="27" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_serializer/__init__.py" bodystart="27" bodyend="141"/>
+    <listofallmembers>
+      <member refid="classbittensor_1_1__serializer_1_1serializer_1a9b6be95cc06967dfc7e6f21677848c63" prot="public" virt="non-virtual"><scope>bittensor::_serializer::serializer</scope><name>__new__</name></member>
+      <member refid="classbittensor_1_1__serializer_1_1serializer_1a96395c79dd5f42cbfe5c466e6a92a404" prot="public" virt="non-virtual"><scope>bittensor::_serializer::serializer</scope><name>bittensor_dtype_np_dtype</name></member>
+      <member refid="classbittensor_1_1__serializer_1_1serializer_1a9f374d241012cf0758c17a22f24f5fac" prot="public" virt="non-virtual"><scope>bittensor::_serializer::serializer</scope><name>bittensor_dtype_to_torch_dtype</name></member>
+      <member refid="classbittensor_1_1__serializer_1_1serializer_1a8c22a42e5718f4a216a5fea222bf2f1d" prot="public" virt="non-virtual"><scope>bittensor::_serializer::serializer</scope><name>torch_dtype_to_bittensor_dtype</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="dir_4cf1755dc32729081edf5fc4049566d0" kind="dir">
+    <compoundname>/Users/macthrasher/bittensor/bittensor/_proto</compoundname>
+    <innerfile refid="__proto_2____init_____8py">__init__.py</innerfile>
+    <innerfile refid="bittensor__pb2_8py">bittensor_pb2.py</innerfile>
+    <innerfile refid="bittensor__pb2__grpc_8py">bittensor_pb2_grpc.py</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/macthrasher/bittensor/bittensor/_proto/"/>
+  </compounddef>
+</doxygen>

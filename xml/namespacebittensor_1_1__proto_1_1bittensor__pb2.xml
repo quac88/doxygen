@@ -1,0 +1,1230 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="namespacebittensor_1_1__proto_1_1bittensor__pb2" kind="namespace" language="Python">
+    <compoundname>bittensor::_proto::bittensor_pb2</compoundname>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="namespacebittensor_1_1__proto_1_1bittensor__pb2_1ae90c8cd686e10ede1147d7c7eb20e203" prot="protected" static="no" mutable="no">
+        <type>_symbol_database</type>
+        <definition>_symbol_database bittensor::_proto::bittensor_pb2._sym_db</definition>
+        <argsstring></argsstring>
+        <name>_sym_db</name>
+        <qualifiedname>bittensor._proto.bittensor_pb2._sym_db</qualifiedname>
+        <initializer>=  _symbol_database.Default()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_proto/bittensor_pb2.py" line="12" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_proto/bittensor_pb2.py" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacebittensor_1_1__proto_1_1bittensor__pb2_1a61baa023c9da7704d13e332a1d9eaf6c" prot="public" static="no" mutable="no">
+        <type>_descriptor</type>
+        <definition>_descriptor bittensor::_proto::bittensor_pb2.DESCRIPTOR</definition>
+        <argsstring></argsstring>
+        <name>DESCRIPTOR</name>
+        <qualifiedname>bittensor._proto.bittensor_pb2.DESCRIPTOR</qualifiedname>
+        <initializer>=  _descriptor.FileDescriptor(
+  name=&apos;bittensor/_proto/bittensor.proto&apos;,
+  package=&apos;&apos;,
+  syntax=&apos;proto3&apos;,
+  serialized_options=None,
+  create_key=_descriptor._internal_create_key,
+  serialized_pb=b&apos;\n bittensor/_proto/bittensor.proto\&quot;\x8f\x01\n\x06Neuron\x12\x0f\n\x07version\x18\x01 \x01(\x05\x12\x0b\n\x03uid\x18\x02 \x01(\x03\x12\x0e\n\x06hotkey\x18\x03 \x01(\t\x12\x0f\n\x07\x63oldkey\x18\x04 \x01(\t\x12\n\n\x02ip\x18\x05 \x01(\t\x12\x0c\n\x04port\x18\x06 \x01(\x05\x12\x0f\n\x07ip_type\x18\x07 \x01(\x05\x12\x1b\n\x08modality\x18\x08 \x01(\x0e\x32\t.Modality\&quot;\xb0\x01\n\rTensorMessage\x12\x0f\n\x07version\x18\x01 \x01(\x05\x12\x0e\n\x06hotkey\x18\x02 \x01(\t\x12\x18\n\x07tensors\x18\x05 \x03(\x0b\x32\x07.Tensor\x12 \n\x0breturn_code\x18\x06 \x01(\x0e\x32\x0b.ReturnCode\x12\x0f\n\x07message\x18\x07 \x01(\t\x12\x15\n\rrequires_grad\x18\x08 \x01(\x08\x12\x1a\n\x08synapses\x18\t \x03(\x0b\x32\x08.Synapse\&quot;\xb1\x0e\n\x07Synapse\x12\x12\n\ntensor_pos\x18\x01 \x03(\x05\x12\x14\n\x0csynapse_data\x18\x02 \x01(\x0c\x12*\n\x0csynapse_type\x18\x03 \x01(\x0e\x32\x14.Synapse.SynapseType\x12 \n\x0breturn_code\x18\x04 \x01(\x0e\x32\x0b.ReturnCode\x12\x0f\n\x07message\x18\x05 \x01(\t\x12\x15\n\rrequires_grad\x18\x06 \x01(\x08\x1a\xb4\x02\n\x13TextLastHiddenState\x12*\n\x0csynapse_type\x18\x01 \x01(\x0e\x32\x14.Synapse.SynapseType\x12\x34\n\x1f\x66orward_request_serializer_type\x18\x02 \x01(\x0e\x32\x0b.Serializer\x12\x35\n forward_response_serializer_type\x18\x03 \x01(\x0e\x32\x0b.Serializer\x12\x35\n backward_request_serializer_type\x18\x04 \x01(\x0e\x32\x0b.Serializer\x12\x36\n!backward_response_serializer_type\x18\x05 \x01(\x0e\x32\x0b.Serializer\x12\x15\n\rrequires_grad\x18\x06 \x01(\x08\x1a\xbb\x02\n\x0cTextCausalLM\x12*\n\x0csynapse_type\x18\x01 \x01(\x0e\x32\x14.Synapse.SynapseType\x12\x0c\n\x04topk\x18\x02 \x01(\x05\x12\x34\n\x1f\x66orward_request_serializer_type\x18\x03 \x01(\x0e\x32\x0b.Serializer\x12\x35\n forward_response_serializer_type\x18\x04 \x01(\x0e\x32\x0b.Serializer\x12\x35\n backward_request_serializer_type\x18\x05 \x01(\x0e\x32\x0b.Serializer\x12\x36\n!backward_response_serializer_type\x18\x06 \x01(\x0e\x32\x0b.Serializer\x12\x15\n\rrequires_grad\x18\x07 \x01(\x08\x1a\xd0\x04\n\x0bTextSeq2Seq\x12*\n\x0csynapse_type\x18\x01 \x01(\x0e\x32\x14.Synapse.SynapseType\x12\x0c\n\x04topk\x18\x02 \x01(\x05\x12\x17\n\x0fnum_to_generate\x18\x03 \x01(\x05\x12\x34\n\x1f\x66orward_request_serializer_type\x18\x04 \x01(\x0e\x32\x0b.Serializer\x12\x35\n forward_response_serializer_type\x18\x05 \x01(\x0e\x32\x0b.Serializer\x12\x35\n backward_request_serializer_type\x18\x06 \x01(\x0e\x32\x0b.Serializer\x12\x36\n!backward_response_serializer_type\x18\x07 \x01(\x0e\x32\x0b.Serializer\x12\x11\n\tnum_beams\x18\x08 \x01(\x05\x12\x1c\n\x14no_repeat_ngram_size\x18\t \x01(\x05\x12\x16\n\x0e\x65\x61rly_stopping\x18\n \x01(\x08\x12\x1c\n\x14num_return_sequences\x18\x0b \x01(\x05\x12\x11\n\tdo_sample\x18\x0c \x01(\x08\x12\r\n\x05top_p\x18\r \x01(\x02\x12\x15\n\rrequires_grad\x18\x0e \x01(\x08\x12\x13\n\x0btemperature\x18\x0f \x01(\x02\x12\x1a\n\x12repetition_penalty\x18\x10 \x01(\x02\x12\x16\n\x0elength_penalty\x18\x11 \x01(\x02\x12\x10\n\x08max_time\x18\x12 \x01(\x02\x12\x17\n\x0fnum_beam_groups\x18\x13 \x01(\x05\x1a\xbf\x02\n\x10TextCausalLMNext\x12*\n\x0csynapse_type\x18\x01 \x01(\x0e\x32\x14.Synapse.SynapseType\x12\x0c\n\x04topk\x18\x02 \x01(\x05\x12\x34\n\x1f\x66orward_request_serializer_type\x18\x03 \x01(\x0e\x32\x0b.Serializer\x12\x35\n forward_response_serializer_type\x18\x04 \x01(\x0e\x32\x0b.Serializer\x12\x35\n backward_request_serializer_type\x18\x05 \x01(\x0e\x32\x0b.Serializer\x12\x36\n!backward_response_serializer_type\x18\x06 \x01(\x0e\x32\x0b.Serializer\x12\x15\n\rrequires_grad\x18\x07 \x01(\x08\&quot;|\n\x0bSynapseType\x12\x10\n\x0cNULL_SYNAPSE\x10\x00\x12\x1a\n\x16TEXT_LAST_HIDDEN_STATE\x10\x01\x12\x12\n\x0eTEXT_CAUSAL_LM\x10\x02\x12\x12\n\x0eTEXT_SEQ_2_SEQ\x10\x03\x12\x17\n\x13TEXT_CAUSAL_LM_NEXT\x10\x04\&quot;\xc9\x01\n\x06Tensor\x12\x0f\n\x07version\x18\x01 \x01(\x05\x12\x0e\n\x06\x62uffer\x18\x02 \x01(\x0c\x12\r\n\x05shape\x18\x03 \x03(\x03\x12\x1f\n\nserializer\x18\x04 \x01(\x0e\x32\x0b.Serializer\x12 \n\x0btensor_type\x18\x05 \x01(\x0e\x32\x0b.TensorType\x12\x18\n\x05\x64type\x18\x06 \x01(\x0e\x32\t.DataType\x12\x1b\n\x08modality\x18\x07 \x01(\x0e\x32\t.Modality\x12\x15\n\rrequires_grad\x18\x08 \x01(\x08*\xc9\x04\n\nReturnCode\x12\x0c\n\x08NoReturn\x10\x00\x12\x0b\n\x07Success\x10\x01\x12\x0b\n\x07Timeout\x10\x02\x12\x0b\n\x07\x42\x61\x63koff\x10\x03\x12\x0f\n\x0bUnavailable\x10\x04\x12\x12\n\x0eNotImplemented\x10\x05\x12\x10\n\x0c\x45mptyRequest\x10\x06\x12\x11\n\rEmptyResponse\x10\x07\x12\x13\n\x0fInvalidResponse\x10\x08\x12\x12\n\x0eInvalidRequest\x10\t\x12\x19\n\x15RequestShapeException\x10\n\x12\x1a\n\x16ResponseShapeException\x10\x0b\x12!\n\x1dRequestSerializationException\x10\x0c\x12\&quot;\n\x1eResponseSerializationException\x10\r\x12#\n\x1fRequestDeserializationException\x10\x0e\x12$\n ResponseDeserializationException\x10\x0f\x12\x15\n\x11NotServingNucleus\x10\x10\x12\x12\n\x0eNucleusTimeout\x10\x11\x12\x0f\n\x0bNucleusFull\x10\x12\x12\x1e\n\x1aRequestIncompatibleVersion\x10\x13\x12\x1f\n\x1bResponseIncompatibleVersion\x10\x14\x12\x11\n\rSenderUnknown\x10\x15\x12\x14\n\x10UnknownException\x10\x16\x12\x13\n\x0fUnauthenticated\x10\x17\x12\x0f\n\x0b\x42\x61\x64\x45ndpoint\x10\x18*&amp;\n\nSerializer\x12\x0b\n\x07MSGPACK\x10\x00\x12\x0b\n\x07\x43MPPACK\x10\x01*2\n\nTensorType\x12\t\n\x05TORCH\x10\x00\x12\x0e\n\nTENSORFLOW\x10\x01\x12\t\n\x05NUMPY\x10\x02*^\n\x08\x44\x61taType\x12\x0b\n\x07UNKNOWN\x10\x00\x12\x0b\n\x07\x46LOAT32\x10\x01\x12\x0b\n\x07\x46LOAT64\x10\x02\x12\t\n\x05INT32\x10\x03\x12\t\n\x05INT64\x10\x04\x12\x08\n\x04UTF8\x10\x05\x12\x0b\n\x07\x46LOAT16\x10\x06*+\n\x08Modality\x12\x08\n\x04TEXT\x10\x00\x12\t\n\x05IMAGE\x10\x01\x12\n\n\x06TENSOR\x10\x02*8\n\x0bRequestType\x12\x0e\n\nNOTDEFINED\x10\x00\x12\x0b\n\x07\x46ORWARD\x10\x01\x12\x0c\n\x08\x42\x41\x43KWARD\x10\x02\x32\x66\n\tBittensor\x12+\n\x07\x46orward\x12\x0e.TensorMessage\x1a\x0e.TensorMessage\&quot;\x00\x12,\n\x08\x42\x61\x63kward\x12\x0e.TensorMessage\x1a\x0e.TensorMessage\&quot;\x00\x62\x06proto3&apos;
+)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_proto/bittensor_pb2.py" line="17" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_proto/bittensor_pb2.py" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacebittensor_1_1__proto_1_1bittensor__pb2_1af77ed7cf856068391c4b17d9408d4478" prot="protected" static="no" mutable="no">
+        <type>_descriptor</type>
+        <definition>_descriptor bittensor::_proto::bittensor_pb2._RETURNCODE</definition>
+        <argsstring></argsstring>
+        <name>_RETURNCODE</name>
+        <qualifiedname>bittensor._proto.bittensor_pb2._RETURNCODE</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_proto/bittensor_pb2.py" line="26" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_proto/bittensor_pb2.py" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacebittensor_1_1__proto_1_1bittensor__pb2_1ae1078335dade9483960614d565d14b48" prot="public" static="no" mutable="no">
+        <type>enum_type_wrapper</type>
+        <definition>enum_type_wrapper bittensor::_proto::bittensor_pb2.ReturnCode</definition>
+        <argsstring></argsstring>
+        <name>ReturnCode</name>
+        <qualifiedname>bittensor._proto.bittensor_pb2.ReturnCode</qualifiedname>
+        <initializer>=  enum_type_wrapper.EnumTypeWrapper(_RETURNCODE)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_proto/bittensor_pb2.py" line="166" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_proto/bittensor_pb2.py" bodystart="166" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacebittensor_1_1__proto_1_1bittensor__pb2_1a5265544055eb078d43077e686be1b0ce" prot="protected" static="no" mutable="no">
+        <type>_descriptor</type>
+        <definition>_descriptor bittensor::_proto::bittensor_pb2._SERIALIZER</definition>
+        <argsstring></argsstring>
+        <name>_SERIALIZER</name>
+        <qualifiedname>bittensor._proto.bittensor_pb2._SERIALIZER</qualifiedname>
+        <initializer>=  _descriptor.EnumDescriptor(
+  name=&apos;<ref refid="classbittensor_1_1__serializer_1_1serializer__impl_1_1_serializer" kindref="compound">Serializer</ref>&apos;,
+  full_name=&apos;<ref refid="classbittensor_1_1__serializer_1_1serializer__impl_1_1_serializer" kindref="compound">Serializer</ref>&apos;,
+  filename=None,
+  file=DESCRIPTOR,
+  create_key=_descriptor._internal_create_key,
+  values=[
+    _descriptor.EnumValueDescriptor(
+      name=&apos;MSGPACK&apos;, index=0, number=0,
+      serialized_options=None,
+      type=None,
+      create_key=_descriptor._internal_create_key),
+    _descriptor.EnumValueDescriptor(
+      name=&apos;CMPPACK&apos;, index=1, number=1,
+      serialized_options=None,
+      type=None,
+      create_key=_descriptor._internal_create_key),
+  ],
+  containing_type=None,
+  serialized_options=None,
+  serialized_start=2997,
+  serialized_end=3035,
+)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_proto/bittensor_pb2.py" line="167" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_proto/bittensor_pb2.py" bodystart="167" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacebittensor_1_1__proto_1_1bittensor__pb2_1aed2b64a17ed42f9607403ec121ef948a" prot="public" static="no" mutable="no">
+        <type>enum_type_wrapper</type>
+        <definition>enum_type_wrapper bittensor::_proto::bittensor_pb2.Serializer</definition>
+        <argsstring></argsstring>
+        <name>Serializer</name>
+        <qualifiedname>bittensor._proto.bittensor_pb2.Serializer</qualifiedname>
+        <initializer>=  enum_type_wrapper.EnumTypeWrapper(_SERIALIZER)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_proto/bittensor_pb2.py" line="192" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_proto/bittensor_pb2.py" bodystart="192" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacebittensor_1_1__proto_1_1bittensor__pb2_1a6927c7be88e6817b4cb313ce2c736892" prot="protected" static="no" mutable="no">
+        <type>_descriptor</type>
+        <definition>_descriptor bittensor::_proto::bittensor_pb2._TENSORTYPE</definition>
+        <argsstring></argsstring>
+        <name>_TENSORTYPE</name>
+        <qualifiedname>bittensor._proto.bittensor_pb2._TENSORTYPE</qualifiedname>
+        <initializer>=  _descriptor.EnumDescriptor(
+  name=&apos;TensorType&apos;,
+  full_name=&apos;TensorType&apos;,
+  filename=None,
+  file=DESCRIPTOR,
+  create_key=_descriptor._internal_create_key,
+  values=[
+    _descriptor.EnumValueDescriptor(
+      name=&apos;TORCH&apos;, index=0, number=0,
+      serialized_options=None,
+      type=None,
+      create_key=_descriptor._internal_create_key),
+    _descriptor.EnumValueDescriptor(
+      name=&apos;TENSORFLOW&apos;, index=1, number=1,
+      serialized_options=None,
+      type=None,
+      create_key=_descriptor._internal_create_key),
+    _descriptor.EnumValueDescriptor(
+      name=&apos;NUMPY&apos;, index=2, number=2,
+      serialized_options=None,
+      type=None,
+      create_key=_descriptor._internal_create_key),
+  ],
+  containing_type=None,
+  serialized_options=None,
+  serialized_start=3037,
+  serialized_end=3087,
+)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_proto/bittensor_pb2.py" line="193" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_proto/bittensor_pb2.py" bodystart="193" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacebittensor_1_1__proto_1_1bittensor__pb2_1a8e62b32180c2d2768ee1607578a8049c" prot="public" static="no" mutable="no">
+        <type>enum_type_wrapper</type>
+        <definition>enum_type_wrapper bittensor::_proto::bittensor_pb2.TensorType</definition>
+        <argsstring></argsstring>
+        <name>TensorType</name>
+        <qualifiedname>bittensor._proto.bittensor_pb2.TensorType</qualifiedname>
+        <initializer>=  enum_type_wrapper.EnumTypeWrapper(_TENSORTYPE)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_proto/bittensor_pb2.py" line="223" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_proto/bittensor_pb2.py" bodystart="223" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacebittensor_1_1__proto_1_1bittensor__pb2_1a5618abfa28e75ddf43056b495c3b9b40" prot="protected" static="no" mutable="no">
+        <type>_descriptor</type>
+        <definition>_descriptor bittensor::_proto::bittensor_pb2._DATATYPE</definition>
+        <argsstring></argsstring>
+        <name>_DATATYPE</name>
+        <qualifiedname>bittensor._proto.bittensor_pb2._DATATYPE</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_proto/bittensor_pb2.py" line="224" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_proto/bittensor_pb2.py" bodystart="224" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacebittensor_1_1__proto_1_1bittensor__pb2_1a44ef04314a81342194dcca6f1c8233fa" prot="public" static="no" mutable="no">
+        <type>enum_type_wrapper</type>
+        <definition>enum_type_wrapper bittensor::_proto::bittensor_pb2.DataType</definition>
+        <argsstring></argsstring>
+        <name>DataType</name>
+        <qualifiedname>bittensor._proto.bittensor_pb2.DataType</qualifiedname>
+        <initializer>=  enum_type_wrapper.EnumTypeWrapper(_DATATYPE)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_proto/bittensor_pb2.py" line="274" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_proto/bittensor_pb2.py" bodystart="274" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacebittensor_1_1__proto_1_1bittensor__pb2_1a77f85c14e011e1e797fab8dd0101135a" prot="protected" static="no" mutable="no">
+        <type>_descriptor</type>
+        <definition>_descriptor bittensor::_proto::bittensor_pb2._MODALITY</definition>
+        <argsstring></argsstring>
+        <name>_MODALITY</name>
+        <qualifiedname>bittensor._proto.bittensor_pb2._MODALITY</qualifiedname>
+        <initializer>=  _descriptor.EnumDescriptor(
+  name=&apos;Modality&apos;,
+  full_name=&apos;Modality&apos;,
+  filename=None,
+  file=DESCRIPTOR,
+  create_key=_descriptor._internal_create_key,
+  values=[
+    _descriptor.EnumValueDescriptor(
+      name=&apos;TEXT&apos;, index=0, number=0,
+      serialized_options=None,
+      type=None,
+      create_key=_descriptor._internal_create_key),
+    _descriptor.EnumValueDescriptor(
+      name=&apos;IMAGE&apos;, index=1, number=1,
+      serialized_options=None,
+      type=None,
+      create_key=_descriptor._internal_create_key),
+    _descriptor.EnumValueDescriptor(
+      name=&apos;TENSOR&apos;, index=2, number=2,
+      serialized_options=None,
+      type=None,
+      create_key=_descriptor._internal_create_key),
+  ],
+  containing_type=None,
+  serialized_options=None,
+  serialized_start=3185,
+  serialized_end=3228,
+)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_proto/bittensor_pb2.py" line="275" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_proto/bittensor_pb2.py" bodystart="275" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacebittensor_1_1__proto_1_1bittensor__pb2_1a18a935a285b34be7086fee46f6f608db" prot="public" static="no" mutable="no">
+        <type>enum_type_wrapper</type>
+        <definition>enum_type_wrapper bittensor::_proto::bittensor_pb2.Modality</definition>
+        <argsstring></argsstring>
+        <name>Modality</name>
+        <qualifiedname>bittensor._proto.bittensor_pb2.Modality</qualifiedname>
+        <initializer>=  enum_type_wrapper.EnumTypeWrapper(_MODALITY)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_proto/bittensor_pb2.py" line="305" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_proto/bittensor_pb2.py" bodystart="305" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacebittensor_1_1__proto_1_1bittensor__pb2_1a0217d97b7b6e9d22609fc0d7061de3da" prot="protected" static="no" mutable="no">
+        <type>_descriptor</type>
+        <definition>_descriptor bittensor::_proto::bittensor_pb2._REQUESTTYPE</definition>
+        <argsstring></argsstring>
+        <name>_REQUESTTYPE</name>
+        <qualifiedname>bittensor._proto.bittensor_pb2._REQUESTTYPE</qualifiedname>
+        <initializer>=  _descriptor.EnumDescriptor(
+  name=&apos;RequestType&apos;,
+  full_name=&apos;RequestType&apos;,
+  filename=None,
+  file=DESCRIPTOR,
+  create_key=_descriptor._internal_create_key,
+  values=[
+    _descriptor.EnumValueDescriptor(
+      name=&apos;NOTDEFINED&apos;, index=0, number=0,
+      serialized_options=None,
+      type=None,
+      create_key=_descriptor._internal_create_key),
+    _descriptor.EnumValueDescriptor(
+      name=&apos;FORWARD&apos;, index=1, number=1,
+      serialized_options=None,
+      type=None,
+      create_key=_descriptor._internal_create_key),
+    _descriptor.EnumValueDescriptor(
+      name=&apos;BACKWARD&apos;, index=2, number=2,
+      serialized_options=None,
+      type=None,
+      create_key=_descriptor._internal_create_key),
+  ],
+  containing_type=None,
+  serialized_options=None,
+  serialized_start=3230,
+  serialized_end=3286,
+)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_proto/bittensor_pb2.py" line="306" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_proto/bittensor_pb2.py" bodystart="306" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacebittensor_1_1__proto_1_1bittensor__pb2_1a74c95f186d959945fbbd6c2b3957e670" prot="public" static="no" mutable="no">
+        <type>enum_type_wrapper</type>
+        <definition>enum_type_wrapper bittensor::_proto::bittensor_pb2.RequestType</definition>
+        <argsstring></argsstring>
+        <name>RequestType</name>
+        <qualifiedname>bittensor._proto.bittensor_pb2.RequestType</qualifiedname>
+        <initializer>=  enum_type_wrapper.EnumTypeWrapper(_REQUESTTYPE)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_proto/bittensor_pb2.py" line="336" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_proto/bittensor_pb2.py" bodystart="336" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacebittensor_1_1__proto_1_1bittensor__pb2_1a867ca52fdeb15f15c9ac779712c6b1db" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int bittensor::_proto::bittensor_pb2.NoReturn</definition>
+        <argsstring></argsstring>
+        <name>NoReturn</name>
+        <qualifiedname>bittensor._proto.bittensor_pb2.NoReturn</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_proto/bittensor_pb2.py" line="337" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_proto/bittensor_pb2.py" bodystart="337" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacebittensor_1_1__proto_1_1bittensor__pb2_1a0ae5b164b71041f1995400c26ebb1e3d" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int bittensor::_proto::bittensor_pb2.Success</definition>
+        <argsstring></argsstring>
+        <name>Success</name>
+        <qualifiedname>bittensor._proto.bittensor_pb2.Success</qualifiedname>
+        <initializer>=  1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_proto/bittensor_pb2.py" line="338" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_proto/bittensor_pb2.py" bodystart="338" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacebittensor_1_1__proto_1_1bittensor__pb2_1a313115e56ae075c5c1576a415e369e03" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int bittensor::_proto::bittensor_pb2.Timeout</definition>
+        <argsstring></argsstring>
+        <name>Timeout</name>
+        <qualifiedname>bittensor._proto.bittensor_pb2.Timeout</qualifiedname>
+        <initializer>=  2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_proto/bittensor_pb2.py" line="339" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_proto/bittensor_pb2.py" bodystart="339" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacebittensor_1_1__proto_1_1bittensor__pb2_1ae48367ae92bbe8daa97554668dc8aa2b" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int bittensor::_proto::bittensor_pb2.Backoff</definition>
+        <argsstring></argsstring>
+        <name>Backoff</name>
+        <qualifiedname>bittensor._proto.bittensor_pb2.Backoff</qualifiedname>
+        <initializer>=  3</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_proto/bittensor_pb2.py" line="340" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_proto/bittensor_pb2.py" bodystart="340" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacebittensor_1_1__proto_1_1bittensor__pb2_1a37928f27ff62c27d9637dd1912ea89b7" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int bittensor::_proto::bittensor_pb2.Unavailable</definition>
+        <argsstring></argsstring>
+        <name>Unavailable</name>
+        <qualifiedname>bittensor._proto.bittensor_pb2.Unavailable</qualifiedname>
+        <initializer>=  4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_proto/bittensor_pb2.py" line="341" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_proto/bittensor_pb2.py" bodystart="341" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacebittensor_1_1__proto_1_1bittensor__pb2_1ad70629b63055d4f9311054c585041065" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int bittensor::_proto::bittensor_pb2.NotImplemented</definition>
+        <argsstring></argsstring>
+        <name>NotImplemented</name>
+        <qualifiedname>bittensor._proto.bittensor_pb2.NotImplemented</qualifiedname>
+        <initializer>=  5</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_proto/bittensor_pb2.py" line="342" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_proto/bittensor_pb2.py" bodystart="342" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacebittensor_1_1__proto_1_1bittensor__pb2_1a92003c9705ae9d9a422f8f674639c061" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int bittensor::_proto::bittensor_pb2.EmptyRequest</definition>
+        <argsstring></argsstring>
+        <name>EmptyRequest</name>
+        <qualifiedname>bittensor._proto.bittensor_pb2.EmptyRequest</qualifiedname>
+        <initializer>=  6</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_proto/bittensor_pb2.py" line="343" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_proto/bittensor_pb2.py" bodystart="343" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacebittensor_1_1__proto_1_1bittensor__pb2_1a7af41e3a18e5ffd2fe167f4f9c228e09" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int bittensor::_proto::bittensor_pb2.EmptyResponse</definition>
+        <argsstring></argsstring>
+        <name>EmptyResponse</name>
+        <qualifiedname>bittensor._proto.bittensor_pb2.EmptyResponse</qualifiedname>
+        <initializer>=  7</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_proto/bittensor_pb2.py" line="344" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_proto/bittensor_pb2.py" bodystart="344" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacebittensor_1_1__proto_1_1bittensor__pb2_1a8f2855164acc28362fca6e39ccc6cd0a" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int bittensor::_proto::bittensor_pb2.InvalidResponse</definition>
+        <argsstring></argsstring>
+        <name>InvalidResponse</name>
+        <qualifiedname>bittensor._proto.bittensor_pb2.InvalidResponse</qualifiedname>
+        <initializer>=  8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_proto/bittensor_pb2.py" line="345" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_proto/bittensor_pb2.py" bodystart="345" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacebittensor_1_1__proto_1_1bittensor__pb2_1a72eda22475bad4d04a06fd879d135455" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int bittensor::_proto::bittensor_pb2.InvalidRequest</definition>
+        <argsstring></argsstring>
+        <name>InvalidRequest</name>
+        <qualifiedname>bittensor._proto.bittensor_pb2.InvalidRequest</qualifiedname>
+        <initializer>=  9</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_proto/bittensor_pb2.py" line="346" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_proto/bittensor_pb2.py" bodystart="346" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacebittensor_1_1__proto_1_1bittensor__pb2_1aaaadd45a1865d142504678721c59f55d" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int bittensor::_proto::bittensor_pb2.RequestShapeException</definition>
+        <argsstring></argsstring>
+        <name>RequestShapeException</name>
+        <qualifiedname>bittensor._proto.bittensor_pb2.RequestShapeException</qualifiedname>
+        <initializer>=  10</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_proto/bittensor_pb2.py" line="347" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_proto/bittensor_pb2.py" bodystart="347" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacebittensor_1_1__proto_1_1bittensor__pb2_1a4a5f41adae97c32e3bb2ef07009b481b" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int bittensor::_proto::bittensor_pb2.ResponseShapeException</definition>
+        <argsstring></argsstring>
+        <name>ResponseShapeException</name>
+        <qualifiedname>bittensor._proto.bittensor_pb2.ResponseShapeException</qualifiedname>
+        <initializer>=  11</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_proto/bittensor_pb2.py" line="348" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_proto/bittensor_pb2.py" bodystart="348" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacebittensor_1_1__proto_1_1bittensor__pb2_1a1fb998a5b4d57e1d90c766f8dfffde02" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int bittensor::_proto::bittensor_pb2.RequestSerializationException</definition>
+        <argsstring></argsstring>
+        <name>RequestSerializationException</name>
+        <qualifiedname>bittensor._proto.bittensor_pb2.RequestSerializationException</qualifiedname>
+        <initializer>=  12</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_proto/bittensor_pb2.py" line="349" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_proto/bittensor_pb2.py" bodystart="349" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacebittensor_1_1__proto_1_1bittensor__pb2_1abb7c5fb70ec109a919c3f808621cfffd" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int bittensor::_proto::bittensor_pb2.ResponseSerializationException</definition>
+        <argsstring></argsstring>
+        <name>ResponseSerializationException</name>
+        <qualifiedname>bittensor._proto.bittensor_pb2.ResponseSerializationException</qualifiedname>
+        <initializer>=  13</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_proto/bittensor_pb2.py" line="350" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_proto/bittensor_pb2.py" bodystart="350" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacebittensor_1_1__proto_1_1bittensor__pb2_1a7ecbcc84ebc47a18386d053f6c01ec35" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int bittensor::_proto::bittensor_pb2.RequestDeserializationException</definition>
+        <argsstring></argsstring>
+        <name>RequestDeserializationException</name>
+        <qualifiedname>bittensor._proto.bittensor_pb2.RequestDeserializationException</qualifiedname>
+        <initializer>=  14</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_proto/bittensor_pb2.py" line="351" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_proto/bittensor_pb2.py" bodystart="351" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacebittensor_1_1__proto_1_1bittensor__pb2_1a4fafdc54d66700f1832ce744c67abe41" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int bittensor::_proto::bittensor_pb2.ResponseDeserializationException</definition>
+        <argsstring></argsstring>
+        <name>ResponseDeserializationException</name>
+        <qualifiedname>bittensor._proto.bittensor_pb2.ResponseDeserializationException</qualifiedname>
+        <initializer>=  15</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_proto/bittensor_pb2.py" line="352" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_proto/bittensor_pb2.py" bodystart="352" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacebittensor_1_1__proto_1_1bittensor__pb2_1a198fccad65809cf3222059ee706fb82d" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int bittensor::_proto::bittensor_pb2.NotServingNucleus</definition>
+        <argsstring></argsstring>
+        <name>NotServingNucleus</name>
+        <qualifiedname>bittensor._proto.bittensor_pb2.NotServingNucleus</qualifiedname>
+        <initializer>=  16</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_proto/bittensor_pb2.py" line="353" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_proto/bittensor_pb2.py" bodystart="353" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacebittensor_1_1__proto_1_1bittensor__pb2_1a725af05cd522a95a24b283d49e529fa6" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int bittensor::_proto::bittensor_pb2.NucleusTimeout</definition>
+        <argsstring></argsstring>
+        <name>NucleusTimeout</name>
+        <qualifiedname>bittensor._proto.bittensor_pb2.NucleusTimeout</qualifiedname>
+        <initializer>=  17</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_proto/bittensor_pb2.py" line="354" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_proto/bittensor_pb2.py" bodystart="354" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacebittensor_1_1__proto_1_1bittensor__pb2_1a8ac12702f813f92bc294d74dfa29c940" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int bittensor::_proto::bittensor_pb2.NucleusFull</definition>
+        <argsstring></argsstring>
+        <name>NucleusFull</name>
+        <qualifiedname>bittensor._proto.bittensor_pb2.NucleusFull</qualifiedname>
+        <initializer>=  18</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_proto/bittensor_pb2.py" line="355" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_proto/bittensor_pb2.py" bodystart="355" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacebittensor_1_1__proto_1_1bittensor__pb2_1a11082f8f105188f5f7009ce45ce02a7f" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int bittensor::_proto::bittensor_pb2.RequestIncompatibleVersion</definition>
+        <argsstring></argsstring>
+        <name>RequestIncompatibleVersion</name>
+        <qualifiedname>bittensor._proto.bittensor_pb2.RequestIncompatibleVersion</qualifiedname>
+        <initializer>=  19</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_proto/bittensor_pb2.py" line="356" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_proto/bittensor_pb2.py" bodystart="356" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacebittensor_1_1__proto_1_1bittensor__pb2_1ac6e662ba0b5dbe627b18427a9776be46" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int bittensor::_proto::bittensor_pb2.ResponseIncompatibleVersion</definition>
+        <argsstring></argsstring>
+        <name>ResponseIncompatibleVersion</name>
+        <qualifiedname>bittensor._proto.bittensor_pb2.ResponseIncompatibleVersion</qualifiedname>
+        <initializer>=  20</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_proto/bittensor_pb2.py" line="357" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_proto/bittensor_pb2.py" bodystart="357" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacebittensor_1_1__proto_1_1bittensor__pb2_1af6a686f8724b63d5f1a1f1fc70350875" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int bittensor::_proto::bittensor_pb2.SenderUnknown</definition>
+        <argsstring></argsstring>
+        <name>SenderUnknown</name>
+        <qualifiedname>bittensor._proto.bittensor_pb2.SenderUnknown</qualifiedname>
+        <initializer>=  21</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_proto/bittensor_pb2.py" line="358" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_proto/bittensor_pb2.py" bodystart="358" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacebittensor_1_1__proto_1_1bittensor__pb2_1a83edfddbae42d6ac3942fb97479dfcb0" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int bittensor::_proto::bittensor_pb2.UnknownException</definition>
+        <argsstring></argsstring>
+        <name>UnknownException</name>
+        <qualifiedname>bittensor._proto.bittensor_pb2.UnknownException</qualifiedname>
+        <initializer>=  22</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_proto/bittensor_pb2.py" line="359" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_proto/bittensor_pb2.py" bodystart="359" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacebittensor_1_1__proto_1_1bittensor__pb2_1a0a6599ff459e0131f6fb4f72bb699b64" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int bittensor::_proto::bittensor_pb2.Unauthenticated</definition>
+        <argsstring></argsstring>
+        <name>Unauthenticated</name>
+        <qualifiedname>bittensor._proto.bittensor_pb2.Unauthenticated</qualifiedname>
+        <initializer>=  23</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_proto/bittensor_pb2.py" line="360" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_proto/bittensor_pb2.py" bodystart="360" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacebittensor_1_1__proto_1_1bittensor__pb2_1a43aa7ee16ae5fce580e3e7193325f58e" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int bittensor::_proto::bittensor_pb2.BadEndpoint</definition>
+        <argsstring></argsstring>
+        <name>BadEndpoint</name>
+        <qualifiedname>bittensor._proto.bittensor_pb2.BadEndpoint</qualifiedname>
+        <initializer>=  24</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_proto/bittensor_pb2.py" line="361" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_proto/bittensor_pb2.py" bodystart="361" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacebittensor_1_1__proto_1_1bittensor__pb2_1acaec6bc15ba106c2ffede09eeac493f1" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int bittensor::_proto::bittensor_pb2.MSGPACK</definition>
+        <argsstring></argsstring>
+        <name>MSGPACK</name>
+        <qualifiedname>bittensor._proto.bittensor_pb2.MSGPACK</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_proto/bittensor_pb2.py" line="362" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_proto/bittensor_pb2.py" bodystart="362" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacebittensor_1_1__proto_1_1bittensor__pb2_1a604dfb29f5fb6c44bacccb692177d603" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int bittensor::_proto::bittensor_pb2.CMPPACK</definition>
+        <argsstring></argsstring>
+        <name>CMPPACK</name>
+        <qualifiedname>bittensor._proto.bittensor_pb2.CMPPACK</qualifiedname>
+        <initializer>=  1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_proto/bittensor_pb2.py" line="363" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_proto/bittensor_pb2.py" bodystart="363" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacebittensor_1_1__proto_1_1bittensor__pb2_1ae3e723bbabf443da85ede3bec0e7e035" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int bittensor::_proto::bittensor_pb2.TORCH</definition>
+        <argsstring></argsstring>
+        <name>TORCH</name>
+        <qualifiedname>bittensor._proto.bittensor_pb2.TORCH</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_proto/bittensor_pb2.py" line="364" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_proto/bittensor_pb2.py" bodystart="364" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacebittensor_1_1__proto_1_1bittensor__pb2_1ae68c8c4a33c16f4ec407d9d4e028c209" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int bittensor::_proto::bittensor_pb2.TENSORFLOW</definition>
+        <argsstring></argsstring>
+        <name>TENSORFLOW</name>
+        <qualifiedname>bittensor._proto.bittensor_pb2.TENSORFLOW</qualifiedname>
+        <initializer>=  1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_proto/bittensor_pb2.py" line="365" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_proto/bittensor_pb2.py" bodystart="365" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacebittensor_1_1__proto_1_1bittensor__pb2_1a008ed235f1b671c54a83f2bf085812ca" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int bittensor::_proto::bittensor_pb2.NUMPY</definition>
+        <argsstring></argsstring>
+        <name>NUMPY</name>
+        <qualifiedname>bittensor._proto.bittensor_pb2.NUMPY</qualifiedname>
+        <initializer>=  2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_proto/bittensor_pb2.py" line="366" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_proto/bittensor_pb2.py" bodystart="366" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacebittensor_1_1__proto_1_1bittensor__pb2_1abd58b1f4b63a1c8b786ffa230f5abf58" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int bittensor::_proto::bittensor_pb2.UNKNOWN</definition>
+        <argsstring></argsstring>
+        <name>UNKNOWN</name>
+        <qualifiedname>bittensor._proto.bittensor_pb2.UNKNOWN</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_proto/bittensor_pb2.py" line="367" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_proto/bittensor_pb2.py" bodystart="367" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacebittensor_1_1__proto_1_1bittensor__pb2_1aaed5dde4e46e1d903e5b2cdbf68a15b2" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int bittensor::_proto::bittensor_pb2.FLOAT32</definition>
+        <argsstring></argsstring>
+        <name>FLOAT32</name>
+        <qualifiedname>bittensor._proto.bittensor_pb2.FLOAT32</qualifiedname>
+        <initializer>=  1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_proto/bittensor_pb2.py" line="368" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_proto/bittensor_pb2.py" bodystart="368" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacebittensor_1_1__proto_1_1bittensor__pb2_1a8d2efd4940fce7949f5a91ce3aafe46e" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int bittensor::_proto::bittensor_pb2.FLOAT64</definition>
+        <argsstring></argsstring>
+        <name>FLOAT64</name>
+        <qualifiedname>bittensor._proto.bittensor_pb2.FLOAT64</qualifiedname>
+        <initializer>=  2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_proto/bittensor_pb2.py" line="369" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_proto/bittensor_pb2.py" bodystart="369" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacebittensor_1_1__proto_1_1bittensor__pb2_1ad374a0017de255a7f7de12f2e0c8f4ff" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int bittensor::_proto::bittensor_pb2.INT32</definition>
+        <argsstring></argsstring>
+        <name>INT32</name>
+        <qualifiedname>bittensor._proto.bittensor_pb2.INT32</qualifiedname>
+        <initializer>=  3</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_proto/bittensor_pb2.py" line="370" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_proto/bittensor_pb2.py" bodystart="370" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacebittensor_1_1__proto_1_1bittensor__pb2_1adb8222abd55b03e641427436202e27f3" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int bittensor::_proto::bittensor_pb2.INT64</definition>
+        <argsstring></argsstring>
+        <name>INT64</name>
+        <qualifiedname>bittensor._proto.bittensor_pb2.INT64</qualifiedname>
+        <initializer>=  4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_proto/bittensor_pb2.py" line="371" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_proto/bittensor_pb2.py" bodystart="371" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacebittensor_1_1__proto_1_1bittensor__pb2_1adf85ca10ad8970389586006cd32cb660" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int bittensor::_proto::bittensor_pb2.UTF8</definition>
+        <argsstring></argsstring>
+        <name>UTF8</name>
+        <qualifiedname>bittensor._proto.bittensor_pb2.UTF8</qualifiedname>
+        <initializer>=  5</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_proto/bittensor_pb2.py" line="372" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_proto/bittensor_pb2.py" bodystart="372" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacebittensor_1_1__proto_1_1bittensor__pb2_1a96880115fd9f9668b558c64057d66931" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int bittensor::_proto::bittensor_pb2.FLOAT16</definition>
+        <argsstring></argsstring>
+        <name>FLOAT16</name>
+        <qualifiedname>bittensor._proto.bittensor_pb2.FLOAT16</qualifiedname>
+        <initializer>=  6</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_proto/bittensor_pb2.py" line="373" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_proto/bittensor_pb2.py" bodystart="373" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacebittensor_1_1__proto_1_1bittensor__pb2_1af6aaad3a1f25686a6de425a65f8cab07" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int bittensor::_proto::bittensor_pb2.TEXT</definition>
+        <argsstring></argsstring>
+        <name>TEXT</name>
+        <qualifiedname>bittensor._proto.bittensor_pb2.TEXT</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_proto/bittensor_pb2.py" line="374" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_proto/bittensor_pb2.py" bodystart="374" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacebittensor_1_1__proto_1_1bittensor__pb2_1af589789e3f2635b39982eb76f5b791c9" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int bittensor::_proto::bittensor_pb2.IMAGE</definition>
+        <argsstring></argsstring>
+        <name>IMAGE</name>
+        <qualifiedname>bittensor._proto.bittensor_pb2.IMAGE</qualifiedname>
+        <initializer>=  1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_proto/bittensor_pb2.py" line="375" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_proto/bittensor_pb2.py" bodystart="375" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacebittensor_1_1__proto_1_1bittensor__pb2_1acf795f025540adeb069fd6684e09d297" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int bittensor::_proto::bittensor_pb2.TENSOR</definition>
+        <argsstring></argsstring>
+        <name>TENSOR</name>
+        <qualifiedname>bittensor._proto.bittensor_pb2.TENSOR</qualifiedname>
+        <initializer>=  2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_proto/bittensor_pb2.py" line="376" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_proto/bittensor_pb2.py" bodystart="376" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacebittensor_1_1__proto_1_1bittensor__pb2_1a6324f468ea04d2b4d16fa220392b33f8" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int bittensor::_proto::bittensor_pb2.NOTDEFINED</definition>
+        <argsstring></argsstring>
+        <name>NOTDEFINED</name>
+        <qualifiedname>bittensor._proto.bittensor_pb2.NOTDEFINED</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_proto/bittensor_pb2.py" line="377" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_proto/bittensor_pb2.py" bodystart="377" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacebittensor_1_1__proto_1_1bittensor__pb2_1a3bf8a4fb2bad98b42a24f1f1d4c9fe34" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int bittensor::_proto::bittensor_pb2.FORWARD</definition>
+        <argsstring></argsstring>
+        <name>FORWARD</name>
+        <qualifiedname>bittensor._proto.bittensor_pb2.FORWARD</qualifiedname>
+        <initializer>=  1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_proto/bittensor_pb2.py" line="378" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_proto/bittensor_pb2.py" bodystart="378" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacebittensor_1_1__proto_1_1bittensor__pb2_1a5582a9940f9638d1ebf14e5258f07d6d" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int bittensor::_proto::bittensor_pb2.BACKWARD</definition>
+        <argsstring></argsstring>
+        <name>BACKWARD</name>
+        <qualifiedname>bittensor._proto.bittensor_pb2.BACKWARD</qualifiedname>
+        <initializer>=  2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_proto/bittensor_pb2.py" line="379" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_proto/bittensor_pb2.py" bodystart="379" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacebittensor_1_1__proto_1_1bittensor__pb2_1ad306b27230a2e2863481ea8340b3b2fa" prot="protected" static="no" mutable="no">
+        <type>_descriptor</type>
+        <definition>_descriptor bittensor::_proto::bittensor_pb2._SYNAPSE_SYNAPSETYPE</definition>
+        <argsstring></argsstring>
+        <name>_SYNAPSE_SYNAPSETYPE</name>
+        <qualifiedname>bittensor._proto.bittensor_pb2._SYNAPSE_SYNAPSETYPE</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_proto/bittensor_pb2.py" line="382" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_proto/bittensor_pb2.py" bodystart="382" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacebittensor_1_1__proto_1_1bittensor__pb2_1a6811451e739dfc2b78702640fe642e16" prot="protected" static="no" mutable="no">
+        <type>_descriptor</type>
+        <definition>_descriptor bittensor::_proto::bittensor_pb2._NEURON</definition>
+        <argsstring></argsstring>
+        <name>_NEURON</name>
+        <qualifiedname>bittensor._proto.bittensor_pb2._NEURON</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_proto/bittensor_pb2.py" line="423" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_proto/bittensor_pb2.py" bodystart="423" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacebittensor_1_1__proto_1_1bittensor__pb2_1aef34b78af3131ad457b7a6a9fc664248" prot="protected" static="no" mutable="no">
+        <type>_descriptor</type>
+        <definition>_descriptor bittensor::_proto::bittensor_pb2._TENSORMESSAGE</definition>
+        <argsstring></argsstring>
+        <name>_TENSORMESSAGE</name>
+        <qualifiedname>bittensor._proto.bittensor_pb2._TENSORMESSAGE</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_proto/bittensor_pb2.py" line="504" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_proto/bittensor_pb2.py" bodystart="504" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacebittensor_1_1__proto_1_1bittensor__pb2_1a3c19cd4d232395a0a7ef432abe49a178" prot="protected" static="no" mutable="no">
+        <type>_descriptor</type>
+        <definition>_descriptor bittensor::_proto::bittensor_pb2._SYNAPSE_TEXTLASTHIDDENSTATE</definition>
+        <argsstring></argsstring>
+        <name>_SYNAPSE_TEXTLASTHIDDENSTATE</name>
+        <qualifiedname>bittensor._proto.bittensor_pb2._SYNAPSE_TEXTLASTHIDDENSTATE</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_proto/bittensor_pb2.py" line="578" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_proto/bittensor_pb2.py" bodystart="578" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacebittensor_1_1__proto_1_1bittensor__pb2_1a00993caa9c96940548386232e900d5c2" prot="protected" static="no" mutable="no">
+        <type>_descriptor</type>
+        <definition>_descriptor bittensor::_proto::bittensor_pb2._SYNAPSE_TEXTCAUSALLM</definition>
+        <argsstring></argsstring>
+        <name>_SYNAPSE_TEXTCAUSALLM</name>
+        <qualifiedname>bittensor._proto.bittensor_pb2._SYNAPSE_TEXTCAUSALLM</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_proto/bittensor_pb2.py" line="644" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_proto/bittensor_pb2.py" bodystart="644" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacebittensor_1_1__proto_1_1bittensor__pb2_1a74fcacf4eacc0481fafd711088577c7b" prot="protected" static="no" mutable="no">
+        <type>_descriptor</type>
+        <definition>_descriptor bittensor::_proto::bittensor_pb2._SYNAPSE_TEXTSEQ2SEQ</definition>
+        <argsstring></argsstring>
+        <name>_SYNAPSE_TEXTSEQ2SEQ</name>
+        <qualifiedname>bittensor._proto.bittensor_pb2._SYNAPSE_TEXTSEQ2SEQ</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_proto/bittensor_pb2.py" line="717" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_proto/bittensor_pb2.py" bodystart="717" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacebittensor_1_1__proto_1_1bittensor__pb2_1a7e38c31a1d0c62641cb224c59765ee35" prot="protected" static="no" mutable="no">
+        <type>_descriptor</type>
+        <definition>_descriptor bittensor::_proto::bittensor_pb2._SYNAPSE_TEXTCAUSALLMNEXT</definition>
+        <argsstring></argsstring>
+        <name>_SYNAPSE_TEXTCAUSALLMNEXT</name>
+        <qualifiedname>bittensor._proto.bittensor_pb2._SYNAPSE_TEXTCAUSALLMNEXT</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_proto/bittensor_pb2.py" line="874" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_proto/bittensor_pb2.py" bodystart="874" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacebittensor_1_1__proto_1_1bittensor__pb2_1af9fdc6f61e687bb97e6762af7e18836e" prot="protected" static="no" mutable="no">
+        <type>_descriptor</type>
+        <definition>_descriptor bittensor::_proto::bittensor_pb2._SYNAPSE</definition>
+        <argsstring></argsstring>
+        <name>_SYNAPSE</name>
+        <qualifiedname>bittensor._proto.bittensor_pb2._SYNAPSE</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_proto/bittensor_pb2.py" line="947" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_proto/bittensor_pb2.py" bodystart="947" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacebittensor_1_1__proto_1_1bittensor__pb2_1a8a24f94dcd406ee1bc57b4db3f7a6410" prot="protected" static="no" mutable="no">
+        <type>_descriptor</type>
+        <definition>_descriptor bittensor::_proto::bittensor_pb2._TENSOR</definition>
+        <argsstring></argsstring>
+        <name>_TENSOR</name>
+        <qualifiedname>bittensor._proto.bittensor_pb2._TENSOR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_proto/bittensor_pb2.py" line="1015" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_proto/bittensor_pb2.py" bodystart="1015" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacebittensor_1_1__proto_1_1bittensor__pb2_1ac1b2436c3b31a694f05baf304b5caa04" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor::_proto::bittensor_pb2.enum_type</definition>
+        <argsstring></argsstring>
+        <name>enum_type</name>
+        <qualifiedname>bittensor._proto.bittensor_pb2.enum_type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_proto/bittensor_pb2.py" line="1095" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_proto/bittensor_pb2.py" bodystart="1095" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacebittensor_1_1__proto_1_1bittensor__pb2_1a6740bd4bdfb8c2fea2a94b2a9bfcba95" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor::_proto::bittensor_pb2.message_type</definition>
+        <argsstring></argsstring>
+        <name>message_type</name>
+        <qualifiedname>bittensor._proto.bittensor_pb2.message_type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_proto/bittensor_pb2.py" line="1096" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_proto/bittensor_pb2.py" bodystart="1096" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacebittensor_1_1__proto_1_1bittensor__pb2_1a88abd719a4bbd339f893d72cb2b6267a" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor::_proto::bittensor_pb2.containing_type</definition>
+        <argsstring></argsstring>
+        <name>containing_type</name>
+        <qualifiedname>bittensor._proto.bittensor_pb2.containing_type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_proto/bittensor_pb2.py" line="1104" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_proto/bittensor_pb2.py" bodystart="1104" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacebittensor_1_1__proto_1_1bittensor__pb2_1a2ed0f0c0232377f4dfdd529277db8364" prot="public" static="no" mutable="no">
+        <type>_reflection</type>
+        <definition>_reflection bittensor::_proto::bittensor_pb2.Neuron</definition>
+        <argsstring></argsstring>
+        <name>Neuron</name>
+        <qualifiedname>bittensor._proto.bittensor_pb2.Neuron</qualifiedname>
+        <initializer>=  _reflection.GeneratedProtocolMessageType(&apos;Neuron&apos;, (_message.Message,), {
+  &apos;DESCRIPTOR&apos; : _NEURON,
+  &apos;__module__&apos; : &apos;bittensor._proto.bittensor_pb2&apos;
+  # @@protoc_insertion_point(class_scope:Neuron)
+  })</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_proto/bittensor_pb2.py" line="1142" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_proto/bittensor_pb2.py" bodystart="1142" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacebittensor_1_1__proto_1_1bittensor__pb2_1ad14f4641efb787b659567ad3b78ed5ca" prot="public" static="no" mutable="no">
+        <type>_reflection</type>
+        <definition>_reflection bittensor::_proto::bittensor_pb2.TensorMessage</definition>
+        <argsstring></argsstring>
+        <name>TensorMessage</name>
+        <qualifiedname>bittensor._proto.bittensor_pb2.TensorMessage</qualifiedname>
+        <initializer>=  _reflection.GeneratedProtocolMessageType(&apos;TensorMessage&apos;, (_message.Message,), {
+  &apos;DESCRIPTOR&apos; : _TENSORMESSAGE,
+  &apos;__module__&apos; : &apos;bittensor._proto.bittensor_pb2&apos;
+  # @@protoc_insertion_point(class_scope:TensorMessage)
+  })</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_proto/bittensor_pb2.py" line="1149" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_proto/bittensor_pb2.py" bodystart="1149" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacebittensor_1_1__proto_1_1bittensor__pb2_1aef765d4a4f4768ae45269bfb5d80166f" prot="public" static="no" mutable="no">
+        <type>_reflection</type>
+        <definition>_reflection bittensor::_proto::bittensor_pb2.Synapse</definition>
+        <argsstring></argsstring>
+        <name>Synapse</name>
+        <qualifiedname>bittensor._proto.bittensor_pb2.Synapse</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_proto/bittensor_pb2.py" line="1156" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_proto/bittensor_pb2.py" bodystart="1156" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacebittensor_1_1__proto_1_1bittensor__pb2_1a26d78214f7a4d3cb0b97363688769289" prot="public" static="no" mutable="no">
+        <type>_reflection</type>
+        <definition>_reflection bittensor::_proto::bittensor_pb2.Tensor</definition>
+        <argsstring></argsstring>
+        <name>Tensor</name>
+        <qualifiedname>bittensor._proto.bittensor_pb2.Tensor</qualifiedname>
+        <initializer>=  _reflection.GeneratedProtocolMessageType(&apos;Tensor&apos;, (_message.Message,), {
+  &apos;DESCRIPTOR&apos; : _TENSOR,
+  &apos;__module__&apos; : &apos;bittensor._proto.bittensor_pb2&apos;
+  # @@protoc_insertion_point(class_scope:Tensor)
+  })</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_proto/bittensor_pb2.py" line="1195" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_proto/bittensor_pb2.py" bodystart="1195" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacebittensor_1_1__proto_1_1bittensor__pb2_1af59952b6b853810b09d92038fe20e47e" prot="protected" static="no" mutable="no">
+        <type>_descriptor</type>
+        <definition>_descriptor bittensor::_proto::bittensor_pb2._BITTENSOR</definition>
+        <argsstring></argsstring>
+        <name>_BITTENSOR</name>
+        <qualifiedname>bittensor._proto.bittensor_pb2._BITTENSOR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_proto/bittensor_pb2.py" line="1204" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_proto/bittensor_pb2.py" bodystart="1204" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated protocol buffer code.</verbatim> </para>
+    </detaileddescription>
+    <location file="/Users/macthrasher/bittensor/bittensor/_proto/bittensor_pb2.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

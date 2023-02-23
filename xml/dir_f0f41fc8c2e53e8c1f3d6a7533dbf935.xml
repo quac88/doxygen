@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="dir_f0f41fc8c2e53e8c1f3d6a7533dbf935" kind="dir">
+    <compoundname>/Users/macthrasher/bittensor/bittensor/_serializer</compoundname>
+    <innerfile refid="__serializer_2____init_____8py">__init__.py</innerfile>
+    <innerfile refid="serializer__impl_8py">serializer_impl.py</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/macthrasher/bittensor/bittensor/_serializer/"/>
+  </compounddef>
+</doxygen>

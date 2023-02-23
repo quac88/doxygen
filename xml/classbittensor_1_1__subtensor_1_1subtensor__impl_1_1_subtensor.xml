@@ -1,0 +1,1792 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="classbittensor_1_1__subtensor_1_1subtensor__impl_1_1_subtensor" kind="class" language="Python" prot="public">
+    <compoundname>bittensor::_subtensor::subtensor_impl::Subtensor</compoundname>
+    <derivedcompoundref refid="classbittensor_1_1__subtensor_1_1subtensor__mock_1_1_mock___subtensor" prot="public" virt="non-virtual">bittensor._subtensor.subtensor_mock.Mock_Subtensor</derivedcompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classbittensor_1_1__subtensor_1_1subtensor__impl_1_1_subtensor_1a417cc562a63d5c600eabad4815478b33" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._subtensor.subtensor_impl.Subtensor::network</definition>
+        <argsstring></argsstring>
+        <name>network</name>
+        <qualifiedname>bittensor._subtensor.subtensor_impl.Subtensor.network</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_subtensor/subtensor_impl.py" line="67" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_subtensor/subtensor_impl.py" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__subtensor_1_1subtensor__impl_1_1_subtensor_1a8f4dc83aacfc9ff98fcfb79885ef9681" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._subtensor.subtensor_impl.Subtensor::chain_endpoint</definition>
+        <argsstring></argsstring>
+        <name>chain_endpoint</name>
+        <qualifiedname>bittensor._subtensor.subtensor_impl.Subtensor.chain_endpoint</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_subtensor/subtensor_impl.py" line="68" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_subtensor/subtensor_impl.py" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__subtensor_1_1subtensor__impl_1_1_subtensor_1ab07ac47cf1fb8e14d921e168f2201ec1" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._subtensor.subtensor_impl.Subtensor::substrate</definition>
+        <argsstring></argsstring>
+        <name>substrate</name>
+        <qualifiedname>bittensor._subtensor.subtensor_impl.Subtensor.substrate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_subtensor/subtensor_impl.py" line="69" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_subtensor/subtensor_impl.py" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classbittensor_1_1__subtensor_1_1subtensor__impl_1_1_subtensor_1a4a7d9e6d5e9dae78bfc7c05c2e9baeab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._subtensor.subtensor_impl.Subtensor.__init__</definition>
+        <argsstring>(self, &apos;SubstrateInterface&apos; substrate, str network, str chain_endpoint)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>bittensor._subtensor.subtensor_impl.Subtensor.__init__</qualifiedname>
+        <reimplementedby refid="classbittensor_1_1__subtensor_1_1subtensor__mock_1_1_mock___subtensor_1a08ffa4bf8fd61f9ac302f513ede65bf9">__init__</reimplementedby>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>&apos;SubstrateInterface&apos;</type>
+          <declname>substrate</declname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>network</declname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>chain_endpoint</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Initializes a subtensor chain interface.
+        Args:
+            substrate (:obj:`SubstrateInterface`, `required`): 
+                substrate websocket client.
+            network (default=&apos;local&apos;, type=str)
+                The subtensor network flag. The likely choices are:
+                        -- local (local running network)
+                        -- nobunaga (staging network)
+                        -- nakamoto (main network)
+                If this option is set it overloads subtensor.chain_endpoint with 
+                an entry point node from that network.
+            chain_endpoint (default=None, type=str)
+                The subtensor endpoint flag. If set, overrides the network argument.</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_subtensor/subtensor_impl.py" line="47" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_subtensor/subtensor_impl.py" bodystart="52" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__subtensor_1_1subtensor__impl_1_1_subtensor_1aea17846b5579f836c0659a24eaf4b903" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str bittensor._subtensor.subtensor_impl.Subtensor.__str__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__str__</name>
+        <qualifiedname>bittensor._subtensor.subtensor_impl.Subtensor.__str__</qualifiedname>
+        <reimplementedby refid="classbittensor_1_1__subtensor_1_1subtensor__mock_1_1_mock___subtensor_1a745ebb545639b3f8bc40defc77b37df3">__str__</reimplementedby>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_subtensor/subtensor_impl.py" line="71" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_subtensor/subtensor_impl.py" bodystart="71" bodyend="78"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__subtensor_1_1subtensor__impl_1_1_subtensor_1aba9bca30b52d99dfc0ce7ab58b4bf178" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str bittensor._subtensor.subtensor_impl.Subtensor.__repr__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__repr__</name>
+        <qualifiedname>bittensor._subtensor.subtensor_impl.Subtensor.__repr__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_subtensor/subtensor_impl.py" line="79" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_subtensor/subtensor_impl.py" bodystart="79" bodyend="81"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__subtensor_1_1subtensor__impl_1_1_subtensor_1af2a4da4dd4ee097adefef59e3d4f03a4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str bittensor._subtensor.subtensor_impl.Subtensor.endpoint_for_network</definition>
+        <argsstring>(self, List[str] blacklist=[])</argsstring>
+        <name>endpoint_for_network</name>
+        <qualifiedname>bittensor._subtensor.subtensor_impl.Subtensor.endpoint_for_network</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>List</type>
+          <declname>blacklist</declname>
+          <array>[str]</array>
+          <defval>[]</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Returns a chain endpoint based on self.network.
+Returns None if there are no available endpoints.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_subtensor/subtensor_impl.py" line="82" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_subtensor/subtensor_impl.py" bodystart="85" bodyend="96"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__subtensor_1_1subtensor__impl_1_1_subtensor_1aff851e0546a56ece8510fb25f2d5ec3f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool bittensor._subtensor.subtensor_impl.Subtensor.connect</definition>
+        <argsstring>(self, int timeout=10, failure=True)</argsstring>
+        <name>connect</name>
+        <qualifiedname>bittensor._subtensor.subtensor_impl.Subtensor.connect</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>timeout</declname>
+          <defval>10</defval>
+        </param>
+        <param>
+          <type>failure</type>
+          <defname>failure</defname>
+          <defval>True</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_subtensor/subtensor_impl.py" line="97" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_subtensor/subtensor_impl.py" bodystart="97" bodyend="136"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__subtensor_1_1subtensor__impl_1_1_subtensor_1af2ed7f89021dbf8e073c52b32c1a10dd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int bittensor._subtensor.subtensor_impl.Subtensor.rho</definition>
+        <argsstring>(self)</argsstring>
+        <name>rho</name>
+        <qualifiedname>bittensor._subtensor.subtensor_impl.Subtensor.rho</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Incentive mechanism rho parameter.
+    Returns:
+        rho (int):
+            Incentive mechanism rho parameter.</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_subtensor/subtensor_impl.py" line="138" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_subtensor/subtensor_impl.py" bodystart="138" bodyend="149"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__subtensor_1_1subtensor__impl_1_1_subtensor_1a24c991d29c48ea1287745794dad2b482" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int bittensor._subtensor.subtensor_impl.Subtensor.kappa</definition>
+        <argsstring>(self)</argsstring>
+        <name>kappa</name>
+        <qualifiedname>bittensor._subtensor.subtensor_impl.Subtensor.kappa</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Incentive mechanism kappa parameter.
+    Returns:
+        kappa (int):
+            Incentive mechanism kappa parameter.</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_subtensor/subtensor_impl.py" line="151" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_subtensor/subtensor_impl.py" bodystart="151" bodyend="162"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__subtensor_1_1subtensor__impl_1_1_subtensor_1a1c251da3d66b53978f1d63c1c0fae7d5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int bittensor._subtensor.subtensor_impl.Subtensor.difficulty</definition>
+        <argsstring>(self)</argsstring>
+        <name>difficulty</name>
+        <qualifiedname>bittensor._subtensor.subtensor_impl.Subtensor.difficulty</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Returns registration difficulty from the chain.
+    Returns:
+        difficulty (int):
+            Registration difficulty.</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_subtensor/subtensor_impl.py" line="164" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_subtensor/subtensor_impl.py" bodystart="164" bodyend="175"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__subtensor_1_1subtensor__impl_1_1_subtensor_1a058bf6a0211fa910a2397014b1b49af8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type> &apos;<ref refid="classbittensor_1_1utils_1_1balance_1_1_balance" kindref="compound">bittensor.Balance</ref>&apos;</type>
+        <definition> &apos;bittensor.Balance&apos; bittensor._subtensor.subtensor_impl.Subtensor.total_issuance</definition>
+        <argsstring>(self)</argsstring>
+        <name>total_issuance</name>
+        <qualifiedname>bittensor._subtensor.subtensor_impl.Subtensor.total_issuance</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Returns the total token issuance.
+    Returns:
+        total_issuance (int):
+            Total issuance as balance.</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_subtensor/subtensor_impl.py" line="177" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_subtensor/subtensor_impl.py" bodystart="177" bodyend="188"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__subtensor_1_1subtensor__impl_1_1_subtensor_1a3ae1d0b4cb8bdb53fb653544138ae9fd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int bittensor._subtensor.subtensor_impl.Subtensor.immunity_period</definition>
+        <argsstring>(self)</argsstring>
+        <name>immunity_period</name>
+        <qualifiedname>bittensor._subtensor.subtensor_impl.Subtensor.immunity_period</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Returns the chain registration immunity_period
+    Returns:
+        immunity_period (int):
+            Chain registration immunity_period</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_subtensor/subtensor_impl.py" line="190" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_subtensor/subtensor_impl.py" bodystart="190" bodyend="201"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__subtensor_1_1subtensor__impl_1_1_subtensor_1a7bf209ebf6732967df2746a08affe5cf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int bittensor._subtensor.subtensor_impl.Subtensor.validator_batch_size</definition>
+        <argsstring>(self)</argsstring>
+        <name>validator_batch_size</name>
+        <qualifiedname>bittensor._subtensor.subtensor_impl.Subtensor.validator_batch_size</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Returns the chain default validator batch size.
+    Returns:
+        batch_size (int):
+            Chain default validator batch size.</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_subtensor/subtensor_impl.py" line="203" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_subtensor/subtensor_impl.py" bodystart="203" bodyend="215"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__subtensor_1_1subtensor__impl_1_1_subtensor_1ac8a0ae3373890a8d7b7e38a017a9e462" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int bittensor._subtensor.subtensor_impl.Subtensor.validator_sequence_length</definition>
+        <argsstring>(self)</argsstring>
+        <name>validator_sequence_length</name>
+        <qualifiedname>bittensor._subtensor.subtensor_impl.Subtensor.validator_sequence_length</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Returns the chain default validator sequence length.
+    Returns:
+        sequence_length (int):
+            Chain default validator sequence length.</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_subtensor/subtensor_impl.py" line="217" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_subtensor/subtensor_impl.py" bodystart="217" bodyend="228"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__subtensor_1_1subtensor__impl_1_1_subtensor_1a9f789419e2252f9543d813b4fab83291" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int bittensor._subtensor.subtensor_impl.Subtensor.validator_epochs_per_reset</definition>
+        <argsstring>(self)</argsstring>
+        <name>validator_epochs_per_reset</name>
+        <qualifiedname>bittensor._subtensor.subtensor_impl.Subtensor.validator_epochs_per_reset</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Epochs passed before the validator resets its weights.
+    Returns:
+        validator_epochs_per_reset (int):
+            Epochs passed before the validator resets its weights.</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_subtensor/subtensor_impl.py" line="230" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_subtensor/subtensor_impl.py" bodystart="230" bodyend="241"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__subtensor_1_1subtensor__impl_1_1_subtensor_1a73adbb563f01c27eb189efd4503474cd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int bittensor._subtensor.subtensor_impl.Subtensor.validator_epoch_length</definition>
+        <argsstring>(self)</argsstring>
+        <name>validator_epoch_length</name>
+        <qualifiedname>bittensor._subtensor.subtensor_impl.Subtensor.validator_epoch_length</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Default validator epoch length.
+    Returns:
+        validator_epoch_length (int):
+            Default validator epoch length. </verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_subtensor/subtensor_impl.py" line="243" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_subtensor/subtensor_impl.py" bodystart="243" bodyend="254"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__subtensor_1_1subtensor__impl_1_1_subtensor_1a50d48b5a5562978a0093bce6c59a4595" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type> &apos;<ref refid="classbittensor_1_1utils_1_1balance_1_1_balance" kindref="compound">bittensor.Balance</ref>&apos;</type>
+        <definition> &apos;bittensor.Balance&apos; bittensor._subtensor.subtensor_impl.Subtensor.total_stake</definition>
+        <argsstring>(self)</argsstring>
+        <name>total_stake</name>
+        <qualifiedname>bittensor._subtensor.subtensor_impl.Subtensor.total_stake</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Returns total stake on the chain.
+    Returns:
+        total_stake (bittensor.Balance):
+            Total stake as balance.</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_subtensor/subtensor_impl.py" line="256" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_subtensor/subtensor_impl.py" bodystart="256" bodyend="267"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__subtensor_1_1subtensor__impl_1_1_subtensor_1aee4beff1c2ab6b3c2df369195230a7bd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int bittensor._subtensor.subtensor_impl.Subtensor.min_allowed_weights</definition>
+        <argsstring>(self)</argsstring>
+        <name>min_allowed_weights</name>
+        <qualifiedname>bittensor._subtensor.subtensor_impl.Subtensor.min_allowed_weights</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Returns min allowed number of weights.
+    Returns:
+        min_allowed_weights (int):
+            Min number of weights allowed to be set.</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_subtensor/subtensor_impl.py" line="269" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_subtensor/subtensor_impl.py" bodystart="269" bodyend="280"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__subtensor_1_1subtensor__impl_1_1_subtensor_1aa1efa24b2b5c74f4faff38c09323f8e7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int bittensor._subtensor.subtensor_impl.Subtensor.max_weight_limit</definition>
+        <argsstring>(self)</argsstring>
+        <name>max_weight_limit</name>
+        <qualifiedname>bittensor._subtensor.subtensor_impl.Subtensor.max_weight_limit</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Returns MaxWeightLimit
+    Returns:
+        max_weight (int):
+            the max value for weights after normalizaiton</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_subtensor/subtensor_impl.py" line="282" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_subtensor/subtensor_impl.py" bodystart="282" bodyend="294"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__subtensor_1_1subtensor__impl_1_1_subtensor_1a706b5be83bb2555653c1c5c3682b810a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int bittensor._subtensor.subtensor_impl.Subtensor.scaling_law_power</definition>
+        <argsstring>(self)</argsstring>
+        <name>scaling_law_power</name>
+        <qualifiedname>bittensor._subtensor.subtensor_impl.Subtensor.scaling_law_power</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Returns ScalingLawPower
+    Returns:
+        ScalingLawPower (float):
+            the power term attached to scaling law</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_subtensor/subtensor_impl.py" line="296" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_subtensor/subtensor_impl.py" bodystart="296" bodyend="308"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__subtensor_1_1subtensor__impl_1_1_subtensor_1ad94ddb9357a2e482ebd271cfc4e21236" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int bittensor._subtensor.subtensor_impl.Subtensor.synergy_scaling_law_power</definition>
+        <argsstring>(self)</argsstring>
+        <name>synergy_scaling_law_power</name>
+        <qualifiedname>bittensor._subtensor.subtensor_impl.Subtensor.synergy_scaling_law_power</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Returns SynergyScalingLawPower
+    Returns:
+        SynergyScalingLawPower (float):
+            the term attached to synergy calculation during shapley scores</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_subtensor/subtensor_impl.py" line="310" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_subtensor/subtensor_impl.py" bodystart="310" bodyend="322"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__subtensor_1_1subtensor__impl_1_1_subtensor_1a441296314cd5b419e2bc2a20c04a07db" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int bittensor._subtensor.subtensor_impl.Subtensor.validator_exclude_quantile</definition>
+        <argsstring>(self)</argsstring>
+        <name>validator_exclude_quantile</name>
+        <qualifiedname>bittensor._subtensor.subtensor_impl.Subtensor.validator_exclude_quantile</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Returns ValidatorExcludeQuantile
+    Returns:
+        ValidatorExcludeQuantile (float):
+            the quantile that validators should exclude when setting their weights</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_subtensor/subtensor_impl.py" line="324" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_subtensor/subtensor_impl.py" bodystart="324" bodyend="336"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__subtensor_1_1subtensor__impl_1_1_subtensor_1a301729682f8e7c30b5d5f898e8d40c48" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int bittensor._subtensor.subtensor_impl.Subtensor.max_allowed_min_max_ratio</definition>
+        <argsstring>(self)</argsstring>
+        <name>max_allowed_min_max_ratio</name>
+        <qualifiedname>bittensor._subtensor.subtensor_impl.Subtensor.max_allowed_min_max_ratio</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Returns the chains max_allowed_min_max_ratio
+    Returns:
+        max_allowed_min_max_ratio (int):
+            The max ratio allowed between the min and max.</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_subtensor/subtensor_impl.py" line="338" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_subtensor/subtensor_impl.py" bodystart="338" bodyend="349"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__subtensor_1_1subtensor__impl_1_1_subtensor_1a11d10f99d0740e841a8ce47b67fdbc02" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int bittensor._subtensor.subtensor_impl.Subtensor.n</definition>
+        <argsstring>(self)</argsstring>
+        <name>n</name>
+        <qualifiedname>bittensor._subtensor.subtensor_impl.Subtensor.n</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Returns total number of neurons on the chain.
+    Returns:
+        n (int):
+            Total number of neurons on chain.</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_subtensor/subtensor_impl.py" line="351" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_subtensor/subtensor_impl.py" bodystart="351" bodyend="362"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__subtensor_1_1subtensor__impl_1_1_subtensor_1a79d987bb9b6328ccba6b757a93112aa9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int bittensor._subtensor.subtensor_impl.Subtensor.max_n</definition>
+        <argsstring>(self)</argsstring>
+        <name>max_n</name>
+        <qualifiedname>bittensor._subtensor.subtensor_impl.Subtensor.max_n</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Returns maximum number of neuron positions on the graph.
+    Returns:
+        max_n (int):
+            Maximum number of neuron positions on the graph.</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_subtensor/subtensor_impl.py" line="364" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_subtensor/subtensor_impl.py" bodystart="364" bodyend="375"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__subtensor_1_1subtensor__impl_1_1_subtensor_1adefde7126a53fbca0a584e835c776c22" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int bittensor._subtensor.subtensor_impl.Subtensor.block</definition>
+        <argsstring>(self)</argsstring>
+        <name>block</name>
+        <qualifiedname>bittensor._subtensor.subtensor_impl.Subtensor.block</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Returns current chain block.
+    Returns:
+        block (int):
+            Current chain block.</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_subtensor/subtensor_impl.py" line="377" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_subtensor/subtensor_impl.py" bodystart="377" bodyend="384"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__subtensor_1_1subtensor__impl_1_1_subtensor_1a600e032b944630eab7505e53991e76d8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int bittensor._subtensor.subtensor_impl.Subtensor.blocks_since_epoch</definition>
+        <argsstring>(self)</argsstring>
+        <name>blocks_since_epoch</name>
+        <qualifiedname>bittensor._subtensor.subtensor_impl.Subtensor.blocks_since_epoch</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Returns blocks since last epoch.
+    Returns:
+        blocks_since_epoch (int):
+            blocks_since_epoch </verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_subtensor/subtensor_impl.py" line="386" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_subtensor/subtensor_impl.py" bodystart="386" bodyend="397"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__subtensor_1_1subtensor__impl_1_1_subtensor_1ac21bdb480529cfad30abe749c914703a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int bittensor._subtensor.subtensor_impl.Subtensor.blocks_per_epoch</definition>
+        <argsstring>(self)</argsstring>
+        <name>blocks_per_epoch</name>
+        <qualifiedname>bittensor._subtensor.subtensor_impl.Subtensor.blocks_per_epoch</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Returns blocks per chain epoch.
+    Returns:
+        blocks_per_epoch (int):
+            blocks_per_epoch </verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_subtensor/subtensor_impl.py" line="399" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_subtensor/subtensor_impl.py" bodystart="399" bodyend="410"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__subtensor_1_1subtensor__impl_1_1_subtensor_1a7e479f38864f7ce309d1b5c4d82e5b40" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int bittensor._subtensor.subtensor_impl.Subtensor.get_n</definition>
+        <argsstring>(self, int block=None)</argsstring>
+        <name>get_n</name>
+        <qualifiedname>bittensor._subtensor.subtensor_impl.Subtensor.get_n</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>block</declname>
+          <defval>None</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Returns total number of neurons on the chain.
+Returns:
+    n (int):
+        Total number of neurons on chain.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_subtensor/subtensor_impl.py" line="411" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_subtensor/subtensor_impl.py" bodystart="411" bodyend="426"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__subtensor_1_1subtensor__impl_1_1_subtensor_1ade8ead8921005115ea8f06495417031a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int bittensor._subtensor.subtensor_impl.Subtensor.prune_len</definition>
+        <argsstring>(self)</argsstring>
+        <name>prune_len</name>
+        <qualifiedname>bittensor._subtensor.subtensor_impl.Subtensor.prune_len</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Returns PruneLen 
+    Returns:
+        prune_len (int):
+            the number of pruned tokens from each requests </verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_subtensor/subtensor_impl.py" line="428" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_subtensor/subtensor_impl.py" bodystart="428" bodyend="439"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__subtensor_1_1subtensor__impl_1_1_subtensor_1a6ba3ae80d077e0a382a8fc011f78f6df" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int bittensor._subtensor.subtensor_impl.Subtensor.logits_divergence</definition>
+        <argsstring>(self)</argsstring>
+        <name>logits_divergence</name>
+        <qualifiedname>bittensor._subtensor.subtensor_impl.Subtensor.logits_divergence</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Returns logits_divergence
+    Returns:
+        logits_divergence (int):
+            the divergence value for logit distances, a measure for anomaly detection </verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_subtensor/subtensor_impl.py" line="441" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_subtensor/subtensor_impl.py" bodystart="441" bodyend="453"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__subtensor_1_1subtensor__impl_1_1_subtensor_1addc36341956fb7b15d64435de8194d00" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool bittensor._subtensor.subtensor_impl.Subtensor.serve_axon</definition>
+        <argsstring>(self, &apos;bittensor.Axon&apos; axon, bool use_upnpc=False, bool wait_for_inclusion=False, bool wait_for_finalization=True, bool prompt=False)</argsstring>
+        <name>serve_axon</name>
+        <qualifiedname>bittensor._subtensor.subtensor_impl.Subtensor.serve_axon</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>&apos;<ref refid="classbittensor_1_1__axon_1_1axon__impl_1_1_axon" kindref="compound">bittensor.Axon</ref>&apos;</type>
+          <declname>axon</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>use_upnpc</declname>
+          <defval>False</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>wait_for_inclusion</declname>
+          <defval>False</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>wait_for_finalization</declname>
+          <defval>True</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>prompt</declname>
+          <defval>False</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Serves the axon to the network.
+Args:
+    axon (bittensor.Axon):
+        Axon to serve.
+    use_upnpc (:type:bool, `optional`): 
+        If true, the axon attempts port forward through your router before 
+        subscribing.                
+    wait_for_inclusion (bool):
+        If set, waits for the extrinsic to enter a block before returning true, 
+        or returns false if the extrinsic fails to enter the block within the timeout.   
+    wait_for_finalization (bool):
+        If set, waits for the extrinsic to be finalized on the chain before returning true,
+        or returns false if the extrinsic fails to be finalized within the timeout.
+    prompt (bool):
+        If true, the call waits for confirmation from the user before proceeding.
+Returns:
+    success (bool):
+        flag is true if extrinsic was finalized or uncluded in the block. 
+        If we did not wait for finalization / inclusion, the response is true.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_subtensor/subtensor_impl.py" line="454" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_subtensor/subtensor_impl.py" bodystart="461" bodyend="521"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__subtensor_1_1subtensor__impl_1_1_subtensor_1a917eafe0a130fef0d43371588ea0e87b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool bittensor._subtensor.subtensor_impl.Subtensor.register</definition>
+        <argsstring>(self, &apos;bittensor.Wallet&apos; wallet, bool wait_for_inclusion=False, bool wait_for_finalization=True, bool prompt=False, int max_allowed_attempts=3, bool output_in_place=True, bool cuda=False, Union[List[int], int] dev_id=0, int TPB=256, Optional[int] num_processes=None, Optional[int] update_interval=None, bool log_verbose=False)</argsstring>
+        <name>register</name>
+        <qualifiedname>bittensor._subtensor.subtensor_impl.Subtensor.register</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>&apos;<ref refid="classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet" kindref="compound">bittensor.Wallet</ref>&apos;</type>
+          <declname>wallet</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>wait_for_inclusion</declname>
+          <defval>False</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>wait_for_finalization</declname>
+          <defval>True</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>prompt</declname>
+          <defval>False</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>max_allowed_attempts</declname>
+          <defval>3</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>output_in_place</declname>
+          <defval>True</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>cuda</declname>
+          <defval>False</defval>
+        </param>
+        <param>
+          <type>Union</type>
+          <defname>dev_id</defname>
+          <array>[List[int]</array>
+        </param>
+        <param>
+          <type>int]</type>
+          <declname>dev_id</declname>
+          <defname>TPB</defname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>TPB</declname>
+          <defname>num_processes</defname>
+          <defval>256</defval>
+        </param>
+        <param>
+          <type>Optional</type>
+          <declname>num_processes</declname>
+          <defname>update_interval</defname>
+          <array>[int]</array>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type>Optional</type>
+          <declname>update_interval</declname>
+          <defname>log_verbose</defname>
+          <array>[int]</array>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>log_verbose</declname>
+          <defval>False</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Registers the wallet to chain.
+Args:
+    wallet (bittensor.wallet):
+        bittensor wallet object.
+    wait_for_inclusion (bool):
+        If set, waits for the extrinsic to enter a block before returning true, 
+        or returns false if the extrinsic fails to enter the block within the timeout.   
+    wait_for_finalization (bool):
+        If set, waits for the extrinsic to be finalized on the chain before returning true,
+        or returns false if the extrinsic fails to be finalized within the timeout.
+    prompt (bool):
+        If true, the call waits for confirmation from the user before proceeding.
+    max_allowed_attempts (int):
+        Maximum number of attempts to register the wallet.
+    cuda (bool):
+        If true, the wallet should be registered using CUDA device(s).
+    dev_id (Union[List[int], int]):
+        The CUDA device id to use, or a list of device ids.
+    TPB (int):
+        The number of threads per block (CUDA).
+    num_processes (int):
+        The number of processes to use to register.
+    update_interval (int):
+        The number of nonces to solve between updates.
+    log_verbose (bool):
+        If true, the registration process will log more information.
+Returns:
+    success (bool):
+        flag is true if extrinsic was finalized or uncluded in the block. 
+        If we did not wait for finalization / inclusion, the response is true.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_subtensor/subtensor_impl.py" line="522" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_subtensor/subtensor_impl.py" bodystart="536" bodyend="662"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__subtensor_1_1subtensor__impl_1_1_subtensor_1aaaa1da9ab83d63dbb4f1b80cb0dcfb59" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool bittensor._subtensor.subtensor_impl.Subtensor.serve</definition>
+        <argsstring>(self, &apos;bittensor.wallet&apos; wallet, str ip, int port, int modality, bool wait_for_inclusion=False, wait_for_finalization=True, bool prompt=False)</argsstring>
+        <name>serve</name>
+        <qualifiedname>bittensor._subtensor.subtensor_impl.Subtensor.serve</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>&apos;<ref refid="classbittensor_1_1__wallet_1_1wallet" kindref="compound">bittensor.wallet</ref>&apos;</type>
+          <declname>wallet</declname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>ip</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>port</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>modality</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>wait_for_inclusion</declname>
+          <defval>False</defval>
+        </param>
+        <param>
+          <type>wait_for_finalization</type>
+          <defname>wait_for_finalization</defname>
+          <defval>True</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>prompt</declname>
+          <defval>False</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Subscribes an bittensor endpoint to the substensor chain.
+Args:
+wallet (bittensor.wallet):
+bittensor wallet object.
+ip (str):
+endpoint host port i.e. 192.122.31.4
+port (int):
+endpoint port number i.e. 9221
+modality (int):
+int encoded endpoint modality i.e 0 for TEXT
+wait_for_inclusion (bool):
+if set, waits for the extrinsic to enter a block before returning true, 
+or returns false if the extrinsic fails to enter the block within the timeout.   
+wait_for_finalization (bool):
+if set, waits for the extrinsic to be finalized on the chain before returning true,
+or returns false if the extrinsic fails to be finalized within the timeout.
+prompt (bool):
+If true, the call waits for confirmation from the user before proceeding.
+Returns:
+success (bool):
+flag is true if extrinsic was finalized or uncluded in the block. 
+If we did not wait for finalization / inclusion, the response is true.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_subtensor/subtensor_impl.py" line="663" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_subtensor/subtensor_impl.py" bodystart="672" bodyend="746"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__subtensor_1_1subtensor__impl_1_1_subtensor_1a0748d536995b644ab4beecd637c7a312" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool bittensor._subtensor.subtensor_impl.Subtensor.add_stake</definition>
+        <argsstring>(self, &apos;bittensor.wallet&apos; wallet, Union[Balance, float] amount=None, bool wait_for_inclusion=True, bool wait_for_finalization=False, bool prompt=False)</argsstring>
+        <name>add_stake</name>
+        <qualifiedname>bittensor._subtensor.subtensor_impl.Subtensor.add_stake</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>&apos;<ref refid="classbittensor_1_1__wallet_1_1wallet" kindref="compound">bittensor.wallet</ref>&apos;</type>
+          <declname>wallet</declname>
+        </param>
+        <param>
+          <type>Union</type>
+          <declname>amount</declname>
+          <array>[Balance, float]</array>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>wait_for_inclusion</declname>
+          <defval>True</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>wait_for_finalization</declname>
+          <defval>False</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>prompt</declname>
+          <defval>False</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Adds the specified amount of stake to passed hotkey uid.
+Args:
+wallet (bittensor.wallet):
+Bittensor wallet object.
+amount (Union[Balance, float]):
+Amount to stake as bittensor balance, or float interpreted as Tao.
+wait_for_inclusion (bool):
+If set, waits for the extrinsic to enter a block before returning true, 
+or returns false if the extrinsic fails to enter the block within the timeout.   
+wait_for_finalization (bool):
+If set, waits for the extrinsic to be finalized on the chain before returning true,
+or returns false if the extrinsic fails to be finalized within the timeout.
+prompt (bool):
+If true, the call waits for confirmation from the user before proceeding.
+Returns:
+success (bool):
+flag is true if extrinsic was finalized or uncluded in the block. 
+If we did not wait for finalization / inclusion, the response is true.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_subtensor/subtensor_impl.py" line="747" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_subtensor/subtensor_impl.py" bodystart="754" bodyend="862"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__subtensor_1_1subtensor__impl_1_1_subtensor_1aefa4f24e0b02afee00a2442358f5f1ff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool bittensor._subtensor.subtensor_impl.Subtensor.add_stake_multiple</definition>
+        <argsstring>(self, List[&apos;bittensor.wallet&apos;] wallets, List[Union[Balance, float]] amounts=None, bool wait_for_inclusion=True, bool wait_for_finalization=False, bool prompt=False)</argsstring>
+        <name>add_stake_multiple</name>
+        <qualifiedname>bittensor._subtensor.subtensor_impl.Subtensor.add_stake_multiple</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>List</type>
+          <declname>wallets</declname>
+          <array>[ &apos;bittensor.wallet&apos;]</array>
+        </param>
+        <param>
+          <type>List]</type>
+          <declname>amounts</declname>
+          <array>[Union[Balance, float]</array>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>wait_for_inclusion</declname>
+          <defval>True</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>wait_for_finalization</declname>
+          <defval>False</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>prompt</declname>
+          <defval>False</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Adds stake to each wallet hotkey in the list, using each amount, from the common coldkey.
+Args:
+wallets (List[bittensor.wallet]):
+List of wallets to stake.
+amounts (List[Union[Balance, float]]):
+List of amounts to stake. If None, stake all to the first hotkey.
+wait_for_inclusion (bool):
+if set, waits for the extrinsic to enter a block before returning true, 
+or returns false if the extrinsic fails to enter the block within the timeout.   
+wait_for_finalization (bool):
+if set, waits for the extrinsic to be finalized on the chain before returning true,
+or returns false if the extrinsic fails to be finalized within the timeout.
+prompt (bool):
+If true, the call waits for confirmation from the user before proceeding.
+Returns:
+success (bool):
+flag is true if extrinsic was finalized or included in the block.
+flag is true if any wallet was staked.
+If we did not wait for finalization / inclusion, the response is true.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_subtensor/subtensor_impl.py" line="863" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_subtensor/subtensor_impl.py" bodystart="870" bodyend="1053"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__subtensor_1_1subtensor__impl_1_1_subtensor_1a2c4eaca27e152b751e38dfe6fd5510c7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool bittensor._subtensor.subtensor_impl.Subtensor.transfer</definition>
+        <argsstring>(self, &apos;bittensor.wallet&apos; wallet, str dest, Union[Balance, float] amount, bool wait_for_inclusion=True, bool wait_for_finalization=False, bool prompt=False)</argsstring>
+        <name>transfer</name>
+        <qualifiedname>bittensor._subtensor.subtensor_impl.Subtensor.transfer</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>&apos;<ref refid="classbittensor_1_1__wallet_1_1wallet" kindref="compound">bittensor.wallet</ref>&apos;</type>
+          <declname>wallet</declname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>dest</declname>
+        </param>
+        <param>
+          <type>Union</type>
+          <declname>amount</declname>
+          <array>[Balance, float]</array>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>wait_for_inclusion</declname>
+          <defval>True</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>wait_for_finalization</declname>
+          <defval>False</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>prompt</declname>
+          <defval>False</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Transfers funds from this wallet to the destination public key address
+Args:
+wallet (bittensor.wallet):
+Bittensor wallet object to make transfer from.
+dest (str, ss58_address or ed25519):
+Destination public key address of reciever. 
+amount (Union[Balance, int]):
+Amount to stake as bittensor balance, or float interpreted as Tao.
+wait_for_inclusion (bool):
+If set, waits for the extrinsic to enter a block before returning true, 
+or returns false if the extrinsic fails to enter the block within the timeout.   
+wait_for_finalization (bool):
+If set, waits for the extrinsic to be finalized on the chain before returning true,
+or returns false if the extrinsic fails to be finalized within the timeout.
+prompt (bool):
+If true, the call waits for confirmation from the user before proceeding.
+Returns:
+success (bool):
+Flag is true if extrinsic was finalized or uncluded in the block. 
+If we did not wait for finalization / inclusion, the response is true.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_subtensor/subtensor_impl.py" line="1054" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_subtensor/subtensor_impl.py" bodystart="1062" bodyend="1170"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__subtensor_1_1subtensor__impl_1_1_subtensor_1a5df4679e01f901762b29c773e5ba8518" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool bittensor._subtensor.subtensor_impl.Subtensor.unstake</definition>
+        <argsstring>(self, &apos;bittensor.wallet&apos; wallet, Union[Balance, float] amount=None, bool wait_for_inclusion=True, bool wait_for_finalization=False, bool prompt=False)</argsstring>
+        <name>unstake</name>
+        <qualifiedname>bittensor._subtensor.subtensor_impl.Subtensor.unstake</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>&apos;<ref refid="classbittensor_1_1__wallet_1_1wallet" kindref="compound">bittensor.wallet</ref>&apos;</type>
+          <declname>wallet</declname>
+        </param>
+        <param>
+          <type>Union</type>
+          <declname>amount</declname>
+          <array>[Balance, float]</array>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>wait_for_inclusion</declname>
+          <defval>True</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>wait_for_finalization</declname>
+          <defval>False</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>prompt</declname>
+          <defval>False</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Removes stake into the wallet coldkey from the specified hotkey uid.
+Args:
+wallet (bittensor.wallet):
+bittensor wallet object.
+amount (Union[Balance, float]):
+Amount to stake as bittensor balance, or float interpreted as tao.
+wait_for_inclusion (bool):
+if set, waits for the extrinsic to enter a block before returning true, 
+or returns false if the extrinsic fails to enter the block within the timeout.   
+wait_for_finalization (bool):
+if set, waits for the extrinsic to be finalized on the chain before returning true,
+or returns false if the extrinsic fails to be finalized within the timeout.
+prompt (bool):
+If true, the call waits for confirmation from the user before proceeding.
+Returns:
+success (bool):
+flag is true if extrinsic was finalized or uncluded in the block. 
+If we did not wait for finalization / inclusion, the response is true.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_subtensor/subtensor_impl.py" line="1171" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_subtensor/subtensor_impl.py" bodystart="1178" bodyend="1282"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__subtensor_1_1subtensor__impl_1_1_subtensor_1ac308c7f078a5391c06029d3c9a82f0b5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool bittensor._subtensor.subtensor_impl.Subtensor.unstake_multiple</definition>
+        <argsstring>(self, List[&apos;bittensor.wallet&apos;] wallets, List[Union[Balance, float]] amounts=None, bool wait_for_inclusion=True, bool wait_for_finalization=False, bool prompt=False)</argsstring>
+        <name>unstake_multiple</name>
+        <qualifiedname>bittensor._subtensor.subtensor_impl.Subtensor.unstake_multiple</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>List</type>
+          <declname>wallets</declname>
+          <array>[ &apos;bittensor.wallet&apos;]</array>
+        </param>
+        <param>
+          <type>List]</type>
+          <declname>amounts</declname>
+          <array>[Union[Balance, float]</array>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>wait_for_inclusion</declname>
+          <defval>True</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>wait_for_finalization</declname>
+          <defval>False</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>prompt</declname>
+          <defval>False</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Removes stake from each wallet hotkey in the list, using each amount, to their common coldkey.
+Args:
+wallets (List[bittensor.wallet]):
+List of wallets to unstake.
+amounts (List[Union[Balance, float]]):
+List of amounts to unstake. If None, unstake all.
+wait_for_inclusion (bool):
+if set, waits for the extrinsic to enter a block before returning true, 
+or returns false if the extrinsic fails to enter the block within the timeout.   
+wait_for_finalization (bool):
+if set, waits for the extrinsic to be finalized on the chain before returning true,
+or returns false if the extrinsic fails to be finalized within the timeout.
+prompt (bool):
+If true, the call waits for confirmation from the user before proceeding.
+Returns:
+success (bool):
+flag is true if extrinsic was finalized or included in the block.
+flag is true if any wallet was unstaked.
+If we did not wait for finalization / inclusion, the response is true.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_subtensor/subtensor_impl.py" line="1283" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_subtensor/subtensor_impl.py" bodystart="1290" bodyend="1442"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__subtensor_1_1subtensor__impl_1_1_subtensor_1ab7bb06a93e5da6e007219d203d6a0a98" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool bittensor._subtensor.subtensor_impl.Subtensor.set_weights</definition>
+        <argsstring>(self, &apos;bittensor.wallet&apos; wallet, Union[torch.LongTensor, list] uids, Union[torch.FloatTensor, list] weights, bool wait_for_inclusion=False, bool wait_for_finalization=False, bool prompt=False)</argsstring>
+        <name>set_weights</name>
+        <qualifiedname>bittensor._subtensor.subtensor_impl.Subtensor.set_weights</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>&apos;<ref refid="classbittensor_1_1__wallet_1_1wallet" kindref="compound">bittensor.wallet</ref>&apos;</type>
+          <declname>wallet</declname>
+        </param>
+        <param>
+          <type>Union</type>
+          <declname>uids</declname>
+          <array>[torch.LongTensor, list]</array>
+        </param>
+        <param>
+          <type>Union</type>
+          <declname>weights</declname>
+          <array>[torch.FloatTensor, list]</array>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>wait_for_inclusion</declname>
+          <defval>False</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>wait_for_finalization</declname>
+          <defval>False</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>prompt</declname>
+          <defval>False</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Sets the given weights and values on chain for wallet hotkey account.
+Args:
+wallet (bittensor.wallet):
+bittensor wallet object.
+uids (Union[torch.LongTensor, list]):
+uint64 uids of destination neurons.
+weights ( Union[torch.FloatTensor, list]):
+weights to set which must floats and correspond to the passed uids.
+wait_for_inclusion (bool):
+if set, waits for the extrinsic to enter a block before returning true,
+or returns false if the extrinsic fails to enter the block within the timeout.
+wait_for_finalization (bool):
+if set, waits for the extrinsic to be finalized on the chain before returning true,
+or returns false if the extrinsic fails to be finalized within the timeout.
+prompt (bool):
+If true, the call waits for confirmation from the user before proceeding.
+Returns:
+success (bool):
+flag is true if extrinsic was finalized or uncluded in the block.
+If we did not wait for finalization / inclusion, the response is true.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_subtensor/subtensor_impl.py" line="1443" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_subtensor/subtensor_impl.py" bodystart="1451" bodyend="1522"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__subtensor_1_1subtensor__impl_1_1_subtensor_1a894541f517863e48219cfaf51727b0b0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classbittensor_1_1utils_1_1balance_1_1_balance" kindref="compound">Balance</ref></type>
+        <definition> Balance bittensor._subtensor.subtensor_impl.Subtensor.get_balance</definition>
+        <argsstring>(self, str address, int block=None)</argsstring>
+        <name>get_balance</name>
+        <qualifiedname>bittensor._subtensor.subtensor_impl.Subtensor.get_balance</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>address</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>block</declname>
+          <defval>None</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Returns the token balance for the passed ss58_address address
+Args:
+address (Substrate address format, default = 42):
+ss58 chain address.
+Return:
+balance (bittensor.utils.balance.Balance):
+account balance
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_subtensor/subtensor_impl.py" line="1523" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_subtensor/subtensor_impl.py" bodystart="1523" bodyend="1547"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__subtensor_1_1subtensor__impl_1_1_subtensor_1a4ae980dde4fb415232b048f23678d880" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int bittensor._subtensor.subtensor_impl.Subtensor.get_current_block</definition>
+        <argsstring>(self)</argsstring>
+        <name>get_current_block</name>
+        <qualifiedname>bittensor._subtensor.subtensor_impl.Subtensor.get_current_block</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Returns the current block number on the chain.
+Returns:
+block_number (int):
+Current chain blocknumber.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_subtensor/subtensor_impl.py" line="1548" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_subtensor/subtensor_impl.py" bodystart="1548" bodyend="1559"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__subtensor_1_1subtensor__impl_1_1_subtensor_1af71610162ac91c2d65c36ea6dacdcec2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Dict[str, <ref refid="classbittensor_1_1utils_1_1balance_1_1_balance" kindref="compound">Balance</ref>]</type>
+        <definition> Dict[str, Balance] bittensor._subtensor.subtensor_impl.Subtensor.get_balances</definition>
+        <argsstring>(self, int block=None)</argsstring>
+        <name>get_balances</name>
+        <qualifiedname>bittensor._subtensor.subtensor_impl.Subtensor.get_balances</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>block</declname>
+          <defval>None</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_subtensor/subtensor_impl.py" line="1560" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_subtensor/subtensor_impl.py" bodystart="1560" bodyend="1575"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__subtensor_1_1subtensor__impl_1_1_subtensor_1ad5a4ed818af4a17332179cf08919494a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>List[SimpleNamespace]</type>
+        <definition> List[SimpleNamespace] bittensor._subtensor.subtensor_impl.Subtensor.neurons</definition>
+        <argsstring>(self, int block=None)</argsstring>
+        <name>neurons</name>
+        <qualifiedname>bittensor._subtensor.subtensor_impl.Subtensor.neurons</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>block</declname>
+          <defval>None</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Returns a list of neuron from the chain. 
+Args:
+block (int):
+block to sync from.
+Returns:
+neuron (List[SimpleNamespace]):
+List of neuron objects.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_subtensor/subtensor_impl.py" line="1576" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_subtensor/subtensor_impl.py" bodystart="1576" bodyend="1594"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__subtensor_1_1subtensor__impl_1_1_subtensor_1aedf9d44c58320641bd3a0d237159119d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Union[dict, None]</type>
+        <definition> Union[ dict, None ] bittensor._subtensor.subtensor_impl.Subtensor.neuron_for_uid</definition>
+        <argsstring>(self, int uid, int block=None)</argsstring>
+        <name>neuron_for_uid</name>
+        <qualifiedname>bittensor._subtensor.subtensor_impl.Subtensor.neuron_for_uid</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>uid</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>block</declname>
+          <defval>None</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Returns a list of neuron from the chain. 
+    Args:
+        uid ( int ):
+            The uid of the neuron to query for.
+        block ( int ):
+            The neuron at a particular block
+    Returns:
+        neuron (dict(NeuronMetadata)):
+            neuron object associated with uid or None if it does not exist.</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_subtensor/subtensor_impl.py" line="1639" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_subtensor/subtensor_impl.py" bodystart="1639" bodyend="1663"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__subtensor_1_1subtensor__impl_1_1_subtensor_1ae02ae4e8119bce581133cac1f8893ded" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int bittensor._subtensor.subtensor_impl.Subtensor.get_uid_for_hotkey</definition>
+        <argsstring>(self, str ss58_hotkey, int block=None)</argsstring>
+        <name>get_uid_for_hotkey</name>
+        <qualifiedname>bittensor._subtensor.subtensor_impl.Subtensor.get_uid_for_hotkey</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>ss58_hotkey</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>block</declname>
+          <defval>None</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Returns true if the passed hotkey is registered on the chain.
+Args:
+ss58_hotkey ( str ):
+The hotkey to query for a neuron.
+Returns:
+uid ( int ):
+UID of passed hotkey or -1 if it is non-existent.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_subtensor/subtensor_impl.py" line="1664" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_subtensor/subtensor_impl.py" bodystart="1664" bodyend="1692"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__subtensor_1_1subtensor__impl_1_1_subtensor_1adc38969a213b2b6adc156505f48e7c76" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool bittensor._subtensor.subtensor_impl.Subtensor.is_hotkey_registered</definition>
+        <argsstring>(self, str ss58_hotkey, int block=None)</argsstring>
+        <name>is_hotkey_registered</name>
+        <qualifiedname>bittensor._subtensor.subtensor_impl.Subtensor.is_hotkey_registered</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>ss58_hotkey</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>block</declname>
+          <defval>None</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Returns true if the passed hotkey is registered on the chain.
+Args:
+    ss58_hotkey ( str ):
+        The hotkey to query for a neuron.
+Returns:
+    is_registered ( bool):
+        True if the passed hotkey is registered on the chain.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_subtensor/subtensor_impl.py" line="1693" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_subtensor/subtensor_impl.py" bodystart="1693" bodyend="1707"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__subtensor_1_1subtensor__impl_1_1_subtensor_1a50f10ac1bdd91d9feb7b5f49de168aa7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>SimpleNamespace</type>
+        <definition> SimpleNamespace bittensor._subtensor.subtensor_impl.Subtensor.neuron_for_pubkey</definition>
+        <argsstring>(self, str ss58_hotkey, int block=None)</argsstring>
+        <name>neuron_for_pubkey</name>
+        <qualifiedname>bittensor._subtensor.subtensor_impl.Subtensor.neuron_for_pubkey</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>ss58_hotkey</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>block</declname>
+          <defval>None</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Returns a list of neuron from the chain. 
+Args:
+    ss58_hotkey ( str ):
+        The hotkey to query for a neuron.
+
+Returns:
+    neuron ( dict(NeuronMetadata) ):
+        neuron object associated with uid or None if it does not exist.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_subtensor/subtensor_impl.py" line="1708" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_subtensor/subtensor_impl.py" bodystart="1708" bodyend="1735"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__subtensor_1_1subtensor__impl_1_1_subtensor_1a7e479f38864f7ce309d1b5c4d82e5b40" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int bittensor._subtensor.subtensor_impl.Subtensor.get_n</definition>
+        <argsstring>(self, int block=None)</argsstring>
+        <name>get_n</name>
+        <qualifiedname>bittensor._subtensor.subtensor_impl.Subtensor.get_n</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>block</declname>
+          <defval>None</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Returns the number of neurons on the chain at block.
+Args:
+    block ( int ):
+        The block number to get the neuron count from.
+
+Returns:
+    n ( int ):
+        the number of neurons subscribed to the chain.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_subtensor/subtensor_impl.py" line="1736" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_subtensor/subtensor_impl.py" bodystart="1736" bodyend="1751"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__subtensor_1_1subtensor__impl_1_1_subtensor_1ab9885588918ea171fd4402818df00176" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>SimpleNamespace</type>
+        <definition> SimpleNamespace bittensor._subtensor.subtensor_impl.Subtensor.neuron_for_wallet</definition>
+        <argsstring>(self, &apos;bittensor.Wallet&apos; wallet, int block=None)</argsstring>
+        <name>neuron_for_wallet</name>
+        <qualifiedname>bittensor._subtensor.subtensor_impl.Subtensor.neuron_for_wallet</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>&apos;<ref refid="classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet" kindref="compound">bittensor.Wallet</ref>&apos;</type>
+          <declname>wallet</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>block</declname>
+          <defval>None</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Returns a list of neuron from the chain. 
+Args:
+    wallet ( `bittensor.Wallet` ):
+        Checks to ensure that the passed wallet is subscribed.
+Returns:
+    neuron ( dict(NeuronMetadata) ):
+        neuron object associated with uid or None if it does not exist.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_subtensor/subtensor_impl.py" line="1752" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_subtensor/subtensor_impl.py" bodystart="1752" bodyend="1762"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-static-func">
+      <memberdef kind="function" id="classbittensor_1_1__subtensor_1_1subtensor__impl_1_1_subtensor_1a58b026c404e4f85a47173a2dc4aadace" prot="protected" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>SimpleNamespace</type>
+        <definition> SimpleNamespace bittensor._subtensor.subtensor_impl.Subtensor._null_neuron</definition>
+        <argsstring>()</argsstring>
+        <name>_null_neuron</name>
+        <qualifiedname>bittensor._subtensor.subtensor_impl.Subtensor._null_neuron</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_subtensor/subtensor_impl.py" line="1596" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_subtensor/subtensor_impl.py" bodystart="1596" bodyend="1620"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__subtensor_1_1subtensor__impl_1_1_subtensor_1a7d1f892600a52c6edcfe6d72bdade9aa" prot="protected" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>SimpleNamespace</type>
+        <definition> SimpleNamespace bittensor._subtensor.subtensor_impl.Subtensor._neuron_dict_to_namespace</definition>
+        <argsstring>(neuron_dict)</argsstring>
+        <name>_neuron_dict_to_namespace</name>
+        <qualifiedname>bittensor._subtensor.subtensor_impl.Subtensor._neuron_dict_to_namespace</qualifiedname>
+        <param>
+          <type>neuron_dict</type>
+          <defname>neuron_dict</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_subtensor/subtensor_impl.py" line="1622" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_subtensor/subtensor_impl.py" bodystart="1622" bodyend="1638"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Handles interactions with the subtensor chain.
+</verbatim> </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>bittensor._subtensor.subtensor_impl.Subtensor</label>
+        <link refid="classbittensor_1_1__subtensor_1_1subtensor__impl_1_1_subtensor"/>
+      </node>
+      <node id="2">
+        <label>bittensor._subtensor.subtensor_mock.Mock_Subtensor</label>
+        <link refid="classbittensor_1_1__subtensor_1_1subtensor__mock_1_1_mock___subtensor"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="/Users/macthrasher/bittensor/bittensor/_subtensor/subtensor_impl.py" line="43" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_subtensor/subtensor_impl.py" bodystart="43" bodyend="1762"/>
+    <listofallmembers>
+      <member refid="classbittensor_1_1__subtensor_1_1subtensor__impl_1_1_subtensor_1a4a7d9e6d5e9dae78bfc7c05c2e9baeab" prot="public" virt="non-virtual"><scope>bittensor::_subtensor::subtensor_impl::Subtensor</scope><name>__init__</name></member>
+      <member refid="classbittensor_1_1__subtensor_1_1subtensor__impl_1_1_subtensor_1aba9bca30b52d99dfc0ce7ab58b4bf178" prot="public" virt="non-virtual"><scope>bittensor::_subtensor::subtensor_impl::Subtensor</scope><name>__repr__</name></member>
+      <member refid="classbittensor_1_1__subtensor_1_1subtensor__impl_1_1_subtensor_1aea17846b5579f836c0659a24eaf4b903" prot="public" virt="non-virtual"><scope>bittensor::_subtensor::subtensor_impl::Subtensor</scope><name>__str__</name></member>
+      <member refid="classbittensor_1_1__subtensor_1_1subtensor__impl_1_1_subtensor_1a7d1f892600a52c6edcfe6d72bdade9aa" prot="protected" virt="non-virtual"><scope>bittensor::_subtensor::subtensor_impl::Subtensor</scope><name>_neuron_dict_to_namespace</name></member>
+      <member refid="classbittensor_1_1__subtensor_1_1subtensor__impl_1_1_subtensor_1a58b026c404e4f85a47173a2dc4aadace" prot="protected" virt="non-virtual"><scope>bittensor::_subtensor::subtensor_impl::Subtensor</scope><name>_null_neuron</name></member>
+      <member refid="classbittensor_1_1__subtensor_1_1subtensor__impl_1_1_subtensor_1a0748d536995b644ab4beecd637c7a312" prot="public" virt="non-virtual"><scope>bittensor::_subtensor::subtensor_impl::Subtensor</scope><name>add_stake</name></member>
+      <member refid="classbittensor_1_1__subtensor_1_1subtensor__impl_1_1_subtensor_1aefa4f24e0b02afee00a2442358f5f1ff" prot="public" virt="non-virtual"><scope>bittensor::_subtensor::subtensor_impl::Subtensor</scope><name>add_stake_multiple</name></member>
+      <member refid="classbittensor_1_1__subtensor_1_1subtensor__impl_1_1_subtensor_1adefde7126a53fbca0a584e835c776c22" prot="public" virt="non-virtual"><scope>bittensor::_subtensor::subtensor_impl::Subtensor</scope><name>block</name></member>
+      <member refid="classbittensor_1_1__subtensor_1_1subtensor__impl_1_1_subtensor_1ac21bdb480529cfad30abe749c914703a" prot="public" virt="non-virtual"><scope>bittensor::_subtensor::subtensor_impl::Subtensor</scope><name>blocks_per_epoch</name></member>
+      <member refid="classbittensor_1_1__subtensor_1_1subtensor__impl_1_1_subtensor_1a600e032b944630eab7505e53991e76d8" prot="public" virt="non-virtual"><scope>bittensor::_subtensor::subtensor_impl::Subtensor</scope><name>blocks_since_epoch</name></member>
+      <member refid="classbittensor_1_1__subtensor_1_1subtensor__impl_1_1_subtensor_1a8f4dc83aacfc9ff98fcfb79885ef9681" prot="public" virt="non-virtual"><scope>bittensor::_subtensor::subtensor_impl::Subtensor</scope><name>chain_endpoint</name></member>
+      <member refid="classbittensor_1_1__subtensor_1_1subtensor__impl_1_1_subtensor_1aff851e0546a56ece8510fb25f2d5ec3f" prot="public" virt="non-virtual"><scope>bittensor::_subtensor::subtensor_impl::Subtensor</scope><name>connect</name></member>
+      <member refid="classbittensor_1_1__subtensor_1_1subtensor__impl_1_1_subtensor_1a1c251da3d66b53978f1d63c1c0fae7d5" prot="public" virt="non-virtual"><scope>bittensor::_subtensor::subtensor_impl::Subtensor</scope><name>difficulty</name></member>
+      <member refid="classbittensor_1_1__subtensor_1_1subtensor__impl_1_1_subtensor_1af2a4da4dd4ee097adefef59e3d4f03a4" prot="public" virt="non-virtual"><scope>bittensor::_subtensor::subtensor_impl::Subtensor</scope><name>endpoint_for_network</name></member>
+      <member refid="classbittensor_1_1__subtensor_1_1subtensor__impl_1_1_subtensor_1a894541f517863e48219cfaf51727b0b0" prot="public" virt="non-virtual"><scope>bittensor::_subtensor::subtensor_impl::Subtensor</scope><name>get_balance</name></member>
+      <member refid="classbittensor_1_1__subtensor_1_1subtensor__impl_1_1_subtensor_1af71610162ac91c2d65c36ea6dacdcec2" prot="public" virt="non-virtual"><scope>bittensor::_subtensor::subtensor_impl::Subtensor</scope><name>get_balances</name></member>
+      <member refid="classbittensor_1_1__subtensor_1_1subtensor__impl_1_1_subtensor_1a4ae980dde4fb415232b048f23678d880" prot="public" virt="non-virtual"><scope>bittensor::_subtensor::subtensor_impl::Subtensor</scope><name>get_current_block</name></member>
+      <member refid="classbittensor_1_1__subtensor_1_1subtensor__impl_1_1_subtensor_1a7e479f38864f7ce309d1b5c4d82e5b40" prot="public" virt="non-virtual"><scope>bittensor::_subtensor::subtensor_impl::Subtensor</scope><name>get_n</name></member>
+      <member refid="classbittensor_1_1__subtensor_1_1subtensor__impl_1_1_subtensor_1a7e479f38864f7ce309d1b5c4d82e5b40" prot="public" virt="non-virtual"><scope>bittensor::_subtensor::subtensor_impl::Subtensor</scope><name>get_n</name></member>
+      <member refid="classbittensor_1_1__subtensor_1_1subtensor__impl_1_1_subtensor_1ae02ae4e8119bce581133cac1f8893ded" prot="public" virt="non-virtual"><scope>bittensor::_subtensor::subtensor_impl::Subtensor</scope><name>get_uid_for_hotkey</name></member>
+      <member refid="classbittensor_1_1__subtensor_1_1subtensor__impl_1_1_subtensor_1a3ae1d0b4cb8bdb53fb653544138ae9fd" prot="public" virt="non-virtual"><scope>bittensor::_subtensor::subtensor_impl::Subtensor</scope><name>immunity_period</name></member>
+      <member refid="classbittensor_1_1__subtensor_1_1subtensor__impl_1_1_subtensor_1adc38969a213b2b6adc156505f48e7c76" prot="public" virt="non-virtual"><scope>bittensor::_subtensor::subtensor_impl::Subtensor</scope><name>is_hotkey_registered</name></member>
+      <member refid="classbittensor_1_1__subtensor_1_1subtensor__impl_1_1_subtensor_1a24c991d29c48ea1287745794dad2b482" prot="public" virt="non-virtual"><scope>bittensor::_subtensor::subtensor_impl::Subtensor</scope><name>kappa</name></member>
+      <member refid="classbittensor_1_1__subtensor_1_1subtensor__impl_1_1_subtensor_1a6ba3ae80d077e0a382a8fc011f78f6df" prot="public" virt="non-virtual"><scope>bittensor::_subtensor::subtensor_impl::Subtensor</scope><name>logits_divergence</name></member>
+      <member refid="classbittensor_1_1__subtensor_1_1subtensor__impl_1_1_subtensor_1a301729682f8e7c30b5d5f898e8d40c48" prot="public" virt="non-virtual"><scope>bittensor::_subtensor::subtensor_impl::Subtensor</scope><name>max_allowed_min_max_ratio</name></member>
+      <member refid="classbittensor_1_1__subtensor_1_1subtensor__impl_1_1_subtensor_1a79d987bb9b6328ccba6b757a93112aa9" prot="public" virt="non-virtual"><scope>bittensor::_subtensor::subtensor_impl::Subtensor</scope><name>max_n</name></member>
+      <member refid="classbittensor_1_1__subtensor_1_1subtensor__impl_1_1_subtensor_1aa1efa24b2b5c74f4faff38c09323f8e7" prot="public" virt="non-virtual"><scope>bittensor::_subtensor::subtensor_impl::Subtensor</scope><name>max_weight_limit</name></member>
+      <member refid="classbittensor_1_1__subtensor_1_1subtensor__impl_1_1_subtensor_1aee4beff1c2ab6b3c2df369195230a7bd" prot="public" virt="non-virtual"><scope>bittensor::_subtensor::subtensor_impl::Subtensor</scope><name>min_allowed_weights</name></member>
+      <member refid="classbittensor_1_1__subtensor_1_1subtensor__impl_1_1_subtensor_1a11d10f99d0740e841a8ce47b67fdbc02" prot="public" virt="non-virtual"><scope>bittensor::_subtensor::subtensor_impl::Subtensor</scope><name>n</name></member>
+      <member refid="classbittensor_1_1__subtensor_1_1subtensor__impl_1_1_subtensor_1a417cc562a63d5c600eabad4815478b33" prot="public" virt="non-virtual"><scope>bittensor::_subtensor::subtensor_impl::Subtensor</scope><name>network</name></member>
+      <member refid="classbittensor_1_1__subtensor_1_1subtensor__impl_1_1_subtensor_1a50f10ac1bdd91d9feb7b5f49de168aa7" prot="public" virt="non-virtual"><scope>bittensor::_subtensor::subtensor_impl::Subtensor</scope><name>neuron_for_pubkey</name></member>
+      <member refid="classbittensor_1_1__subtensor_1_1subtensor__impl_1_1_subtensor_1aedf9d44c58320641bd3a0d237159119d" prot="public" virt="non-virtual"><scope>bittensor::_subtensor::subtensor_impl::Subtensor</scope><name>neuron_for_uid</name></member>
+      <member refid="classbittensor_1_1__subtensor_1_1subtensor__impl_1_1_subtensor_1ab9885588918ea171fd4402818df00176" prot="public" virt="non-virtual"><scope>bittensor::_subtensor::subtensor_impl::Subtensor</scope><name>neuron_for_wallet</name></member>
+      <member refid="classbittensor_1_1__subtensor_1_1subtensor__impl_1_1_subtensor_1ad5a4ed818af4a17332179cf08919494a" prot="public" virt="non-virtual"><scope>bittensor::_subtensor::subtensor_impl::Subtensor</scope><name>neurons</name></member>
+      <member refid="classbittensor_1_1__subtensor_1_1subtensor__impl_1_1_subtensor_1ade8ead8921005115ea8f06495417031a" prot="public" virt="non-virtual"><scope>bittensor::_subtensor::subtensor_impl::Subtensor</scope><name>prune_len</name></member>
+      <member refid="classbittensor_1_1__subtensor_1_1subtensor__impl_1_1_subtensor_1a917eafe0a130fef0d43371588ea0e87b" prot="public" virt="non-virtual"><scope>bittensor::_subtensor::subtensor_impl::Subtensor</scope><name>register</name></member>
+      <member refid="classbittensor_1_1__subtensor_1_1subtensor__impl_1_1_subtensor_1af2ed7f89021dbf8e073c52b32c1a10dd" prot="public" virt="non-virtual"><scope>bittensor::_subtensor::subtensor_impl::Subtensor</scope><name>rho</name></member>
+      <member refid="classbittensor_1_1__subtensor_1_1subtensor__impl_1_1_subtensor_1a706b5be83bb2555653c1c5c3682b810a" prot="public" virt="non-virtual"><scope>bittensor::_subtensor::subtensor_impl::Subtensor</scope><name>scaling_law_power</name></member>
+      <member refid="classbittensor_1_1__subtensor_1_1subtensor__impl_1_1_subtensor_1aaaa1da9ab83d63dbb4f1b80cb0dcfb59" prot="public" virt="non-virtual"><scope>bittensor::_subtensor::subtensor_impl::Subtensor</scope><name>serve</name></member>
+      <member refid="classbittensor_1_1__subtensor_1_1subtensor__impl_1_1_subtensor_1addc36341956fb7b15d64435de8194d00" prot="public" virt="non-virtual"><scope>bittensor::_subtensor::subtensor_impl::Subtensor</scope><name>serve_axon</name></member>
+      <member refid="classbittensor_1_1__subtensor_1_1subtensor__impl_1_1_subtensor_1ab7bb06a93e5da6e007219d203d6a0a98" prot="public" virt="non-virtual"><scope>bittensor::_subtensor::subtensor_impl::Subtensor</scope><name>set_weights</name></member>
+      <member refid="classbittensor_1_1__subtensor_1_1subtensor__impl_1_1_subtensor_1ab07ac47cf1fb8e14d921e168f2201ec1" prot="public" virt="non-virtual"><scope>bittensor::_subtensor::subtensor_impl::Subtensor</scope><name>substrate</name></member>
+      <member refid="classbittensor_1_1__subtensor_1_1subtensor__impl_1_1_subtensor_1ad94ddb9357a2e482ebd271cfc4e21236" prot="public" virt="non-virtual"><scope>bittensor::_subtensor::subtensor_impl::Subtensor</scope><name>synergy_scaling_law_power</name></member>
+      <member refid="classbittensor_1_1__subtensor_1_1subtensor__impl_1_1_subtensor_1a058bf6a0211fa910a2397014b1b49af8" prot="public" virt="non-virtual"><scope>bittensor::_subtensor::subtensor_impl::Subtensor</scope><name>total_issuance</name></member>
+      <member refid="classbittensor_1_1__subtensor_1_1subtensor__impl_1_1_subtensor_1a50d48b5a5562978a0093bce6c59a4595" prot="public" virt="non-virtual"><scope>bittensor::_subtensor::subtensor_impl::Subtensor</scope><name>total_stake</name></member>
+      <member refid="classbittensor_1_1__subtensor_1_1subtensor__impl_1_1_subtensor_1a2c4eaca27e152b751e38dfe6fd5510c7" prot="public" virt="non-virtual"><scope>bittensor::_subtensor::subtensor_impl::Subtensor</scope><name>transfer</name></member>
+      <member refid="classbittensor_1_1__subtensor_1_1subtensor__impl_1_1_subtensor_1a5df4679e01f901762b29c773e5ba8518" prot="public" virt="non-virtual"><scope>bittensor::_subtensor::subtensor_impl::Subtensor</scope><name>unstake</name></member>
+      <member refid="classbittensor_1_1__subtensor_1_1subtensor__impl_1_1_subtensor_1ac308c7f078a5391c06029d3c9a82f0b5" prot="public" virt="non-virtual"><scope>bittensor::_subtensor::subtensor_impl::Subtensor</scope><name>unstake_multiple</name></member>
+      <member refid="classbittensor_1_1__subtensor_1_1subtensor__impl_1_1_subtensor_1a7bf209ebf6732967df2746a08affe5cf" prot="public" virt="non-virtual"><scope>bittensor::_subtensor::subtensor_impl::Subtensor</scope><name>validator_batch_size</name></member>
+      <member refid="classbittensor_1_1__subtensor_1_1subtensor__impl_1_1_subtensor_1a73adbb563f01c27eb189efd4503474cd" prot="public" virt="non-virtual"><scope>bittensor::_subtensor::subtensor_impl::Subtensor</scope><name>validator_epoch_length</name></member>
+      <member refid="classbittensor_1_1__subtensor_1_1subtensor__impl_1_1_subtensor_1a9f789419e2252f9543d813b4fab83291" prot="public" virt="non-virtual"><scope>bittensor::_subtensor::subtensor_impl::Subtensor</scope><name>validator_epochs_per_reset</name></member>
+      <member refid="classbittensor_1_1__subtensor_1_1subtensor__impl_1_1_subtensor_1a441296314cd5b419e2bc2a20c04a07db" prot="public" virt="non-virtual"><scope>bittensor::_subtensor::subtensor_impl::Subtensor</scope><name>validator_exclude_quantile</name></member>
+      <member refid="classbittensor_1_1__subtensor_1_1subtensor__impl_1_1_subtensor_1ac8a0ae3373890a8d7b7e38a017a9e462" prot="public" virt="non-virtual"><scope>bittensor::_subtensor::subtensor_impl::Subtensor</scope><name>validator_sequence_length</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

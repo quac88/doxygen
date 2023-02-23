@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="namespacebittensor_1_1__dendrite_1_1dendrite__mock" kind="namespace" language="Python">
+    <compoundname>bittensor::_dendrite::dendrite_mock</compoundname>
+    <innerclass refid="classbittensor_1_1__dendrite_1_1dendrite__mock_1_1_dendrite_mock" prot="public">bittensor::_dendrite::dendrite_mock::DendriteMock</innerclass>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="namespacebittensor_1_1__dendrite_1_1dendrite__mock_1a9c8ea6dedbc60a9c0ef2b9e9ae933da9" prot="public" static="no" mutable="no">
+        <type>torch</type>
+        <definition>torch bittensor::_dendrite::dendrite_mock.DUMMY</definition>
+        <argsstring></argsstring>
+        <name>DUMMY</name>
+        <qualifiedname>bittensor._dendrite.dendrite_mock.DUMMY</qualifiedname>
+        <initializer>=  torch.empty(0, requires_grad=True)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_dendrite/dendrite_mock.py" line="38" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_dendrite/dendrite_mock.py" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim> Implementation of mock class dendrite, which quries endpoints with tensors.
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/Users/macthrasher/bittensor/bittensor/_dendrite/dendrite_mock.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

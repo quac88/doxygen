@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="classbittensor_1_1utils_1_1registration_1_1_solver" kind="class" language="Python" prot="public">
+    <compoundname>bittensor::utils::registration::Solver</compoundname>
+    <basecompoundref refid="classbittensor_1_1utils_1_1registration_1_1_solver_base" prot="public" virt="non-virtual">bittensor.utils.registration.SolverBase</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classbittensor_1_1utils_1_1registration_1_1_solver_1abcd76e741b811e9b46ef5112bb6a84b9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor.utils.registration.Solver.run</definition>
+        <argsstring>(self)</argsstring>
+        <name>run</name>
+        <qualifiedname>bittensor.utils.registration.Solver.run</qualifiedname>
+        <reimplements refid="classbittensor_1_1utils_1_1registration_1_1_solver_base_1aee1da22d8fa4ec1a7ad0c006c097fca9">run</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/registration.py" line="181" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/registration.py" bodystart="181" bodyend="214"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>bittensor.utils.registration.Solver</label>
+        <link refid="classbittensor_1_1utils_1_1registration_1_1_solver"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>bittensor.utils.registration.SolverBase</label>
+        <link refid="classbittensor_1_1utils_1_1registration_1_1_solver_base"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>multiprocessing::Process</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>bittensor.utils.registration.Solver</label>
+        <link refid="classbittensor_1_1utils_1_1registration_1_1_solver"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>bittensor.utils.registration.SolverBase</label>
+        <link refid="classbittensor_1_1utils_1_1registration_1_1_solver_base"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>check_block</edgelabel>
+          <edgelabel>curr_block</edgelabel>
+          <edgelabel>curr_block_num</edgelabel>
+          <edgelabel>curr_diff</edgelabel>
+          <edgelabel>finished_queue</edgelabel>
+          <edgelabel>newBlockEvent</edgelabel>
+          <edgelabel>solution_queue</edgelabel>
+          <edgelabel>stopEvent</edgelabel>
+        </childnode>
+      </node>
+      <node id="4">
+        <label>multiprocessing</label>
+      </node>
+      <node id="3">
+        <label>multiprocessing::Process</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/macthrasher/bittensor/bittensor/utils/registration.py" line="180" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/registration.py" bodystart="180" bodyend="214"/>
+    <listofallmembers>
+      <member refid="classbittensor_1_1utils_1_1registration_1_1_solver_1abcd76e741b811e9b46ef5112bb6a84b9" prot="public" virt="non-virtual"><scope>bittensor::utils::registration::Solver</scope><name>run</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

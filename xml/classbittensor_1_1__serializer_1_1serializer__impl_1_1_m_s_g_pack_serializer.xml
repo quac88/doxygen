@@ -1,0 +1,127 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="classbittensor_1_1__serializer_1_1serializer__impl_1_1_m_s_g_pack_serializer" kind="class" language="Python" prot="public">
+    <compoundname>bittensor::_serializer::serializer_impl::MSGPackSerializer</compoundname>
+    <basecompoundref refid="classbittensor_1_1__serializer_1_1serializer__impl_1_1_serializer" prot="public" virt="non-virtual">bittensor._serializer.serializer_impl.Serializer</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classbittensor_1_1__serializer_1_1serializer__impl_1_1_m_s_g_pack_serializer_1ad2491ba6c3a2722b0c48bf68f1e13e7b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bittensor.proto.Tensor</type>
+        <definition> bittensor.proto.Tensor bittensor._serializer.serializer_impl.MSGPackSerializer.serialize_from_torch</definition>
+        <argsstring>(self, torch.Tensor torch_tensor, bittensor.proto.Modality modality)</argsstring>
+        <name>serialize_from_torch</name>
+        <qualifiedname>bittensor._serializer.serializer_impl.MSGPackSerializer.serialize_from_torch</qualifiedname>
+        <reimplements refid="classbittensor_1_1__serializer_1_1serializer__impl_1_1_serializer_1a7997590b584332b04f5c3e98b5bfea46">serialize_from_torch</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>torch.Tensor</type>
+          <declname>torch_tensor</declname>
+        </param>
+        <param>
+          <type>bittensor.proto.Modality</type>
+          <declname>modality</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Serializes a torch.Tensor to an bittensor Tensor proto.
+
+Args:
+    torch_tensor (torch.Tensor): 
+        Torch tensor to serialize.
+
+    modality (bittensor.proto.Modality): 
+        Datatype modality. i.e. TENSOR, TEXT, IMAGE
+
+Returns:
+    bittensor.proto.Tensor: 
+        The serialized torch tensor as bittensor.proto.proto. 
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_serializer/serializer_impl.py" line="137" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_serializer/serializer_impl.py" bodystart="137" bodyend="166"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__serializer_1_1serializer__impl_1_1_m_s_g_pack_serializer_1af2f485747d6af31ff4d4c75f1ae6dcb8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>torch.Tensor</type>
+        <definition> torch.Tensor bittensor._serializer.serializer_impl.MSGPackSerializer.deserialize_to_torch</definition>
+        <argsstring>(self, bittensor.proto.Tensor torch_proto)</argsstring>
+        <name>deserialize_to_torch</name>
+        <qualifiedname>bittensor._serializer.serializer_impl.MSGPackSerializer.deserialize_to_torch</qualifiedname>
+        <reimplements refid="classbittensor_1_1__serializer_1_1serializer__impl_1_1_serializer_1a0a53800eb9150bb28ee55bc7dad8c2da">deserialize_to_torch</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>bittensor.proto.Tensor</type>
+          <declname>torch_proto</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Deserializes an bittensor.proto.Tensor to a torch.Tensor object.
+
+Args:
+    torch_proto (bittensor.proto.Tensor): 
+        Proto containing torch tensor to derserialize.
+
+Returns:
+    torch.Tensor: 
+        Deserialized torch tensor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_serializer/serializer_impl.py" line="167" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_serializer/serializer_impl.py" bodystart="167" bodyend="184"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim> Make conversion between torch and bittensor.proto.torch
+</verbatim> </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>bittensor._serializer.serializer_impl.MSGPackSerializer</label>
+        <link refid="classbittensor_1_1__serializer_1_1serializer__impl_1_1_m_s_g_pack_serializer"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>bittensor._serializer.serializer_impl.Serializer</label>
+        <link refid="classbittensor_1_1__serializer_1_1serializer__impl_1_1_serializer"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>object</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>bittensor._serializer.serializer_impl.MSGPackSerializer</label>
+        <link refid="classbittensor_1_1__serializer_1_1serializer__impl_1_1_m_s_g_pack_serializer"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>bittensor._serializer.serializer_impl.Serializer</label>
+        <link refid="classbittensor_1_1__serializer_1_1serializer__impl_1_1_serializer"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>object</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/macthrasher/bittensor/bittensor/_serializer/serializer_impl.py" line="134" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_serializer/serializer_impl.py" bodystart="134" bodyend="184"/>
+    <listofallmembers>
+      <member refid="classbittensor_1_1__serializer_1_1serializer__impl_1_1_m_s_g_pack_serializer_1af2f485747d6af31ff4d4c75f1ae6dcb8" prot="public" virt="non-virtual"><scope>bittensor::_serializer::serializer_impl::MSGPackSerializer</scope><name>deserialize_to_torch</name></member>
+      <member refid="classbittensor_1_1__serializer_1_1serializer__impl_1_1_m_s_g_pack_serializer_1ad2491ba6c3a2722b0c48bf68f1e13e7b" prot="public" virt="non-virtual"><scope>bittensor::_serializer::serializer_impl::MSGPackSerializer</scope><name>serialize_from_torch</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,166 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="classbittensor_1_1__proto_1_1bittensor__pb2__grpc_1_1_bittensor" kind="class" language="Python" prot="public">
+    <compoundname>bittensor::_proto::bittensor_pb2_grpc::Bittensor</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">object</basecompoundref>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classbittensor_1_1__proto_1_1bittensor__pb2__grpc_1_1_bittensor_1a3b78b64a898877a5f54ce4ff5707d1c0" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._proto.bittensor_pb2_grpc.Bittensor.Forward</definition>
+        <argsstring>(request, target, options=(), channel_credentials=None, call_credentials=None, insecure=False, compression=None, wait_for_ready=None, timeout=None, metadata=None)</argsstring>
+        <name>Forward</name>
+        <qualifiedname>bittensor._proto.bittensor_pb2_grpc.Bittensor.Forward</qualifiedname>
+        <param>
+          <type>request</type>
+          <defname>request</defname>
+        </param>
+        <param>
+          <type>target</type>
+          <defname>target</defname>
+        </param>
+        <param>
+          <type>options</type>
+          <defname>options</defname>
+          <defval>()</defval>
+        </param>
+        <param>
+          <type>channel_credentials</type>
+          <defname>channel_credentials</defname>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type>call_credentials</type>
+          <defname>call_credentials</defname>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type>insecure</type>
+          <defname>insecure</defname>
+          <defval>False</defval>
+        </param>
+        <param>
+          <type>compression</type>
+          <defname>compression</defname>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type>wait_for_ready</type>
+          <defname>wait_for_ready</defname>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type>timeout</type>
+          <defname>timeout</defname>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type>metadata</type>
+          <defname>metadata</defname>
+          <defval>None</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_proto/bittensor_pb2_grpc.py" line="73" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_proto/bittensor_pb2_grpc.py" bodystart="82" bodyend="88"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__proto_1_1bittensor__pb2__grpc_1_1_bittensor_1a5c59035e937cc132ba07bbf5f1476f7c" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._proto.bittensor_pb2_grpc.Bittensor.Backward</definition>
+        <argsstring>(request, target, options=(), channel_credentials=None, call_credentials=None, insecure=False, compression=None, wait_for_ready=None, timeout=None, metadata=None)</argsstring>
+        <name>Backward</name>
+        <qualifiedname>bittensor._proto.bittensor_pb2_grpc.Bittensor.Backward</qualifiedname>
+        <param>
+          <type>request</type>
+          <defname>request</defname>
+        </param>
+        <param>
+          <type>target</type>
+          <defname>target</defname>
+        </param>
+        <param>
+          <type>options</type>
+          <defname>options</defname>
+          <defval>()</defval>
+        </param>
+        <param>
+          <type>channel_credentials</type>
+          <defname>channel_credentials</defname>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type>call_credentials</type>
+          <defname>call_credentials</defname>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type>insecure</type>
+          <defname>insecure</defname>
+          <defval>False</defval>
+        </param>
+        <param>
+          <type>compression</type>
+          <defname>compression</defname>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type>wait_for_ready</type>
+          <defname>wait_for_ready</defname>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type>timeout</type>
+          <defname>timeout</defname>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type>metadata</type>
+          <defname>metadata</defname>
+          <defval>None</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_proto/bittensor_pb2_grpc.py" line="90" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_proto/bittensor_pb2_grpc.py" bodystart="99" bodyend="105"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Service definition for tensor processing servers.
+</verbatim> </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>bittensor._proto.bittensor_pb2_grpc.Bittensor</label>
+        <link refid="classbittensor_1_1__proto_1_1bittensor__pb2__grpc_1_1_bittensor"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>object</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>bittensor._proto.bittensor_pb2_grpc.Bittensor</label>
+        <link refid="classbittensor_1_1__proto_1_1bittensor__pb2__grpc_1_1_bittensor"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>object</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/macthrasher/bittensor/bittensor/_proto/bittensor_pb2_grpc.py" line="68" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_proto/bittensor_pb2_grpc.py" bodystart="68" bodyend="105"/>
+    <listofallmembers>
+      <member refid="classbittensor_1_1__proto_1_1bittensor__pb2__grpc_1_1_bittensor_1a5c59035e937cc132ba07bbf5f1476f7c" prot="public" virt="non-virtual"><scope>bittensor::_proto::bittensor_pb2_grpc::Bittensor</scope><name>Backward</name></member>
+      <member refid="classbittensor_1_1__proto_1_1bittensor__pb2__grpc_1_1_bittensor_1a3b78b64a898877a5f54ce4ff5707d1c0" prot="public" virt="non-virtual"><scope>bittensor::_proto::bittensor_pb2_grpc::Bittensor</scope><name>Forward</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,333 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="weight__utils_8py" kind="file" language="Python">
+    <compoundname>weight_utils.py</compoundname>
+    <innernamespace refid="namespacebittensor">bittensor</innernamespace>
+    <innernamespace refid="namespacebittensor_1_1utils">bittensor::utils</innernamespace>
+    <innernamespace refid="namespacebittensor_1_1utils_1_1weight__utils">bittensor::utils::weight_utils</innernamespace>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="namespacebittensor_1_1utils_1_1weight__utils_1a26180f80934e02cda38d1c1c7de555eb" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int bittensor::utils::weight_utils.U32_MAX</definition>
+        <argsstring></argsstring>
+        <name>U32_MAX</name>
+        <qualifiedname>bittensor.utils.weight_utils.U32_MAX</qualifiedname>
+        <initializer>=  4294967295</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/weight_utils.py" line="23" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/weight_utils.py" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="namespacebittensor_1_1utils_1_1weight__utils_1abeb28e8f4b90d1c39102f9db8f75a86b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type> &apos;torch.FloatTensor&apos;</type>
+        <definition> &apos;torch.FloatTensor&apos; bittensor.utils.weight_utils.normalize_max_weight</definition>
+        <argsstring>(torch.FloatTensor x, float limit=0.1)</argsstring>
+        <name>normalize_max_weight</name>
+        <qualifiedname>bittensor.utils.weight_utils.normalize_max_weight</qualifiedname>
+        <param>
+          <type>torch.FloatTensor</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>limit</declname>
+          <defval>0.1</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Normalizes the tensor x so that sum(x) = 1 and the max value is not greater than the limit.
+        Args:
+            x (:obj:`torch.FloatTensor`):
+                Tensor to be max_value normalized.
+            limit: float:
+                Max value after normalization.     
+        Returns:
+            y (:obj:`torch.FloatTensor`):
+                Normalized x tensor.</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/weight_utils.py" line="25" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/weight_utils.py" bodystart="25" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacebittensor_1_1utils_1_1weight__utils_1a76c6807e7b871a4b945f78ec6cebb33f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type> &apos;torch.FloatTensor&apos;</type>
+        <definition> &apos;torch.FloatTensor&apos; bittensor.utils.weight_utils.convert_weight_uids_and_vals_to_tensor</definition>
+        <argsstring>(int n, List[int] uids, List[int] weights)</argsstring>
+        <name>convert_weight_uids_and_vals_to_tensor</name>
+        <qualifiedname>bittensor.utils.weight_utils.convert_weight_uids_and_vals_to_tensor</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>n</declname>
+        </param>
+        <param>
+          <type>List</type>
+          <declname>uids</declname>
+          <array>[int]</array>
+        </param>
+        <param>
+          <type>List</type>
+          <declname>weights</declname>
+          <array>[int]</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Converts weights and uids from chain representation into a torch tensor (inverse operation from convert_weights_and_uids_for_emit)
+Args:
+    n: int:
+        number of neurons on network.
+    uids (:obj:`List[int],`):
+        Tensor of uids as destinations for passed weights.
+    weights (:obj:`List[int],`):
+        Tensor of weights.
+Returns:
+    row_weights ( torch.FloatTensor ):
+        Converted row weights.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/weight_utils.py" line="67" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/weight_utils.py" bodystart="67" bodyend="84"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacebittensor_1_1utils_1_1weight__utils_1ab7a5ca8f3a6455fd0a4d3b56fcaf7e90" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type> &apos;torch.LongTensor&apos;</type>
+        <definition> &apos;torch.LongTensor&apos; bittensor.utils.weight_utils.convert_bond_uids_and_vals_to_tensor</definition>
+        <argsstring>(int n, List[int] uids, List[int] bonds)</argsstring>
+        <name>convert_bond_uids_and_vals_to_tensor</name>
+        <qualifiedname>bittensor.utils.weight_utils.convert_bond_uids_and_vals_to_tensor</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>n</declname>
+        </param>
+        <param>
+          <type>List</type>
+          <declname>uids</declname>
+          <array>[int]</array>
+        </param>
+        <param>
+          <type>List</type>
+          <declname>bonds</declname>
+          <array>[int]</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Converts bond and uids from chain representation into a torch tensor.
+Args:
+    n: int:
+        number of neurons on network.
+    uids (:obj:`List[int],`):
+        Tensor of uids as destinations for passed bonds.
+    bonds (:obj:`List[int],`):
+        Tensor of bonds.
+Returns:
+    row_bonds ( torch.FloatTensor ):
+        Converted row bonds.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/weight_utils.py" line="85" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/weight_utils.py" bodystart="85" bodyend="102"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacebittensor_1_1utils_1_1weight__utils_1ad6077babaaee521df6810744f68d9874" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Tuple[List[int], List[int]]</type>
+        <definition> Tuple[List[int], List[int]] bittensor.utils.weight_utils.convert_weights_and_uids_for_emit</definition>
+        <argsstring>(torch.LongTensor uids, torch.FloatTensor weights)</argsstring>
+        <name>convert_weights_and_uids_for_emit</name>
+        <qualifiedname>bittensor.utils.weight_utils.convert_weights_and_uids_for_emit</qualifiedname>
+        <param>
+          <type>torch.LongTensor</type>
+          <declname>uids</declname>
+        </param>
+        <param>
+          <type>torch.FloatTensor</type>
+          <declname>weights</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Converts weights into integer u32 representation that sum to MAX_INT_WEIGHT.
+Args:
+    uids (:obj:`torch.LongTensor,`):
+        Tensor of uids as destinations for passed weights.
+    weights (:obj:`torch.FloatTensor,`):
+        Tensor of weights.
+Returns:
+    weight_uids (List[int]):
+        Uids as a list.
+    weight_vals (List[int]):
+        Weights as a list.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/weight_utils.py" line="103" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/weight_utils.py" bodystart="103" bodyend="153"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1" refid="namespacebittensor_1_1utils_1_1weight__utils" refkind="compound"><highlight class="stringliteral">&quot;&quot;&quot;<sp/>Conversion<sp/>for<sp/>weight<sp/>between<sp/>chain<sp/>representation<sp/>and<sp/>torch<sp/>tensor</highlight></codeline>
+<codeline lineno="2"><highlight class="stringliteral">&quot;&quot;&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">#<sp/>The<sp/>MIT<sp/>License<sp/>(MIT)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">#<sp/>Copyright<sp/>©<sp/>2021<sp/>Yuma<sp/>Rao</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">#<sp/>Permission<sp/>is<sp/>hereby<sp/>granted,<sp/>free<sp/>of<sp/>charge,<sp/>to<sp/>any<sp/>person<sp/>obtaining<sp/>a<sp/>copy<sp/>of<sp/>this<sp/>software<sp/>and<sp/>associated<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">#<sp/>documentation<sp/>files<sp/>(the<sp/>“Software”),<sp/>to<sp/>deal<sp/>in<sp/>the<sp/>Software<sp/>without<sp/>restriction,<sp/>including<sp/>without<sp/>limitation<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="comment">#<sp/>the<sp/>rights<sp/>to<sp/>use,<sp/>copy,<sp/>modify,<sp/>merge,<sp/>publish,<sp/>distribute,<sp/>sublicense,<sp/>and/or<sp/>sell<sp/>copies<sp/>of<sp/>the<sp/>Software,<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="comment">#<sp/>and<sp/>to<sp/>permit<sp/>persons<sp/>to<sp/>whom<sp/>the<sp/>Software<sp/>is<sp/>furnished<sp/>to<sp/>do<sp/>so,<sp/>subject<sp/>to<sp/>the<sp/>following<sp/>conditions:</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="comment">#<sp/>The<sp/>above<sp/>copyright<sp/>notice<sp/>and<sp/>this<sp/>permission<sp/>notice<sp/>shall<sp/>be<sp/>included<sp/>in<sp/>all<sp/>copies<sp/>or<sp/>substantial<sp/>portions<sp/>of<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="comment">#<sp/>the<sp/>Software.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="comment">#<sp/>THE<sp/>SOFTWARE<sp/>IS<sp/>PROVIDED<sp/>“AS<sp/>IS”,<sp/>WITHOUT<sp/>WARRANTY<sp/>OF<sp/>ANY<sp/>KIND,<sp/>EXPRESS<sp/>OR<sp/>IMPLIED,<sp/>INCLUDING<sp/>BUT<sp/>NOT<sp/>LIMITED<sp/>TO</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="comment">#<sp/>THE<sp/>WARRANTIES<sp/>OF<sp/>MERCHANTABILITY,<sp/>FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR<sp/>PURPOSE<sp/>AND<sp/>NONINFRINGEMENT.<sp/>IN<sp/>NO<sp/>EVENT<sp/>SHALL<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="comment">#<sp/>THE<sp/>AUTHORS<sp/>OR<sp/>COPYRIGHT<sp/>HOLDERS<sp/>BE<sp/>LIABLE<sp/>FOR<sp/>ANY<sp/>CLAIM,<sp/>DAMAGES<sp/>OR<sp/>OTHER<sp/>LIABILITY,<sp/>WHETHER<sp/>IN<sp/>AN<sp/>ACTION<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="comment">#<sp/>OF<sp/>CONTRACT,<sp/>TORT<sp/>OR<sp/>OTHERWISE,<sp/>ARISING<sp/>FROM,<sp/>OUT<sp/>OF<sp/>OR<sp/>IN<sp/>CONNECTION<sp/>WITH<sp/>THE<sp/>SOFTWARE<sp/>OR<sp/>THE<sp/>USE<sp/>OR<sp/>OTHER<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="comment">#<sp/>DEALINGS<sp/>IN<sp/>THE<sp/>SOFTWARE.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/>typing<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>Tuple,<sp/>List</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>torch</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal">U32_MAX<sp/>=<sp/>4294967295</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="namespacebittensor_1_1utils_1_1weight__utils_1abeb28e8f4b90d1c39102f9db8f75a86b" kindref="member">normalize_max_weight</ref>(<sp/><sp/>x:<sp/>torch.FloatTensor,<sp/>limit:float<sp/>=<sp/>0.1<sp/>)<sp/>-&gt;<sp/></highlight><highlight class="stringliteral">&apos;torch.FloatTensor&apos;</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">r&quot;&quot;&quot;<sp/>Normalizes<sp/>the<sp/>tensor<sp/>x<sp/>so<sp/>that<sp/>sum(x)<sp/>=<sp/>1<sp/>and<sp/>the<sp/>max<sp/>value<sp/>is<sp/>not<sp/>greater<sp/>than<sp/>the<sp/>limit.</highlight></codeline>
+<codeline lineno="27"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Args:</highlight></codeline>
+<codeline lineno="28"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>x<sp/>(:obj:`torch.FloatTensor`):</highlight></codeline>
+<codeline lineno="29"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Tensor<sp/>to<sp/>be<sp/>max_value<sp/>normalized.</highlight></codeline>
+<codeline lineno="30"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>limit:<sp/>float:</highlight></codeline>
+<codeline lineno="31"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Max<sp/>value<sp/>after<sp/>normalization.<sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="32"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Returns:</highlight></codeline>
+<codeline lineno="33"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>y<sp/>(:obj:`torch.FloatTensor`):</highlight></codeline>
+<codeline lineno="34"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Normalized<sp/>x<sp/>tensor.</highlight></codeline>
+<codeline lineno="35"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>&quot;&quot;&quot;</highlight></codeline>
+<codeline lineno="36"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>epsilon<sp/>=<sp/>1e-7<sp/></highlight><highlight class="comment">#For<sp/>numerical<sp/>stability<sp/>after<sp/>normalization</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/>weights<sp/>=<sp/><sp/>x.clone()</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/>values,<sp/>_<sp/>=<sp/>torch.sort(weights)</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>x.sum()<sp/>==<sp/>0<sp/></highlight><highlight class="keywordflow">or</highlight><highlight class="normal"><sp/>len(x)*limit<sp/>&lt;=<sp/>1:</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>torch.ones_like(x)/x.size(0)</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>estimation<sp/>=<sp/>values/values.sum()</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>estimation.max()<sp/>&lt;=<sp/>limit:</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>weights/weights.sum()</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">#<sp/>Find<sp/>the<sp/>cumlative<sp/>sum<sp/>and<sp/>sorted<sp/>tensor</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cumsum<sp/>=<sp/>torch.cumsum(estimation,0)</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">#<sp/>Determine<sp/>the<sp/>index<sp/>of<sp/>cutoff</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>estimation_sum<sp/>=<sp/>torch.tensor([(len(values)-i-1)*estimation[i]<sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>i<sp/></highlight><highlight class="keywordflow">in</highlight><highlight class="normal"><sp/>range(len(values))])</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>n_values<sp/>=<sp/>(estimation/(estimation_sum+cumsum+epsilon)&lt;limit).sum()</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">#<sp/>Determine<sp/>the<sp/>cutoff<sp/>based<sp/>on<sp/>the<sp/>index<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cutoff_scale<sp/>=<sp/>(limit*cumsum[n_values-1]-epsilon)/(1-(limit*(len(estimation)-n_values)))</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cutoff=<sp/>cutoff_scale*values.sum()</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">#<sp/>Applying<sp/>the<sp/>cutoff</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>weights[weights<sp/>&gt;<sp/>cutoff]<sp/>=<sp/>cutoff</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>y<sp/>=<sp/>weights/weights.sum()</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>y</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="namespacebittensor_1_1utils_1_1weight__utils_1a76c6807e7b871a4b945f78ec6cebb33f" kindref="member">convert_weight_uids_and_vals_to_tensor</ref>(<sp/>n:<sp/>int,<sp/>uids:<sp/>List[int],<sp/>weights:<sp/>List[int]<sp/>)<sp/>-&gt;<sp/></highlight><highlight class="stringliteral">&apos;torch.FloatTensor&apos;</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">r&quot;&quot;&quot;<sp/>Converts<sp/>weights<sp/>and<sp/>uids<sp/>from<sp/>chain<sp/>representation<sp/>into<sp/>a<sp/>torch<sp/>tensor<sp/>(inverse<sp/>operation<sp/>from<sp/>convert_weights_and_uids_for_emit)</highlight></codeline>
+<codeline lineno="69"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Args:</highlight></codeline>
+<codeline lineno="70"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>n:<sp/>int:</highlight></codeline>
+<codeline lineno="71"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>number<sp/>of<sp/>neurons<sp/>on<sp/>network.</highlight></codeline>
+<codeline lineno="72"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uids<sp/>(:obj:`List[int],`):</highlight></codeline>
+<codeline lineno="73"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Tensor<sp/>of<sp/>uids<sp/></highlight><highlight class="keyword">as</highlight><highlight class="normal"><sp/>destinations<sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>passed<sp/>weights.</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>weights<sp/>(:obj:`List[int],`):</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Tensor<sp/>of<sp/>weights.</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Returns:</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>row_weights<sp/>(<sp/>torch.FloatTensor<sp/>):</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Converted<sp/>row<sp/>weights.</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;&quot;&quot;</highlight></codeline>
+<codeline lineno="80"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>row_weights<sp/>=<sp/>torch.zeros(<sp/>[<sp/>n<sp/>],<sp/>dtype=torch.float32<sp/>)</highlight></codeline>
+<codeline lineno="81"><highlight class="stringliteral"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>uid_j,<sp/>wij<sp/></highlight><highlight class="keywordflow">in</highlight><highlight class="normal"><sp/>list(zip(<sp/>uids,<sp/>weights<sp/>)):</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>row_weights[<sp/>uid_j<sp/>]<sp/>=<sp/>float(<sp/>wij<sp/>)<sp/>/<sp/>float(U32_MAX)</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>row_weights</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="namespacebittensor_1_1utils_1_1weight__utils_1ab7a5ca8f3a6455fd0a4d3b56fcaf7e90" kindref="member">convert_bond_uids_and_vals_to_tensor</ref>(<sp/>n:<sp/>int,<sp/>uids:<sp/>List[int],<sp/>bonds:<sp/>List[int]<sp/>)<sp/>-&gt;<sp/></highlight><highlight class="stringliteral">&apos;torch.LongTensor&apos;</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">r&quot;&quot;&quot;<sp/>Converts<sp/>bond<sp/>and<sp/>uids<sp/>from<sp/>chain<sp/>representation<sp/>into<sp/>a<sp/>torch<sp/>tensor.</highlight></codeline>
+<codeline lineno="87"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Args:</highlight></codeline>
+<codeline lineno="88"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>n:<sp/>int:</highlight></codeline>
+<codeline lineno="89"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>number<sp/>of<sp/>neurons<sp/>on<sp/>network.</highlight></codeline>
+<codeline lineno="90"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uids<sp/>(:obj:`List[int],`):</highlight></codeline>
+<codeline lineno="91"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Tensor<sp/>of<sp/>uids<sp/></highlight><highlight class="keyword">as</highlight><highlight class="normal"><sp/>destinations<sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>passed<sp/>bonds.</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>bonds<sp/>(:obj:`List[int],`):</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Tensor<sp/>of<sp/>bonds.</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Returns:</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>row_bonds<sp/>(<sp/>torch.FloatTensor<sp/>):</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Converted<sp/>row<sp/>bonds.</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;&quot;&quot;</highlight></codeline>
+<codeline lineno="98"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>row_bonds<sp/>=<sp/>torch.zeros(<sp/>[<sp/>n<sp/>],<sp/>dtype=torch.int64<sp/>)</highlight></codeline>
+<codeline lineno="99"><highlight class="stringliteral"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>uid_j,<sp/>bij<sp/></highlight><highlight class="keywordflow">in</highlight><highlight class="normal"><sp/>list(zip(<sp/>uids,<sp/>bonds<sp/>)):</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>row_bonds[<sp/>uid_j<sp/>]<sp/>=<sp/>int(<sp/>bij<sp/>)<sp/></highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>row_bonds</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight></codeline>
+<codeline lineno="103"><highlight class="normal"></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="namespacebittensor_1_1utils_1_1weight__utils_1ad6077babaaee521df6810744f68d9874" kindref="member">convert_weights_and_uids_for_emit</ref>(<sp/>uids:<sp/>torch.LongTensor,<sp/>weights:<sp/>torch.FloatTensor<sp/>)<sp/>-&gt;<sp/>Tuple[List[int],<sp/>List[int]]:</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">r&quot;&quot;&quot;<sp/>Converts<sp/>weights<sp/>into<sp/>integer<sp/>u32<sp/>representation<sp/>that<sp/>sum<sp/>to<sp/>MAX_INT_WEIGHT.</highlight></codeline>
+<codeline lineno="105"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Args:</highlight></codeline>
+<codeline lineno="106"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uids<sp/>(:obj:`torch.LongTensor,`):</highlight></codeline>
+<codeline lineno="107"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Tensor<sp/>of<sp/>uids<sp/></highlight><highlight class="keyword">as</highlight><highlight class="normal"><sp/>destinations<sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>passed<sp/>weights.</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>weights<sp/>(:obj:`torch.FloatTensor,`):</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Tensor<sp/>of<sp/>weights.</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Returns:</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>weight_uids<sp/>(List[int]):</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Uids<sp/></highlight><highlight class="keyword">as</highlight><highlight class="normal"><sp/>a<sp/>list.</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>weight_vals<sp/>(List[int]):</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Weights<sp/></highlight><highlight class="keyword">as</highlight><highlight class="normal"><sp/>a<sp/>list.</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;&quot;&quot;</highlight></codeline>
+<codeline lineno="116"><highlight class="stringliteral"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">#<sp/>Checks.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/>weights<sp/>=<sp/>weights.tolist()</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/>uids<sp/>=<sp/>uids.tolist()</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>min(weights)<sp/>&lt;<sp/>0:</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">raise</highlight><highlight class="normal"><sp/>ValueError(</highlight><highlight class="stringliteral">&apos;Passed<sp/>weight<sp/>is<sp/>negative<sp/>cannot<sp/>exist<sp/>on<sp/>chain<sp/>{}&apos;</highlight><highlight class="normal">.format(weights))</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>min(uids)<sp/>&lt;<sp/>0:</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">raise</highlight><highlight class="normal"><sp/>ValueError(</highlight><highlight class="stringliteral">&apos;Passed<sp/>uid<sp/>is<sp/>negative<sp/>cannot<sp/>exist<sp/>on<sp/>chain<sp/>{}&apos;</highlight><highlight class="normal">.format(uids))</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>len(uids)<sp/>!=<sp/>len(weights):</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">raise</highlight><highlight class="normal"><sp/>ValueError(</highlight><highlight class="stringliteral">&apos;Passed<sp/>weights<sp/>and<sp/>uids<sp/>must<sp/>have<sp/>the<sp/>same<sp/>length,<sp/>got<sp/>{}<sp/>and<sp/>{}&apos;</highlight><highlight class="normal">.format(len(uids),<sp/>len(weights)))</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>sum(weights)<sp/>==<sp/>0:</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[],[]<sp/></highlight><highlight class="comment">#<sp/>Nothing<sp/>to<sp/>set<sp/>on<sp/>chain.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>weights<sp/>=<sp/>[<sp/>float(value)<sp/>/<sp/>sum(weights)<sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>value<sp/></highlight><highlight class="keywordflow">in</highlight><highlight class="normal"><sp/>weights]<sp/></highlight><highlight class="comment">#<sp/>Initial<sp/>normalization.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="129"><highlight class="normal"></highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/>remainder<sp/>=<sp/>4294967295<sp/></highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/>weight_vals<sp/>=<sp/>[]</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/>weight_uids<sp/>=<sp/>[]</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>i,<sp/>(weight_i,<sp/>uid_i)<sp/></highlight><highlight class="keywordflow">in</highlight><highlight class="normal"><sp/>enumerate(list(zip(weights,<sp/>uids))):</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint32_val<sp/>=<sp/>int(float(weight_i)<sp/>*<sp/>int(4294967295))<sp/></highlight><highlight class="comment">#<sp/>convert<sp/>to<sp/>int<sp/>representation.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>remainder<sp/>-=<sp/>uint32_val</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">#<sp/>Fix<sp/>overflow</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>remainder<sp/>&lt;<sp/>0:</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint32_val<sp/>+=<sp/>remainder</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>remainder<sp/>=<sp/>0</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">#<sp/>Fix<sp/>underflow</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>i<sp/>==<sp/>(len(weights)<sp/>-1)<sp/></highlight><highlight class="keywordflow">and</highlight><highlight class="normal"><sp/>remainder<sp/>&gt;<sp/>0:</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint32_val<sp/>+=<sp/>remainder<sp/></highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>remainder<sp/>=<sp/>0</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"></highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">#<sp/>Filter<sp/>zeros</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>uint32_val<sp/>!=<sp/>0:<sp/></highlight><highlight class="comment">#<sp/>Filter<sp/>zeros</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>weight_vals.append(<sp/>uint32_val<sp/>)</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>weight_uids.append(<sp/>uid_i<sp/>)<sp/></highlight></codeline>
+<codeline lineno="151"><highlight class="normal"></highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>weight_uids,<sp/>weight_vals</highlight></codeline>
+    </programlisting>
+    <location file="/Users/macthrasher/bittensor/bittensor/utils/weight_utils.py"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="namespacebittensor_1_1__axon" kind="namespace" language="Python">
+    <compoundname>bittensor::_axon</compoundname>
+    <innerclass refid="classbittensor_1_1__axon_1_1_auth_interceptor" prot="public">bittensor::_axon::AuthInterceptor</innerclass>
+    <innerclass refid="classbittensor_1_1__axon_1_1axon" prot="public">bittensor::_axon::axon</innerclass>
+    <innernamespace refid="namespacebittensor_1_1__axon_1_1axon__impl">bittensor::_axon::axon_impl</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim> Create and init Axon, whcih services Forward and Backward requests from other neurons.
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/Users/macthrasher/bittensor/bittensor/_axon/__init__.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

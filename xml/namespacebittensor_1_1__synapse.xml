@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="namespacebittensor_1_1__synapse" kind="namespace" language="Python">
+    <compoundname>bittensor::_synapse</compoundname>
+    <innerclass refid="classbittensor_1_1__synapse_1_1synapse" prot="public">bittensor::_synapse::synapse</innerclass>
+    <innernamespace refid="namespacebittensor_1_1__synapse_1_1synapse__impl">bittensor::_synapse::synapse_impl</innernamespace>
+    <innernamespace refid="namespacebittensor_1_1__synapse_1_1text__causallm__impl">bittensor::_synapse::text_causallm_impl</innernamespace>
+    <innernamespace refid="namespacebittensor_1_1__synapse_1_1text__causallmnext__impl">bittensor::_synapse::text_causallmnext_impl</innernamespace>
+    <innernamespace refid="namespacebittensor_1_1__synapse_1_1text__lasthiddenstate__impl">bittensor::_synapse::text_lasthiddenstate_impl</innernamespace>
+    <innernamespace refid="namespacebittensor_1_1__synapse_1_1text__seq2seq__impl">bittensor::_synapse::text_seq2seq_impl</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/macthrasher/bittensor/bittensor/_synapse/__init__.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

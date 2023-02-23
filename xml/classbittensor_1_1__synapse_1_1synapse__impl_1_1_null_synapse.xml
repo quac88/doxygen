@@ -1,0 +1,186 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="classbittensor_1_1__synapse_1_1synapse__impl_1_1_null_synapse" kind="class" language="Python" prot="public">
+    <compoundname>bittensor::_synapse::synapse_impl::NullSynapse</compoundname>
+    <basecompoundref refid="classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse" prot="public" virt="non-virtual">bittensor._synapse.synapse_impl.Synapse</basecompoundref>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classbittensor_1_1__synapse_1_1synapse__impl_1_1_null_synapse_1a92930d18f6f00bc49652265277db30a4" prot="public" static="yes" mutable="no">
+        <type>bittensor</type>
+        <definition>bittensor bittensor._synapse.synapse_impl.NullSynapse::synapse_type</definition>
+        <argsstring></argsstring>
+        <name>synapse_type</name>
+        <qualifiedname>bittensor._synapse.synapse_impl.NullSynapse.synapse_type</qualifiedname>
+        <initializer>=  bittensor.proto.Synapse.SynapseType.NULL_SYNAPSE</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_synapse/synapse_impl.py" line="186" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_synapse/synapse_impl.py" bodystart="186" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classbittensor_1_1__synapse_1_1synapse__impl_1_1_null_synapse_1a72ac0a129e0905e594abc57a0b38828b" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._synapse.synapse_impl.NullSynapse::synapse_type</definition>
+        <argsstring></argsstring>
+        <name>synapse_type</name>
+        <qualifiedname>bittensor._synapse.synapse_impl.NullSynapse.synapse_type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_synapse/synapse_impl.py" line="197" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_synapse/synapse_impl.py" bodystart="197" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classbittensor_1_1__synapse_1_1synapse__impl_1_1_null_synapse_1ae9ca98a9df999970a2ec0df23144c798" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type> &apos;<ref refid="classbittensor_1_1__synapse_1_1synapse__impl_1_1_null_synapse" kindref="compound">NullSynapse</ref>&apos;</type>
+        <definition> &apos;NullSynapse&apos; bittensor._synapse.synapse_impl.NullSynapse.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>bittensor._synapse.synapse_impl.NullSynapse.__init__</qualifiedname>
+        <reimplements refid="classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse_1a43f83b557416a8a3936d5ddc175b5e6f">__init__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Null Synapse initializer. Used when a request contains synapses that has not been initalized
+    Returns:
+        NullSynapse (:obj:`NullSynapse`, `required`):
+            NullSynapse instance adapter class.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_synapse/synapse_impl.py" line="188" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_synapse/synapse_impl.py" bodystart="190" bodyend="198"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__synapse_1_1synapse__impl_1_1_null_synapse_1ad659da7da86f71cb77598e175010a3e2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str bittensor._synapse.synapse_impl.NullSynapse.__repr__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__repr__</name>
+        <qualifiedname>bittensor._synapse.synapse_impl.NullSynapse.__repr__</qualifiedname>
+        <reimplements refid="classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse_1a33b86030b6dc0f28aba3b1c7070de48e">__repr__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_synapse/synapse_impl.py" line="199" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_synapse/synapse_impl.py" bodystart="199" bodyend="199"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__synapse_1_1synapse__impl_1_1_null_synapse_1a56ca7ee1a14fa1eb4a1c47de51a3c951" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str bittensor._synapse.synapse_impl.NullSynapse.__str__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__str__</name>
+        <qualifiedname>bittensor._synapse.synapse_impl.NullSynapse.__str__</qualifiedname>
+        <reimplements refid="classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse_1a49b7378ad62c7b9dd4aae80f81703234">__str__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_synapse/synapse_impl.py" line="200" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_synapse/synapse_impl.py" bodystart="200" bodyend="201"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__synapse_1_1synapse__impl_1_1_null_synapse_1ad1d987d9697a8cf6733262d7d1160348" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bittensor.proto.Synapse</type>
+        <definition> bittensor.proto.Synapse bittensor._synapse.synapse_impl.NullSynapse.serialize_to_wire_proto</definition>
+        <argsstring>(self, &apos;bittensor.proto.ReturnCode&apos; code=0, str message=&apos;&apos;)</argsstring>
+        <name>serialize_to_wire_proto</name>
+        <qualifiedname>bittensor._synapse.synapse_impl.NullSynapse.serialize_to_wire_proto</qualifiedname>
+        <reimplements refid="classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse_1a9fd871f88280feb461379b7d957ef368">serialize_to_wire_proto</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>&apos;bittensor.proto.ReturnCode&apos;</type>
+          <declname>kwargs</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>message</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Serializes the class instance to a Synapse wire proto.
+    Returns:
+        serialized_synapse_as_wire_proto (:obj:`torch.Tensor`, `required`):
+            Instance class serialized to a wire proto.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_synapse/synapse_impl.py" line="202" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_synapse/synapse_impl.py" bodystart="202" bodyend="208"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim> Null Synapse type 
+</verbatim> </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>bittensor._synapse.synapse_impl.NullSynapse</label>
+        <link refid="classbittensor_1_1__synapse_1_1synapse__impl_1_1_null_synapse"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>bittensor._synapse.synapse_impl.Synapse</label>
+        <link refid="classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>bittensor</label>
+      </node>
+      <node id="1">
+        <label>bittensor._synapse.synapse_impl.NullSynapse</label>
+        <link refid="classbittensor_1_1__synapse_1_1synapse__impl_1_1_null_synapse"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>synapse_type</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>bittensor._synapse.synapse_impl.Synapse</label>
+        <link refid="classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>synapse_type</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/macthrasher/bittensor/bittensor/_synapse/synapse_impl.py" line="183" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_synapse/synapse_impl.py" bodystart="183" bodyend="208"/>
+    <listofallmembers>
+      <member refid="classbittensor_1_1__synapse_1_1synapse__impl_1_1_null_synapse_1ae9ca98a9df999970a2ec0df23144c798" prot="public" virt="non-virtual"><scope>bittensor::_synapse::synapse_impl::NullSynapse</scope><name>__init__</name></member>
+      <member refid="classbittensor_1_1__synapse_1_1synapse__impl_1_1_null_synapse_1ad659da7da86f71cb77598e175010a3e2" prot="public" virt="non-virtual"><scope>bittensor::_synapse::synapse_impl::NullSynapse</scope><name>__repr__</name></member>
+      <member refid="classbittensor_1_1__synapse_1_1synapse__impl_1_1_null_synapse_1a56ca7ee1a14fa1eb4a1c47de51a3c951" prot="public" virt="non-virtual"><scope>bittensor::_synapse::synapse_impl::NullSynapse</scope><name>__str__</name></member>
+      <member refid="classbittensor_1_1__synapse_1_1synapse__impl_1_1_null_synapse_1ad1d987d9697a8cf6733262d7d1160348" prot="public" virt="non-virtual"><scope>bittensor::_synapse::synapse_impl::NullSynapse</scope><name>serialize_to_wire_proto</name></member>
+      <member refid="classbittensor_1_1__synapse_1_1synapse__impl_1_1_null_synapse_1a92930d18f6f00bc49652265277db30a4" prot="public" virt="non-virtual"><scope>bittensor::_synapse::synapse_impl::NullSynapse</scope><name>synapse_type</name></member>
+      <member refid="classbittensor_1_1__synapse_1_1synapse__impl_1_1_null_synapse_1a72ac0a129e0905e594abc57a0b38828b" prot="public" virt="non-virtual"><scope>bittensor::_synapse::synapse_impl::NullSynapse</scope><name>synapse_type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

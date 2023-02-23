@@ -25,9 +25,9 @@
 var NAVTREE =
 [
   [ "Bittensor", "index.html", [
-    [ "Namespaces", "namespaces.html", [
-      [ "Namespace List", "namespaces.html", null ],
-      [ "Namespace Members", "namespacemembers.html", [
+    [ "Packages", "namespaces.html", [
+      [ "Package List", "namespaces.html", null ],
+      [ "Package Members", "namespacemembers.html", [
         [ "All", "namespacemembers.html", null ],
         [ "Functions", "namespacemembers_func.html", null ]
       ] ]

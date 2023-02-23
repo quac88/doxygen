@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="dir_b315721b901c5ce27cd8595c97000a26" kind="dir">
+    <compoundname>/Users/macthrasher/bittensor</compoundname>
+    <innerdir refid="dir_f169d542b9721b111e65b1075befb384">/Users/macthrasher/bittensor/bittensor</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/macthrasher/bittensor/"/>
+  </compounddef>
+</doxygen>

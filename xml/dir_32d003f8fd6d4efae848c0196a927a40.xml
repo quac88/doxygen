@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="dir_32d003f8fd6d4efae848c0196a927a40" kind="dir">
+    <compoundname>/Users/macthrasher/bittensor/bittensor/_subtensor</compoundname>
+    <innerfile refid="__subtensor_2____init_____8py">__init__.py</innerfile>
+    <innerfile refid="subtensor__impl_8py">subtensor_impl.py</innerfile>
+    <innerfile refid="subtensor__mock_8py">subtensor_mock.py</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/macthrasher/bittensor/bittensor/_subtensor/"/>
+  </compounddef>
+</doxygen>

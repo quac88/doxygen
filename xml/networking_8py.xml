@@ -1,0 +1,394 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="networking_8py" kind="file" language="Python">
+    <compoundname>networking.py</compoundname>
+    <innerclass refid="classbittensor_1_1utils_1_1networking_1_1_external_i_p_not_found" prot="public">bittensor::utils::networking::ExternalIPNotFound</innerclass>
+    <innerclass refid="classbittensor_1_1utils_1_1networking_1_1_u_p_n_p_c_exception" prot="public">bittensor::utils::networking::UPNPCException</innerclass>
+    <innernamespace refid="namespacebittensor">bittensor</innernamespace>
+    <innernamespace refid="namespacebittensor_1_1utils">bittensor::utils</innernamespace>
+    <innernamespace refid="namespacebittensor_1_1utils_1_1networking">bittensor::utils::networking</innernamespace>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="namespacebittensor_1_1utils_1_1networking_1a3ce52d67459b626e292b0464b687e0db" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str bittensor.utils.networking.int_to_ip</definition>
+        <argsstring>(int int_val)</argsstring>
+        <name>int_to_ip</name>
+        <qualifiedname>bittensor.utils.networking.int_to_ip</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>int_val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Maps an integer to a unique ip-string 
+        Args:
+            int_val  (:type:`int128`, `required`):
+                The integer representation of an ip. Must be in the range (0, 3.4028237e+38).
+
+        Returns:
+            str_val (:tyep:`str`, `required):
+                The string representation of an ip. Of form *.*.*.* for ipv4 or *::*:*:*:* for ipv6
+
+        Raises:
+            netaddr.core.AddrFormatError (Exception):
+                Raised when the passed int_vals is not a valid ip int value.</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/networking.py" line="29" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/networking.py" bodystart="29" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacebittensor_1_1utils_1_1networking_1a3e1260111799024e8a830c0028b37cfe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int bittensor.utils.networking.ip_to_int</definition>
+        <argsstring>(str str_val)</argsstring>
+        <name>ip_to_int</name>
+        <qualifiedname>bittensor.utils.networking.ip_to_int</qualifiedname>
+        <param>
+          <type>str</type>
+          <declname>str_val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Maps an ip-string to a unique integer.
+        arg:
+            str_val (:tyep:`str`, `required):
+                The string representation of an ip. Of form *.*.*.* for ipv4 or *::*:*:*:* for ipv6
+
+        Returns:
+            int_val  (:type:`int128`, `required`):
+                The integer representation of an ip. Must be in the range (0, 3.4028237e+38).
+
+        Raises:
+            netaddr.core.AddrFormatError (Exception):
+                Raised when the passed str_val is not a valid ip string value.</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/networking.py" line="45" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/networking.py" bodystart="45" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacebittensor_1_1utils_1_1networking_1a9f4b2ed13a55ea16b6c2e8dc2c7abda7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int bittensor.utils.networking.ip_version</definition>
+        <argsstring>(str str_val)</argsstring>
+        <name>ip_version</name>
+        <qualifiedname>bittensor.utils.networking.ip_version</qualifiedname>
+        <param>
+          <type>str</type>
+          <declname>str_val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Returns the ip version (IPV4 or IPV6).
+        arg:
+            str_val (:tyep:`str`, `required):
+                The string representation of an ip. Of form *.*.*.* for ipv4 or *::*:*:*:* for ipv6
+
+        Returns:
+            int_val  (:type:`int128`, `required`):
+                The ip version (Either 4 or 6 for IPv4/IPv6)
+
+        Raises:
+            netaddr.core.AddrFormatError (Exception):
+                Raised when the passed str_val is not a valid ip string value.</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/networking.py" line="61" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/networking.py" bodystart="61" bodyend="76"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacebittensor_1_1utils_1_1networking_1a189557a300dcc2a24c43883fd8f76146" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor.utils.networking.ip__str__</definition>
+        <argsstring>(int ip_type, str ip_str, int port)</argsstring>
+        <name>ip__str__</name>
+        <qualifiedname>bittensor.utils.networking.ip__str__</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>ip_type</declname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>ip_str</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>port</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Return a formatted ip string
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/networking.py" line="77" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/networking.py" bodystart="77" bodyend="81"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacebittensor_1_1utils_1_1networking_1a9f1c7ddcdfbc87b5341ad6d791204ac6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str bittensor.utils.networking.get_external_ip</definition>
+        <argsstring>()</argsstring>
+        <name>get_external_ip</name>
+        <qualifiedname>bittensor.utils.networking.get_external_ip</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Checks CURL/URLLIB/IPIFY/AWS for your external ip.
+    Returns:
+        external_ip  (:obj:`str` `required`):
+            Your routers external facing ip as a string.
+
+    Raises:
+        ExternalIPNotFound (Exception):
+            Raised if all external ip attempts fail.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/networking.py" line="85" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/networking.py" bodystart="85" bodyend="149"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacebittensor_1_1utils_1_1networking_1a3ad6dda702f8ae7e306a169de58aee8b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor.utils.networking.upnpc_create_port_map</definition>
+        <argsstring>(int port)</argsstring>
+        <name>upnpc_create_port_map</name>
+        <qualifiedname>bittensor.utils.networking.upnpc_create_port_map</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>port</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Creates a upnpc port map on your router from passed external_port to local port.
+
+    Args: 
+        port (int, `required`):
+            The local machine port to map from your external port.
+
+    Return:
+        external_port (int, `required`):
+            The external port mapped to the local port on your machine.
+
+    Raises:
+        UPNPCException (Exception):
+            Raised if UPNPC port mapping fails, for instance, if upnpc is not enabled on your router.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/networking.py" line="154" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/networking.py" bodystart="154" bodyend="202"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1" refid="namespacebittensor_1_1utils_1_1networking" refkind="compound"><highlight class="stringliteral">&quot;&quot;&quot;<sp/>Utils<sp/>for<sp/>handling<sp/>local<sp/>network<sp/>with<sp/>ip<sp/>and<sp/>ports.<sp/></highlight></codeline>
+<codeline lineno="2"><highlight class="stringliteral">&quot;&quot;&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">#<sp/>The<sp/>MIT<sp/>License<sp/>(MIT)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">#<sp/>Copyright<sp/>©<sp/>2021<sp/>Yuma<sp/>Rao</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">#<sp/>Permission<sp/>is<sp/>hereby<sp/>granted,<sp/>free<sp/>of<sp/>charge,<sp/>to<sp/>any<sp/>person<sp/>obtaining<sp/>a<sp/>copy<sp/>of<sp/>this<sp/>software<sp/>and<sp/>associated<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">#<sp/>documentation<sp/>files<sp/>(the<sp/>“Software”),<sp/>to<sp/>deal<sp/>in<sp/>the<sp/>Software<sp/>without<sp/>restriction,<sp/>including<sp/>without<sp/>limitation<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="comment">#<sp/>the<sp/>rights<sp/>to<sp/>use,<sp/>copy,<sp/>modify,<sp/>merge,<sp/>publish,<sp/>distribute,<sp/>sublicense,<sp/>and/or<sp/>sell<sp/>copies<sp/>of<sp/>the<sp/>Software,<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="comment">#<sp/>and<sp/>to<sp/>permit<sp/>persons<sp/>to<sp/>whom<sp/>the<sp/>Software<sp/>is<sp/>furnished<sp/>to<sp/>do<sp/>so,<sp/>subject<sp/>to<sp/>the<sp/>following<sp/>conditions:</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="comment">#<sp/>The<sp/>above<sp/>copyright<sp/>notice<sp/>and<sp/>this<sp/>permission<sp/>notice<sp/>shall<sp/>be<sp/>included<sp/>in<sp/>all<sp/>copies<sp/>or<sp/>substantial<sp/>portions<sp/>of<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="comment">#<sp/>the<sp/>Software.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="comment">#<sp/>THE<sp/>SOFTWARE<sp/>IS<sp/>PROVIDED<sp/>“AS<sp/>IS”,<sp/>WITHOUT<sp/>WARRANTY<sp/>OF<sp/>ANY<sp/>KIND,<sp/>EXPRESS<sp/>OR<sp/>IMPLIED,<sp/>INCLUDING<sp/>BUT<sp/>NOT<sp/>LIMITED<sp/>TO</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="comment">#<sp/>THE<sp/>WARRANTIES<sp/>OF<sp/>MERCHANTABILITY,<sp/>FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR<sp/>PURPOSE<sp/>AND<sp/>NONINFRINGEMENT.<sp/>IN<sp/>NO<sp/>EVENT<sp/>SHALL<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="comment">#<sp/>THE<sp/>AUTHORS<sp/>OR<sp/>COPYRIGHT<sp/>HOLDERS<sp/>BE<sp/>LIABLE<sp/>FOR<sp/>ANY<sp/>CLAIM,<sp/>DAMAGES<sp/>OR<sp/>OTHER<sp/>LIABILITY,<sp/>WHETHER<sp/>IN<sp/>AN<sp/>ACTION<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="comment">#<sp/>OF<sp/>CONTRACT,<sp/>TORT<sp/>OR<sp/>OTHERWISE,<sp/>ARISING<sp/>FROM,<sp/>OUT<sp/>OF<sp/>OR<sp/>IN<sp/>CONNECTION<sp/>WITH<sp/>THE<sp/>SOFTWARE<sp/>OR<sp/>THE<sp/>USE<sp/>OR<sp/>OTHER<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="comment">#<sp/>DEALINGS<sp/>IN<sp/>THE<sp/>SOFTWARE.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>os</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>urllib</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>miniupnpc</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>netaddr</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>requests</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/>loguru<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>logger</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="namespacebittensor_1_1utils_1_1networking_1a3ce52d67459b626e292b0464b687e0db" kindref="member">int_to_ip</ref>(int_val:<sp/>int)<sp/>-&gt;<sp/>str:</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">r&quot;&quot;&quot;<sp/>Maps<sp/>an<sp/>integer<sp/>to<sp/>a<sp/>unique<sp/>ip-string<sp/></highlight></codeline>
+<codeline lineno="31"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Args:</highlight></codeline>
+<codeline lineno="32"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>int_val<sp/><sp/>(:type:`int128`,<sp/>`required`):</highlight></codeline>
+<codeline lineno="33"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>The<sp/>integer<sp/>representation<sp/>of<sp/>an<sp/>ip.<sp/>Must<sp/>be<sp/></highlight><highlight class="keywordflow">in</highlight><highlight class="normal"><sp/>the<sp/>range<sp/>(0,<sp/>3.4028237e+38).</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Returns:</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>str_val<sp/>(:tyep:`str`,<sp/>`required):</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>The<sp/>string<sp/>representation<sp/>of<sp/>an<sp/>ip.<sp/>Of<sp/>form<sp/>*.*.*.*<sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>ipv4<sp/></highlight><highlight class="keywordflow">or</highlight><highlight class="normal"><sp/>*::*:*:*:*<sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>ipv6</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Raises:</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>netaddr.core.AddrFormatError<sp/>(Exception):</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Raised<sp/>when<sp/>the<sp/>passed<sp/>int_vals<sp/></highlight><highlight class="keywordflow">is</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">not</highlight><highlight class="normal"><sp/>a<sp/>valid<sp/>ip<sp/>int<sp/>value.</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;&quot;&quot;</highlight></codeline>
+<codeline lineno="43"><highlight class="stringliteral"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>str(netaddr.IPAddress(int_val))</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="namespacebittensor_1_1utils_1_1networking_1a3e1260111799024e8a830c0028b37cfe" kindref="member">ip_to_int</ref>(str_val:<sp/>str)<sp/>-&gt;<sp/>int:</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">r&quot;&quot;&quot;<sp/>Maps<sp/>an<sp/>ip-string<sp/>to<sp/>a<sp/>unique<sp/>integer.</highlight></codeline>
+<codeline lineno="47"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>arg:</highlight></codeline>
+<codeline lineno="48"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>str_val<sp/>(:tyep:`str`,<sp/>`required):</highlight></codeline>
+<codeline lineno="49"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>The<sp/>string<sp/>representation<sp/>of<sp/>an<sp/>ip.<sp/>Of<sp/>form<sp/>*.*.*.*<sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>ipv4<sp/></highlight><highlight class="keywordflow">or</highlight><highlight class="normal"><sp/>*::*:*:*:*<sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>ipv6</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Returns:</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>int_val<sp/><sp/>(:type:`int128`,<sp/>`required`):</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>The<sp/>integer<sp/>representation<sp/>of<sp/>an<sp/>ip.<sp/>Must<sp/>be<sp/></highlight><highlight class="keywordflow">in</highlight><highlight class="normal"><sp/>the<sp/>range<sp/>(0,<sp/>3.4028237e+38).</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Raises:</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>netaddr.core.AddrFormatError<sp/>(Exception):</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Raised<sp/>when<sp/>the<sp/>passed<sp/>str_val<sp/></highlight><highlight class="keywordflow">is</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">not</highlight><highlight class="normal"><sp/>a<sp/>valid<sp/>ip<sp/>string<sp/>value.</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;&quot;&quot;</highlight></codeline>
+<codeline lineno="59"><highlight class="stringliteral"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>int(netaddr.IPAddress(str_val))</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="namespacebittensor_1_1utils_1_1networking_1a9f4b2ed13a55ea16b6c2e8dc2c7abda7" kindref="member">ip_version</ref>(str_val:<sp/>str)<sp/>-&gt;<sp/>int:</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">r&quot;&quot;&quot;<sp/>Returns<sp/>the<sp/>ip<sp/>version<sp/>(IPV4<sp/>or<sp/>IPV6).</highlight></codeline>
+<codeline lineno="63"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>arg:</highlight></codeline>
+<codeline lineno="64"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>str_val<sp/>(:tyep:`str`,<sp/>`required):</highlight></codeline>
+<codeline lineno="65"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>The<sp/>string<sp/>representation<sp/>of<sp/>an<sp/>ip.<sp/>Of<sp/>form<sp/>*.*.*.*<sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>ipv4<sp/></highlight><highlight class="keywordflow">or</highlight><highlight class="normal"><sp/>*::*:*:*:*<sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>ipv6</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Returns:</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>int_val<sp/><sp/>(:type:`int128`,<sp/>`required`):</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>The<sp/>ip<sp/>version<sp/>(Either<sp/>4<sp/></highlight><highlight class="keywordflow">or</highlight><highlight class="normal"><sp/>6<sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>IPv4/IPv6)</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Raises:</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>netaddr.core.AddrFormatError<sp/>(Exception):</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Raised<sp/>when<sp/>the<sp/>passed<sp/>str_val<sp/></highlight><highlight class="keywordflow">is</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">not</highlight><highlight class="normal"><sp/>a<sp/>valid<sp/>ip<sp/>string<sp/>value.</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;&quot;&quot;</highlight></codeline>
+<codeline lineno="75"><highlight class="stringliteral"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>int(netaddr.IPAddress(str_val).version)</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="namespacebittensor_1_1utils_1_1networking_1a189557a300dcc2a24c43883fd8f76146" kindref="member">ip__str__</ref>(ip_type:int,<sp/>ip_str:str,<sp/>port:int):</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;&quot;&quot;<sp/>Return<sp/>a<sp/>formatted<sp/>ip<sp/>string</highlight></codeline>
+<codeline lineno="79"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>&quot;&quot;&quot;</highlight></codeline>
+<codeline lineno="80"><highlight class="stringliteral"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;/ipv%i/%s:%i&quot;</highlight><highlight class="normal"><sp/>%<sp/>(ip_type,<sp/>ip_str,<sp/>port)</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight></codeline>
+<codeline lineno="82" refid="classbittensor_1_1utils_1_1networking_1_1_external_i_p_not_found" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classbittensor_1_1utils_1_1networking_1_1_external_i_p_not_found" kindref="compound">ExternalIPNotFound</ref>(Exception):</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;&quot;&quot;<sp/>Raised<sp/>if<sp/>we<sp/>cannot<sp/>attain<sp/>your<sp/>external<sp/>ip<sp/>from<sp/>CURL/URLLIB/IPIFY/AWS<sp/>&quot;&quot;&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="namespacebittensor_1_1utils_1_1networking_1a9f1c7ddcdfbc87b5341ad6d791204ac6" kindref="member">get_external_ip</ref>()<sp/>-&gt;<sp/>str:</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">r&quot;&quot;&quot;<sp/>Checks<sp/>CURL/URLLIB/IPIFY/AWS<sp/>for<sp/>your<sp/>external<sp/>ip.</highlight></codeline>
+<codeline lineno="87"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Returns:</highlight></codeline>
+<codeline lineno="88"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>external_ip<sp/><sp/>(:obj:`str`<sp/>`required`):</highlight></codeline>
+<codeline lineno="89"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Your<sp/>routers<sp/>external<sp/>facing<sp/>ip<sp/></highlight><highlight class="keyword">as</highlight><highlight class="normal"><sp/>a<sp/>string.</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Raises:</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ExternalIPNotFound<sp/>(Exception):</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Raised<sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>all<sp/>external<sp/>ip<sp/>attempts<sp/>fail.</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;&quot;&quot;</highlight></codeline>
+<codeline lineno="95"><highlight class="stringliteral"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">#<sp/>---<sp/>Try<sp/>curl.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">try</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>process<sp/>=<sp/><sp/>os.popen(</highlight><highlight class="stringliteral">&apos;curl<sp/>-s<sp/>ifconfig.me&apos;</highlight><highlight class="normal">,<sp/>close_fds=</highlight><highlight class="keyword">True</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>external_ip<sp/>=<sp/>process.readline()</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>process.close()</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">assert</highlight><highlight class="normal"><sp/>isinstance(<ref refid="namespacebittensor_1_1utils_1_1networking_1a3e1260111799024e8a830c0028b37cfe" kindref="member">ip_to_int</ref>(external_ip),<sp/>int)</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>str(external_ip)</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">except</highlight><highlight class="normal"><sp/>Exception:</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">pass</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">#<sp/>---<sp/>Try<sp/>ipify</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">try</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>external_ip<sp/>=<sp/>requests.get(</highlight><highlight class="stringliteral">&apos;https://api.ipify.org&apos;</highlight><highlight class="normal">).text</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">assert</highlight><highlight class="normal"><sp/>isinstance(<ref refid="namespacebittensor_1_1utils_1_1networking_1a3e1260111799024e8a830c0028b37cfe" kindref="member">ip_to_int</ref>(external_ip),<sp/>int)</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>str(external_ip)</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">except</highlight><highlight class="normal"><sp/>Exception:</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">pass</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="112"><highlight class="normal"></highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">#<sp/>---<sp/>Try<sp/>AWS</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">try</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>external_ip<sp/>=<sp/>requests.get(</highlight><highlight class="stringliteral">&apos;https://checkip.amazonaws.com&apos;</highlight><highlight class="normal">).text.strip()</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">assert</highlight><highlight class="normal"><sp/>isinstance(<ref refid="namespacebittensor_1_1utils_1_1networking_1a3e1260111799024e8a830c0028b37cfe" kindref="member">ip_to_int</ref>(external_ip),<sp/>int)</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>str(external_ip)</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">except</highlight><highlight class="normal"><sp/>Exception:</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">pass</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="120"><highlight class="normal"></highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">#<sp/>---<sp/>Try<sp/>myip.dnsomatic<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">try</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>process<sp/>=<sp/>os.popen(</highlight><highlight class="stringliteral">&apos;curl<sp/>-s<sp/>myip.dnsomatic.com&apos;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>external_ip<sp/><sp/>=<sp/>process.readline()</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>process.close()</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">assert</highlight><highlight class="normal"><sp/>isinstance(<ref refid="namespacebittensor_1_1utils_1_1networking_1a3e1260111799024e8a830c0028b37cfe" kindref="member">ip_to_int</ref>(external_ip),<sp/>int)</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>str(external_ip)</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">except</highlight><highlight class="normal"><sp/>Exception:</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">pass</highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="130"><highlight class="normal"></highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">#<sp/>---<sp/>Try<sp/>urllib<sp/>ipv6<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">try</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>external_ip<sp/>=<sp/>urllib.request.urlopen(</highlight><highlight class="stringliteral">&apos;https://ident.me&apos;</highlight><highlight class="normal">).read().decode(</highlight><highlight class="stringliteral">&apos;utf8&apos;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">assert</highlight><highlight class="normal"><sp/>isinstance(<ref refid="namespacebittensor_1_1utils_1_1networking_1a3e1260111799024e8a830c0028b37cfe" kindref="member">ip_to_int</ref>(external_ip),<sp/>int)</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>str(external_ip)</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">except</highlight><highlight class="normal"><sp/>Exception:</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">pass</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="138"><highlight class="normal"></highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">#<sp/>---<sp/>Try<sp/>Wikipedia<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">try</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>external_ip<sp/>=<sp/>requests.get(</highlight><highlight class="stringliteral">&apos;https://www.wikipedia.org&apos;</highlight><highlight class="normal">).headers[</highlight><highlight class="stringliteral">&apos;X-Client-IP&apos;</highlight><highlight class="normal">]</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">assert</highlight><highlight class="normal"><sp/>isinstance(<ref refid="namespacebittensor_1_1utils_1_1networking_1a3e1260111799024e8a830c0028b37cfe" kindref="member">ip_to_int</ref>(external_ip),<sp/>int)</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>str(external_ip)</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">except</highlight><highlight class="normal"><sp/>Exception:</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">pass</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="146"><highlight class="normal"></highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">raise</highlight><highlight class="normal"><sp/>ExternalIPNotFound</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"></highlight></codeline>
+<codeline lineno="149"><highlight class="normal"></highlight></codeline>
+<codeline lineno="150" refid="classbittensor_1_1utils_1_1networking_1_1_u_p_n_p_c_exception" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classbittensor_1_1utils_1_1networking_1_1_u_p_n_p_c_exception" kindref="compound">UPNPCException</ref>(Exception):</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;&quot;&quot;<sp/>Raised<sp/>when<sp/>trying<sp/>to<sp/>perform<sp/>a<sp/>port<sp/>mapping<sp/>on<sp/>your<sp/>router.<sp/>&quot;&quot;&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="152"><highlight class="normal"></highlight></codeline>
+<codeline lineno="153"><highlight class="normal"></highlight></codeline>
+<codeline lineno="154"><highlight class="normal"></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="namespacebittensor_1_1utils_1_1networking_1a3ad6dda702f8ae7e306a169de58aee8b" kindref="member">upnpc_create_port_map</ref>(port:<sp/>int):</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">r&quot;&quot;&quot;<sp/>Creates<sp/>a<sp/>upnpc<sp/>port<sp/>map<sp/>on<sp/>your<sp/>router<sp/>from<sp/>passed<sp/>external_port<sp/>to<sp/>local<sp/>port.</highlight></codeline>
+<codeline lineno="156"><highlight class="stringliteral"></highlight></codeline>
+<codeline lineno="157"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Args:<sp/></highlight></codeline>
+<codeline lineno="158"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>port<sp/>(int,<sp/>`required`):</highlight></codeline>
+<codeline lineno="159"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>The<sp/>local<sp/>machine<sp/>port<sp/>to<sp/>map<sp/></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/>your<sp/>external<sp/>port.</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"></highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Return:</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>external_port<sp/>(int,<sp/>`required`):</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>The<sp/>external<sp/>port<sp/>mapped<sp/>to<sp/>the<sp/>local<sp/>port<sp/>on<sp/>your<sp/>machine.</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"></highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Raises:</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>UPNPCException<sp/>(Exception):</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Raised<sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>UPNPC<sp/>port<sp/>mapping<sp/>fails,<sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>instance,<sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>upnpc<sp/></highlight><highlight class="keywordflow">is</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">not</highlight><highlight class="normal"><sp/>enabled<sp/>on<sp/>your<sp/>router.</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;&quot;&quot;</highlight></codeline>
+<codeline lineno="169"><highlight class="stringliteral"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">try</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>upnp<sp/>=<sp/>miniupnpc.UPnP()</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>upnp.discoverdelay<sp/>=<sp/>200</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>logger.debug(</highlight><highlight class="stringliteral">&apos;UPNPC:<sp/>Using<sp/>UPnP<sp/>to<sp/>open<sp/>a<sp/>port<sp/>on<sp/>your<sp/>router<sp/>...&apos;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>logger.debug(</highlight><highlight class="stringliteral">&apos;UPNPC:<sp/>Discovering...<sp/>delay={}ms&apos;</highlight><highlight class="normal">,<sp/>upnp.discoverdelay)</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ndevices<sp/>=<sp/>upnp.discover()</highlight></codeline>
+<codeline lineno="175"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>upnp.selectigd()</highlight></codeline>
+<codeline lineno="176"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>logger.debug(</highlight><highlight class="stringliteral">&apos;UPNPC:<sp/>&apos;</highlight><highlight class="normal"><sp/>+<sp/>str(ndevices)<sp/>+<sp/></highlight><highlight class="stringliteral">&apos;<sp/>device(s)<sp/>detected&apos;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"></highlight></codeline>
+<codeline lineno="178"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ip<sp/>=<sp/>upnp.lanaddr</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>external_ip<sp/>=<sp/>upnp.externalipaddress()</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"></highlight></codeline>
+<codeline lineno="181"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>logger.debug(</highlight><highlight class="stringliteral">&apos;UPNPC:<sp/>your<sp/>local<sp/>ip<sp/>address:<sp/>&apos;</highlight><highlight class="normal"><sp/>+<sp/>str(ip))</highlight></codeline>
+<codeline lineno="182"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>logger.debug(</highlight><highlight class="stringliteral">&apos;UPNPC:<sp/>your<sp/>external<sp/>ip<sp/>address:<sp/>&apos;</highlight><highlight class="normal"><sp/>+<sp/>str(external_ip))</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>logger.debug(</highlight><highlight class="stringliteral">&apos;UPNPC:<sp/>status<sp/>=<sp/>&apos;</highlight><highlight class="normal"><sp/>+<sp/>str(upnp.statusinfo())<sp/>+<sp/></highlight><highlight class="stringliteral">&quot;<sp/>connection<sp/>type<sp/>=<sp/>&quot;</highlight><highlight class="normal"><sp/>+<sp/>str(upnp.connectiontype()))</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"></highlight></codeline>
+<codeline lineno="185"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">#<sp/>find<sp/>a<sp/>free<sp/>port<sp/>for<sp/>the<sp/>redirection</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="186"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>external_port<sp/>=<sp/>port</highlight></codeline>
+<codeline lineno="187"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>rc<sp/>=<sp/>upnp.getspecificportmapping(external_port,<sp/></highlight><highlight class="stringliteral">&apos;TCP&apos;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="188"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal"><sp/>rc<sp/>!=<sp/></highlight><highlight class="keywordtype">None</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">and</highlight><highlight class="normal"><sp/>external_port<sp/>&lt;<sp/>65536:</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>external_port<sp/>+=<sp/>1</highlight></codeline>
+<codeline lineno="190"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>rc<sp/>=<sp/>upnp.getspecificportmapping(external_port,<sp/></highlight><highlight class="stringliteral">&apos;TCP&apos;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="191"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>rc<sp/>!=<sp/></highlight><highlight class="keywordtype">None</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="192"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">raise</highlight><highlight class="normal"><sp/>UPNPCException(</highlight><highlight class="stringliteral">&quot;UPNPC:<sp/>No<sp/>available<sp/>external<sp/>ports<sp/>for<sp/>port<sp/>mapping.&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="193"><highlight class="normal"></highlight></codeline>
+<codeline lineno="194"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>logger.info(</highlight><highlight class="stringliteral">&apos;UPNPC:<sp/>trying<sp/>to<sp/>redirect<sp/>remote:<sp/>{}:{}<sp/>=&gt;<sp/>local:<sp/>{}:{}<sp/>over<sp/>TCP&apos;</highlight><highlight class="normal">,<sp/>external_ip,<sp/>external_port,<sp/>ip,<sp/>port)</highlight></codeline>
+<codeline lineno="195"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>upnp.addportmapping(external_port,<sp/></highlight><highlight class="stringliteral">&apos;TCP&apos;</highlight><highlight class="normal">,<sp/>ip,<sp/>port,<sp/></highlight><highlight class="stringliteral">&apos;Bittensor:<sp/>%u&apos;</highlight><highlight class="normal"><sp/>%<sp/>external_port,<sp/></highlight><highlight class="stringliteral">&apos;&apos;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>logger.info(</highlight><highlight class="stringliteral">&apos;UPNPC:<sp/>Create<sp/>Success&apos;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="197"><highlight class="normal"></highlight></codeline>
+<codeline lineno="198"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>external_port</highlight></codeline>
+<codeline lineno="199"><highlight class="normal"></highlight></codeline>
+<codeline lineno="200"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">except</highlight><highlight class="normal"><sp/>Exception<sp/></highlight><highlight class="keyword">as</highlight><highlight class="normal"><sp/>e:</highlight></codeline>
+<codeline lineno="201"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">raise</highlight><highlight class="normal"><sp/>UPNPCException(e)<sp/></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/>e</highlight></codeline>
+    </programlisting>
+    <location file="/Users/macthrasher/bittensor/bittensor/utils/networking.py"/>
+  </compounddef>
+</doxygen>

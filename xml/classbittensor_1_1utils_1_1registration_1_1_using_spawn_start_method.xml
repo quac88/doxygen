@@ -1,0 +1,113 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="classbittensor_1_1utils_1_1registration_1_1_using_spawn_start_method" kind="class" language="Python" prot="public">
+    <compoundname>bittensor::utils::registration::UsingSpawnStartMethod</compoundname>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classbittensor_1_1utils_1_1registration_1_1_using_spawn_start_method_1a81d5b453cb08b3e03b248138084e8bbf" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor.utils.registration.UsingSpawnStartMethod::_old_start_method</definition>
+        <argsstring></argsstring>
+        <name>_old_start_method</name>
+        <qualifiedname>bittensor.utils.registration.UsingSpawnStartMethod._old_start_method</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/registration.py" line="560" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/registration.py" bodystart="560" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1utils_1_1registration_1_1_using_spawn_start_method_1abd0d355ade3d143b65aec45c63d01b5a" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor.utils.registration.UsingSpawnStartMethod::_force</definition>
+        <argsstring></argsstring>
+        <name>_force</name>
+        <qualifiedname>bittensor.utils.registration.UsingSpawnStartMethod._force</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/registration.py" line="561" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/registration.py" bodystart="561" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classbittensor_1_1utils_1_1registration_1_1_using_spawn_start_method_1ac62c2ef9c08b6e6422c449241a9d1353" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor.utils.registration.UsingSpawnStartMethod.__init__</definition>
+        <argsstring>(self, bool force=False)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>bittensor.utils.registration.UsingSpawnStartMethod.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>force</declname>
+          <defval>False</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/registration.py" line="559" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/registration.py" bodystart="559" bodyend="562"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1utils_1_1registration_1_1_using_spawn_start_method_1a101d6f5b8483bc8b30b8e6f26ee41e1a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor.utils.registration.UsingSpawnStartMethod.__enter__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__enter__</name>
+        <qualifiedname>bittensor.utils.registration.UsingSpawnStartMethod.__enter__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/registration.py" line="563" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/registration.py" bodystart="563" bodyend="569"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1utils_1_1registration_1_1_using_spawn_start_method_1a28fd2df90eb9be5bfc6765929a8d9b07" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor.utils.registration.UsingSpawnStartMethod.__exit__</definition>
+        <argsstring>(self, *args)</argsstring>
+        <name>__exit__</name>
+        <qualifiedname>bittensor.utils.registration.UsingSpawnStartMethod.__exit__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/registration.py" line="570" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/registration.py" bodystart="570" bodyend="574"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/macthrasher/bittensor/bittensor/utils/registration.py" line="558" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/registration.py" bodystart="558" bodyend="574"/>
+    <listofallmembers>
+      <member refid="classbittensor_1_1utils_1_1registration_1_1_using_spawn_start_method_1a101d6f5b8483bc8b30b8e6f26ee41e1a" prot="public" virt="non-virtual"><scope>bittensor::utils::registration::UsingSpawnStartMethod</scope><name>__enter__</name></member>
+      <member refid="classbittensor_1_1utils_1_1registration_1_1_using_spawn_start_method_1a28fd2df90eb9be5bfc6765929a8d9b07" prot="public" virt="non-virtual"><scope>bittensor::utils::registration::UsingSpawnStartMethod</scope><name>__exit__</name></member>
+      <member refid="classbittensor_1_1utils_1_1registration_1_1_using_spawn_start_method_1ac62c2ef9c08b6e6422c449241a9d1353" prot="public" virt="non-virtual"><scope>bittensor::utils::registration::UsingSpawnStartMethod</scope><name>__init__</name></member>
+      <member refid="classbittensor_1_1utils_1_1registration_1_1_using_spawn_start_method_1abd0d355ade3d143b65aec45c63d01b5a" prot="protected" virt="non-virtual"><scope>bittensor::utils::registration::UsingSpawnStartMethod</scope><name>_force</name></member>
+      <member refid="classbittensor_1_1utils_1_1registration_1_1_using_spawn_start_method_1a81d5b453cb08b3e03b248138084e8bbf" prot="protected" virt="non-virtual"><scope>bittensor::utils::registration::UsingSpawnStartMethod</scope><name>_old_start_method</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

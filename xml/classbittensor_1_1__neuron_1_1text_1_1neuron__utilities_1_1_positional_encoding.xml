@@ -1,0 +1,114 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="classbittensor_1_1__neuron_1_1text_1_1neuron__utilities_1_1_positional_encoding" kind="class" language="Python" prot="public">
+    <compoundname>bittensor::_neuron::text::neuron_utilities::PositionalEncoding</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">nn.Module</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classbittensor_1_1__neuron_1_1text_1_1neuron__utilities_1_1_positional_encoding_1afacd520accf25ed2784b2280ba616a56" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._neuron.text.neuron_utilities.PositionalEncoding::dropout</definition>
+        <argsstring></argsstring>
+        <name>dropout</name>
+        <qualifiedname>bittensor._neuron.text.neuron_utilities.PositionalEncoding.dropout</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_neuron/text/neuron_utilities.py" line="245" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_neuron/text/neuron_utilities.py" bodystart="245" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classbittensor_1_1__neuron_1_1text_1_1neuron__utilities_1_1_positional_encoding_1aca448ce80d9865d403f1ad3905c5d346" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._neuron.text.neuron_utilities.PositionalEncoding.__init__</definition>
+        <argsstring>(self, int d_model, float dropout, int max_len=5000)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>bittensor._neuron.text.neuron_utilities.PositionalEncoding.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>d_model</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>dropout</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>max_len</declname>
+          <defval>5000</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_neuron/text/neuron_utilities.py" line="243" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_neuron/text/neuron_utilities.py" bodystart="243" bodyend="258"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__neuron_1_1text_1_1neuron__utilities_1_1_positional_encoding_1a16c93217e92b3dab4da67e9c778ab118" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>torch.tensor</type>
+        <definition> torch.tensor bittensor._neuron.text.neuron_utilities.PositionalEncoding.forward</definition>
+        <argsstring>(self, torch.tensor x)</argsstring>
+        <name>forward</name>
+        <qualifiedname>bittensor._neuron.text.neuron_utilities.PositionalEncoding.forward</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>torch.tensor</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Args:
+    x: Tensor, shape [batch_size, seq_len, embedding_dim]
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_neuron/text/neuron_utilities.py" line="259" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_neuron/text/neuron_utilities.py" bodystart="259" bodyend="271"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim> Positional Encoder which adds information based on the relative position of each token</verbatim> </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>bittensor._neuron.text.neuron_utilities.PositionalEncoding</label>
+        <link refid="classbittensor_1_1__neuron_1_1text_1_1neuron__utilities_1_1_positional_encoding"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>nn::Module</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>bittensor._neuron.text.neuron_utilities.PositionalEncoding</label>
+        <link refid="classbittensor_1_1__neuron_1_1text_1_1neuron__utilities_1_1_positional_encoding"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>nn::Module</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/macthrasher/bittensor/bittensor/_neuron/text/neuron_utilities.py" line="238" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_neuron/text/neuron_utilities.py" bodystart="238" bodyend="271"/>
+    <listofallmembers>
+      <member refid="classbittensor_1_1__neuron_1_1text_1_1neuron__utilities_1_1_positional_encoding_1aca448ce80d9865d403f1ad3905c5d346" prot="public" virt="non-virtual"><scope>bittensor::_neuron::text::neuron_utilities::PositionalEncoding</scope><name>__init__</name></member>
+      <member refid="classbittensor_1_1__neuron_1_1text_1_1neuron__utilities_1_1_positional_encoding_1afacd520accf25ed2784b2280ba616a56" prot="public" virt="non-virtual"><scope>bittensor::_neuron::text::neuron_utilities::PositionalEncoding</scope><name>dropout</name></member>
+      <member refid="classbittensor_1_1__neuron_1_1text_1_1neuron__utilities_1_1_positional_encoding_1a16c93217e92b3dab4da67e9c778ab118" prot="public" virt="non-virtual"><scope>bittensor::_neuron::text::neuron_utilities::PositionalEncoding</scope><name>forward</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,178 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="namespacebittensor_1_1utils_1_1weight__utils" kind="namespace" language="Python">
+    <compoundname>bittensor::utils::weight_utils</compoundname>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="namespacebittensor_1_1utils_1_1weight__utils_1a26180f80934e02cda38d1c1c7de555eb" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int bittensor::utils::weight_utils.U32_MAX</definition>
+        <argsstring></argsstring>
+        <name>U32_MAX</name>
+        <qualifiedname>bittensor.utils.weight_utils.U32_MAX</qualifiedname>
+        <initializer>=  4294967295</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/weight_utils.py" line="23" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/weight_utils.py" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="namespacebittensor_1_1utils_1_1weight__utils_1abeb28e8f4b90d1c39102f9db8f75a86b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type> &apos;torch.FloatTensor&apos;</type>
+        <definition> &apos;torch.FloatTensor&apos; bittensor.utils.weight_utils.normalize_max_weight</definition>
+        <argsstring>(torch.FloatTensor x, float limit=0.1)</argsstring>
+        <name>normalize_max_weight</name>
+        <qualifiedname>bittensor.utils.weight_utils.normalize_max_weight</qualifiedname>
+        <param>
+          <type>torch.FloatTensor</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>limit</declname>
+          <defval>0.1</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Normalizes the tensor x so that sum(x) = 1 and the max value is not greater than the limit.
+        Args:
+            x (:obj:`torch.FloatTensor`):
+                Tensor to be max_value normalized.
+            limit: float:
+                Max value after normalization.     
+        Returns:
+            y (:obj:`torch.FloatTensor`):
+                Normalized x tensor.</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/weight_utils.py" line="25" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/weight_utils.py" bodystart="25" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacebittensor_1_1utils_1_1weight__utils_1a76c6807e7b871a4b945f78ec6cebb33f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type> &apos;torch.FloatTensor&apos;</type>
+        <definition> &apos;torch.FloatTensor&apos; bittensor.utils.weight_utils.convert_weight_uids_and_vals_to_tensor</definition>
+        <argsstring>(int n, List[int] uids, List[int] weights)</argsstring>
+        <name>convert_weight_uids_and_vals_to_tensor</name>
+        <qualifiedname>bittensor.utils.weight_utils.convert_weight_uids_and_vals_to_tensor</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>n</declname>
+        </param>
+        <param>
+          <type>List</type>
+          <declname>uids</declname>
+          <array>[int]</array>
+        </param>
+        <param>
+          <type>List</type>
+          <declname>weights</declname>
+          <array>[int]</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Converts weights and uids from chain representation into a torch tensor (inverse operation from convert_weights_and_uids_for_emit)
+Args:
+    n: int:
+        number of neurons on network.
+    uids (:obj:`List[int],`):
+        Tensor of uids as destinations for passed weights.
+    weights (:obj:`List[int],`):
+        Tensor of weights.
+Returns:
+    row_weights ( torch.FloatTensor ):
+        Converted row weights.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/weight_utils.py" line="67" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/weight_utils.py" bodystart="67" bodyend="84"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacebittensor_1_1utils_1_1weight__utils_1ab7a5ca8f3a6455fd0a4d3b56fcaf7e90" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type> &apos;torch.LongTensor&apos;</type>
+        <definition> &apos;torch.LongTensor&apos; bittensor.utils.weight_utils.convert_bond_uids_and_vals_to_tensor</definition>
+        <argsstring>(int n, List[int] uids, List[int] bonds)</argsstring>
+        <name>convert_bond_uids_and_vals_to_tensor</name>
+        <qualifiedname>bittensor.utils.weight_utils.convert_bond_uids_and_vals_to_tensor</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>n</declname>
+        </param>
+        <param>
+          <type>List</type>
+          <declname>uids</declname>
+          <array>[int]</array>
+        </param>
+        <param>
+          <type>List</type>
+          <declname>bonds</declname>
+          <array>[int]</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Converts bond and uids from chain representation into a torch tensor.
+Args:
+    n: int:
+        number of neurons on network.
+    uids (:obj:`List[int],`):
+        Tensor of uids as destinations for passed bonds.
+    bonds (:obj:`List[int],`):
+        Tensor of bonds.
+Returns:
+    row_bonds ( torch.FloatTensor ):
+        Converted row bonds.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/weight_utils.py" line="85" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/weight_utils.py" bodystart="85" bodyend="102"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacebittensor_1_1utils_1_1weight__utils_1ad6077babaaee521df6810744f68d9874" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Tuple[List[int], List[int]]</type>
+        <definition> Tuple[List[int], List[int]] bittensor.utils.weight_utils.convert_weights_and_uids_for_emit</definition>
+        <argsstring>(torch.LongTensor uids, torch.FloatTensor weights)</argsstring>
+        <name>convert_weights_and_uids_for_emit</name>
+        <qualifiedname>bittensor.utils.weight_utils.convert_weights_and_uids_for_emit</qualifiedname>
+        <param>
+          <type>torch.LongTensor</type>
+          <declname>uids</declname>
+        </param>
+        <param>
+          <type>torch.FloatTensor</type>
+          <declname>weights</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Converts weights into integer u32 representation that sum to MAX_INT_WEIGHT.
+Args:
+    uids (:obj:`torch.LongTensor,`):
+        Tensor of uids as destinations for passed weights.
+    weights (:obj:`torch.FloatTensor,`):
+        Tensor of weights.
+Returns:
+    weight_uids (List[int]):
+        Uids as a list.
+    weight_vals (List[int]):
+        Weights as a list.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/weight_utils.py" line="103" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/weight_utils.py" bodystart="103" bodyend="153"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim> Conversion for weight between chain representation and torch tensor
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/Users/macthrasher/bittensor/bittensor/utils/weight_utils.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

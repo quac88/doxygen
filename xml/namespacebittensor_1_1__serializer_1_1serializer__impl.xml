@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="namespacebittensor_1_1__serializer_1_1serializer__impl" kind="namespace" language="Python">
+    <compoundname>bittensor::_serializer::serializer_impl</compoundname>
+    <innerclass refid="classbittensor_1_1__serializer_1_1serializer__impl_1_1_c_m_p_pack_serializer" prot="public">bittensor::_serializer::serializer_impl::CMPPackSerializer</innerclass>
+    <innerclass refid="classbittensor_1_1__serializer_1_1serializer__impl_1_1_m_s_g_pack_serializer" prot="public">bittensor::_serializer::serializer_impl::MSGPackSerializer</innerclass>
+    <innerclass refid="classbittensor_1_1__serializer_1_1serializer__impl_1_1_serializer" prot="public">bittensor::_serializer::serializer_impl::Serializer</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim> An interface for serializing and deserializing bittensor tensors</verbatim> </para>
+    </detaileddescription>
+    <location file="/Users/macthrasher/bittensor/bittensor/_serializer/serializer_impl.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

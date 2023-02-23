@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="classbittensor_1_1__threadpool_1_1priority__thread__pool__impl_1_1_broken_thread_pool" kind="class" language="Python" prot="public">
+    <compoundname>bittensor::_threadpool::priority_thread_pool_impl::BrokenThreadPool</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">_base.BrokenExecutor</basecompoundref>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Raised when a worker thread in a ThreadPoolExecutor failed initializing.
+</verbatim> </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>_base::BrokenExecutor</label>
+      </node>
+      <node id="1">
+        <label>bittensor._threadpool.priority_thread_pool_impl.BrokenThreadPool</label>
+        <link refid="classbittensor_1_1__threadpool_1_1priority__thread__pool__impl_1_1_broken_thread_pool"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>_base::BrokenExecutor</label>
+      </node>
+      <node id="1">
+        <label>bittensor._threadpool.priority_thread_pool_impl.BrokenThreadPool</label>
+        <link refid="classbittensor_1_1__threadpool_1_1priority__thread__pool__impl_1_1_broken_thread_pool"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/macthrasher/bittensor/bittensor/_threadpool/priority_thread_pool_impl.py" line="107" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_threadpool/priority_thread_pool_impl.py" bodystart="107" bodyend="112"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

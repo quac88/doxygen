@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="namespacebittensor_1_1__neuron" kind="namespace" language="Python">
+    <compoundname>bittensor::_neuron</compoundname>
+    <innernamespace refid="namespacebittensor_1_1__neuron_1_1audio">bittensor::_neuron::audio</innernamespace>
+    <innernamespace refid="namespacebittensor_1_1__neuron_1_1text">bittensor::_neuron::text</innernamespace>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="__neuron_2____init_____8py_1a11569928c1455cec9e75689dd75b1297" prot="private" static="no" mutable="no">
+        <type>str</type>
+        <definition>str bittensor::_neuron.__version__</definition>
+        <argsstring></argsstring>
+        <name>__version__</name>
+        <qualifiedname>bittensor._neuron.__version__</qualifiedname>
+        <initializer>=  &apos;0.0.0&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_neuron/__init__.py" line="19" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_neuron/__init__.py" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="__neuron_2____init_____8py_1a1aca1588f94100eb9116f62e56247a7b" prot="public" static="no" mutable="no">
+        <type>str</type>
+        <definition>str bittensor::_neuron.version_split</definition>
+        <argsstring></argsstring>
+        <name>version_split</name>
+        <qualifiedname>bittensor._neuron.version_split</qualifiedname>
+        <initializer>=  __version__.split(&quot;.&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_neuron/__init__.py" line="20" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_neuron/__init__.py" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="__neuron_2____init_____8py_1a88919e7d2c7206e97a84996613e44e35" prot="private" static="no" mutable="no">
+        <type>tuple</type>
+        <definition>tuple bittensor::_neuron.__version_as_int__</definition>
+        <argsstring></argsstring>
+        <name>__version_as_int__</name>
+        <qualifiedname>bittensor._neuron.__version_as_int__</qualifiedname>
+        <initializer>=  (100 * int(version_split[0])) + (10 * int(version_split[1])) + (1 * int(version_split[2]))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_neuron/__init__.py" line="21" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_neuron/__init__.py" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="__neuron_2____init_____8py_1ab4ceed9f4a1eb230c96fea20564e6e15" prot="private" static="no" mutable="no">
+        <type>dict</type>
+        <definition>dict bittensor::_neuron.__all_neurons__</definition>
+        <argsstring></argsstring>
+        <name>__all_neurons__</name>
+        <qualifiedname>bittensor._neuron.__all_neurons__</qualifiedname>
+        <initializer>=   {  
+                     &apos;text_core_validator&apos;: core_validator.neuron,
+                     &apos;core_server&apos;: core_server.neuron}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_neuron/__init__.py" line="24" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_neuron/__init__.py" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="__neuron_2____init_____8py_1af8706e977d0185e410834cfb0c181883" prot="private" static="no" mutable="no">
+        <type>dict</type>
+        <definition>dict bittensor::_neuron.__text_neurons__</definition>
+        <argsstring></argsstring>
+        <name>__text_neurons__</name>
+        <qualifiedname>bittensor._neuron.__text_neurons__</qualifiedname>
+        <initializer>=   { 
+                     &apos;core_validator&apos;: core_validator.neuron,
+                     &apos;core_server&apos;: core_server.neuron
+                     }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_neuron/__init__.py" line="28" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_neuron/__init__.py" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/macthrasher/bittensor/bittensor/_neuron/__init__.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

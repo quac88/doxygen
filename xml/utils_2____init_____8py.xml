@@ -1,0 +1,416 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="utils_2____init_____8py" kind="file" language="Python">
+    <compoundname>__init__.py</compoundname>
+    <innernamespace refid="namespacebittensor">bittensor</innernamespace>
+    <innernamespace refid="namespacebittensor_1_1utils">bittensor::utils</innernamespace>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="utils_2____init_____8py_1ae020c1b849a7b801b2c98257d18f487d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type> &apos;pandas.DataFrame&apos;</type>
+        <definition> &apos;pandas.DataFrame&apos; bittensor.utils.indexed_values_to_dataframe</definition>
+        <argsstring>(Union[str, int] prefix, Union[list, torch.LongTensor] index, Union[list, torch.Tensor] values, bool filter_zeros=False)</argsstring>
+        <name>indexed_values_to_dataframe</name>
+        <qualifiedname>bittensor.utils.indexed_values_to_dataframe</qualifiedname>
+        <param>
+          <type>Union</type>
+          <declname>prefix</declname>
+          <array>[str, int]</array>
+        </param>
+        <param>
+          <type>Union</type>
+          <declname>index</declname>
+          <array>[list, torch.LongTensor]</array>
+        </param>
+        <param>
+          <type>Union</type>
+          <declname>values</declname>
+          <array>[list, torch.Tensor]</array>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>filter_zeros</declname>
+          <defval>False</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/__init__.py" line="13" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/__init__.py" bodystart="18" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="utils_2____init_____8py_1a8d034b6de37fe5f6e008a33eccca19ac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor.utils.unbiased_topk</definition>
+        <argsstring>(values, k, dim=0, sorted=True, largest=True)</argsstring>
+        <name>unbiased_topk</name>
+        <qualifiedname>bittensor.utils.unbiased_topk</qualifiedname>
+        <param>
+          <type>values</type>
+          <defname>values</defname>
+        </param>
+        <param>
+          <type>k</type>
+          <defname>k</defname>
+        </param>
+        <param>
+          <type>dim</type>
+          <defname>dim</defname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>sorted</type>
+          <defname>sorted</defname>
+          <defval>True</defval>
+        </param>
+        <param>
+          <type>largest</type>
+          <defname>largest</defname>
+          <defval>True</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Selects topk as in torch.topk but does not bias lower indices when values are equal.
+    Args:
+        values: (torch.Tensor)
+            Values to index into.
+        k: (int):
+            Number to take.
+        
+    Return:
+        topk: (torch.Tensor):
+            topk k values.
+        indices: (torch.LongTensor)
+            indices of the topk values.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/__init__.py" line="42" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/__init__.py" bodystart="42" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="function" id="utils_2____init_____8py_1ae91d503bc0725dc1ce90ccc1fabb93a1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor.utils.version_checking</definition>
+        <argsstring>()</argsstring>
+        <name>version_checking</name>
+        <qualifiedname>bittensor.utils.version_checking</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/__init__.py" line="62" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/__init__.py" bodystart="62" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="function" id="utils_2____init_____8py_1a7a83f768b14e07240bc063fb0da141b3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool bittensor.utils.is_valid_ss58_address</definition>
+        <argsstring>(str address)</argsstring>
+        <name>is_valid_ss58_address</name>
+        <qualifiedname>bittensor.utils.is_valid_ss58_address</qualifiedname>
+        <param>
+          <type>str</type>
+          <declname>address</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Checks if the given address is a valid ss58 address.
+
+Args:
+    address(str): The address to check.
+
+Returns:
+    True if the address is a valid ss58 address for Bittensor, False otherwise.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/__init__.py" line="71" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/__init__.py" bodystart="71" bodyend="85"/>
+      </memberdef>
+      <memberdef kind="function" id="utils_2____init_____8py_1a0c46167dbf94117a378a876dcd5ee791" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool bittensor.utils.is_valid_ed25519_pubkey</definition>
+        <argsstring>(Union[str, bytes] public_key)</argsstring>
+        <name>is_valid_ed25519_pubkey</name>
+        <qualifiedname>bittensor.utils.is_valid_ed25519_pubkey</qualifiedname>
+        <param>
+          <type>Union</type>
+          <declname>public_key</declname>
+          <array>[str, bytes]</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Checks if the given public_key is a valid ed25519 key.
+
+Args:
+    public_key(Union[str, bytes]): The public_key to check.
+
+Returns:    
+    True if the public_key is a valid ed25519 key, False otherwise.</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/__init__.py" line="86" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/__init__.py" bodystart="86" bodyend="117"/>
+      </memberdef>
+      <memberdef kind="function" id="utils_2____init_____8py_1ae0c34d76649b64c0a5578d01a27e92a5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool bittensor.utils.is_valid_bittensor_address_or_public_key</definition>
+        <argsstring>(Union[str, bytes] address)</argsstring>
+        <name>is_valid_bittensor_address_or_public_key</name>
+        <qualifiedname>bittensor.utils.is_valid_bittensor_address_or_public_key</qualifiedname>
+        <param>
+          <type>Union</type>
+          <declname>address</declname>
+          <array>[str, bytes]</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Checks if the given address is a valid destination address.
+
+Args:
+    address(Union[str, bytes]): The address to check.
+
+Returns:
+    True if the address is a valid destination address, False otherwise.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/__init__.py" line="118" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/__init__.py" bodystart="118" bodyend="141"/>
+      </memberdef>
+      <memberdef kind="function" id="utils_2____init_____8py_1a396a689c13a7ff5ea6b0ddbae5e98103" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Callable[[str], bool]</type>
+        <definition> Callable[[str], bool] bittensor.utils.strtobool_with_default</definition>
+        <argsstring>(bool default)</argsstring>
+        <name>strtobool_with_default</name>
+        <qualifiedname>bittensor.utils.strtobool_with_default</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>default</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Creates a strtobool function with a default value.
+
+Args:
+    default(bool): The default value to return if the string is empty.
+
+Returns:
+    The strtobool function with the default value.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/__init__.py" line="142" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/__init__.py" bodystart="142" bodyend="154"/>
+      </memberdef>
+      <memberdef kind="function" id="utils_2____init_____8py_1a6c59976283b7fb98e252598354835be8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool bittensor.utils.strtobool</definition>
+        <argsstring>(str val)</argsstring>
+        <name>strtobool</name>
+        <qualifiedname>bittensor.utils.strtobool</qualifiedname>
+        <param>
+          <type>str</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Converts a string to a boolean value.
+
+truth-y values are &apos;y&apos;, &apos;yes&apos;, &apos;t&apos;, &apos;true&apos;, &apos;on&apos;, and &apos;1&apos;;
+false-y values are &apos;n&apos;, &apos;no&apos;, &apos;f&apos;, &apos;false&apos;, &apos;off&apos;, and &apos;0&apos;.
+
+Raises ValueError if &apos;val&apos; is anything else.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/__init__.py" line="155" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/__init__.py" bodystart="155" bodyend="172"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">import</highlight><highlight class="normal"><sp/>numbers</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/>typing<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>Callable,<sp/>Union</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>bittensor</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>pandas</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>requests</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>torch</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/>substrateinterface<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>Keypair</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/>substrateinterface.utils<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>ss58</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/>.registration<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>*</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal">indexed_values_to_dataframe<sp/>(<sp/></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>prefix:<sp/>Union[str,<sp/>int],</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>index:<sp/>Union[list,<sp/>torch.LongTensor],<sp/></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>values:<sp/>Union[list,<sp/>torch.Tensor],</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>filter_zeros:<sp/>bool<sp/>=<sp/></highlight><highlight class="keyword">False</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/>)<sp/>-&gt;<sp/></highlight><highlight class="stringliteral">&apos;pandas.DataFrame&apos;</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">#<sp/>Type<sp/>checking.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">not</highlight><highlight class="normal"><sp/>isinstance(prefix,<sp/>str)<sp/></highlight><highlight class="keywordflow">and</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">not</highlight><highlight class="normal"><sp/>isinstance(prefix,<sp/>numbers.Number):</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">raise</highlight><highlight class="normal"><sp/>ValueError(</highlight><highlight class="stringliteral">&apos;Passed<sp/>prefix<sp/>must<sp/>have<sp/>type<sp/>str<sp/>or<sp/>Number&apos;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>isinstance(prefix,<sp/>numbers.Number):</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>prefix<sp/>=<sp/>str(prefix)</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">not</highlight><highlight class="normal"><sp/>isinstance(index,<sp/>list)<sp/></highlight><highlight class="keywordflow">and</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">not</highlight><highlight class="normal"><sp/>isinstance(index,<sp/>torch.Tensor):</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">raise</highlight><highlight class="normal"><sp/>ValueError(</highlight><highlight class="stringliteral">&apos;Passed<sp/>uids<sp/>must<sp/>have<sp/>type<sp/>list<sp/>or<sp/>torch.Tensor&apos;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">not</highlight><highlight class="normal"><sp/>isinstance(values,<sp/>list)<sp/></highlight><highlight class="keywordflow">and</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">not</highlight><highlight class="normal"><sp/>isinstance(values,<sp/>torch.Tensor):</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">raise</highlight><highlight class="normal"><sp/>ValueError(</highlight><highlight class="stringliteral">&apos;Passed<sp/>values<sp/>must<sp/>have<sp/>type<sp/>list<sp/>or<sp/>torch.Tensor&apos;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">not</highlight><highlight class="normal"><sp/>isinstance(index,<sp/>list):</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>index<sp/>=<sp/>index.tolist()</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">not</highlight><highlight class="normal"><sp/>isinstance(values,<sp/>list):</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>values<sp/>=<sp/>values.tolist()</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/>index<sp/>=<sp/>[<sp/>idx_i<sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>idx_i<sp/></highlight><highlight class="keywordflow">in</highlight><highlight class="normal"><sp/>index<sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>idx_i<sp/>&lt;<sp/>len(values)<sp/></highlight><highlight class="keywordflow">and</highlight><highlight class="normal"><sp/>idx_i<sp/>&gt;=<sp/>0<sp/>]</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/>dataframe<sp/>=<sp/>pandas.DataFrame(columns=[prefix],<sp/>index<sp/>=<sp/>index<sp/>)</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>idx_i<sp/></highlight><highlight class="keywordflow">in</highlight><highlight class="normal"><sp/>index:</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>value_i<sp/>=<sp/>values[<sp/>idx_i<sp/>]</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>value_i<sp/>&gt;<sp/>0<sp/></highlight><highlight class="keywordflow">or</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">not</highlight><highlight class="normal"><sp/>filter_zeros:</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>dataframe.loc[idx_i]<sp/>=<sp/>pandas.Series(<sp/>{<sp/>str(prefix):<sp/>value_i<sp/>}<sp/>)</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>dataframe</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal">unbiased_topk(<sp/>values,<sp/>k,<sp/>dim=0,<sp/>sorted<sp/>=<sp/>True,<sp/>largest<sp/>=<sp/>True):</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">r&quot;&quot;&quot;<sp/>Selects<sp/>topk<sp/>as<sp/>in<sp/>torch.topk<sp/>but<sp/>does<sp/>not<sp/>bias<sp/>lower<sp/>indices<sp/>when<sp/>values<sp/>are<sp/>equal.</highlight></codeline>
+<codeline lineno="44"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Args:</highlight></codeline>
+<codeline lineno="45"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>values:<sp/>(torch.Tensor)</highlight></codeline>
+<codeline lineno="46"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Values<sp/>to<sp/>index<sp/>into.</highlight></codeline>
+<codeline lineno="47"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>k:<sp/>(int):</highlight></codeline>
+<codeline lineno="48"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Number<sp/>to<sp/>take.</highlight></codeline>
+<codeline lineno="49"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="50"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Return:</highlight></codeline>
+<codeline lineno="51"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>topk:<sp/>(torch.Tensor):</highlight></codeline>
+<codeline lineno="52"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>topk<sp/>k<sp/>values.</highlight></codeline>
+<codeline lineno="53"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>indices:<sp/>(torch.LongTensor)</highlight></codeline>
+<codeline lineno="54"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>indices<sp/>of<sp/>the<sp/>topk<sp/>values.</highlight></codeline>
+<codeline lineno="55"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>&quot;&quot;&quot;</highlight></codeline>
+<codeline lineno="56"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>permutation<sp/>=<sp/>torch.randperm(values.shape[<sp/>dim<sp/>])</highlight></codeline>
+<codeline lineno="57"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>permuted_values<sp/>=<sp/>values[<sp/>permutation<sp/>]</highlight></codeline>
+<codeline lineno="58"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>topk,<sp/>indices<sp/>=<sp/>torch.topk(<sp/>permuted_values,<sp/><sp/>k,<sp/>dim<sp/>=<sp/>dim,<sp/>sorted=sorted,<sp/>largest=largest<sp/>)</highlight></codeline>
+<codeline lineno="59"><highlight class="stringliteral"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>topk,<sp/>permutation[<sp/>indices<sp/>]</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal">version_checking():</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/>response<sp/>=<sp/>requests.get(bittensor.__pipaddress__)</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/>latest_version<sp/>=<sp/>response.json()[</highlight><highlight class="stringliteral">&apos;info&apos;</highlight><highlight class="normal">][</highlight><highlight class="stringliteral">&apos;version&apos;</highlight><highlight class="normal">]</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/>version_split<sp/>=<sp/>latest_version.split(</highlight><highlight class="stringliteral">&quot;.&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/>latest_version_as_int<sp/>=<sp/>(100<sp/>*<sp/>int(version_split[0]))<sp/>+<sp/>(10<sp/>*<sp/>int(version_split[1]))<sp/>+<sp/>(1<sp/>*<sp/>int(version_split[2]))</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>latest_version_as_int<sp/>&gt;<sp/>bittensor.__version_as_int__:</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>print(</highlight><highlight class="stringliteral">&apos;\u001b[31m<sp/>Current<sp/>Bittensor<sp/>Version:<sp/>{},<sp/>Latest<sp/>Bittensor<sp/>Version<sp/>{}<sp/>\n<sp/>Please<sp/>update<sp/>to<sp/>the<sp/>latest<sp/>version&apos;</highlight><highlight class="normal">.format(bittensor.__version__,latest_version))</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal">is_valid_ss58_address(<sp/>address:<sp/>str<sp/>)<sp/>-&gt;<sp/>bool:</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;&quot;&quot;</highlight></codeline>
+<codeline lineno="73"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>Checks<sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>the<sp/>given<sp/>address<sp/></highlight><highlight class="keywordflow">is</highlight><highlight class="normal"><sp/>a<sp/>valid<sp/>ss58<sp/>address.</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/>Args:</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>address(str):<sp/>The<sp/>address<sp/>to<sp/>check.</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/>Returns:</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">True</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>the<sp/>address<sp/></highlight><highlight class="keywordflow">is</highlight><highlight class="normal"><sp/>a<sp/>valid<sp/>ss58<sp/>address<sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>Bittensor,<sp/></highlight><highlight class="keyword">False</highlight><highlight class="normal"><sp/>otherwise.</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;&quot;&quot;</highlight></codeline>
+<codeline lineno="81"><highlight class="stringliteral"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">try</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>ss58.is_valid_ss58_address(<sp/>address,<sp/>valid_ss58_format=bittensor.__ss58_format__<sp/>)</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">except</highlight><highlight class="normal"><sp/>(IndexError):</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">False</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal">is_valid_ed25519_pubkey(<sp/>public_key:<sp/>Union[str,<sp/>bytes]<sp/>)<sp/>-&gt;<sp/>bool:</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;&quot;&quot;</highlight></codeline>
+<codeline lineno="88"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>Checks<sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>the<sp/>given<sp/>public_key<sp/></highlight><highlight class="keywordflow">is</highlight><highlight class="normal"><sp/>a<sp/>valid<sp/>ed25519<sp/>key.</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/>Args:</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>public_key(Union[str,<sp/>bytes]):<sp/>The<sp/>public_key<sp/>to<sp/>check.</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/>Returns:<sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">True</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>the<sp/>public_key<sp/></highlight><highlight class="keywordflow">is</highlight><highlight class="normal"><sp/>a<sp/>valid<sp/>ed25519<sp/>key,<sp/></highlight><highlight class="keyword">False</highlight><highlight class="normal"><sp/>otherwise.</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;&quot;&quot;</highlight></codeline>
+<codeline lineno="97"><highlight class="stringliteral"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">try</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>isinstance(<sp/>public_key,<sp/>str<sp/>):</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>len(public_key)<sp/>!=<sp/>64<sp/></highlight><highlight class="keywordflow">and</highlight><highlight class="normal"><sp/>len(public_key)<sp/>!=<sp/>66:</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">raise</highlight><highlight class="normal"><sp/>ValueError(<sp/></highlight><highlight class="stringliteral">&quot;a<sp/>public_key<sp/>should<sp/>be<sp/>64<sp/>or<sp/>66<sp/>characters&quot;</highlight><highlight class="normal"><sp/>)</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">elif</highlight><highlight class="normal"><sp/>isinstance(<sp/>public_key,<sp/>bytes<sp/>):</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>len(public_key)<sp/>!=<sp/>32:</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">raise</highlight><highlight class="normal"><sp/>ValueError(<sp/></highlight><highlight class="stringliteral">&quot;a<sp/>public_key<sp/>should<sp/>be<sp/>32<sp/>bytes&quot;</highlight><highlight class="normal"><sp/>)</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">raise</highlight><highlight class="normal"><sp/>ValueError(<sp/></highlight><highlight class="stringliteral">&quot;public_key<sp/>must<sp/>be<sp/>a<sp/>string<sp/>or<sp/>bytes&quot;</highlight><highlight class="normal"><sp/>)</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"></highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>keypair<sp/>=<sp/>Keypair(</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>public_key=public_key,</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ss58_format=bittensor.__ss58_format__</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>)</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ss58_addr<sp/>=<sp/>keypair.ss58_address</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>ss58_addr<sp/></highlight><highlight class="keywordflow">is</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">not</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">None</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="114"><highlight class="normal"></highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">except</highlight><highlight class="normal"><sp/>(ValueError,<sp/>IndexError):</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">False</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="117"><highlight class="normal"></highlight></codeline>
+<codeline lineno="118"><highlight class="normal"></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal">is_valid_bittensor_address_or_public_key(<sp/>address:<sp/>Union[str,<sp/>bytes]<sp/>)<sp/>-&gt;<sp/>bool:</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;&quot;&quot;</highlight></codeline>
+<codeline lineno="120"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>Checks<sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>the<sp/>given<sp/>address<sp/></highlight><highlight class="keywordflow">is</highlight><highlight class="normal"><sp/>a<sp/>valid<sp/>destination<sp/>address.</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"></highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/>Args:</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>address(Union[str,<sp/>bytes]):<sp/>The<sp/>address<sp/>to<sp/>check.</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"></highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/>Returns:</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">True</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>the<sp/>address<sp/></highlight><highlight class="keywordflow">is</highlight><highlight class="normal"><sp/>a<sp/>valid<sp/>destination<sp/>address,<sp/></highlight><highlight class="keyword">False</highlight><highlight class="normal"><sp/>otherwise.</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;&quot;&quot;</highlight></codeline>
+<codeline lineno="128"><highlight class="stringliteral"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>isinstance(<sp/>address,<sp/>str<sp/>):</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">#<sp/>Check<sp/>if<sp/>ed25519</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>address.startswith(</highlight><highlight class="stringliteral">&apos;0x&apos;</highlight><highlight class="normal">):</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>is_valid_ed25519_pubkey(<sp/>address<sp/>)</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">#<sp/>Assume<sp/>ss58<sp/>address</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>is_valid_ss58_address(<sp/>address<sp/>)</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">elif</highlight><highlight class="normal"><sp/>isinstance(<sp/>address,<sp/>bytes<sp/>):</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">#<sp/>Check<sp/>if<sp/>ed25519</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>is_valid_ed25519_pubkey(<sp/>address<sp/>)</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">#<sp/>Invalid<sp/>address<sp/>type</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">False</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="141"><highlight class="normal"></highlight></codeline>
+<codeline lineno="142"><highlight class="normal"></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal">strtobool_with_default(<sp/>default:<sp/>bool<sp/>)<sp/>-&gt;<sp/>Callable[[str],<sp/>bool]:</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;&quot;&quot;</highlight></codeline>
+<codeline lineno="144"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>Creates<sp/>a<sp/>strtobool<sp/>function<sp/></highlight><highlight class="keyword">with</highlight><highlight class="normal"><sp/>a<sp/>default<sp/>value.</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"></highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/>Args:</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>default(bool):<sp/>The<sp/>default<sp/>value<sp/>to<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>the<sp/>string<sp/></highlight><highlight class="keywordflow">is</highlight><highlight class="normal"><sp/>empty.</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"></highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/>Returns:</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>The<sp/>strtobool<sp/>function<sp/></highlight><highlight class="keyword">with</highlight><highlight class="normal"><sp/>the<sp/>default<sp/>value.</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;&quot;&quot;</highlight></codeline>
+<codeline lineno="152"><highlight class="stringliteral"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">lambda</highlight><highlight class="normal"><sp/>x:<sp/>strtobool(x)<sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>x<sp/>!=<sp/></highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>default</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"></highlight></codeline>
+<codeline lineno="154"><highlight class="normal"></highlight></codeline>
+<codeline lineno="155"><highlight class="normal"></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal">strtobool(val:<sp/>str)<sp/>-&gt;<sp/>bool:</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;&quot;&quot;</highlight></codeline>
+<codeline lineno="157"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>Converts<sp/>a<sp/>string<sp/>to<sp/>a<sp/>boolean<sp/>value.</highlight></codeline>
+<codeline lineno="158"><highlight class="stringliteral"></highlight></codeline>
+<codeline lineno="159"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>truth-y<sp/>values<sp/>are<sp/>&apos;y&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;yes&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;t&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;true&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;on&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordflow">and</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&apos;1&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"><sp/><sp/><sp/><sp/>false-y<sp/>values<sp/>are<sp/></highlight><highlight class="stringliteral">&apos;n&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;no&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;f&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;false&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;off&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordflow">and</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&apos;0&apos;</highlight><highlight class="normal">.</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"></highlight></codeline>
+<codeline lineno="162"><highlight class="normal"><sp/><sp/><sp/><sp/>Raises<sp/>ValueError<sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&apos;val&apos;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">is</highlight><highlight class="normal"><sp/>anything<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal">.</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;&quot;&quot;</highlight></codeline>
+<codeline lineno="164"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>val<sp/>=<sp/>val.lower()</highlight></codeline>
+<codeline lineno="165"><highlight class="stringliteral"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>val<sp/></highlight><highlight class="keywordflow">in</highlight><highlight class="normal"><sp/>(</highlight><highlight class="stringliteral">&apos;y&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;yes&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;t&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;true&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;on&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;1&apos;</highlight><highlight class="normal">):</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">True</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="167"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">elif</highlight><highlight class="normal"><sp/>val<sp/></highlight><highlight class="keywordflow">in</highlight><highlight class="normal"><sp/>(</highlight><highlight class="stringliteral">&apos;n&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;no&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;f&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;false&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;off&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;0&apos;</highlight><highlight class="normal">):</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">False</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="169"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">raise</highlight><highlight class="normal"><sp/>ValueError(</highlight><highlight class="stringliteral">&quot;invalid<sp/>truth<sp/>value<sp/>%r&quot;</highlight><highlight class="normal"><sp/>%<sp/>(val,))</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/macthrasher/bittensor/bittensor/utils/__init__.py"/>
+  </compounddef>
+</doxygen>

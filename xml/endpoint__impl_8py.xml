@@ -1,0 +1,290 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="endpoint__impl_8py" kind="file" language="Python">
+    <compoundname>endpoint_impl.py</compoundname>
+    <innerclass refid="classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint" prot="public">bittensor::_endpoint::endpoint_impl::Endpoint</innerclass>
+    <innernamespace refid="namespacebittensor">bittensor</innernamespace>
+    <innernamespace refid="namespacebittensor_1_1__endpoint">bittensor::_endpoint</innernamespace>
+    <innernamespace refid="namespacebittensor_1_1__endpoint_1_1endpoint__impl">bittensor::_endpoint::endpoint_impl</innernamespace>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="namespacebittensor_1_1__endpoint_1_1endpoint__impl_1a28761f8e89ca1f8d5c796e9be7614aba" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int bittensor::_endpoint::endpoint_impl.MAX_IP_LENGTH</definition>
+        <argsstring></argsstring>
+        <name>MAX_IP_LENGTH</name>
+        <qualifiedname>bittensor._endpoint.endpoint_impl.MAX_IP_LENGTH</qualifiedname>
+        <initializer>=  8*4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_endpoint/endpoint_impl.py" line="25" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_endpoint/endpoint_impl.py" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacebittensor_1_1__endpoint_1_1endpoint__impl_1a6ad4233219571e200307147928efd91c" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int bittensor::_endpoint::endpoint_impl.MAX_VERSION</definition>
+        <argsstring></argsstring>
+        <name>MAX_VERSION</name>
+        <qualifiedname>bittensor._endpoint.endpoint_impl.MAX_VERSION</qualifiedname>
+        <initializer>=  999</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_endpoint/endpoint_impl.py" line="26" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_endpoint/endpoint_impl.py" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacebittensor_1_1__endpoint_1_1endpoint__impl_1a1d0f32e5cd8b42eedc6966fd6c3be3c6" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int bittensor::_endpoint::endpoint_impl.SS58_LENGTH</definition>
+        <argsstring></argsstring>
+        <name>SS58_LENGTH</name>
+        <qualifiedname>bittensor._endpoint.endpoint_impl.SS58_LENGTH</qualifiedname>
+        <initializer>=  48</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_endpoint/endpoint_impl.py" line="27" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_endpoint/endpoint_impl.py" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacebittensor_1_1__endpoint_1_1endpoint__impl_1ac3d7e06e757dc1f2ad7a84f55665b6ae" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int bittensor::_endpoint::endpoint_impl.MAXPORT</definition>
+        <argsstring></argsstring>
+        <name>MAXPORT</name>
+        <qualifiedname>bittensor._endpoint.endpoint_impl.MAXPORT</qualifiedname>
+        <initializer>=  65535</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_endpoint/endpoint_impl.py" line="28" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_endpoint/endpoint_impl.py" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacebittensor_1_1__endpoint_1_1endpoint__impl_1a77298e6d1e6bfd69cd1bad0384106b5a" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int bittensor::_endpoint::endpoint_impl.MAXUID</definition>
+        <argsstring></argsstring>
+        <name>MAXUID</name>
+        <qualifiedname>bittensor._endpoint.endpoint_impl.MAXUID</qualifiedname>
+        <initializer>=  4294967295</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_endpoint/endpoint_impl.py" line="29" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_endpoint/endpoint_impl.py" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacebittensor_1_1__endpoint_1_1endpoint__impl_1a2ccadec4c04c464d3e76623fa72cdcef" prot="public" static="no" mutable="no">
+        <type>list</type>
+        <definition>list bittensor::_endpoint::endpoint_impl.ACCEPTABLE_IPTYPES</definition>
+        <argsstring></argsstring>
+        <name>ACCEPTABLE_IPTYPES</name>
+        <qualifiedname>bittensor._endpoint.endpoint_impl.ACCEPTABLE_IPTYPES</qualifiedname>
+        <initializer>=  [4,6]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_endpoint/endpoint_impl.py" line="30" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_endpoint/endpoint_impl.py" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacebittensor_1_1__endpoint_1_1endpoint__impl_1acc30c2fd9a76b17cb04d55d12477c4d1" prot="public" static="no" mutable="no">
+        <type>list</type>
+        <definition>list bittensor::_endpoint::endpoint_impl.ACCEPTABLE_MODALITIES</definition>
+        <argsstring></argsstring>
+        <name>ACCEPTABLE_MODALITIES</name>
+        <qualifiedname>bittensor._endpoint.endpoint_impl.ACCEPTABLE_MODALITIES</qualifiedname>
+        <initializer>=  [0]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_endpoint/endpoint_impl.py" line="31" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_endpoint/endpoint_impl.py" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacebittensor_1_1__endpoint_1_1endpoint__impl_1a8ac2694a86e8a4d68dedbcc232c5be78" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int bittensor::_endpoint::endpoint_impl.ENDPOINT_BUFFER_SIZE</definition>
+        <argsstring></argsstring>
+        <name>ENDPOINT_BUFFER_SIZE</name>
+        <qualifiedname>bittensor._endpoint.endpoint_impl.ENDPOINT_BUFFER_SIZE</qualifiedname>
+        <initializer>=  250</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_endpoint/endpoint_impl.py" line="32" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_endpoint/endpoint_impl.py" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1" refid="namespacebittensor_1_1__endpoint_1_1endpoint__impl" refkind="compound"><highlight class="stringliteral">&quot;&quot;&quot;<sp/>Implementation<sp/>of<sp/>an<sp/>endpoint<sp/>object,<sp/>with<sp/>attr<sp/>hotkey,<sp/>coldkey,<sp/>modality<sp/>and<sp/>ip</highlight></codeline>
+<codeline lineno="2"><highlight class="stringliteral">&quot;&quot;&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">#<sp/>The<sp/>MIT<sp/>License<sp/>(MIT)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">#<sp/>Copyright<sp/>©<sp/>2021<sp/>Yuma<sp/>Rao</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">#<sp/>Permission<sp/>is<sp/>hereby<sp/>granted,<sp/>free<sp/>of<sp/>charge,<sp/>to<sp/>any<sp/>person<sp/>obtaining<sp/>a<sp/>copy<sp/>of<sp/>this<sp/>software<sp/>and<sp/>associated<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">#<sp/>documentation<sp/>files<sp/>(the<sp/>“Software”),<sp/>to<sp/>deal<sp/>in<sp/>the<sp/>Software<sp/>without<sp/>restriction,<sp/>including<sp/>without<sp/>limitation<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="comment">#<sp/>the<sp/>rights<sp/>to<sp/>use,<sp/>copy,<sp/>modify,<sp/>merge,<sp/>publish,<sp/>distribute,<sp/>sublicense,<sp/>and/or<sp/>sell<sp/>copies<sp/>of<sp/>the<sp/>Software,<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="comment">#<sp/>and<sp/>to<sp/>permit<sp/>persons<sp/>to<sp/>whom<sp/>the<sp/>Software<sp/>is<sp/>furnished<sp/>to<sp/>do<sp/>so,<sp/>subject<sp/>to<sp/>the<sp/>following<sp/>conditions:</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="comment">#<sp/>The<sp/>above<sp/>copyright<sp/>notice<sp/>and<sp/>this<sp/>permission<sp/>notice<sp/>shall<sp/>be<sp/>included<sp/>in<sp/>all<sp/>copies<sp/>or<sp/>substantial<sp/>portions<sp/>of<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="comment">#<sp/>the<sp/>Software.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="comment">#<sp/>THE<sp/>SOFTWARE<sp/>IS<sp/>PROVIDED<sp/>“AS<sp/>IS”,<sp/>WITHOUT<sp/>WARRANTY<sp/>OF<sp/>ANY<sp/>KIND,<sp/>EXPRESS<sp/>OR<sp/>IMPLIED,<sp/>INCLUDING<sp/>BUT<sp/>NOT<sp/>LIMITED<sp/>TO</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="comment">#<sp/>THE<sp/>WARRANTIES<sp/>OF<sp/>MERCHANTABILITY,<sp/>FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR<sp/>PURPOSE<sp/>AND<sp/>NONINFRINGEMENT.<sp/>IN<sp/>NO<sp/>EVENT<sp/>SHALL<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="comment">#<sp/>THE<sp/>AUTHORS<sp/>OR<sp/>COPYRIGHT<sp/>HOLDERS<sp/>BE<sp/>LIABLE<sp/>FOR<sp/>ANY<sp/>CLAIM,<sp/>DAMAGES<sp/>OR<sp/>OTHER<sp/>LIABILITY,<sp/>WHETHER<sp/>IN<sp/>AN<sp/>ACTION<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="comment">#<sp/>OF<sp/>CONTRACT,<sp/>TORT<sp/>OR<sp/>OTHERWISE,<sp/>ARISING<sp/>FROM,<sp/>OUT<sp/>OF<sp/>OR<sp/>IN<sp/>CONNECTION<sp/>WITH<sp/>THE<sp/>SOFTWARE<sp/>OR<sp/>THE<sp/>USE<sp/>OR<sp/>OTHER<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="comment">#<sp/>DEALINGS<sp/>IN<sp/>THE<sp/>SOFTWARE.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>bittensor</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>json</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>torch</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/><ref refid="namespacebittensor_1_1utils_1_1networking" kindref="compound">bittensor.utils.networking</ref><sp/></highlight><highlight class="keyword">as</highlight><highlight class="normal"><sp/>net</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal">MAX_IP_LENGTH<sp/>=<sp/>8*4</highlight></codeline>
+<codeline lineno="26"><highlight class="normal">MAX_VERSION<sp/>=<sp/>999</highlight></codeline>
+<codeline lineno="27"><highlight class="normal">SS58_LENGTH<sp/>=<sp/>48</highlight></codeline>
+<codeline lineno="28"><highlight class="normal">MAXPORT<sp/>=<sp/>65535</highlight></codeline>
+<codeline lineno="29"><highlight class="normal">MAXUID<sp/>=<sp/>4294967295</highlight></codeline>
+<codeline lineno="30"><highlight class="normal">ACCEPTABLE_IPTYPES<sp/>=<sp/>[4,6]</highlight></codeline>
+<codeline lineno="31"><highlight class="normal">ACCEPTABLE_MODALITIES<sp/>=<sp/>[0]</highlight></codeline>
+<codeline lineno="32"><highlight class="normal">ENDPOINT_BUFFER_SIZE<sp/>=<sp/>250</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34" refid="classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint" kindref="compound">Endpoint</ref>:</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;&quot;&quot;<sp/>Implementation<sp/>of<sp/>an<sp/>endpoint<sp/>object,<sp/>with<sp/>attr<sp/>hotkey,<sp/>coldkey,<sp/>modality<sp/>and<sp/>ip</highlight></codeline>
+<codeline lineno="36"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>&quot;&quot;&quot;</highlight></codeline>
+<codeline lineno="37"><highlight class="stringliteral"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal">__init__(<sp/>self,<sp/>version:<sp/>int,<sp/>uid:int,<sp/>hotkey:str,<sp/>ip:str,<sp/>ip_type:int,<sp/>port:int<sp/>,<sp/>modality:int,<sp/>coldkey:str<sp/>):</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.<ref refid="classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint_1a7a9927f99a948d0b20892ba52a62c770" kindref="member">version</ref><sp/>=<sp/>version</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.<ref refid="classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint_1a0ae60a0de59e326142a45bed64c10ee9" kindref="member">uid</ref><sp/>=<sp/>uid</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.<ref refid="classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint_1a1be6eb32331288fd64cc8051efefe6aa" kindref="member">hotkey</ref><sp/>=<sp/>hotkey</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.<ref refid="classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint_1a61841e68e74f7d5821d3598afed235f7" kindref="member">ip</ref><sp/>=<sp/>net.int_to_ip<sp/>(ip)</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.<ref refid="classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint_1acdd16a7abbd37e7c1f5ad5fb0e3d78e0" kindref="member">ip_type</ref><sp/>=<sp/>ip_type</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.<ref refid="classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint_1a5815f52e608f016a0360234b1c390593" kindref="member">port</ref><sp/>=<sp/>port</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.<ref refid="classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint_1af22a7a4419e7225f7a45a6a9c07883ec" kindref="member">coldkey</ref><sp/>=<sp/>coldkey</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.<ref refid="classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint_1a843d0491ac657a4124aa7efb62867e05" kindref="member">modality</ref><sp/>=<sp/>modality</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint_1a3a8356af525e51486afb913e62d28cb6" kindref="member">assert_format</ref>(<sp/>self<sp/>):</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;&quot;&quot;<sp/>Asserts<sp/>that<sp/>the<sp/>endpoint<sp/>has<sp/>a<sp/>valid<sp/>format</highlight></codeline>
+<codeline lineno="50"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Raises:</highlight></codeline>
+<codeline lineno="51"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Multiple<sp/>assertion<sp/>errors.</highlight></codeline>
+<codeline lineno="52"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&quot;&quot;&quot;</highlight></codeline>
+<codeline lineno="53"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">assert</highlight><highlight class="normal"><sp/>self.<ref refid="classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint_1a7a9927f99a948d0b20892ba52a62c770" kindref="member">version</ref><sp/>&gt;<sp/>0,<sp/></highlight><highlight class="stringliteral">&apos;endpoint<sp/>version<sp/>must<sp/>be<sp/>positive.<sp/>-<sp/>got<sp/>{}&apos;</highlight><highlight class="normal">.format(self.<ref refid="classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint_1a7a9927f99a948d0b20892ba52a62c770" kindref="member">version</ref>)</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">assert</highlight><highlight class="normal"><sp/>self.<ref refid="classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint_1a7a9927f99a948d0b20892ba52a62c770" kindref="member">version</ref><sp/>&lt;<sp/>MAX_VERSION,<sp/></highlight><highlight class="stringliteral">&apos;endpoint<sp/>version<sp/>must<sp/>be<sp/>less<sp/>than<sp/>999.<sp/>-<sp/>got<sp/>{}&apos;</highlight><highlight class="normal">.format(self.<ref refid="classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint_1a7a9927f99a948d0b20892ba52a62c770" kindref="member">version</ref>)</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">assert</highlight><highlight class="normal"><sp/>self.<ref refid="classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint_1a0ae60a0de59e326142a45bed64c10ee9" kindref="member">uid</ref><sp/>&gt;=<sp/>0<sp/></highlight><highlight class="keywordflow">and</highlight><highlight class="normal"><sp/>self.<ref refid="classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint_1a0ae60a0de59e326142a45bed64c10ee9" kindref="member">uid</ref><sp/>&lt;<sp/>MAXUID,<sp/></highlight><highlight class="stringliteral">&apos;endpoint<sp/>uid<sp/>must<sp/>positive<sp/>and<sp/>be<sp/>less<sp/>than<sp/>u32<sp/>max:<sp/>4294967295.<sp/>-<sp/>got<sp/>{}&apos;</highlight><highlight class="normal">.format(self.<ref refid="classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint_1a0ae60a0de59e326142a45bed64c10ee9" kindref="member">uid</ref>)</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">assert</highlight><highlight class="normal"><sp/>len(self.<ref refid="classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint_1a61841e68e74f7d5821d3598afed235f7" kindref="member">ip</ref>)<sp/>&lt;<sp/>MAX_IP_LENGTH,<sp/></highlight><highlight class="stringliteral">&apos;endpoint<sp/>ip<sp/>string<sp/>must<sp/>have<sp/>length<sp/>less<sp/>than<sp/>8*4.<sp/>-<sp/>got<sp/>{}&apos;</highlight><highlight class="normal">.format(self.<ref refid="classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint_1a61841e68e74f7d5821d3598afed235f7" kindref="member">ip</ref>)<sp/></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">assert</highlight><highlight class="normal"><sp/>self.<ref refid="classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint_1acdd16a7abbd37e7c1f5ad5fb0e3d78e0" kindref="member">ip_type</ref><sp/></highlight><highlight class="keywordflow">in</highlight><highlight class="normal"><sp/>ACCEPTABLE_IPTYPES,<sp/></highlight><highlight class="stringliteral">&apos;endpoint<sp/>ip_type<sp/>must<sp/>be<sp/>either<sp/>4<sp/>or<sp/>6.-<sp/>got<sp/>{}&apos;</highlight><highlight class="normal">.format(self.<ref refid="classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint_1acdd16a7abbd37e7c1f5ad5fb0e3d78e0" kindref="member">ip_type</ref>)</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">assert</highlight><highlight class="normal"><sp/>self.<ref refid="classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint_1a5815f52e608f016a0360234b1c390593" kindref="member">port</ref><sp/>&gt;<sp/>0<sp/></highlight><highlight class="keywordflow">and</highlight><highlight class="normal"><sp/>self.<ref refid="classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint_1a5815f52e608f016a0360234b1c390593" kindref="member">port</ref><sp/>&lt;<sp/>MAXPORT<sp/>,<sp/></highlight><highlight class="stringliteral">&apos;port<sp/>must<sp/>be<sp/>positive<sp/>and<sp/>less<sp/>than<sp/>65535<sp/>-<sp/>got<sp/>{}&apos;</highlight><highlight class="normal">.format(self.<ref refid="classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint_1a5815f52e608f016a0360234b1c390593" kindref="member">port</ref>)</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">assert</highlight><highlight class="normal"><sp/>len(self.<ref refid="classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint_1af22a7a4419e7225f7a45a6a9c07883ec" kindref="member">coldkey</ref>)<sp/>==<sp/>SS58_LENGTH,<sp/></highlight><highlight class="stringliteral">&apos;coldkey<sp/>string<sp/>must<sp/>be<sp/>length<sp/>48<sp/>-<sp/>got<sp/>{}&apos;</highlight><highlight class="normal">.format(self.<ref refid="classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint_1af22a7a4419e7225f7a45a6a9c07883ec" kindref="member">coldkey</ref>)</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">assert</highlight><highlight class="normal"><sp/>len(self.<ref refid="classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint_1a1be6eb32331288fd64cc8051efefe6aa" kindref="member">hotkey</ref>)<sp/>==<sp/>SS58_LENGTH,<sp/></highlight><highlight class="stringliteral">&apos;hotkey<sp/>string<sp/>must<sp/>be<sp/>length<sp/>48<sp/>-<sp/>got<sp/>{}&apos;</highlight><highlight class="normal">.format(self.<ref refid="classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint_1a1be6eb32331288fd64cc8051efefe6aa" kindref="member">hotkey</ref>)</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">assert</highlight><highlight class="normal"><sp/>self.<ref refid="classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint_1a843d0491ac657a4124aa7efb62867e05" kindref="member">modality</ref><sp/></highlight><highlight class="keywordflow">in</highlight><highlight class="normal"><sp/>ACCEPTABLE_MODALITIES,<sp/></highlight><highlight class="stringliteral">&apos;modality<sp/>must<sp/>be<sp/>0<sp/>(for<sp/>now)<sp/>-<sp/>got<sp/>{}&apos;</highlight><highlight class="normal">.format(self.<ref refid="classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint_1a843d0491ac657a4124aa7efb62867e05" kindref="member">modality</ref>)</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="preprocessor">@property</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint_1ae4024209df77060f20fafde20fa7fd76" kindref="member">is_serving</ref>(self)<sp/>-&gt;<sp/>bool:</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;&quot;&quot;<sp/>True<sp/>if<sp/>the<sp/>endpoint<sp/>is<sp/>serving.</highlight></codeline>
+<codeline lineno="66"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&quot;&quot;&quot;</highlight></codeline>
+<codeline lineno="67"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>self.<ref refid="classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint_1a61841e68e74f7d5821d3598afed235f7" kindref="member">ip</ref><sp/>==<sp/></highlight><highlight class="stringliteral">&apos;0.0.0.0&apos;</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">False</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">True</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint_1a93fcc171a63deaa711b82900112af980" kindref="member">check_format</ref>(<sp/>self<sp/>)<sp/>-&gt;<sp/>bool:</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;&quot;&quot;<sp/>Checks<sp/>that<sp/>the<sp/>endpoint<sp/>has<sp/>a<sp/>valid<sp/>format.</highlight></codeline>
+<codeline lineno="74"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Raises:</highlight></codeline>
+<codeline lineno="75"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>is_valid_format<sp/>(bool):</highlight></codeline>
+<codeline lineno="76"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">True</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>the<sp/>endpoint<sp/>has<sp/>a<sp/>valid<sp/>format.</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;&quot;&quot;</highlight></codeline>
+<codeline lineno="78"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>self.<ref refid="classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint_1a7a9927f99a948d0b20892ba52a62c770" kindref="member">version</ref><sp/>&lt;<sp/>0:</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">#<sp/>&apos;endpoint<sp/>version<sp/>must<sp/>be<sp/>positive.&apos;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">False</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>self.<ref refid="classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint_1a7a9927f99a948d0b20892ba52a62c770" kindref="member">version</ref><sp/>&gt;<sp/>MAX_VERSION:</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">#<sp/>&apos;endpoint<sp/>version<sp/>must<sp/>be<sp/>less<sp/>than<sp/>999.&apos;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">False</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>self.<ref refid="classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint_1a0ae60a0de59e326142a45bed64c10ee9" kindref="member">uid</ref><sp/>&lt;<sp/>0<sp/></highlight><highlight class="keywordflow">or</highlight><highlight class="normal"><sp/>self.<ref refid="classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint_1a0ae60a0de59e326142a45bed64c10ee9" kindref="member">uid</ref><sp/>&gt;<sp/>MAXUID:<sp/></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">#<sp/>&apos;endpoint<sp/>uid<sp/>must<sp/>positive<sp/>and<sp/>be<sp/>less<sp/>than<sp/>u32<sp/>max:<sp/>4294967295.&apos;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">False</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>len(self.<ref refid="classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint_1a61841e68e74f7d5821d3598afed235f7" kindref="member">ip</ref>)<sp/>&gt;<sp/>MAX_IP_LENGTH:</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">#<sp/>&apos;endpoint<sp/>ip<sp/>string<sp/>must<sp/>have<sp/>length<sp/>less<sp/>than<sp/>8*4.&apos;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">False</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>self.<ref refid="classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint_1acdd16a7abbd37e7c1f5ad5fb0e3d78e0" kindref="member">ip_type</ref><sp/>!=<sp/>4<sp/></highlight><highlight class="keywordflow">and</highlight><highlight class="normal"><sp/>self.<ref refid="classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint_1acdd16a7abbd37e7c1f5ad5fb0e3d78e0" kindref="member">ip_type</ref><sp/>!=<sp/>6:</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">#<sp/>&apos;endpoint<sp/>ip_type<sp/>must<sp/>be<sp/>either<sp/>4<sp/>or<sp/>6.&apos;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">False</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>self.<ref refid="classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint_1a5815f52e608f016a0360234b1c390593" kindref="member">port</ref><sp/>&lt;<sp/>0<sp/></highlight><highlight class="keywordflow">or</highlight><highlight class="normal"><sp/>self.<ref refid="classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint_1a5815f52e608f016a0360234b1c390593" kindref="member">port</ref><sp/>&gt;<sp/>MAXPORT:</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">#<sp/>&apos;port<sp/>must<sp/>be<sp/>positive<sp/>and<sp/>less<sp/>than<sp/>65535&apos;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">False</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>len(self.<ref refid="classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint_1af22a7a4419e7225f7a45a6a9c07883ec" kindref="member">coldkey</ref>)<sp/>!=<sp/>SS58_LENGTH:</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">#<sp/>&apos;coldkey<sp/>string<sp/>must<sp/>be<sp/>length<sp/>48&apos;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">False</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>len(self.<ref refid="classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint_1a1be6eb32331288fd64cc8051efefe6aa" kindref="member">hotkey</ref>)<sp/>!=<sp/>SS58_LENGTH:</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">#<sp/>&apos;hotkey<sp/>string<sp/>must<sp/>be<sp/>length<sp/>48&apos;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">False</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>self.<ref refid="classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint_1a843d0491ac657a4124aa7efb62867e05" kindref="member">modality</ref><sp/></highlight><highlight class="keywordflow">not</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">in</highlight><highlight class="normal"><sp/>ACCEPTABLE_MODALITIES:</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">#<sp/>&apos;modality<sp/>must<sp/>be<sp/>0<sp/>(for<sp/>now)&apos;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">False</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">True</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint_1a97cd40c5509f3153b227b10e1dbb89d4" kindref="member">to_tensor</ref>(<sp/>self<sp/>)<sp/>-&gt;<sp/>torch.LongTensor:<sp/></highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;&quot;&quot;<sp/>Return<sp/>the<sp/>specification<sp/>of<sp/>an<sp/>endpoint<sp/>as<sp/>a<sp/>tensor</highlight></codeline>
+<codeline lineno="109"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&quot;&quot;&quot;<sp/></highlight></codeline>
+<codeline lineno="110"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>string_json<sp/>=<sp/>self.<ref refid="classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint_1a63b1d4a87e336c520cb29a39c62cbbc3" kindref="member">dumps</ref>()</highlight></codeline>
+<codeline lineno="111"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>bytes_json<sp/>=<sp/>bytes(string_json,<sp/>&apos;utf-8&apos;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ints_json<sp/>=<sp/>list(bytes_json)</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>len(ints_json)<sp/>&gt;<sp/>ENDPOINT_BUFFER_SIZE:</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">raise</highlight><highlight class="normal"><sp/>ValueError(</highlight><highlight class="stringliteral">&apos;Endpoint<sp/>{}<sp/>representation<sp/>is<sp/>too<sp/>large,<sp/>got<sp/>size<sp/>{}<sp/>should<sp/>be<sp/>less<sp/>than<sp/>{}&apos;</highlight><highlight class="normal">.format(self,<sp/>len(ints_json),<sp/>ENDPOINT_BUFFER_SIZE))</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ints_json<sp/>+=<sp/>[-1]<sp/>*<sp/>(ENDPOINT_BUFFER_SIZE<sp/>-<sp/>len(ints_json))</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>endpoint_tensor<sp/>=<sp/>torch.tensor(<sp/>ints_json,<sp/>dtype=torch.int64,<sp/>requires_grad=</highlight><highlight class="keyword">False</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>endpoint_tensor</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"></highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint_1a63b1d4a87e336c520cb29a39c62cbbc3" kindref="member">dumps</ref>(self):</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;&quot;&quot;<sp/>Return<sp/>json<sp/>with<sp/>the<sp/>endpoints&apos;s<sp/>specification</highlight></codeline>
+<codeline lineno="121"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&quot;&quot;&quot;<sp/></highlight></codeline>
+<codeline lineno="122"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>json.dumps(</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;version&apos;</highlight><highlight class="normal">:<sp/>self.<ref refid="classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint_1a7a9927f99a948d0b20892ba52a62c770" kindref="member">version</ref>,</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;uid&apos;</highlight><highlight class="normal">:<sp/>self.<ref refid="classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint_1a0ae60a0de59e326142a45bed64c10ee9" kindref="member">uid</ref>,</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;hotkey&apos;</highlight><highlight class="normal">:<sp/>self.<ref refid="classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint_1a1be6eb32331288fd64cc8051efefe6aa" kindref="member">hotkey</ref>,</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;ip&apos;</highlight><highlight class="normal">:<sp/>self.<ref refid="classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint_1a61841e68e74f7d5821d3598afed235f7" kindref="member">ip</ref>,</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;ip_type&apos;</highlight><highlight class="normal">:<sp/>self.<ref refid="classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint_1acdd16a7abbd37e7c1f5ad5fb0e3d78e0" kindref="member">ip_type</ref>,</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;port&apos;</highlight><highlight class="normal">:<sp/>self.<ref refid="classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint_1a5815f52e608f016a0360234b1c390593" kindref="member">port</ref>,</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;coldkey&apos;</highlight><highlight class="normal">:<sp/>self.<ref refid="classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint_1af22a7a4419e7225f7a45a6a9c07883ec" kindref="member">coldkey</ref>,</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;modality&apos;</highlight><highlight class="normal">:<sp/>self.<ref refid="classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint_1a843d0491ac657a4124aa7efb62867e05" kindref="member">modality</ref>,</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>})</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"></highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint_1a649e0672e7f9ef9e582e90b4f55d43cf" kindref="member">ip_str</ref>(self)<sp/>-&gt;<sp/>str:</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;&quot;&quot;<sp/>Return<sp/>the<sp/>whole<sp/>ip<sp/>as<sp/>string</highlight></codeline>
+<codeline lineno="136"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&quot;&quot;&quot;<sp/></highlight></codeline>
+<codeline lineno="137"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>net.ip__str__(self.<ref refid="classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint_1acdd16a7abbd37e7c1f5ad5fb0e3d78e0" kindref="member">ip_type</ref>,<sp/>self.<ref refid="classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint_1a61841e68e74f7d5821d3598afed235f7" kindref="member">ip</ref>,<sp/>self.<ref refid="classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint_1a5815f52e608f016a0360234b1c390593" kindref="member">port</ref>)</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"></highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal">__eq__<sp/>(self,<sp/>other:<sp/></highlight><highlight class="stringliteral">&apos;Endpoint&apos;</highlight><highlight class="normal">):</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>other<sp/>==<sp/></highlight><highlight class="keywordtype">None</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">False</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>self.<ref refid="classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint_1a7a9927f99a948d0b20892ba52a62c770" kindref="member">version</ref><sp/>==<sp/>other.version<sp/></highlight><highlight class="keywordflow">and</highlight><highlight class="normal"><sp/>self.<ref refid="classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint_1a0ae60a0de59e326142a45bed64c10ee9" kindref="member">uid</ref><sp/>==<sp/>other.uid<sp/></highlight><highlight class="keywordflow">and</highlight><highlight class="normal"><sp/>self.<ref refid="classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint_1a61841e68e74f7d5821d3598afed235f7" kindref="member">ip</ref><sp/>==<sp/>other.ip<sp/></highlight><highlight class="keywordflow">and</highlight><highlight class="normal"><sp/>self.<ref refid="classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint_1a5815f52e608f016a0360234b1c390593" kindref="member">port</ref><sp/>==<sp/>other.port<sp/></highlight><highlight class="keywordflow">and</highlight><highlight class="normal"><sp/>self.<ref refid="classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint_1acdd16a7abbd37e7c1f5ad5fb0e3d78e0" kindref="member">ip_type</ref><sp/>==<sp/>other.ip_type<sp/></highlight><highlight class="keywordflow">and</highlight><highlight class="normal"><sp/><sp/>self.<ref refid="classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint_1af22a7a4419e7225f7a45a6a9c07883ec" kindref="member">coldkey</ref><sp/>==<sp/>other.coldkey<sp/></highlight><highlight class="keywordflow">and</highlight><highlight class="normal"><sp/>self.<ref refid="classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint_1a1be6eb32331288fd64cc8051efefe6aa" kindref="member">hotkey</ref><sp/>==<sp/>other.hotkey<sp/></highlight><highlight class="keywordflow">and</highlight><highlight class="normal"><sp/>self.<ref refid="classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint_1a843d0491ac657a4124aa7efb62867e05" kindref="member">modality</ref><sp/>==<sp/>other.modality:</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">True</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">False</highlight><highlight class="normal"><sp/></highlight></codeline>
+<codeline lineno="146"><highlight class="normal"></highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal">__str__(self):</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;Endpoint({},<sp/>{},<sp/>{},<sp/>{})&quot;</highlight><highlight class="normal">.format(str(self.<ref refid="classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint_1a649e0672e7f9ef9e582e90b4f55d43cf" kindref="member">ip_str</ref>()),<sp/>str(self.<ref refid="classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint_1a0ae60a0de59e326142a45bed64c10ee9" kindref="member">uid</ref>),<sp/>str(self.<ref refid="classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint_1a1be6eb32331288fd64cc8051efefe6aa" kindref="member">hotkey</ref>),<sp/>str(self.<ref refid="classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint_1af22a7a4419e7225f7a45a6a9c07883ec" kindref="member">coldkey</ref>))</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal">__repr__(self):</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>self.<ref refid="classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint_1a6d4f0f44ad4613f5ebe383fcdad6f7ab" kindref="member">__str__</ref>()</highlight></codeline>
+    </programlisting>
+    <location file="/Users/macthrasher/bittensor/bittensor/_endpoint/endpoint_impl.py"/>
+  </compounddef>
+</doxygen>

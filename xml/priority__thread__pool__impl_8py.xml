@@ -1,0 +1,344 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="priority__thread__pool__impl_8py" kind="file" language="Python">
+    <compoundname>priority_thread_pool_impl.py</compoundname>
+    <innerclass refid="classbittensor_1_1__threadpool_1_1priority__thread__pool__impl_1_1___work_item" prot="public">bittensor::_threadpool::priority_thread_pool_impl::_WorkItem</innerclass>
+    <innerclass refid="classbittensor_1_1__threadpool_1_1priority__thread__pool__impl_1_1_broken_thread_pool" prot="public">bittensor::_threadpool::priority_thread_pool_impl::BrokenThreadPool</innerclass>
+    <innerclass refid="classbittensor_1_1__threadpool_1_1priority__thread__pool__impl_1_1_priority_thread_pool_executor" prot="public">bittensor::_threadpool::priority_thread_pool_impl::PriorityThreadPoolExecutor</innerclass>
+    <innernamespace refid="namespacebittensor">bittensor</innernamespace>
+    <innernamespace refid="namespacebittensor_1_1__threadpool">bittensor::_threadpool</innernamespace>
+    <innernamespace refid="namespacebittensor_1_1__threadpool_1_1priority__thread__pool__impl">bittensor::_threadpool::priority_thread_pool_impl</innernamespace>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="namespacebittensor_1_1__threadpool_1_1priority__thread__pool__impl_1a5bb4d415b8b557ef75e0e5a36eb3020e" prot="private" static="no" mutable="no">
+        <type>str</type>
+        <definition>str bittensor::_threadpool::priority_thread_pool_impl.__author__</definition>
+        <argsstring></argsstring>
+        <name>__author__</name>
+        <qualifiedname>bittensor._threadpool.priority_thread_pool_impl.__author__</qualifiedname>
+        <initializer>=  &apos;Brian Quinlan (brian@sweetapp.com)&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_threadpool/priority_thread_pool_impl.py" line="7" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_threadpool/priority_thread_pool_impl.py" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacebittensor_1_1__threadpool_1_1priority__thread__pool__impl_1a8dfd867c52b49186c6f15a7c96edd2c4" prot="protected" static="no" mutable="no">
+        <type>weakref</type>
+        <definition>weakref bittensor::_threadpool::priority_thread_pool_impl._threads_queues</definition>
+        <argsstring></argsstring>
+        <name>_threads_queues</name>
+        <qualifiedname>bittensor._threadpool.priority_thread_pool_impl._threads_queues</qualifiedname>
+        <initializer>=  weakref.WeakKeyDictionary()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_threadpool/priority_thread_pool_impl.py" line="35" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_threadpool/priority_thread_pool_impl.py" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacebittensor_1_1__threadpool_1_1priority__thread__pool__impl_1a12e9cb6d09070f3d49f7af6161e70807" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool bittensor::_threadpool::priority_thread_pool_impl._shutdown</definition>
+        <argsstring></argsstring>
+        <name>_shutdown</name>
+        <qualifiedname>bittensor._threadpool.priority_thread_pool_impl._shutdown</qualifiedname>
+        <initializer>=  False</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_threadpool/priority_thread_pool_impl.py" line="36" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_threadpool/priority_thread_pool_impl.py" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacebittensor_1_1__threadpool_1_1priority__thread__pool__impl_1ac44e6595b2d9dc9fcf31051fbdf98ff2" prot="public" static="no" mutable="no">
+        <type>tuple</type>
+        <definition>tuple bittensor::_threadpool::priority_thread_pool_impl.NULL_ENTRY</definition>
+        <argsstring></argsstring>
+        <name>NULL_ENTRY</name>
+        <qualifiedname>bittensor._threadpool.priority_thread_pool_impl.NULL_ENTRY</qualifiedname>
+        <initializer>=  (sys.maxsize, _WorkItem(None, None, time.time(), (), {}))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_threadpool/priority_thread_pool_impl.py" line="63" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_threadpool/priority_thread_pool_impl.py" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="namespacebittensor_1_1__threadpool_1_1priority__thread__pool__impl_1a9b526def8ac95ec195ad707c693620b4" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._threadpool.priority_thread_pool_impl._worker</definition>
+        <argsstring>(executor_reference, work_queue, initializer, initargs)</argsstring>
+        <name>_worker</name>
+        <qualifiedname>bittensor._threadpool.priority_thread_pool_impl._worker</qualifiedname>
+        <param>
+          <type>executor_reference</type>
+          <defname>executor_reference</defname>
+        </param>
+        <param>
+          <type>work_queue</type>
+          <defname>work_queue</defname>
+        </param>
+        <param>
+          <type>initializer</type>
+          <defname>initializer</defname>
+        </param>
+        <param>
+          <type>initargs</type>
+          <defname>initargs</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_threadpool/priority_thread_pool_impl.py" line="65" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_threadpool/priority_thread_pool_impl.py" bodystart="65" bodyend="106"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1" refid="namespacebittensor_1_1__threadpool_1_1priority__thread__pool__impl" refkind="compound"><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">#<sp/>Copyright<sp/>2009<sp/>Brian<sp/>Quinlan.<sp/>All<sp/>Rights<sp/>Reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">#<sp/>Licensed<sp/>to<sp/>PSF<sp/>under<sp/>a<sp/>Contributor<sp/>Agreement.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;&quot;&quot;Implements<sp/>ThreadPoolExecutor.&quot;&quot;&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal">__author__<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;Brian<sp/>Quinlan<sp/>(brian@sweetapp.com)&apos;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>os</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>sys</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>bittensor</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/>concurrent.futures<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>_base</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>itertools</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>queue</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>random</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>threading</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>weakref</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>time</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/>loguru<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>logger</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="comment">#<sp/>Workers<sp/>are<sp/>created<sp/>as<sp/>daemon<sp/>threads.<sp/>This<sp/>is<sp/>done<sp/>to<sp/>allow<sp/>the<sp/>interpreter</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="comment">#<sp/>to<sp/>exit<sp/>when<sp/>there<sp/>are<sp/>still<sp/>idle<sp/>threads<sp/>in<sp/>a<sp/>ThreadPoolExecutor&apos;s<sp/>thread</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="comment">#<sp/>pool<sp/>(i.e.<sp/>shutdown()<sp/>was<sp/>not<sp/>called).<sp/>However,<sp/>allowing<sp/>workers<sp/>to<sp/>die<sp/>with</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="comment">#<sp/>the<sp/>interpreter<sp/>has<sp/>two<sp/>undesirable<sp/>properties:</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="comment">#<sp/><sp/><sp/>-<sp/>The<sp/>workers<sp/>would<sp/>still<sp/>be<sp/>running<sp/>during<sp/>interpreter<sp/>shutdown,</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="comment">#<sp/><sp/><sp/><sp/><sp/>meaning<sp/>that<sp/>they<sp/>would<sp/>fail<sp/>in<sp/>unpredictable<sp/>ways.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="comment">#<sp/><sp/><sp/>-<sp/>The<sp/>workers<sp/>could<sp/>be<sp/>killed<sp/>while<sp/>evaluating<sp/>a<sp/>work<sp/>item,<sp/>which<sp/>could</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="comment">#<sp/><sp/><sp/><sp/><sp/>be<sp/>bad<sp/>if<sp/>the<sp/>callable<sp/>being<sp/>evaluated<sp/>has<sp/>external<sp/>side-effects<sp/>e.g.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="comment">#<sp/><sp/><sp/><sp/><sp/>writing<sp/>to<sp/>a<sp/>file.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="comment">#</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="comment">#<sp/>To<sp/>work<sp/>around<sp/>this<sp/>problem,<sp/>an<sp/>exit<sp/>handler<sp/>is<sp/>installed<sp/>which<sp/>tells<sp/>the</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="comment">#<sp/>workers<sp/>to<sp/>exit<sp/>when<sp/>their<sp/>work<sp/>queues<sp/>are<sp/>empty<sp/>and<sp/>then<sp/>waits<sp/>until<sp/>the</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="comment">#<sp/>threads<sp/>finish.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal">_threads_queues<sp/>=<sp/>weakref.WeakKeyDictionary()</highlight></codeline>
+<codeline lineno="36"><highlight class="normal">_shutdown<sp/>=<sp/></highlight><highlight class="keyword">False</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38" refid="classbittensor_1_1__threadpool_1_1priority__thread__pool__impl_1_1___work_item" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classbittensor_1_1__threadpool_1_1priority__thread__pool__impl_1_1___work_item" kindref="compound">_WorkItem</ref>(object):</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal">__init__(self,<sp/>future,<sp/>fn,<sp/>start_time,<sp/>args,<sp/>kwargs):</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.<ref refid="classbittensor_1_1__threadpool_1_1priority__thread__pool__impl_1_1___work_item_1a54470d37f028614683bbe09483978efc" kindref="member">future</ref><sp/>=<sp/>future</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.<ref refid="classbittensor_1_1__threadpool_1_1priority__thread__pool__impl_1_1___work_item_1a6bb183bd7bc1ff8d0dec69755ec90b62" kindref="member">fn</ref><sp/>=<sp/>fn</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.<ref refid="classbittensor_1_1__threadpool_1_1priority__thread__pool__impl_1_1___work_item_1aea989c7b3b7f62fdc3615f52a6550c46" kindref="member">start_time</ref><sp/>=<sp/>start_time</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.<ref refid="classbittensor_1_1__threadpool_1_1priority__thread__pool__impl_1_1___work_item_1ad1cc67d0031fe4c80454bff84fbb74dc" kindref="member">args</ref><sp/>=<sp/>args</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.<ref refid="classbittensor_1_1__threadpool_1_1priority__thread__pool__impl_1_1___work_item_1a85315df51dddd468c835a602c9eefce3" kindref="member">kwargs</ref><sp/>=<sp/>kwargs</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="classbittensor_1_1__threadpool_1_1priority__thread__pool__impl_1_1___work_item_1abe2a47ebd9ed85653be4e6ecea488d36" kindref="member">run</ref>(self):</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;&quot;&quot;<sp/>Run<sp/>the<sp/>given<sp/>work<sp/>item</highlight></codeline>
+<codeline lineno="48"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&quot;&quot;&quot;</highlight></codeline>
+<codeline lineno="49"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">#<sp/>Checks<sp/>if<sp/>future<sp/>is<sp/>canceled<sp/>or<sp/>if<sp/>work<sp/>item<sp/>is<sp/>stale</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordflow">not</highlight><highlight class="normal"><sp/>self.<ref refid="classbittensor_1_1__threadpool_1_1priority__thread__pool__impl_1_1___work_item_1a54470d37f028614683bbe09483978efc" kindref="member">future</ref>.set_running_or_notify_cancel())<sp/></highlight><highlight class="keywordflow">or</highlight><highlight class="normal"><sp/>(time.time()-self.<ref refid="classbittensor_1_1__threadpool_1_1priority__thread__pool__impl_1_1___work_item_1aea989c7b3b7f62fdc3615f52a6550c46" kindref="member">start_time</ref><sp/>&gt;<sp/>bittensor.__blocktime__):</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">try</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>result<sp/>=<sp/>self.<ref refid="classbittensor_1_1__threadpool_1_1priority__thread__pool__impl_1_1___work_item_1a6bb183bd7bc1ff8d0dec69755ec90b62" kindref="member">fn</ref>(*self.<ref refid="classbittensor_1_1__threadpool_1_1priority__thread__pool__impl_1_1___work_item_1ad1cc67d0031fe4c80454bff84fbb74dc" kindref="member">args</ref>,<sp/>**self.<ref refid="classbittensor_1_1__threadpool_1_1priority__thread__pool__impl_1_1___work_item_1a85315df51dddd468c835a602c9eefce3" kindref="member">kwargs</ref>)</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">except</highlight><highlight class="normal"><sp/>BaseException<sp/></highlight><highlight class="keyword">as</highlight><highlight class="normal"><sp/>exc:</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.<ref refid="classbittensor_1_1__threadpool_1_1priority__thread__pool__impl_1_1___work_item_1a54470d37f028614683bbe09483978efc" kindref="member">future</ref>.set_exception(exc)</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">#<sp/>Break<sp/>a<sp/>reference<sp/>cycle<sp/>with<sp/>the<sp/>exception<sp/>&apos;exc&apos;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self<sp/>=<sp/></highlight><highlight class="keywordtype">None</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.<ref refid="classbittensor_1_1__threadpool_1_1priority__thread__pool__impl_1_1___work_item_1a54470d37f028614683bbe09483978efc" kindref="member">future</ref>.set_result(result)</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal">NULL_ENTRY<sp/>=<sp/>(sys.maxsize,<sp/><ref refid="classbittensor_1_1__threadpool_1_1priority__thread__pool__impl_1_1___work_item" kindref="compound">_WorkItem</ref>(</highlight><highlight class="keywordtype">None</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">None</highlight><highlight class="normal">,<sp/>time.time(),<sp/>(),<sp/>{}))</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal">_worker(executor_reference,<sp/>work_queue,<sp/>initializer,<sp/>initargs):</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>initializer<sp/></highlight><highlight class="keywordflow">is</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">not</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">None</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">try</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>initializer(*initargs)</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">except</highlight><highlight class="normal"><sp/>BaseException:</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_base.LOGGER.critical(</highlight><highlight class="stringliteral">&apos;Exception<sp/>in<sp/>initializer:&apos;</highlight><highlight class="normal">,<sp/>exc_info=</highlight><highlight class="keyword">True</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>executor<sp/>=<sp/>executor_reference()</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>executor<sp/></highlight><highlight class="keywordflow">is</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">not</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">None</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>executor._initializer_failed()</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">try</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">True</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>work_item<sp/>=<sp/>work_queue.get(block=</highlight><highlight class="keyword">True</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>priority<sp/>=<sp/>work_item[0]</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>item<sp/>=<sp/>work_item[1]</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>priority<sp/>==<sp/>sys.maxsize:</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>del<sp/>item</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">elif</highlight><highlight class="normal"><sp/>item<sp/></highlight><highlight class="keywordflow">is</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">not</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">None</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>item.run()</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">#<sp/>Delete<sp/>references<sp/>to<sp/>object.<sp/>See<sp/>issue16284</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>del<sp/>item</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">continue</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>executor<sp/>=<sp/>executor_reference()</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">#<sp/>Exit<sp/>if:</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">#<sp/><sp/><sp/>-<sp/>The<sp/>interpreter<sp/>is<sp/>shutting<sp/>down<sp/>OR</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">#<sp/><sp/><sp/>-<sp/>The<sp/>executor<sp/>that<sp/>owns<sp/>the<sp/>worker<sp/>has<sp/>been<sp/>collected<sp/>OR</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">#<sp/><sp/><sp/>-<sp/>The<sp/>executor<sp/>that<sp/>owns<sp/>the<sp/>worker<sp/>has<sp/>been<sp/>shutdown.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>_shutdown<sp/></highlight><highlight class="keywordflow">or</highlight><highlight class="normal"><sp/>executor<sp/></highlight><highlight class="keywordflow">is</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">None</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">or</highlight><highlight class="normal"><sp/>executor._shutdown:</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">#<sp/>Flag<sp/>the<sp/>executor<sp/>as<sp/>shutting<sp/>down<sp/>as<sp/>early<sp/>as<sp/>possible<sp/>if<sp/>it</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">#<sp/>is<sp/>not<sp/>gc-ed<sp/>yet.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>executor<sp/></highlight><highlight class="keywordflow">is</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">not</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">None</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>executor._shutdown<sp/>=<sp/></highlight><highlight class="keyword">True</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">#<sp/>Notice<sp/>other<sp/>workers</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>work_queue.put(NULL_ENTRY)</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>del<sp/>executor</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">except</highlight><highlight class="normal"><sp/>BaseException:</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>logger.error(</highlight><highlight class="stringliteral">&apos;work_item&apos;</highlight><highlight class="normal">,<sp/>work_item)</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_base.LOGGER.critical(</highlight><highlight class="stringliteral">&apos;Exception<sp/>in<sp/>worker&apos;</highlight><highlight class="normal">,<sp/>exc_info=</highlight><highlight class="keyword">True</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"></highlight></codeline>
+<codeline lineno="106"><highlight class="normal"></highlight></codeline>
+<codeline lineno="107" refid="classbittensor_1_1__threadpool_1_1priority__thread__pool__impl_1_1_broken_thread_pool" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classbittensor_1_1__threadpool_1_1priority__thread__pool__impl_1_1_broken_thread_pool" kindref="compound">BrokenThreadPool</ref>(_base.BrokenExecutor):</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;&quot;&quot;</highlight></codeline>
+<codeline lineno="109"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>Raised<sp/>when<sp/>a<sp/>worker<sp/>thread<sp/></highlight><highlight class="keywordflow">in</highlight><highlight class="normal"><sp/>a<sp/>ThreadPoolExecutor<sp/>failed<sp/>initializing.</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;&quot;&quot;</highlight></codeline>
+<codeline lineno="111"><highlight class="stringliteral"></highlight></codeline>
+<codeline lineno="112"><highlight class="stringliteral"></highlight></codeline>
+<codeline lineno="113" refid="classbittensor_1_1__threadpool_1_1priority__thread__pool__impl_1_1_priority_thread_pool_executor" refkind="compound"><highlight class="stringliteral">class<sp/>PriorityThreadPoolExecutor(_base.Executor):</highlight></codeline>
+<codeline lineno="114"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>&quot;&quot;&quot;<sp/>Base<sp/>threadpool<sp/>executor<sp/>with<sp/>a<sp/>priority<sp/>queue<sp/></highlight></codeline>
+<codeline lineno="115"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>&quot;&quot;&quot;</highlight></codeline>
+<codeline lineno="116"><highlight class="stringliteral"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">#<sp/>Used<sp/>to<sp/>assign<sp/>unique<sp/>thread<sp/>names<sp/>when<sp/>thread_name_prefix<sp/>is<sp/>not<sp/>supplied.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/>_counter<sp/>=<sp/>itertools.count().__next__</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"></highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="classbittensor_1_1__threadpool_1_1priority__thread__pool__impl_1_1_priority_thread_pool_executor_1a1310dbb7fd127c626cdae0cbb4732bea" kindref="member">__init__</ref>(self,<sp/>maxsize<sp/>=<sp/>-1,<sp/>max_workers=None,<sp/>thread_name_prefix=&apos;&apos;,</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>initializer=None,<sp/>initargs=()):</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;&quot;&quot;Initializes<sp/>a<sp/>new<sp/>ThreadPoolExecutor<sp/>instance.</highlight></codeline>
+<codeline lineno="122"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Args:</highlight></codeline>
+<codeline lineno="123"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>max_workers:<sp/>The<sp/>maximum<sp/>number<sp/>of<sp/>threads<sp/>that<sp/>can<sp/>be<sp/>used<sp/>to</highlight></codeline>
+<codeline lineno="124"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>execute<sp/>the<sp/>given<sp/>calls.</highlight></codeline>
+<codeline lineno="125"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>thread_name_prefix:<sp/>An<sp/>optional<sp/>name<sp/>prefix<sp/>to<sp/>give<sp/>our<sp/>threads.</highlight></codeline>
+<codeline lineno="126"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>initializer:<sp/>An<sp/>callable<sp/>used<sp/>to<sp/>initialize<sp/>worker<sp/>threads.</highlight></codeline>
+<codeline lineno="127"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>initargs:<sp/>A<sp/>tuple<sp/>of<sp/>arguments<sp/>to<sp/></highlight><highlight class="keywordflow">pass</highlight><highlight class="normal"><sp/>to<sp/>the<sp/>initializer.</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;&quot;&quot;</highlight></codeline>
+<codeline lineno="129"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>max_workers<sp/></highlight><highlight class="keywordflow">is</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">None</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">#<sp/>Use<sp/>this<sp/>number<sp/>because<sp/>ThreadPoolExecutor<sp/>is<sp/>often</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">#<sp/>used<sp/>to<sp/>overlap<sp/>I/O<sp/>instead<sp/>of<sp/>CPU<sp/>work.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>max_workers<sp/>=<sp/>(os.cpu_count()<sp/></highlight><highlight class="keywordflow">or</highlight><highlight class="normal"><sp/>1)<sp/>*<sp/>5</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>max_workers<sp/>&lt;=<sp/>0:</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">raise</highlight><highlight class="normal"><sp/>ValueError(</highlight><highlight class="stringliteral">&quot;max_workers<sp/>must<sp/>be<sp/>greater<sp/>than<sp/>0&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"></highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>initializer<sp/></highlight><highlight class="keywordflow">is</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">not</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">None</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">and</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">not</highlight><highlight class="normal"><sp/>callable(initializer):</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">raise</highlight><highlight class="normal"><sp/>TypeError(</highlight><highlight class="stringliteral">&quot;initializer<sp/>must<sp/>be<sp/>a<sp/>callable&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"></highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.<ref refid="classbittensor_1_1__threadpool_1_1priority__thread__pool__impl_1_1_priority_thread_pool_executor_1a97455b6d1085684c5ad38b151768482c" kindref="member">_max_workers</ref><sp/>=<sp/>max_workers</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.<ref refid="classbittensor_1_1__threadpool_1_1priority__thread__pool__impl_1_1_priority_thread_pool_executor_1ae6473aeaa3cf9e400006169a617d49be" kindref="member">_work_queue</ref><sp/>=<sp/>queue.PriorityQueue(maxsize<sp/>=<sp/>maxsize)</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.<ref refid="classbittensor_1_1__threadpool_1_1priority__thread__pool__impl_1_1_priority_thread_pool_executor_1a5d762706dda3a80450bd1f950ebd7a39" kindref="member">_idle_semaphore</ref><sp/>=<sp/>threading.Semaphore(0)</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.<ref refid="classbittensor_1_1__threadpool_1_1priority__thread__pool__impl_1_1_priority_thread_pool_executor_1af92ade177b868a32e8cbaf56084c933b" kindref="member">_threads</ref><sp/>=<sp/>set()</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.<ref refid="classbittensor_1_1__threadpool_1_1priority__thread__pool__impl_1_1_priority_thread_pool_executor_1a34f038629b473b20342e943aeab6d006" kindref="member">_broken</ref><sp/>=<sp/></highlight><highlight class="keyword">False</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.<ref refid="classbittensor_1_1__threadpool_1_1priority__thread__pool__impl_1_1_priority_thread_pool_executor_1aed261ab98e632fd84f330680d04d66b0" kindref="member">_shutdown</ref><sp/>=<sp/></highlight><highlight class="keyword">False</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.<ref refid="classbittensor_1_1__threadpool_1_1priority__thread__pool__impl_1_1_priority_thread_pool_executor_1a29720866477334bdaf2078d8d3569ac8" kindref="member">_shutdown_lock</ref><sp/>=<sp/>threading.Lock()</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.<ref refid="classbittensor_1_1__threadpool_1_1priority__thread__pool__impl_1_1_priority_thread_pool_executor_1a7a3f0532cd1bb063c21851aa16292a3a" kindref="member">_thread_name_prefix</ref><sp/>=<sp/>(thread_name_prefix<sp/></highlight><highlight class="keywordflow">or</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(</highlight><highlight class="stringliteral">&quot;ThreadPoolExecutor-%d&quot;</highlight><highlight class="normal"><sp/>%<sp/>self.<ref refid="classbittensor_1_1__threadpool_1_1priority__thread__pool__impl_1_1_priority_thread_pool_executor_1aefe7b052fee17a7d4d2304753b46cfb8" kindref="member">_counter</ref>()))</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.<ref refid="classbittensor_1_1__threadpool_1_1priority__thread__pool__impl_1_1_priority_thread_pool_executor_1ad1f83104e82dbdc5799827adac534abc" kindref="member">_initializer</ref><sp/>=<sp/>initializer</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.<ref refid="classbittensor_1_1__threadpool_1_1priority__thread__pool__impl_1_1_priority_thread_pool_executor_1a7d48b1823941bcd0528f99cce6244d6a" kindref="member">_initargs</ref><sp/>=<sp/>initargs</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"></highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="preprocessor">@property</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal">is_empty(self):</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>self.<ref refid="classbittensor_1_1__threadpool_1_1priority__thread__pool__impl_1_1_priority_thread_pool_executor_1ae6473aeaa3cf9e400006169a617d49be" kindref="member">_work_queue</ref>.empty()</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"></highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal">submit(self,<sp/>fn,<sp/>*args,<sp/>**kwargs):</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">with</highlight><highlight class="normal"><sp/>self.<ref refid="classbittensor_1_1__threadpool_1_1priority__thread__pool__impl_1_1_priority_thread_pool_executor_1a29720866477334bdaf2078d8d3569ac8" kindref="member">_shutdown_lock</ref>:</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>self.<ref refid="classbittensor_1_1__threadpool_1_1priority__thread__pool__impl_1_1_priority_thread_pool_executor_1a34f038629b473b20342e943aeab6d006" kindref="member">_broken</ref>:</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">raise</highlight><highlight class="normal"><sp/><ref refid="classbittensor_1_1__threadpool_1_1priority__thread__pool__impl_1_1_broken_thread_pool" kindref="compound">BrokenThreadPool</ref>(self.<ref refid="classbittensor_1_1__threadpool_1_1priority__thread__pool__impl_1_1_priority_thread_pool_executor_1a34f038629b473b20342e943aeab6d006" kindref="member">_broken</ref>)</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"></highlight></codeline>
+<codeline lineno="160"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>self.<ref refid="classbittensor_1_1__threadpool_1_1priority__thread__pool__impl_1_1_priority_thread_pool_executor_1aed261ab98e632fd84f330680d04d66b0" kindref="member">_shutdown</ref>:</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">raise</highlight><highlight class="normal"><sp/>RuntimeError(</highlight><highlight class="stringliteral">&apos;cannot<sp/>schedule<sp/>new<sp/>futures<sp/>after<sp/>shutdown&apos;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>_shutdown:</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">raise</highlight><highlight class="normal"><sp/>RuntimeError(</highlight><highlight class="stringliteral">&apos;cannot<sp/>schedule<sp/>new<sp/>futures<sp/>after<sp/>&apos;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="164"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;interpreter<sp/>shutdown&apos;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"></highlight></codeline>
+<codeline lineno="166"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>priority<sp/>=<sp/>kwargs.get(</highlight><highlight class="stringliteral">&apos;priority&apos;</highlight><highlight class="normal">,<sp/>random.randint(0,<sp/>1000000))</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>priority<sp/>==<sp/>0:</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>priority<sp/>=<sp/>random.randint(1,<sp/>100)</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>eplison<sp/>=<sp/>random.uniform(0,0.01)<sp/>*<sp/>priority</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>start_time<sp/>=<sp/>time.time()</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&apos;priority&apos;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">in</highlight><highlight class="normal"><sp/>kwargs:</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>del<sp/>kwargs[</highlight><highlight class="stringliteral">&apos;priority&apos;</highlight><highlight class="normal">]</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="174"><highlight class="normal"></highlight></codeline>
+<codeline lineno="175"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>f<sp/>=<sp/>_base.Future()</highlight></codeline>
+<codeline lineno="176"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>w<sp/>=<sp/><ref refid="classbittensor_1_1__threadpool_1_1priority__thread__pool__impl_1_1___work_item" kindref="compound">_WorkItem</ref>(f,<sp/>fn,<sp/>start_time,<sp/>args,<sp/>kwargs)</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.<ref refid="classbittensor_1_1__threadpool_1_1priority__thread__pool__impl_1_1_priority_thread_pool_executor_1ae6473aeaa3cf9e400006169a617d49be" kindref="member">_work_queue</ref>.put((-float(priority<sp/>+<sp/>eplison),<sp/>w),<sp/>block=</highlight><highlight class="keyword">False</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.<ref refid="classbittensor_1_1__threadpool_1_1priority__thread__pool__impl_1_1_priority_thread_pool_executor_1ac8ba059f6d2ed49e4d115b94971676c4" kindref="member">_adjust_thread_count</ref>()</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>f</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"><sp/><sp/><sp/><sp/>submit.__doc__<sp/>=<sp/>_base.Executor.submit.__doc__</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"></highlight></codeline>
+<codeline lineno="182"><highlight class="normal"></highlight></codeline>
+<codeline lineno="183"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal">_adjust_thread_count(self):</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">#<sp/>if<sp/>idle<sp/>threads<sp/>are<sp/>available,<sp/>don&apos;t<sp/>spin<sp/>new<sp/>threads</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="185"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>self.<ref refid="classbittensor_1_1__threadpool_1_1priority__thread__pool__impl_1_1_priority_thread_pool_executor_1a5d762706dda3a80450bd1f950ebd7a39" kindref="member">_idle_semaphore</ref>.acquire(timeout=0):</highlight></codeline>
+<codeline lineno="186"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="187"><highlight class="normal"></highlight></codeline>
+<codeline lineno="188"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">#<sp/>When<sp/>the<sp/>executor<sp/>gets<sp/>lost,<sp/>the<sp/>weakref<sp/>callback<sp/>will<sp/>wake<sp/>up</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="189"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">#<sp/>the<sp/>worker<sp/>threads.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="190"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal">weakref_cb(_,<sp/>q=self._work_queue):</highlight></codeline>
+<codeline lineno="191"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>q.put(NULL_ENTRY)</highlight></codeline>
+<codeline lineno="192"><highlight class="normal"></highlight></codeline>
+<codeline lineno="193"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>num_threads<sp/>=<sp/>len(self.<ref refid="classbittensor_1_1__threadpool_1_1priority__thread__pool__impl_1_1_priority_thread_pool_executor_1af92ade177b868a32e8cbaf56084c933b" kindref="member">_threads</ref>)</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>num_threads<sp/>&lt;<sp/>self.<ref refid="classbittensor_1_1__threadpool_1_1priority__thread__pool__impl_1_1_priority_thread_pool_executor_1a97455b6d1085684c5ad38b151768482c" kindref="member">_max_workers</ref>:</highlight></codeline>
+<codeline lineno="195"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>thread_name<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;%s_%d&apos;</highlight><highlight class="normal"><sp/>%<sp/>(self.<ref refid="classbittensor_1_1__threadpool_1_1priority__thread__pool__impl_1_1_priority_thread_pool_executor_1a7a3f0532cd1bb063c21851aa16292a3a" kindref="member">_thread_name_prefix</ref><sp/></highlight><highlight class="keywordflow">or</highlight><highlight class="normal"><sp/>self,</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>num_threads)</highlight></codeline>
+<codeline lineno="197"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>t<sp/>=<sp/>threading.Thread(name=thread_name,<sp/>target=_worker,</highlight></codeline>
+<codeline lineno="198"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>args=(weakref.ref(self,<sp/>weakref_cb),</highlight></codeline>
+<codeline lineno="199"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.<ref refid="classbittensor_1_1__threadpool_1_1priority__thread__pool__impl_1_1_priority_thread_pool_executor_1ae6473aeaa3cf9e400006169a617d49be" kindref="member">_work_queue</ref>,</highlight></codeline>
+<codeline lineno="200"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.<ref refid="classbittensor_1_1__threadpool_1_1priority__thread__pool__impl_1_1_priority_thread_pool_executor_1ad1f83104e82dbdc5799827adac534abc" kindref="member">_initializer</ref>,</highlight></codeline>
+<codeline lineno="201"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.<ref refid="classbittensor_1_1__threadpool_1_1priority__thread__pool__impl_1_1_priority_thread_pool_executor_1a7d48b1823941bcd0528f99cce6244d6a" kindref="member">_initargs</ref>))</highlight></codeline>
+<codeline lineno="202"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>t.daemon<sp/>=<sp/></highlight><highlight class="keyword">True</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="203"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>t.start()</highlight></codeline>
+<codeline lineno="204"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.<ref refid="classbittensor_1_1__threadpool_1_1priority__thread__pool__impl_1_1_priority_thread_pool_executor_1af92ade177b868a32e8cbaf56084c933b" kindref="member">_threads</ref>.add(t)</highlight></codeline>
+<codeline lineno="205"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_threads_queues[t]<sp/>=<sp/>self.<ref refid="classbittensor_1_1__threadpool_1_1priority__thread__pool__impl_1_1_priority_thread_pool_executor_1ae6473aeaa3cf9e400006169a617d49be" kindref="member">_work_queue</ref></highlight></codeline>
+<codeline lineno="206"><highlight class="normal"></highlight></codeline>
+<codeline lineno="207"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal">_initializer_failed(self):</highlight></codeline>
+<codeline lineno="208"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">with</highlight><highlight class="normal"><sp/>self.<ref refid="classbittensor_1_1__threadpool_1_1priority__thread__pool__impl_1_1_priority_thread_pool_executor_1a29720866477334bdaf2078d8d3569ac8" kindref="member">_shutdown_lock</ref>:</highlight></codeline>
+<codeline lineno="209"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.<ref refid="classbittensor_1_1__threadpool_1_1priority__thread__pool__impl_1_1_priority_thread_pool_executor_1a34f038629b473b20342e943aeab6d006" kindref="member">_broken</ref><sp/>=<sp/>(</highlight><highlight class="stringliteral">&apos;A<sp/>thread<sp/>initializer<sp/>failed,<sp/>the<sp/>thread<sp/>pool<sp/>&apos;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="210"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;is<sp/>not<sp/>usable<sp/>anymore&apos;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="211"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">#<sp/>Drain<sp/>work<sp/>queue<sp/>and<sp/>mark<sp/>pending<sp/>futures<sp/>failed</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="212"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">True</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="213"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">try</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="214"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>work_item<sp/>=<sp/>self.<ref refid="classbittensor_1_1__threadpool_1_1priority__thread__pool__impl_1_1_priority_thread_pool_executor_1ae6473aeaa3cf9e400006169a617d49be" kindref="member">_work_queue</ref>.get_nowait()</highlight></codeline>
+<codeline lineno="215"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">except</highlight><highlight class="normal"><sp/>queue.Empty:</highlight></codeline>
+<codeline lineno="216"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="217"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>work_item<sp/></highlight><highlight class="keywordflow">is</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">not</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">None</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="218"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>work_item.future.set_exception(<ref refid="classbittensor_1_1__threadpool_1_1priority__thread__pool__impl_1_1_broken_thread_pool" kindref="compound">BrokenThreadPool</ref>(self.<ref refid="classbittensor_1_1__threadpool_1_1priority__thread__pool__impl_1_1_priority_thread_pool_executor_1a34f038629b473b20342e943aeab6d006" kindref="member">_broken</ref>))</highlight></codeline>
+<codeline lineno="219"><highlight class="normal"></highlight></codeline>
+<codeline lineno="220"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal">shutdown(self,<sp/>wait=True):</highlight></codeline>
+<codeline lineno="221"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">with</highlight><highlight class="normal"><sp/>self.<ref refid="classbittensor_1_1__threadpool_1_1priority__thread__pool__impl_1_1_priority_thread_pool_executor_1a29720866477334bdaf2078d8d3569ac8" kindref="member">_shutdown_lock</ref>:</highlight></codeline>
+<codeline lineno="222"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.<ref refid="classbittensor_1_1__threadpool_1_1priority__thread__pool__impl_1_1_priority_thread_pool_executor_1aed261ab98e632fd84f330680d04d66b0" kindref="member">_shutdown</ref><sp/>=<sp/></highlight><highlight class="keyword">True</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="223"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.<ref refid="classbittensor_1_1__threadpool_1_1priority__thread__pool__impl_1_1_priority_thread_pool_executor_1ae6473aeaa3cf9e400006169a617d49be" kindref="member">_work_queue</ref>.put(NULL_ENTRY)</highlight></codeline>
+<codeline lineno="224"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="225"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>wait:</highlight></codeline>
+<codeline lineno="226"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>t<sp/></highlight><highlight class="keywordflow">in</highlight><highlight class="normal"><sp/>self.<ref refid="classbittensor_1_1__threadpool_1_1priority__thread__pool__impl_1_1_priority_thread_pool_executor_1af92ade177b868a32e8cbaf56084c933b" kindref="member">_threads</ref>:</highlight></codeline>
+<codeline lineno="227"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">try</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="228"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>t.join(timeout=2)</highlight></codeline>
+<codeline lineno="229"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">except</highlight><highlight class="normal"><sp/>Exception:</highlight></codeline>
+<codeline lineno="230"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">pass</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="231"><highlight class="normal"><sp/><sp/><sp/><sp/>shutdown.__doc__<sp/>=<sp/>_base.Executor.shutdown.__doc__</highlight></codeline>
+    </programlisting>
+    <location file="/Users/macthrasher/bittensor/bittensor/_threadpool/priority_thread_pool_impl.py"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,147 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="classbittensor_1_1__dataset_1_1thread__queue_1_1_thread_queue" kind="class" language="Python" prot="public">
+    <compoundname>bittensor::_dataset::thread_queue::ThreadQueue</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classbittensor_1_1__dataset_1_1thread__queue_1_1_thread_queue_1ae0614c89aec4f299154f3b1243862f2f" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._dataset.thread_queue.ThreadQueue::buffer_size</definition>
+        <argsstring></argsstring>
+        <name>buffer_size</name>
+        <qualifiedname>bittensor._dataset.thread_queue.ThreadQueue.buffer_size</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_dataset/thread_queue.py" line="81" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_dataset/thread_queue.py" bodystart="81" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__dataset_1_1thread__queue_1_1_thread_queue_1ac57e1da8979775f5730e61e8032800eb" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._dataset.thread_queue.ThreadQueue::queue</definition>
+        <argsstring></argsstring>
+        <name>queue</name>
+        <qualifiedname>bittensor._dataset.thread_queue.ThreadQueue.queue</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_dataset/thread_queue.py" line="82" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_dataset/thread_queue.py" bodystart="82" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__dataset_1_1thread__queue_1_1_thread_queue_1aad1594e12857b4d4e166f63819172dde" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._dataset.thread_queue.ThreadQueue::producer</definition>
+        <argsstring></argsstring>
+        <name>producer</name>
+        <qualifiedname>bittensor._dataset.thread_queue.ThreadQueue.producer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_dataset/thread_queue.py" line="83" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_dataset/thread_queue.py" bodystart="83" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classbittensor_1_1__dataset_1_1thread__queue_1_1_thread_queue_1a82cecb3185c1cbd474b8daff7d141900" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._dataset.thread_queue.ThreadQueue.__init__</definition>
+        <argsstring>(self, producer_target, producer_arg, buffer_size=2)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>bittensor._dataset.thread_queue.ThreadQueue.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>producer_target</type>
+          <defname>producer_target</defname>
+        </param>
+        <param>
+          <type>producer_arg</type>
+          <defname>producer_arg</defname>
+        </param>
+        <param>
+          <type>buffer_size</type>
+          <defname>buffer_size</defname>
+          <defval>2</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Setup the queue and start the producer thread.
+
+Args:
+        
+    producer_target (:obj:`function`, `required`)
+        The target function to run when the queue is not full.
+
+    producer_arg (:type:`tuple`, `required`)
+        The arguments to be passed to the target function.
+
+    buffer_size (:type:`int`, `optional`)
+        The size of the queue.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_dataset/thread_queue.py" line="67" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_dataset/thread_queue.py" bodystart="67" bodyend="85"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__dataset_1_1thread__queue_1_1_thread_queue_1a1fba9cdc7bce42d4003530f5ee9e4257" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._dataset.thread_queue.ThreadQueue.__del__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__del__</name>
+        <qualifiedname>bittensor._dataset.thread_queue.ThreadQueue.__del__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_dataset/thread_queue.py" line="86" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_dataset/thread_queue.py" bodystart="86" bodyend="88"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__dataset_1_1thread__queue_1_1_thread_queue_1a716e14ea9630c59fc3069a6c13c49c92" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._dataset.thread_queue.ThreadQueue.close</definition>
+        <argsstring>(self)</argsstring>
+        <name>close</name>
+        <qualifiedname>bittensor._dataset.thread_queue.ThreadQueue.close</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_dataset/thread_queue.py" line="89" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_dataset/thread_queue.py" bodystart="89" bodyend="93"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim> Manages the queue the producer thread that monitor and fills the queue.
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/Users/macthrasher/bittensor/bittensor/_dataset/thread_queue.py" line="64" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_dataset/thread_queue.py" bodystart="64" bodyend="93"/>
+    <listofallmembers>
+      <member refid="classbittensor_1_1__dataset_1_1thread__queue_1_1_thread_queue_1a1fba9cdc7bce42d4003530f5ee9e4257" prot="public" virt="non-virtual"><scope>bittensor::_dataset::thread_queue::ThreadQueue</scope><name>__del__</name></member>
+      <member refid="classbittensor_1_1__dataset_1_1thread__queue_1_1_thread_queue_1a82cecb3185c1cbd474b8daff7d141900" prot="public" virt="non-virtual"><scope>bittensor::_dataset::thread_queue::ThreadQueue</scope><name>__init__</name></member>
+      <member refid="classbittensor_1_1__dataset_1_1thread__queue_1_1_thread_queue_1ae0614c89aec4f299154f3b1243862f2f" prot="public" virt="non-virtual"><scope>bittensor::_dataset::thread_queue::ThreadQueue</scope><name>buffer_size</name></member>
+      <member refid="classbittensor_1_1__dataset_1_1thread__queue_1_1_thread_queue_1a716e14ea9630c59fc3069a6c13c49c92" prot="public" virt="non-virtual"><scope>bittensor::_dataset::thread_queue::ThreadQueue</scope><name>close</name></member>
+      <member refid="classbittensor_1_1__dataset_1_1thread__queue_1_1_thread_queue_1aad1594e12857b4d4e166f63819172dde" prot="public" virt="non-virtual"><scope>bittensor::_dataset::thread_queue::ThreadQueue</scope><name>producer</name></member>
+      <member refid="classbittensor_1_1__dataset_1_1thread__queue_1_1_thread_queue_1ac57e1da8979775f5730e61e8032800eb" prot="public" virt="non-virtual"><scope>bittensor::_dataset::thread_queue::ThreadQueue</scope><name>queue</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,235 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="classbittensor_1_1__ipfs_1_1ipfs__impl_1_1_ipfs" kind="class" language="Python" prot="public">
+    <compoundname>bittensor::_ipfs::ipfs_impl::Ipfs</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classbittensor_1_1__ipfs_1_1ipfs__impl_1_1_ipfs_1adf8015010ff73aa00001f8fd12348970" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._ipfs.ipfs_impl.Ipfs::cat</definition>
+        <argsstring></argsstring>
+        <name>cat</name>
+        <qualifiedname>bittensor._ipfs.ipfs_impl.Ipfs.cat</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_ipfs/ipfs_impl.py" line="13" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_ipfs/ipfs_impl.py" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__ipfs_1_1ipfs__impl_1_1_ipfs_1a55a93ed160283dfda3dbeec925d32547" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._ipfs.ipfs_impl.Ipfs::node_get</definition>
+        <argsstring></argsstring>
+        <name>node_get</name>
+        <qualifiedname>bittensor._ipfs.ipfs_impl.Ipfs.node_get</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_ipfs/ipfs_impl.py" line="14" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_ipfs/ipfs_impl.py" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__ipfs_1_1ipfs__impl_1_1_ipfs_1a513327d6de3253324f56808bd26a93b9" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._ipfs.ipfs_impl.Ipfs::ipns_resolve</definition>
+        <argsstring></argsstring>
+        <name>ipns_resolve</name>
+        <qualifiedname>bittensor._ipfs.ipfs_impl.Ipfs.ipns_resolve</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_ipfs/ipfs_impl.py" line="15" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_ipfs/ipfs_impl.py" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__ipfs_1_1ipfs__impl_1_1_ipfs_1a126094b31bdea74b69c8541b6ee5da6d" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._ipfs.ipfs_impl.Ipfs::mountain_hash</definition>
+        <argsstring></argsstring>
+        <name>mountain_hash</name>
+        <qualifiedname>bittensor._ipfs.ipfs_impl.Ipfs.mountain_hash</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_ipfs/ipfs_impl.py" line="17" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_ipfs/ipfs_impl.py" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__ipfs_1_1ipfs__impl_1_1_ipfs_1a5b302d45d46a9b6d4b09fb5df934f1d8" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._ipfs.ipfs_impl.Ipfs::latest_neurons_ipns</definition>
+        <argsstring></argsstring>
+        <name>latest_neurons_ipns</name>
+        <qualifiedname>bittensor._ipfs.ipfs_impl.Ipfs.latest_neurons_ipns</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_ipfs/ipfs_impl.py" line="18" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_ipfs/ipfs_impl.py" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__ipfs_1_1ipfs__impl_1_1_ipfs_1a7d0676ccdf952a0049697b452b2294ea" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._ipfs.ipfs_impl.Ipfs::historical_neurons_ipns</definition>
+        <argsstring></argsstring>
+        <name>historical_neurons_ipns</name>
+        <qualifiedname>bittensor._ipfs.ipfs_impl.Ipfs.historical_neurons_ipns</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_ipfs/ipfs_impl.py" line="19" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_ipfs/ipfs_impl.py" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__ipfs_1_1ipfs__impl_1_1_ipfs_1ad71ed522d8e02f5714f36e1e81d2d6a3" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._ipfs.ipfs_impl.Ipfs::refresh_corpus</definition>
+        <argsstring></argsstring>
+        <name>refresh_corpus</name>
+        <qualifiedname>bittensor._ipfs.ipfs_impl.Ipfs.refresh_corpus</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_ipfs/ipfs_impl.py" line="21" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_ipfs/ipfs_impl.py" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classbittensor_1_1__ipfs_1_1ipfs__impl_1_1_ipfs_1ad5d19e76264fc520240177d79d3a688b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._ipfs.ipfs_impl.Ipfs.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>bittensor._ipfs.ipfs_impl.Ipfs.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_ipfs/ipfs_impl.py" line="10" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_ipfs/ipfs_impl.py" bodystart="10" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__ipfs_1_1ipfs__impl_1_1_ipfs_1a4f0654421ddc4e28d38c1f512b041d45" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._ipfs.ipfs_impl.Ipfs.retrieve_directory</definition>
+        <argsstring>(self, str address, params=None, str action=&apos;post&apos;, int timeout=180)</argsstring>
+        <name>retrieve_directory</name>
+        <qualifiedname>bittensor._ipfs.ipfs_impl.Ipfs.retrieve_directory</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>address</declname>
+        </param>
+        <param>
+          <type>params</type>
+          <defname>params</defname>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>action</declname>
+          <defval>&apos;post&apos;</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>timeout</declname>
+          <defval>180</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Connects to Pinata IPFS gateway and retrieves directory.
+
+Returns:
+    dict: A dictionary of the files inside of the genesis_datasets and their hashes.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_ipfs/ipfs_impl.py" line="57" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_ipfs/ipfs_impl.py" bodystart="57" bodyend="70"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classbittensor_1_1__ipfs_1_1ipfs__impl_1_1_ipfs_1a16cda134ae7787ea37f9718a9e260c64" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._ipfs.ipfs_impl.Ipfs.requests_retry_session</definition>
+        <argsstring>(retries=1, backoff_factor=0.5, status_forcelist=(104, 500, 502, 504), session=None)</argsstring>
+        <name>requests_retry_session</name>
+        <qualifiedname>bittensor._ipfs.ipfs_impl.Ipfs.requests_retry_session</qualifiedname>
+        <param>
+          <type>retries</type>
+          <defname>retries</defname>
+          <defval>1</defval>
+        </param>
+        <param>
+          <type>backoff_factor</type>
+          <defname>backoff_factor</defname>
+          <defval>0.5</defval>
+        </param>
+        <param>
+          <type>status_forcelist</type>
+          <defname>status_forcelist</defname>
+          <defval>(104, 500, 502, 504)</defval>
+        </param>
+        <param>
+          <type>session</type>
+          <defname>session</defname>
+          <defval>None</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Creates a retriable session for request calls. This enables
+automatic retries and back-off retries should any request calls fail.
+
+Args:
+    retries (int, optional): Maximum number of retries. Defaults to 3.
+    backoff_factor (float, optional): Factor by which to back off if a retry fails. Defaults to 0.3.
+    status_forcelist (tuple, optional): A set of integer HTTP status codes that we should force a retry on. Defaults to (500, 502, 504).
+    session ([type], optional): Session for which to set up the retries. Defaults to None.
+
+Returns:
+    requests.Session(): A Requests Session object set up for retries and backoff.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_ipfs/ipfs_impl.py" line="25" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_ipfs/ipfs_impl.py" bodystart="30" bodyend="56"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim> Implementation for the dataset class, which handles dataloading from ipfs
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/Users/macthrasher/bittensor/bittensor/_ipfs/ipfs_impl.py" line="7" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_ipfs/ipfs_impl.py" bodystart="7" bodyend="70"/>
+    <listofallmembers>
+      <member refid="classbittensor_1_1__ipfs_1_1ipfs__impl_1_1_ipfs_1ad5d19e76264fc520240177d79d3a688b" prot="public" virt="non-virtual"><scope>bittensor::_ipfs::ipfs_impl::Ipfs</scope><name>__init__</name></member>
+      <member refid="classbittensor_1_1__ipfs_1_1ipfs__impl_1_1_ipfs_1adf8015010ff73aa00001f8fd12348970" prot="public" virt="non-virtual"><scope>bittensor::_ipfs::ipfs_impl::Ipfs</scope><name>cat</name></member>
+      <member refid="classbittensor_1_1__ipfs_1_1ipfs__impl_1_1_ipfs_1a7d0676ccdf952a0049697b452b2294ea" prot="public" virt="non-virtual"><scope>bittensor::_ipfs::ipfs_impl::Ipfs</scope><name>historical_neurons_ipns</name></member>
+      <member refid="classbittensor_1_1__ipfs_1_1ipfs__impl_1_1_ipfs_1a513327d6de3253324f56808bd26a93b9" prot="public" virt="non-virtual"><scope>bittensor::_ipfs::ipfs_impl::Ipfs</scope><name>ipns_resolve</name></member>
+      <member refid="classbittensor_1_1__ipfs_1_1ipfs__impl_1_1_ipfs_1a5b302d45d46a9b6d4b09fb5df934f1d8" prot="public" virt="non-virtual"><scope>bittensor::_ipfs::ipfs_impl::Ipfs</scope><name>latest_neurons_ipns</name></member>
+      <member refid="classbittensor_1_1__ipfs_1_1ipfs__impl_1_1_ipfs_1a126094b31bdea74b69c8541b6ee5da6d" prot="public" virt="non-virtual"><scope>bittensor::_ipfs::ipfs_impl::Ipfs</scope><name>mountain_hash</name></member>
+      <member refid="classbittensor_1_1__ipfs_1_1ipfs__impl_1_1_ipfs_1a55a93ed160283dfda3dbeec925d32547" prot="public" virt="non-virtual"><scope>bittensor::_ipfs::ipfs_impl::Ipfs</scope><name>node_get</name></member>
+      <member refid="classbittensor_1_1__ipfs_1_1ipfs__impl_1_1_ipfs_1ad71ed522d8e02f5714f36e1e81d2d6a3" prot="public" virt="non-virtual"><scope>bittensor::_ipfs::ipfs_impl::Ipfs</scope><name>refresh_corpus</name></member>
+      <member refid="classbittensor_1_1__ipfs_1_1ipfs__impl_1_1_ipfs_1a16cda134ae7787ea37f9718a9e260c64" prot="public" virt="non-virtual"><scope>bittensor::_ipfs::ipfs_impl::Ipfs</scope><name>requests_retry_session</name></member>
+      <member refid="classbittensor_1_1__ipfs_1_1ipfs__impl_1_1_ipfs_1a4f0654421ddc4e28d38c1f512b041d45" prot="public" virt="non-virtual"><scope>bittensor::_ipfs::ipfs_impl::Ipfs</scope><name>retrieve_directory</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,116 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="classbittensor_1_1utils_1_1stats_1_1timed__rolling__avg" kind="class" language="Python" prot="public">
+    <compoundname>bittensor::utils::stats::timed_rolling_avg</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classbittensor_1_1utils_1_1stats_1_1timed__rolling__avg_1a5082d30d97f7bb5511dc614dcf2da36b" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor.utils.stats.timed_rolling_avg::value</definition>
+        <argsstring></argsstring>
+        <name>value</name>
+        <qualifiedname>bittensor.utils.stats.timed_rolling_avg.value</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/stats.py" line="26" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/stats.py" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1utils_1_1stats_1_1timed__rolling__avg_1a469379bb3c026f6c98e39ae81d33b88e" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor.utils.stats.timed_rolling_avg::alpha</definition>
+        <argsstring></argsstring>
+        <name>alpha</name>
+        <qualifiedname>bittensor.utils.stats.timed_rolling_avg.alpha</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/stats.py" line="27" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/stats.py" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1utils_1_1stats_1_1timed__rolling__avg_1aee101ede7cd5373f88eb811b15299829" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor.utils.stats.timed_rolling_avg::last_update</definition>
+        <argsstring></argsstring>
+        <name>last_update</name>
+        <qualifiedname>bittensor.utils.stats.timed_rolling_avg.last_update</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/stats.py" line="28" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/stats.py" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classbittensor_1_1utils_1_1stats_1_1timed__rolling__avg_1a9df32f7b3a71e2d41c546cbbe735a0d6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor.utils.stats.timed_rolling_avg.__init__</definition>
+        <argsstring>(self, initial_value, alpha)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>bittensor.utils.stats.timed_rolling_avg.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>initial_value</type>
+          <defname>initial_value</defname>
+        </param>
+        <param>
+          <type>alpha</type>
+          <defname>alpha</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/stats.py" line="25" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/stats.py" bodystart="25" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1utils_1_1stats_1_1timed__rolling__avg_1ae5213008dd8e6c6af6aec0115634cab5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor.utils.stats.timed_rolling_avg.update</definition>
+        <argsstring>(self, new_value)</argsstring>
+        <name>update</name>
+        <qualifiedname>bittensor.utils.stats.timed_rolling_avg.update</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>new_value</type>
+          <defname>new_value</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Update self.value (the moving average) with the new_value 
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/stats.py" line="30" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/stats.py" bodystart="30" bodyend="38"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim> A exponential moving average that updates values based on time since last update.
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/Users/macthrasher/bittensor/bittensor/utils/stats.py" line="22" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/stats.py" bodystart="22" bodyend="38"/>
+    <listofallmembers>
+      <member refid="classbittensor_1_1utils_1_1stats_1_1timed__rolling__avg_1a9df32f7b3a71e2d41c546cbbe735a0d6" prot="public" virt="non-virtual"><scope>bittensor::utils::stats::timed_rolling_avg</scope><name>__init__</name></member>
+      <member refid="classbittensor_1_1utils_1_1stats_1_1timed__rolling__avg_1a469379bb3c026f6c98e39ae81d33b88e" prot="public" virt="non-virtual"><scope>bittensor::utils::stats::timed_rolling_avg</scope><name>alpha</name></member>
+      <member refid="classbittensor_1_1utils_1_1stats_1_1timed__rolling__avg_1aee101ede7cd5373f88eb811b15299829" prot="public" virt="non-virtual"><scope>bittensor::utils::stats::timed_rolling_avg</scope><name>last_update</name></member>
+      <member refid="classbittensor_1_1utils_1_1stats_1_1timed__rolling__avg_1ae5213008dd8e6c6af6aec0115634cab5" prot="public" virt="non-virtual"><scope>bittensor::utils::stats::timed_rolling_avg</scope><name>update</name></member>
+      <member refid="classbittensor_1_1utils_1_1stats_1_1timed__rolling__avg_1a5082d30d97f7bb5511dc614dcf2da36b" prot="public" virt="non-virtual"><scope>bittensor::utils::stats::timed_rolling_avg</scope><name>value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

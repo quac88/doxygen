@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="dir_4b52690475591061af2228d4c45abdd1" kind="dir">
+    <compoundname>/Users/macthrasher/bittensor/bittensor/_metagraph</compoundname>
+    <innerfile refid="__metagraph_2____init_____8py">__init__.py</innerfile>
+    <innerfile refid="metagraph__impl_8py">metagraph_impl.py</innerfile>
+    <innerfile refid="metagraph__mock_8py">metagraph_mock.py</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/macthrasher/bittensor/bittensor/_metagraph/"/>
+  </compounddef>
+</doxygen>

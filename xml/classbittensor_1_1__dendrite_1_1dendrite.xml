@@ -1,0 +1,225 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="classbittensor_1_1__dendrite_1_1dendrite" kind="class" language="Python" prot="public">
+    <compoundname>bittensor::_dendrite::dendrite</compoundname>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classbittensor_1_1__dendrite_1_1dendrite_1a9c3cf0cf1fdf57fb5054a30151f93cff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type> &apos;<ref refid="classbittensor_1_1__dendrite_1_1dendrite__impl_1_1_dendrite" kindref="compound">bittensor.Dendrite</ref>&apos;</type>
+        <definition> &apos;bittensor.Dendrite&apos; bittensor._dendrite.dendrite.__new__</definition>
+        <argsstring>(cls, &apos;bittensor.config&apos; config=None, &apos;bittensor.Wallet&apos; wallet=None, int timeout=None, bool requires_grad=None, int max_active_receptors=None, &apos;bittensor.ReceptorPool&apos; receptor_pool=None, bool multiprocess=None, str compression=None, bool _mock=None)</argsstring>
+        <name>__new__</name>
+        <qualifiedname>bittensor._dendrite.dendrite.__new__</qualifiedname>
+        <param>
+          <type>cls</type>
+          <defname>cls</defname>
+        </param>
+        <param>
+          <type>&apos;<ref refid="classbittensor_1_1__config_1_1config" kindref="compound">bittensor.config</ref>&apos;</type>
+          <declname>config</declname>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type>&apos;<ref refid="classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet" kindref="compound">bittensor.Wallet</ref>&apos;</type>
+          <declname>wallet</declname>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>timeout</declname>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>requires_grad</declname>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>max_active_receptors</declname>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type>&apos;<ref refid="classbittensor_1_1__receptor_1_1receptor__pool__impl_1_1_receptor_pool" kindref="compound">bittensor.ReceptorPool</ref>&apos;</type>
+          <declname>receptor_pool</declname>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>multiprocess</declname>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>compression</declname>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>_mock</declname>
+          <defval>None</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Creates a new Dendrite object from passed arguments.
+        Args:
+            config (:obj:`bittensor.Config`, `optional`): 
+                Config namespace object created by calling bittensor.dendrite.config()
+            wallet (:obj:`bittensor.Wallet`, `optional`):
+                A bittensor wallet object containing a pair of cryptographic keys, the hot and coldkey, used for signing messages
+                on the wire.
+            timeout (:type:`int`, `optional`, default: bittensor.dendrite.config().dendrite.timeout ):
+                Default request timeout.
+            requires_grad (:type:`bool`, `optional`, default: bittensor.dendrite.config().dendrite.requires_grad):
+                If true, the dendrite passes gradients on the wire by default.
+            max_active_receptors (:type:`int`, `optional`, default: bittensor.dendrite.config().dendrite.max_active_receptors):
+                Maximum allowed active allocated TCP connections. Does not override the
+                optionally passed receptor pool.
+            receptor_pool (:obj:`bittensor.ReceptorPool`, `optional`):
+                A bittensor receptor pool object which maintains a set of connections to other peers in the network and operates as
+                a normal torch.nn.Module. By default this object is created with the dendrite config.
+            _mock (:obj:`bool`, `optional`):
+                For testing, if true the dendrite returns mocked outputs.</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_dendrite/__init__.py" line="38" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_dendrite/__init__.py" bodystart="49" bodyend="100"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__dendrite_1_1dendrite_1a43706005b1cc7469d979f937fde61893" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type> &apos;<ref refid="classbittensor_1_1__config_1_1config__impl_1_1_config" kindref="compound">bittensor.Config</ref>&apos;</type>
+        <definition> &apos;bittensor.Config&apos; bittensor._dendrite.dendrite.config</definition>
+        <argsstring>(cls)</argsstring>
+        <name>config</name>
+        <qualifiedname>bittensor._dendrite.dendrite.config</qualifiedname>
+        <param>
+          <type>cls</type>
+          <defname>cls</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Get config from the argument parser
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_dendrite/__init__.py" line="102" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_dendrite/__init__.py" bodystart="102" bodyend="108"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__dendrite_1_1dendrite_1a8b814eba8737ed370882f117bffbf34b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._dendrite.dendrite.help</definition>
+        <argsstring>(cls)</argsstring>
+        <name>help</name>
+        <qualifiedname>bittensor._dendrite.dendrite.help</qualifiedname>
+        <param>
+          <type>cls</type>
+          <defname>cls</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Print help to stdout
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_dendrite/__init__.py" line="110" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_dendrite/__init__.py" bodystart="110" bodyend="117"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__dendrite_1_1dendrite_1a9a3db91de971c48c1a50dd7fff04621a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._dendrite.dendrite.add_args</definition>
+        <argsstring>(cls, argparse.ArgumentParser parser, str prefix=None)</argsstring>
+        <name>add_args</name>
+        <qualifiedname>bittensor._dendrite.dendrite.add_args</qualifiedname>
+        <param>
+          <type>cls</type>
+          <defname>cls</defname>
+        </param>
+        <param>
+          <type>argparse.ArgumentParser</type>
+          <declname>parser</declname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>prefix</declname>
+          <defval>None</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Accept specific arguments from parser
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_dendrite/__init__.py" line="119" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_dendrite/__init__.py" bodystart="119" bodyend="140"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__dendrite_1_1dendrite_1a943cf38b63959d25a9bc3dfefd08b1f3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._dendrite.dendrite.add_defaults</definition>
+        <argsstring>(cls, defaults)</argsstring>
+        <name>add_defaults</name>
+        <qualifiedname>bittensor._dendrite.dendrite.add_defaults</qualifiedname>
+        <param>
+          <type>cls</type>
+          <defname>cls</defname>
+        </param>
+        <param>
+          <type>defaults</type>
+          <defname>defaults</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Adds parser defaults to object from enviroment variables.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_dendrite/__init__.py" line="142" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_dendrite/__init__.py" bodystart="142" bodyend="154"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__dendrite_1_1dendrite_1aae36ba43288a58731d5c65a4cd8f2abe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._dendrite.dendrite.check_config</definition>
+        <argsstring>(cls, &apos;bittensor.Config&apos; config)</argsstring>
+        <name>check_config</name>
+        <qualifiedname>bittensor._dendrite.dendrite.check_config</qualifiedname>
+        <param>
+          <type>cls</type>
+          <defname>cls</defname>
+        </param>
+        <param>
+          <type>&apos;<ref refid="classbittensor_1_1__config_1_1config__impl_1_1_config" kindref="compound">bittensor.Config</ref>&apos;</type>
+          <declname>config</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Check config for dendrite worker and receptors
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_dendrite/__init__.py" line="156" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_dendrite/__init__.py" bodystart="156" bodyend="165"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim> This is the factory class for a bittensor.dendrite() or the mocked dendrite class.
+
+The dendrite class operates as a normal torch autograd friendly operation which accepts a list of bittensor.endpoints and a list of torch tensors. 
+The passed endpoints are queried with the passed inputs and either return results or zeros. The operation is fully differentiable with a torch 
+computation graph such that calls to loss.backward() produce Backward calls on the passed endpoints.</verbatim> </para>
+    </detaileddescription>
+    <location file="/Users/macthrasher/bittensor/bittensor/_dendrite/__init__.py" line="29" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_dendrite/__init__.py" bodystart="29" bodyend="165"/>
+    <listofallmembers>
+      <member refid="classbittensor_1_1__dendrite_1_1dendrite_1a9c3cf0cf1fdf57fb5054a30151f93cff" prot="public" virt="non-virtual"><scope>bittensor::_dendrite::dendrite</scope><name>__new__</name></member>
+      <member refid="classbittensor_1_1__dendrite_1_1dendrite_1a9a3db91de971c48c1a50dd7fff04621a" prot="public" virt="non-virtual"><scope>bittensor::_dendrite::dendrite</scope><name>add_args</name></member>
+      <member refid="classbittensor_1_1__dendrite_1_1dendrite_1a943cf38b63959d25a9bc3dfefd08b1f3" prot="public" virt="non-virtual"><scope>bittensor::_dendrite::dendrite</scope><name>add_defaults</name></member>
+      <member refid="classbittensor_1_1__dendrite_1_1dendrite_1aae36ba43288a58731d5c65a4cd8f2abe" prot="public" virt="non-virtual"><scope>bittensor::_dendrite::dendrite</scope><name>check_config</name></member>
+      <member refid="classbittensor_1_1__dendrite_1_1dendrite_1a43706005b1cc7469d979f937fde61893" prot="public" virt="non-virtual"><scope>bittensor::_dendrite::dendrite</scope><name>config</name></member>
+      <member refid="classbittensor_1_1__dendrite_1_1dendrite_1a8b814eba8737ed370882f117bffbf34b" prot="public" virt="non-virtual"><scope>bittensor::_dendrite::dendrite</scope><name>help</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

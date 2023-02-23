@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="namespacebittensor_1_1__dataset_1_1dataset__impl" kind="namespace" language="Python">
+    <compoundname>bittensor::_dataset::dataset_impl</compoundname>
+    <innerclass refid="classbittensor_1_1__dataset_1_1dataset__impl_1_1_dataset" prot="public">bittensor::_dataset::dataset_impl::Dataset</innerclass>
+    <innerclass refid="classbittensor_1_1__dataset_1_1dataset__impl_1_1_genesis_text_dataset" prot="public">bittensor::_dataset::dataset_impl::GenesisTextDataset</innerclass>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="namespacebittensor_1_1__dataset_1_1dataset__impl_1aa9a16dd1d78c9d1190cf711fb0cd7681" prot="public" static="no" mutable="no">
+        <type>logger</type>
+        <definition>logger bittensor::_dataset::dataset_impl.logger</definition>
+        <argsstring></argsstring>
+        <name>logger</name>
+        <qualifiedname>bittensor._dataset.dataset_impl.logger</qualifiedname>
+        <initializer>=  logger.opt(colors=True)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_dataset/dataset_impl.py" line="39" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_dataset/dataset_impl.py" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim> Implementation for the dataset and GenesisTextDataset class, which handles dataloading from ipfs
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/Users/macthrasher/bittensor/bittensor/_dataset/dataset_impl.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

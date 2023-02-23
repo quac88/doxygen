@@ -1,0 +1,1119 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="classbittensor_1_1__axon_1_1axon__impl_1_1_axon" kind="class" language="Python" prot="public">
+    <compoundname>bittensor::_axon::axon_impl::Axon</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">bittensor.grpc.BittensorServicer</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classbittensor_1_1__axon_1_1axon__impl_1_1_axon_1a6cb60d31a29f1264dddd761eff914e9c" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._axon.axon_impl.Axon::ip</definition>
+        <argsstring></argsstring>
+        <name>ip</name>
+        <qualifiedname>bittensor._axon.axon_impl.Axon.ip</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_axon/axon_impl.py" line="99" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_axon/axon_impl.py" bodystart="99" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__axon_1_1axon__impl_1_1_axon_1a495ee94db558d43cd783653bd6a794f3" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._axon.axon_impl.Axon::port</definition>
+        <argsstring></argsstring>
+        <name>port</name>
+        <qualifiedname>bittensor._axon.axon_impl.Axon.port</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_axon/axon_impl.py" line="100" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_axon/axon_impl.py" bodystart="100" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__axon_1_1axon__impl_1_1_axon_1a0b5a02653940225229700fcafdc5ad67" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._axon.axon_impl.Axon::external_ip</definition>
+        <argsstring></argsstring>
+        <name>external_ip</name>
+        <qualifiedname>bittensor._axon.axon_impl.Axon.external_ip</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_axon/axon_impl.py" line="101" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_axon/axon_impl.py" bodystart="101" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__axon_1_1axon__impl_1_1_axon_1a925d4292bd65e6419610ddb24dc8c9a9" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._axon.axon_impl.Axon::external_port</definition>
+        <argsstring></argsstring>
+        <name>external_port</name>
+        <qualifiedname>bittensor._axon.axon_impl.Axon.external_port</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_axon/axon_impl.py" line="102" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_axon/axon_impl.py" bodystart="102" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__axon_1_1axon__impl_1_1_axon_1a67619a6c0020220785a6e1894daa3268" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._axon.axon_impl.Axon::wallet</definition>
+        <argsstring></argsstring>
+        <name>wallet</name>
+        <qualifiedname>bittensor._axon.axon_impl.Axon.wallet</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_axon/axon_impl.py" line="103" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_axon/axon_impl.py" bodystart="103" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__axon_1_1axon__impl_1_1_axon_1a920ed8e7fc5a71ee32f1a0ca5eadb389" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._axon.axon_impl.Axon::server</definition>
+        <argsstring></argsstring>
+        <name>server</name>
+        <qualifiedname>bittensor._axon.axon_impl.Axon.server</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_axon/axon_impl.py" line="104" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_axon/axon_impl.py" bodystart="104" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__axon_1_1axon__impl_1_1_axon_1a961a4c900afba0941aa37b0143629494" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._axon.axon_impl.Axon::forward_callback</definition>
+        <argsstring></argsstring>
+        <name>forward_callback</name>
+        <qualifiedname>bittensor._axon.axon_impl.Axon.forward_callback</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_axon/axon_impl.py" line="105" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_axon/axon_impl.py" bodystart="105" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__axon_1_1axon__impl_1_1_axon_1a2c96cc8208446ca2a3564701bf41e67b" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._axon.axon_impl.Axon::backward_callback</definition>
+        <argsstring></argsstring>
+        <name>backward_callback</name>
+        <qualifiedname>bittensor._axon.axon_impl.Axon.backward_callback</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_axon/axon_impl.py" line="106" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_axon/axon_impl.py" bodystart="106" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__axon_1_1axon__impl_1_1_axon_1a57a1b659ab9f6a9613c7780108fc6c7e" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._axon.axon_impl.Axon::forward_timeout</definition>
+        <argsstring></argsstring>
+        <name>forward_timeout</name>
+        <qualifiedname>bittensor._axon.axon_impl.Axon.forward_timeout</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_axon/axon_impl.py" line="107" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_axon/axon_impl.py" bodystart="107" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__axon_1_1axon__impl_1_1_axon_1a983910e2dec663cc4f6dd9a360c9ed20" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._axon.axon_impl.Axon::backward_timeout</definition>
+        <argsstring></argsstring>
+        <name>backward_timeout</name>
+        <qualifiedname>bittensor._axon.axon_impl.Axon.backward_timeout</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_axon/axon_impl.py" line="108" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_axon/axon_impl.py" bodystart="108" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__axon_1_1axon__impl_1_1_axon_1a8cbc3cca071799ea2329a109898a41cc" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._axon.axon_impl.Axon::synapse_callbacks</definition>
+        <argsstring></argsstring>
+        <name>synapse_callbacks</name>
+        <qualifiedname>bittensor._axon.axon_impl.Axon.synapse_callbacks</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_axon/axon_impl.py" line="109" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_axon/axon_impl.py" bodystart="109" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__axon_1_1axon__impl_1_1_axon_1a6b146bcf1d22f994ede30ad5f2e4c284" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._axon.axon_impl.Axon::synapse_checks</definition>
+        <argsstring></argsstring>
+        <name>synapse_checks</name>
+        <qualifiedname>bittensor._axon.axon_impl.Axon.synapse_checks</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_axon/axon_impl.py" line="110" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_axon/axon_impl.py" bodystart="110" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__axon_1_1axon__impl_1_1_axon_1a2bae7561960e52ff822fb6ac459f0554" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._axon.axon_impl.Axon::synapse_timeouts</definition>
+        <argsstring></argsstring>
+        <name>synapse_timeouts</name>
+        <qualifiedname>bittensor._axon.axon_impl.Axon.synapse_timeouts</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_axon/axon_impl.py" line="111" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_axon/axon_impl.py" bodystart="111" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__axon_1_1axon__impl_1_1_axon_1a11d3d3007095ab6a786686709487d4ea" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._axon.axon_impl.Axon::prometheus_level</definition>
+        <argsstring></argsstring>
+        <name>prometheus_level</name>
+        <qualifiedname>bittensor._axon.axon_impl.Axon.prometheus_level</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_axon/axon_impl.py" line="112" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_axon/axon_impl.py" bodystart="112" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__axon_1_1axon__impl_1_1_axon_1a66f2e9f35f21b85dc3f6d99ab070fbf2" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._axon.axon_impl.Axon::stats</definition>
+        <argsstring></argsstring>
+        <name>stats</name>
+        <qualifiedname>bittensor._axon.axon_impl.Axon.stats</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_axon/axon_impl.py" line="113" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_axon/axon_impl.py" bodystart="113" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__axon_1_1axon__impl_1_1_axon_1ac70c73c7cd11a94f93b539e6175dccdd" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._axon.axon_impl.Axon::started</definition>
+        <argsstring></argsstring>
+        <name>started</name>
+        <qualifiedname>bittensor._axon.axon_impl.Axon.started</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_axon/axon_impl.py" line="114" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_axon/axon_impl.py" bodystart="114" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__axon_1_1axon__impl_1_1_axon_1ad7bade056e01bb1841b1bb0d7ce2ae52" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._axon.axon_impl.Axon::optimizer_step</definition>
+        <argsstring></argsstring>
+        <name>optimizer_step</name>
+        <qualifiedname>bittensor._axon.axon_impl.Axon.optimizer_step</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_axon/axon_impl.py" line="115" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_axon/axon_impl.py" bodystart="115" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__axon_1_1axon__impl_1_1_axon_1a74e47cfa3299310ed4a1d274be8db249" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._axon.axon_impl.Axon::priority</definition>
+        <argsstring></argsstring>
+        <name>priority</name>
+        <qualifiedname>bittensor._axon.axon_impl.Axon.priority</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_axon/axon_impl.py" line="120" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_axon/axon_impl.py" bodystart="120" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__axon_1_1axon__impl_1_1_axon_1a5612cc284d67a9a7e48ddd9ae1513f75" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._axon.axon_impl.Axon::priority_threadpool</definition>
+        <argsstring></argsstring>
+        <name>priority_threadpool</name>
+        <qualifiedname>bittensor._axon.axon_impl.Axon.priority_threadpool</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_axon/axon_impl.py" line="121" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_axon/axon_impl.py" bodystart="121" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classbittensor_1_1__axon_1_1axon__impl_1_1_axon_1aa1b4a6dae32c63b53eeb3c82411f9e61" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._axon.axon_impl.Axon::_prometheus_uuid</definition>
+        <argsstring></argsstring>
+        <name>_prometheus_uuid</name>
+        <qualifiedname>bittensor._axon.axon_impl.Axon._prometheus_uuid</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_axon/axon_impl.py" line="122" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_axon/axon_impl.py" bodystart="122" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classbittensor_1_1__axon_1_1axon__impl_1_1_axon_1ae26e7b802d3e514880155f6bc30e0929" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._axon.axon_impl.Axon.__init__</definition>
+        <argsstring>(self, &apos;bittensor.wallet&apos; wallet, str ip, int port, str external_ip, int external_port, &apos;grpc._Server&apos; server, &apos;Callable&apos; forward, &apos;Callable&apos; backward, dict synapses, &apos;Callable&apos; synapse_checks, dict synapse_timeouts, str prometheus_level, &apos;Callable&apos; priority=None, &apos;bittensor.prioritythreadpool&apos; priority_threadpool=None, int forward_timeout=None, int backward_timeout=None)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>bittensor._axon.axon_impl.Axon.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>&apos;<ref refid="classbittensor_1_1__wallet_1_1wallet" kindref="compound">bittensor.wallet</ref>&apos;</type>
+          <declname>wallet</declname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>ip</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>port</declname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>external_ip</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>external_port</declname>
+        </param>
+        <param>
+          <type>&apos;grpc._Server&apos;</type>
+          <declname>server</declname>
+        </param>
+        <param>
+          <type>&apos;Callable&apos;</type>
+          <declname>forward</declname>
+        </param>
+        <param>
+          <type>&apos;Callable&apos;</type>
+          <declname>backward</declname>
+        </param>
+        <param>
+          <type>dict</type>
+          <declname>synapses</declname>
+        </param>
+        <param>
+          <type>&apos;Callable&apos;</type>
+          <declname>synapse_checks</declname>
+        </param>
+        <param>
+          <type>dict</type>
+          <declname>synapse_timeouts</declname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>prometheus_level</declname>
+        </param>
+        <param>
+          <type>&apos;Callable&apos;</type>
+          <declname>priority</declname>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type>&apos;<ref refid="classbittensor_1_1__threadpool_1_1prioritythreadpool" kindref="compound">bittensor.prioritythreadpool</ref>&apos;</type>
+          <declname>priority_threadpool</declname>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>forward_timeout</declname>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>backward_timeout</declname>
+          <defval>None</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Initializes a new Axon tensor processing endpoint.
+        
+        Args:
+            config (:obj:`bittensor.Config`, `required`): 
+                bittensor.axon.config()
+            wallet (:obj:`bittensor.wallet`, `required`):
+                bittensor wallet with hotkey and coldkeypub.
+            server (:obj:`grpc._Server`, `required`):
+                Grpc server endpoint.
+            forward (:obj:list of `callable`, `optional`):
+                list of functions which is called on forward requests.
+            backward (:obj:list of `callable`, `optional`):
+                list of functions which is called on backward requests.
+            prometheus_level (:obj:`str`, `required`):
+                Prometheus logging level.
+            priority (:obj:`callable`, `optional`):
+                function to assign priority on requests.
+            priority_threadpool (:obj:`bittensor.prioritythreadpool`, `optional`):
+                bittensor priority_threadpool.</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_axon/axon_impl.py" line="60" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_axon/axon_impl.py" bodystart="78" bodyend="123"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__axon_1_1axon__impl_1_1_axon_1a7488fa71cd70daf3e8bec2d1a5b6a4de" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str bittensor._axon.axon_impl.Axon.__str__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__str__</name>
+        <qualifiedname>bittensor._axon.axon_impl.Axon.__str__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_axon/axon_impl.py" line="124" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_axon/axon_impl.py" bodystart="124" bodyend="126"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__axon_1_1axon__impl_1_1_axon_1a042feb2c129dfc130363217cff2674d4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str bittensor._axon.axon_impl.Axon.__repr__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__repr__</name>
+        <qualifiedname>bittensor._axon.axon_impl.Axon.__repr__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_axon/axon_impl.py" line="127" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_axon/axon_impl.py" bodystart="127" bodyend="129"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__axon_1_1axon__impl_1_1_axon_1a5a5e5a8ee71fd9038bf83f7a0ac5ddec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bittensor.proto.TensorMessage</type>
+        <definition> bittensor.proto.TensorMessage bittensor._axon.axon_impl.Axon.Forward</definition>
+        <argsstring>(self, bittensor.proto.TensorMessage request, grpc.ServicerContext context)</argsstring>
+        <name>Forward</name>
+        <qualifiedname>bittensor._axon.axon_impl.Axon.Forward</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>bittensor.proto.TensorMessage</type>
+          <declname>request</declname>
+        </param>
+        <param>
+          <type>grpc.ServicerContext</type>
+          <declname>context</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> The function called by remote GRPC Forward requests from other neurons.
+    Forward is equivalent to a &apos;forward&apos; pass through a neural network.
+    After checking request validity, this function passes the request to the nucleus for processing.
+    See :obj:`bittensor.proto.ReturnCode` for all possible return codes.
+    
+    Args:
+        request (:obj:`bittensor.proto`, `required`): 
+            Tensor request proto.
+        context (:obj:`grpc.ServicerContext`, `required`): 
+            grpc server context.
+    
+    Returns:
+        response (bittensor.proto.TensorMessage): 
+            proto response carring the nucleus forward output or None under failure.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_axon/axon_impl.py" line="130" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_axon/axon_impl.py" bodystart="130" bodyend="156"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__axon_1_1axon__impl_1_1_axon_1acc5703beb6b5d5be24f7f7ecdd744f3e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bittensor.proto.TensorMessage</type>
+        <definition> bittensor.proto.TensorMessage bittensor._axon.axon_impl.Axon.Backward</definition>
+        <argsstring>(self, bittensor.proto.TensorMessage request, grpc.ServicerContext context)</argsstring>
+        <name>Backward</name>
+        <qualifiedname>bittensor._axon.axon_impl.Axon.Backward</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>bittensor.proto.TensorMessage</type>
+          <declname>request</declname>
+        </param>
+        <param>
+          <type>grpc.ServicerContext</type>
+          <declname>context</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> The function called by remote GRPC Backward requests from other neurons.
+    Backward is equivalent to a &apos;backward&apos; gradient descent pass through a neural network.
+    After checking request validity, passes the request to the nucleus for processing.
+    See :obj:`bittensor.proto.ReturnCode` for all possible return codes.
+    
+    Args:
+        request (:obj:`bittensor.proto`, `required`): 
+            Tensor request proto.
+        context (:obj:`grpc.ServicerContext`, `required`): 
+            grpc server context.
+    
+    Returns:
+        response (:obj:`bittensor.proto.TensorMessage`): 
+            proto response carring the nucleus backward output or None under failure.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_axon/axon_impl.py" line="157" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_axon/axon_impl.py" bodystart="157" bodyend="183"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__axon_1_1axon__impl_1_1_axon_1aeb7638fed309a59fa8e464412f53ca2d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._axon.axon_impl.Axon.default_forward_callback</definition>
+        <argsstring>(self, torch.FloatTensor inputs_x, synapses=[], hotkey=None)</argsstring>
+        <name>default_forward_callback</name>
+        <qualifiedname>bittensor._axon.axon_impl.Axon.default_forward_callback</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>torch.FloatTensor</type>
+          <declname>inputs_x</declname>
+        </param>
+        <param>
+          <type>synapses</type>
+          <defname>synapses</defname>
+          <defval>[]</defval>
+        </param>
+        <param>
+          <type>hotkey</type>
+          <defname>hotkey</defname>
+          <defval>None</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>    The default forward callback when no callback is attached: Is used to call specific synapse functions
+
+    Args:
+        inputs_x (:obj:`torch.FloatTensor`, `required`): 
+            The inputs that will be passed to the synapse functions
+        
+        synapses (:obj: list of bittensor.proto.SynapseArgs, &apos;Optional&apos;)
+            The proto message that contains additional args for individual synapse functions
+
+        hotkey (:obj: str of the hotkey, &apos;Optional&apos;)
+            The hotkey of the validator who sent the request
+
+    Returns:
+        response_tensors: (:obj: list of bittensor.proto.Tensor, `required`): 
+            serialized tensor response from the nucleus call or None.
+        response_codes: (:obj: list of bittensor.proto.ReturnCode, `required`)
+            return code associated with forward call i.e. Success of Timeout.
+        response_messages: (:obj: list of strings, `required`)
+            return message associated with synapse call
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_axon/axon_impl.py" line="630" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_axon/axon_impl.py" bodystart="630" bodyend="686"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__axon_1_1axon__impl_1_1_axon_1af83a7aa148ab6b2cb77ad3adcdba75c3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._axon.axon_impl.Axon.default_backward_callback</definition>
+        <argsstring>(self, torch.FloatTensor inputs_x, torch.FloatTensor grads_dy, synapses=[])</argsstring>
+        <name>default_backward_callback</name>
+        <qualifiedname>bittensor._axon.axon_impl.Axon.default_backward_callback</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>torch.FloatTensor</type>
+          <declname>inputs_x</declname>
+        </param>
+        <param>
+          <type>torch.FloatTensor</type>
+          <declname>grads_dy</declname>
+        </param>
+        <param>
+          <type>synapses</type>
+          <defname>synapses</defname>
+          <defval>[]</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>    The default backward callback when no callback is attached: Is used to call specific synapse functions
+
+    Args:
+        inputs_x (:obj:`torch.FloatTensor`, `required`): 
+            The inputs that will be passed to the synapse functions
+        grads_dy (:obj:`torch.FloatTensor`, `required`):
+            The gradients that will be passed to the synapse functions
+        synapses (:obj: list of bittensor.proto.SynapseArgs, &apos;Optional&apos;)
+            The proto message that contains additional args for individual synapse functions
+
+    Returns:
+        response_tensors: (:obj: list of bittensor.proto.Tensor, `required`): 
+            serialized tensor response from the nucleus call or None.
+        response_codes: (:obj: list of bittensor.proto.ReturnCode, `required`)
+            return code associated with forward call i.e. Success of Timeout.
+        response_messages: (:obj: list of strings, `required`)
+            return message associated with synapse call
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_axon/axon_impl.py" line="687" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_axon/axon_impl.py" bodystart="687" bodyend="740"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__axon_1_1axon__impl_1_1_axon_1a0db9616b2dc78f8f9bfbede01ca9a76b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._axon.axon_impl.Axon.attach_forward_callback</definition>
+        <argsstring>(self, Callable[[str, torch.Tensor, int], torch.Tensor] forward_callback)</argsstring>
+        <name>attach_forward_callback</name>
+        <qualifiedname>bittensor._axon.axon_impl.Axon.attach_forward_callback</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>Callable</type>
+          <defname>forward_callback</defname>
+          <array>[[str, torch.Tensor, int]</array>
+        </param>
+        <param>
+          <type>torch.Tensor]</type>
+          <declname>forward_callback</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Assigns the forward_callback.
+
+    Returns:
+        forward_callback (:callabl:`Callable[ [str, torch.Tensor, int], torch.Tensor `, `required`): 
+            Forward function called on recieving a forward request.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_axon/axon_impl.py" line="741" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_axon/axon_impl.py" bodystart="741" bodyend="750"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__axon_1_1axon__impl_1_1_axon_1a6d1de6240ebbaf7fffc0d109f67929f0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._axon.axon_impl.Axon.attach_synapse_callback</definition>
+        <argsstring>(self, Callable[[str, torch.Tensor, int], torch.Tensor] synapse_callback, synapse_type)</argsstring>
+        <name>attach_synapse_callback</name>
+        <qualifiedname>bittensor._axon.axon_impl.Axon.attach_synapse_callback</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>Callable</type>
+          <defname>synapse_callback</defname>
+          <array>[[str, torch.Tensor, int]</array>
+        </param>
+        <param>
+          <type>torch.Tensor]</type>
+          <declname>synapse_callback</declname>
+          <defname>synapse_type</defname>
+        </param>
+        <param>
+          <type>synapse_type</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Assigns the callback to a specific synapse.
+
+    Args:
+        synapse_callback (:callabl:`Callable[ [str, torch.Tensor, int], torch.Tensor `, `required`): 
+            function called for a specific synapse.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_axon/axon_impl.py" line="751" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_axon/axon_impl.py" bodystart="751" bodyend="759"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__axon_1_1axon__impl_1_1_axon_1a97de5de0089fe20331aaf0fb3f100475" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._axon.axon_impl.Axon.attach_backward_callback</definition>
+        <argsstring>(self, Callable[[str, torch.Tensor, torch.Tensor, int], torch.Tensor] backward_callback)</argsstring>
+        <name>attach_backward_callback</name>
+        <qualifiedname>bittensor._axon.axon_impl.Axon.attach_backward_callback</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>Callable</type>
+          <defname>backward_callback</defname>
+          <array>[[str, torch.Tensor, torch.Tensor, int]</array>
+        </param>
+        <param>
+          <type>torch.Tensor]</type>
+          <declname>backward_callback</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Assigns the backward_callback call to this neuron.
+
+    Returns:
+        backward_callback (:callabl:`Callable[ [torch.Tensor, torch.Tensor], torch.Tensor `, `required`): 
+             Backward callback called on recieving a backward request.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_axon/axon_impl.py" line="760" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_axon/axon_impl.py" bodystart="760" bodyend="769"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__axon_1_1axon__impl_1_1_axon_1a0cbb67c54b3c01198a71c91b6bd37709" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._axon.axon_impl.Axon.__del__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__del__</name>
+        <qualifiedname>bittensor._axon.axon_impl.Axon.__del__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Called when this axon is deleted, ensures background threads shut down properly.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_axon/axon_impl.py" line="770" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_axon/axon_impl.py" bodystart="770" bodyend="774"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__axon_1_1axon__impl_1_1_axon_1afd2275e5a1dd116d606f20194792e3fd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type> &apos;<ref refid="classbittensor_1_1__axon_1_1axon__impl_1_1_axon" kindref="compound">Axon</ref>&apos;</type>
+        <definition> &apos;Axon&apos; bittensor._axon.axon_impl.Axon.serve</definition>
+        <argsstring>(self, bool use_upnpc=False, &apos;bittensor.Subtensor&apos; subtensor=None, str network=None, str chain_endpoint=None, bool prompt=False)</argsstring>
+        <name>serve</name>
+        <qualifiedname>bittensor._axon.axon_impl.Axon.serve</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>use_upnpc</declname>
+          <defval>False</defval>
+        </param>
+        <param>
+          <type>&apos;<ref refid="classbittensor_1_1__subtensor_1_1subtensor__impl_1_1_subtensor" kindref="compound">bittensor.Subtensor</ref>&apos;</type>
+          <declname>subtensor</declname>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>network</declname>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>chain_endpoint</declname>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>prompt</declname>
+          <defval>False</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Subscribes this Axon servicing endpoint to the passed network using it&apos;s wallet.
+    Args:
+        use_upnpc (:type:bool, `optional`): 
+            If true, serves the axon attempts port forward through your router before 
+            subscribing.
+        subtensor (:obj:`bittensor.Subtensor`, `optional`): 
+            Chain connection through which to serve.
+        network (default=&apos;local&apos;, type=str)
+            If subtensor is not set, uses this network flag to create the subtensor connection.
+        chain_endpoint (default=None, type=str)
+            Overrides the network argument if not set.
+        prompt (bool):
+            If true, the call waits for confirmation from the user before proceeding.</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_axon/axon_impl.py" line="775" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_axon/axon_impl.py" bodystart="782" bodyend="803"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__axon_1_1axon__impl_1_1_axon_1a14cd3634239dfa4ff55545ad06e58d94" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type> &apos;<ref refid="classbittensor_1_1__axon_1_1axon__impl_1_1_axon" kindref="compound">Axon</ref>&apos;</type>
+        <definition> &apos;Axon&apos; bittensor._axon.axon_impl.Axon.start</definition>
+        <argsstring>(self)</argsstring>
+        <name>start</name>
+        <qualifiedname>bittensor._axon.axon_impl.Axon.start</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Starts the standalone axon GRPC server thread.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_axon/axon_impl.py" line="804" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_axon/axon_impl.py" bodystart="804" bodyend="820"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__axon_1_1axon__impl_1_1_axon_1a26628e7f324a051d11992b448fb41697" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type> &apos;<ref refid="classbittensor_1_1__axon_1_1axon__impl_1_1_axon" kindref="compound">Axon</ref>&apos;</type>
+        <definition> &apos;Axon&apos; bittensor._axon.axon_impl.Axon.stop</definition>
+        <argsstring>(self)</argsstring>
+        <name>stop</name>
+        <qualifiedname>bittensor._axon.axon_impl.Axon.stop</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Stop the axon grpc server.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_axon/axon_impl.py" line="821" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_axon/axon_impl.py" bodystart="821" bodyend="834"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__axon_1_1axon__impl_1_1_axon_1af18aff445eeb45edd5ecfc07a2a8d486" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._axon.axon_impl.Axon.check</definition>
+        <argsstring>(self)</argsstring>
+        <name>check</name>
+        <qualifiedname>bittensor._axon.axon_impl.Axon.check</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Checks axon&apos;s forward and backward callbacks 
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_axon/axon_impl.py" line="835" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_axon/axon_impl.py" bodystart="835" bodyend="845"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__axon_1_1axon__impl_1_1_axon_1a2b1e0f757a3ab4fa12e3d0d14f31fcd2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._axon.axon_impl.Axon.update_stats_for_request</definition>
+        <argsstring>(self, request, response, time, code)</argsstring>
+        <name>update_stats_for_request</name>
+        <qualifiedname>bittensor._axon.axon_impl.Axon.update_stats_for_request</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>request</type>
+          <defname>request</defname>
+        </param>
+        <param>
+          <type>response</type>
+          <defname>response</defname>
+        </param>
+        <param>
+          <type>time</type>
+          <defname>time</defname>
+        </param>
+        <param>
+          <type>code</type>
+          <defname>code</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Updates statistics for this request and response.
+        Args:
+            requests ( bittensor.proto.TensorMessage, `required`):
+                The request.
+            response ( bittensor.proto.TensorMessage, `required`):
+                The response.
+            time (:type:`float`, `required`):
+                Length of call in seconds.
+            code (:obj:`bittensor.proto.ReturnCode, `required`)
+                Return code associated with the call i.e. Success of Timeout.</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_axon/axon_impl.py" line="877" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_axon/axon_impl.py" bodystart="877" bodyend="917"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__axon_1_1axon__impl_1_1_axon_1ad884f50599b221c68ca92c012453f041" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._axon.axon_impl.Axon.to_dataframe</definition>
+        <argsstring>(self, metagraph)</argsstring>
+        <name>to_dataframe</name>
+        <qualifiedname>bittensor._axon.axon_impl.Axon.to_dataframe</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classbittensor_1_1__metagraph_1_1metagraph" kindref="compound">metagraph</ref></type>
+          <defname>metagraph</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Return a stats info as a pandas dataframe indexed by the metagraph or pubkey if not existend.
+    Args:
+        metagraph: (bittensor.Metagraph):
+            Indexes the stats data using uids.
+    Return:
+        dataframe (:obj:`pandas.Dataframe`)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_axon/axon_impl.py" line="918" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_axon/axon_impl.py" bodystart="918" bodyend="948"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__axon_1_1axon__impl_1_1_axon_1a2dff79ece41fbfb43286460c76fcad67" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._axon.axon_impl.Axon.to_wandb</definition>
+        <argsstring>(self)</argsstring>
+        <name>to_wandb</name>
+        <qualifiedname>bittensor._axon.axon_impl.Axon.to_wandb</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Return a dictionary of axon stat info for wandb logging
+Args:
+metagraph: (bittensor.Metagraph):
+If not None, indexes the wandb data using int uids rather than string pubkeys.
+Return:
+wandb_info (:obj:`Dict`)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_axon/axon_impl.py" line="949" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_axon/axon_impl.py" bodystart="949" bodyend="975"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classbittensor_1_1__axon_1_1axon__impl_1_1_axon_1a9e9ad24a48f3fd77dfedc6ea1c175485" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._axon.axon_impl.Axon._forward</definition>
+        <argsstring>(self, request)</argsstring>
+        <name>_forward</name>
+        <qualifiedname>bittensor._axon.axon_impl.Axon._forward</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>request</type>
+          <defname>request</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Performs validity checks on the grpc request before passing the tensors to the forward queue.
+    Returns the outputs and synapses from the backend forward call.
+    
+    Args:
+        request (:obj:`bittensor.proto`, `required`): 
+            Tensor request proto.
+    Returns:
+        response (:obj:`bittensor.proto.Tensor, `required`): 
+            serialized tensor response from the nucleus call or None.
+        code (:obj:`bittensor.proto.ReturnCode`, `required`):
+            Code from the call. This specifies if the overall function call was a success. 
+            This is separate from the synapse returns codes which relate to the individual synapse call. 
+        synapses (:obj:`List[ &apos;bittensor.proto.Synapse&apos; ]` of shape :obj:`(num_synapses)`, `required`):
+            Synapse wire protos with return codes from forward request.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_axon/axon_impl.py" line="184" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_axon/axon_impl.py" bodystart="184" bodyend="418"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__axon_1_1axon__impl_1_1_axon_1a86ed1f0b91bc07dabcffad70287d885b" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._axon.axon_impl.Axon._backward</definition>
+        <argsstring>(self, request)</argsstring>
+        <name>_backward</name>
+        <qualifiedname>bittensor._axon.axon_impl.Axon._backward</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>request</type>
+          <defname>request</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Performs validity checks on the grpc request before piping the request to the backend queue.
+    Returns the outputs and synapses (with codes and messages from the backward call.)
+    Args:
+        request (:obj:`bittensor.proto`, `required`): 
+            Tensor request proto.
+    Returns:
+        response: (:obj:`bittensor.proto.Tensor, `required`): 
+            serialized tensor gradient responses. This is always an empty vector until gradients are allowed.
+        code (:obj:`bittensor.proto.ReturnCode`, `required`):
+            Code from the call. This specifies if the overall function call was a success. 
+            This is separate from the synapse returns codes which relate to the individual synapse call. 
+        synapses (:obj:`List[ &apos;bittensor.proto.Synapse&apos; ]` of shape :obj:`(num_synapses)`, `required`):
+            Synapse wire protos with return codes from forward request.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_axon/axon_impl.py" line="419" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_axon/axon_impl.py" bodystart="419" bodyend="629"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__axon_1_1axon__impl_1_1_axon_1a045773cfd3db614be3fb3e8af826c12a" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._axon.axon_impl.Axon._init_stats</definition>
+        <argsstring>(self)</argsstring>
+        <name>_init_stats</name>
+        <qualifiedname>bittensor._axon.axon_impl.Axon._init_stats</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_axon/axon_impl.py" line="846" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_axon/axon_impl.py" bodystart="846" bodyend="875"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim> Services Forward and Backward requests from other neurons.
+</verbatim> </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>bittensor._axon.axon_impl.Axon</label>
+        <link refid="classbittensor_1_1__axon_1_1axon__impl_1_1_axon"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>bittensor::grpc::BittensorServicer</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>bittensor._axon.axon_impl.Axon</label>
+        <link refid="classbittensor_1_1__axon_1_1axon__impl_1_1_axon"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>bittensor::grpc::BittensorServicer</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/macthrasher/bittensor/bittensor/_axon/axon_impl.py" line="57" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_axon/axon_impl.py" bodystart="57" bodyend="975"/>
+    <listofallmembers>
+      <member refid="classbittensor_1_1__axon_1_1axon__impl_1_1_axon_1a0cbb67c54b3c01198a71c91b6bd37709" prot="public" virt="non-virtual"><scope>bittensor::_axon::axon_impl::Axon</scope><name>__del__</name></member>
+      <member refid="classbittensor_1_1__axon_1_1axon__impl_1_1_axon_1ae26e7b802d3e514880155f6bc30e0929" prot="public" virt="non-virtual"><scope>bittensor::_axon::axon_impl::Axon</scope><name>__init__</name></member>
+      <member refid="classbittensor_1_1__axon_1_1axon__impl_1_1_axon_1a042feb2c129dfc130363217cff2674d4" prot="public" virt="non-virtual"><scope>bittensor::_axon::axon_impl::Axon</scope><name>__repr__</name></member>
+      <member refid="classbittensor_1_1__axon_1_1axon__impl_1_1_axon_1a7488fa71cd70daf3e8bec2d1a5b6a4de" prot="public" virt="non-virtual"><scope>bittensor::_axon::axon_impl::Axon</scope><name>__str__</name></member>
+      <member refid="classbittensor_1_1__axon_1_1axon__impl_1_1_axon_1a86ed1f0b91bc07dabcffad70287d885b" prot="protected" virt="non-virtual"><scope>bittensor::_axon::axon_impl::Axon</scope><name>_backward</name></member>
+      <member refid="classbittensor_1_1__axon_1_1axon__impl_1_1_axon_1a9e9ad24a48f3fd77dfedc6ea1c175485" prot="protected" virt="non-virtual"><scope>bittensor::_axon::axon_impl::Axon</scope><name>_forward</name></member>
+      <member refid="classbittensor_1_1__axon_1_1axon__impl_1_1_axon_1a045773cfd3db614be3fb3e8af826c12a" prot="protected" virt="non-virtual"><scope>bittensor::_axon::axon_impl::Axon</scope><name>_init_stats</name></member>
+      <member refid="classbittensor_1_1__axon_1_1axon__impl_1_1_axon_1aa1b4a6dae32c63b53eeb3c82411f9e61" prot="protected" virt="non-virtual"><scope>bittensor::_axon::axon_impl::Axon</scope><name>_prometheus_uuid</name></member>
+      <member refid="classbittensor_1_1__axon_1_1axon__impl_1_1_axon_1a97de5de0089fe20331aaf0fb3f100475" prot="public" virt="non-virtual"><scope>bittensor::_axon::axon_impl::Axon</scope><name>attach_backward_callback</name></member>
+      <member refid="classbittensor_1_1__axon_1_1axon__impl_1_1_axon_1a0db9616b2dc78f8f9bfbede01ca9a76b" prot="public" virt="non-virtual"><scope>bittensor::_axon::axon_impl::Axon</scope><name>attach_forward_callback</name></member>
+      <member refid="classbittensor_1_1__axon_1_1axon__impl_1_1_axon_1a6d1de6240ebbaf7fffc0d109f67929f0" prot="public" virt="non-virtual"><scope>bittensor::_axon::axon_impl::Axon</scope><name>attach_synapse_callback</name></member>
+      <member refid="classbittensor_1_1__axon_1_1axon__impl_1_1_axon_1acc5703beb6b5d5be24f7f7ecdd744f3e" prot="public" virt="non-virtual"><scope>bittensor::_axon::axon_impl::Axon</scope><name>Backward</name></member>
+      <member refid="classbittensor_1_1__axon_1_1axon__impl_1_1_axon_1a2c96cc8208446ca2a3564701bf41e67b" prot="public" virt="non-virtual"><scope>bittensor::_axon::axon_impl::Axon</scope><name>backward_callback</name></member>
+      <member refid="classbittensor_1_1__axon_1_1axon__impl_1_1_axon_1a983910e2dec663cc4f6dd9a360c9ed20" prot="public" virt="non-virtual"><scope>bittensor::_axon::axon_impl::Axon</scope><name>backward_timeout</name></member>
+      <member refid="classbittensor_1_1__axon_1_1axon__impl_1_1_axon_1af18aff445eeb45edd5ecfc07a2a8d486" prot="public" virt="non-virtual"><scope>bittensor::_axon::axon_impl::Axon</scope><name>check</name></member>
+      <member refid="classbittensor_1_1__axon_1_1axon__impl_1_1_axon_1af83a7aa148ab6b2cb77ad3adcdba75c3" prot="public" virt="non-virtual"><scope>bittensor::_axon::axon_impl::Axon</scope><name>default_backward_callback</name></member>
+      <member refid="classbittensor_1_1__axon_1_1axon__impl_1_1_axon_1aeb7638fed309a59fa8e464412f53ca2d" prot="public" virt="non-virtual"><scope>bittensor::_axon::axon_impl::Axon</scope><name>default_forward_callback</name></member>
+      <member refid="classbittensor_1_1__axon_1_1axon__impl_1_1_axon_1a0b5a02653940225229700fcafdc5ad67" prot="public" virt="non-virtual"><scope>bittensor::_axon::axon_impl::Axon</scope><name>external_ip</name></member>
+      <member refid="classbittensor_1_1__axon_1_1axon__impl_1_1_axon_1a925d4292bd65e6419610ddb24dc8c9a9" prot="public" virt="non-virtual"><scope>bittensor::_axon::axon_impl::Axon</scope><name>external_port</name></member>
+      <member refid="classbittensor_1_1__axon_1_1axon__impl_1_1_axon_1a5a5e5a8ee71fd9038bf83f7a0ac5ddec" prot="public" virt="non-virtual"><scope>bittensor::_axon::axon_impl::Axon</scope><name>Forward</name></member>
+      <member refid="classbittensor_1_1__axon_1_1axon__impl_1_1_axon_1a961a4c900afba0941aa37b0143629494" prot="public" virt="non-virtual"><scope>bittensor::_axon::axon_impl::Axon</scope><name>forward_callback</name></member>
+      <member refid="classbittensor_1_1__axon_1_1axon__impl_1_1_axon_1a57a1b659ab9f6a9613c7780108fc6c7e" prot="public" virt="non-virtual"><scope>bittensor::_axon::axon_impl::Axon</scope><name>forward_timeout</name></member>
+      <member refid="classbittensor_1_1__axon_1_1axon__impl_1_1_axon_1a6cb60d31a29f1264dddd761eff914e9c" prot="public" virt="non-virtual"><scope>bittensor::_axon::axon_impl::Axon</scope><name>ip</name></member>
+      <member refid="classbittensor_1_1__axon_1_1axon__impl_1_1_axon_1ad7bade056e01bb1841b1bb0d7ce2ae52" prot="public" virt="non-virtual"><scope>bittensor::_axon::axon_impl::Axon</scope><name>optimizer_step</name></member>
+      <member refid="classbittensor_1_1__axon_1_1axon__impl_1_1_axon_1a495ee94db558d43cd783653bd6a794f3" prot="public" virt="non-virtual"><scope>bittensor::_axon::axon_impl::Axon</scope><name>port</name></member>
+      <member refid="classbittensor_1_1__axon_1_1axon__impl_1_1_axon_1a74e47cfa3299310ed4a1d274be8db249" prot="public" virt="non-virtual"><scope>bittensor::_axon::axon_impl::Axon</scope><name>priority</name></member>
+      <member refid="classbittensor_1_1__axon_1_1axon__impl_1_1_axon_1a5612cc284d67a9a7e48ddd9ae1513f75" prot="public" virt="non-virtual"><scope>bittensor::_axon::axon_impl::Axon</scope><name>priority_threadpool</name></member>
+      <member refid="classbittensor_1_1__axon_1_1axon__impl_1_1_axon_1a11d3d3007095ab6a786686709487d4ea" prot="public" virt="non-virtual"><scope>bittensor::_axon::axon_impl::Axon</scope><name>prometheus_level</name></member>
+      <member refid="classbittensor_1_1__axon_1_1axon__impl_1_1_axon_1afd2275e5a1dd116d606f20194792e3fd" prot="public" virt="non-virtual"><scope>bittensor::_axon::axon_impl::Axon</scope><name>serve</name></member>
+      <member refid="classbittensor_1_1__axon_1_1axon__impl_1_1_axon_1a920ed8e7fc5a71ee32f1a0ca5eadb389" prot="public" virt="non-virtual"><scope>bittensor::_axon::axon_impl::Axon</scope><name>server</name></member>
+      <member refid="classbittensor_1_1__axon_1_1axon__impl_1_1_axon_1a14cd3634239dfa4ff55545ad06e58d94" prot="public" virt="non-virtual"><scope>bittensor::_axon::axon_impl::Axon</scope><name>start</name></member>
+      <member refid="classbittensor_1_1__axon_1_1axon__impl_1_1_axon_1ac70c73c7cd11a94f93b539e6175dccdd" prot="public" virt="non-virtual"><scope>bittensor::_axon::axon_impl::Axon</scope><name>started</name></member>
+      <member refid="classbittensor_1_1__axon_1_1axon__impl_1_1_axon_1a66f2e9f35f21b85dc3f6d99ab070fbf2" prot="public" virt="non-virtual"><scope>bittensor::_axon::axon_impl::Axon</scope><name>stats</name></member>
+      <member refid="classbittensor_1_1__axon_1_1axon__impl_1_1_axon_1a26628e7f324a051d11992b448fb41697" prot="public" virt="non-virtual"><scope>bittensor::_axon::axon_impl::Axon</scope><name>stop</name></member>
+      <member refid="classbittensor_1_1__axon_1_1axon__impl_1_1_axon_1a8cbc3cca071799ea2329a109898a41cc" prot="public" virt="non-virtual"><scope>bittensor::_axon::axon_impl::Axon</scope><name>synapse_callbacks</name></member>
+      <member refid="classbittensor_1_1__axon_1_1axon__impl_1_1_axon_1a6b146bcf1d22f994ede30ad5f2e4c284" prot="public" virt="non-virtual"><scope>bittensor::_axon::axon_impl::Axon</scope><name>synapse_checks</name></member>
+      <member refid="classbittensor_1_1__axon_1_1axon__impl_1_1_axon_1a2bae7561960e52ff822fb6ac459f0554" prot="public" virt="non-virtual"><scope>bittensor::_axon::axon_impl::Axon</scope><name>synapse_timeouts</name></member>
+      <member refid="classbittensor_1_1__axon_1_1axon__impl_1_1_axon_1ad884f50599b221c68ca92c012453f041" prot="public" virt="non-virtual"><scope>bittensor::_axon::axon_impl::Axon</scope><name>to_dataframe</name></member>
+      <member refid="classbittensor_1_1__axon_1_1axon__impl_1_1_axon_1a2dff79ece41fbfb43286460c76fcad67" prot="public" virt="non-virtual"><scope>bittensor::_axon::axon_impl::Axon</scope><name>to_wandb</name></member>
+      <member refid="classbittensor_1_1__axon_1_1axon__impl_1_1_axon_1a2b1e0f757a3ab4fa12e3d0d14f31fcd2" prot="public" virt="non-virtual"><scope>bittensor::_axon::axon_impl::Axon</scope><name>update_stats_for_request</name></member>
+      <member refid="classbittensor_1_1__axon_1_1axon__impl_1_1_axon_1a67619a6c0020220785a6e1894daa3268" prot="public" virt="non-virtual"><scope>bittensor::_axon::axon_impl::Axon</scope><name>wallet</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,838 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="classbittensor_1_1utils_1_1balance_1_1_balance" kind="class" language="Python" prot="public">
+    <compoundname>bittensor::utils::balance::Balance</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classbittensor_1_1utils_1_1balance_1_1_balance_1a8bbf8ffbf081b1d53b3f58038f3a0833" prot="public" static="yes" mutable="no">
+        <type>str</type>
+        <definition>str bittensor.utils.balance.Balance::unit</definition>
+        <argsstring></argsstring>
+        <name>unit</name>
+        <qualifiedname>bittensor.utils.balance.Balance.unit</qualifiedname>
+        <initializer>=  &quot;\u03C4&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/balance.py" line="29" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/balance.py" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1utils_1_1balance_1_1_balance_1ae691c0edefb9c96c292ccba5dec8665d" prot="public" static="yes" mutable="no">
+        <type>str</type>
+        <definition>str bittensor.utils.balance.Balance::rao_unit</definition>
+        <argsstring></argsstring>
+        <name>rao_unit</name>
+        <qualifiedname>bittensor.utils.balance.Balance.rao_unit</qualifiedname>
+        <initializer>=  &quot;\u03C1&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/balance.py" line="30" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/balance.py" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1utils_1_1balance_1_1_balance_1a070d990967d2ea80b530db0006405d1b" prot="public" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int bittensor.utils.balance.Balance::rao</definition>
+        <argsstring></argsstring>
+        <name>rao</name>
+        <qualifiedname>bittensor.utils.balance.Balance.rao</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/balance.py" line="31" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/balance.py" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1utils_1_1balance_1_1_balance_1ab9c42c49682716a96b708021ffd2be66" prot="public" static="yes" mutable="no">
+        <type>float</type>
+        <definition>float bittensor.utils.balance.Balance::tao</definition>
+        <argsstring></argsstring>
+        <name>tao</name>
+        <qualifiedname>bittensor.utils.balance.Balance.tao</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/balance.py" line="32" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/balance.py" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classbittensor_1_1utils_1_1balance_1_1_balance_1a28498e83eb9326a37f739e0884ef2073" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor.utils.balance.Balance::rao</definition>
+        <argsstring></argsstring>
+        <name>rao</name>
+        <qualifiedname>bittensor.utils.balance.Balance.rao</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/balance.py" line="36" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/balance.py" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classbittensor_1_1utils_1_1balance_1_1_balance_1ac0695b6b51d0ae77f052c77aa6fe9ac1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor.utils.balance.Balance.__init__</definition>
+        <argsstring>(self, Union[int, float] balance)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>bittensor.utils.balance.Balance.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>Union</type>
+          <declname>balance</declname>
+          <array>[int, float]</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/balance.py" line="34" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/balance.py" bodystart="34" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1utils_1_1balance_1_1_balance_1abf4593516e5179e740f88612f6771fd4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor.utils.balance.Balance.tao</definition>
+        <argsstring>(self)</argsstring>
+        <name>tao</name>
+        <qualifiedname>bittensor.utils.balance.Balance.tao</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/balance.py" line="44" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/balance.py" bodystart="44" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1utils_1_1balance_1_1_balance_1a2ac035491605c882ae19a2347acd0f70" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor.utils.balance.Balance.__int__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__int__</name>
+        <qualifiedname>bittensor.utils.balance.Balance.__int__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/balance.py" line="47" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/balance.py" bodystart="47" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1utils_1_1balance_1_1_balance_1aff4076feb5fc02162e06ce31a05139aa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor.utils.balance.Balance.__float__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__float__</name>
+        <qualifiedname>bittensor.utils.balance.Balance.__float__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/balance.py" line="50" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/balance.py" bodystart="50" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1utils_1_1balance_1_1_balance_1a5a15b65858d6632ed4fbb6500fc4bcd5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor.utils.balance.Balance.__str__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__str__</name>
+        <qualifiedname>bittensor.utils.balance.Balance.__str__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/balance.py" line="53" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/balance.py" bodystart="53" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1utils_1_1balance_1_1_balance_1a1fa4886de1ad7fbd767dd776a5868ba3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor.utils.balance.Balance.__rich__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__rich__</name>
+        <qualifiedname>bittensor.utils.balance.Balance.__rich__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/balance.py" line="56" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/balance.py" bodystart="56" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1utils_1_1balance_1_1_balance_1ab3a42fd1631792180b512e735a876270" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor.utils.balance.Balance.__str_rao__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__str_rao__</name>
+        <qualifiedname>bittensor.utils.balance.Balance.__str_rao__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/balance.py" line="63" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/balance.py" bodystart="63" bodyend="65"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1utils_1_1balance_1_1_balance_1a92c82fa528ec406f4b50c57feb270d22" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor.utils.balance.Balance.__rich_rao__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__rich_rao__</name>
+        <qualifiedname>bittensor.utils.balance.Balance.__rich_rao__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/balance.py" line="66" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/balance.py" bodystart="66" bodyend="68"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1utils_1_1balance_1_1_balance_1a47c411f2ffd858f2e1f1809c475aefb4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor.utils.balance.Balance.__repr__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__repr__</name>
+        <qualifiedname>bittensor.utils.balance.Balance.__repr__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/balance.py" line="69" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/balance.py" bodystart="69" bodyend="71"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1utils_1_1balance_1_1_balance_1a37ff8d7c19c74417f12d9aa661a8566a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor.utils.balance.Balance.__eq__</definition>
+        <argsstring>(self, Union[int, float, &quot;Balance&quot;] other)</argsstring>
+        <name>__eq__</name>
+        <qualifiedname>bittensor.utils.balance.Balance.__eq__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>Union</type>
+          <declname>other</declname>
+          <array>[int, float, &quot;Balance&quot;]</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/balance.py" line="72" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/balance.py" bodystart="72" bodyend="85"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1utils_1_1balance_1_1_balance_1a4ce7acec36cff8b4ebe64d045b555d4f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor.utils.balance.Balance.__ne__</definition>
+        <argsstring>(self, Union[int, float, &quot;Balance&quot;] other)</argsstring>
+        <name>__ne__</name>
+        <qualifiedname>bittensor.utils.balance.Balance.__ne__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>Union</type>
+          <declname>other</declname>
+          <array>[int, float, &quot;Balance&quot;]</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/balance.py" line="86" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/balance.py" bodystart="86" bodyend="88"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1utils_1_1balance_1_1_balance_1a46b38a7a8b295bc0f08c029e36347ca4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor.utils.balance.Balance.__gt__</definition>
+        <argsstring>(self, Union[int, float, &quot;Balance&quot;] other)</argsstring>
+        <name>__gt__</name>
+        <qualifiedname>bittensor.utils.balance.Balance.__gt__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>Union</type>
+          <declname>other</declname>
+          <array>[int, float, &quot;Balance&quot;]</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/balance.py" line="89" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/balance.py" bodystart="89" bodyend="99"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1utils_1_1balance_1_1_balance_1aefbd30867a65fc684b614c9d6fc939e8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor.utils.balance.Balance.__lt__</definition>
+        <argsstring>(self, Union[int, float, &quot;Balance&quot;] other)</argsstring>
+        <name>__lt__</name>
+        <qualifiedname>bittensor.utils.balance.Balance.__lt__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>Union</type>
+          <declname>other</declname>
+          <array>[int, float, &quot;Balance&quot;]</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/balance.py" line="100" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/balance.py" bodystart="100" bodyend="110"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1utils_1_1balance_1_1_balance_1a59fdd41419af0262fb160f93d3b0cd19" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor.utils.balance.Balance.__le__</definition>
+        <argsstring>(self, Union[int, float, &quot;Balance&quot;] other)</argsstring>
+        <name>__le__</name>
+        <qualifiedname>bittensor.utils.balance.Balance.__le__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>Union</type>
+          <declname>other</declname>
+          <array>[int, float, &quot;Balance&quot;]</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/balance.py" line="111" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/balance.py" bodystart="111" bodyend="116"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1utils_1_1balance_1_1_balance_1a3c8f34882cfd2a2e50224a52540d5ea9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor.utils.balance.Balance.__ge__</definition>
+        <argsstring>(self, Union[int, float, &quot;Balance&quot;] other)</argsstring>
+        <name>__ge__</name>
+        <qualifiedname>bittensor.utils.balance.Balance.__ge__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>Union</type>
+          <declname>other</declname>
+          <array>[int, float, &quot;Balance&quot;]</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/balance.py" line="117" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/balance.py" bodystart="117" bodyend="122"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1utils_1_1balance_1_1_balance_1a7132669e20ec4ca8eb763a847f1f1c39" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor.utils.balance.Balance.__add__</definition>
+        <argsstring>(self, Union[int, float, &quot;Balance&quot;] other)</argsstring>
+        <name>__add__</name>
+        <qualifiedname>bittensor.utils.balance.Balance.__add__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>Union</type>
+          <declname>other</declname>
+          <array>[int, float, &quot;Balance&quot;]</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/balance.py" line="123" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/balance.py" bodystart="123" bodyend="132"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1utils_1_1balance_1_1_balance_1ae1641e40df909dec572dff0b28871993" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor.utils.balance.Balance.__radd__</definition>
+        <argsstring>(self, Union[int, float, &quot;Balance&quot;] other)</argsstring>
+        <name>__radd__</name>
+        <qualifiedname>bittensor.utils.balance.Balance.__radd__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>Union</type>
+          <declname>other</declname>
+          <array>[int, float, &quot;Balance&quot;]</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/balance.py" line="133" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/balance.py" bodystart="133" bodyend="138"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1utils_1_1balance_1_1_balance_1a44a0b54eca8b82375712ff94ac917b1c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor.utils.balance.Balance.__sub__</definition>
+        <argsstring>(self, Union[int, float, &quot;Balance&quot;] other)</argsstring>
+        <name>__sub__</name>
+        <qualifiedname>bittensor.utils.balance.Balance.__sub__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>Union</type>
+          <declname>other</declname>
+          <array>[int, float, &quot;Balance&quot;]</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/balance.py" line="139" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/balance.py" bodystart="139" bodyend="144"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1utils_1_1balance_1_1_balance_1ac8a587597b4b8ac7c00ab036546afd59" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor.utils.balance.Balance.__rsub__</definition>
+        <argsstring>(self, Union[int, float, &quot;Balance&quot;] other)</argsstring>
+        <name>__rsub__</name>
+        <qualifiedname>bittensor.utils.balance.Balance.__rsub__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>Union</type>
+          <declname>other</declname>
+          <array>[int, float, &quot;Balance&quot;]</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/balance.py" line="145" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/balance.py" bodystart="145" bodyend="150"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1utils_1_1balance_1_1_balance_1a65d43719469a35e402c1371ef18c9895" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor.utils.balance.Balance.__mul__</definition>
+        <argsstring>(self, Union[int, float, &quot;Balance&quot;] other)</argsstring>
+        <name>__mul__</name>
+        <qualifiedname>bittensor.utils.balance.Balance.__mul__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>Union</type>
+          <declname>other</declname>
+          <array>[int, float, &quot;Balance&quot;]</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/balance.py" line="151" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/balance.py" bodystart="151" bodyend="160"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1utils_1_1balance_1_1_balance_1a7ccc52cc450eafea4472a7cb8975556a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor.utils.balance.Balance.__rmul__</definition>
+        <argsstring>(self, Union[int, float, &quot;Balance&quot;] other)</argsstring>
+        <name>__rmul__</name>
+        <qualifiedname>bittensor.utils.balance.Balance.__rmul__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>Union</type>
+          <declname>other</declname>
+          <array>[int, float, &quot;Balance&quot;]</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/balance.py" line="161" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/balance.py" bodystart="161" bodyend="163"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1utils_1_1balance_1_1_balance_1a5b2dec25e4af512eca6183f3abc56473" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor.utils.balance.Balance.__truediv__</definition>
+        <argsstring>(self, Union[int, float, &quot;Balance&quot;] other)</argsstring>
+        <name>__truediv__</name>
+        <qualifiedname>bittensor.utils.balance.Balance.__truediv__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>Union</type>
+          <declname>other</declname>
+          <array>[int, float, &quot;Balance&quot;]</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/balance.py" line="164" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/balance.py" bodystart="164" bodyend="173"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1utils_1_1balance_1_1_balance_1a5d02abb23579f331754e877ba11c29a2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor.utils.balance.Balance.__rtruediv__</definition>
+        <argsstring>(self, Union[int, float, &quot;Balance&quot;] other)</argsstring>
+        <name>__rtruediv__</name>
+        <qualifiedname>bittensor.utils.balance.Balance.__rtruediv__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>Union</type>
+          <declname>other</declname>
+          <array>[int, float, &quot;Balance&quot;]</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/balance.py" line="174" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/balance.py" bodystart="174" bodyend="183"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1utils_1_1balance_1_1_balance_1a7566910a0288498e75f9b76c683b70b2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor.utils.balance.Balance.__floordiv__</definition>
+        <argsstring>(self, Union[int, float, &quot;Balance&quot;] other)</argsstring>
+        <name>__floordiv__</name>
+        <qualifiedname>bittensor.utils.balance.Balance.__floordiv__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>Union</type>
+          <declname>other</declname>
+          <array>[int, float, &quot;Balance&quot;]</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/balance.py" line="184" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/balance.py" bodystart="184" bodyend="193"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1utils_1_1balance_1_1_balance_1abc22042eee7a9e96d1cc45bd97d61205" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor.utils.balance.Balance.__rfloordiv__</definition>
+        <argsstring>(self, Union[int, float, &quot;Balance&quot;] other)</argsstring>
+        <name>__rfloordiv__</name>
+        <qualifiedname>bittensor.utils.balance.Balance.__rfloordiv__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>Union</type>
+          <declname>other</declname>
+          <array>[int, float, &quot;Balance&quot;]</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/balance.py" line="194" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/balance.py" bodystart="194" bodyend="203"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1utils_1_1balance_1_1_balance_1ab661cc3a63f986530fa29ea4a514b5e5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int bittensor.utils.balance.Balance.__int__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__int__</name>
+        <qualifiedname>bittensor.utils.balance.Balance.__int__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/balance.py" line="204" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/balance.py" bodystart="204" bodyend="206"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1utils_1_1balance_1_1_balance_1a1bfb3465b44286f0b2de3386d0c96f09" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float bittensor.utils.balance.Balance.__float__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__float__</name>
+        <qualifiedname>bittensor.utils.balance.Balance.__float__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/balance.py" line="207" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/balance.py" bodystart="207" bodyend="209"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1utils_1_1balance_1_1_balance_1a40e5ec8195661f8996a45b28e7ee3ed2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool bittensor.utils.balance.Balance.__nonzero__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__nonzero__</name>
+        <qualifiedname>bittensor.utils.balance.Balance.__nonzero__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/balance.py" line="210" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/balance.py" bodystart="210" bodyend="212"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1utils_1_1balance_1_1_balance_1a71ad1aae8a5dbf9330e388f0f0c27f45" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor.utils.balance.Balance.__neg__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__neg__</name>
+        <qualifiedname>bittensor.utils.balance.Balance.__neg__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/balance.py" line="213" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/balance.py" bodystart="213" bodyend="215"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1utils_1_1balance_1_1_balance_1a2c1b16a1783fc551d5a2cada3e7c5c62" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor.utils.balance.Balance.__pos__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__pos__</name>
+        <qualifiedname>bittensor.utils.balance.Balance.__pos__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/balance.py" line="216" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/balance.py" bodystart="216" bodyend="218"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1utils_1_1balance_1_1_balance_1a242ac34d088564d7fa83f9d379abe4c2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor.utils.balance.Balance.__abs__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__abs__</name>
+        <qualifiedname>bittensor.utils.balance.Balance.__abs__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/balance.py" line="219" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/balance.py" bodystart="219" bodyend="221"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classbittensor_1_1utils_1_1balance_1_1_balance_1a9cbd960a58d39fd68b951eff94a815e8" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor.utils.balance.Balance.from_float</definition>
+        <argsstring>(float amount)</argsstring>
+        <name>from_float</name>
+        <qualifiedname>bittensor.utils.balance.Balance.from_float</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>amount</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Given tao (float), return Balance object with rao(int) and tao(float), where rao = int(tao*pow(10,9))</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/balance.py" line="223" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/balance.py" bodystart="223" bodyend="227"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1utils_1_1balance_1_1_balance_1a82f0589178f0e9cb0a89af0bf0d7d664" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor.utils.balance.Balance.from_tao</definition>
+        <argsstring>(float amount)</argsstring>
+        <name>from_tao</name>
+        <qualifiedname>bittensor.utils.balance.Balance.from_tao</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>amount</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Given tao (float), return Balance object with rao(int) and tao(float), where rao = int(tao*pow(10,9))</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/balance.py" line="229" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/balance.py" bodystart="229" bodyend="233"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1utils_1_1balance_1_1_balance_1ae7748f7502b44dee17ca32477335943d" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor.utils.balance.Balance.from_rao</definition>
+        <argsstring>(int amount)</argsstring>
+        <name>from_rao</name>
+        <qualifiedname>bittensor.utils.balance.Balance.from_rao</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>amount</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Given rao (int), return Balance object with rao(int) and tao(float), where rao = int(tao*pow(10,9))</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/balance.py" line="235" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/balance.py" bodystart="235" bodyend="238"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Represents the bittensor balance of the wallet, stored as rao (int)
+The Balance object is immutable, and can be used as a number or as a string
+Can only guarantee that the balance is accurate to 9 decimal places (tao)
+
+Note: In operations between Balance and int/float, the other value is assumed to be in rao
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/Users/macthrasher/bittensor/bittensor/utils/balance.py" line="20" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/balance.py" bodystart="20" bodyend="238"/>
+    <listofallmembers>
+      <member refid="classbittensor_1_1utils_1_1balance_1_1_balance_1a242ac34d088564d7fa83f9d379abe4c2" prot="public" virt="non-virtual"><scope>bittensor::utils::balance::Balance</scope><name>__abs__</name></member>
+      <member refid="classbittensor_1_1utils_1_1balance_1_1_balance_1a7132669e20ec4ca8eb763a847f1f1c39" prot="public" virt="non-virtual"><scope>bittensor::utils::balance::Balance</scope><name>__add__</name></member>
+      <member refid="classbittensor_1_1utils_1_1balance_1_1_balance_1a37ff8d7c19c74417f12d9aa661a8566a" prot="public" virt="non-virtual"><scope>bittensor::utils::balance::Balance</scope><name>__eq__</name></member>
+      <member refid="classbittensor_1_1utils_1_1balance_1_1_balance_1aff4076feb5fc02162e06ce31a05139aa" prot="public" virt="non-virtual"><scope>bittensor::utils::balance::Balance</scope><name>__float__</name></member>
+      <member refid="classbittensor_1_1utils_1_1balance_1_1_balance_1a1bfb3465b44286f0b2de3386d0c96f09" prot="public" virt="non-virtual"><scope>bittensor::utils::balance::Balance</scope><name>__float__</name></member>
+      <member refid="classbittensor_1_1utils_1_1balance_1_1_balance_1a7566910a0288498e75f9b76c683b70b2" prot="public" virt="non-virtual"><scope>bittensor::utils::balance::Balance</scope><name>__floordiv__</name></member>
+      <member refid="classbittensor_1_1utils_1_1balance_1_1_balance_1a3c8f34882cfd2a2e50224a52540d5ea9" prot="public" virt="non-virtual"><scope>bittensor::utils::balance::Balance</scope><name>__ge__</name></member>
+      <member refid="classbittensor_1_1utils_1_1balance_1_1_balance_1a46b38a7a8b295bc0f08c029e36347ca4" prot="public" virt="non-virtual"><scope>bittensor::utils::balance::Balance</scope><name>__gt__</name></member>
+      <member refid="classbittensor_1_1utils_1_1balance_1_1_balance_1ac0695b6b51d0ae77f052c77aa6fe9ac1" prot="public" virt="non-virtual"><scope>bittensor::utils::balance::Balance</scope><name>__init__</name></member>
+      <member refid="classbittensor_1_1utils_1_1balance_1_1_balance_1a2ac035491605c882ae19a2347acd0f70" prot="public" virt="non-virtual"><scope>bittensor::utils::balance::Balance</scope><name>__int__</name></member>
+      <member refid="classbittensor_1_1utils_1_1balance_1_1_balance_1ab661cc3a63f986530fa29ea4a514b5e5" prot="public" virt="non-virtual"><scope>bittensor::utils::balance::Balance</scope><name>__int__</name></member>
+      <member refid="classbittensor_1_1utils_1_1balance_1_1_balance_1a59fdd41419af0262fb160f93d3b0cd19" prot="public" virt="non-virtual"><scope>bittensor::utils::balance::Balance</scope><name>__le__</name></member>
+      <member refid="classbittensor_1_1utils_1_1balance_1_1_balance_1aefbd30867a65fc684b614c9d6fc939e8" prot="public" virt="non-virtual"><scope>bittensor::utils::balance::Balance</scope><name>__lt__</name></member>
+      <member refid="classbittensor_1_1utils_1_1balance_1_1_balance_1a65d43719469a35e402c1371ef18c9895" prot="public" virt="non-virtual"><scope>bittensor::utils::balance::Balance</scope><name>__mul__</name></member>
+      <member refid="classbittensor_1_1utils_1_1balance_1_1_balance_1a4ce7acec36cff8b4ebe64d045b555d4f" prot="public" virt="non-virtual"><scope>bittensor::utils::balance::Balance</scope><name>__ne__</name></member>
+      <member refid="classbittensor_1_1utils_1_1balance_1_1_balance_1a71ad1aae8a5dbf9330e388f0f0c27f45" prot="public" virt="non-virtual"><scope>bittensor::utils::balance::Balance</scope><name>__neg__</name></member>
+      <member refid="classbittensor_1_1utils_1_1balance_1_1_balance_1a40e5ec8195661f8996a45b28e7ee3ed2" prot="public" virt="non-virtual"><scope>bittensor::utils::balance::Balance</scope><name>__nonzero__</name></member>
+      <member refid="classbittensor_1_1utils_1_1balance_1_1_balance_1a2c1b16a1783fc551d5a2cada3e7c5c62" prot="public" virt="non-virtual"><scope>bittensor::utils::balance::Balance</scope><name>__pos__</name></member>
+      <member refid="classbittensor_1_1utils_1_1balance_1_1_balance_1ae1641e40df909dec572dff0b28871993" prot="public" virt="non-virtual"><scope>bittensor::utils::balance::Balance</scope><name>__radd__</name></member>
+      <member refid="classbittensor_1_1utils_1_1balance_1_1_balance_1a47c411f2ffd858f2e1f1809c475aefb4" prot="public" virt="non-virtual"><scope>bittensor::utils::balance::Balance</scope><name>__repr__</name></member>
+      <member refid="classbittensor_1_1utils_1_1balance_1_1_balance_1abc22042eee7a9e96d1cc45bd97d61205" prot="public" virt="non-virtual"><scope>bittensor::utils::balance::Balance</scope><name>__rfloordiv__</name></member>
+      <member refid="classbittensor_1_1utils_1_1balance_1_1_balance_1a1fa4886de1ad7fbd767dd776a5868ba3" prot="public" virt="non-virtual"><scope>bittensor::utils::balance::Balance</scope><name>__rich__</name></member>
+      <member refid="classbittensor_1_1utils_1_1balance_1_1_balance_1a92c82fa528ec406f4b50c57feb270d22" prot="public" virt="non-virtual"><scope>bittensor::utils::balance::Balance</scope><name>__rich_rao__</name></member>
+      <member refid="classbittensor_1_1utils_1_1balance_1_1_balance_1a7ccc52cc450eafea4472a7cb8975556a" prot="public" virt="non-virtual"><scope>bittensor::utils::balance::Balance</scope><name>__rmul__</name></member>
+      <member refid="classbittensor_1_1utils_1_1balance_1_1_balance_1ac8a587597b4b8ac7c00ab036546afd59" prot="public" virt="non-virtual"><scope>bittensor::utils::balance::Balance</scope><name>__rsub__</name></member>
+      <member refid="classbittensor_1_1utils_1_1balance_1_1_balance_1a5d02abb23579f331754e877ba11c29a2" prot="public" virt="non-virtual"><scope>bittensor::utils::balance::Balance</scope><name>__rtruediv__</name></member>
+      <member refid="classbittensor_1_1utils_1_1balance_1_1_balance_1a5a15b65858d6632ed4fbb6500fc4bcd5" prot="public" virt="non-virtual"><scope>bittensor::utils::balance::Balance</scope><name>__str__</name></member>
+      <member refid="classbittensor_1_1utils_1_1balance_1_1_balance_1ab3a42fd1631792180b512e735a876270" prot="public" virt="non-virtual"><scope>bittensor::utils::balance::Balance</scope><name>__str_rao__</name></member>
+      <member refid="classbittensor_1_1utils_1_1balance_1_1_balance_1a44a0b54eca8b82375712ff94ac917b1c" prot="public" virt="non-virtual"><scope>bittensor::utils::balance::Balance</scope><name>__sub__</name></member>
+      <member refid="classbittensor_1_1utils_1_1balance_1_1_balance_1a5b2dec25e4af512eca6183f3abc56473" prot="public" virt="non-virtual"><scope>bittensor::utils::balance::Balance</scope><name>__truediv__</name></member>
+      <member refid="classbittensor_1_1utils_1_1balance_1_1_balance_1a9cbd960a58d39fd68b951eff94a815e8" prot="public" virt="non-virtual"><scope>bittensor::utils::balance::Balance</scope><name>from_float</name></member>
+      <member refid="classbittensor_1_1utils_1_1balance_1_1_balance_1ae7748f7502b44dee17ca32477335943d" prot="public" virt="non-virtual"><scope>bittensor::utils::balance::Balance</scope><name>from_rao</name></member>
+      <member refid="classbittensor_1_1utils_1_1balance_1_1_balance_1a82f0589178f0e9cb0a89af0bf0d7d664" prot="public" virt="non-virtual"><scope>bittensor::utils::balance::Balance</scope><name>from_tao</name></member>
+      <member refid="classbittensor_1_1utils_1_1balance_1_1_balance_1a070d990967d2ea80b530db0006405d1b" prot="public" virt="non-virtual"><scope>bittensor::utils::balance::Balance</scope><name>rao</name></member>
+      <member refid="classbittensor_1_1utils_1_1balance_1_1_balance_1a28498e83eb9326a37f739e0884ef2073" prot="public" virt="non-virtual"><scope>bittensor::utils::balance::Balance</scope><name>rao</name></member>
+      <member refid="classbittensor_1_1utils_1_1balance_1_1_balance_1ae691c0edefb9c96c292ccba5dec8665d" prot="public" virt="non-virtual"><scope>bittensor::utils::balance::Balance</scope><name>rao_unit</name></member>
+      <member refid="classbittensor_1_1utils_1_1balance_1_1_balance_1ab9c42c49682716a96b708021ffd2be66" prot="public" virt="non-virtual"><scope>bittensor::utils::balance::Balance</scope><name>tao</name></member>
+      <member refid="classbittensor_1_1utils_1_1balance_1_1_balance_1abf4593516e5179e740f88612f6771fd4" prot="public" virt="non-virtual"><scope>bittensor::utils::balance::Balance</scope><name>tao</name></member>
+      <member refid="classbittensor_1_1utils_1_1balance_1_1_balance_1a8bbf8ffbf081b1d53b3f58038f3a0833" prot="public" virt="non-virtual"><scope>bittensor::utils::balance::Balance</scope><name>unit</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="namespacebittensor_1_1__metagraph" kind="namespace" language="Python">
+    <compoundname>bittensor::_metagraph</compoundname>
+    <innerclass refid="classbittensor_1_1__metagraph_1_1metagraph" prot="public">bittensor::_metagraph::metagraph</innerclass>
+    <innernamespace refid="namespacebittensor_1_1__metagraph_1_1metagraph__impl">bittensor::_metagraph::metagraph_impl</innernamespace>
+    <innernamespace refid="namespacebittensor_1_1__metagraph_1_1metagraph__mock">bittensor::_metagraph::metagraph_mock</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim> Create and init metagraph, 
+which maintains chain state as a torch.nn.Module.
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/Users/macthrasher/bittensor/bittensor/_metagraph/__init__.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

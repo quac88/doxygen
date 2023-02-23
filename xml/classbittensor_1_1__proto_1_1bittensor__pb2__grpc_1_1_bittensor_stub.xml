@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="classbittensor_1_1__proto_1_1bittensor__pb2__grpc_1_1_bittensor_stub" kind="class" language="Python" prot="public">
+    <compoundname>bittensor::_proto::bittensor_pb2_grpc::BittensorStub</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">object</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classbittensor_1_1__proto_1_1bittensor__pb2__grpc_1_1_bittensor_stub_1ae0b4392a08639772f42762d85fd213f8" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._proto.bittensor_pb2_grpc.BittensorStub::Forward</definition>
+        <argsstring></argsstring>
+        <name>Forward</name>
+        <qualifiedname>bittensor._proto.bittensor_pb2_grpc.BittensorStub.Forward</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_proto/bittensor_pb2_grpc.py" line="18" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_proto/bittensor_pb2_grpc.py" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__proto_1_1bittensor__pb2__grpc_1_1_bittensor_stub_1a463879c8103d238fcb8e6f99930e9b18" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._proto.bittensor_pb2_grpc.BittensorStub::Backward</definition>
+        <argsstring></argsstring>
+        <name>Backward</name>
+        <qualifiedname>bittensor._proto.bittensor_pb2_grpc.BittensorStub.Backward</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_proto/bittensor_pb2_grpc.py" line="23" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_proto/bittensor_pb2_grpc.py" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classbittensor_1_1__proto_1_1bittensor__pb2__grpc_1_1_bittensor_stub_1a13767ccda8ea6061415bf9e589f135af" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._proto.bittensor_pb2_grpc.BittensorStub.__init__</definition>
+        <argsstring>(self, channel)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>bittensor._proto.bittensor_pb2_grpc.BittensorStub.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>channel</type>
+          <defname>channel</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Constructor.
+
+Args:
+    channel: A grpc.Channel.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_proto/bittensor_pb2_grpc.py" line="12" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_proto/bittensor_pb2_grpc.py" bodystart="12" bodyend="29"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Service definition for tensor processing servers.
+</verbatim> </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>bittensor._proto.bittensor_pb2_grpc.BittensorStub</label>
+        <link refid="classbittensor_1_1__proto_1_1bittensor__pb2__grpc_1_1_bittensor_stub"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>object</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>bittensor._proto.bittensor_pb2_grpc.BittensorStub</label>
+        <link refid="classbittensor_1_1__proto_1_1bittensor__pb2__grpc_1_1_bittensor_stub"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>object</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/macthrasher/bittensor/bittensor/_proto/bittensor_pb2_grpc.py" line="8" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_proto/bittensor_pb2_grpc.py" bodystart="8" bodyend="29"/>
+    <listofallmembers>
+      <member refid="classbittensor_1_1__proto_1_1bittensor__pb2__grpc_1_1_bittensor_stub_1a13767ccda8ea6061415bf9e589f135af" prot="public" virt="non-virtual"><scope>bittensor::_proto::bittensor_pb2_grpc::BittensorStub</scope><name>__init__</name></member>
+      <member refid="classbittensor_1_1__proto_1_1bittensor__pb2__grpc_1_1_bittensor_stub_1a463879c8103d238fcb8e6f99930e9b18" prot="public" virt="non-virtual"><scope>bittensor::_proto::bittensor_pb2_grpc::BittensorStub</scope><name>Backward</name></member>
+      <member refid="classbittensor_1_1__proto_1_1bittensor__pb2__grpc_1_1_bittensor_stub_1ae0b4392a08639772f42762d85fd213f8" prot="public" virt="non-virtual"><scope>bittensor::_proto::bittensor_pb2_grpc::BittensorStub</scope><name>Forward</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

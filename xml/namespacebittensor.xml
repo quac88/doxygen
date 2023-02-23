@@ -1,0 +1,456 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="namespacebittensor" kind="namespace" language="Python">
+    <compoundname>bittensor</compoundname>
+    <innernamespace refid="namespacebittensor_1_1__axon">bittensor::_axon</innernamespace>
+    <innernamespace refid="namespacebittensor_1_1__cli">bittensor::_cli</innernamespace>
+    <innernamespace refid="namespacebittensor_1_1__config">bittensor::_config</innernamespace>
+    <innernamespace refid="namespacebittensor_1_1__dataset">bittensor::_dataset</innernamespace>
+    <innernamespace refid="namespacebittensor_1_1__dendrite">bittensor::_dendrite</innernamespace>
+    <innernamespace refid="namespacebittensor_1_1__endpoint">bittensor::_endpoint</innernamespace>
+    <innernamespace refid="namespacebittensor_1_1__ipfs">bittensor::_ipfs</innernamespace>
+    <innernamespace refid="namespacebittensor_1_1__keyfile">bittensor::_keyfile</innernamespace>
+    <innernamespace refid="namespacebittensor_1_1__logging">bittensor::_logging</innernamespace>
+    <innernamespace refid="namespacebittensor_1_1__metagraph">bittensor::_metagraph</innernamespace>
+    <innernamespace refid="namespacebittensor_1_1__neuron">bittensor::_neuron</innernamespace>
+    <innernamespace refid="namespacebittensor_1_1__prometheus">bittensor::_prometheus</innernamespace>
+    <innernamespace refid="namespacebittensor_1_1__proto">bittensor::_proto</innernamespace>
+    <innernamespace refid="namespacebittensor_1_1__receptor">bittensor::_receptor</innernamespace>
+    <innernamespace refid="namespacebittensor_1_1__serializer">bittensor::_serializer</innernamespace>
+    <innernamespace refid="namespacebittensor_1_1__subtensor">bittensor::_subtensor</innernamespace>
+    <innernamespace refid="namespacebittensor_1_1__synapse">bittensor::_synapse</innernamespace>
+    <innernamespace refid="namespacebittensor_1_1__threadpool">bittensor::_threadpool</innernamespace>
+    <innernamespace refid="namespacebittensor_1_1__tokenizer">bittensor::_tokenizer</innernamespace>
+    <innernamespace refid="namespacebittensor_1_1__wallet">bittensor::_wallet</innernamespace>
+    <innernamespace refid="namespacebittensor_1_1__wandb">bittensor::_wandb</innernamespace>
+    <innernamespace refid="namespacebittensor_1_1grpc">bittensor::grpc</innernamespace>
+    <innernamespace refid="namespacebittensor_1_1utils">bittensor::utils</innernamespace>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="____init_____8py_1ae9f4ebdc832cb29beb3fe85ff51699f1" prot="private" static="no" mutable="no">
+        <type>str</type>
+        <definition>str bittensor.__version__</definition>
+        <argsstring></argsstring>
+        <name>__version__</name>
+        <qualifiedname>bittensor.__version__</qualifiedname>
+        <initializer>=  &apos;3.6.3&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/__init__.py" line="26" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/__init__.py" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="____init_____8py_1a3e79c68ec83e77bcbc54a4530adb3e7b" prot="public" static="no" mutable="no">
+        <type>str</type>
+        <definition>str bittensor.version_split</definition>
+        <argsstring></argsstring>
+        <name>version_split</name>
+        <qualifiedname>bittensor.version_split</qualifiedname>
+        <initializer>=  __version__.split(&quot;.&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/__init__.py" line="27" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/__init__.py" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="____init_____8py_1a0199f911b1e616dc4df68373859458bb" prot="private" static="no" mutable="no">
+        <type>tuple</type>
+        <definition>tuple bittensor.__version_as_int__</definition>
+        <argsstring></argsstring>
+        <name>__version_as_int__</name>
+        <qualifiedname>bittensor.__version_as_int__</qualifiedname>
+        <initializer>=  (100 * int(version_split[0])) + (10 * int(version_split[1])) + (1 * int(version_split[2]))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/__init__.py" line="28" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/__init__.py" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="____init_____8py_1a349573180a1ce316795f3173c7748d9e" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int bittensor.__new_signature_version__</definition>
+        <argsstring></argsstring>
+        <name>__new_signature_version__</name>
+        <qualifiedname>bittensor.__new_signature_version__</qualifiedname>
+        <initializer>=  360</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/__init__.py" line="30" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/__init__.py" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="____init_____8py_1afa214064f889f1a3cee1e84df066ef20" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor.show_locals</definition>
+        <argsstring></argsstring>
+        <name>show_locals</name>
+        <qualifiedname>bittensor.show_locals</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/__init__.py" line="34" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/__init__.py" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="____init_____8py_1ae23334cb7460d38ad6091e41e5c87c58" prot="private" static="no" mutable="no">
+        <type>Console</type>
+        <definition>Console bittensor.__console__</definition>
+        <argsstring></argsstring>
+        <name>__console__</name>
+        <qualifiedname>bittensor.__console__</qualifiedname>
+        <initializer>=  Console()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/__init__.py" line="37" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/__init__.py" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="____init_____8py_1a409c9509a1a7e217a61032a70c3b8391" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool bittensor.__use_console__</definition>
+        <argsstring></argsstring>
+        <name>__use_console__</name>
+        <qualifiedname>bittensor.__use_console__</qualifiedname>
+        <initializer>=  True</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/__init__.py" line="38" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/__init__.py" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="____init_____8py_1a056b43f6eecd440beb69f28a8b32ddc8" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int bittensor.__vocab_size__</definition>
+        <argsstring></argsstring>
+        <name>__vocab_size__</name>
+        <qualifiedname>bittensor.__vocab_size__</qualifiedname>
+        <initializer>=  50258</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/__init__.py" line="52" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/__init__.py" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="____init_____8py_1ab7aded853bf7e69c7c5d2b33573da415" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int bittensor.__network_dim__</definition>
+        <argsstring></argsstring>
+        <name>__network_dim__</name>
+        <qualifiedname>bittensor.__network_dim__</qualifiedname>
+        <initializer>=  1024</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/__init__.py" line="56" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/__init__.py" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="____init_____8py_1a2501305ada62c1e6b05c0b0296adc6d9" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int bittensor.__blocktime__</definition>
+        <argsstring></argsstring>
+        <name>__blocktime__</name>
+        <qualifiedname>bittensor.__blocktime__</qualifiedname>
+        <initializer>=  12</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/__init__.py" line="59" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/__init__.py" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="____init_____8py_1aa92e714dd4c90aa3c72f696db36a9d0f" prot="private" static="no" mutable="no">
+        <type>str</type>
+        <definition>str bittensor.__pipaddress__</definition>
+        <argsstring></argsstring>
+        <name>__pipaddress__</name>
+        <qualifiedname>bittensor.__pipaddress__</qualifiedname>
+        <initializer>=  &apos;https://pypi.org/pypi/bittensor/json&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/__init__.py" line="62" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/__init__.py" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="____init_____8py_1ac6c1c6ede9e2028b9b7bf4af68272cd4" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int bittensor.__ss58_format__</definition>
+        <argsstring></argsstring>
+        <name>__ss58_format__</name>
+        <qualifiedname>bittensor.__ss58_format__</qualifiedname>
+        <initializer>=  42</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/__init__.py" line="65" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/__init__.py" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="____init_____8py_1a122ac3819fe2e50bb452fffc40443cf6" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int bittensor.__ss58_address_length__</definition>
+        <argsstring></argsstring>
+        <name>__ss58_address_length__</name>
+        <qualifiedname>bittensor.__ss58_address_length__</qualifiedname>
+        <initializer>=  48</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/__init__.py" line="68" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/__init__.py" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="____init_____8py_1a5c1fce372ef3464a84918ae51af62160" prot="private" static="no" mutable="no">
+        <type>list</type>
+        <definition>list bittensor.__networks__</definition>
+        <argsstring></argsstring>
+        <name>__networks__</name>
+        <qualifiedname>bittensor.__networks__</qualifiedname>
+        <initializer>=  [ &apos;local&apos;, &apos;bellagene&apos;, &apos;nobunaga&apos;, &apos;nakamoto&apos;]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/__init__.py" line="70" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/__init__.py" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="____init_____8py_1a6cf7b08c427a1abe0d0237aeb87fcb3a" prot="private" static="no" mutable="no">
+        <type>list</type>
+        <definition>list bittensor.__datasets__</definition>
+        <argsstring></argsstring>
+        <name>__datasets__</name>
+        <qualifiedname>bittensor.__datasets__</qualifiedname>
+        <initializer>=  [&apos;ArXiv&apos;, &apos;BookCorpus2&apos;, &apos;Books3&apos;, &apos;DMMathematics&apos;, &apos;EnronEmails&apos;, &apos;EuroParl&apos;, &apos;Gutenberg_PG&apos;, &apos;HackerNews&apos;, &apos;NIHExPorter&apos;, &apos;OpenSubtitles&apos;, &apos;PhilPapers&apos;, &apos;UbuntuIRC&apos;, &apos;YoutubeSubtitles&apos;]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/__init__.py" line="72" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/__init__.py" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="____init_____8py_1a143bed9b9c3df5cbe48b7ba82fac6bd4" prot="private" static="no" mutable="no">
+        <type>str</type>
+        <definition>str bittensor.__nakamoto_entrypoint__</definition>
+        <argsstring></argsstring>
+        <name>__nakamoto_entrypoint__</name>
+        <qualifiedname>bittensor.__nakamoto_entrypoint__</qualifiedname>
+        <initializer>=  &quot;AtreusLB-2c6154f73e6429a9.elb.us-east-2.amazonaws.com:9944&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/__init__.py" line="74" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/__init__.py" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="____init_____8py_1aca3b7388f8ab48f546b75d60faf120c2" prot="private" static="no" mutable="no">
+        <type>str</type>
+        <definition>str bittensor.__nobunaga_entrypoint__</definition>
+        <argsstring></argsstring>
+        <name>__nobunaga_entrypoint__</name>
+        <qualifiedname>bittensor.__nobunaga_entrypoint__</qualifiedname>
+        <initializer>=  &quot;staging.nobunaga.opentensor.ai:9944&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/__init__.py" line="77" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/__init__.py" bodystart="77" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="____init_____8py_1a149bfe48fc31b98ac4606a46703037a9" prot="private" static="no" mutable="no">
+        <type>str</type>
+        <definition>str bittensor.__bellagene_entrypoint__</definition>
+        <argsstring></argsstring>
+        <name>__bellagene_entrypoint__</name>
+        <qualifiedname>bittensor.__bellagene_entrypoint__</qualifiedname>
+        <initializer>=  &quot;wss://parachain.opentensor.ai:443&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/__init__.py" line="80" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/__init__.py" bodystart="80" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="____init_____8py_1a0cceaa18786ea89921c0c25b3ca3f9ca" prot="private" static="no" mutable="no">
+        <type>str</type>
+        <definition>str bittensor.__local_entrypoint__</definition>
+        <argsstring></argsstring>
+        <name>__local_entrypoint__</name>
+        <qualifiedname>bittensor.__local_entrypoint__</qualifiedname>
+        <initializer>=  &quot;127.0.0.1:9944&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/__init__.py" line="83" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/__init__.py" bodystart="83" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="____init_____8py_1afc66d29101ed009f4ab846f6986d557f" prot="public" static="no" mutable="no">
+        <type>get_random_unused_port</type>
+        <definition>get_random_unused_port bittensor.mock_subtensor_port</definition>
+        <argsstring></argsstring>
+        <name>mock_subtensor_port</name>
+        <qualifiedname>bittensor.mock_subtensor_port</qualifiedname>
+        <initializer>=  get_random_unused_port()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/__init__.py" line="88" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/__init__.py" bodystart="88" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="____init_____8py_1a8f70353e211bbbb9423b0e5473d4bee6" prot="private" static="no" mutable="no">
+        <type>f</type>
+        <definition>f bittensor.__mock_entrypoint__</definition>
+        <argsstring></argsstring>
+        <name>__mock_entrypoint__</name>
+        <qualifiedname>bittensor.__mock_entrypoint__</qualifiedname>
+        <initializer>=  f&quot;localhost:{mock_subtensor_port}&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/__init__.py" line="89" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/__init__.py" bodystart="89" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="____init_____8py_1aa3ee22bcfb9ed27472c8362580493b8f" prot="private" static="no" mutable="no">
+        <type>str</type>
+        <definition>str bittensor.__prometheus_version__</definition>
+        <argsstring></argsstring>
+        <name>__prometheus_version__</name>
+        <qualifiedname>bittensor.__prometheus_version__</qualifiedname>
+        <initializer>=  &quot;0.1.0&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/__init__.py" line="93" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/__init__.py" bodystart="93" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="____init_____8py_1a34a7c6327f8b27c5a5ce5b069c1662fd" prot="public" static="no" mutable="no">
+        <type>str</type>
+        <definition>str bittensor.prometheus_version__split</definition>
+        <argsstring></argsstring>
+        <name>prometheus_version__split</name>
+        <qualifiedname>bittensor.prometheus_version__split</qualifiedname>
+        <initializer>=  __prometheus_version__.split(&quot;.&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/__init__.py" line="94" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/__init__.py" bodystart="94" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="____init_____8py_1a7018adff2ad869010ae99877fc70cb66" prot="private" static="no" mutable="no">
+        <type>tuple</type>
+        <definition>tuple bittensor.__prometheus_version__as_int__</definition>
+        <argsstring></argsstring>
+        <name>__prometheus_version__as_int__</name>
+        <qualifiedname>bittensor.__prometheus_version__as_int__</qualifiedname>
+        <initializer>=  (100 * int(prometheus_version__split[0])) + (10 * int(prometheus_version__split[1])) + (1 * int(prometheus_version__split[2]))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/__init__.py" line="95" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/__init__.py" bodystart="95" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="____init_____8py_1a4e712cfede546a209e6da6a672a53e30" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor.try</definition>
+        <argsstring></argsstring>
+        <name>try</name>
+        <qualifiedname>bittensor.try</qualifiedname>
+        <initializer>:</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/__init__.py" line="96" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/__init__.py" bodystart="96" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="____init_____8py_1aa078a6fd80708a846cfb7041ae60ed1a" prot="public" static="no" mutable="no">
+        <type>Info</type>
+        <definition>Info bittensor.bt_promo_info</definition>
+        <argsstring></argsstring>
+        <name>bt_promo_info</name>
+        <qualifiedname>bittensor.bt_promo_info</qualifiedname>
+        <initializer>=  Info(&quot;bittensor_info&quot;, &quot;Information about the installed bittensor package.&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/__init__.py" line="97" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/__init__.py" bodystart="97" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="____init_____8py_1a6602917a9403e0f03ccd81101d628f7a" prot="public" static="no" mutable="no">
+        <type><ref refid="classbittensor_1_1__config_1_1config__impl_1_1_config" kindref="compound">Config</ref></type>
+        <definition>Config bittensor.defaults</definition>
+        <argsstring></argsstring>
+        <name>defaults</name>
+        <qualifiedname>bittensor.defaults</qualifiedname>
+        <initializer>=  <ref refid="classbittensor_1_1__config_1_1config__impl_1_1_config" kindref="compound">Config</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/__init__.py" line="173" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/__init__.py" bodystart="173" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="____init_____8py_1a9e162681b6a913b5fae8f6be6aaaa7b7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor.turn_console_off</definition>
+        <argsstring>()</argsstring>
+        <name>turn_console_off</name>
+        <qualifiedname>bittensor.turn_console_off</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/__init__.py" line="43" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/__init__.py" bodystart="43" bodyend="51"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/macthrasher/bittensor/bittensor/__init__.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

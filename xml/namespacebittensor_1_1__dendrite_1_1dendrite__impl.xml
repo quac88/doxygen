@@ -1,0 +1,121 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="namespacebittensor_1_1__dendrite_1_1dendrite__impl" kind="namespace" language="Python">
+    <compoundname>bittensor::_dendrite::dendrite_impl</compoundname>
+    <innerclass refid="classbittensor_1_1__dendrite_1_1dendrite__impl_1_1_dendrite" prot="public">bittensor::_dendrite::dendrite_impl::Dendrite</innerclass>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="namespacebittensor_1_1__dendrite_1_1dendrite__impl_1ac4f585874630d553631b7b4b330282d3" prot="public" static="no" mutable="no">
+        <type>logger</type>
+        <definition>logger bittensor::_dendrite::dendrite_impl.logger</definition>
+        <argsstring></argsstring>
+        <name>logger</name>
+        <qualifiedname>bittensor._dendrite.dendrite_impl.logger</qualifiedname>
+        <initializer>=  logger.opt(colors=True)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_dendrite/dendrite_impl.py" line="45" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_dendrite/dendrite_impl.py" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacebittensor_1_1__dendrite_1_1dendrite__impl_1a12e8119b9e69d55fd3dffa675e534c81" prot="public" static="no" mutable="no">
+        <type>torch</type>
+        <definition>torch bittensor::_dendrite::dendrite_impl.DUMMY</definition>
+        <argsstring></argsstring>
+        <name>DUMMY</name>
+        <qualifiedname>bittensor._dendrite.dendrite_impl.DUMMY</qualifiedname>
+        <initializer>=  torch.empty(0, requires_grad=True)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_dendrite/dendrite_impl.py" line="48" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_dendrite/dendrite_impl.py" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacebittensor_1_1__dendrite_1_1dendrite__impl_1a2ea86ebfd7e0a3c1028f1def1446f64c" prot="public" static="no" mutable="no">
+        <type>Counter</type>
+        <definition>Counter bittensor::_dendrite::dendrite_impl.PROM_prometheus_counters</definition>
+        <argsstring></argsstring>
+        <name>PROM_prometheus_counters</name>
+        <qualifiedname>bittensor._dendrite.dendrite_impl.PROM_prometheus_counters</qualifiedname>
+        <initializer>=  Counter(&apos;dendrite_counters&apos;, &apos;dendrite_counters&apos;, [&apos;<ref refid="classbittensor_1_1__wallet_1_1wallet" kindref="compound">wallet</ref>&apos;, &apos;identifier&apos;, &apos;name&apos;])</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_dendrite/dendrite_impl.py" line="52" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_dendrite/dendrite_impl.py" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacebittensor_1_1__dendrite_1_1dendrite__impl_1ae67559a5be82fe26c374671f6383fe75" prot="public" static="no" mutable="no">
+        <type>Histogram</type>
+        <definition>Histogram bittensor::_dendrite::dendrite_impl.PROM_prometheus_latency</definition>
+        <argsstring></argsstring>
+        <name>PROM_prometheus_latency</name>
+        <qualifiedname>bittensor._dendrite.dendrite_impl.PROM_prometheus_latency</qualifiedname>
+        <initializer>=  Histogram(&apos;dendrite_latency&apos;, &apos;dendrite_latency&apos;, [&apos;<ref refid="classbittensor_1_1__wallet_1_1wallet" kindref="compound">wallet</ref>&apos;, &apos;identifier&apos;], buckets=list(range(0,bittensor.__blocktime__,1)))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_dendrite/dendrite_impl.py" line="53" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_dendrite/dendrite_impl.py" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacebittensor_1_1__dendrite_1_1dendrite__impl_1aaf1571b020c240e73a200ed6ba68d155" prot="public" static="no" mutable="no">
+        <type>Summary</type>
+        <definition>Summary bittensor::_dendrite::dendrite_impl.PROM_prometheus_latency_per_uid</definition>
+        <argsstring></argsstring>
+        <name>PROM_prometheus_latency_per_uid</name>
+        <qualifiedname>bittensor._dendrite.dendrite_impl.PROM_prometheus_latency_per_uid</qualifiedname>
+        <initializer>=  Summary(&apos;dendrite_latency_per_uid&apos;, &apos;dendrite_latency_per_uid&apos;, [&apos;<ref refid="classbittensor_1_1__wallet_1_1wallet" kindref="compound">wallet</ref>&apos;, &apos;identifier&apos;, &apos;uid&apos;])</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_dendrite/dendrite_impl.py" line="54" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_dendrite/dendrite_impl.py" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacebittensor_1_1__dendrite_1_1dendrite__impl_1a37e974854aa8f50b211920d4fd96dadf" prot="public" static="no" mutable="no">
+        <type>Counter</type>
+        <definition>Counter bittensor::_dendrite::dendrite_impl.PROM_prometheus_successes_per_uid</definition>
+        <argsstring></argsstring>
+        <name>PROM_prometheus_successes_per_uid</name>
+        <qualifiedname>bittensor._dendrite.dendrite_impl.PROM_prometheus_successes_per_uid</qualifiedname>
+        <initializer>=  Counter(&apos;dendrite_successes_per_uid&apos;, &apos;dendrite_successes_per_uid&apos;, [&apos;<ref refid="classbittensor_1_1__wallet_1_1wallet" kindref="compound">wallet</ref>&apos;, &apos;identifier&apos;, &apos;uid&apos;])</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_dendrite/dendrite_impl.py" line="55" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_dendrite/dendrite_impl.py" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacebittensor_1_1__dendrite_1_1dendrite__impl_1a862940b02916c3856fe6b79fb6a5390c" prot="public" static="no" mutable="no">
+        <type>Counter</type>
+        <definition>Counter bittensor::_dendrite::dendrite_impl.PROM_prometheus_failures_per_uid</definition>
+        <argsstring></argsstring>
+        <name>PROM_prometheus_failures_per_uid</name>
+        <qualifiedname>bittensor._dendrite.dendrite_impl.PROM_prometheus_failures_per_uid</qualifiedname>
+        <initializer>=  Counter(&apos;dendrite_failures_per_uid&apos;, &apos;dendrite_failures_per_uid&apos;, [&apos;<ref refid="classbittensor_1_1__wallet_1_1wallet" kindref="compound">wallet</ref>&apos;, &apos;identifier&apos;, &apos;uid&apos;])</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_dendrite/dendrite_impl.py" line="56" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_dendrite/dendrite_impl.py" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim> Implementation of class dendrite, which quries endpoints with tensors.
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/Users/macthrasher/bittensor/bittensor/_dendrite/dendrite_impl.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

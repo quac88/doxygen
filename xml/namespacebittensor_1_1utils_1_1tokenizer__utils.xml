@@ -1,0 +1,1289 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="namespacebittensor_1_1utils_1_1tokenizer__utils" kind="namespace" language="Python">
+    <compoundname>bittensor::utils::tokenizer_utils</compoundname>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="namespacebittensor_1_1utils_1_1tokenizer__utils_1ace858cca96a45c6171798f08dfe507fb" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int bittensor::utils::tokenizer_utils.EPSILON</definition>
+        <argsstring></argsstring>
+        <name>EPSILON</name>
+        <qualifiedname>bittensor.utils.tokenizer_utils.EPSILON</qualifiedname>
+        <initializer>=  1e-40</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/tokenizer_utils.py" line="25" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/tokenizer_utils.py" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="namespacebittensor_1_1utils_1_1tokenizer__utils_1a31406026136d3c9b3ec5469bd1e0c0f7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Dict[int, tuple]</type>
+        <definition> Dict[int, tuple] bittensor.utils.tokenizer_utils.get_tokenizer_alignment_splits</definition>
+        <argsstring>(List[tuple] offset_mapping, List[tuple] offset_mapping_std)</argsstring>
+        <name>get_tokenizer_alignment_splits</name>
+        <qualifiedname>bittensor.utils.tokenizer_utils.get_tokenizer_alignment_splits</qualifiedname>
+        <param>
+          <type>List</type>
+          <declname>offset_mapping</declname>
+          <array>[tuple]</array>
+        </param>
+        <param>
+          <type>List</type>
+          <declname>offset_mapping_std</declname>
+          <array>[tuple]</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>    Calculates split depths necessary for tokens to align input offsets to standard offsets.
+    Only input offsets may be split, not standard offsets, to create one-to-one, one-to-many, or many-to-one
+    token alignments between input-to-standard tokenization.
+    Allows for multiple depth splits on a token.
+        Args:
+            offset_mapping (:obj:`List[tuple]`, `required`):
+                Tokenizer offset mappings for a specific sequence [(left_0, right_0), (left_1, right_1), ...].
+            offset_mapping_std (:obj:`List[tuple]`, `required`):
+                Standard tokenizer offset mappings for a specific sequence [(left_0, right_0), (left_1, right_1), ...]
+
+        Returns:
+            splits (:obj:`Dict[int, tuple]`, `required`):
+                For tokens that have to be split, {Token index: (split depth 1, split depth 2, ...), ...}.</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/tokenizer_utils.py" line="28" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/tokenizer_utils.py" bodystart="28" bodyend="140"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacebittensor_1_1utils_1_1tokenizer__utils_1a80673928d5022558ece6eb5cdc9e12be" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>List[tuple]</type>
+        <definition> List[tuple] bittensor.utils.tokenizer_utils.get_tokenizer_sequence_mappings</definition>
+        <argsstring>(List[tuple] offset_mapping, List[tuple] offset_mapping_std)</argsstring>
+        <name>get_tokenizer_sequence_mappings</name>
+        <qualifiedname>bittensor.utils.tokenizer_utils.get_tokenizer_sequence_mappings</qualifiedname>
+        <param>
+          <type>List</type>
+          <declname>offset_mapping</declname>
+          <array>[tuple]</array>
+        </param>
+        <param>
+          <type>List</type>
+          <declname>offset_mapping_std</declname>
+          <array>[tuple]</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Greedily determine the one-to-one, one-to-many, or many-to-one token alignments
+between input-to-standard tokenizations.
+Disallow many-to-many mappings, but allow for right-aligned overlapping tokens.
+Args:
+offset_mapping (:obj:`List[tuple]`, `required`):
+Tokenizer offset mappings for a specific sequence [(left_0, right_0), (left_1, right_1), ...].
+offset_mapping_std (:obj:`List[tuple]`, `required`):
+Standard tokenizer offset mappings for a specific sequence [(left_0, right_0), (left_1, right_1), ...]
+
+Returns:
+mappings (:obj:`List[tuple]`, `required`):
+List of mapping tuples:
+[tuple( right_idx, right_idx_std,
+        segment_count_base, segment_count_std_base,
+        segment_count_overlap, segment_count_std_overlap), ...]
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/tokenizer_utils.py" line="141" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/tokenizer_utils.py" bodystart="141" bodyend="253"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacebittensor_1_1utils_1_1tokenizer__utils_1af76d2962aae10ddc4826d5f349fd9051" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>List[Dict[str, torch.LongTensor]]</type>
+        <definition> List[Dict[str, torch.LongTensor]] bittensor.utils.tokenizer_utils.get_tokenizer_depth_split_map</definition>
+        <argsstring>(PreTrainedTokenizerBase tokenizer, tuple depths)</argsstring>
+        <name>get_tokenizer_depth_split_map</name>
+        <qualifiedname>bittensor.utils.tokenizer_utils.get_tokenizer_depth_split_map</qualifiedname>
+        <param>
+          <type>PreTrainedTokenizerBase</type>
+          <declname>tokenizer</declname>
+        </param>
+        <param>
+          <type>tuple</type>
+          <declname>depths</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Split individual token strings at specified depths, retokenize each resulting segment,
+keep only the first token of each segment (if there is one).
+Purpose is to provide targets for scattering probabilities when a single distribution requires a depth split.
+Args:
+tokenizer (:obj:`PreTrainedTokenizerBase`, `required`):
+Tokenizer.
+depths (:obj:`tuple`, `required`):
+Tuple of depths at which tokens strings will be split.
+
+Returns:
+split_map (:obj:`List[Dict[str, torch.LongTensor]]`, `required`):
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/tokenizer_utils.py" line="254" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/tokenizer_utils.py" bodystart="255" bodyend="292"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacebittensor_1_1utils_1_1tokenizer__utils_1af3a7513c8021247073b9f0f68d3e751a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>torch.FloatTensor</type>
+        <definition> torch.FloatTensor bittensor.utils.tokenizer_utils.split_probs</definition>
+        <argsstring>(torch.FloatTensor probs, List[Dict[str, torch.Tensor]] split_map)</argsstring>
+        <name>split_probs</name>
+        <qualifiedname>bittensor.utils.tokenizer_utils.split_probs</qualifiedname>
+        <param>
+          <type>torch.FloatTensor</type>
+          <declname>probs</declname>
+        </param>
+        <param>
+          <type>List]</type>
+          <declname>split_map</declname>
+          <array>[Dict[str, torch.Tensor]</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Split a given probability distribution over a tokenizer vocabulary, given a split_map
+of mappings from original tokens to target tokens at each depth of the split.
+Args:
+probs (:obj:`torch.FloatTensor`, `required`):
+[vocab_size] Input probability distribution over a tokenizer vocabulary.
+split_map (:obj:`List[Dict[str, torch.Tensor]]`, `required`):
+A split_map of mappings from original tokens to target tokens at each depth of the split.
+
+Returns:
+new_probs (:obj:`torch.FloatTensor`, `required`):
+[splits, vocab_size] A new tensor with resultant probability distribution at each index
+of the first dim, representing corresponding split depth.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/tokenizer_utils.py" line="293" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/tokenizer_utils.py" bodystart="293" bodyend="319"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacebittensor_1_1utils_1_1tokenizer__utils_1a8a5ed01b4d5f6883475c9db9f896edbe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Tuple[torch.FloatTensor, List[tuple], torch.LongTensor]</type>
+        <definition> Tuple[torch.FloatTensor,
+                                                                                               List[tuple],
+                                                                                               torch.LongTensor] bittensor.utils.tokenizer_utils.align_tokenizer_sequences</definition>
+        <argsstring>(torch.FloatTensor probs, List[tuple] offset_mapping, List[tuple] offset_mapping_std, PreTrainedTokenizerBase tokenizer, Dict[tuple, List[Dict[str, torch.Tensor]]] split_map_cache, torch.LongTensor tokens, torch.LongTensor tokens_std)</argsstring>
+        <name>align_tokenizer_sequences</name>
+        <qualifiedname>bittensor.utils.tokenizer_utils.align_tokenizer_sequences</qualifiedname>
+        <param>
+          <type>torch.FloatTensor</type>
+          <declname>probs</declname>
+        </param>
+        <param>
+          <type>List</type>
+          <declname>offset_mapping</declname>
+          <array>[tuple]</array>
+        </param>
+        <param>
+          <type>List</type>
+          <declname>offset_mapping_std</declname>
+          <array>[tuple]</array>
+        </param>
+        <param>
+          <type>PreTrainedTokenizerBase</type>
+          <declname>tokenizer</declname>
+        </param>
+        <param>
+          <type>Dict]]</type>
+          <declname>split_map_cache</declname>
+          <array>[tuple, List[Dict[str, torch.Tensor]</array>
+        </param>
+        <param>
+          <type>torch.LongTensor</type>
+          <declname>tokens</declname>
+        </param>
+        <param>
+          <type>torch.LongTensor</type>
+          <declname>tokens_std</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Align an input tokenization distribution to standard tokenization segments by depth-splitting
+the input distribution at greedily chosen locations. Prepares the input distribution for mapping to a standard
+distribution.
+Args:
+probs (:obj:`torch.FloatTensor`, `required`):
+[sequence_len, vocab_size] Input probability distribution over a tokenizer vocabulary.
+offset_mapping (:obj:`List[tuple]`, `required`):
+Tokenizer offset mappings for a specific sequence [(left_0, right_0), (left_1, right_1), ...].
+offset_mapping_std (:obj:`List[tuple]`, `required`):
+Standard tokenizer offset mappings for a specific sequence [(left_0, right_0), (left_1, right_1), ...]
+tokenizer (:obj:`PreTrainedTokenizerBase`, `required`):
+Source tokenizer.
+split_map_cache (:obj:`Dict[tuple, List[Dict[str, torch.Tensor]]]`, `required`):
+A dictionary of depths keying split_maps of mappings from original tokens to
+target tokens at each depth of the split.
+tokens (:obj:`torch.LongTensor`, `required`):
+[sequence_len] A sequence of tokens produced by the source tokenizer.
+tokens_std (:obj:`torch.LongTensor`, `required`):
+[std_sequence_len] A sequence of tokens produced by the standard tokenizer.
+
+Returns:
+aligned_probs (:obj:`torch.FloatTensor`, `required`):
+[new_sequence_len, vocab_size] Aligned probability distribution over a tokenizer vocabulary.
+aligned_offset_mapping (:obj:`List[tuple]`, `required`):
+Tokenizer aligned offset mappings for a specific sequence [(left_0, right_0), (left_1, right_1), ...].
+aligned_tokens (:obj:`torch.LongTensor`, `required`):
+A sequence of aligned tokens produced by the source tokenizer.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/tokenizer_utils.py" line="320" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/tokenizer_utils.py" bodystart="325" bodyend="404"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacebittensor_1_1utils_1_1tokenizer__utils_1a52d7949730e4e84f9a53fd0bff3e0f22" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Dict[str, Any]</type>
+        <definition> Dict[str, Any] bittensor.utils.tokenizer_utils.get_translation_map</definition>
+        <argsstring>(PreTrainedTokenizerBase from_tokenizer, PreTrainedTokenizerBase to_tokenizer)</argsstring>
+        <name>get_translation_map</name>
+        <qualifiedname>bittensor.utils.tokenizer_utils.get_translation_map</qualifiedname>
+        <param>
+          <type>PreTrainedTokenizerBase</type>
+          <declname>from_tokenizer</declname>
+        </param>
+        <param>
+          <type>PreTrainedTokenizerBase</type>
+          <declname>to_tokenizer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Map individual token phrases from a tokenizer to another tokenizer.
+Args:
+    from_tokenizer (:obj:`PreTrainedTokenizerBase`, `required`):
+        From tokenizer.
+    to_tokenizer (:obj:`PreTrainedTokenizerBase`, `required`):
+        To tokenizer.
+
+Returns:
+    translation_map (:obj:`Dict[str, Any]`, `required`):
+        Maps for each observed length, a source token to a token sequence of that length,
+        with source index to target indices.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/tokenizer_utils.py" line="405" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/tokenizer_utils.py" bodystart="406" bodyend="446"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacebittensor_1_1utils_1_1tokenizer__utils_1a127face1324f46e879f92ee881771d90" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None bittensor.utils.tokenizer_utils.translate_one_to_many</definition>
+        <argsstring>(torch.FloatTensor probs_from, torch.FloatTensor probs_to, Dict[str, Any] translation_map)</argsstring>
+        <name>translate_one_to_many</name>
+        <qualifiedname>bittensor.utils.tokenizer_utils.translate_one_to_many</qualifiedname>
+        <param>
+          <type>torch.FloatTensor</type>
+          <declname>probs_from</declname>
+        </param>
+        <param>
+          <type>torch.FloatTensor</type>
+          <declname>probs_to</declname>
+        </param>
+        <param>
+          <type>Dict</type>
+          <declname>translation_map</declname>
+          <array>[str, Any]</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Translate a single token probability distribution from a source tokenization to a
+sequence of probability distributions over a target tokenization.
+Args:
+    probs_from (:obj:`torch.FloatTensor`, `required`):
+        [vocab_size] Input probability distribution over a from-tokenizer vocabulary.
+    probs_to (:obj:`torch.FloatTensor`, `required`):
+        [many, vocab_size] Output probability distributions over a to-tokenizer vocabulary.
+    translation_map (:obj:`Dict[str, Any]`, `required`):
+        Maps for each observed length, a source token to a token sequence of that length,
+        with source index to target indices.
+
+Returns:</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/tokenizer_utils.py" line="447" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/tokenizer_utils.py" bodystart="448" bodyend="475"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacebittensor_1_1utils_1_1tokenizer__utils_1aacc9d76a7e49b18c20a5b44beafb8306" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None bittensor.utils.tokenizer_utils.translate_many_to_one</definition>
+        <argsstring>(torch.FloatTensor probs_from, torch.FloatTensor probs_to, Dict[str, Any] translation_map)</argsstring>
+        <name>translate_many_to_one</name>
+        <qualifiedname>bittensor.utils.tokenizer_utils.translate_many_to_one</qualifiedname>
+        <param>
+          <type>torch.FloatTensor</type>
+          <declname>probs_from</declname>
+        </param>
+        <param>
+          <type>torch.FloatTensor</type>
+          <declname>probs_to</declname>
+        </param>
+        <param>
+          <type>Dict</type>
+          <declname>translation_map</declname>
+          <array>[str, Any]</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>    Translate a sequence of token probability distributions from a source tokenization to a
+    single token probability distribution over a target tokenization.
+        Args:
+            probs_from (:obj:`torch.FloatTensor`, `required`):
+                [many, vocab_size] Input probability distributions over a from-tokenizer vocabulary.
+            probs_to (:obj:`torch.FloatTensor`, `required`):
+                [vocab_size] Output probability distribution over a to-tokenizer vocabulary.
+            translation_map (:obj:`Dict[str, Any]`, `required`):
+                Maps for each observed length, a source token to a token sequence of that length,
+                with source index to target indices.
+
+        Returns:</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/tokenizer_utils.py" line="476" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/tokenizer_utils.py" bodystart="477" bodyend="514"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacebittensor_1_1utils_1_1tokenizer__utils_1ac2ac0a649cfc204c56ad13913288a4f4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None bittensor.utils.tokenizer_utils.translate_tokenizer_probs</definition>
+        <argsstring>(torch.FloatTensor probs, torch.FloatTensor probs_std, List[tuple] offset_mapping, List[tuple] offset_mapping_std, PreTrainedTokenizerBase tokenizer, PreTrainedTokenizerBase std_tokenizer, Dict[tuple, List[Dict[str, torch.Tensor]]] split_map_cache, Dict[str, Any] to_translation_map, Dict[str, Any] from_translation_map, torch.LongTensor tokens, torch.LongTensor tokens_std)</argsstring>
+        <name>translate_tokenizer_probs</name>
+        <qualifiedname>bittensor.utils.tokenizer_utils.translate_tokenizer_probs</qualifiedname>
+        <param>
+          <type>torch.FloatTensor</type>
+          <declname>probs</declname>
+        </param>
+        <param>
+          <type>torch.FloatTensor</type>
+          <declname>probs_std</declname>
+        </param>
+        <param>
+          <type>List</type>
+          <declname>offset_mapping</declname>
+          <array>[tuple]</array>
+        </param>
+        <param>
+          <type>List</type>
+          <declname>offset_mapping_std</declname>
+          <array>[tuple]</array>
+        </param>
+        <param>
+          <type>PreTrainedTokenizerBase</type>
+          <declname>tokenizer</declname>
+        </param>
+        <param>
+          <type>PreTrainedTokenizerBase</type>
+          <declname>std_tokenizer</declname>
+        </param>
+        <param>
+          <type>Dict]]</type>
+          <declname>split_map_cache</declname>
+          <array>[tuple, List[Dict[str, torch.Tensor]</array>
+        </param>
+        <param>
+          <type>Dict</type>
+          <declname>to_translation_map</declname>
+          <array>[str, Any]</array>
+        </param>
+        <param>
+          <type>Dict</type>
+          <declname>from_translation_map</declname>
+          <array>[str, Any]</array>
+        </param>
+        <param>
+          <type>torch.LongTensor</type>
+          <declname>tokens</declname>
+        </param>
+        <param>
+          <type>torch.LongTensor</type>
+          <declname>tokens_std</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Translates source token probability distributions to target probability distributions, by
+aligning segments through source token splits, then greedily performing one-to-one,
+one-to-many, many-to-one distribution mappings.
+    Args:
+        probs (:obj:`torch.FloatTensor`, `required`):
+            [sequence_len, vocab_size] Input probability distribution over a source tokenizer vocabulary.
+        probs_std (:obj:`torch.FloatTensor`, `required`):
+            [std_sequence_len, std_vocab_size] Output probability distribution over a target tokenizer vocabulary.
+            Reference that will be written in-place.
+        offset_mapping (:obj:`List[tuple]`, `required`):
+            Tokenizer offset mappings for a specific sequence [(left_0, right_0), (left_1, right_1), ...].
+        offset_mapping_std (:obj:`List[tuple]`, `required`):
+            Standard tokenizer offset mappings for a specific sequence [(left_0, right_0), (left_1, right_1), ...]
+        tokenizer (:obj:`PreTrainedTokenizerBase`, `required`):
+            Source tokenizer.
+        std_tokenizer (:obj:`PreTrainedTokenizerBase`, `required`):
+            Standard/target tokenizer.
+        split_map_cache (:obj:`Dict[tuple, List[Dict[str, torch.Tensor]]]`, `required`):
+            A dictionary of depths keying split_maps of mappings from original tokens to
+            target tokens at each depth of the split. Adds split_maps to cache for faster future recall.
+        tokens (:obj:`torch.LongTensor`, `required`):
+            [sequence_len] A sequence of tokens produced by the source tokenizer.
+        tokens_std (:obj:`torch.LongTensor`, `required`):
+            [std_sequence_len] A sequence of tokens produced by the standard tokenizer.
+        to_translation_map (:obj:`Dict[str, Any]`, `required`):
+            Maps for each observed length, a source token to a token sequence of that length,
+            with source index to target indices.
+        from_translation_map (:obj:`Dict[str, Any]`, `required`):
+            Maps for each observed length, a source token to a token sequence of that length,
+            from target index to source indices.
+
+    Returns:</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/tokenizer_utils.py" line="515" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/tokenizer_utils.py" bodystart="520" bodyend="590"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacebittensor_1_1utils_1_1tokenizer__utils_1aa9eb42e9db4c2b1517d8ff7105c8ebd2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str bittensor.utils.tokenizer_utils.get_top_probs</definition>
+        <argsstring>(torch.FloatTensor probs, PreTrainedTokenizerBase tokenizer, int amount=10)</argsstring>
+        <name>get_top_probs</name>
+        <qualifiedname>bittensor.utils.tokenizer_utils.get_top_probs</qualifiedname>
+        <param>
+          <type>torch.FloatTensor</type>
+          <declname>probs</declname>
+        </param>
+        <param>
+          <type>PreTrainedTokenizerBase</type>
+          <declname>tokenizer</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>amount</declname>
+          <defval>10</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Constructs output string with top amount of highest probability token strings.
+Used to display the top probabilities.
+Args:
+    probs (:obj:`torch.FloatTensor`, `required`):
+        [vocab_size] Probability distribution over a tokenizer vocabulary.
+    tokenizer (:obj:`PreTrainedTokenizerBase`, `required`):
+        Tokenizer.
+    amount: (:obj:`int`, `optional`):
+        Amount of top tokens to return
+
+Returns:
+    string (:obj:`str`, `required`):
+    Highest probability token strings, prob[token-string] ...
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/tokenizer_utils.py" line="591" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/tokenizer_utils.py" bodystart="591" bodyend="616"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacebittensor_1_1utils_1_1tokenizer__utils_1a7c296be466fd118c374bf1480d26904b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>torch.FloatTensor</type>
+        <definition> torch.FloatTensor bittensor.utils.tokenizer_utils.translate_logits_to_probs_std</definition>
+        <argsstring>(torch.FloatTensor logits, List[List[tuple]] offset_mapping, List[List[tuple]] offset_mapping_std, PreTrainedTokenizerBase tokenizer, PreTrainedTokenizerBase std_tokenizer, Dict[tuple, List[Dict[str, torch.Tensor]]] split_map_cache, Dict[str, Any] to_translation_map, Dict[str, Any] from_translation_map, torch.LongTensor tokens, torch.LongTensor tokens_std, bool skip_equivalent=True)</argsstring>
+        <name>translate_logits_to_probs_std</name>
+        <qualifiedname>bittensor.utils.tokenizer_utils.translate_logits_to_probs_std</qualifiedname>
+        <param>
+          <type>torch.FloatTensor</type>
+          <declname>logits</declname>
+        </param>
+        <param>
+          <type>List]</type>
+          <declname>offset_mapping</declname>
+          <array>[List[tuple]</array>
+        </param>
+        <param>
+          <type>List]</type>
+          <declname>offset_mapping_std</declname>
+          <array>[List[tuple]</array>
+        </param>
+        <param>
+          <type>PreTrainedTokenizerBase</type>
+          <declname>tokenizer</declname>
+        </param>
+        <param>
+          <type>PreTrainedTokenizerBase</type>
+          <declname>std_tokenizer</declname>
+        </param>
+        <param>
+          <type>Dict]]</type>
+          <declname>split_map_cache</declname>
+          <array>[tuple, List[Dict[str, torch.Tensor]</array>
+        </param>
+        <param>
+          <type>Dict</type>
+          <declname>to_translation_map</declname>
+          <array>[str, Any]</array>
+        </param>
+        <param>
+          <type>Dict</type>
+          <declname>from_translation_map</declname>
+          <array>[str, Any]</array>
+        </param>
+        <param>
+          <type>torch.LongTensor</type>
+          <declname>tokens</declname>
+        </param>
+        <param>
+          <type>torch.LongTensor</type>
+          <declname>tokens_std</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>skip_equivalent</declname>
+          <defval>True</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Translates source token logit scores to probability distributions over the standard tokenizer.
+    Args:
+        logits (:obj:`torch.FloatTensor`, `required`):
+            [batch_size, sequence_len, vocab_size] Input source logits over a source tokenizer vocabulary.
+        offset_mapping (:obj:`List[List[tuple]]`, `required`):
+            Batch of tokenizer offset mappings
+            [[(left_0, right_0), (left_1, right_1), ...], ...].
+        offset_mapping_std (:obj:`List[List[tuple]]`, `required`):
+            Batch of standard tokenizer offset mappings
+            [[(left_0, right_0), (left_1, right_1), ...], ...].
+        tokenizer (:obj:`PreTrainedTokenizerBase`, `required`):
+            Source tokenizer.
+        std_tokenizer (:obj:`PreTrainedTokenizerBase`, `required`):
+            Standard/target tokenizer.
+        split_map_cache (:obj:`Dict[tuple, List[Dict[str, torch.Tensor]]]`, `required`):
+            A dictionary of depths keying split_maps of mappings from original tokens to
+            target tokens at each depth of the split. Adds split_maps to cache for faster future recall.
+        tokens (:obj:`torch.LongTensor`, `required`):
+            [batch_size, sequence_len] A sequence of tokens produced by the source tokenizer.
+        tokens_std (:obj:`torch.LongTensor`, `required`):
+            [batch_size, std_sequence_len] A sequence of tokens produced by the standard tokenizer.
+        to_translation_map (:obj:`Dict[str, Any]`, `required`):
+            Maps for each observed length, a source token to a token sequence of that length,
+            with source index to target indices.
+        from_translation_map (:obj:`Dict[str, Any]`, `required`):
+            Maps for each observed length, a source token to a token sequence of that length,
+            from target index to source indices.
+        skip_equivalent (:obj:`bool`, `optional`):
+            Skips translation if tokenizer and std_tokenizer are equivalent.
+
+    Returns:
+        probs_std (:obj:`torch.FloatTensor`, `required`):
+            [batch_size, std_sequence_len, std_vocab_size] Output probability distribution over the
+            standard tokenizer vocabulary.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/tokenizer_utils.py" line="617" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/tokenizer_utils.py" bodystart="623" bodyend="709"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacebittensor_1_1utils_1_1tokenizer__utils_1a619c2a8870fee58a3993722ad5e2d7bb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>torch.Tensor</type>
+        <definition> torch.Tensor bittensor.utils.tokenizer_utils.topk_token_phrases</definition>
+        <argsstring>(torch.Tensor logits, PreTrainedTokenizerBase tokenizer, int topk, int ignore_index=-100)</argsstring>
+        <name>topk_token_phrases</name>
+        <qualifiedname>bittensor.utils.tokenizer_utils.topk_token_phrases</qualifiedname>
+        <param>
+          <type>torch.Tensor</type>
+          <declname>logits</declname>
+        </param>
+        <param>
+          <type>PreTrainedTokenizerBase</type>
+          <declname>tokenizer</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>topk</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>ignore_index</declname>
+          <defval>-100</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Select topk tokenizer logits/phrases and include std_token_phrases counterparts (std_tokenization of token text)
+in topk_tensor output of shape [batch_size, (topk + 1), max_len], where max len of all phrase lists
+(with prob in front) is max_{b,k}(len([prob_k, tok_0_k, tok_1_k, ...])).
+The output topk_tensor also includes a floor_prob for each batch item. The floor probability is the
+mean probability of token phrases not captured in topk, required since the tokenizer vocab_size may
+not be known to the receiver.
+Requires prep_tokenizer(tokenizer, std_tokenizer) to set_std_token_phrases first, to make
+std_token_phrases available here.
+    Args:
+        logits (:obj:`torch.Tensor`, `required`):
+            [batch_size, vocab_size] Input source logits for last token over a source tokenizer vocabulary.
+        tokenizer (:obj:`PreTrainedTokenizerBase`, `required`):
+            Source tokenizer (usually server tokenizer)
+        topk (:obj:`int`, `required`):
+            Amount of top phrases to expect (to check for mismatch)
+        ignore_index (:obj:`int`, `optional`):
+            Padding value to use for unfilled token positions in a shorter token phrase.
+
+    Returns:
+        topk_tensor (:obj:`torch.Tensor`, `required`):
+            [batch_size, (topk + 1), max_len] tensor includes topk token probabilities (prob_k) + floor_prob
+            in first column with gradients attached, with std_tokens in remaining columns with ignore_index padding.
+            Content structure:
+            [[[prob_k=0_b=0, tok_0_k=0_b=0, tok_1_k=0_b=0, ..., ignore_index?],
+              [prob_k=1_b=0, tok_0_k=1_b=0, tok_1_k=1_b=0, ..., ignore_index?],
+              [...],
+              [prob_floor_b=0, ignore_index, ..., ignore_index]],
+             [[prob_k=0_b=1, tok_0_k=0_b=1, tok_1_k=0_b=1, ..., ignore_index?],
+              [prob_k=1_b=1, tok_0_k=1_b=1, tok_1_k=1_b=1, ..., ignore_index?],
+              [...],
+              [prob_floor_b=1, ignore_index, ..., ignore_index]],
+             [...]]
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/tokenizer_utils.py" line="710" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/tokenizer_utils.py" bodystart="711" bodyend="795"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacebittensor_1_1utils_1_1tokenizer__utils_1a335c0010cfa5615482ecc882408a8e0c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor.utils.tokenizer_utils.compact_topk_token_phrases</definition>
+        <argsstring>(torch.Tensor topk_tensor)</argsstring>
+        <name>compact_topk_token_phrases</name>
+        <qualifiedname>bittensor.utils.tokenizer_utils.compact_topk_token_phrases</qualifiedname>
+        <param>
+          <type>torch.Tensor</type>
+          <declname>topk_tensor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Compact 2D topk_tensor [batch_size, (topk + 1), max_len] by removing ignore_index padding, and also offset
+tokens by 2 to preserve [0, 1] for probabilities to allow for proper unraveling demarcated by
+probability boundaries.
+    Args:
+        topk_tensor (:obj:`torch.Tensor`, `required`):
+            [batch_size, (topk + 1), max_len] tensor includes topk token probabilities (prob_k) + floor_prob
+            in first column with gradients attached, with std_tokens in remaining columns with ignore_index padding.
+            Content structure:
+            [[[prob_k=0_b=0, tok_0_k=0_b=0, tok_1_k=0_b=0, ..., ignore_index?],
+              [prob_k=1_b=0, tok_0_k=1_b=0, tok_1_k=1_b=0, ..., ignore_index?],
+              [...],
+              [prob_floor_b=0, ignore_index, ..., ignore_index]],
+             [[prob_k=0_b=1, tok_0_k=0_b=1, tok_1_k=0_b=1, ..., ignore_index?],
+              [prob_k=1_b=1, tok_0_k=1_b=1, tok_1_k=1_b=1, ..., ignore_index?],
+              [...],
+              [prob_floor_b=1, ignore_index, ..., ignore_index]],
+             [...]]
+
+    Returns:
+        compact_topk (:obj:`torch.Tensor`, `required`):
+            [sum_b(sum_k(len(phrase_k) + 1)_b)] Compacted 1-D tensor &gt;= batch_size * (2 * topk + 1),
+            since 2 * topk + 1: topk x [probability, token sequence (at least one token)] +
+            floor probability (rest).
+            Content structure:
+                [prob_k=0_b=0, tok_0_k=0_b=0, tok_1_k=0_b=0, ..., prob_k=1_b=0, tok_0_k=1_b=0, ..., prob_floor_b=0,
+                 prob_k=0_b=1, tok_0_k=0_b=1, tok_1_k=0_b=1, ..., prob_k=1_b=1, tok_0_k=1_b=1, ..., prob_floor_b=1,
+                 ...]
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/tokenizer_utils.py" line="796" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/tokenizer_utils.py" bodystart="796" bodyend="834"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacebittensor_1_1utils_1_1tokenizer__utils_1a952b31d97e6588cd4166ee2ef319a1f0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>torch.Tensor</type>
+        <definition> torch.Tensor bittensor.utils.tokenizer_utils.unravel_topk_token_phrases</definition>
+        <argsstring>(torch.Tensor compact_topk, int topk, int ignore_index=-100)</argsstring>
+        <name>unravel_topk_token_phrases</name>
+        <qualifiedname>bittensor.utils.tokenizer_utils.unravel_topk_token_phrases</qualifiedname>
+        <param>
+          <type>torch.Tensor</type>
+          <declname>compact_topk</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>topk</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>ignore_index</declname>
+          <defval>-100</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Unravel topk token phrases input_tensor from 1-D to [batch_size, (topk + 1), max_len] topk_tensor, which
+includes topk token probabilities (prob_k) + floor_prob in first column with gradients attached, with
+std_tokens in remaining columns with ignore_index padding.
+    Args:
+        compact_topk (:obj:`torch.Tensor`, `required`):
+            [sum_b(sum_k(len(phrase_k) + 1)_b)] Compacted 1-D tensor &gt;= batch_size * (2 * topk + 1),
+            since 2 * topk + 1: topk x [probability, token sequence (at least one token)] +
+            floor probability (rest).
+            Content structure:
+                [prob_k=0_b=0, tok_0_k=0_b=0, tok_1_k=0_b=0, ..., prob_k=1_b=0, tok_0_k=1_b=0, ..., prob_floor_b=0,
+                 prob_k=0_b=1, tok_0_k=0_b=1, tok_1_k=0_b=1, ..., prob_k=1_b=1, tok_0_k=1_b=1, ..., prob_floor_b=1,
+                 ...]
+        topk (:obj:`int`, `required`):
+            Amount of top phrases to expect (to check for mismatch)
+        ignore_index (:obj:`int`, `optional`):
+            Padding value to use for unfilled token positions in a shorter token phrase.
+    Returns:
+        topk_tensor (:obj:`torch.Tensor`, `required`):
+            [batch_size, (topk + 1), max_len] tensor includes topk token probabilities (prob_k) + floor_prob
+            in first column with gradients attached, with std_tokens in remaining columns with ignore_index padding.
+            Content structure:
+            [[[prob_k=0_b=0, tok_0_k=0_b=0, tok_1_k=0_b=0, ..., ignore_index?],
+              [prob_k=1_b=0, tok_0_k=1_b=0, tok_1_k=1_b=0, ..., ignore_index?],
+              [...],
+              [prob_floor_b=0, ignore_index, ..., ignore_index]],
+             [[prob_k=0_b=1, tok_0_k=0_b=1, tok_1_k=0_b=1, ..., ignore_index?],
+              [prob_k=1_b=1, tok_0_k=1_b=1, tok_1_k=1_b=1, ..., ignore_index?],
+              [...],
+              [prob_floor_b=1, ignore_index, ..., ignore_index]],
+             [...]]
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/tokenizer_utils.py" line="835" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/tokenizer_utils.py" bodystart="835" bodyend="915"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacebittensor_1_1utils_1_1tokenizer__utils_1ab00bac4739db21de5c408746fb2d631e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Tuple[torch.Tensor, torch.Tensor]</type>
+        <definition> Tuple[torch.Tensor, torch.Tensor] bittensor.utils.tokenizer_utils.phrase_cross_entropy</definition>
+        <argsstring>(Union[List[List[int]], torch.Tensor] target_phrases, torch.Tensor topk_tensor, int ignore_index=-100, reduce=True, reduction=&apos;mean&apos;, int vocab_size_min=50257)</argsstring>
+        <name>phrase_cross_entropy</name>
+        <qualifiedname>bittensor.utils.tokenizer_utils.phrase_cross_entropy</qualifiedname>
+        <param>
+          <type>Union]</type>
+          <defname>target_phrases</defname>
+          <array>[List[List[int]</array>
+        </param>
+        <param>
+          <type>torch.Tensor]</type>
+          <declname>target_phrases</declname>
+          <defname>topk_tensor</defname>
+        </param>
+        <param>
+          <type>torch.Tensor</type>
+          <declname>topk_tensor</declname>
+          <defname>ignore_index</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>ignore_index</declname>
+          <defname>reduce</defname>
+          <defval>-100</defval>
+        </param>
+        <param>
+          <type>reduce</type>
+          <defname>reduction</defname>
+          <defval>True</defval>
+        </param>
+        <param>
+          <type>reduction</type>
+          <defname>vocab_size_min</defname>
+          <defval>&apos;mean&apos;</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>vocab_size_min</declname>
+          <defval>50257</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Calculates the cross entropy of a phrase prediction against a target phrase, so that this is a multi-token
+extension of typical cross entropy calculated for next token prediction.
+    Args:
+        target_phrases (:obj:`List[List[int]]`, `required`):
+            [batch_size, *] Target phrases in standard token sequence list.
+        topk_tensor (:obj:`torch.Tensor`, `required`):
+            [batch_size, (topk + 1), max_len] tensor includes topk token probabilities (prob_k) + floor_prob
+            in first column with gradients attached, with std_tokens in remaining columns with ignore_index padding.
+            Content structure:
+            [[[prob_k=0_b=0, tok_0_k=0_b=0, tok_1_k=0_b=0, ..., ignore_index?],
+              [prob_k=1_b=0, tok_0_k=1_b=0, tok_1_k=1_b=0, ..., ignore_index?],
+              [...],
+              [prob_floor_b=0, ignore_index, ..., ignore_index]],
+             [[prob_k=0_b=1, tok_0_k=0_b=1, tok_1_k=0_b=1, ..., ignore_index?],
+              [prob_k=1_b=1, tok_0_k=1_b=1, tok_1_k=1_b=1, ..., ignore_index?],
+              [...],
+              [prob_floor_b=1, ignore_index, ..., ignore_index]],
+             [...]]
+        ignore_index (:obj:`int`, `optional`):
+            Padding value to use for unfilled token positions in a shorter token phrase.
+        reduce (:obj:`bool`, `optional`):
+            Whether to reduce the cross entropy over the batch dimension.
+        reduction (:obj:`str`, `optional`):
+            Reduction function to perform when reduce is True.
+        vocab_size_min (:obj:`int`, `optional`):
+            Minimum server vocab_size expected, should set to nominal 50257,
+            used to prevent the floor_probs from being too large.
+    Returns:
+        loss_val (:obj:`torch.Tensor`, `required`):
+            Validation cross entropy loss, either scalar if reduce or [batch_size].
+        loss (:obj:`torch.Tensor`, `required`):
+            Phrase cross entropy loss, either scalar if reduce or [batch_size].
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/tokenizer_utils.py" line="916" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/tokenizer_utils.py" bodystart="919" bodyend="1016"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacebittensor_1_1utils_1_1tokenizer__utils_1a66ebcf1b07d1ee0f0ba07130967a40cc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>torch.Tensor</type>
+        <definition> torch.Tensor bittensor.utils.tokenizer_utils.topk_tokens_to_vocab_size</definition>
+        <argsstring>(torch.Tensor topk_tensor, int vocab_size_std, int vocab_size_min=50257)</argsstring>
+        <name>topk_tokens_to_vocab_size</name>
+        <qualifiedname>bittensor.utils.tokenizer_utils.topk_tokens_to_vocab_size</qualifiedname>
+        <param>
+          <type>torch.Tensor</type>
+          <declname>topk_tensor</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>vocab_size_std</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>vocab_size_min</declname>
+          <defval>50257</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Convert topk_tokens first token probabilities into a standard logits tensor shape [batch_size, vocab_size_std].
+Args:
+topk_tensor (:obj:`torch.Tensor`, `required`):
+    [batch_size, (topk + 1), max_len] tensor includes topk token probabilities (prob_k) + floor_prob
+    in first column with gradients attached, with std_tokens in remaining columns with ignore_index padding.
+    Content structure:
+    [[[prob_k=0_b=0, tok_0_k=0_b=0, tok_1_k=0_b=0, ..., ignore_index?],
+      [prob_k=1_b=0, tok_0_k=1_b=0, tok_1_k=1_b=0, ..., ignore_index?],
+      [...],
+      [prob_floor_b=0, ignore_index, ..., ignore_index]],
+     [[prob_k=0_b=1, tok_0_k=0_b=1, tok_1_k=0_b=1, ..., ignore_index?],
+      [prob_k=1_b=1, tok_0_k=1_b=1, tok_1_k=1_b=1, ..., ignore_index?],
+      [...],
+      [prob_floor_b=1, ignore_index, ..., ignore_index]],
+     [...]]
+vocab_size_std (:obj:`int`, `optional`):
+    Standard tokenizer vocab_size for forming logits.
+vocab_size_min (:obj:`int`, `optional`):
+    Minimum server vocab_size expected, should set to nominal 50257,
+    used to prevent the floor_probs from being too large.
+Returns:
+logits (:obj:`torch.Tensor`, `required`):
+    [batch_size, vocab_size_std] Standard logits.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/tokenizer_utils.py" line="1017" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/tokenizer_utils.py" bodystart="1017" bodyend="1064"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacebittensor_1_1utils_1_1tokenizer__utils_1a54a25644b9cfa6b662c66e0707692a72" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool bittensor.utils.tokenizer_utils.check_tokenizer_equivalence</definition>
+        <argsstring>(PreTrainedTokenizerBase tokenizer_to_check, PreTrainedTokenizerBase target_tokenizer)</argsstring>
+        <name>check_tokenizer_equivalence</name>
+        <qualifiedname>bittensor.utils.tokenizer_utils.check_tokenizer_equivalence</qualifiedname>
+        <param>
+          <type>PreTrainedTokenizerBase</type>
+          <declname>tokenizer_to_check</declname>
+        </param>
+        <param>
+          <type>PreTrainedTokenizerBase</type>
+          <declname>target_tokenizer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Is tokenizer_to_check equivalent to target_tokenizer?
+    Args:
+        tokenizer_to_check (:obj:`PreTrainedTokenizerBase`, `required`):
+            Tokenizer to check for equivalence.
+        target_tokenizer (:obj:`PreTrainedTokenizerBase`, `required`):
+            Target tokenizer to check equivalence against.
+
+    Returns:
+        result (:obj:`bool`, `required`)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/tokenizer_utils.py" line="1065" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/tokenizer_utils.py" bodystart="1066" bodyend="1089"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacebittensor_1_1utils_1_1tokenizer__utils_1abcdd922e5075b5eb136e9f056aa547c1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor.utils.tokenizer_utils.prune_tokens</definition>
+        <argsstring>(torch.FloatTensor inputs, int prune_len=1, int margin=3)</argsstring>
+        <name>prune_tokens</name>
+        <qualifiedname>bittensor.utils.tokenizer_utils.prune_tokens</qualifiedname>
+        <param>
+          <type>torch.FloatTensor</type>
+          <declname>inputs</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>prune_len</declname>
+          <defval>1</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>margin</declname>
+          <defval>3</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Prune tokens from a batch of sequences randomly by removing prune_len tokens from each sequence,
+leaving the end margin intact.
+    Args:
+        inputs (:obj:`torch.FloatTensor` of shape :obj:`(batch_size, seq_len)`, `required`):
+            Tensor inputs to have tokens pruned.
+        prune_len (:obj:`int`, `optional`):
+            Number of tokens to prune from each validation input sequence.
+        margin (:obj:`int`, `optional`):
+            Number of tokens at the end of the sequence to leave unpruned.
+    Returns:
+        pruned_inputs (:obj:`torch.FloatTensor` of shape :obj:`(batch_size, seq_len - prune_len)`, `required`)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/tokenizer_utils.py" line="1090" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/tokenizer_utils.py" bodystart="1090" bodyend="1118"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacebittensor_1_1utils_1_1tokenizer__utils_1a48b79b3d00a8fa64ade7ce9ba3db7410" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>List[List[List[Any]]]</type>
+        <definition> List[List[List[Any]]] bittensor.utils.tokenizer_utils.pad_offsets</definition>
+        <argsstring>(List[List[tuple]] offsets_batch, List[List[List[Any]]] source_offsets_batch, List[List[List[Any]]] pad_offsets_batch)</argsstring>
+        <name>pad_offsets</name>
+        <qualifiedname>bittensor.utils.tokenizer_utils.pad_offsets</qualifiedname>
+        <param>
+          <type>List]</type>
+          <declname>offsets_batch</declname>
+          <array>[List[tuple]</array>
+        </param>
+        <param>
+          <type>List]]</type>
+          <declname>source_offsets_batch</declname>
+          <array>[List[List[Any]</array>
+        </param>
+        <param>
+          <type>List]]</type>
+          <declname>pad_offsets_batch</declname>
+          <array>[List[List[Any]</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Pads specific tuples in offsets_batch, selected by source_offsets_batch with
+associated paddings in pad_offsets_batch.
+Purpose is typically to add padding to align two tokenization offsets at special tokens.
+    Args:
+        offsets_batch (:obj:`List[List[tuple]]`, `required`):
+                Batch of full input tokenizer offset mappings to be used for alteration
+                [[(left_0, right_0), (left_1, right_1), ...], ...].
+        source_offsets_batch (:obj:`List[List[List[Any]]]`, `required`):
+                Batch of tokenizer offset mappings indicating replacement tuples in offsets_batch
+                [[(left_0, right_0), (left_1, right_1), ...], ...].
+        pad_offsets_batch (:obj:`List[List[List[Any]]]`, `required`):
+                Batch of offset paddings associated with each source_offsets_batch replacement tuple
+                [[(left_pad_0, right_pad_0), (left_pad_1, right_pad_1), ...], ...].
+
+    Returns:
+        new_offsets_batch (:obj:`List[List[List[Any]]]`, `required`):
+                Batch of padded full input tokenizer offset mappings
+                [[(left_0, right_0), (left_1, right_1), ...], ...].
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/tokenizer_utils.py" line="1119" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/tokenizer_utils.py" bodystart="1120" bodyend="1164"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacebittensor_1_1utils_1_1tokenizer__utils_1a58bc4ccb79ae645c72c7a5e4244b99d3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>List[List[int]]</type>
+        <definition> List[List[int]] bittensor.utils.tokenizer_utils.find_offsets</definition>
+        <argsstring>(str string, str substring)</argsstring>
+        <name>find_offsets</name>
+        <qualifiedname>bittensor.utils.tokenizer_utils.find_offsets</qualifiedname>
+        <param>
+          <type>str</type>
+          <declname>string</declname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>substring</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Finds all the [start, end] offsets of substring in string.
+Assumes there is no overlap of substring, nor recursive overlap.
+    Args:
+        string (:obj:`str`, `required`):
+            Main string to find offsets in.
+        substring (:obj:`str`, `required`):
+            Substring to search for in string.
+
+    Returns:
+        offsets (:obj:`List[List[int]]`, `required`):
+            Offsets denoting the [start, end] positions of substring in string.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/tokenizer_utils.py" line="1165" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/tokenizer_utils.py" bodystart="1165" bodyend="1187"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacebittensor_1_1utils_1_1tokenizer__utils_1a8e57c9718294c345d7f4ff730970723d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Tuple[str, List[List[int]]]</type>
+        <definition> Tuple[str, List[List[int]]] bittensor.utils.tokenizer_utils.replace_at_offsets</definition>
+        <argsstring>(str string, List[List[Any]] offsets)</argsstring>
+        <name>replace_at_offsets</name>
+        <qualifiedname>bittensor.utils.tokenizer_utils.replace_at_offsets</qualifiedname>
+        <param>
+          <type>str</type>
+          <declname>string</declname>
+        </param>
+        <param>
+          <type>List]</type>
+          <declname>offsets</declname>
+          <array>[List[Any]</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Replace indicated [left, right] offset positions with a new substring, by
+deleting [left, right] content and adding [left, left+len(substring)] substring,
+adjusting offsets incrementally.
+Assumes an incremental ordered, non-overlapping list of offsets, constructing
+the new string incrementally and recording new offsets.
+    Args:
+        string (:obj:`str`, `required`):
+            Main string to perform replacements for.
+        offsets (:obj:`List[List[Any]]`, `required`):
+            Offsets where replacements are made with replacement substring
+            [[left_0, right_0, substring_0], ...]
+
+    Returns:
+        new_string (:obj:`str`, `required`):
+            New string where replacements were made.
+        new_offsets (:obj:`List[List[Any]]`, `required`):
+            New offsets where replacements are now located
+            [[left_0, right_0], [left_1, right_1], ...]
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/tokenizer_utils.py" line="1188" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/tokenizer_utils.py" bodystart="1188" bodyend="1228"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacebittensor_1_1utils_1_1tokenizer__utils_1a4da460aad949bf91a0f414c1a0f30df1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Dict[str, str]</type>
+        <definition> Dict[str, str] bittensor.utils.tokenizer_utils.get_special_token_pairings</definition>
+        <argsstring>(PreTrainedTokenizerBase from_tokenizer, PreTrainedTokenizerBase to_tokenizer)</argsstring>
+        <name>get_special_token_pairings</name>
+        <qualifiedname>bittensor.utils.tokenizer_utils.get_special_token_pairings</qualifiedname>
+        <param>
+          <type>PreTrainedTokenizerBase</type>
+          <declname>from_tokenizer</declname>
+        </param>
+        <param>
+          <type>PreTrainedTokenizerBase</type>
+          <declname>to_tokenizer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Determines a prioritized matching of special token texts between two tokenizers.
+Purpose is to produce replacement pairs so special token test is correctly represented for target tokenizer.
+    Args:
+        from_tokenizer (:obj:`PreTrainedTokenizerBase`, `required`):
+            From tokenizer.
+        to_tokenizer (:obj:`PreTrainedTokenizerBase`, `required`):
+            To tokenizer.
+
+    Returns:
+        pairings (:obj:`Dict[str, str]`, `required`):
+            Prioritized dictionary of From_special_token_text -&gt; To_special_token_text.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/tokenizer_utils.py" line="1229" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/tokenizer_utils.py" bodystart="1230" bodyend="1258"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacebittensor_1_1utils_1_1tokenizer__utils_1a6717d83c925189f86590b5ab3d88df17" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Tuple[List[str], List[List[List[int]]], List[List[List[int]]], List[List[List[Any]]]]</type>
+        <definition> Tuple[List[str],
+                                                                                 List[List[List[int]]],
+                                                                                 List[List[List[int]]],
+                                                                                 List[List[List[Any]]]] bittensor.utils.tokenizer_utils.translate_special_token_text</definition>
+        <argsstring>(List[str] text_batch, PreTrainedTokenizerBase from_tokenizer, PreTrainedTokenizerBase to_tokenizer)</argsstring>
+        <name>translate_special_token_text</name>
+        <qualifiedname>bittensor.utils.tokenizer_utils.translate_special_token_text</qualifiedname>
+        <param>
+          <type>List</type>
+          <declname>text_batch</declname>
+          <array>[str]</array>
+        </param>
+        <param>
+          <type>PreTrainedTokenizerBase</type>
+          <declname>from_tokenizer</declname>
+        </param>
+        <param>
+          <type>PreTrainedTokenizerBase</type>
+          <declname>to_tokenizer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Translates special_token signifier text in from_tokenizer to to_tokenizer special_token text, for
+a given text_batch. Resulting to_text_batch can then be to_tokenized where special_tokens should
+map to its single corresponding token, despite signifier text difference compared to from_tokenizer.
+    Args:
+        text_batch (:obj:`List[str]`, `required`):
+            List of strings to translate special tokens for.
+        from_tokenizer (:obj:`PreTrainedTokenizerBase`, `required`):
+            From tokenizer.
+        to_tokenizer (:obj:`PreTrainedTokenizerBase`, `required`):
+            To tokenizer.
+
+    Returns:
+        to_text_batch (:obj:`List[str]`, `required`):
+            List of strings where special text has been replaced.
+        from_offsets_batch (:obj:`List[List[List[int]]]`, `required`):
+            Batch of tokenizer offset mappings selecting replacement tuples in from_tokenizer text
+                [[(left_0, right_0), (left_1, right_1), ...], ...].
+        to_offsets_batch (:obj:`List[List[List[int]]]`, `required`):
+            Batch of tokenizer offset mappings selecting replacement tuples in to_tokenizer text
+                [[(left_0, right_0), (left_1, right_1), ...], ...].
+        pad_offsets_batch (:obj:`List[List[List[Any]]]`, `required`):
+            Batch of offset paddings associated with each replacement tuple
+                [[(left_pad_0, right_pad_0), (left_pad_1, right_pad_1), ...], ...].
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/tokenizer_utils.py" line="1259" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/tokenizer_utils.py" bodystart="1263" bodyend="1318"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacebittensor_1_1utils_1_1tokenizer__utils_1aef7aceb6bc8b3ad0d08f7fed25c876d8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor.utils.tokenizer_utils.set_vocab_len</definition>
+        <argsstring>(PreTrainedTokenizerBase tokenizer)</argsstring>
+        <name>set_vocab_len</name>
+        <qualifiedname>bittensor.utils.tokenizer_utils.set_vocab_len</qualifiedname>
+        <param>
+          <type>PreTrainedTokenizerBase</type>
+          <declname>tokenizer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Sets the tokenizer.vocab_len if unset, to store the real vocabulary size according to the vocab or encoder.
+    Args:
+        tokenizer (:obj:`PreTrainedTokenizerBase`, `required`):
+            Tokenizer to set vocab_len for.
+    Returns:</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/tokenizer_utils.py" line="1319" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/tokenizer_utils.py" bodystart="1319" bodyend="1336"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacebittensor_1_1utils_1_1tokenizer__utils_1a558123e572c10af14c002993c9b04f36" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor.utils.tokenizer_utils.set_whitespace_preserving</definition>
+        <argsstring>(PreTrainedTokenizerBase tokenizer)</argsstring>
+        <name>set_whitespace_preserving</name>
+        <qualifiedname>bittensor.utils.tokenizer_utils.set_whitespace_preserving</qualifiedname>
+        <param>
+          <type>PreTrainedTokenizerBase</type>
+          <declname>tokenizer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Sets the tokenizer.whitespace_preserving if unset, indicates if tokenizer preserves whitespace like GPT-style,
+or not like BERT-style.
+    Args:
+        tokenizer (:obj:`PreTrainedTokenizerBase`, `required`):
+            Tokenizer to set vocab_len for.
+    Returns:</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/tokenizer_utils.py" line="1337" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/tokenizer_utils.py" bodystart="1337" bodyend="1355"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacebittensor_1_1utils_1_1tokenizer__utils_1a066a0913f46f47503972e5df32808063" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor.utils.tokenizer_utils.set_std_token_phrases</definition>
+        <argsstring>(tokenizer, std_tokenizer)</argsstring>
+        <name>set_std_token_phrases</name>
+        <qualifiedname>bittensor.utils.tokenizer_utils.set_std_token_phrases</qualifiedname>
+        <param>
+          <type><ref refid="classbittensor_1_1__tokenizer_1_1tokenizer" kindref="compound">tokenizer</ref></type>
+          <defname>tokenizer</defname>
+        </param>
+        <param>
+          <type>std_tokenizer</type>
+          <defname>std_tokenizer</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Sets std_token_phrases which are the tokenizer token strings tokenized with std_tokenizer, so
+the std_tokenizer equivalent of the tokenizer token strings.
+Used for converting model predictions/logits into std_tokenizer representations, for example in TextCausalLMNext.
+    Args:
+        tokenizer(:obj:`PreTrainedTokenizerBase`, `required`):
+            Tokenizer to set std_token_phrases for.
+        std_tokenizer(:obj:`PreTrainedTokenizerBase`, `required`):
+            Standard bittensor tokenizer to convert to.
+
+    Returns:</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/tokenizer_utils.py" line="1356" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/tokenizer_utils.py" bodystart="1356" bodyend="1382"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacebittensor_1_1utils_1_1tokenizer__utils_1af7fd6b7e6dee158a3f991bdd93a1f559" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor.utils.tokenizer_utils.prep_tokenizer</definition>
+        <argsstring>(tokenizer, std_tokenizer=None)</argsstring>
+        <name>prep_tokenizer</name>
+        <qualifiedname>bittensor.utils.tokenizer_utils.prep_tokenizer</qualifiedname>
+        <param>
+          <type><ref refid="classbittensor_1_1__tokenizer_1_1tokenizer" kindref="compound">tokenizer</ref></type>
+          <defname>tokenizer</defname>
+        </param>
+        <param>
+          <type>std_tokenizer</type>
+          <defname>std_tokenizer</defname>
+          <defval>None</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/tokenizer_utils.py" line="1383" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/tokenizer_utils.py" bodystart="1383" bodyend="1424"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim> Utils for tokenizer equivalence checking, logit translation, etc.
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/Users/macthrasher/bittensor/bittensor/utils/tokenizer_utils.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="namespacebittensor_1_1__dataset_1_1thread__queue" kind="namespace" language="Python">
+    <compoundname>bittensor::_dataset::thread_queue</compoundname>
+    <innerclass refid="classbittensor_1_1__dataset_1_1thread__queue_1_1_producer_thread" prot="public">bittensor::_dataset::thread_queue::ProducerThread</innerclass>
+    <innerclass refid="classbittensor_1_1__dataset_1_1thread__queue_1_1_thread_queue" prot="public">bittensor::_dataset::thread_queue::ThreadQueue</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/macthrasher/bittensor/bittensor/_dataset/thread_queue.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

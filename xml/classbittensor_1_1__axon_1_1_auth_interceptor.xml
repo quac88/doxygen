@@ -1,0 +1,289 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="classbittensor_1_1__axon_1_1_auth_interceptor" kind="class" language="Python" prot="public">
+    <compoundname>bittensor::_axon::AuthInterceptor</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">grpc.ServerInterceptor</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classbittensor_1_1__axon_1_1_auth_interceptor_1ad8b55f31d2b853b62a3c48e558f28981" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._axon.AuthInterceptor::nonces</definition>
+        <argsstring></argsstring>
+        <name>nonces</name>
+        <qualifiedname>bittensor._axon.AuthInterceptor.nonces</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_axon/__init__.py" line="358" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_axon/__init__.py" bodystart="358" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__axon_1_1_auth_interceptor_1acc81b5423ece8788f5ed4f0b580847d9" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._axon.AuthInterceptor::blacklist</definition>
+        <argsstring></argsstring>
+        <name>blacklist</name>
+        <qualifiedname>bittensor._axon.AuthInterceptor.blacklist</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_axon/__init__.py" line="359" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_axon/__init__.py" bodystart="359" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__axon_1_1_auth_interceptor_1af1ddf7ee197223329acdd7f76840c5a3" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._axon.AuthInterceptor::receiver_hotkey</definition>
+        <argsstring></argsstring>
+        <name>receiver_hotkey</name>
+        <qualifiedname>bittensor._axon.AuthInterceptor.receiver_hotkey</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_axon/__init__.py" line="360" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_axon/__init__.py" bodystart="360" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classbittensor_1_1__axon_1_1_auth_interceptor_1a4302792745061f7573b98c23874b9fbb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._axon.AuthInterceptor.__init__</definition>
+        <argsstring>(self, str receiver_hotkey, Callable blacklist=None)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>bittensor._axon.AuthInterceptor.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>receiver_hotkey</declname>
+        </param>
+        <param>
+          <type>Callable</type>
+          <declname>blacklist</declname>
+          <defval>None</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Creates a new server interceptor that authenticates incoming messages from passed arguments.
+    Args:
+        receiver_hotkey(str):
+            the SS58 address of the hotkey which should be targeted by RPCs
+        black_list (Function, `optional`):
+            black list function that prevents certain pubkeys from sending messages</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_axon/__init__.py" line="345" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_axon/__init__.py" bodystart="349" bodyend="361"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__axon_1_1_auth_interceptor_1a7d0f746c174e0e5eebba6d9853afee75" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Union[Tuple[int, str, str, str, int], None]</type>
+        <definition> Union[Tuple[int, str, str, str, int], None] bittensor._axon.AuthInterceptor.parse_legacy_signature</definition>
+        <argsstring>(self, str signature)</argsstring>
+        <name>parse_legacy_signature</name>
+        <qualifiedname>bittensor._axon.AuthInterceptor.parse_legacy_signature</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>signature</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Attempts to parse a signature using the legacy format, using `bitxx` as a separator</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_axon/__init__.py" line="362" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_axon/__init__.py" bodystart="364" bodyend="378"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__axon_1_1_auth_interceptor_1a01f117fbf19991837482b6992b40d31a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Union[Tuple[int, str, str, str, int], None]</type>
+        <definition> Union[Tuple[int, str, str, str, int], None] bittensor._axon.AuthInterceptor.parse_signature_v2</definition>
+        <argsstring>(self, str signature)</argsstring>
+        <name>parse_signature_v2</name>
+        <qualifiedname>bittensor._axon.AuthInterceptor.parse_signature_v2</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>signature</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Attempts to parse a signature using the v2 format</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_axon/__init__.py" line="379" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_axon/__init__.py" bodystart="381" bodyend="394"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__axon_1_1_auth_interceptor_1a162176a827332511e91448a209468601" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Tuple[int, str, str, str, int]</type>
+        <definition> Tuple[int, str, str, str, int] bittensor._axon.AuthInterceptor.parse_signature</definition>
+        <argsstring>(self, Dict[str, str] metadata)</argsstring>
+        <name>parse_signature</name>
+        <qualifiedname>bittensor._axon.AuthInterceptor.parse_signature</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>Dict</type>
+          <declname>metadata</declname>
+          <array>[str, str]</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Attempts to parse a signature from the metadata</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_axon/__init__.py" line="395" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_axon/__init__.py" bodystart="397" bodyend="407"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__axon_1_1_auth_interceptor_1a8657847098be61620b26571072c5c48b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._axon.AuthInterceptor.check_signature</definition>
+        <argsstring>(self, int nonce, str sender_hotkey, str signature, str receptor_uuid, int format)</argsstring>
+        <name>check_signature</name>
+        <qualifiedname>bittensor._axon.AuthInterceptor.check_signature</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nonce</declname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>sender_hotkey</declname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>signature</declname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>receptor_uuid</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>format</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>verification of signature in metadata. Uses the pubkey and nonce</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_axon/__init__.py" line="408" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_axon/__init__.py" bodystart="415" bodyend="438"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__axon_1_1_auth_interceptor_1a3df81786f91fa9bc186b982e63aaa072" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._axon.AuthInterceptor.black_list_checking</definition>
+        <argsstring>(self, str hotkey, str method)</argsstring>
+        <name>black_list_checking</name>
+        <qualifiedname>bittensor._axon.AuthInterceptor.black_list_checking</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>hotkey</declname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>method</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Tries to call to blacklist function in the miner and checks if it should blacklist the pubkey</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_axon/__init__.py" line="439" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_axon/__init__.py" bodystart="439" bodyend="453"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__axon_1_1_auth_interceptor_1a17c9f62ecb7d3442e42cc90e8f8d1409" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._axon.AuthInterceptor.intercept_service</definition>
+        <argsstring>(self, continuation, handler_call_details)</argsstring>
+        <name>intercept_service</name>
+        <qualifiedname>bittensor._axon.AuthInterceptor.intercept_service</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>continuation</type>
+          <defname>continuation</defname>
+        </param>
+        <param>
+          <type>handler_call_details</type>
+          <defname>handler_call_details</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Authentication between bittensor nodes. Intercepts messages and checks them</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_axon/__init__.py" line="454" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_axon/__init__.py" bodystart="454" bodyend="482"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Creates a new server interceptor that authenticates incoming messages from passed arguments.</verbatim> </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>bittensor._axon.AuthInterceptor</label>
+        <link refid="classbittensor_1_1__axon_1_1_auth_interceptor"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>grpc::ServerInterceptor</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>bittensor._axon.AuthInterceptor</label>
+        <link refid="classbittensor_1_1__axon_1_1_auth_interceptor"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>grpc::ServerInterceptor</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/macthrasher/bittensor/bittensor/_axon/__init__.py" line="342" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_axon/__init__.py" bodystart="342" bodyend="482"/>
+    <listofallmembers>
+      <member refid="classbittensor_1_1__axon_1_1_auth_interceptor_1a4302792745061f7573b98c23874b9fbb" prot="public" virt="non-virtual"><scope>bittensor::_axon::AuthInterceptor</scope><name>__init__</name></member>
+      <member refid="classbittensor_1_1__axon_1_1_auth_interceptor_1a3df81786f91fa9bc186b982e63aaa072" prot="public" virt="non-virtual"><scope>bittensor::_axon::AuthInterceptor</scope><name>black_list_checking</name></member>
+      <member refid="classbittensor_1_1__axon_1_1_auth_interceptor_1acc81b5423ece8788f5ed4f0b580847d9" prot="public" virt="non-virtual"><scope>bittensor::_axon::AuthInterceptor</scope><name>blacklist</name></member>
+      <member refid="classbittensor_1_1__axon_1_1_auth_interceptor_1a8657847098be61620b26571072c5c48b" prot="public" virt="non-virtual"><scope>bittensor::_axon::AuthInterceptor</scope><name>check_signature</name></member>
+      <member refid="classbittensor_1_1__axon_1_1_auth_interceptor_1a17c9f62ecb7d3442e42cc90e8f8d1409" prot="public" virt="non-virtual"><scope>bittensor::_axon::AuthInterceptor</scope><name>intercept_service</name></member>
+      <member refid="classbittensor_1_1__axon_1_1_auth_interceptor_1ad8b55f31d2b853b62a3c48e558f28981" prot="public" virt="non-virtual"><scope>bittensor::_axon::AuthInterceptor</scope><name>nonces</name></member>
+      <member refid="classbittensor_1_1__axon_1_1_auth_interceptor_1a7d0f746c174e0e5eebba6d9853afee75" prot="public" virt="non-virtual"><scope>bittensor::_axon::AuthInterceptor</scope><name>parse_legacy_signature</name></member>
+      <member refid="classbittensor_1_1__axon_1_1_auth_interceptor_1a162176a827332511e91448a209468601" prot="public" virt="non-virtual"><scope>bittensor::_axon::AuthInterceptor</scope><name>parse_signature</name></member>
+      <member refid="classbittensor_1_1__axon_1_1_auth_interceptor_1a01f117fbf19991837482b6992b40d31a" prot="public" virt="non-virtual"><scope>bittensor::_axon::AuthInterceptor</scope><name>parse_signature_v2</name></member>
+      <member refid="classbittensor_1_1__axon_1_1_auth_interceptor_1af1ddf7ee197223329acdd7f76840c5a3" prot="public" virt="non-virtual"><scope>bittensor::_axon::AuthInterceptor</scope><name>receiver_hotkey</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

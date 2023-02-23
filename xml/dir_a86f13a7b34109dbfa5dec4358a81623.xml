@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="dir_a86f13a7b34109dbfa5dec4358a81623" kind="dir">
+    <compoundname>/Users/macthrasher/bittensor/bittensor/_neuron</compoundname>
+    <innerdir refid="dir_8bad8bed007f54fc8d66d865e2665f22">/Users/macthrasher/bittensor/bittensor/_neuron/audio</innerdir>
+    <innerdir refid="dir_25df7d67dc70947257409015f2fed557">/Users/macthrasher/bittensor/bittensor/_neuron/image</innerdir>
+    <innerdir refid="dir_0076424bbce5090d38b71286aaa871cd">/Users/macthrasher/bittensor/bittensor/_neuron/text</innerdir>
+    <innerfile refid="__neuron_2____init_____8py">__init__.py</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/macthrasher/bittensor/bittensor/_neuron/"/>
+  </compounddef>
+</doxygen>

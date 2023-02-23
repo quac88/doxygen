@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="namespacebittensor_1_1__threadpool_1_1priority__thread__pool__impl" kind="namespace" language="Python">
+    <compoundname>bittensor::_threadpool::priority_thread_pool_impl</compoundname>
+    <innerclass refid="classbittensor_1_1__threadpool_1_1priority__thread__pool__impl_1_1___work_item" prot="public">bittensor::_threadpool::priority_thread_pool_impl::_WorkItem</innerclass>
+    <innerclass refid="classbittensor_1_1__threadpool_1_1priority__thread__pool__impl_1_1_broken_thread_pool" prot="public">bittensor::_threadpool::priority_thread_pool_impl::BrokenThreadPool</innerclass>
+    <innerclass refid="classbittensor_1_1__threadpool_1_1priority__thread__pool__impl_1_1_priority_thread_pool_executor" prot="public">bittensor::_threadpool::priority_thread_pool_impl::PriorityThreadPoolExecutor</innerclass>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="namespacebittensor_1_1__threadpool_1_1priority__thread__pool__impl_1a5bb4d415b8b557ef75e0e5a36eb3020e" prot="private" static="no" mutable="no">
+        <type>str</type>
+        <definition>str bittensor::_threadpool::priority_thread_pool_impl.__author__</definition>
+        <argsstring></argsstring>
+        <name>__author__</name>
+        <qualifiedname>bittensor._threadpool.priority_thread_pool_impl.__author__</qualifiedname>
+        <initializer>=  &apos;Brian Quinlan (brian@sweetapp.com)&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_threadpool/priority_thread_pool_impl.py" line="7" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_threadpool/priority_thread_pool_impl.py" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacebittensor_1_1__threadpool_1_1priority__thread__pool__impl_1a8dfd867c52b49186c6f15a7c96edd2c4" prot="protected" static="no" mutable="no">
+        <type>weakref</type>
+        <definition>weakref bittensor::_threadpool::priority_thread_pool_impl._threads_queues</definition>
+        <argsstring></argsstring>
+        <name>_threads_queues</name>
+        <qualifiedname>bittensor._threadpool.priority_thread_pool_impl._threads_queues</qualifiedname>
+        <initializer>=  weakref.WeakKeyDictionary()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_threadpool/priority_thread_pool_impl.py" line="35" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_threadpool/priority_thread_pool_impl.py" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacebittensor_1_1__threadpool_1_1priority__thread__pool__impl_1a12e9cb6d09070f3d49f7af6161e70807" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool bittensor::_threadpool::priority_thread_pool_impl._shutdown</definition>
+        <argsstring></argsstring>
+        <name>_shutdown</name>
+        <qualifiedname>bittensor._threadpool.priority_thread_pool_impl._shutdown</qualifiedname>
+        <initializer>=  False</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_threadpool/priority_thread_pool_impl.py" line="36" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_threadpool/priority_thread_pool_impl.py" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacebittensor_1_1__threadpool_1_1priority__thread__pool__impl_1ac44e6595b2d9dc9fcf31051fbdf98ff2" prot="public" static="no" mutable="no">
+        <type>tuple</type>
+        <definition>tuple bittensor::_threadpool::priority_thread_pool_impl.NULL_ENTRY</definition>
+        <argsstring></argsstring>
+        <name>NULL_ENTRY</name>
+        <qualifiedname>bittensor._threadpool.priority_thread_pool_impl.NULL_ENTRY</qualifiedname>
+        <initializer>=  (sys.maxsize, <ref refid="classbittensor_1_1__threadpool_1_1priority__thread__pool__impl_1_1___work_item" kindref="compound">_WorkItem</ref>(None, None, time.time(), (), {}))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_threadpool/priority_thread_pool_impl.py" line="63" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_threadpool/priority_thread_pool_impl.py" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="namespacebittensor_1_1__threadpool_1_1priority__thread__pool__impl_1a9b526def8ac95ec195ad707c693620b4" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._threadpool.priority_thread_pool_impl._worker</definition>
+        <argsstring>(executor_reference, work_queue, initializer, initargs)</argsstring>
+        <name>_worker</name>
+        <qualifiedname>bittensor._threadpool.priority_thread_pool_impl._worker</qualifiedname>
+        <param>
+          <type>executor_reference</type>
+          <defname>executor_reference</defname>
+        </param>
+        <param>
+          <type>work_queue</type>
+          <defname>work_queue</defname>
+        </param>
+        <param>
+          <type>initializer</type>
+          <defname>initializer</defname>
+        </param>
+        <param>
+          <type>initargs</type>
+          <defname>initargs</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_threadpool/priority_thread_pool_impl.py" line="65" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_threadpool/priority_thread_pool_impl.py" bodystart="65" bodyend="106"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Implements ThreadPoolExecutor.</verbatim> </para>
+    </detaileddescription>
+    <location file="/Users/macthrasher/bittensor/bittensor/_threadpool/priority_thread_pool_impl.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,399 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="classbittensor_1_1__threadpool_1_1priority__thread__pool__impl_1_1_priority_thread_pool_executor" kind="class" language="Python" prot="public">
+    <compoundname>bittensor::_threadpool::priority_thread_pool_impl::PriorityThreadPoolExecutor</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">_base.Executor</basecompoundref>
+      <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classbittensor_1_1__threadpool_1_1priority__thread__pool__impl_1_1_priority_thread_pool_executor_1aefe7b052fee17a7d4d2304753b46cfb8" prot="protected" static="yes" mutable="no">
+        <type>itertools</type>
+        <definition>itertools bittensor._threadpool.priority_thread_pool_impl.PriorityThreadPoolExecutor::_counter</definition>
+        <argsstring></argsstring>
+        <name>_counter</name>
+        <qualifiedname>bittensor._threadpool.priority_thread_pool_impl.PriorityThreadPoolExecutor._counter</qualifiedname>
+        <initializer>=  itertools.count().__next__</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_threadpool/priority_thread_pool_impl.py" line="117" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_threadpool/priority_thread_pool_impl.py" bodystart="117" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classbittensor_1_1__threadpool_1_1priority__thread__pool__impl_1_1_priority_thread_pool_executor_1a92a1bcb65b24ae9e6b48a5dd31a738ed" prot="private" static="yes" mutable="no">
+        <type></type>
+        <definition>bittensor._threadpool.priority_thread_pool_impl.PriorityThreadPoolExecutor::__doc__</definition>
+        <argsstring></argsstring>
+        <name>__doc__</name>
+        <qualifiedname>bittensor._threadpool.priority_thread_pool_impl.PriorityThreadPoolExecutor.__doc__</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_threadpool/priority_thread_pool_impl.py" line="180" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_threadpool/priority_thread_pool_impl.py" bodystart="180" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classbittensor_1_1__threadpool_1_1priority__thread__pool__impl_1_1_priority_thread_pool_executor_1a97455b6d1085684c5ad38b151768482c" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._threadpool.priority_thread_pool_impl.PriorityThreadPoolExecutor::_max_workers</definition>
+        <argsstring></argsstring>
+        <name>_max_workers</name>
+        <qualifiedname>bittensor._threadpool.priority_thread_pool_impl.PriorityThreadPoolExecutor._max_workers</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_threadpool/priority_thread_pool_impl.py" line="139" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_threadpool/priority_thread_pool_impl.py" bodystart="139" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__threadpool_1_1priority__thread__pool__impl_1_1_priority_thread_pool_executor_1ae6473aeaa3cf9e400006169a617d49be" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._threadpool.priority_thread_pool_impl.PriorityThreadPoolExecutor::_work_queue</definition>
+        <argsstring></argsstring>
+        <name>_work_queue</name>
+        <qualifiedname>bittensor._threadpool.priority_thread_pool_impl.PriorityThreadPoolExecutor._work_queue</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_threadpool/priority_thread_pool_impl.py" line="140" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_threadpool/priority_thread_pool_impl.py" bodystart="140" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__threadpool_1_1priority__thread__pool__impl_1_1_priority_thread_pool_executor_1a5d762706dda3a80450bd1f950ebd7a39" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._threadpool.priority_thread_pool_impl.PriorityThreadPoolExecutor::_idle_semaphore</definition>
+        <argsstring></argsstring>
+        <name>_idle_semaphore</name>
+        <qualifiedname>bittensor._threadpool.priority_thread_pool_impl.PriorityThreadPoolExecutor._idle_semaphore</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_threadpool/priority_thread_pool_impl.py" line="141" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_threadpool/priority_thread_pool_impl.py" bodystart="141" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__threadpool_1_1priority__thread__pool__impl_1_1_priority_thread_pool_executor_1af92ade177b868a32e8cbaf56084c933b" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._threadpool.priority_thread_pool_impl.PriorityThreadPoolExecutor::_threads</definition>
+        <argsstring></argsstring>
+        <name>_threads</name>
+        <qualifiedname>bittensor._threadpool.priority_thread_pool_impl.PriorityThreadPoolExecutor._threads</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_threadpool/priority_thread_pool_impl.py" line="142" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_threadpool/priority_thread_pool_impl.py" bodystart="142" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__threadpool_1_1priority__thread__pool__impl_1_1_priority_thread_pool_executor_1a34f038629b473b20342e943aeab6d006" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._threadpool.priority_thread_pool_impl.PriorityThreadPoolExecutor::_broken</definition>
+        <argsstring></argsstring>
+        <name>_broken</name>
+        <qualifiedname>bittensor._threadpool.priority_thread_pool_impl.PriorityThreadPoolExecutor._broken</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_threadpool/priority_thread_pool_impl.py" line="143" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_threadpool/priority_thread_pool_impl.py" bodystart="143" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__threadpool_1_1priority__thread__pool__impl_1_1_priority_thread_pool_executor_1aed261ab98e632fd84f330680d04d66b0" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._threadpool.priority_thread_pool_impl.PriorityThreadPoolExecutor::_shutdown</definition>
+        <argsstring></argsstring>
+        <name>_shutdown</name>
+        <qualifiedname>bittensor._threadpool.priority_thread_pool_impl.PriorityThreadPoolExecutor._shutdown</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_threadpool/priority_thread_pool_impl.py" line="144" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_threadpool/priority_thread_pool_impl.py" bodystart="144" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__threadpool_1_1priority__thread__pool__impl_1_1_priority_thread_pool_executor_1a29720866477334bdaf2078d8d3569ac8" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._threadpool.priority_thread_pool_impl.PriorityThreadPoolExecutor::_shutdown_lock</definition>
+        <argsstring></argsstring>
+        <name>_shutdown_lock</name>
+        <qualifiedname>bittensor._threadpool.priority_thread_pool_impl.PriorityThreadPoolExecutor._shutdown_lock</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_threadpool/priority_thread_pool_impl.py" line="145" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_threadpool/priority_thread_pool_impl.py" bodystart="145" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__threadpool_1_1priority__thread__pool__impl_1_1_priority_thread_pool_executor_1a7a3f0532cd1bb063c21851aa16292a3a" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._threadpool.priority_thread_pool_impl.PriorityThreadPoolExecutor::_thread_name_prefix</definition>
+        <argsstring></argsstring>
+        <name>_thread_name_prefix</name>
+        <qualifiedname>bittensor._threadpool.priority_thread_pool_impl.PriorityThreadPoolExecutor._thread_name_prefix</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_threadpool/priority_thread_pool_impl.py" line="146" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_threadpool/priority_thread_pool_impl.py" bodystart="146" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__threadpool_1_1priority__thread__pool__impl_1_1_priority_thread_pool_executor_1ad1f83104e82dbdc5799827adac534abc" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._threadpool.priority_thread_pool_impl.PriorityThreadPoolExecutor::_initializer</definition>
+        <argsstring></argsstring>
+        <name>_initializer</name>
+        <qualifiedname>bittensor._threadpool.priority_thread_pool_impl.PriorityThreadPoolExecutor._initializer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_threadpool/priority_thread_pool_impl.py" line="148" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_threadpool/priority_thread_pool_impl.py" bodystart="148" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__threadpool_1_1priority__thread__pool__impl_1_1_priority_thread_pool_executor_1a7d48b1823941bcd0528f99cce6244d6a" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._threadpool.priority_thread_pool_impl.PriorityThreadPoolExecutor::_initargs</definition>
+        <argsstring></argsstring>
+        <name>_initargs</name>
+        <qualifiedname>bittensor._threadpool.priority_thread_pool_impl.PriorityThreadPoolExecutor._initargs</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_threadpool/priority_thread_pool_impl.py" line="149" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_threadpool/priority_thread_pool_impl.py" bodystart="149" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classbittensor_1_1__threadpool_1_1priority__thread__pool__impl_1_1_priority_thread_pool_executor_1a1310dbb7fd127c626cdae0cbb4732bea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._threadpool.priority_thread_pool_impl.PriorityThreadPoolExecutor.__init__</definition>
+        <argsstring>(self, maxsize=-1, max_workers=None, thread_name_prefix=&apos;&apos;, initializer=None, initargs=())</argsstring>
+        <name>__init__</name>
+        <qualifiedname>bittensor._threadpool.priority_thread_pool_impl.PriorityThreadPoolExecutor.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>maxsize</type>
+          <defname>maxsize</defname>
+          <defval>-1</defval>
+        </param>
+        <param>
+          <type>max_workers</type>
+          <defname>max_workers</defname>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type>thread_name_prefix</type>
+          <defname>thread_name_prefix</defname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <param>
+          <type>initializer</type>
+          <defname>initializer</defname>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type>initargs</type>
+          <defname>initargs</defname>
+          <defval>()</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Initializes a new ThreadPoolExecutor instance.
+Args:
+    max_workers: The maximum number of threads that can be used to
+        execute the given calls.
+    thread_name_prefix: An optional name prefix to give our threads.
+    initializer: An callable used to initialize worker threads.
+    initargs: A tuple of arguments to pass to the initializer.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_threadpool/priority_thread_pool_impl.py" line="119" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_threadpool/priority_thread_pool_impl.py" bodystart="120" bodyend="150"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__threadpool_1_1priority__thread__pool__impl_1_1_priority_thread_pool_executor_1a75dcb57a6b2230f2740fee133db727d2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._threadpool.priority_thread_pool_impl.PriorityThreadPoolExecutor.is_empty</definition>
+        <argsstring>(self)</argsstring>
+        <name>is_empty</name>
+        <qualifiedname>bittensor._threadpool.priority_thread_pool_impl.PriorityThreadPoolExecutor.is_empty</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_threadpool/priority_thread_pool_impl.py" line="152" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_threadpool/priority_thread_pool_impl.py" bodystart="152" bodyend="154"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__threadpool_1_1priority__thread__pool__impl_1_1_priority_thread_pool_executor_1a1587d463b5075f5691595e86c90dd273" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._threadpool.priority_thread_pool_impl.PriorityThreadPoolExecutor.submit</definition>
+        <argsstring>(self, fn, *args, **kwargs)</argsstring>
+        <name>submit</name>
+        <qualifiedname>bittensor._threadpool.priority_thread_pool_impl.PriorityThreadPoolExecutor.submit</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>fn</type>
+          <defname>fn</defname>
+        </param>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_threadpool/priority_thread_pool_impl.py" line="155" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_threadpool/priority_thread_pool_impl.py" bodystart="155" bodyend="179"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__threadpool_1_1priority__thread__pool__impl_1_1_priority_thread_pool_executor_1ac73d05046477123df9948327ef8b3290" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._threadpool.priority_thread_pool_impl.PriorityThreadPoolExecutor.shutdown</definition>
+        <argsstring>(self, wait=True)</argsstring>
+        <name>shutdown</name>
+        <qualifiedname>bittensor._threadpool.priority_thread_pool_impl.PriorityThreadPoolExecutor.shutdown</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>wait</type>
+          <defname>wait</defname>
+          <defval>True</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_threadpool/priority_thread_pool_impl.py" line="220" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_threadpool/priority_thread_pool_impl.py" bodystart="220" bodyend="230"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classbittensor_1_1__threadpool_1_1priority__thread__pool__impl_1_1_priority_thread_pool_executor_1ac8ba059f6d2ed49e4d115b94971676c4" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._threadpool.priority_thread_pool_impl.PriorityThreadPoolExecutor._adjust_thread_count</definition>
+        <argsstring>(self)</argsstring>
+        <name>_adjust_thread_count</name>
+        <qualifiedname>bittensor._threadpool.priority_thread_pool_impl.PriorityThreadPoolExecutor._adjust_thread_count</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_threadpool/priority_thread_pool_impl.py" line="183" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_threadpool/priority_thread_pool_impl.py" bodystart="183" bodyend="206"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__threadpool_1_1priority__thread__pool__impl_1_1_priority_thread_pool_executor_1a6db2b1aa4020319a9f0b6aeedf3c1f24" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._threadpool.priority_thread_pool_impl.PriorityThreadPoolExecutor._initializer_failed</definition>
+        <argsstring>(self)</argsstring>
+        <name>_initializer_failed</name>
+        <qualifiedname>bittensor._threadpool.priority_thread_pool_impl.PriorityThreadPoolExecutor._initializer_failed</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_threadpool/priority_thread_pool_impl.py" line="207" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_threadpool/priority_thread_pool_impl.py" bodystart="207" bodyend="219"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim> Base threadpool executor with a priority queue 
+</verbatim> </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>_base::Executor</label>
+      </node>
+      <node id="1">
+        <label>bittensor._threadpool.priority_thread_pool_impl.PriorityThreadPoolExecutor</label>
+        <link refid="classbittensor_1_1__threadpool_1_1priority__thread__pool__impl_1_1_priority_thread_pool_executor"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>_base::Executor</label>
+      </node>
+      <node id="1">
+        <label>bittensor._threadpool.priority_thread_pool_impl.PriorityThreadPoolExecutor</label>
+        <link refid="classbittensor_1_1__threadpool_1_1priority__thread__pool__impl_1_1_priority_thread_pool_executor"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>_counter</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>itertools</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/macthrasher/bittensor/bittensor/_threadpool/priority_thread_pool_impl.py" line="113" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_threadpool/priority_thread_pool_impl.py" bodystart="113" bodyend="232"/>
+    <listofallmembers>
+      <member refid="classbittensor_1_1__threadpool_1_1priority__thread__pool__impl_1_1_priority_thread_pool_executor_1a92a1bcb65b24ae9e6b48a5dd31a738ed" prot="private" virt="non-virtual"><scope>bittensor::_threadpool::priority_thread_pool_impl::PriorityThreadPoolExecutor</scope><name>__doc__</name></member>
+      <member refid="classbittensor_1_1__threadpool_1_1priority__thread__pool__impl_1_1_priority_thread_pool_executor_1a1310dbb7fd127c626cdae0cbb4732bea" prot="public" virt="non-virtual"><scope>bittensor::_threadpool::priority_thread_pool_impl::PriorityThreadPoolExecutor</scope><name>__init__</name></member>
+      <member refid="classbittensor_1_1__threadpool_1_1priority__thread__pool__impl_1_1_priority_thread_pool_executor_1ac8ba059f6d2ed49e4d115b94971676c4" prot="protected" virt="non-virtual"><scope>bittensor::_threadpool::priority_thread_pool_impl::PriorityThreadPoolExecutor</scope><name>_adjust_thread_count</name></member>
+      <member refid="classbittensor_1_1__threadpool_1_1priority__thread__pool__impl_1_1_priority_thread_pool_executor_1a34f038629b473b20342e943aeab6d006" prot="protected" virt="non-virtual"><scope>bittensor::_threadpool::priority_thread_pool_impl::PriorityThreadPoolExecutor</scope><name>_broken</name></member>
+      <member refid="classbittensor_1_1__threadpool_1_1priority__thread__pool__impl_1_1_priority_thread_pool_executor_1aefe7b052fee17a7d4d2304753b46cfb8" prot="protected" virt="non-virtual"><scope>bittensor::_threadpool::priority_thread_pool_impl::PriorityThreadPoolExecutor</scope><name>_counter</name></member>
+      <member refid="classbittensor_1_1__threadpool_1_1priority__thread__pool__impl_1_1_priority_thread_pool_executor_1a5d762706dda3a80450bd1f950ebd7a39" prot="protected" virt="non-virtual"><scope>bittensor::_threadpool::priority_thread_pool_impl::PriorityThreadPoolExecutor</scope><name>_idle_semaphore</name></member>
+      <member refid="classbittensor_1_1__threadpool_1_1priority__thread__pool__impl_1_1_priority_thread_pool_executor_1a7d48b1823941bcd0528f99cce6244d6a" prot="protected" virt="non-virtual"><scope>bittensor::_threadpool::priority_thread_pool_impl::PriorityThreadPoolExecutor</scope><name>_initargs</name></member>
+      <member refid="classbittensor_1_1__threadpool_1_1priority__thread__pool__impl_1_1_priority_thread_pool_executor_1ad1f83104e82dbdc5799827adac534abc" prot="protected" virt="non-virtual"><scope>bittensor::_threadpool::priority_thread_pool_impl::PriorityThreadPoolExecutor</scope><name>_initializer</name></member>
+      <member refid="classbittensor_1_1__threadpool_1_1priority__thread__pool__impl_1_1_priority_thread_pool_executor_1a6db2b1aa4020319a9f0b6aeedf3c1f24" prot="protected" virt="non-virtual"><scope>bittensor::_threadpool::priority_thread_pool_impl::PriorityThreadPoolExecutor</scope><name>_initializer_failed</name></member>
+      <member refid="classbittensor_1_1__threadpool_1_1priority__thread__pool__impl_1_1_priority_thread_pool_executor_1a97455b6d1085684c5ad38b151768482c" prot="protected" virt="non-virtual"><scope>bittensor::_threadpool::priority_thread_pool_impl::PriorityThreadPoolExecutor</scope><name>_max_workers</name></member>
+      <member refid="classbittensor_1_1__threadpool_1_1priority__thread__pool__impl_1_1_priority_thread_pool_executor_1aed261ab98e632fd84f330680d04d66b0" prot="protected" virt="non-virtual"><scope>bittensor::_threadpool::priority_thread_pool_impl::PriorityThreadPoolExecutor</scope><name>_shutdown</name></member>
+      <member refid="classbittensor_1_1__threadpool_1_1priority__thread__pool__impl_1_1_priority_thread_pool_executor_1a29720866477334bdaf2078d8d3569ac8" prot="protected" virt="non-virtual"><scope>bittensor::_threadpool::priority_thread_pool_impl::PriorityThreadPoolExecutor</scope><name>_shutdown_lock</name></member>
+      <member refid="classbittensor_1_1__threadpool_1_1priority__thread__pool__impl_1_1_priority_thread_pool_executor_1a7a3f0532cd1bb063c21851aa16292a3a" prot="protected" virt="non-virtual"><scope>bittensor::_threadpool::priority_thread_pool_impl::PriorityThreadPoolExecutor</scope><name>_thread_name_prefix</name></member>
+      <member refid="classbittensor_1_1__threadpool_1_1priority__thread__pool__impl_1_1_priority_thread_pool_executor_1af92ade177b868a32e8cbaf56084c933b" prot="protected" virt="non-virtual"><scope>bittensor::_threadpool::priority_thread_pool_impl::PriorityThreadPoolExecutor</scope><name>_threads</name></member>
+      <member refid="classbittensor_1_1__threadpool_1_1priority__thread__pool__impl_1_1_priority_thread_pool_executor_1ae6473aeaa3cf9e400006169a617d49be" prot="protected" virt="non-virtual"><scope>bittensor::_threadpool::priority_thread_pool_impl::PriorityThreadPoolExecutor</scope><name>_work_queue</name></member>
+      <member refid="classbittensor_1_1__threadpool_1_1priority__thread__pool__impl_1_1_priority_thread_pool_executor_1a75dcb57a6b2230f2740fee133db727d2" prot="public" virt="non-virtual"><scope>bittensor::_threadpool::priority_thread_pool_impl::PriorityThreadPoolExecutor</scope><name>is_empty</name></member>
+      <member refid="classbittensor_1_1__threadpool_1_1priority__thread__pool__impl_1_1_priority_thread_pool_executor_1ac73d05046477123df9948327ef8b3290" prot="public" virt="non-virtual"><scope>bittensor::_threadpool::priority_thread_pool_impl::PriorityThreadPoolExecutor</scope><name>shutdown</name></member>
+      <member refid="classbittensor_1_1__threadpool_1_1priority__thread__pool__impl_1_1_priority_thread_pool_executor_1a1587d463b5075f5691595e86c90dd273" prot="public" virt="non-virtual"><scope>bittensor::_threadpool::priority_thread_pool_impl::PriorityThreadPoolExecutor</scope><name>submit</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

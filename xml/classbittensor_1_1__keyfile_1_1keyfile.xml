@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="classbittensor_1_1__keyfile_1_1keyfile" kind="class" language="Python" prot="public">
+    <compoundname>bittensor::_keyfile::keyfile</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">object</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classbittensor_1_1__keyfile_1_1keyfile_1a0f2c8f55a4f62d48746e2836d7449bec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type> &apos;<ref refid="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_keyfile" kindref="compound">bittensor.Keyfile</ref>&apos;</type>
+        <definition> &apos;bittensor.Keyfile&apos; bittensor._keyfile.keyfile.__new__</definition>
+        <argsstring>(cls, str path=None, bool _mock=False)</argsstring>
+        <name>__new__</name>
+        <qualifiedname>bittensor._keyfile.keyfile.__new__</qualifiedname>
+        <param>
+          <type>cls</type>
+          <defname>cls</defname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>path</declname>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>_mock</declname>
+          <defval>False</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Initialize a bittensor on device keypair interface.
+
+        Args:
+            path (required=False, default: ~/.bittensor/wallets/default/coldkey ):
+                Path where this keypair is stored.</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_keyfile/__init__.py" line="24" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_keyfile/__init__.py" bodystart="28" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__keyfile_1_1keyfile_1af555578bfc5c5b5d8d04f601d342a21e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._keyfile.keyfile.mock</definition>
+        <argsstring>(cls)</argsstring>
+        <name>mock</name>
+        <qualifiedname>bittensor._keyfile.keyfile.mock</qualifiedname>
+        <param>
+          <type>cls</type>
+          <defname>cls</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_keyfile/__init__.py" line="42" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_keyfile/__init__.py" bodystart="42" bodyend="44"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim> Factory for a bittensor on device keypair
+</verbatim> </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>bittensor._keyfile.keyfile</label>
+        <link refid="classbittensor_1_1__keyfile_1_1keyfile"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>object</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>bittensor._keyfile.keyfile</label>
+        <link refid="classbittensor_1_1__keyfile_1_1keyfile"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>object</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/macthrasher/bittensor/bittensor/_keyfile/__init__.py" line="21" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_keyfile/__init__.py" bodystart="21" bodyend="44"/>
+    <listofallmembers>
+      <member refid="classbittensor_1_1__keyfile_1_1keyfile_1a0f2c8f55a4f62d48746e2836d7449bec" prot="public" virt="non-virtual"><scope>bittensor::_keyfile::keyfile</scope><name>__new__</name></member>
+      <member refid="classbittensor_1_1__keyfile_1_1keyfile_1af555578bfc5c5b5d8d04f601d342a21e" prot="public" virt="non-virtual"><scope>bittensor::_keyfile::keyfile</scope><name>mock</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="classbittensor_1_1__prometheus_1_1prometheus_1_1level" kind="class" language="Python" prot="public">
+    <compoundname>bittensor::_prometheus::prometheus::level</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Enum</basecompoundref>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classbittensor_1_1__prometheus_1_1prometheus_1_1level_1a76febe231a4849bcaa71c9da598d6d27" prot="public" static="yes" mutable="no">
+        <type>str</type>
+        <definition>str bittensor._prometheus.prometheus.level::OFF</definition>
+        <argsstring></argsstring>
+        <name>OFF</name>
+        <qualifiedname>bittensor._prometheus.prometheus.level.OFF</qualifiedname>
+        <initializer>=  &quot;OFF&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_prometheus/__init__.py" line="38" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_prometheus/__init__.py" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__prometheus_1_1prometheus_1_1level_1a670e37e6dd1179eed54f820469480f7e" prot="public" static="yes" mutable="no">
+        <type>str</type>
+        <definition>str bittensor._prometheus.prometheus.level::INFO</definition>
+        <argsstring></argsstring>
+        <name>INFO</name>
+        <qualifiedname>bittensor._prometheus.prometheus.level.INFO</qualifiedname>
+        <initializer>=  &quot;INFO&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_prometheus/__init__.py" line="39" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_prometheus/__init__.py" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__prometheus_1_1prometheus_1_1level_1ae24b4c1e38bd9c56aa24a131c6330b11" prot="public" static="yes" mutable="no">
+        <type>str</type>
+        <definition>str bittensor._prometheus.prometheus.level::DEBUG</definition>
+        <argsstring></argsstring>
+        <name>DEBUG</name>
+        <qualifiedname>bittensor._prometheus.prometheus.level.DEBUG</qualifiedname>
+        <initializer>=  &quot;DEBUG&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_prometheus/__init__.py" line="40" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_prometheus/__init__.py" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classbittensor_1_1__prometheus_1_1prometheus_1_1level_1abcc2e6ad6b05ab97603b5546a8071c0a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._prometheus.prometheus.level.__str__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__str__</name>
+        <qualifiedname>bittensor._prometheus.prometheus.level.__str__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_prometheus/__init__.py" line="41" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_prometheus/__init__.py" bodystart="41" bodyend="44"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>bittensor._prometheus.prometheus.level</label>
+        <link refid="classbittensor_1_1__prometheus_1_1prometheus_1_1level"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Enum</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>bittensor._prometheus.prometheus.level</label>
+        <link refid="classbittensor_1_1__prometheus_1_1prometheus_1_1level"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Enum</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/macthrasher/bittensor/bittensor/_prometheus/__init__.py" line="37" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_prometheus/__init__.py" bodystart="37" bodyend="43"/>
+    <listofallmembers>
+      <member refid="classbittensor_1_1__prometheus_1_1prometheus_1_1level_1abcc2e6ad6b05ab97603b5546a8071c0a" prot="public" virt="non-virtual"><scope>bittensor::_prometheus::prometheus::level</scope><name>__str__</name></member>
+      <member refid="classbittensor_1_1__prometheus_1_1prometheus_1_1level_1ae24b4c1e38bd9c56aa24a131c6330b11" prot="public" virt="non-virtual"><scope>bittensor::_prometheus::prometheus::level</scope><name>DEBUG</name></member>
+      <member refid="classbittensor_1_1__prometheus_1_1prometheus_1_1level_1a670e37e6dd1179eed54f820469480f7e" prot="public" virt="non-virtual"><scope>bittensor::_prometheus::prometheus::level</scope><name>INFO</name></member>
+      <member refid="classbittensor_1_1__prometheus_1_1prometheus_1_1level_1a76febe231a4849bcaa71c9da598d6d27" prot="public" virt="non-virtual"><scope>bittensor::_prometheus::prometheus::level</scope><name>OFF</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

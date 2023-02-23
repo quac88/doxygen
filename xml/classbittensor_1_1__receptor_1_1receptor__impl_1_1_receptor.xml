@@ -1,0 +1,661 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="classbittensor_1_1__receptor_1_1receptor__impl_1_1_receptor" kind="class" language="Python" prot="public">
+    <compoundname>bittensor::_receptor::receptor_impl::Receptor</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">nn.Module</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classbittensor_1_1__receptor_1_1receptor__impl_1_1_receptor_1acb236adfe96e9d032da962735352197a" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._receptor.receptor_impl.Receptor::wallet</definition>
+        <argsstring></argsstring>
+        <name>wallet</name>
+        <qualifiedname>bittensor._receptor.receptor_impl.Receptor.wallet</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_receptor/receptor_impl.py" line="64" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_receptor/receptor_impl.py" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__receptor_1_1receptor__impl_1_1_receptor_1a183278203928d3695b65f6ef2d37686b" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._receptor.receptor_impl.Receptor::endpoint</definition>
+        <argsstring></argsstring>
+        <name>endpoint</name>
+        <qualifiedname>bittensor._receptor.receptor_impl.Receptor.endpoint</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_receptor/receptor_impl.py" line="65" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_receptor/receptor_impl.py" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__receptor_1_1receptor__impl_1_1_receptor_1a068c11a1d1419ed9079ff85596ac70bb" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._receptor.receptor_impl.Receptor::channel</definition>
+        <argsstring></argsstring>
+        <name>channel</name>
+        <qualifiedname>bittensor._receptor.receptor_impl.Receptor.channel</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_receptor/receptor_impl.py" line="66" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_receptor/receptor_impl.py" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__receptor_1_1receptor__impl_1_1_receptor_1a3f2f46a45a07a696d43388698956fd66" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._receptor.receptor_impl.Receptor::stub</definition>
+        <argsstring></argsstring>
+        <name>stub</name>
+        <qualifiedname>bittensor._receptor.receptor_impl.Receptor.stub</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_receptor/receptor_impl.py" line="67" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_receptor/receptor_impl.py" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__receptor_1_1receptor__impl_1_1_receptor_1a8e03b825b6c2d7734eae1a3be2d3623f" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._receptor.receptor_impl.Receptor::receptor_uid</definition>
+        <argsstring></argsstring>
+        <name>receptor_uid</name>
+        <qualifiedname>bittensor._receptor.receptor_impl.Receptor.receptor_uid</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_receptor/receptor_impl.py" line="68" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_receptor/receptor_impl.py" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__receptor_1_1receptor__impl_1_1_receptor_1ad0bb731aa76428c57458de7321782244" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._receptor.receptor_impl.Receptor::semaphore</definition>
+        <argsstring></argsstring>
+        <name>semaphore</name>
+        <qualifiedname>bittensor._receptor.receptor_impl.Receptor.semaphore</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_receptor/receptor_impl.py" line="69" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_receptor/receptor_impl.py" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__receptor_1_1receptor__impl_1_1_receptor_1a8c7dd319bbac922f7b3f1d8fd80c6013" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._receptor.receptor_impl.Receptor::state_dict</definition>
+        <argsstring></argsstring>
+        <name>state_dict</name>
+        <qualifiedname>bittensor._receptor.receptor_impl.Receptor.state_dict</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_receptor/receptor_impl.py" line="70" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_receptor/receptor_impl.py" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__receptor_1_1receptor__impl_1_1_receptor_1ae167db146c945676922b2e010da735c1" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._receptor.receptor_impl.Receptor::stats</definition>
+        <argsstring></argsstring>
+        <name>stats</name>
+        <qualifiedname>bittensor._receptor.receptor_impl.Receptor.stats</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_receptor/receptor_impl.py" line="71" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_receptor/receptor_impl.py" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classbittensor_1_1__receptor_1_1receptor__impl_1_1_receptor_1a1ea7a065b3f3da6c3463eff3b757c918" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._receptor.receptor_impl.Receptor.__init__</definition>
+        <argsstring>(self, &apos;bittensor.wallet&apos; wallet, &apos;bittensor.Endpoint&apos; endpoint, &apos;grpc._Channel&apos; channel, &apos;bittensor.grpc.BittensorStub&apos; stub, int max_processes)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>bittensor._receptor.receptor_impl.Receptor.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>&apos;<ref refid="classbittensor_1_1__wallet_1_1wallet" kindref="compound">bittensor.wallet</ref>&apos;</type>
+          <declname>wallet</declname>
+        </param>
+        <param>
+          <type>&apos;<ref refid="classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint" kindref="compound">bittensor.Endpoint</ref>&apos;</type>
+          <declname>endpoint</declname>
+        </param>
+        <param>
+          <type>&apos;grpc._Channel&apos;</type>
+          <declname>channel</declname>
+        </param>
+        <param>
+          <type>&apos;bittensor.grpc.BittensorStub&apos;</type>
+          <declname>stub</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>max_processes</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Initializes a receptor grpc connection.
+
+    Args:
+        wallet (:obj:`bittensor.Wallet`, `required`):
+            bittensor wallet with hotkey and coldkeypub.
+        endpoint (:obj:`bittensor.Endpoint`, `required`):
+            neuron endpoint descriptor proto.
+        channel (:obj:`grpc._Channel`, `required`):
+            grpc TCP channel.
+        endpoint (:obj:`bittensor.grpc.BittensorStub`, `required`):
+            bittensor protocol stub created from channel.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_receptor/receptor_impl.py" line="43" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_receptor/receptor_impl.py" bodystart="50" bodyend="107"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__receptor_1_1receptor__impl_1_1_receptor_1a0731b3faac02c7495d5e1eeee63efc9e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._receptor.receptor_impl.Receptor.__str__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__str__</name>
+        <qualifiedname>bittensor._receptor.receptor_impl.Receptor.__str__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_receptor/receptor_impl.py" line="108" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_receptor/receptor_impl.py" bodystart="108" bodyend="110"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__receptor_1_1receptor__impl_1_1_receptor_1a8ff0bc0c1c494c302bd2d31db4fdab9a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._receptor.receptor_impl.Receptor.__repr__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__repr__</name>
+        <qualifiedname>bittensor._receptor.receptor_impl.Receptor.__repr__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_receptor/receptor_impl.py" line="111" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_receptor/receptor_impl.py" bodystart="111" bodyend="113"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__receptor_1_1receptor__impl_1_1_receptor_1a9ba41a14a93d5a3688de27864964b85b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._receptor.receptor_impl.Receptor.__del__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__del__</name>
+        <qualifiedname>bittensor._receptor.receptor_impl.Receptor.__del__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_receptor/receptor_impl.py" line="114" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_receptor/receptor_impl.py" bodystart="114" bodyend="122"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__receptor_1_1receptor__impl_1_1_receptor_1a80c6d7df4dca19b3199e4b7ae1cfd0c9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._receptor.receptor_impl.Receptor.__exit__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__exit__</name>
+        <qualifiedname>bittensor._receptor.receptor_impl.Receptor.__exit__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_receptor/receptor_impl.py" line="123" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_receptor/receptor_impl.py" bodystart="123" bodyend="125"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__receptor_1_1receptor__impl_1_1_receptor_1acd8055426f73356242c920345691acbc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._receptor.receptor_impl.Receptor.sign_v1</definition>
+        <argsstring>(self)</argsstring>
+        <name>sign_v1</name>
+        <qualifiedname>bittensor._receptor.receptor_impl.Receptor.sign_v1</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Uses the wallet pubkey to sign a message containing the pubkey and the time
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_receptor/receptor_impl.py" line="126" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_receptor/receptor_impl.py" bodystart="126" bodyend="134"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__receptor_1_1receptor__impl_1_1_receptor_1ad4911eccdc90a76ae6ca57f57134abbe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._receptor.receptor_impl.Receptor.sign_v2</definition>
+        <argsstring>(self)</argsstring>
+        <name>sign_v2</name>
+        <qualifiedname>bittensor._receptor.receptor_impl.Receptor.sign_v2</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_receptor/receptor_impl.py" line="135" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_receptor/receptor_impl.py" bodystart="135" bodyend="142"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__receptor_1_1receptor__impl_1_1_receptor_1a8c8577f492086b539670b97a8e2dc429" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._receptor.receptor_impl.Receptor.sign</definition>
+        <argsstring>(self)</argsstring>
+        <name>sign</name>
+        <qualifiedname>bittensor._receptor.receptor_impl.Receptor.sign</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_receptor/receptor_impl.py" line="143" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_receptor/receptor_impl.py" bodystart="143" bodyend="147"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__receptor_1_1receptor__impl_1_1_receptor_1a6bafdd8543cf31cf15248f6bc2267b24" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._receptor.receptor_impl.Receptor.nonce</definition>
+        <argsstring>(self)</argsstring>
+        <name>nonce</name>
+        <qualifiedname>bittensor._receptor.receptor_impl.Receptor.nonce</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>creates a string representation of the time
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_receptor/receptor_impl.py" line="148" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_receptor/receptor_impl.py" bodystart="148" bodyend="152"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__receptor_1_1receptor__impl_1_1_receptor_1aa73418a8067454e6543772c278609a09" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._receptor.receptor_impl.Receptor.state</definition>
+        <argsstring>(self)</argsstring>
+        <name>state</name>
+        <qualifiedname>bittensor._receptor.receptor_impl.Receptor.state</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_receptor/receptor_impl.py" line="153" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_receptor/receptor_impl.py" bodystart="153" bodyend="158"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__receptor_1_1receptor__impl_1_1_receptor_1a8f9f4a47c5226125cdf6d0f5719f818e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._receptor.receptor_impl.Receptor.close</definition>
+        <argsstring>(self)</argsstring>
+        <name>close</name>
+        <qualifiedname>bittensor._receptor.receptor_impl.Receptor.close</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_receptor/receptor_impl.py" line="159" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_receptor/receptor_impl.py" bodystart="159" bodyend="161"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__receptor_1_1receptor__impl_1_1_receptor_1a9d1c0df7f4af927dccebd93dc421608d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Tuple[List[torch.FloatTensor], List[ &apos;bittensor.proto.ReturnCode&apos;], List[float]]</type>
+        <definition> Tuple[ List[ torch.FloatTensor ], List[&apos;bittensor.proto.ReturnCode&apos;], List[float] ] bittensor._receptor.receptor_impl.Receptor.forward</definition>
+        <argsstring>(self, List[ &apos;bittensor.Synapse&apos;] synapses, torch.Tensor inputs, int timeout)</argsstring>
+        <name>forward</name>
+        <qualifiedname>bittensor._receptor.receptor_impl.Receptor.forward</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>List</type>
+          <declname>synapses</declname>
+          <array>[&apos;bittensor.Synapse&apos;]</array>
+        </param>
+        <param>
+          <type>torch.Tensor</type>
+          <declname>inputs</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>timeout</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Triggers the grpc call to the remote endpoint.
+    This triggers the synapse calls with arguments.
+    Call returns a list of output tensors one per synapse with corresponding time and bittensor.proto.ReturnCode.
+
+    Args:
+        synapses (:obj:`List[ &apos;bittensor.Synapse&apos; ]` of shape :obj:`(num_synapses)`, `required`):
+            Bittensor synapse objects with arguments. Each corresponds to a synapse function on the axon.
+            Responses are packed in this ordering. 
+
+        inputs (:obj:`torch.Tensor` of shape :obj:`(shape)`, `required`):
+            Single torch tensor to be sent to the remote endpoint.
+            TODO(const): Make this a multi-forward tensor.
+
+        timeout (:obj:`int`, `required`):
+            Request max timeout
+    Returns:
+        outputs (:obj:`List[ Union[torch.FloatTensor, torch.LongTensor] ]`, `required`):
+            outputs.shape = [batch_size, synapse_length, response] 
+            List of result tensors from the forward call each corresponding to a passed synapse enum.
+
+        codes (:obj:`bittensor.proto.ReturnCode`, `required`):
+            List of return codes associated with each passed synapse enum.
+            Connection failures return all the same code, otherwise a unique code per synapse. 
+
+        times (:obj:`float`, `required`):
+            List of times for each call associated with each passed synapse enum. 
+            Success responses all get the same time.</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_receptor/receptor_impl.py" line="162" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_receptor/receptor_impl.py" bodystart="167" bodyend="200"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__receptor_1_1receptor__impl_1_1_receptor_1a491913657ab7aa2feca1460bc623a277" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Tuple[List[torch.FloatTensor], List[ &apos;bittensor.proto.ReturnCode&apos;], List[float]]</type>
+        <definition> Tuple[ List[ torch.FloatTensor ], List[&apos;bittensor.proto.ReturnCode&apos;], List[float] ] bittensor._receptor.receptor_impl.Receptor.backward</definition>
+        <argsstring>(self, List[ &apos;bittensor.Synapse&apos;] synapses, torch.Tensor inputs, List[torch.Tensor] grads, int timeout)</argsstring>
+        <name>backward</name>
+        <qualifiedname>bittensor._receptor.receptor_impl.Receptor.backward</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>List</type>
+          <declname>synapses</declname>
+          <array>[&apos;bittensor.Synapse&apos;]</array>
+        </param>
+        <param>
+          <type>torch.Tensor</type>
+          <declname>inputs</declname>
+        </param>
+        <param>
+          <type>List</type>
+          <declname>grads</declname>
+          <array>[torch.Tensor]</array>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>timeout</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Triggers the grpc backward call to the remote endpoint.
+    This triggers the synapse&apos;s backward calls with arguments.
+    Call returns a list of output gradient tensors one per synapse with corresponding time and bittensor.proto.ReturnCode.
+
+    Args:
+        synapses (:obj:`List[ &apos;bittensor.Synapse&apos; ]` of shape :obj:`(num_synapses)`, `required`):
+            Bittensor synapse objects with arguments. Each corresponds to a synapse function on the axon.
+            Responses are packed in this ordering. 
+
+        inputs (:obj:`torch.Tensor` of shape :obj:`(shape)`, `required`):
+            Single torch tensor input corresponding to the linked forward call.
+            TODO(const): Make this multi-forward tensor.
+
+        grads (:obj:`List[torch.FloatTensor]` of shape :obj:`num_synapses * (shape_of_synapse_output_i)`, `required`):
+            List of torch tensor gradients associated with each synapse.
+     
+        timeout (:obj:`int`, `required`):
+            Request max timeout
+    Returns:
+        output (:obj:`torch.FloatTensor`, `required`):
+            Result tensors (likely zero) from the backward call each corresponding to a single forward input.
+            NOTE(const) Always zeros because responses are not waited.
+            TODO(const): Make this multi-forward tensor.
+
+        codes (:obj:`bittensor.proto.ReturnCode`, `required`):
+            List of return codes associated with each passed synapse enum.
+            Connection failures return all the same code, otherwise a unique code per synapse. 
+
+        times (:obj:`float`, `required`):
+            List of times for each call associated with each passed synapse enum. 
+            Success responses all get the same time.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_receptor/receptor_impl.py" line="201" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_receptor/receptor_impl.py" bodystart="207" bodyend="242"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__receptor_1_1receptor__impl_1_1_receptor_1ad7be78b8e2a8c6e89eacf6aa266b7f60" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Tuple[List[torch.FloatTensor], List[ &apos;bittensor.proto.ReturnCode&apos;], List[float]]</type>
+        <definition> Tuple[ List[ torch.FloatTensor ], List[&apos;bittensor.proto.ReturnCode&apos;], List[float] ] bittensor._receptor.receptor_impl.Receptor.async_forward</definition>
+        <argsstring>(self, List[ &apos;bittensor.Synapse&apos;] synapses, torch.Tensor inputs, int timeout)</argsstring>
+        <name>async_forward</name>
+        <qualifiedname>bittensor._receptor.receptor_impl.Receptor.async_forward</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>List</type>
+          <declname>synapses</declname>
+          <array>[&apos;bittensor.Synapse&apos;]</array>
+        </param>
+        <param>
+          <type>torch.Tensor</type>
+          <declname>inputs</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>timeout</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Triggers the grpc call to the remote endpoint.
+    This triggers the synapse calls with arguments.
+    Call returns a list of output tensors one per synapse with corresponding time and bittensor.proto.ReturnCode.
+
+    Args:
+        synapses (:obj:`List[ &apos;bittensor.Synapse&apos; ]` of shape :obj:`(num_synapses)`, `required`):
+            Bittensor synapse objects with arguments. Each corresponds to a synapse function on the axon.
+            Responses are packed in this ordering. 
+
+        inputs (:obj:`torch.Tensor` of shape :obj:`(shape)`, `required`):
+            Single torch tensor to be sent to the remote endpoint.
+            TODO(const): Make this a multi-forward tensor.
+
+        timeout (:obj:`int`, `required`):
+            Request max timeout
+    Returns:
+        outputs (:obj:`List[ Union[torch.FloatTensor, torch.LongTensor] ]`, `required`):
+            outputs.shape = [batch_size, synapse_length, response] 
+            List of result tensors from the forward call each corresponding to a passed synapse enum.
+
+        codes (:obj:`bittensor.proto.ReturnCode`, `required`):
+            List of return codes associated with each passed synapse enum.
+            Connection failures return all the same code, otherwise a unique code per synapse. 
+
+        times (:obj:`float`, `required`):
+            List of times for each call associated with each passed synapse enum. 
+            Success responses all get the same time.</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_receptor/receptor_impl.py" line="243" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_receptor/receptor_impl.py" bodystart="248" bodyend="525"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__receptor_1_1receptor__impl_1_1_receptor_1ad1c8c2bb7b196aebd87642d0f389a79c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Tuple[List[torch.FloatTensor], List[ &apos;bittensor.proto.ReturnCode&apos;], List[float]]</type>
+        <definition> Tuple[ List[ torch.FloatTensor ], List[&apos;bittensor.proto.ReturnCode&apos;], List[float] ] bittensor._receptor.receptor_impl.Receptor.async_backward</definition>
+        <argsstring>(self, List[ &apos;bittensor.Synapse&apos;] synapses, torch.Tensor inputs, List[torch.Tensor] grads, int timeout)</argsstring>
+        <name>async_backward</name>
+        <qualifiedname>bittensor._receptor.receptor_impl.Receptor.async_backward</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>List</type>
+          <declname>synapses</declname>
+          <array>[&apos;bittensor.Synapse&apos;]</array>
+        </param>
+        <param>
+          <type>torch.Tensor</type>
+          <declname>inputs</declname>
+        </param>
+        <param>
+          <type>List</type>
+          <declname>grads</declname>
+          <array>[torch.Tensor]</array>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>timeout</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Triggers the grpc backward call to the remote endpoint.
+    This triggers the synapse&apos;s backward calls with arguments.
+    Call returns a list of output gradient tensors one per synapse with corresponding time and bittensor.proto.ReturnCode.
+
+    Args:
+        synapses (:obj:`List[ &apos;bittensor.Synapse&apos; ]` of shape :obj:`(num_synapses)`, `required`):
+            Bittensor synapse objects with arguments. Each corresponds to a synapse function on the axon.
+            Responses are packed in this ordering. 
+
+        inputs (:obj:`torch.Tensor` of shape :obj:`(shape)`, `required`):
+            Single torch tensor input corresponding to the linked forward call.
+            TODO(const): Make this multi-forward tensor.
+
+        grads (:obj:`List[torch.FloatTensor]` of shape :obj:`num_synapses * (shape_of_synapse_output_i)`, `required`):
+            List of torch tensor gradients associated with each synapse.
+     
+        timeout (:obj:`int`, `required`):
+            Request max timeout
+    Returns:
+        output (:obj:`torch.FloatTensor`, `required`):
+            Result tensors (likely zero) from the backward call each corresponding to a single forward input.
+            NOTE(const) Always zeros because responses are not waited.
+            TODO(const): Make this multi-forward tensor.
+
+        codes (:obj:`bittensor.proto.ReturnCode`, `required`):
+            List of return codes associated with each passed synapse enum.
+            Connection failures return all the same code, otherwise a unique code per synapse. 
+
+        times (:obj:`float`, `required`):
+            List of times for each call associated with each passed synapse enum. 
+            Success responses all get the same time.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_receptor/receptor_impl.py" line="526" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_receptor/receptor_impl.py" bodystart="532" bodyend="751"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>bittensor._receptor.receptor_impl.Receptor</label>
+        <link refid="classbittensor_1_1__receptor_1_1receptor__impl_1_1_receptor"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>nn.Module</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>bittensor._receptor.receptor_impl.Receptor</label>
+        <link refid="classbittensor_1_1__receptor_1_1receptor__impl_1_1_receptor"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>nn.Module</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/macthrasher/bittensor/bittensor/_receptor/receptor_impl.py" line="41" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_receptor/receptor_impl.py" bodystart="41" bodyend="751"/>
+    <listofallmembers>
+      <member refid="classbittensor_1_1__receptor_1_1receptor__impl_1_1_receptor_1a9ba41a14a93d5a3688de27864964b85b" prot="public" virt="non-virtual"><scope>bittensor::_receptor::receptor_impl::Receptor</scope><name>__del__</name></member>
+      <member refid="classbittensor_1_1__receptor_1_1receptor__impl_1_1_receptor_1a80c6d7df4dca19b3199e4b7ae1cfd0c9" prot="public" virt="non-virtual"><scope>bittensor::_receptor::receptor_impl::Receptor</scope><name>__exit__</name></member>
+      <member refid="classbittensor_1_1__receptor_1_1receptor__impl_1_1_receptor_1a1ea7a065b3f3da6c3463eff3b757c918" prot="public" virt="non-virtual"><scope>bittensor::_receptor::receptor_impl::Receptor</scope><name>__init__</name></member>
+      <member refid="classbittensor_1_1__receptor_1_1receptor__impl_1_1_receptor_1a8ff0bc0c1c494c302bd2d31db4fdab9a" prot="public" virt="non-virtual"><scope>bittensor::_receptor::receptor_impl::Receptor</scope><name>__repr__</name></member>
+      <member refid="classbittensor_1_1__receptor_1_1receptor__impl_1_1_receptor_1a0731b3faac02c7495d5e1eeee63efc9e" prot="public" virt="non-virtual"><scope>bittensor::_receptor::receptor_impl::Receptor</scope><name>__str__</name></member>
+      <member refid="classbittensor_1_1__receptor_1_1receptor__impl_1_1_receptor_1ad1c8c2bb7b196aebd87642d0f389a79c" prot="public" virt="non-virtual"><scope>bittensor::_receptor::receptor_impl::Receptor</scope><name>async_backward</name></member>
+      <member refid="classbittensor_1_1__receptor_1_1receptor__impl_1_1_receptor_1ad7be78b8e2a8c6e89eacf6aa266b7f60" prot="public" virt="non-virtual"><scope>bittensor::_receptor::receptor_impl::Receptor</scope><name>async_forward</name></member>
+      <member refid="classbittensor_1_1__receptor_1_1receptor__impl_1_1_receptor_1a491913657ab7aa2feca1460bc623a277" prot="public" virt="non-virtual"><scope>bittensor::_receptor::receptor_impl::Receptor</scope><name>backward</name></member>
+      <member refid="classbittensor_1_1__receptor_1_1receptor__impl_1_1_receptor_1a068c11a1d1419ed9079ff85596ac70bb" prot="public" virt="non-virtual"><scope>bittensor::_receptor::receptor_impl::Receptor</scope><name>channel</name></member>
+      <member refid="classbittensor_1_1__receptor_1_1receptor__impl_1_1_receptor_1a8f9f4a47c5226125cdf6d0f5719f818e" prot="public" virt="non-virtual"><scope>bittensor::_receptor::receptor_impl::Receptor</scope><name>close</name></member>
+      <member refid="classbittensor_1_1__receptor_1_1receptor__impl_1_1_receptor_1a183278203928d3695b65f6ef2d37686b" prot="public" virt="non-virtual"><scope>bittensor::_receptor::receptor_impl::Receptor</scope><name>endpoint</name></member>
+      <member refid="classbittensor_1_1__receptor_1_1receptor__impl_1_1_receptor_1a9d1c0df7f4af927dccebd93dc421608d" prot="public" virt="non-virtual"><scope>bittensor::_receptor::receptor_impl::Receptor</scope><name>forward</name></member>
+      <member refid="classbittensor_1_1__receptor_1_1receptor__impl_1_1_receptor_1a6bafdd8543cf31cf15248f6bc2267b24" prot="public" virt="non-virtual"><scope>bittensor::_receptor::receptor_impl::Receptor</scope><name>nonce</name></member>
+      <member refid="classbittensor_1_1__receptor_1_1receptor__impl_1_1_receptor_1a8e03b825b6c2d7734eae1a3be2d3623f" prot="public" virt="non-virtual"><scope>bittensor::_receptor::receptor_impl::Receptor</scope><name>receptor_uid</name></member>
+      <member refid="classbittensor_1_1__receptor_1_1receptor__impl_1_1_receptor_1ad0bb731aa76428c57458de7321782244" prot="public" virt="non-virtual"><scope>bittensor::_receptor::receptor_impl::Receptor</scope><name>semaphore</name></member>
+      <member refid="classbittensor_1_1__receptor_1_1receptor__impl_1_1_receptor_1a8c8577f492086b539670b97a8e2dc429" prot="public" virt="non-virtual"><scope>bittensor::_receptor::receptor_impl::Receptor</scope><name>sign</name></member>
+      <member refid="classbittensor_1_1__receptor_1_1receptor__impl_1_1_receptor_1acd8055426f73356242c920345691acbc" prot="public" virt="non-virtual"><scope>bittensor::_receptor::receptor_impl::Receptor</scope><name>sign_v1</name></member>
+      <member refid="classbittensor_1_1__receptor_1_1receptor__impl_1_1_receptor_1ad4911eccdc90a76ae6ca57f57134abbe" prot="public" virt="non-virtual"><scope>bittensor::_receptor::receptor_impl::Receptor</scope><name>sign_v2</name></member>
+      <member refid="classbittensor_1_1__receptor_1_1receptor__impl_1_1_receptor_1aa73418a8067454e6543772c278609a09" prot="public" virt="non-virtual"><scope>bittensor::_receptor::receptor_impl::Receptor</scope><name>state</name></member>
+      <member refid="classbittensor_1_1__receptor_1_1receptor__impl_1_1_receptor_1a8c7dd319bbac922f7b3f1d8fd80c6013" prot="public" virt="non-virtual"><scope>bittensor::_receptor::receptor_impl::Receptor</scope><name>state_dict</name></member>
+      <member refid="classbittensor_1_1__receptor_1_1receptor__impl_1_1_receptor_1ae167db146c945676922b2e010da735c1" prot="public" virt="non-virtual"><scope>bittensor::_receptor::receptor_impl::Receptor</scope><name>stats</name></member>
+      <member refid="classbittensor_1_1__receptor_1_1receptor__impl_1_1_receptor_1a3f2f46a45a07a696d43388698956fd66" prot="public" virt="non-virtual"><scope>bittensor::_receptor::receptor_impl::Receptor</scope><name>stub</name></member>
+      <member refid="classbittensor_1_1__receptor_1_1receptor__impl_1_1_receptor_1acb236adfe96e9d032da962735352197a" prot="public" virt="non-virtual"><scope>bittensor::_receptor::receptor_impl::Receptor</scope><name>wallet</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

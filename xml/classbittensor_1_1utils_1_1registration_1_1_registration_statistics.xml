@@ -1,0 +1,151 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="classbittensor_1_1utils_1_1registration_1_1_registration_statistics" kind="class" language="Python" prot="public">
+    <compoundname>bittensor::utils::registration::RegistrationStatistics</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classbittensor_1_1utils_1_1registration_1_1_registration_statistics_1a3a970488f5d65a2a1bd03dc2cc2fe436" prot="public" static="yes" mutable="no">
+        <type>float</type>
+        <definition>float bittensor.utils.registration.RegistrationStatistics::time_spent_total</definition>
+        <argsstring></argsstring>
+        <name>time_spent_total</name>
+        <qualifiedname>bittensor.utils.registration.RegistrationStatistics.time_spent_total</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/registration.py" line="325" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/registration.py" bodystart="325" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1utils_1_1registration_1_1_registration_statistics_1a4e9c52435f1db6a9282852d456813118" prot="public" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int bittensor.utils.registration.RegistrationStatistics::rounds_total</definition>
+        <argsstring></argsstring>
+        <name>rounds_total</name>
+        <qualifiedname>bittensor.utils.registration.RegistrationStatistics.rounds_total</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/registration.py" line="326" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/registration.py" bodystart="326" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1utils_1_1registration_1_1_registration_statistics_1a5149a7231ddad54c37b41174f2028cc4" prot="public" static="yes" mutable="no">
+        <type>float</type>
+        <definition>float bittensor.utils.registration.RegistrationStatistics::time_average</definition>
+        <argsstring></argsstring>
+        <name>time_average</name>
+        <qualifiedname>bittensor.utils.registration.RegistrationStatistics.time_average</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/registration.py" line="327" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/registration.py" bodystart="327" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1utils_1_1registration_1_1_registration_statistics_1a7360e31db3607f22d627b3d8c2bed0b5" prot="public" static="yes" mutable="no">
+        <type>float</type>
+        <definition>float bittensor.utils.registration.RegistrationStatistics::time_spent</definition>
+        <argsstring></argsstring>
+        <name>time_spent</name>
+        <qualifiedname>bittensor.utils.registration.RegistrationStatistics.time_spent</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/registration.py" line="328" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/registration.py" bodystart="328" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1utils_1_1registration_1_1_registration_statistics_1a378b6f75f8098b1c0a6f6694392039bc" prot="public" static="yes" mutable="no">
+        <type>float</type>
+        <definition>float bittensor.utils.registration.RegistrationStatistics::hash_rate_perpetual</definition>
+        <argsstring></argsstring>
+        <name>hash_rate_perpetual</name>
+        <qualifiedname>bittensor.utils.registration.RegistrationStatistics.hash_rate_perpetual</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/registration.py" line="329" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/registration.py" bodystart="329" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1utils_1_1registration_1_1_registration_statistics_1ae4902b3be1f7c7fa84d76e0d90652c24" prot="public" static="yes" mutable="no">
+        <type>float</type>
+        <definition>float bittensor.utils.registration.RegistrationStatistics::hash_rate</definition>
+        <argsstring></argsstring>
+        <name>hash_rate</name>
+        <qualifiedname>bittensor.utils.registration.RegistrationStatistics.hash_rate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/registration.py" line="330" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/registration.py" bodystart="330" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1utils_1_1registration_1_1_registration_statistics_1a1850b3ddad365cb9f5bea7492d46caef" prot="public" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int bittensor.utils.registration.RegistrationStatistics::difficulty</definition>
+        <argsstring></argsstring>
+        <name>difficulty</name>
+        <qualifiedname>bittensor.utils.registration.RegistrationStatistics.difficulty</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/registration.py" line="331" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/registration.py" bodystart="331" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1utils_1_1registration_1_1_registration_statistics_1a49a5b7ce6bdea1bd009343d17ece84f0" prot="public" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int bittensor.utils.registration.RegistrationStatistics::block_number</definition>
+        <argsstring></argsstring>
+        <name>block_number</name>
+        <qualifiedname>bittensor.utils.registration.RegistrationStatistics.block_number</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/registration.py" line="332" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/registration.py" bodystart="332" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1utils_1_1registration_1_1_registration_statistics_1ac98ae7b0c759ace12810c2ec81806a04" prot="public" static="yes" mutable="no">
+        <type>bytes</type>
+        <definition>bytes bittensor.utils.registration.RegistrationStatistics::block_hash</definition>
+        <argsstring></argsstring>
+        <name>block_hash</name>
+        <qualifiedname>bittensor.utils.registration.RegistrationStatistics.block_hash</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/registration.py" line="333" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/registration.py" bodystart="333" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Statistics for a registration.</verbatim> </para>
+    </detaileddescription>
+    <location file="/Users/macthrasher/bittensor/bittensor/utils/registration.py" line="323" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/registration.py" bodystart="323" bodyend="335"/>
+    <listofallmembers>
+      <member refid="classbittensor_1_1utils_1_1registration_1_1_registration_statistics_1ac98ae7b0c759ace12810c2ec81806a04" prot="public" virt="non-virtual"><scope>bittensor::utils::registration::RegistrationStatistics</scope><name>block_hash</name></member>
+      <member refid="classbittensor_1_1utils_1_1registration_1_1_registration_statistics_1a49a5b7ce6bdea1bd009343d17ece84f0" prot="public" virt="non-virtual"><scope>bittensor::utils::registration::RegistrationStatistics</scope><name>block_number</name></member>
+      <member refid="classbittensor_1_1utils_1_1registration_1_1_registration_statistics_1a1850b3ddad365cb9f5bea7492d46caef" prot="public" virt="non-virtual"><scope>bittensor::utils::registration::RegistrationStatistics</scope><name>difficulty</name></member>
+      <member refid="classbittensor_1_1utils_1_1registration_1_1_registration_statistics_1ae4902b3be1f7c7fa84d76e0d90652c24" prot="public" virt="non-virtual"><scope>bittensor::utils::registration::RegistrationStatistics</scope><name>hash_rate</name></member>
+      <member refid="classbittensor_1_1utils_1_1registration_1_1_registration_statistics_1a378b6f75f8098b1c0a6f6694392039bc" prot="public" virt="non-virtual"><scope>bittensor::utils::registration::RegistrationStatistics</scope><name>hash_rate_perpetual</name></member>
+      <member refid="classbittensor_1_1utils_1_1registration_1_1_registration_statistics_1a4e9c52435f1db6a9282852d456813118" prot="public" virt="non-virtual"><scope>bittensor::utils::registration::RegistrationStatistics</scope><name>rounds_total</name></member>
+      <member refid="classbittensor_1_1utils_1_1registration_1_1_registration_statistics_1a5149a7231ddad54c37b41174f2028cc4" prot="public" virt="non-virtual"><scope>bittensor::utils::registration::RegistrationStatistics</scope><name>time_average</name></member>
+      <member refid="classbittensor_1_1utils_1_1registration_1_1_registration_statistics_1a7360e31db3607f22d627b3d8c2bed0b5" prot="public" virt="non-virtual"><scope>bittensor::utils::registration::RegistrationStatistics</scope><name>time_spent</name></member>
+      <member refid="classbittensor_1_1utils_1_1registration_1_1_registration_statistics_1a3a970488f5d65a2a1bd03dc2cc2fe436" prot="public" virt="non-virtual"><scope>bittensor::utils::registration::RegistrationStatistics</scope><name>time_spent_total</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

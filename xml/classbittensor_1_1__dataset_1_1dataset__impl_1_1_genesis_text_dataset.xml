@@ -1,0 +1,972 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="classbittensor_1_1__dataset_1_1dataset__impl_1_1_genesis_text_dataset" kind="class" language="Python" prot="public">
+    <compoundname>bittensor::_dataset::dataset_impl::GenesisTextDataset</compoundname>
+    <basecompoundref refid="classbittensor_1_1__dataset_1_1dataset__impl_1_1_dataset" prot="public" virt="non-virtual">bittensor._dataset.dataset_impl.Dataset</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classbittensor_1_1__dataset_1_1dataset__impl_1_1_genesis_text_dataset_1a433fc92489fde50e4fa96ff64a8bbce3" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._dataset.dataset_impl.GenesisTextDataset::block_size</definition>
+        <argsstring></argsstring>
+        <name>block_size</name>
+        <qualifiedname>bittensor._dataset.dataset_impl.GenesisTextDataset.block_size</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_dataset/dataset_impl.py" line="142" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_dataset/dataset_impl.py" bodystart="142" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__dataset_1_1dataset__impl_1_1_genesis_text_dataset_1af1e44caa88044fdb41208e9b81ef1f7b" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._dataset.dataset_impl.GenesisTextDataset::batch_size</definition>
+        <argsstring></argsstring>
+        <name>batch_size</name>
+        <qualifiedname>bittensor._dataset.dataset_impl.GenesisTextDataset.batch_size</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_dataset/dataset_impl.py" line="143" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_dataset/dataset_impl.py" bodystart="143" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__dataset_1_1dataset__impl_1_1_genesis_text_dataset_1ae41aea0d8bdbaab2f2049e2f48e20720" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._dataset.dataset_impl.GenesisTextDataset::num_workers</definition>
+        <argsstring></argsstring>
+        <name>num_workers</name>
+        <qualifiedname>bittensor._dataset.dataset_impl.GenesisTextDataset.num_workers</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_dataset/dataset_impl.py" line="144" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_dataset/dataset_impl.py" bodystart="144" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__dataset_1_1dataset__impl_1_1_genesis_text_dataset_1ad5022474474c7a0928d85a422c35eb49" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._dataset.dataset_impl.GenesisTextDataset::tokenizer</definition>
+        <argsstring></argsstring>
+        <name>tokenizer</name>
+        <qualifiedname>bittensor._dataset.dataset_impl.GenesisTextDataset.tokenizer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_dataset/dataset_impl.py" line="145" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_dataset/dataset_impl.py" bodystart="145" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__dataset_1_1dataset__impl_1_1_genesis_text_dataset_1aeaf0e052ec96100138380131732bb729" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._dataset.dataset_impl.GenesisTextDataset::dataset_name</definition>
+        <argsstring></argsstring>
+        <name>dataset_name</name>
+        <qualifiedname>bittensor._dataset.dataset_impl.GenesisTextDataset.dataset_name</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_dataset/dataset_impl.py" line="146" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_dataset/dataset_impl.py" bodystart="146" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__dataset_1_1dataset__impl_1_1_genesis_text_dataset_1abcb8d5a06c01fb6eaac41005de18695e" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._dataset.dataset_impl.GenesisTextDataset::data_dir</definition>
+        <argsstring></argsstring>
+        <name>data_dir</name>
+        <qualifiedname>bittensor._dataset.dataset_impl.GenesisTextDataset.data_dir</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_dataset/dataset_impl.py" line="147" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_dataset/dataset_impl.py" bodystart="147" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__dataset_1_1dataset__impl_1_1_genesis_text_dataset_1a1415b408916ffe8f163c0353ecde9f73" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._dataset.dataset_impl.GenesisTextDataset::save_dataset</definition>
+        <argsstring></argsstring>
+        <name>save_dataset</name>
+        <qualifiedname>bittensor._dataset.dataset_impl.GenesisTextDataset.save_dataset</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_dataset/dataset_impl.py" line="148" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_dataset/dataset_impl.py" bodystart="148" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__dataset_1_1dataset__impl_1_1_genesis_text_dataset_1aab0bd9a14ae0bea1ac4bcbd280b4a283" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._dataset.dataset_impl.GenesisTextDataset::datafile_size_bound</definition>
+        <argsstring></argsstring>
+        <name>datafile_size_bound</name>
+        <qualifiedname>bittensor._dataset.dataset_impl.GenesisTextDataset.datafile_size_bound</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_dataset/dataset_impl.py" line="149" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_dataset/dataset_impl.py" bodystart="149" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__dataset_1_1dataset__impl_1_1_genesis_text_dataset_1a0791d2ed0dbfc3215604ec95689fb397" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._dataset.dataset_impl.GenesisTextDataset::max_datasets</definition>
+        <argsstring></argsstring>
+        <name>max_datasets</name>
+        <qualifiedname>bittensor._dataset.dataset_impl.GenesisTextDataset.max_datasets</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_dataset/dataset_impl.py" line="150" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_dataset/dataset_impl.py" bodystart="150" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__dataset_1_1dataset__impl_1_1_genesis_text_dataset_1a776fb18e404ec27dadbc8a7fe789011e" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._dataset.dataset_impl.GenesisTextDataset::no_tokenizer</definition>
+        <argsstring></argsstring>
+        <name>no_tokenizer</name>
+        <qualifiedname>bittensor._dataset.dataset_impl.GenesisTextDataset.no_tokenizer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_dataset/dataset_impl.py" line="152" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_dataset/dataset_impl.py" bodystart="152" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__dataset_1_1dataset__impl_1_1_genesis_text_dataset_1a0a678e2496e5603f02a837651ae661f2" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._dataset.dataset_impl.GenesisTextDataset::IPFS_fails</definition>
+        <argsstring></argsstring>
+        <name>IPFS_fails</name>
+        <qualifiedname>bittensor._dataset.dataset_impl.GenesisTextDataset.IPFS_fails</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_dataset/dataset_impl.py" line="153" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_dataset/dataset_impl.py" bodystart="153" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__dataset_1_1dataset__impl_1_1_genesis_text_dataset_1ab9d2a10aa666678d721c724dc96d0729" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._dataset.dataset_impl.GenesisTextDataset::backup_dataset_cap_size</definition>
+        <argsstring></argsstring>
+        <name>backup_dataset_cap_size</name>
+        <qualifiedname>bittensor._dataset.dataset_impl.GenesisTextDataset.backup_dataset_cap_size</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_dataset/dataset_impl.py" line="154" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_dataset/dataset_impl.py" bodystart="154" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__dataset_1_1dataset__impl_1_1_genesis_text_dataset_1a67659c56d369c7d16dcfc8f040a5485f" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._dataset.dataset_impl.GenesisTextDataset::IPFS_fails_max</definition>
+        <argsstring></argsstring>
+        <name>IPFS_fails_max</name>
+        <qualifiedname>bittensor._dataset.dataset_impl.GenesisTextDataset.IPFS_fails_max</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_dataset/dataset_impl.py" line="155" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_dataset/dataset_impl.py" bodystart="155" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__dataset_1_1dataset__impl_1_1_genesis_text_dataset_1a352f72173fb2d7e4703370f8bf89f464" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._dataset.dataset_impl.GenesisTextDataset::num_batches</definition>
+        <argsstring></argsstring>
+        <name>num_batches</name>
+        <qualifiedname>bittensor._dataset.dataset_impl.GenesisTextDataset.num_batches</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_dataset/dataset_impl.py" line="156" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_dataset/dataset_impl.py" bodystart="156" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__dataset_1_1dataset__impl_1_1_genesis_text_dataset_1ad6f97bd5db95966fa2d91e5ac78f1fe3" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._dataset.dataset_impl.GenesisTextDataset::max_directories</definition>
+        <argsstring></argsstring>
+        <name>max_directories</name>
+        <qualifiedname>bittensor._dataset.dataset_impl.GenesisTextDataset.max_directories</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_dataset/dataset_impl.py" line="157" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_dataset/dataset_impl.py" bodystart="157" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__dataset_1_1dataset__impl_1_1_genesis_text_dataset_1a1237215d23dc392db0e7b8535ecda51c" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._dataset.dataset_impl.GenesisTextDataset::data</definition>
+        <argsstring></argsstring>
+        <name>data</name>
+        <qualifiedname>bittensor._dataset.dataset_impl.GenesisTextDataset.data</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_dataset/dataset_impl.py" line="160" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_dataset/dataset_impl.py" bodystart="160" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__dataset_1_1dataset__impl_1_1_genesis_text_dataset_1aee5b9af9b3ff4357a00a8cf950e249d9" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._dataset.dataset_impl.GenesisTextDataset::data_reserved</definition>
+        <argsstring></argsstring>
+        <name>data_reserved</name>
+        <qualifiedname>bittensor._dataset.dataset_impl.GenesisTextDataset.data_reserved</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_dataset/dataset_impl.py" line="161" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_dataset/dataset_impl.py" bodystart="161" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__dataset_1_1dataset__impl_1_1_genesis_text_dataset_1ae5fbb84f89887c76fac115ab190a3a6c" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._dataset.dataset_impl.GenesisTextDataset::refresh_corpus</definition>
+        <argsstring></argsstring>
+        <name>refresh_corpus</name>
+        <qualifiedname>bittensor._dataset.dataset_impl.GenesisTextDataset.refresh_corpus</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_dataset/dataset_impl.py" line="164" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_dataset/dataset_impl.py" bodystart="164" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__dataset_1_1dataset__impl_1_1_genesis_text_dataset_1a0af45a7e9765e973cbe5214c76abcec8" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._dataset.dataset_impl.GenesisTextDataset::data_queue</definition>
+        <argsstring></argsstring>
+        <name>data_queue</name>
+        <qualifiedname>bittensor._dataset.dataset_impl.GenesisTextDataset.data_queue</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_dataset/dataset_impl.py" line="170" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_dataset/dataset_impl.py" bodystart="170" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__dataset_1_1dataset__impl_1_1_genesis_text_dataset_1a9b219b5bd528ccb2cbe106b41780c0a6" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._dataset.dataset_impl.GenesisTextDataset::dataset_hashes</definition>
+        <argsstring></argsstring>
+        <name>dataset_hashes</name>
+        <qualifiedname>bittensor._dataset.dataset_impl.GenesisTextDataset.dataset_hashes</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_dataset/dataset_impl.py" line="657" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_dataset/dataset_impl.py" bodystart="657" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classbittensor_1_1__dataset_1_1dataset__impl_1_1_genesis_text_dataset_1a3836ec7a613887ba10ab19cd5b3a9442" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._dataset.dataset_impl.GenesisTextDataset::__infinite_dataset_iterator</definition>
+        <argsstring></argsstring>
+        <name>__infinite_dataset_iterator</name>
+        <qualifiedname>bittensor._dataset.dataset_impl.GenesisTextDataset.__infinite_dataset_iterator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_dataset/dataset_impl.py" line="151" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_dataset/dataset_impl.py" bodystart="151" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classbittensor_1_1__dataset_1_1dataset__impl_1_1_genesis_text_dataset_1ae48b5fbda7942fb14e51b12a47d000ab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._dataset.dataset_impl.GenesisTextDataset.__init__</definition>
+        <argsstring>(self, block_size, batch_size, num_workers, dataset_name, data_dir, save_dataset, max_datasets, no_tokenizer, num_batches, max_directories)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>bittensor._dataset.dataset_impl.GenesisTextDataset.__init__</qualifiedname>
+        <reimplements refid="classbittensor_1_1__dataset_1_1dataset__impl_1_1_dataset_1a60a63337f780daa76d50af7e61402ded">__init__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>block_size</type>
+          <defname>block_size</defname>
+        </param>
+        <param>
+          <type>batch_size</type>
+          <defname>batch_size</defname>
+        </param>
+        <param>
+          <type>num_workers</type>
+          <defname>num_workers</defname>
+        </param>
+        <param>
+          <type>dataset_name</type>
+          <defname>dataset_name</defname>
+        </param>
+        <param>
+          <type>data_dir</type>
+          <defname>data_dir</defname>
+        </param>
+        <param>
+          <type>save_dataset</type>
+          <defname>save_dataset</defname>
+        </param>
+        <param>
+          <type>max_datasets</type>
+          <defname>max_datasets</defname>
+        </param>
+        <param>
+          <type>no_tokenizer</type>
+          <defname>no_tokenizer</defname>
+        </param>
+        <param>
+          <type>num_batches</type>
+          <defname>num_batches</defname>
+        </param>
+        <param>
+          <type>max_directories</type>
+          <defname>max_directories</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_dataset/dataset_impl.py" line="128" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_dataset/dataset_impl.py" bodystart="140" bodyend="175"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__dataset_1_1dataset__impl_1_1_genesis_text_dataset_1a7f740f31cb07c58f7beba138fb8e6182" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._dataset.dataset_impl.GenesisTextDataset.__del__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__del__</name>
+        <qualifiedname>bittensor._dataset.dataset_impl.GenesisTextDataset.__del__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_dataset/dataset_impl.py" line="176" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_dataset/dataset_impl.py" bodystart="176" bodyend="178"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__dataset_1_1dataset__impl_1_1_genesis_text_dataset_1a732184249b00adfa4fa15151193e50d9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._dataset.dataset_impl.GenesisTextDataset.close</definition>
+        <argsstring>(self)</argsstring>
+        <name>close</name>
+        <qualifiedname>bittensor._dataset.dataset_impl.GenesisTextDataset.close</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_dataset/dataset_impl.py" line="179" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_dataset/dataset_impl.py" bodystart="179" bodyend="181"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__dataset_1_1dataset__impl_1_1_genesis_text_dataset_1ad19ac4cac82d1507de48b11ab39efee1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._dataset.dataset_impl.GenesisTextDataset.get_folder_size</definition>
+        <argsstring>(self, folder)</argsstring>
+        <name>get_folder_size</name>
+        <qualifiedname>bittensor._dataset.dataset_impl.GenesisTextDataset.get_folder_size</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>folder</type>
+          <defname>folder</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Get the size (in byte) of a folder inside the data_dir.
+Args:
+    folder (str):
+        The name of the folder
+
+Returns:
+    total_size (int):
+        The memory size of the folder (in byte). 
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_dataset/dataset_impl.py" line="182" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_dataset/dataset_impl.py" bodystart="182" bodyend="202"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__dataset_1_1dataset__impl_1_1_genesis_text_dataset_1a4bc6e43e25c766c4ba6bef92d135a8ed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._dataset.dataset_impl.GenesisTextDataset.load_hash</definition>
+        <argsstring>(self, file_meta)</argsstring>
+        <name>load_hash</name>
+        <qualifiedname>bittensor._dataset.dataset_impl.GenesisTextDataset.load_hash</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>file_meta</type>
+          <defname>file_meta</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Load a hash from disk.
+Args:
+file_meta (dict of str: int):
+Specify the details of the dataset in the format of {&apos;Name&apos;: , &apos;Hash&apos;:}.
+
+Returns:
+text (str): 
+The text in the file.                
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_dataset/dataset_impl.py" line="203" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_dataset/dataset_impl.py" bodystart="203" bodyend="228"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__dataset_1_1dataset__impl_1_1_genesis_text_dataset_1aa97393167f9c4bd7be13e09d10f0685b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._dataset.dataset_impl.GenesisTextDataset.save_hash</definition>
+        <argsstring>(self, file_meta, text)</argsstring>
+        <name>save_hash</name>
+        <qualifiedname>bittensor._dataset.dataset_impl.GenesisTextDataset.save_hash</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>file_meta</type>
+          <defname>file_meta</defname>
+        </param>
+        <param>
+          <type>text</type>
+          <defname>text</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Save a hash to disk.
+Args:
+file_meta (dict of str: int):
+Specify the details of the dataset in the format of {&apos;Name&apos;: , &apos;Hash&apos;:}.
+text (str): 
+The string to save to the file.
+
+Returns:
+text (str):
+The text in the file.                
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_dataset/dataset_impl.py" line="229" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_dataset/dataset_impl.py" bodystart="229" bodyend="254"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__dataset_1_1dataset__impl_1_1_genesis_text_dataset_1acfa141b065ef47c5257bb90b488f9cd2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._dataset.dataset_impl.GenesisTextDataset.get_text</definition>
+        <argsstring>(self, file_meta)</argsstring>
+        <name>get_text</name>
+        <qualifiedname>bittensor._dataset.dataset_impl.GenesisTextDataset.get_text</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>file_meta</type>
+          <defname>file_meta</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Either load a file from disk or download it from IPFS
+Args:
+file_meta (dict of str: int):
+Specify the details of the file in the format of {&apos;Name&apos;: , &apos;Hash&apos;:}.
+
+Return:
+text (str):
+The text that we get from the file (from disk or IPFS).     
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_dataset/dataset_impl.py" line="255" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_dataset/dataset_impl.py" bodystart="255" bodyend="280"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__dataset_1_1dataset__impl_1_1_genesis_text_dataset_1a7b0f280512b1c0c032c714bd796cdb52" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._dataset.dataset_impl.GenesisTextDataset.get_dataset</definition>
+        <argsstring>(self, file_meta)</argsstring>
+        <name>get_dataset</name>
+        <qualifiedname>bittensor._dataset.dataset_impl.GenesisTextDataset.get_dataset</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>file_meta</type>
+          <defname>file_meta</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Either load a dataset, which is a list of hashes, from disk or download it from IPFS
+Args:
+file_meta (dict of str: int):
+Specify the details of the dataset in the format of {&apos;Name&apos;: , &apos;Hash&apos;:}.
+
+Return:
+hashes (list):
+The hashes from the dataset downloaded from disk or IPFS.     
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_dataset/dataset_impl.py" line="281" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_dataset/dataset_impl.py" bodystart="281" bodyend="321"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__dataset_1_1dataset__impl_1_1_genesis_text_dataset_1a97d42a3d6765cbcd74e2602d6c061a61" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._dataset.dataset_impl.GenesisTextDataset.get_hashes_from_dataset</definition>
+        <argsstring>(self)</argsstring>
+        <name>get_hashes_from_dataset</name>
+        <qualifiedname>bittensor._dataset.dataset_impl.GenesisTextDataset.get_hashes_from_dataset</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Getting directories .
+Where a directory could be leading to a data file or a directory file.
+
+Returns:
+directories (:type:`list`, `required`)
+A list of directory.
+    directory: Map{ Name: str, Hash: str, Size: int }: 
+        A random directory that lead to a datafile.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_dataset/dataset_impl.py" line="322" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_dataset/dataset_impl.py" bodystart="322" bodyend="374"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__dataset_1_1dataset__impl_1_1_genesis_text_dataset_1acf1038a268247f8250e34a69052b5f5f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._dataset.dataset_impl.GenesisTextDataset.get_root_text_hash</definition>
+        <argsstring>(self, file_meta)</argsstring>
+        <name>get_root_text_hash</name>
+        <qualifiedname>bittensor._dataset.dataset_impl.GenesisTextDataset.get_root_text_hash</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>file_meta</type>
+          <defname>file_meta</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>With recursion, from the given directory, get a directory that leads to a datafile.
+
+Args:
+directory: Map{ Name: str, Hash: str, Size: int }: 
+The original directory to look up a datafile for.
+
+Returns:
+directory: Map{ Name: str, Hash: str, Size: int }: 
+A random directory that lead to a datafile.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_dataset/dataset_impl.py" line="375" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_dataset/dataset_impl.py" bodystart="375" bodyend="415"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__dataset_1_1dataset__impl_1_1_genesis_text_dataset_1a2e1e4ea7464bfc7db04bf85dbdf9f661" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._dataset.dataset_impl.GenesisTextDataset.get_text_from_local</definition>
+        <argsstring>(self, min_data_len)</argsstring>
+        <name>get_text_from_local</name>
+        <qualifiedname>bittensor._dataset.dataset_impl.GenesisTextDataset.get_text_from_local</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>min_data_len</type>
+          <defname>min_data_len</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_dataset/dataset_impl.py" line="416" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_dataset/dataset_impl.py" bodystart="416" bodyend="453"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__dataset_1_1dataset__impl_1_1_genesis_text_dataset_1aae2d5b7ef612659ddabf117cf3c3d6ec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._dataset.dataset_impl.GenesisTextDataset.construct_text_corpus</definition>
+        <argsstring>(self, min_data_len=0)</argsstring>
+        <name>construct_text_corpus</name>
+        <qualifiedname>bittensor._dataset.dataset_impl.GenesisTextDataset.construct_text_corpus</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>min_data_len</type>
+          <defname>min_data_len</defname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Main function for generating the text data.
+1. Get directories from a random dataset_hash (dataset_hash is the result from calling pin/ls).
+2. Pick a random directory and get the directory that would lead to a datafile.    
+3. Get text from the directory.
+4. Repeat 2,3 until we have reached the min data length
+
+Returns:
+    text: str: 
+        Contents of the text data.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_dataset/dataset_impl.py" line="454" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_dataset/dataset_impl.py" bodystart="454" bodyend="511"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__dataset_1_1dataset__impl_1_1_genesis_text_dataset_1ad53bbb77e1b2fd0eaf6f0053050dbba5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._dataset.dataset_impl.GenesisTextDataset.reserve_multiple_data</definition>
+        <argsstring>(self, epoch_length=100, multiples=2)</argsstring>
+        <name>reserve_multiple_data</name>
+        <qualifiedname>bittensor._dataset.dataset_impl.GenesisTextDataset.reserve_multiple_data</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>epoch_length</type>
+          <defname>epoch_length</defname>
+          <defval>100</defval>
+        </param>
+        <param>
+          <type>multiples</type>
+          <defname>multiples</defname>
+          <defval>2</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Make sure the reserved data meet the multiple, 
+If not, then keep constructing text corpus.
+Arg:
+epoch_length (int, optional): 
+A dataloader for a subset of the dataset of epoch_length is returned.
+
+multiples (int, optional):
+The number of dataloader that the data_reserved should be able to create.
+
+Return: 
+success (bool):
+If we have got the data ready.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_dataset/dataset_impl.py" line="512" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_dataset/dataset_impl.py" bodystart="512" bodyend="534"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__dataset_1_1dataset__impl_1_1_genesis_text_dataset_1acd2a6b143cdbe8ecd0df3460e961cfe2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._dataset.dataset_impl.GenesisTextDataset.set_data_size</definition>
+        <argsstring>(self, batch_size, block_size)</argsstring>
+        <name>set_data_size</name>
+        <qualifiedname>bittensor._dataset.dataset_impl.GenesisTextDataset.set_data_size</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>batch_size</type>
+          <defname>batch_size</defname>
+        </param>
+        <param>
+          <type>block_size</type>
+          <defname>block_size</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Update the size of data (batch_size, block_size) that we need.
+
+Args: 
+batch_size(int, required):
+The batch_size of data that should be produced by dataloader.
+
+block_size(int, required):
+The block_size of data that should be produced by dataloader. 
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_dataset/dataset_impl.py" line="535" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_dataset/dataset_impl.py" bodystart="535" bodyend="570"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__dataset_1_1dataset__impl_1_1_genesis_text_dataset_1a1c63db6af8af3d632f30583123f6b48b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._dataset.dataset_impl.GenesisTextDataset.dataloader</definition>
+        <argsstring>(self, epoch_length=100)</argsstring>
+        <name>dataloader</name>
+        <qualifiedname>bittensor._dataset.dataset_impl.GenesisTextDataset.dataloader</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>epoch_length</type>
+          <defname>epoch_length</defname>
+          <defval>100</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Creates a torch dataloader out of a subclass of this class.
+
+Args:
+    epoch_length (int, optional): 
+        A dataloader for a subset of the dataset of epoch_length is returned.
+
+Returns:
+    torch.utils.data.dataloader.DataLoader: Pytorch dataloader.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_dataset/dataset_impl.py" line="571" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_dataset/dataset_impl.py" bodystart="571" bodyend="596"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__dataset_1_1dataset__impl_1_1_genesis_text_dataset_1ac57d432cdd0ca00255f87dacae40a2b1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._dataset.dataset_impl.GenesisTextDataset.set_dataset_iterator</definition>
+        <argsstring>(self)</argsstring>
+        <name>set_dataset_iterator</name>
+        <qualifiedname>bittensor._dataset.dataset_impl.GenesisTextDataset.set_dataset_iterator</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Get a new dataset that is ready from the queue. The result would be updated to self.__infinite_dataset_iterator__ . 
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_dataset/dataset_impl.py" line="597" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_dataset/dataset_impl.py" bodystart="597" bodyend="612"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__dataset_1_1dataset__impl_1_1_genesis_text_dataset_1a0b33886b2a6a7a8fa5738fc38f9ac91a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._dataset.dataset_impl.GenesisTextDataset.__next__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__next__</name>
+        <qualifiedname>bittensor._dataset.dataset_impl.GenesisTextDataset.__next__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Returns the next element from the dataset. 
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_dataset/dataset_impl.py" line="613" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_dataset/dataset_impl.py" bodystart="613" bodyend="625"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__dataset_1_1dataset__impl_1_1_genesis_text_dataset_1aea845490db793c1d2bab3212e9dc2068" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._dataset.dataset_impl.GenesisTextDataset.__len__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__len__</name>
+        <qualifiedname>bittensor._dataset.dataset_impl.GenesisTextDataset.__len__</qualifiedname>
+        <reimplements refid="classbittensor_1_1__dataset_1_1dataset__impl_1_1_dataset_1a64b7e8477907e64b2e737833e3802d6f">__len__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Returns number of samples (blocks) of dataset
+
+Returns:
+    length: int
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_dataset/dataset_impl.py" line="626" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_dataset/dataset_impl.py" bodystart="626" bodyend="635"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__dataset_1_1dataset__impl_1_1_genesis_text_dataset_1a559f292561fa11de57d4f5c8b0cc8d67" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Union[str, torch.tensor]</type>
+        <definition> Union[str, torch.tensor] bittensor._dataset.dataset_impl.GenesisTextDataset.__getitem__</definition>
+        <argsstring>(self, int idx)</argsstring>
+        <name>__getitem__</name>
+        <qualifiedname>bittensor._dataset.dataset_impl.GenesisTextDataset.__getitem__</qualifiedname>
+        <reimplements refid="classbittensor_1_1__dataset_1_1dataset__impl_1_1_dataset_1a495efa0d0eeee76dc87dad2b6c82036e">__getitem__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>idx</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Returns a block of sentences from text dataset.
+
+    Args:
+        idx: index of data input
+
+    Returns:
+        torch.tensor(dix)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_dataset/dataset_impl.py" line="636" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_dataset/dataset_impl.py" bodystart="636" bodyend="654"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__dataset_1_1dataset__impl_1_1_genesis_text_dataset_1ada172a47354f2921942c1b32417b2787" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._dataset.dataset_impl.GenesisTextDataset.build_hash_table</definition>
+        <argsstring>(self)</argsstring>
+        <name>build_hash_table</name>
+        <qualifiedname>bittensor._dataset.dataset_impl.GenesisTextDataset.build_hash_table</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_dataset/dataset_impl.py" line="655" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_dataset/dataset_impl.py" bodystart="655" bodyend="679"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim> One kind of dataset that caters for the data from ipfs 
+</verbatim> </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>bittensor._dataset.dataset_impl.GenesisTextDataset</label>
+        <link refid="classbittensor_1_1__dataset_1_1dataset__impl_1_1_genesis_text_dataset"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>bittensor._dataset.dataset_impl.Dataset</label>
+        <link refid="classbittensor_1_1__dataset_1_1dataset__impl_1_1_dataset"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>bittensor._dataset.dataset_impl.GenesisTextDataset</label>
+        <link refid="classbittensor_1_1__dataset_1_1dataset__impl_1_1_genesis_text_dataset"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>bittensor._dataset.dataset_impl.Dataset</label>
+        <link refid="classbittensor_1_1__dataset_1_1dataset__impl_1_1_dataset"/>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/macthrasher/bittensor/bittensor/_dataset/dataset_impl.py" line="125" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_dataset/dataset_impl.py" bodystart="125" bodyend="679"/>
+    <listofallmembers>
+      <member refid="classbittensor_1_1__dataset_1_1dataset__impl_1_1_genesis_text_dataset_1a7f740f31cb07c58f7beba138fb8e6182" prot="public" virt="non-virtual"><scope>bittensor::_dataset::dataset_impl::GenesisTextDataset</scope><name>__del__</name></member>
+      <member refid="classbittensor_1_1__dataset_1_1dataset__impl_1_1_genesis_text_dataset_1a559f292561fa11de57d4f5c8b0cc8d67" prot="public" virt="non-virtual"><scope>bittensor::_dataset::dataset_impl::GenesisTextDataset</scope><name>__getitem__</name></member>
+      <member refid="classbittensor_1_1__dataset_1_1dataset__impl_1_1_genesis_text_dataset_1a3836ec7a613887ba10ab19cd5b3a9442" prot="private" virt="non-virtual"><scope>bittensor::_dataset::dataset_impl::GenesisTextDataset</scope><name>__infinite_dataset_iterator</name></member>
+      <member refid="classbittensor_1_1__dataset_1_1dataset__impl_1_1_genesis_text_dataset_1ae48b5fbda7942fb14e51b12a47d000ab" prot="public" virt="non-virtual"><scope>bittensor::_dataset::dataset_impl::GenesisTextDataset</scope><name>__init__</name></member>
+      <member refid="classbittensor_1_1__dataset_1_1dataset__impl_1_1_genesis_text_dataset_1aea845490db793c1d2bab3212e9dc2068" prot="public" virt="non-virtual"><scope>bittensor::_dataset::dataset_impl::GenesisTextDataset</scope><name>__len__</name></member>
+      <member refid="classbittensor_1_1__dataset_1_1dataset__impl_1_1_genesis_text_dataset_1a0b33886b2a6a7a8fa5738fc38f9ac91a" prot="public" virt="non-virtual"><scope>bittensor::_dataset::dataset_impl::GenesisTextDataset</scope><name>__next__</name></member>
+      <member refid="classbittensor_1_1__dataset_1_1dataset__impl_1_1_genesis_text_dataset_1ab9d2a10aa666678d721c724dc96d0729" prot="public" virt="non-virtual"><scope>bittensor::_dataset::dataset_impl::GenesisTextDataset</scope><name>backup_dataset_cap_size</name></member>
+      <member refid="classbittensor_1_1__dataset_1_1dataset__impl_1_1_genesis_text_dataset_1af1e44caa88044fdb41208e9b81ef1f7b" prot="public" virt="non-virtual"><scope>bittensor::_dataset::dataset_impl::GenesisTextDataset</scope><name>batch_size</name></member>
+      <member refid="classbittensor_1_1__dataset_1_1dataset__impl_1_1_genesis_text_dataset_1a433fc92489fde50e4fa96ff64a8bbce3" prot="public" virt="non-virtual"><scope>bittensor::_dataset::dataset_impl::GenesisTextDataset</scope><name>block_size</name></member>
+      <member refid="classbittensor_1_1__dataset_1_1dataset__impl_1_1_genesis_text_dataset_1ada172a47354f2921942c1b32417b2787" prot="public" virt="non-virtual"><scope>bittensor::_dataset::dataset_impl::GenesisTextDataset</scope><name>build_hash_table</name></member>
+      <member refid="classbittensor_1_1__dataset_1_1dataset__impl_1_1_genesis_text_dataset_1a732184249b00adfa4fa15151193e50d9" prot="public" virt="non-virtual"><scope>bittensor::_dataset::dataset_impl::GenesisTextDataset</scope><name>close</name></member>
+      <member refid="classbittensor_1_1__dataset_1_1dataset__impl_1_1_genesis_text_dataset_1aae2d5b7ef612659ddabf117cf3c3d6ec" prot="public" virt="non-virtual"><scope>bittensor::_dataset::dataset_impl::GenesisTextDataset</scope><name>construct_text_corpus</name></member>
+      <member refid="classbittensor_1_1__dataset_1_1dataset__impl_1_1_genesis_text_dataset_1a1237215d23dc392db0e7b8535ecda51c" prot="public" virt="non-virtual"><scope>bittensor::_dataset::dataset_impl::GenesisTextDataset</scope><name>data</name></member>
+      <member refid="classbittensor_1_1__dataset_1_1dataset__impl_1_1_genesis_text_dataset_1abcb8d5a06c01fb6eaac41005de18695e" prot="public" virt="non-virtual"><scope>bittensor::_dataset::dataset_impl::GenesisTextDataset</scope><name>data_dir</name></member>
+      <member refid="classbittensor_1_1__dataset_1_1dataset__impl_1_1_genesis_text_dataset_1a0af45a7e9765e973cbe5214c76abcec8" prot="public" virt="non-virtual"><scope>bittensor::_dataset::dataset_impl::GenesisTextDataset</scope><name>data_queue</name></member>
+      <member refid="classbittensor_1_1__dataset_1_1dataset__impl_1_1_genesis_text_dataset_1aee5b9af9b3ff4357a00a8cf950e249d9" prot="public" virt="non-virtual"><scope>bittensor::_dataset::dataset_impl::GenesisTextDataset</scope><name>data_reserved</name></member>
+      <member refid="classbittensor_1_1__dataset_1_1dataset__impl_1_1_genesis_text_dataset_1aab0bd9a14ae0bea1ac4bcbd280b4a283" prot="public" virt="non-virtual"><scope>bittensor::_dataset::dataset_impl::GenesisTextDataset</scope><name>datafile_size_bound</name></member>
+      <member refid="classbittensor_1_1__dataset_1_1dataset__impl_1_1_genesis_text_dataset_1a1c63db6af8af3d632f30583123f6b48b" prot="public" virt="non-virtual"><scope>bittensor::_dataset::dataset_impl::GenesisTextDataset</scope><name>dataloader</name></member>
+      <member refid="classbittensor_1_1__dataset_1_1dataset__impl_1_1_genesis_text_dataset_1a9b219b5bd528ccb2cbe106b41780c0a6" prot="public" virt="non-virtual"><scope>bittensor::_dataset::dataset_impl::GenesisTextDataset</scope><name>dataset_hashes</name></member>
+      <member refid="classbittensor_1_1__dataset_1_1dataset__impl_1_1_genesis_text_dataset_1aeaf0e052ec96100138380131732bb729" prot="public" virt="non-virtual"><scope>bittensor::_dataset::dataset_impl::GenesisTextDataset</scope><name>dataset_name</name></member>
+      <member refid="classbittensor_1_1__dataset_1_1dataset__impl_1_1_genesis_text_dataset_1a7b0f280512b1c0c032c714bd796cdb52" prot="public" virt="non-virtual"><scope>bittensor::_dataset::dataset_impl::GenesisTextDataset</scope><name>get_dataset</name></member>
+      <member refid="classbittensor_1_1__dataset_1_1dataset__impl_1_1_genesis_text_dataset_1ad19ac4cac82d1507de48b11ab39efee1" prot="public" virt="non-virtual"><scope>bittensor::_dataset::dataset_impl::GenesisTextDataset</scope><name>get_folder_size</name></member>
+      <member refid="classbittensor_1_1__dataset_1_1dataset__impl_1_1_genesis_text_dataset_1a97d42a3d6765cbcd74e2602d6c061a61" prot="public" virt="non-virtual"><scope>bittensor::_dataset::dataset_impl::GenesisTextDataset</scope><name>get_hashes_from_dataset</name></member>
+      <member refid="classbittensor_1_1__dataset_1_1dataset__impl_1_1_genesis_text_dataset_1acf1038a268247f8250e34a69052b5f5f" prot="public" virt="non-virtual"><scope>bittensor::_dataset::dataset_impl::GenesisTextDataset</scope><name>get_root_text_hash</name></member>
+      <member refid="classbittensor_1_1__dataset_1_1dataset__impl_1_1_genesis_text_dataset_1acfa141b065ef47c5257bb90b488f9cd2" prot="public" virt="non-virtual"><scope>bittensor::_dataset::dataset_impl::GenesisTextDataset</scope><name>get_text</name></member>
+      <member refid="classbittensor_1_1__dataset_1_1dataset__impl_1_1_genesis_text_dataset_1a2e1e4ea7464bfc7db04bf85dbdf9f661" prot="public" virt="non-virtual"><scope>bittensor::_dataset::dataset_impl::GenesisTextDataset</scope><name>get_text_from_local</name></member>
+      <member refid="classbittensor_1_1__dataset_1_1dataset__impl_1_1_genesis_text_dataset_1a0a678e2496e5603f02a837651ae661f2" prot="public" virt="non-virtual"><scope>bittensor::_dataset::dataset_impl::GenesisTextDataset</scope><name>IPFS_fails</name></member>
+      <member refid="classbittensor_1_1__dataset_1_1dataset__impl_1_1_genesis_text_dataset_1a67659c56d369c7d16dcfc8f040a5485f" prot="public" virt="non-virtual"><scope>bittensor::_dataset::dataset_impl::GenesisTextDataset</scope><name>IPFS_fails_max</name></member>
+      <member refid="classbittensor_1_1__dataset_1_1dataset__impl_1_1_genesis_text_dataset_1a4bc6e43e25c766c4ba6bef92d135a8ed" prot="public" virt="non-virtual"><scope>bittensor::_dataset::dataset_impl::GenesisTextDataset</scope><name>load_hash</name></member>
+      <member refid="classbittensor_1_1__dataset_1_1dataset__impl_1_1_genesis_text_dataset_1a0791d2ed0dbfc3215604ec95689fb397" prot="public" virt="non-virtual"><scope>bittensor::_dataset::dataset_impl::GenesisTextDataset</scope><name>max_datasets</name></member>
+      <member refid="classbittensor_1_1__dataset_1_1dataset__impl_1_1_genesis_text_dataset_1ad6f97bd5db95966fa2d91e5ac78f1fe3" prot="public" virt="non-virtual"><scope>bittensor::_dataset::dataset_impl::GenesisTextDataset</scope><name>max_directories</name></member>
+      <member refid="classbittensor_1_1__dataset_1_1dataset__impl_1_1_genesis_text_dataset_1a776fb18e404ec27dadbc8a7fe789011e" prot="public" virt="non-virtual"><scope>bittensor::_dataset::dataset_impl::GenesisTextDataset</scope><name>no_tokenizer</name></member>
+      <member refid="classbittensor_1_1__dataset_1_1dataset__impl_1_1_genesis_text_dataset_1a352f72173fb2d7e4703370f8bf89f464" prot="public" virt="non-virtual"><scope>bittensor::_dataset::dataset_impl::GenesisTextDataset</scope><name>num_batches</name></member>
+      <member refid="classbittensor_1_1__dataset_1_1dataset__impl_1_1_genesis_text_dataset_1ae41aea0d8bdbaab2f2049e2f48e20720" prot="public" virt="non-virtual"><scope>bittensor::_dataset::dataset_impl::GenesisTextDataset</scope><name>num_workers</name></member>
+      <member refid="classbittensor_1_1__dataset_1_1dataset__impl_1_1_genesis_text_dataset_1ae5fbb84f89887c76fac115ab190a3a6c" prot="public" virt="non-virtual"><scope>bittensor::_dataset::dataset_impl::GenesisTextDataset</scope><name>refresh_corpus</name></member>
+      <member refid="classbittensor_1_1__dataset_1_1dataset__impl_1_1_genesis_text_dataset_1ad53bbb77e1b2fd0eaf6f0053050dbba5" prot="public" virt="non-virtual"><scope>bittensor::_dataset::dataset_impl::GenesisTextDataset</scope><name>reserve_multiple_data</name></member>
+      <member refid="classbittensor_1_1__dataset_1_1dataset__impl_1_1_genesis_text_dataset_1a1415b408916ffe8f163c0353ecde9f73" prot="public" virt="non-virtual"><scope>bittensor::_dataset::dataset_impl::GenesisTextDataset</scope><name>save_dataset</name></member>
+      <member refid="classbittensor_1_1__dataset_1_1dataset__impl_1_1_genesis_text_dataset_1aa97393167f9c4bd7be13e09d10f0685b" prot="public" virt="non-virtual"><scope>bittensor::_dataset::dataset_impl::GenesisTextDataset</scope><name>save_hash</name></member>
+      <member refid="classbittensor_1_1__dataset_1_1dataset__impl_1_1_genesis_text_dataset_1acd2a6b143cdbe8ecd0df3460e961cfe2" prot="public" virt="non-virtual"><scope>bittensor::_dataset::dataset_impl::GenesisTextDataset</scope><name>set_data_size</name></member>
+      <member refid="classbittensor_1_1__dataset_1_1dataset__impl_1_1_genesis_text_dataset_1ac57d432cdd0ca00255f87dacae40a2b1" prot="public" virt="non-virtual"><scope>bittensor::_dataset::dataset_impl::GenesisTextDataset</scope><name>set_dataset_iterator</name></member>
+      <member refid="classbittensor_1_1__dataset_1_1dataset__impl_1_1_genesis_text_dataset_1ad5022474474c7a0928d85a422c35eb49" prot="public" virt="non-virtual"><scope>bittensor::_dataset::dataset_impl::GenesisTextDataset</scope><name>tokenizer</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

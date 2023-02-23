@@ -1,0 +1,220 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="classbittensor_1_1__prometheus_1_1prometheus" kind="class" language="Python" prot="public">
+    <compoundname>bittensor::_prometheus::prometheus</compoundname>
+    <innerclass refid="classbittensor_1_1__prometheus_1_1prometheus_1_1level" prot="public">bittensor::_prometheus::prometheus::level</innerclass>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classbittensor_1_1__prometheus_1_1prometheus_1a031e296d2ba3cd6ab13ddafa2716e137" prot="public" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int bittensor._prometheus.prometheus::port</definition>
+        <argsstring></argsstring>
+        <name>port</name>
+        <qualifiedname>bittensor._prometheus.prometheus.port</qualifiedname>
+        <initializer>=  None</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_prometheus/__init__.py" line="45" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_prometheus/__init__.py" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__prometheus_1_1prometheus_1a2878c027754256ad521be4ea014ac7ce" prot="public" static="yes" mutable="no">
+        <type>bool</type>
+        <definition>bool bittensor._prometheus.prometheus::started</definition>
+        <argsstring></argsstring>
+        <name>started</name>
+        <qualifiedname>bittensor._prometheus.prometheus.started</qualifiedname>
+        <initializer>=  False</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_prometheus/__init__.py" line="46" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_prometheus/__init__.py" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classbittensor_1_1__prometheus_1_1prometheus_1adcba4e2bd530a698f9f6ece9d976ac37" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._prometheus.prometheus.__new__</definition>
+        <argsstring>(cls, &apos;bittensor.config&apos; config=None, int port=None, Union[str, &quot;prometheus.level&quot;] level=None)</argsstring>
+        <name>__new__</name>
+        <qualifiedname>bittensor._prometheus.prometheus.__new__</qualifiedname>
+        <param>
+          <type>cls</type>
+          <defname>cls</defname>
+        </param>
+        <param>
+          <type>&apos;<ref refid="classbittensor_1_1__config_1_1config" kindref="compound">bittensor.config</ref>&apos;</type>
+          <declname>config</declname>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>port</declname>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type>Union</type>
+          <declname>level</declname>
+          <array>[str, &quot;prometheus.level&quot;]</array>
+          <defval>None</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Instantiates a global prometheus DB which can be accessed by other processes.
+    Each prometheus DB is designated by a port.
+    Args:
+        config (:obj:`bittensor.Config`, `optional`, defaults to bittensor.prometheus.config()):
+            A config namespace object created by calling bittensor.prometheus.config()
+        port (:obj:`int`, `optional`, defaults to bittensor.defaults.prometheus.port ):
+            The port to run the prometheus DB on, this uniquely identifies the prometheus DB.
+        level (:obj:`prometheus.level`, `optional`, defaults to bittensor.defaults.prometheus.level ):
+            Prometheus logging level. If OFF, the prometheus DB is not initialized.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_prometheus/__init__.py" line="48" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_prometheus/__init__.py" bodystart="53" bodyend="85"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__prometheus_1_1prometheus_1a2019917f4ad8e595357a744dc20f1a66" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type> &apos;<ref refid="classbittensor_1_1__config_1_1config__impl_1_1_config" kindref="compound">bittensor.Config</ref>&apos;</type>
+        <definition> &apos;bittensor.Config&apos; bittensor._prometheus.prometheus.config</definition>
+        <argsstring>(cls)</argsstring>
+        <name>config</name>
+        <qualifiedname>bittensor._prometheus.prometheus.config</qualifiedname>
+        <param>
+          <type>cls</type>
+          <defname>cls</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Get config from the argument parser
+Return: bittensor.config object
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_prometheus/__init__.py" line="87" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_prometheus/__init__.py" bodystart="87" bodyend="94"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__prometheus_1_1prometheus_1a286bff6021a40130f3630271e1f645b9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._prometheus.prometheus.help</definition>
+        <argsstring>(cls)</argsstring>
+        <name>help</name>
+        <qualifiedname>bittensor._prometheus.prometheus.help</qualifiedname>
+        <param>
+          <type>cls</type>
+          <defname>cls</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Print help to stdout
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_prometheus/__init__.py" line="96" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_prometheus/__init__.py" bodystart="96" bodyend="103"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__prometheus_1_1prometheus_1a2bcb633847d166730ec18afb875bec15" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._prometheus.prometheus.add_args</definition>
+        <argsstring>(cls, argparse.ArgumentParser parser, str prefix=None)</argsstring>
+        <name>add_args</name>
+        <qualifiedname>bittensor._prometheus.prometheus.add_args</qualifiedname>
+        <param>
+          <type>cls</type>
+          <defname>cls</defname>
+        </param>
+        <param>
+          <type>argparse.ArgumentParser</type>
+          <declname>parser</declname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>prefix</declname>
+          <defval>None</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Accept specific arguments from parser
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_prometheus/__init__.py" line="105" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_prometheus/__init__.py" bodystart="105" bodyend="121"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__prometheus_1_1prometheus_1acc359cfd8180659672a331f2924f17e2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._prometheus.prometheus.add_defaults</definition>
+        <argsstring>(cls, defaults)</argsstring>
+        <name>add_defaults</name>
+        <qualifiedname>bittensor._prometheus.prometheus.add_defaults</qualifiedname>
+        <param>
+          <type>cls</type>
+          <defname>cls</defname>
+        </param>
+        <param>
+          <type>defaults</type>
+          <defname>defaults</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Adds parser defaults to object from enviroment variables.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_prometheus/__init__.py" line="123" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_prometheus/__init__.py" bodystart="123" bodyend="130"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__prometheus_1_1prometheus_1ad818bb9d6b027538cd1a4ca5b2b617b3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._prometheus.prometheus.check_config</definition>
+        <argsstring>(cls, &apos;bittensor.Config&apos; config)</argsstring>
+        <name>check_config</name>
+        <qualifiedname>bittensor._prometheus.prometheus.check_config</qualifiedname>
+        <param>
+          <type>cls</type>
+          <defname>cls</defname>
+        </param>
+        <param>
+          <type>&apos;<ref refid="classbittensor_1_1__config_1_1config__impl_1_1_config" kindref="compound">bittensor.Config</ref>&apos;</type>
+          <declname>config</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Check config for wallet name/hotkey/path/hotkeys/sort_by
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_prometheus/__init__.py" line="132" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_prometheus/__init__.py" bodystart="132" bodyend="140"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim> Namespace for prometheus tooling.
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/Users/macthrasher/bittensor/bittensor/_prometheus/__init__.py" line="32" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_prometheus/__init__.py" bodystart="32" bodyend="140"/>
+    <listofallmembers>
+      <member refid="classbittensor_1_1__prometheus_1_1prometheus_1adcba4e2bd530a698f9f6ece9d976ac37" prot="public" virt="non-virtual"><scope>bittensor::_prometheus::prometheus</scope><name>__new__</name></member>
+      <member refid="classbittensor_1_1__prometheus_1_1prometheus_1a2bcb633847d166730ec18afb875bec15" prot="public" virt="non-virtual"><scope>bittensor::_prometheus::prometheus</scope><name>add_args</name></member>
+      <member refid="classbittensor_1_1__prometheus_1_1prometheus_1acc359cfd8180659672a331f2924f17e2" prot="public" virt="non-virtual"><scope>bittensor::_prometheus::prometheus</scope><name>add_defaults</name></member>
+      <member refid="classbittensor_1_1__prometheus_1_1prometheus_1ad818bb9d6b027538cd1a4ca5b2b617b3" prot="public" virt="non-virtual"><scope>bittensor::_prometheus::prometheus</scope><name>check_config</name></member>
+      <member refid="classbittensor_1_1__prometheus_1_1prometheus_1a2019917f4ad8e595357a744dc20f1a66" prot="public" virt="non-virtual"><scope>bittensor::_prometheus::prometheus</scope><name>config</name></member>
+      <member refid="classbittensor_1_1__prometheus_1_1prometheus_1a286bff6021a40130f3630271e1f645b9" prot="public" virt="non-virtual"><scope>bittensor::_prometheus::prometheus</scope><name>help</name></member>
+      <member refid="classbittensor_1_1__prometheus_1_1prometheus_1a031e296d2ba3cd6ab13ddafa2716e137" prot="public" virt="non-virtual"><scope>bittensor::_prometheus::prometheus</scope><name>port</name></member>
+      <member refid="classbittensor_1_1__prometheus_1_1prometheus_1a2878c027754256ad521be4ea014ac7ce" prot="public" virt="non-virtual"><scope>bittensor::_prometheus::prometheus</scope><name>started</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

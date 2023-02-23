@@ -1,0 +1,267 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="classbittensor_1_1__neuron_1_1text_1_1core__server_1_1neuron" kind="class" language="Python" prot="public">
+    <compoundname>bittensor::_neuron::text::core_server::neuron</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classbittensor_1_1__neuron_1_1text_1_1core__server_1_1neuron_1aa84bae83c21bb0a80a5dca9e92740b70" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._neuron.text.core_server.neuron::model</definition>
+        <argsstring></argsstring>
+        <name>model</name>
+        <qualifiedname>bittensor._neuron.text.core_server.neuron.model</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_server/__init__.py" line="115" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_server/__init__.py" bodystart="115" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__neuron_1_1text_1_1core__server_1_1neuron_1a513f0b8c8976b3f837f086c06278a50f" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._neuron.text.core_server.neuron::config</definition>
+        <argsstring></argsstring>
+        <name>config</name>
+        <qualifiedname>bittensor._neuron.text.core_server.neuron.config</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_server/__init__.py" line="116" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_server/__init__.py" bodystart="116" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__neuron_1_1text_1_1core__server_1_1neuron_1a48bc9078ae6f662bae12a73b0c4077c3" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._neuron.text.core_server.neuron::subtensor</definition>
+        <argsstring></argsstring>
+        <name>subtensor</name>
+        <qualifiedname>bittensor._neuron.text.core_server.neuron.subtensor</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_server/__init__.py" line="119" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_server/__init__.py" bodystart="119" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__neuron_1_1text_1_1core__server_1_1neuron_1ab96f91732e8dc83da59f7c7ce1bcee39" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._neuron.text.core_server.neuron::wallet</definition>
+        <argsstring></argsstring>
+        <name>wallet</name>
+        <qualifiedname>bittensor._neuron.text.core_server.neuron.wallet</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_server/__init__.py" line="120" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_server/__init__.py" bodystart="120" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__neuron_1_1text_1_1core__server_1_1neuron_1a372117732aab18251a779882f60138a0" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._neuron.text.core_server.neuron::axon</definition>
+        <argsstring></argsstring>
+        <name>axon</name>
+        <qualifiedname>bittensor._neuron.text.core_server.neuron.axon</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_server/__init__.py" line="121" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_server/__init__.py" bodystart="121" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__neuron_1_1text_1_1core__server_1_1neuron_1a3eb8b29ff2bb557cbdbe128b2e07de22" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._neuron.text.core_server.neuron::metagraph</definition>
+        <argsstring></argsstring>
+        <name>metagraph</name>
+        <qualifiedname>bittensor._neuron.text.core_server.neuron.metagraph</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_server/__init__.py" line="122" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_server/__init__.py" bodystart="122" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classbittensor_1_1__neuron_1_1text_1_1core__server_1_1neuron_1a48b71b7fa30477420f27118e1f3539f8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._neuron.text.core_server.neuron.__init__</definition>
+        <argsstring>(self, &apos;bittensor.config&apos; config=None, &apos;bittensor.subtensor&apos; subtensor=None, &apos;bittensor.wallet&apos; wallet=None, &apos;bittensor.axon&apos; axon=None, &apos;bittensor.metagraph&apos; metagraph=None, lasthidden=None, causallm=None, causallmnext=None, seq2seq=None, synapse_list=None)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>bittensor._neuron.text.core_server.neuron.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>&apos;<ref refid="classbittensor_1_1__config_1_1config" kindref="compound">bittensor.config</ref>&apos;</type>
+          <declname>config</declname>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type>&apos;<ref refid="classbittensor_1_1__subtensor_1_1subtensor" kindref="compound">bittensor.subtensor</ref>&apos;</type>
+          <declname>subtensor</declname>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type>&apos;<ref refid="classbittensor_1_1__wallet_1_1wallet" kindref="compound">bittensor.wallet</ref>&apos;</type>
+          <declname>wallet</declname>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type>&apos;<ref refid="classbittensor_1_1__axon_1_1axon" kindref="compound">bittensor.axon</ref>&apos;</type>
+          <declname>axon</declname>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type>&apos;<ref refid="classbittensor_1_1__metagraph_1_1metagraph" kindref="compound">bittensor.metagraph</ref>&apos;</type>
+          <declname>metagraph</declname>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type>lasthidden</type>
+          <defname>lasthidden</defname>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type>causallm</type>
+          <defname>causallm</defname>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type>causallmnext</type>
+          <defname>causallmnext</defname>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type>seq2seq</type>
+          <defname>seq2seq</defname>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type>synapse_list</type>
+          <defname>synapse_list</defname>
+          <defval>None</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_server/__init__.py" line="64" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_server/__init__.py" bodystart="76" bodyend="123"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__neuron_1_1text_1_1core__server_1_1neuron_1a95eb123a17da87cef847b93c59a503df" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._neuron.text.core_server.neuron.run</definition>
+        <argsstring>(self)</argsstring>
+        <name>run</name>
+        <qualifiedname>bittensor._neuron.text.core_server.neuron.run</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_server/__init__.py" line="124" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_server/__init__.py" bodystart="124" bodyend="134"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__neuron_1_1text_1_1core__server_1_1neuron_1a7985f826a92b684c0efc65b148ea1ae1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._neuron.text.core_server.neuron.config</definition>
+        <argsstring>(cls)</argsstring>
+        <name>config</name>
+        <qualifiedname>bittensor._neuron.text.core_server.neuron.config</qualifiedname>
+        <param>
+          <type>cls</type>
+          <defname>cls</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_server/__init__.py" line="136" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_server/__init__.py" bodystart="136" bodyend="138"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classbittensor_1_1__neuron_1_1text_1_1core__server_1_1neuron_1a47adc740cc0694ef9448884aaafc4805" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._neuron.text.core_server.neuron.check_config</definition>
+        <argsstring>(&apos;bittensor.Config&apos; config)</argsstring>
+        <name>check_config</name>
+        <qualifiedname>bittensor._neuron.text.core_server.neuron.check_config</qualifiedname>
+        <param>
+          <type>&apos;<ref refid="classbittensor_1_1__config_1_1config__impl_1_1_config" kindref="compound">bittensor.Config</ref>&apos;</type>
+          <declname>config</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Checks/validates the config namespace object.</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_server/__init__.py" line="140" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_server/__init__.py" bodystart="140" bodyend="155"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Creates a bittensor neuron that specializes in the serving. The template server miner
+serves a NLP model from huggingface on the bittensor network. By default, the model does 
+not train itself and thus requires less memory to run. 
+
+Args: 
+        config (:obj:`bittensor.Config`, `optional`): 
+            bittensor.server.config()
+        subtensor (:obj:bittensor.subtensor , `optional`):
+            bittensor subtensor connection
+        wallet (:obj:bittensor.wallet, `optional`):
+            bittensor wallet object
+        axon (:obj:bittensor.axon, `optional`):
+            bittensor axon object
+        metagraph (:obj:bittensor.metagraph, `optional`):
+            bittensor metagraph object
+        lasthidden (:obj:bool, `optional`):
+            lasthidden synapse control
+        causallm (:obj:bool, `optional`):
+            causallm synapse control
+        causallmnext (:obj:bool, `optional`):
+            causallmnext synapse control
+        seq2seq (:obj:bittensor.metagraph, `optional`):
+            seq2seq synapse control
+        synapse_list (:obj:list of int, `optional`):
+            
+
+Examples:: 
+        &gt;&gt;&gt; subtensor = bittensor.subtensor(network=&apos;nakamoto&apos;)
+        &gt;&gt;&gt; server = bittensor.neuron.text.core_server.neuron(subtensor=subtensor)
+        &gt;&gt;&gt; server.run()
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_server/__init__.py" line="31" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_server/__init__.py" bodystart="31" bodyend="155"/>
+    <listofallmembers>
+      <member refid="classbittensor_1_1__neuron_1_1text_1_1core__server_1_1neuron_1a48b71b7fa30477420f27118e1f3539f8" prot="public" virt="non-virtual"><scope>bittensor::_neuron::text::core_server::neuron</scope><name>__init__</name></member>
+      <member refid="classbittensor_1_1__neuron_1_1text_1_1core__server_1_1neuron_1a372117732aab18251a779882f60138a0" prot="public" virt="non-virtual"><scope>bittensor::_neuron::text::core_server::neuron</scope><name>axon</name></member>
+      <member refid="classbittensor_1_1__neuron_1_1text_1_1core__server_1_1neuron_1a47adc740cc0694ef9448884aaafc4805" prot="public" virt="non-virtual"><scope>bittensor::_neuron::text::core_server::neuron</scope><name>check_config</name></member>
+      <member refid="classbittensor_1_1__neuron_1_1text_1_1core__server_1_1neuron_1a513f0b8c8976b3f837f086c06278a50f" prot="public" virt="non-virtual"><scope>bittensor::_neuron::text::core_server::neuron</scope><name>config</name></member>
+      <member refid="classbittensor_1_1__neuron_1_1text_1_1core__server_1_1neuron_1a7985f826a92b684c0efc65b148ea1ae1" prot="public" virt="non-virtual"><scope>bittensor::_neuron::text::core_server::neuron</scope><name>config</name></member>
+      <member refid="classbittensor_1_1__neuron_1_1text_1_1core__server_1_1neuron_1a3eb8b29ff2bb557cbdbe128b2e07de22" prot="public" virt="non-virtual"><scope>bittensor::_neuron::text::core_server::neuron</scope><name>metagraph</name></member>
+      <member refid="classbittensor_1_1__neuron_1_1text_1_1core__server_1_1neuron_1aa84bae83c21bb0a80a5dca9e92740b70" prot="public" virt="non-virtual"><scope>bittensor::_neuron::text::core_server::neuron</scope><name>model</name></member>
+      <member refid="classbittensor_1_1__neuron_1_1text_1_1core__server_1_1neuron_1a95eb123a17da87cef847b93c59a503df" prot="public" virt="non-virtual"><scope>bittensor::_neuron::text::core_server::neuron</scope><name>run</name></member>
+      <member refid="classbittensor_1_1__neuron_1_1text_1_1core__server_1_1neuron_1a48bc9078ae6f662bae12a73b0c4077c3" prot="public" virt="non-virtual"><scope>bittensor::_neuron::text::core_server::neuron</scope><name>subtensor</name></member>
+      <member refid="classbittensor_1_1__neuron_1_1text_1_1core__server_1_1neuron_1ab96f91732e8dc83da59f7c7ce1bcee39" prot="public" virt="non-virtual"><scope>bittensor::_neuron::text::core_server::neuron</scope><name>wallet</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

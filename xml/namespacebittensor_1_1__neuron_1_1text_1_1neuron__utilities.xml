@@ -1,0 +1,249 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="namespacebittensor_1_1__neuron_1_1text_1_1neuron__utilities" kind="namespace" language="Python">
+    <compoundname>bittensor::_neuron::text::neuron_utilities</compoundname>
+    <innerclass refid="classbittensor_1_1__neuron_1_1text_1_1neuron__utilities_1_1_positional_encoding" prot="public">bittensor::_neuron::text::neuron_utilities::PositionalEncoding</innerclass>
+    <innerclass refid="classbittensor_1_1__neuron_1_1text_1_1neuron__utilities_1_1_thread_queue" prot="public">bittensor::_neuron::text::neuron_utilities::ThreadQueue</innerclass>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="neuron__utilities_8py_1a71af6209babb96c64cc46cfcc7437bee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._neuron.text.neuron_utilities.calc_loss_fct</definition>
+        <argsstring>(loss_fct, logits, labels)</argsstring>
+        <name>calc_loss_fct</name>
+        <qualifiedname>bittensor._neuron.text.neuron_utilities.calc_loss_fct</qualifiedname>
+        <param>
+          <type>loss_fct</type>
+          <defname>loss_fct</defname>
+        </param>
+        <param>
+          <type>logits</type>
+          <defname>logits</defname>
+        </param>
+        <param>
+          <type>labels</type>
+          <defname>labels</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Calculates self.loss_fct with logits and labels that are expected to be aligned already.</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_neuron/text/neuron_utilities.py" line="16" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_neuron/text/neuron_utilities.py" bodystart="16" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="neuron__utilities_8py_1ac3fecf1fe9a99e24a9d277cf66e12c59" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._neuron.text.neuron_utilities.update_metagraph_peerweight</definition>
+        <argsstring>(metagraph, nucleus, device)</argsstring>
+        <name>update_metagraph_peerweight</name>
+        <qualifiedname>bittensor._neuron.text.neuron_utilities.update_metagraph_peerweight</qualifiedname>
+        <param>
+          <type><ref refid="classbittensor_1_1__metagraph_1_1metagraph" kindref="compound">metagraph</ref></type>
+          <defname>metagraph</defname>
+        </param>
+        <param>
+          <type>nucleus</type>
+          <defname>nucleus</defname>
+        </param>
+        <param>
+          <type>device</type>
+          <defname>device</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>    Check for the change in hotkey before and after metagraph sync, 
+    update the peer_weight of nucleus accordingingly.
+        Args:
+            metagraph (:obj:`bittensor.metagraph`, `required`):
+                The metagraph to sync.
+            nucleus (:obj:`bittensor.neuron.text.nucleus`, `required`):
+                The nn.Module class that needs the peerweight to be updated.
+            device (:type:`torch.device`)
+                The device where peer_weight should be stored. </verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_neuron/text/neuron_utilities.py" line="25" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_neuron/text/neuron_utilities.py" bodystart="25" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="neuron__utilities_8py_1a58c211fb801b746f4469701eb6eaddc3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._neuron.text.neuron_utilities.jacobian</definition>
+        <argsstring>(y, x, create_graph=False, hessian=False)</argsstring>
+        <name>jacobian</name>
+        <qualifiedname>bittensor._neuron.text.neuron_utilities.jacobian</qualifiedname>
+        <param>
+          <type>y</type>
+          <defname>y</defname>
+        </param>
+        <param>
+          <type>x</type>
+          <defname>x</defname>
+        </param>
+        <param>
+          <type>create_graph</type>
+          <defname>create_graph</defname>
+          <defval>False</defval>
+        </param>
+        <param>
+          <type>hessian</type>
+          <defname>hessian</defname>
+          <defval>False</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Calulates the Jacobian from the inputs; adapted from : https://gist.github.com/apaszke/226abdf867c4e9d6698bd198f3b45fb7
+    Args:
+        y  (:type:`pytorch.FloatTensor`, `required`):
+            The loss function
+        x  (:type:`pytorch.FloatTensor`, `required`):
+            The parameters to differentiate loss by
+        create_graph  (:type:`bool`, `optional`):
+            If we should pass parameter to grad function
+        hessian (:type:`bool`, `optional`):
+            turn on if the calculation is for a hessian instead of jacobian
+
+    Returns:
+        jacobian (:type:`pytorch.FloatTensor``, `required):
+            The jacobian matrix which contains the partial differentials </verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_neuron/text/neuron_utilities.py" line="49" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_neuron/text/neuron_utilities.py" bodystart="49" bodyend="85"/>
+      </memberdef>
+      <memberdef kind="function" id="neuron__utilities_8py_1a580167b80683a83b551547658e49466c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._neuron.text.neuron_utilities.fisher_score_approximation</definition>
+        <argsstring>(loss, peer_weights)</argsstring>
+        <name>fisher_score_approximation</name>
+        <qualifiedname>bittensor._neuron.text.neuron_utilities.fisher_score_approximation</qualifiedname>
+        <param>
+          <type>loss</type>
+          <defname>loss</defname>
+        </param>
+        <param>
+          <type>peer_weights</type>
+          <defname>peer_weights</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Uses the jacobian function to approximate the saliency scores, currently not used
+
+    Args:
+        loss  (:type:`pytorch.Loss`, `required`):
+            The remote target loss 
+        peer_weights  (:type:`pytorch.FloatTensor`, `required`):
+            The peer weights which was used to calculate the loss
+
+    Returns:
+        validator_scores (:type:`pytorch.FloatTensor``, `required):
+            A saliency score that approximates the fisher information of each peer</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_neuron/text/neuron_utilities.py" line="86" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_neuron/text/neuron_utilities.py" bodystart="86" bodyend="109"/>
+      </memberdef>
+      <memberdef kind="function" id="neuron__utilities_8py_1a241c5581ff7794ab19d861d1a27759c2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._neuron.text.neuron_utilities.joining_context</definition>
+        <argsstring>(return_ops, topk_weights, responses, synapses)</argsstring>
+        <name>joining_context</name>
+        <qualifiedname>bittensor._neuron.text.neuron_utilities.joining_context</qualifiedname>
+        <param>
+          <type>return_ops</type>
+          <defname>return_ops</defname>
+        </param>
+        <param>
+          <type>topk_weights</type>
+          <defname>topk_weights</defname>
+        </param>
+        <param>
+          <type>responses</type>
+          <defname>responses</defname>
+        </param>
+        <param>
+          <type>synapses</type>
+          <defname>synapses</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Joins response embbedings depending on the return codes 
+    Args:
+        return_ops  (:type:`pytorch.LongTensor`, `required`), shape = [n]:
+            The return codes of dendrite call return ops.
+        topk_weights  (:type:`pytorch.FloatTensor`, `required`), shape = [n]:
+            The topk weights selected for joining
+        responses  (:type:`pytorch.FloatTensor`, `required`), shape = [n]:
+            The embeddings that sent by the peers
+
+    Returns:
+        output (:type:`pytorch.FloatTensor``, `required), shape = [n]:
+            The joinned output embedding using the weights
+        joining_uids  (:type:`pytorch.LongTensor`, `required`), shape = [n]:
+            The uids used to create output</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_neuron/text/neuron_utilities.py" line="110" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_neuron/text/neuron_utilities.py" bodystart="110" bodyend="142"/>
+      </memberdef>
+      <memberdef kind="function" id="neuron__utilities_8py_1a55d54a5c879af8998d5a94af50343478" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._neuron.text.neuron_utilities.partial_contexts</definition>
+        <argsstring>(return_ops, topk_uids, topk_weights, responses, synapses)</argsstring>
+        <name>partial_contexts</name>
+        <qualifiedname>bittensor._neuron.text.neuron_utilities.partial_contexts</qualifiedname>
+        <param>
+          <type>return_ops</type>
+          <defname>return_ops</defname>
+        </param>
+        <param>
+          <type>topk_uids</type>
+          <defname>topk_uids</defname>
+        </param>
+        <param>
+          <type>topk_weights</type>
+          <defname>topk_weights</defname>
+        </param>
+        <param>
+          <type>responses</type>
+          <defname>responses</defname>
+        </param>
+        <param>
+          <type>synapses</type>
+          <defname>synapses</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Creates the partial contexts which are used to calculate the shapley scores 
+
+    Args:
+        return_ops  (:type:`pytorch.LongTensor`, `required`), shape = [n]:
+            The return codes of dendrite call return ops.
+        topk_uids (:type:`pytorch.LongTensor`, `required`), shape = [n]:
+            The topk uids selected for joining                
+        topk_weights  (:type:`pytorch.FloatTensor`, `required`), shape = [n]:
+            The topk weights selected for joining
+        responses  (:type:`pytorch.FloatTensor`, `required`), shape = [n]:
+            The embeddings that sent by the peers
+
+    Returns:
+        partial_context (:type:`Dictionary``, `required):
+            A dict containing all of joinned contexts with a single peer masked out </verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_neuron/text/neuron_utilities.py" line="143" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_neuron/text/neuron_utilities.py" bodystart="143" bodyend="172"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/macthrasher/bittensor/bittensor/_neuron/text/neuron_utilities.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

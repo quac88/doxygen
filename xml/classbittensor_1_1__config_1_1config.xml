@@ -1,0 +1,125 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="classbittensor_1_1__config_1_1config" kind="class" language="Python" prot="public">
+    <compoundname>bittensor::_config::config</compoundname>
+    <innerclass refid="classbittensor_1_1__config_1_1config_1_1_invalid_config_file" prot="public">bittensor::_config::config::InvalidConfigFile</innerclass>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classbittensor_1_1__config_1_1config_1a26c0033b7f03b9d0c66db555aeadfc8c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._config.config.__new__</definition>
+        <argsstring>(cls, ArgumentParser parser=None, bool strict=False, Optional[List[str]] args=None)</argsstring>
+        <name>__new__</name>
+        <qualifiedname>bittensor._config.config.__new__</qualifiedname>
+        <param>
+          <type>cls</type>
+          <defname>cls</defname>
+        </param>
+        <param>
+          <type>ArgumentParser</type>
+          <declname>parser</declname>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>strict</declname>
+          <defval>False</defval>
+        </param>
+        <param>
+          <type>Optional]</type>
+          <declname>args</declname>
+          <array>[List[str]</array>
+          <defval>None</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Translates the passed parser into a nested Bittensor config.
+    Args:
+        parser (argparse.Parser):
+            Command line parser object.
+        strict (bool):
+            If true, the command line arguments are strictly parsed.
+        args (list of str):
+            Command line arguments.
+    Returns:
+        config (bittensor.Config):
+            Nested config object created from parser arguments.</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_config/__init__.py" line="43" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_config/__init__.py" bodystart="43" bodyend="119"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classbittensor_1_1__config_1_1config_1aaad4bc34ce0abaa1f51517f30d32807c" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Namespace</type>
+        <definition> Namespace bittensor._config.config.__parse_args__</definition>
+        <argsstring>(List[str] args, ArgumentParser parser=None, bool strict=False)</argsstring>
+        <name>__parse_args__</name>
+        <qualifiedname>bittensor._config.config.__parse_args__</qualifiedname>
+        <param>
+          <type>List</type>
+          <declname>args</declname>
+          <array>[str]</array>
+        </param>
+        <param>
+          <type>ArgumentParser</type>
+          <declname>parser</declname>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>strict</declname>
+          <defval>False</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Parses the passed args use the passed parser.
+Args:
+    args (List[str]):
+        List of arguments to parse.
+    parser (argparse.ArgumentParser):
+        Command line parser object.
+    strict (bool):
+        If true, the command line arguments are strictly parsed.
+Returns:
+    Namespace:
+        Namespace object created from parser arguments.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_config/__init__.py" line="121" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_config/__init__.py" bodystart="121" bodyend="140"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__config_1_1config_1a7fe89b30c0cd736f3918cafbb96ff5a3" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._config.config.full</definition>
+        <argsstring>()</argsstring>
+        <name>full</name>
+        <qualifiedname>bittensor._config.config.full</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> From the parser, add arguments to multiple bittensor sub-modules
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_config/__init__.py" line="142" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_config/__init__.py" bodystart="142" bodyend="155"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Create and init the config class, which manages the config of different bittensor modules.
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/Users/macthrasher/bittensor/bittensor/_config/__init__.py" line="35" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_config/__init__.py" bodystart="35" bodyend="155"/>
+    <listofallmembers>
+      <member refid="classbittensor_1_1__config_1_1config_1a26c0033b7f03b9d0c66db555aeadfc8c" prot="public" virt="non-virtual"><scope>bittensor::_config::config</scope><name>__new__</name></member>
+      <member refid="classbittensor_1_1__config_1_1config_1aaad4bc34ce0abaa1f51517f30d32807c" prot="public" virt="non-virtual"><scope>bittensor::_config::config</scope><name>__parse_args__</name></member>
+      <member refid="classbittensor_1_1__config_1_1config_1a7fe89b30c0cd736f3918cafbb96ff5a3" prot="public" virt="non-virtual"><scope>bittensor::_config::config</scope><name>full</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

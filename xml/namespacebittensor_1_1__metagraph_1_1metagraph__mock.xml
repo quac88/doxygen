@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="namespacebittensor_1_1__metagraph_1_1metagraph__mock" kind="namespace" language="Python">
+    <compoundname>bittensor::_metagraph::metagraph_mock</compoundname>
+    <innerclass refid="classbittensor_1_1__metagraph_1_1metagraph__mock_1_1_mock_metagraph" prot="public">bittensor::_metagraph::metagraph_mock::MockMetagraph</innerclass>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="namespacebittensor_1_1__metagraph_1_1metagraph__mock_1aca8673e27366e30367c47406f6f3914a" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int bittensor::_metagraph::metagraph_mock.RAOPERTAO</definition>
+        <argsstring></argsstring>
+        <name>RAOPERTAO</name>
+        <qualifiedname>bittensor._metagraph.metagraph_mock.RAOPERTAO</qualifiedname>
+        <initializer>=  1000000000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_metagraph/metagraph_mock.py" line="32" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_metagraph/metagraph_mock.py" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacebittensor_1_1__metagraph_1_1metagraph__mock_1a0da9905f93be9903b9e21228d7557320" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int bittensor::_metagraph::metagraph_mock.U64MAX</definition>
+        <argsstring></argsstring>
+        <name>U64MAX</name>
+        <qualifiedname>bittensor._metagraph.metagraph_mock.U64MAX</qualifiedname>
+        <initializer>=  18446744073709551615</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_metagraph/metagraph_mock.py" line="33" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_metagraph/metagraph_mock.py" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim> Maintains mocked chain state as a torch.nn.Module.
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/Users/macthrasher/bittensor/bittensor/_metagraph/metagraph_mock.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

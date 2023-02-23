@@ -1,0 +1,412 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_mock_keyfile" kind="class" language="Python" prot="public">
+    <compoundname>bittensor::_keyfile::keyfile_impl::MockKeyfile</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">object</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_mock_keyfile_1a98e092939c3b07120787a3c32160c716" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._keyfile.keyfile_impl.MockKeyfile::path</definition>
+        <argsstring></argsstring>
+        <name>path</name>
+        <qualifiedname>bittensor._keyfile.keyfile_impl.MockKeyfile.path</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_keyfile/keyfile_impl.py" line="486" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_keyfile/keyfile_impl.py" bodystart="486" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_mock_keyfile_1a308d5a0e644b42ddc352721c877d2d0e" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._keyfile.keyfile_impl.MockKeyfile::_mock_keypair</definition>
+        <argsstring></argsstring>
+        <name>_mock_keypair</name>
+        <qualifiedname>bittensor._keyfile.keyfile_impl.MockKeyfile._mock_keypair</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_keyfile/keyfile_impl.py" line="487" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_keyfile/keyfile_impl.py" bodystart="487" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_mock_keyfile_1af9e11d8c02ab01991215df4f9a5d2bf6" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._keyfile.keyfile_impl.MockKeyfile::_mock_data</definition>
+        <argsstring></argsstring>
+        <name>_mock_data</name>
+        <qualifiedname>bittensor._keyfile.keyfile_impl.MockKeyfile._mock_data</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_keyfile/keyfile_impl.py" line="488" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_keyfile/keyfile_impl.py" bodystart="488" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_mock_keyfile_1a8c9074102c19e2aadf471c0b9c8775e8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._keyfile.keyfile_impl.MockKeyfile.__init__</definition>
+        <argsstring>(self, str path)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>bittensor._keyfile.keyfile_impl.MockKeyfile.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_keyfile/keyfile_impl.py" line="485" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_keyfile/keyfile_impl.py" bodystart="485" bodyend="489"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_mock_keyfile_1aeff5e38361e63c4e4d946a1badc1e784" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._keyfile.keyfile_impl.MockKeyfile.__str__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__str__</name>
+        <qualifiedname>bittensor._keyfile.keyfile_impl.MockKeyfile.__str__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_keyfile/keyfile_impl.py" line="490" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_keyfile/keyfile_impl.py" bodystart="490" bodyend="497"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_mock_keyfile_1affa2cfa5979a7f40fba2039e150327da" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._keyfile.keyfile_impl.MockKeyfile.__repr__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__repr__</name>
+        <qualifiedname>bittensor._keyfile.keyfile_impl.MockKeyfile.__repr__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_keyfile/keyfile_impl.py" line="498" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_keyfile/keyfile_impl.py" bodystart="498" bodyend="500"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_mock_keyfile_1acb1311f8daa854b3d836a3b9e0028025" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type> &apos;bittensor.Keypair&apos;</type>
+        <definition> &apos;bittensor.Keypair&apos; bittensor._keyfile.keyfile_impl.MockKeyfile.keypair</definition>
+        <argsstring>(self)</argsstring>
+        <name>keypair</name>
+        <qualifiedname>bittensor._keyfile.keyfile_impl.MockKeyfile.keypair</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_keyfile/keyfile_impl.py" line="502" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_keyfile/keyfile_impl.py" bodystart="502" bodyend="504"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_mock_keyfile_1a287fd97ad94e6ca7a7692b5352390a17" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bytes</type>
+        <definition> bytes bittensor._keyfile.keyfile_impl.MockKeyfile.data</definition>
+        <argsstring>(self)</argsstring>
+        <name>data</name>
+        <qualifiedname>bittensor._keyfile.keyfile_impl.MockKeyfile.data</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_keyfile/keyfile_impl.py" line="506" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_keyfile/keyfile_impl.py" bodystart="506" bodyend="508"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_mock_keyfile_1a9e719914caaa1865551359792fc144df" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bytes</type>
+        <definition> bytes bittensor._keyfile.keyfile_impl.MockKeyfile.keyfile_data</definition>
+        <argsstring>(self)</argsstring>
+        <name>keyfile_data</name>
+        <qualifiedname>bittensor._keyfile.keyfile_impl.MockKeyfile.keyfile_data</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_keyfile/keyfile_impl.py" line="510" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_keyfile/keyfile_impl.py" bodystart="510" bodyend="512"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_mock_keyfile_1a1a5fe334c4a36ee3f2b20ca8c169aeec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._keyfile.keyfile_impl.MockKeyfile.set_keypair</definition>
+        <argsstring>(self, &apos;bittensor.Keypair&apos; keypair, bool encrypt=True, bool overwrite=False, str password=None)</argsstring>
+        <name>set_keypair</name>
+        <qualifiedname>bittensor._keyfile.keyfile_impl.MockKeyfile.set_keypair</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>&apos;bittensor.Keypair&apos;</type>
+          <declname>keypair</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>encrypt</declname>
+          <defval>True</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>overwrite</declname>
+          <defval>False</defval>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>password</declname>
+          <defval>None</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_keyfile/keyfile_impl.py" line="513" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_keyfile/keyfile_impl.py" bodystart="513" bodyend="516"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_mock_keyfile_1ad56e0e354f8e31dd537856c163ba7002" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type> &apos;bittensor.Keypair&apos;</type>
+        <definition> &apos;bittensor.Keypair&apos; bittensor._keyfile.keyfile_impl.MockKeyfile.get_keypair</definition>
+        <argsstring>(self, str password=None)</argsstring>
+        <name>get_keypair</name>
+        <qualifiedname>bittensor._keyfile.keyfile_impl.MockKeyfile.get_keypair</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>password</declname>
+          <defval>None</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_keyfile/keyfile_impl.py" line="517" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_keyfile/keyfile_impl.py" bodystart="517" bodyend="519"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_mock_keyfile_1a3407db0aad0df4442bf418fa5f1ddb7d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._keyfile.keyfile_impl.MockKeyfile.make_dirs</definition>
+        <argsstring>(self)</argsstring>
+        <name>make_dirs</name>
+        <qualifiedname>bittensor._keyfile.keyfile_impl.MockKeyfile.make_dirs</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_keyfile/keyfile_impl.py" line="520" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_keyfile/keyfile_impl.py" bodystart="520" bodyend="522"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_mock_keyfile_1ad2c8658adce5f7ec145d0078a4c78b31" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool bittensor._keyfile.keyfile_impl.MockKeyfile.exists_on_device</definition>
+        <argsstring>(self)</argsstring>
+        <name>exists_on_device</name>
+        <qualifiedname>bittensor._keyfile.keyfile_impl.MockKeyfile.exists_on_device</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_keyfile/keyfile_impl.py" line="523" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_keyfile/keyfile_impl.py" bodystart="523" bodyend="525"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_mock_keyfile_1a366fa999c27a5f60845ae4ccdd412b5f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool bittensor._keyfile.keyfile_impl.MockKeyfile.is_readable</definition>
+        <argsstring>(self)</argsstring>
+        <name>is_readable</name>
+        <qualifiedname>bittensor._keyfile.keyfile_impl.MockKeyfile.is_readable</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_keyfile/keyfile_impl.py" line="526" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_keyfile/keyfile_impl.py" bodystart="526" bodyend="528"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_mock_keyfile_1add6289ef1be9e7555b363c2791a52cfb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool bittensor._keyfile.keyfile_impl.MockKeyfile.is_writable</definition>
+        <argsstring>(self)</argsstring>
+        <name>is_writable</name>
+        <qualifiedname>bittensor._keyfile.keyfile_impl.MockKeyfile.is_writable</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_keyfile/keyfile_impl.py" line="529" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_keyfile/keyfile_impl.py" bodystart="529" bodyend="531"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_mock_keyfile_1afbdc40d64d6864526ec9a90b25bdc963" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool bittensor._keyfile.keyfile_impl.MockKeyfile.is_encrypted</definition>
+        <argsstring>(self)</argsstring>
+        <name>is_encrypted</name>
+        <qualifiedname>bittensor._keyfile.keyfile_impl.MockKeyfile.is_encrypted</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_keyfile/keyfile_impl.py" line="532" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_keyfile/keyfile_impl.py" bodystart="532" bodyend="534"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_mock_keyfile_1a1c8b6ca3a51fdb610dab79784dd9c4e2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._keyfile.keyfile_impl.MockKeyfile.encrypt</definition>
+        <argsstring>(self, str password=None)</argsstring>
+        <name>encrypt</name>
+        <qualifiedname>bittensor._keyfile.keyfile_impl.MockKeyfile.encrypt</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>password</declname>
+          <defval>None</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_keyfile/keyfile_impl.py" line="535" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_keyfile/keyfile_impl.py" bodystart="535" bodyend="537"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_mock_keyfile_1a489d742b16e22d245d2f00f221caf48b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._keyfile.keyfile_impl.MockKeyfile.decrypt</definition>
+        <argsstring>(self, str password=None)</argsstring>
+        <name>decrypt</name>
+        <qualifiedname>bittensor._keyfile.keyfile_impl.MockKeyfile.decrypt</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>password</declname>
+          <defval>None</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_keyfile/keyfile_impl.py" line="538" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_keyfile/keyfile_impl.py" bodystart="538" bodyend="551"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim> Defines an interface to a mocked keyfile object (nothing is created on device) keypair is treated as non encrypted and the data is just the string version.
+</verbatim> </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>bittensor._keyfile.keyfile_impl.MockKeyfile</label>
+        <link refid="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_mock_keyfile"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>object</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>bittensor._keyfile.keyfile_impl.MockKeyfile</label>
+        <link refid="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_mock_keyfile"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>object</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/macthrasher/bittensor/bittensor/_keyfile/keyfile_impl.py" line="482" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_keyfile/keyfile_impl.py" bodystart="482" bodyend="551"/>
+    <listofallmembers>
+      <member refid="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_mock_keyfile_1a8c9074102c19e2aadf471c0b9c8775e8" prot="public" virt="non-virtual"><scope>bittensor::_keyfile::keyfile_impl::MockKeyfile</scope><name>__init__</name></member>
+      <member refid="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_mock_keyfile_1affa2cfa5979a7f40fba2039e150327da" prot="public" virt="non-virtual"><scope>bittensor::_keyfile::keyfile_impl::MockKeyfile</scope><name>__repr__</name></member>
+      <member refid="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_mock_keyfile_1aeff5e38361e63c4e4d946a1badc1e784" prot="public" virt="non-virtual"><scope>bittensor::_keyfile::keyfile_impl::MockKeyfile</scope><name>__str__</name></member>
+      <member refid="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_mock_keyfile_1af9e11d8c02ab01991215df4f9a5d2bf6" prot="protected" virt="non-virtual"><scope>bittensor::_keyfile::keyfile_impl::MockKeyfile</scope><name>_mock_data</name></member>
+      <member refid="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_mock_keyfile_1a308d5a0e644b42ddc352721c877d2d0e" prot="protected" virt="non-virtual"><scope>bittensor::_keyfile::keyfile_impl::MockKeyfile</scope><name>_mock_keypair</name></member>
+      <member refid="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_mock_keyfile_1a287fd97ad94e6ca7a7692b5352390a17" prot="public" virt="non-virtual"><scope>bittensor::_keyfile::keyfile_impl::MockKeyfile</scope><name>data</name></member>
+      <member refid="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_mock_keyfile_1a489d742b16e22d245d2f00f221caf48b" prot="public" virt="non-virtual"><scope>bittensor::_keyfile::keyfile_impl::MockKeyfile</scope><name>decrypt</name></member>
+      <member refid="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_mock_keyfile_1a1c8b6ca3a51fdb610dab79784dd9c4e2" prot="public" virt="non-virtual"><scope>bittensor::_keyfile::keyfile_impl::MockKeyfile</scope><name>encrypt</name></member>
+      <member refid="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_mock_keyfile_1ad2c8658adce5f7ec145d0078a4c78b31" prot="public" virt="non-virtual"><scope>bittensor::_keyfile::keyfile_impl::MockKeyfile</scope><name>exists_on_device</name></member>
+      <member refid="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_mock_keyfile_1ad56e0e354f8e31dd537856c163ba7002" prot="public" virt="non-virtual"><scope>bittensor::_keyfile::keyfile_impl::MockKeyfile</scope><name>get_keypair</name></member>
+      <member refid="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_mock_keyfile_1afbdc40d64d6864526ec9a90b25bdc963" prot="public" virt="non-virtual"><scope>bittensor::_keyfile::keyfile_impl::MockKeyfile</scope><name>is_encrypted</name></member>
+      <member refid="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_mock_keyfile_1a366fa999c27a5f60845ae4ccdd412b5f" prot="public" virt="non-virtual"><scope>bittensor::_keyfile::keyfile_impl::MockKeyfile</scope><name>is_readable</name></member>
+      <member refid="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_mock_keyfile_1add6289ef1be9e7555b363c2791a52cfb" prot="public" virt="non-virtual"><scope>bittensor::_keyfile::keyfile_impl::MockKeyfile</scope><name>is_writable</name></member>
+      <member refid="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_mock_keyfile_1a9e719914caaa1865551359792fc144df" prot="public" virt="non-virtual"><scope>bittensor::_keyfile::keyfile_impl::MockKeyfile</scope><name>keyfile_data</name></member>
+      <member refid="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_mock_keyfile_1acb1311f8daa854b3d836a3b9e0028025" prot="public" virt="non-virtual"><scope>bittensor::_keyfile::keyfile_impl::MockKeyfile</scope><name>keypair</name></member>
+      <member refid="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_mock_keyfile_1a3407db0aad0df4442bf418fa5f1ddb7d" prot="public" virt="non-virtual"><scope>bittensor::_keyfile::keyfile_impl::MockKeyfile</scope><name>make_dirs</name></member>
+      <member refid="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_mock_keyfile_1a98e092939c3b07120787a3c32160c716" prot="public" virt="non-virtual"><scope>bittensor::_keyfile::keyfile_impl::MockKeyfile</scope><name>path</name></member>
+      <member refid="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_mock_keyfile_1a1a5fe334c4a36ee3f2b20ca8c169aeec" prot="public" virt="non-virtual"><scope>bittensor::_keyfile::keyfile_impl::MockKeyfile</scope><name>set_keypair</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

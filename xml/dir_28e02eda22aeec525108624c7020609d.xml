@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="dir_28e02eda22aeec525108624c7020609d" kind="dir">
+    <compoundname>/Users/macthrasher/bittensor/bittensor/utils</compoundname>
+    <innerfile refid="utils_2____init_____8py">__init__.py</innerfile>
+    <innerfile refid="balance_8py">balance.py</innerfile>
+    <innerfile refid="codes_8py">codes.py</innerfile>
+    <innerfile refid="networking_8py">networking.py</innerfile>
+    <innerfile refid="register__cuda_8py">register_cuda.py</innerfile>
+    <innerfile refid="registration_8py">registration.py</innerfile>
+    <innerfile refid="stats_8py">stats.py</innerfile>
+    <innerfile refid="test__utils_8py">test_utils.py</innerfile>
+    <innerfile refid="tokenizer__utils_8py">tokenizer_utils.py</innerfile>
+    <innerfile refid="weight__utils_8py">weight_utils.py</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/macthrasher/bittensor/bittensor/utils/"/>
+  </compounddef>
+</doxygen>

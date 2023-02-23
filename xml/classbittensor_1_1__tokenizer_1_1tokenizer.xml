@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="classbittensor_1_1__tokenizer_1_1tokenizer" kind="class" language="Python" prot="public">
+    <compoundname>bittensor::_tokenizer::tokenizer</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classbittensor_1_1__tokenizer_1_1tokenizer_1ab44243dfbc69f3e581ead4afbeb3fbea" prot="public" static="yes" mutable="no">
+        <type>dict</type>
+        <definition>dict bittensor._tokenizer.tokenizer::cached_tokenizer_for_version</definition>
+        <argsstring></argsstring>
+        <name>cached_tokenizer_for_version</name>
+        <qualifiedname>bittensor._tokenizer.tokenizer.cached_tokenizer_for_version</qualifiedname>
+        <initializer>=  {}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_tokenizer/__init__.py" line="28" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_tokenizer/__init__.py" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classbittensor_1_1__tokenizer_1_1tokenizer_1accdf5580d35c71538d2f72fa3c51f1ae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._tokenizer.tokenizer.__new__</definition>
+        <argsstring>(cls, str version=None)</argsstring>
+        <name>__new__</name>
+        <qualifiedname>bittensor._tokenizer.tokenizer.__new__</qualifiedname>
+        <param>
+          <type>cls</type>
+          <defname>cls</defname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>version</declname>
+          <defval>None</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_tokenizer/__init__.py" line="30" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_tokenizer/__init__.py" bodystart="30" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__tokenizer_1_1tokenizer_1a76727fe2dc4f26d7d986aa2bd059da78" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._tokenizer.tokenizer.get_tokenizer_for_version</definition>
+        <argsstring>(cls, version=bittensor.__version__)</argsstring>
+        <name>get_tokenizer_for_version</name>
+        <qualifiedname>bittensor._tokenizer.tokenizer.get_tokenizer_for_version</qualifiedname>
+        <param>
+          <type>cls</type>
+          <defname>cls</defname>
+        </param>
+        <param>
+          <type>version</type>
+          <defname>version</defname>
+          <defval>bittensor.__version__</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Return the GPT2 tokenizer with bittersor&apos;s special tokens
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_tokenizer/__init__.py" line="45" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_tokenizer/__init__.py" bodystart="45" bodyend="51"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim> Implementation of the bittensor tokenizer
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/Users/macthrasher/bittensor/bittensor/_tokenizer/__init__.py" line="25" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_tokenizer/__init__.py" bodystart="25" bodyend="51"/>
+    <listofallmembers>
+      <member refid="classbittensor_1_1__tokenizer_1_1tokenizer_1accdf5580d35c71538d2f72fa3c51f1ae" prot="public" virt="non-virtual"><scope>bittensor::_tokenizer::tokenizer</scope><name>__new__</name></member>
+      <member refid="classbittensor_1_1__tokenizer_1_1tokenizer_1ab44243dfbc69f3e581ead4afbeb3fbea" prot="public" virt="non-virtual"><scope>bittensor::_tokenizer::tokenizer</scope><name>cached_tokenizer_for_version</name></member>
+      <member refid="classbittensor_1_1__tokenizer_1_1tokenizer_1a76727fe2dc4f26d7d986aa2bd059da78" prot="public" virt="non-virtual"><scope>bittensor::_tokenizer::tokenizer</scope><name>get_tokenizer_for_version</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

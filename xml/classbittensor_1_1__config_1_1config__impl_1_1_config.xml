@@ -1,0 +1,192 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="classbittensor_1_1__config_1_1config__impl_1_1_config" kind="class" language="Python" prot="public">
+    <compoundname>bittensor::_config::config_impl::Config</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Munch</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classbittensor_1_1__config_1_1config__impl_1_1_config_1a384aaa9cf8562f668585af71eb4b9c37" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._config.config_impl.Config.__init__</definition>
+        <argsstring>(self, loaded_config=None)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>bittensor._config.config_impl.Config.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>loaded_config</type>
+          <defname>loaded_config</defname>
+          <defval>None</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_config/config_impl.py" line="33" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_config/config_impl.py" bodystart="33" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__config_1_1config__impl_1_1_config_1a5a565d31408e8da6df2c40dfd4cc9c6e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str bittensor._config.config_impl.Config.__repr__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__repr__</name>
+        <qualifiedname>bittensor._config.config_impl.Config.__repr__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_config/config_impl.py" line="38" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_config/config_impl.py" bodystart="38" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__config_1_1config__impl_1_1_config_1a3f19213a28f44fd98df5a1e91ccf3bb9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str bittensor._config.config_impl.Config.__str__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__str__</name>
+        <qualifiedname>bittensor._config.config_impl.Config.__str__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_config/config_impl.py" line="41" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_config/config_impl.py" bodystart="41" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__config_1_1config__impl_1_1_config_1a4c6cf6a3dd221dcdf934258d2873aede" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str bittensor._config.config_impl.Config.to_string</definition>
+        <argsstring>(self, items)</argsstring>
+        <name>to_string</name>
+        <qualifiedname>bittensor._config.config_impl.Config.to_string</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>items</type>
+          <defname>items</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Get string from items
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_config/config_impl.py" line="44" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_config/config_impl.py" bodystart="44" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__config_1_1config__impl_1_1_config_1a4f74d09ba839dd9c08f7808f3d21371c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._config.config_impl.Config.update_with_kwargs</definition>
+        <argsstring>(self, kwargs)</argsstring>
+        <name>update_with_kwargs</name>
+        <qualifiedname>bittensor._config.config_impl.Config.update_with_kwargs</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>kwargs</type>
+          <defname>kwargs</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Add config to self
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_config/config_impl.py" line="49" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_config/config_impl.py" bodystart="49" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__config_1_1config__impl_1_1_config_1a7a4cc2a1eaf777eb42481ad97aaf25a7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._config.config_impl.Config.to_prometheus</definition>
+        <argsstring>(self)</argsstring>
+        <name>to_prometheus</name>
+        <qualifiedname>bittensor._config.config_impl.Config.to_prometheus</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>    Sends the config to the inprocess prometheus server if it exists.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_config/config_impl.py" line="55" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_config/config_impl.py" bodystart="55" bodyend="71"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__config_1_1config__impl_1_1_config_1a5f513062ac2e0fc5322b4f84d717083d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._config.config_impl.Config.to_defaults</definition>
+        <argsstring>(self)</argsstring>
+        <name>to_defaults</name>
+        <qualifiedname>bittensor._config.config_impl.Config.to_defaults</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_config/config_impl.py" line="72" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_config/config_impl.py" bodystart="72" bodyend="126"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Implementation of the config class, which manages the config of different bittensor modules.
+</verbatim> </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>bittensor._config.config_impl.Config</label>
+        <link refid="classbittensor_1_1__config_1_1config__impl_1_1_config"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Munch</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>bittensor._config.config_impl.Config</label>
+        <link refid="classbittensor_1_1__config_1_1config__impl_1_1_config"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Munch</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/macthrasher/bittensor/bittensor/_config/config_impl.py" line="29" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_config/config_impl.py" bodystart="29" bodyend="126"/>
+    <listofallmembers>
+      <member refid="classbittensor_1_1__config_1_1config__impl_1_1_config_1a384aaa9cf8562f668585af71eb4b9c37" prot="public" virt="non-virtual"><scope>bittensor::_config::config_impl::Config</scope><name>__init__</name></member>
+      <member refid="classbittensor_1_1__config_1_1config__impl_1_1_config_1a5a565d31408e8da6df2c40dfd4cc9c6e" prot="public" virt="non-virtual"><scope>bittensor::_config::config_impl::Config</scope><name>__repr__</name></member>
+      <member refid="classbittensor_1_1__config_1_1config__impl_1_1_config_1a3f19213a28f44fd98df5a1e91ccf3bb9" prot="public" virt="non-virtual"><scope>bittensor::_config::config_impl::Config</scope><name>__str__</name></member>
+      <member refid="classbittensor_1_1__config_1_1config__impl_1_1_config_1a5f513062ac2e0fc5322b4f84d717083d" prot="public" virt="non-virtual"><scope>bittensor::_config::config_impl::Config</scope><name>to_defaults</name></member>
+      <member refid="classbittensor_1_1__config_1_1config__impl_1_1_config_1a7a4cc2a1eaf777eb42481ad97aaf25a7" prot="public" virt="non-virtual"><scope>bittensor::_config::config_impl::Config</scope><name>to_prometheus</name></member>
+      <member refid="classbittensor_1_1__config_1_1config__impl_1_1_config_1a4c6cf6a3dd221dcdf934258d2873aede" prot="public" virt="non-virtual"><scope>bittensor::_config::config_impl::Config</scope><name>to_string</name></member>
+      <member refid="classbittensor_1_1__config_1_1config__impl_1_1_config_1a4f74d09ba839dd9c08f7808f3d21371c" prot="public" virt="non-virtual"><scope>bittensor::_config::config_impl::Config</scope><name>update_with_kwargs</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

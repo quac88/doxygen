@@ -1,0 +1,1067 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="classbittensor_1_1__metagraph_1_1metagraph__impl_1_1_metagraph" kind="class" language="Python" prot="public">
+    <compoundname>bittensor::_metagraph::metagraph_impl::Metagraph</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">torch.nn.Module</basecompoundref>
+    <derivedcompoundref refid="classbittensor_1_1__metagraph_1_1metagraph__mock_1_1_mock_metagraph" prot="public" virt="non-virtual">bittensor._metagraph.metagraph_mock.MockMetagraph</derivedcompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classbittensor_1_1__metagraph_1_1metagraph__impl_1_1_metagraph_1aa0322828a7b0c5f11bc6bdf9ba5f8006" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._metagraph.metagraph_impl.Metagraph::subtensor</definition>
+        <argsstring></argsstring>
+        <name>subtensor</name>
+        <qualifiedname>bittensor._metagraph.metagraph_impl.Metagraph.subtensor</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_metagraph/metagraph_impl.py" line="69" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_metagraph/metagraph_impl.py" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__metagraph_1_1metagraph__impl_1_1_metagraph_1ac389fe277d31ef7ab8cafb54a5eeccb9" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._metagraph.metagraph_impl.Metagraph::version</definition>
+        <argsstring></argsstring>
+        <name>version</name>
+        <qualifiedname>bittensor._metagraph.metagraph_impl.Metagraph.version</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_metagraph/metagraph_impl.py" line="75" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_metagraph/metagraph_impl.py" bodystart="75" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__metagraph_1_1metagraph__impl_1_1_metagraph_1a651a9f930b6474beeadee90ac3be0b63" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._metagraph.metagraph_impl.Metagraph::n</definition>
+        <argsstring></argsstring>
+        <name>n</name>
+        <qualifiedname>bittensor._metagraph.metagraph_impl.Metagraph.n</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_metagraph/metagraph_impl.py" line="76" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_metagraph/metagraph_impl.py" bodystart="76" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__metagraph_1_1metagraph__impl_1_1_metagraph_1a3b5fd7515d5a7b5f9f5383589bba85bb" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._metagraph.metagraph_impl.Metagraph::tau</definition>
+        <argsstring></argsstring>
+        <name>tau</name>
+        <qualifiedname>bittensor._metagraph.metagraph_impl.Metagraph.tau</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_metagraph/metagraph_impl.py" line="77" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_metagraph/metagraph_impl.py" bodystart="77" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__metagraph_1_1metagraph__impl_1_1_metagraph_1ab7ae47be11a28f4f446a1e14eb4ca449" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._metagraph.metagraph_impl.Metagraph::block</definition>
+        <argsstring></argsstring>
+        <name>block</name>
+        <qualifiedname>bittensor._metagraph.metagraph_impl.Metagraph.block</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_metagraph/metagraph_impl.py" line="78" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_metagraph/metagraph_impl.py" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__metagraph_1_1metagraph__impl_1_1_metagraph_1a185ca62f18cad4f1ada8cb73208d466f" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._metagraph.metagraph_impl.Metagraph::stake</definition>
+        <argsstring></argsstring>
+        <name>stake</name>
+        <qualifiedname>bittensor._metagraph.metagraph_impl.Metagraph.stake</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_metagraph/metagraph_impl.py" line="79" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_metagraph/metagraph_impl.py" bodystart="79" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__metagraph_1_1metagraph__impl_1_1_metagraph_1a82219c98ff57f15a0d74e599630c1fcb" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._metagraph.metagraph_impl.Metagraph::ranks</definition>
+        <argsstring></argsstring>
+        <name>ranks</name>
+        <qualifiedname>bittensor._metagraph.metagraph_impl.Metagraph.ranks</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_metagraph/metagraph_impl.py" line="80" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_metagraph/metagraph_impl.py" bodystart="80" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__metagraph_1_1metagraph__impl_1_1_metagraph_1a3c6d23cfc981532eed5c7563a79820eb" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._metagraph.metagraph_impl.Metagraph::trust</definition>
+        <argsstring></argsstring>
+        <name>trust</name>
+        <qualifiedname>bittensor._metagraph.metagraph_impl.Metagraph.trust</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_metagraph/metagraph_impl.py" line="81" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_metagraph/metagraph_impl.py" bodystart="81" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__metagraph_1_1metagraph__impl_1_1_metagraph_1aeb7bb38790a29bc561ed3ad9f4860b4f" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._metagraph.metagraph_impl.Metagraph::consensus</definition>
+        <argsstring></argsstring>
+        <name>consensus</name>
+        <qualifiedname>bittensor._metagraph.metagraph_impl.Metagraph.consensus</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_metagraph/metagraph_impl.py" line="82" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_metagraph/metagraph_impl.py" bodystart="82" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__metagraph_1_1metagraph__impl_1_1_metagraph_1a91bdcaa5b2a344403f1a09fa3ea4f961" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._metagraph.metagraph_impl.Metagraph::incentive</definition>
+        <argsstring></argsstring>
+        <name>incentive</name>
+        <qualifiedname>bittensor._metagraph.metagraph_impl.Metagraph.incentive</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_metagraph/metagraph_impl.py" line="83" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_metagraph/metagraph_impl.py" bodystart="83" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__metagraph_1_1metagraph__impl_1_1_metagraph_1a2b130f5f585a9427c60c90757e844544" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._metagraph.metagraph_impl.Metagraph::emission</definition>
+        <argsstring></argsstring>
+        <name>emission</name>
+        <qualifiedname>bittensor._metagraph.metagraph_impl.Metagraph.emission</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_metagraph/metagraph_impl.py" line="84" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_metagraph/metagraph_impl.py" bodystart="84" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__metagraph_1_1metagraph__impl_1_1_metagraph_1adf4008ea148a33631e41b20ddb00e9f4" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._metagraph.metagraph_impl.Metagraph::dividends</definition>
+        <argsstring></argsstring>
+        <name>dividends</name>
+        <qualifiedname>bittensor._metagraph.metagraph_impl.Metagraph.dividends</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_metagraph/metagraph_impl.py" line="85" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_metagraph/metagraph_impl.py" bodystart="85" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__metagraph_1_1metagraph__impl_1_1_metagraph_1a3466add2861b4ea82f24bd53afb69ec8" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._metagraph.metagraph_impl.Metagraph::active</definition>
+        <argsstring></argsstring>
+        <name>active</name>
+        <qualifiedname>bittensor._metagraph.metagraph_impl.Metagraph.active</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_metagraph/metagraph_impl.py" line="86" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_metagraph/metagraph_impl.py" bodystart="86" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__metagraph_1_1metagraph__impl_1_1_metagraph_1ad444e71fb042eed110700b0956f2f301" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._metagraph.metagraph_impl.Metagraph::last_update</definition>
+        <argsstring></argsstring>
+        <name>last_update</name>
+        <qualifiedname>bittensor._metagraph.metagraph_impl.Metagraph.last_update</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_metagraph/metagraph_impl.py" line="87" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_metagraph/metagraph_impl.py" bodystart="87" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__metagraph_1_1metagraph__impl_1_1_metagraph_1a5aca6de2c3773ba3e3896b1759dfab69" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._metagraph.metagraph_impl.Metagraph::weights</definition>
+        <argsstring></argsstring>
+        <name>weights</name>
+        <qualifiedname>bittensor._metagraph.metagraph_impl.Metagraph.weights</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_metagraph/metagraph_impl.py" line="88" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_metagraph/metagraph_impl.py" bodystart="88" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__metagraph_1_1metagraph__impl_1_1_metagraph_1a5839f65d24c057bff0997a53a755ec47" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._metagraph.metagraph_impl.Metagraph::bonds</definition>
+        <argsstring></argsstring>
+        <name>bonds</name>
+        <qualifiedname>bittensor._metagraph.metagraph_impl.Metagraph.bonds</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_metagraph/metagraph_impl.py" line="89" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_metagraph/metagraph_impl.py" bodystart="89" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__metagraph_1_1metagraph__impl_1_1_metagraph_1aad0b83db87c6c1b3126f9f0b6eb5a84e" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._metagraph.metagraph_impl.Metagraph::endpoints</definition>
+        <argsstring></argsstring>
+        <name>endpoints</name>
+        <qualifiedname>bittensor._metagraph.metagraph_impl.Metagraph.endpoints</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_metagraph/metagraph_impl.py" line="90" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_metagraph/metagraph_impl.py" bodystart="90" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__metagraph_1_1metagraph__impl_1_1_metagraph_1a0f06479517f3ac4c5011c1fc4b0f7328" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._metagraph.metagraph_impl.Metagraph::uids</definition>
+        <argsstring></argsstring>
+        <name>uids</name>
+        <qualifiedname>bittensor._metagraph.metagraph_impl.Metagraph.uids</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_metagraph/metagraph_impl.py" line="91" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_metagraph/metagraph_impl.py" bodystart="91" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__metagraph_1_1metagraph__impl_1_1_metagraph_1ad2988f79629208dd3e6c38c964dc6e65" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._metagraph.metagraph_impl.Metagraph::neurons</definition>
+        <argsstring></argsstring>
+        <name>neurons</name>
+        <qualifiedname>bittensor._metagraph.metagraph_impl.Metagraph.neurons</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_metagraph/metagraph_impl.py" line="93" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_metagraph/metagraph_impl.py" bodystart="93" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classbittensor_1_1__metagraph_1_1metagraph__impl_1_1_metagraph_1ac90ef36e9b9992d0677ed954fe064305" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._metagraph.metagraph_impl.Metagraph::_endpoint_objs</definition>
+        <argsstring></argsstring>
+        <name>_endpoint_objs</name>
+        <qualifiedname>bittensor._metagraph.metagraph_impl.Metagraph._endpoint_objs</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_metagraph/metagraph_impl.py" line="92" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_metagraph/metagraph_impl.py" bodystart="92" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classbittensor_1_1__metagraph_1_1metagraph__impl_1_1_metagraph_1ae140d5f6b82affffd1cdb4bc97843559" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._metagraph.metagraph_impl.Metagraph.__init__</definition>
+        <argsstring>(self, subtensor)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>bittensor._metagraph.metagraph_impl.Metagraph.__init__</qualifiedname>
+        <reimplementedby refid="classbittensor_1_1__metagraph_1_1metagraph__mock_1_1_mock_metagraph_1ad5aa9de326c31c751f2aeb4ea775a62d">__init__</reimplementedby>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classbittensor_1_1__subtensor_1_1subtensor" kindref="compound">subtensor</ref></type>
+          <defname>subtensor</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Initializes a new Metagraph torch chain interface object.</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_metagraph/metagraph_impl.py" line="65" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_metagraph/metagraph_impl.py" bodystart="65" bodyend="71"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__metagraph_1_1metagraph__impl_1_1_metagraph_1aec10f18d7e572a5014eb7f6c338ff0da" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type> &apos;<ref refid="classbittensor_1_1__metagraph_1_1metagraph__impl_1_1_metagraph" kindref="compound">Metagraph</ref>&apos;</type>
+        <definition> &apos;Metagraph&apos; bittensor._metagraph.metagraph_impl.Metagraph.clear</definition>
+        <argsstring>(self)</argsstring>
+        <name>clear</name>
+        <qualifiedname>bittensor._metagraph.metagraph_impl.Metagraph.clear</qualifiedname>
+        <reimplementedby refid="classbittensor_1_1__metagraph_1_1metagraph__mock_1_1_mock_metagraph_1a6b2665ea4cd6ec6c24b59562dcf55403">clear</reimplementedby>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Erases Metagraph state.</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_metagraph/metagraph_impl.py" line="72" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_metagraph/metagraph_impl.py" bodystart="72" bodyend="95"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__metagraph_1_1metagraph__impl_1_1_metagraph_1ace920b0826468f1b7e002ad2fbec0021" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>torch.FloatTensor</type>
+        <definition> torch.FloatTensor bittensor._metagraph.metagraph_impl.Metagraph.forward</definition>
+        <argsstring>(self, int uid, torch.FloatTensor row_weight)</argsstring>
+        <name>forward</name>
+        <qualifiedname>bittensor._metagraph.metagraph_impl.Metagraph.forward</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>uid</declname>
+        </param>
+        <param>
+          <type>torch.FloatTensor</type>
+          <declname>row_weight</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Returns a dividend vector for a change in weights by computing the full incenvite function.
+    Args:
+        uid (int):
+            uid to set weights.
+        row_weights: (torch.FloatTensor, shape =(n)):
+            normalized row to replace at uid.
+    Returns:
+        dividends (torch.FloatTensor):
+            Dividends for the entire network.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_metagraph/metagraph_impl.py" line="96" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_metagraph/metagraph_impl.py" bodystart="100" bodyend="174"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__metagraph_1_1metagraph__impl_1_1_metagraph_1a526730ce86ee3168c317bdc276a7e8bc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>torch.FloatTensor</type>
+        <definition> torch.FloatTensor bittensor._metagraph.metagraph_impl.Metagraph.S</definition>
+        <argsstring>(self)</argsstring>
+        <name>S</name>
+        <qualifiedname>bittensor._metagraph.metagraph_impl.Metagraph.S</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Stake
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_metagraph/metagraph_impl.py" line="176" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_metagraph/metagraph_impl.py" bodystart="176" bodyend="180"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__metagraph_1_1metagraph__impl_1_1_metagraph_1ae2779468f99f0804f06076fb30536fc1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>torch.FloatTensor</type>
+        <definition> torch.FloatTensor bittensor._metagraph.metagraph_impl.Metagraph.R</definition>
+        <argsstring>(self)</argsstring>
+        <name>R</name>
+        <qualifiedname>bittensor._metagraph.metagraph_impl.Metagraph.R</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Rank
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_metagraph/metagraph_impl.py" line="182" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_metagraph/metagraph_impl.py" bodystart="182" bodyend="186"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__metagraph_1_1metagraph__impl_1_1_metagraph_1a5bf324cef80e8fffd5f0e53bffc6e6f0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>torch.FloatTensor</type>
+        <definition> torch.FloatTensor bittensor._metagraph.metagraph_impl.Metagraph.I</definition>
+        <argsstring>(self)</argsstring>
+        <name>I</name>
+        <qualifiedname>bittensor._metagraph.metagraph_impl.Metagraph.I</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Incentive
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_metagraph/metagraph_impl.py" line="188" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_metagraph/metagraph_impl.py" bodystart="188" bodyend="192"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__metagraph_1_1metagraph__impl_1_1_metagraph_1a32ae66499fcaa44eadc97f24d18e14d7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>torch.FloatTensor</type>
+        <definition> torch.FloatTensor bittensor._metagraph.metagraph_impl.Metagraph.E</definition>
+        <argsstring>(self)</argsstring>
+        <name>E</name>
+        <qualifiedname>bittensor._metagraph.metagraph_impl.Metagraph.E</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Emission
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_metagraph/metagraph_impl.py" line="194" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_metagraph/metagraph_impl.py" bodystart="194" bodyend="198"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__metagraph_1_1metagraph__impl_1_1_metagraph_1a4716b70397e77d545862632c48fbc737" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>torch.FloatTensor</type>
+        <definition> torch.FloatTensor bittensor._metagraph.metagraph_impl.Metagraph.C</definition>
+        <argsstring>(self)</argsstring>
+        <name>C</name>
+        <qualifiedname>bittensor._metagraph.metagraph_impl.Metagraph.C</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Consensus
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_metagraph/metagraph_impl.py" line="200" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_metagraph/metagraph_impl.py" bodystart="200" bodyend="204"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__metagraph_1_1metagraph__impl_1_1_metagraph_1a409867a2e0e530e1c62d3a4bb0b8be50" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>torch.FloatTensor</type>
+        <definition> torch.FloatTensor bittensor._metagraph.metagraph_impl.Metagraph.T</definition>
+        <argsstring>(self)</argsstring>
+        <name>T</name>
+        <qualifiedname>bittensor._metagraph.metagraph_impl.Metagraph.T</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Trust
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_metagraph/metagraph_impl.py" line="206" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_metagraph/metagraph_impl.py" bodystart="206" bodyend="210"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__metagraph_1_1metagraph__impl_1_1_metagraph_1ad84a2bab991bf0213a9c626f6b71483e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>torch.FloatTensor</type>
+        <definition> torch.FloatTensor bittensor._metagraph.metagraph_impl.Metagraph.D</definition>
+        <argsstring>(self)</argsstring>
+        <name>D</name>
+        <qualifiedname>bittensor._metagraph.metagraph_impl.Metagraph.D</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Dividends
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_metagraph/metagraph_impl.py" line="212" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_metagraph/metagraph_impl.py" bodystart="212" bodyend="216"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__metagraph_1_1metagraph__impl_1_1_metagraph_1a9accbd9184103fb1ec5d5207b3d41ca3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>torch.FloatTensor</type>
+        <definition> torch.FloatTensor bittensor._metagraph.metagraph_impl.Metagraph.B</definition>
+        <argsstring>(self)</argsstring>
+        <name>B</name>
+        <qualifiedname>bittensor._metagraph.metagraph_impl.Metagraph.B</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Bonds
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_metagraph/metagraph_impl.py" line="218" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_metagraph/metagraph_impl.py" bodystart="218" bodyend="222"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__metagraph_1_1metagraph__impl_1_1_metagraph_1a139bf84686f3eb2c9d735e96dadf0fa9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>torch.FloatTensor</type>
+        <definition> torch.FloatTensor bittensor._metagraph.metagraph_impl.Metagraph.W</definition>
+        <argsstring>(self)</argsstring>
+        <name>W</name>
+        <qualifiedname>bittensor._metagraph.metagraph_impl.Metagraph.W</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Weights
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_metagraph/metagraph_impl.py" line="224" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_metagraph/metagraph_impl.py" bodystart="224" bodyend="228"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__metagraph_1_1metagraph__impl_1_1_metagraph_1af34bcb4e20c1260100749a4b25ca2316" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>List[str]</type>
+        <definition> List[str] bittensor._metagraph.metagraph_impl.Metagraph.hotkeys</definition>
+        <argsstring>(self)</argsstring>
+        <name>hotkeys</name>
+        <qualifiedname>bittensor._metagraph.metagraph_impl.Metagraph.hotkeys</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Returns hotkeys for each neuron.
+        Returns:
+            hotkeys (:obj:`List[str] of shape :obj:`(metagraph.n)`):
+                Neuron hotkeys.</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_metagraph/metagraph_impl.py" line="230" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_metagraph/metagraph_impl.py" bodystart="230" bodyend="239"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__metagraph_1_1metagraph__impl_1_1_metagraph_1a3107144d74473a5b947e85bcf5b4b16a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>List[str]</type>
+        <definition> List[str] bittensor._metagraph.metagraph_impl.Metagraph.coldkeys</definition>
+        <argsstring>(self)</argsstring>
+        <name>coldkeys</name>
+        <qualifiedname>bittensor._metagraph.metagraph_impl.Metagraph.coldkeys</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Returns coldkeys for each neuron.
+        Returns:
+            coldkeys (:obj:`List[str] of shape :obj:`(metagraph.n)`):
+                Neuron coldkeys.</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_metagraph/metagraph_impl.py" line="241" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_metagraph/metagraph_impl.py" bodystart="241" bodyend="250"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__metagraph_1_1metagraph__impl_1_1_metagraph_1a7f861f42582fd5c68e745e27b03a4dfc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>List[str]</type>
+        <definition> List[str] bittensor._metagraph.metagraph_impl.Metagraph.modalities</definition>
+        <argsstring>(self)</argsstring>
+        <name>modalities</name>
+        <qualifiedname>bittensor._metagraph.metagraph_impl.Metagraph.modalities</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Returns the modality for each neuron.
+        Returns:
+            coldkeys (:obj:`List[str] of shape :obj:`(metagraph.n)`):
+                Neuron coldkeys.</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_metagraph/metagraph_impl.py" line="252" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_metagraph/metagraph_impl.py" bodystart="252" bodyend="261"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__metagraph_1_1metagraph__impl_1_1_metagraph_1ab691569dd476491b96379a0d93ff111e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>List[str]</type>
+        <definition> List[str] bittensor._metagraph.metagraph_impl.Metagraph.addresses</definition>
+        <argsstring>(self)</argsstring>
+        <name>addresses</name>
+        <qualifiedname>bittensor._metagraph.metagraph_impl.Metagraph.addresses</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Returns ip addresses for each neuron.
+        Returns:
+            coldkeys (:obj:`List[str] of shape :obj:`(metagraph.n)`):
+                Neuron address.</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_metagraph/metagraph_impl.py" line="263" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_metagraph/metagraph_impl.py" bodystart="263" bodyend="272"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__metagraph_1_1metagraph__impl_1_1_metagraph_1a80743f91655e61cbdbc414de9bb7ab2d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>List[ &apos;<ref refid="classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint" kindref="compound">bittensor.Endpoint</ref>&apos;]</type>
+        <definition> List[&apos;bittensor.Endpoint&apos;] bittensor._metagraph.metagraph_impl.Metagraph.endpoint_objs</definition>
+        <argsstring>(self)</argsstring>
+        <name>endpoint_objs</name>
+        <qualifiedname>bittensor._metagraph.metagraph_impl.Metagraph.endpoint_objs</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Returns endpoints as objects.
+        Returns:
+            endpoint_obj (:obj:`List[bittensor.Endpoint] of shape :obj:`(metagraph.n)`):
+                Endpoints as objects.</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_metagraph/metagraph_impl.py" line="274" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_metagraph/metagraph_impl.py" bodystart="274" bodyend="290"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__metagraph_1_1metagraph__impl_1_1_metagraph_1a9739855c454e53531302b6889dc1b90f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int bittensor._metagraph.metagraph_impl.Metagraph.hotkey_to_uid</definition>
+        <argsstring>(self, str hotkey)</argsstring>
+        <name>hotkey_to_uid</name>
+        <qualifiedname>bittensor._metagraph.metagraph_impl.Metagraph.hotkey_to_uid</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>hotkey</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Fetch uid according to hotkey. 
+        Args: 
+            hotkey: (`str`, required):
+                Hotkey to fetch the uid for.
+        
+        Return:
+            uid: (`int`):
+                The uid for specified hotkey, -1 if hotkey does not exist.</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_metagraph/metagraph_impl.py" line="291" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_metagraph/metagraph_impl.py" bodystart="291" bodyend="305"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__metagraph_1_1metagraph__impl_1_1_metagraph_1ad49d2f5525651322db1a4d65329c176a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type> &apos;<ref refid="classbittensor_1_1__metagraph_1_1metagraph__impl_1_1_metagraph" kindref="compound">Metagraph</ref>&apos;</type>
+        <definition> &apos;Metagraph&apos; bittensor._metagraph.metagraph_impl.Metagraph.load</definition>
+        <argsstring>(self, str network=None)</argsstring>
+        <name>load</name>
+        <qualifiedname>bittensor._metagraph.metagraph_impl.Metagraph.load</qualifiedname>
+        <reimplementedby refid="classbittensor_1_1__metagraph_1_1metagraph__mock_1_1_mock_metagraph_1ab7db4705cd3e222262db487abf3d28a3">load</reimplementedby>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>network</declname>
+          <defval>None</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Loads this metagraph object&apos;s state_dict from bittensor root dir.
+        Args: 
+            network: (:obj:`str`, required):
+                Name of state_dict to load, defaults to kusanagi</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_metagraph/metagraph_impl.py" line="306" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_metagraph/metagraph_impl.py" bodystart="306" bodyend="324"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__metagraph_1_1metagraph__impl_1_1_metagraph_1acaba0037b3eb5446feb5ad664ca61346" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type> &apos;<ref refid="classbittensor_1_1__metagraph_1_1metagraph__impl_1_1_metagraph" kindref="compound">Metagraph</ref>&apos;</type>
+        <definition> &apos;Metagraph&apos; bittensor._metagraph.metagraph_impl.Metagraph.save</definition>
+        <argsstring>(self, str network=None)</argsstring>
+        <name>save</name>
+        <qualifiedname>bittensor._metagraph.metagraph_impl.Metagraph.save</qualifiedname>
+        <reimplementedby refid="classbittensor_1_1__metagraph_1_1metagraph__mock_1_1_mock_metagraph_1a0efd55ceaf680f8454edbb8842fb9ea7">save</reimplementedby>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>network</declname>
+          <defval>None</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Saves this metagraph object&apos;s state_dict under bittensor root dir.
+        Args: 
+            network: (:obj:`str`, required):
+                Name of state_dict, defaults to kusanagi</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_metagraph/metagraph_impl.py" line="325" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_metagraph/metagraph_impl.py" bodystart="325" bodyend="334"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__metagraph_1_1metagraph__impl_1_1_metagraph_1a455ff12130131fcd2e1d5d43a6881efb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type> &apos;<ref refid="classbittensor_1_1__metagraph_1_1metagraph__impl_1_1_metagraph" kindref="compound">Metagraph</ref>&apos;</type>
+        <definition> &apos;Metagraph&apos; bittensor._metagraph.metagraph_impl.Metagraph.load_from_path</definition>
+        <argsstring>(self, str path)</argsstring>
+        <name>load_from_path</name>
+        <qualifiedname>bittensor._metagraph.metagraph_impl.Metagraph.load_from_path</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Loads this metagraph object with state_dict under the specified path.
+        Args: 
+            path: (:obj:`str`, required):
+                Path to load state_dict.</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_metagraph/metagraph_impl.py" line="335" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_metagraph/metagraph_impl.py" bodystart="335" bodyend="344"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__metagraph_1_1metagraph__impl_1_1_metagraph_1a2883fe5417b02b40365c79e2a6894c95" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type> &apos;<ref refid="classbittensor_1_1__metagraph_1_1metagraph__impl_1_1_metagraph" kindref="compound">Metagraph</ref>&apos;</type>
+        <definition> &apos;Metagraph&apos; bittensor._metagraph.metagraph_impl.Metagraph.save_to_path</definition>
+        <argsstring>(self, str path, str filename)</argsstring>
+        <name>save_to_path</name>
+        <qualifiedname>bittensor._metagraph.metagraph_impl.Metagraph.save_to_path</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>filename</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Saves this metagraph object&apos;s state_dict to the specified path.
+        Args: 
+            path: (:obj:`str`, required):
+                Path to save state_dict.</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_metagraph/metagraph_impl.py" line="345" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_metagraph/metagraph_impl.py" bodystart="345" bodyend="356"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__metagraph_1_1metagraph__impl_1_1_metagraph_1a192f0648c24f3708b291d903b4d103bc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type> &apos;<ref refid="classbittensor_1_1__metagraph_1_1metagraph__impl_1_1_metagraph" kindref="compound">Metagraph</ref>&apos;</type>
+        <definition> &apos;Metagraph&apos; bittensor._metagraph.metagraph_impl.Metagraph.load_from_state_dict</definition>
+        <argsstring>(self, dict state_dict)</argsstring>
+        <name>load_from_state_dict</name>
+        <qualifiedname>bittensor._metagraph.metagraph_impl.Metagraph.load_from_state_dict</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>dict</type>
+          <declname>state_dict</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Loads this metagraph object from passed state_dict.
+        Args: 
+            state_dict: (:obj:`dict`, required):
+                Metagraph state_dict. Must be same as that created by save_to_path.</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_metagraph/metagraph_impl.py" line="357" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_metagraph/metagraph_impl.py" bodystart="357" bodyend="382"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__metagraph_1_1metagraph__impl_1_1_metagraph_1ab46d6181e1000e5d7275db49e1e7c68f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._metagraph.metagraph_impl.Metagraph.retrieve_cached_neurons</definition>
+        <argsstring>(self, int block=None)</argsstring>
+        <name>retrieve_cached_neurons</name>
+        <qualifiedname>bittensor._metagraph.metagraph_impl.Metagraph.retrieve_cached_neurons</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>block</declname>
+          <defval>None</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>    Retrieves cached metagraph syncs from IPFS. 
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_metagraph/metagraph_impl.py" line="383" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_metagraph/metagraph_impl.py" bodystart="383" bodyend="426"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__metagraph_1_1metagraph__impl_1_1_metagraph_1a816742ccbc5bfe6f38f7feb1d2e137b0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type> &apos;<ref refid="classbittensor_1_1__metagraph_1_1metagraph__impl_1_1_metagraph" kindref="compound">Metagraph</ref>&apos;</type>
+        <definition> &apos;Metagraph&apos; bittensor._metagraph.metagraph_impl.Metagraph.sync</definition>
+        <argsstring>(self, int block=None, bool cached=True)</argsstring>
+        <name>sync</name>
+        <qualifiedname>bittensor._metagraph.metagraph_impl.Metagraph.sync</qualifiedname>
+        <reimplementedby refid="classbittensor_1_1__metagraph_1_1metagraph__mock_1_1_mock_metagraph_1a1d1f31ff458b9149e04553f2121a0686">sync</reimplementedby>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>block</declname>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>cached</declname>
+          <defval>True</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Synchronizes this metagraph with the chain state.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_metagraph/metagraph_impl.py" line="427" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_metagraph/metagraph_impl.py" bodystart="427" bodyend="567"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__metagraph_1_1metagraph__impl_1_1_metagraph_1aa71f37fe898c2b8c0cdb816f507ef409" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._metagraph.metagraph_impl.Metagraph.to_dataframe</definition>
+        <argsstring>(self)</argsstring>
+        <name>to_dataframe</name>
+        <qualifiedname>bittensor._metagraph.metagraph_impl.Metagraph.to_dataframe</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_metagraph/metagraph_impl.py" line="568" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_metagraph/metagraph_impl.py" bodystart="568" bodyend="591"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__metagraph_1_1metagraph__impl_1_1_metagraph_1a1e16d132fd608f4e4fed714a01f3711e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._metagraph.metagraph_impl.Metagraph.to_wandb</definition>
+        <argsstring>(self)</argsstring>
+        <name>to_wandb</name>
+        <qualifiedname>bittensor._metagraph.metagraph_impl.Metagraph.to_wandb</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_metagraph/metagraph_impl.py" line="592" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_metagraph/metagraph_impl.py" bodystart="592" bodyend="599"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__metagraph_1_1metagraph__impl_1_1_metagraph_1aa623e93cc30d6671ec184fd16355769c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._metagraph.metagraph_impl.Metagraph.__str__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__str__</name>
+        <qualifiedname>bittensor._metagraph.metagraph_impl.Metagraph.__str__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_metagraph/metagraph_impl.py" line="600" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_metagraph/metagraph_impl.py" bodystart="600" bodyend="602"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__metagraph_1_1metagraph__impl_1_1_metagraph_1ae2af8838725c97d60f87bb94ba953dbc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._metagraph.metagraph_impl.Metagraph.__repr__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__repr__</name>
+        <qualifiedname>bittensor._metagraph.metagraph_impl.Metagraph.__repr__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_metagraph/metagraph_impl.py" line="603" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_metagraph/metagraph_impl.py" bodystart="603" bodyend="605"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim> Maintains chain state as a torch.nn.Module.
+
+    Interface:
+        tau (:obj:`torch.FloatTensor` of shape :obj:`(1)`): 
+            Current, per block, token emission rate.
+
+        block (:obj:`torch.LongTensor` of shape :obj:`(1)`):
+            State block number.
+
+        uids (:obj:`torch.LongTensor` of shape :obj:`(metagraph.n)`):
+            UIDs for each neuron.
+        
+        stake (:obj:`torch.LongTensor` of shape :obj:`(metagraph.n)`):
+            Stake balance for each neuron ordered by uid.
+            
+        last_update (:obj:`torch.LongTensor` of shape :obj:`(metagraph.n)`):
+            Last emission call for each neuron ordered by uid.
+
+        weights (:obj:`torch.FloatTensor` of shape :obj:`(metagraph.n, metagraph.n)`):
+            Full weight matrix on chain ordered by uid.
+
+        neurons (:obj:`torch.LongTensor` of shape :obj:`(metagraph.n, -1)`) 
+            Tokenized endpoint information.</verbatim> </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>bittensor._metagraph.metagraph_impl.Metagraph</label>
+        <link refid="classbittensor_1_1__metagraph_1_1metagraph__impl_1_1_metagraph"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>bittensor._metagraph.metagraph_mock.MockMetagraph</label>
+        <link refid="classbittensor_1_1__metagraph_1_1metagraph__mock_1_1_mock_metagraph"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>torch::nn::Module</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>bittensor._metagraph.metagraph_impl.Metagraph</label>
+        <link refid="classbittensor_1_1__metagraph_1_1metagraph__impl_1_1_metagraph"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>torch::nn::Module</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/macthrasher/bittensor/bittensor/_metagraph/metagraph_impl.py" line="39" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_metagraph/metagraph_impl.py" bodystart="39" bodyend="605"/>
+    <listofallmembers>
+      <member refid="classbittensor_1_1__metagraph_1_1metagraph__impl_1_1_metagraph_1ae140d5f6b82affffd1cdb4bc97843559" prot="public" virt="non-virtual"><scope>bittensor::_metagraph::metagraph_impl::Metagraph</scope><name>__init__</name></member>
+      <member refid="classbittensor_1_1__metagraph_1_1metagraph__impl_1_1_metagraph_1ae2af8838725c97d60f87bb94ba953dbc" prot="public" virt="non-virtual"><scope>bittensor::_metagraph::metagraph_impl::Metagraph</scope><name>__repr__</name></member>
+      <member refid="classbittensor_1_1__metagraph_1_1metagraph__impl_1_1_metagraph_1aa623e93cc30d6671ec184fd16355769c" prot="public" virt="non-virtual"><scope>bittensor::_metagraph::metagraph_impl::Metagraph</scope><name>__str__</name></member>
+      <member refid="classbittensor_1_1__metagraph_1_1metagraph__impl_1_1_metagraph_1ac90ef36e9b9992d0677ed954fe064305" prot="protected" virt="non-virtual"><scope>bittensor::_metagraph::metagraph_impl::Metagraph</scope><name>_endpoint_objs</name></member>
+      <member refid="classbittensor_1_1__metagraph_1_1metagraph__impl_1_1_metagraph_1a3466add2861b4ea82f24bd53afb69ec8" prot="public" virt="non-virtual"><scope>bittensor::_metagraph::metagraph_impl::Metagraph</scope><name>active</name></member>
+      <member refid="classbittensor_1_1__metagraph_1_1metagraph__impl_1_1_metagraph_1ab691569dd476491b96379a0d93ff111e" prot="public" virt="non-virtual"><scope>bittensor::_metagraph::metagraph_impl::Metagraph</scope><name>addresses</name></member>
+      <member refid="classbittensor_1_1__metagraph_1_1metagraph__impl_1_1_metagraph_1a9accbd9184103fb1ec5d5207b3d41ca3" prot="public" virt="non-virtual"><scope>bittensor::_metagraph::metagraph_impl::Metagraph</scope><name>B</name></member>
+      <member refid="classbittensor_1_1__metagraph_1_1metagraph__impl_1_1_metagraph_1ab7ae47be11a28f4f446a1e14eb4ca449" prot="public" virt="non-virtual"><scope>bittensor::_metagraph::metagraph_impl::Metagraph</scope><name>block</name></member>
+      <member refid="classbittensor_1_1__metagraph_1_1metagraph__impl_1_1_metagraph_1a5839f65d24c057bff0997a53a755ec47" prot="public" virt="non-virtual"><scope>bittensor::_metagraph::metagraph_impl::Metagraph</scope><name>bonds</name></member>
+      <member refid="classbittensor_1_1__metagraph_1_1metagraph__impl_1_1_metagraph_1a4716b70397e77d545862632c48fbc737" prot="public" virt="non-virtual"><scope>bittensor::_metagraph::metagraph_impl::Metagraph</scope><name>C</name></member>
+      <member refid="classbittensor_1_1__metagraph_1_1metagraph__impl_1_1_metagraph_1aec10f18d7e572a5014eb7f6c338ff0da" prot="public" virt="non-virtual"><scope>bittensor::_metagraph::metagraph_impl::Metagraph</scope><name>clear</name></member>
+      <member refid="classbittensor_1_1__metagraph_1_1metagraph__impl_1_1_metagraph_1a3107144d74473a5b947e85bcf5b4b16a" prot="public" virt="non-virtual"><scope>bittensor::_metagraph::metagraph_impl::Metagraph</scope><name>coldkeys</name></member>
+      <member refid="classbittensor_1_1__metagraph_1_1metagraph__impl_1_1_metagraph_1aeb7bb38790a29bc561ed3ad9f4860b4f" prot="public" virt="non-virtual"><scope>bittensor::_metagraph::metagraph_impl::Metagraph</scope><name>consensus</name></member>
+      <member refid="classbittensor_1_1__metagraph_1_1metagraph__impl_1_1_metagraph_1ad84a2bab991bf0213a9c626f6b71483e" prot="public" virt="non-virtual"><scope>bittensor::_metagraph::metagraph_impl::Metagraph</scope><name>D</name></member>
+      <member refid="classbittensor_1_1__metagraph_1_1metagraph__impl_1_1_metagraph_1adf4008ea148a33631e41b20ddb00e9f4" prot="public" virt="non-virtual"><scope>bittensor::_metagraph::metagraph_impl::Metagraph</scope><name>dividends</name></member>
+      <member refid="classbittensor_1_1__metagraph_1_1metagraph__impl_1_1_metagraph_1a32ae66499fcaa44eadc97f24d18e14d7" prot="public" virt="non-virtual"><scope>bittensor::_metagraph::metagraph_impl::Metagraph</scope><name>E</name></member>
+      <member refid="classbittensor_1_1__metagraph_1_1metagraph__impl_1_1_metagraph_1a2b130f5f585a9427c60c90757e844544" prot="public" virt="non-virtual"><scope>bittensor::_metagraph::metagraph_impl::Metagraph</scope><name>emission</name></member>
+      <member refid="classbittensor_1_1__metagraph_1_1metagraph__impl_1_1_metagraph_1a80743f91655e61cbdbc414de9bb7ab2d" prot="public" virt="non-virtual"><scope>bittensor::_metagraph::metagraph_impl::Metagraph</scope><name>endpoint_objs</name></member>
+      <member refid="classbittensor_1_1__metagraph_1_1metagraph__impl_1_1_metagraph_1aad0b83db87c6c1b3126f9f0b6eb5a84e" prot="public" virt="non-virtual"><scope>bittensor::_metagraph::metagraph_impl::Metagraph</scope><name>endpoints</name></member>
+      <member refid="classbittensor_1_1__metagraph_1_1metagraph__impl_1_1_metagraph_1ace920b0826468f1b7e002ad2fbec0021" prot="public" virt="non-virtual"><scope>bittensor::_metagraph::metagraph_impl::Metagraph</scope><name>forward</name></member>
+      <member refid="classbittensor_1_1__metagraph_1_1metagraph__impl_1_1_metagraph_1a9739855c454e53531302b6889dc1b90f" prot="public" virt="non-virtual"><scope>bittensor::_metagraph::metagraph_impl::Metagraph</scope><name>hotkey_to_uid</name></member>
+      <member refid="classbittensor_1_1__metagraph_1_1metagraph__impl_1_1_metagraph_1af34bcb4e20c1260100749a4b25ca2316" prot="public" virt="non-virtual"><scope>bittensor::_metagraph::metagraph_impl::Metagraph</scope><name>hotkeys</name></member>
+      <member refid="classbittensor_1_1__metagraph_1_1metagraph__impl_1_1_metagraph_1a5bf324cef80e8fffd5f0e53bffc6e6f0" prot="public" virt="non-virtual"><scope>bittensor::_metagraph::metagraph_impl::Metagraph</scope><name>I</name></member>
+      <member refid="classbittensor_1_1__metagraph_1_1metagraph__impl_1_1_metagraph_1a91bdcaa5b2a344403f1a09fa3ea4f961" prot="public" virt="non-virtual"><scope>bittensor::_metagraph::metagraph_impl::Metagraph</scope><name>incentive</name></member>
+      <member refid="classbittensor_1_1__metagraph_1_1metagraph__impl_1_1_metagraph_1ad444e71fb042eed110700b0956f2f301" prot="public" virt="non-virtual"><scope>bittensor::_metagraph::metagraph_impl::Metagraph</scope><name>last_update</name></member>
+      <member refid="classbittensor_1_1__metagraph_1_1metagraph__impl_1_1_metagraph_1ad49d2f5525651322db1a4d65329c176a" prot="public" virt="non-virtual"><scope>bittensor::_metagraph::metagraph_impl::Metagraph</scope><name>load</name></member>
+      <member refid="classbittensor_1_1__metagraph_1_1metagraph__impl_1_1_metagraph_1a455ff12130131fcd2e1d5d43a6881efb" prot="public" virt="non-virtual"><scope>bittensor::_metagraph::metagraph_impl::Metagraph</scope><name>load_from_path</name></member>
+      <member refid="classbittensor_1_1__metagraph_1_1metagraph__impl_1_1_metagraph_1a192f0648c24f3708b291d903b4d103bc" prot="public" virt="non-virtual"><scope>bittensor::_metagraph::metagraph_impl::Metagraph</scope><name>load_from_state_dict</name></member>
+      <member refid="classbittensor_1_1__metagraph_1_1metagraph__impl_1_1_metagraph_1a7f861f42582fd5c68e745e27b03a4dfc" prot="public" virt="non-virtual"><scope>bittensor::_metagraph::metagraph_impl::Metagraph</scope><name>modalities</name></member>
+      <member refid="classbittensor_1_1__metagraph_1_1metagraph__impl_1_1_metagraph_1a651a9f930b6474beeadee90ac3be0b63" prot="public" virt="non-virtual"><scope>bittensor::_metagraph::metagraph_impl::Metagraph</scope><name>n</name></member>
+      <member refid="classbittensor_1_1__metagraph_1_1metagraph__impl_1_1_metagraph_1ad2988f79629208dd3e6c38c964dc6e65" prot="public" virt="non-virtual"><scope>bittensor::_metagraph::metagraph_impl::Metagraph</scope><name>neurons</name></member>
+      <member refid="classbittensor_1_1__metagraph_1_1metagraph__impl_1_1_metagraph_1ae2779468f99f0804f06076fb30536fc1" prot="public" virt="non-virtual"><scope>bittensor::_metagraph::metagraph_impl::Metagraph</scope><name>R</name></member>
+      <member refid="classbittensor_1_1__metagraph_1_1metagraph__impl_1_1_metagraph_1a82219c98ff57f15a0d74e599630c1fcb" prot="public" virt="non-virtual"><scope>bittensor::_metagraph::metagraph_impl::Metagraph</scope><name>ranks</name></member>
+      <member refid="classbittensor_1_1__metagraph_1_1metagraph__impl_1_1_metagraph_1ab46d6181e1000e5d7275db49e1e7c68f" prot="public" virt="non-virtual"><scope>bittensor::_metagraph::metagraph_impl::Metagraph</scope><name>retrieve_cached_neurons</name></member>
+      <member refid="classbittensor_1_1__metagraph_1_1metagraph__impl_1_1_metagraph_1a526730ce86ee3168c317bdc276a7e8bc" prot="public" virt="non-virtual"><scope>bittensor::_metagraph::metagraph_impl::Metagraph</scope><name>S</name></member>
+      <member refid="classbittensor_1_1__metagraph_1_1metagraph__impl_1_1_metagraph_1acaba0037b3eb5446feb5ad664ca61346" prot="public" virt="non-virtual"><scope>bittensor::_metagraph::metagraph_impl::Metagraph</scope><name>save</name></member>
+      <member refid="classbittensor_1_1__metagraph_1_1metagraph__impl_1_1_metagraph_1a2883fe5417b02b40365c79e2a6894c95" prot="public" virt="non-virtual"><scope>bittensor::_metagraph::metagraph_impl::Metagraph</scope><name>save_to_path</name></member>
+      <member refid="classbittensor_1_1__metagraph_1_1metagraph__impl_1_1_metagraph_1a185ca62f18cad4f1ada8cb73208d466f" prot="public" virt="non-virtual"><scope>bittensor::_metagraph::metagraph_impl::Metagraph</scope><name>stake</name></member>
+      <member refid="classbittensor_1_1__metagraph_1_1metagraph__impl_1_1_metagraph_1aa0322828a7b0c5f11bc6bdf9ba5f8006" prot="public" virt="non-virtual"><scope>bittensor::_metagraph::metagraph_impl::Metagraph</scope><name>subtensor</name></member>
+      <member refid="classbittensor_1_1__metagraph_1_1metagraph__impl_1_1_metagraph_1a816742ccbc5bfe6f38f7feb1d2e137b0" prot="public" virt="non-virtual"><scope>bittensor::_metagraph::metagraph_impl::Metagraph</scope><name>sync</name></member>
+      <member refid="classbittensor_1_1__metagraph_1_1metagraph__impl_1_1_metagraph_1a409867a2e0e530e1c62d3a4bb0b8be50" prot="public" virt="non-virtual"><scope>bittensor::_metagraph::metagraph_impl::Metagraph</scope><name>T</name></member>
+      <member refid="classbittensor_1_1__metagraph_1_1metagraph__impl_1_1_metagraph_1a3b5fd7515d5a7b5f9f5383589bba85bb" prot="public" virt="non-virtual"><scope>bittensor::_metagraph::metagraph_impl::Metagraph</scope><name>tau</name></member>
+      <member refid="classbittensor_1_1__metagraph_1_1metagraph__impl_1_1_metagraph_1aa71f37fe898c2b8c0cdb816f507ef409" prot="public" virt="non-virtual"><scope>bittensor::_metagraph::metagraph_impl::Metagraph</scope><name>to_dataframe</name></member>
+      <member refid="classbittensor_1_1__metagraph_1_1metagraph__impl_1_1_metagraph_1a1e16d132fd608f4e4fed714a01f3711e" prot="public" virt="non-virtual"><scope>bittensor::_metagraph::metagraph_impl::Metagraph</scope><name>to_wandb</name></member>
+      <member refid="classbittensor_1_1__metagraph_1_1metagraph__impl_1_1_metagraph_1a3c6d23cfc981532eed5c7563a79820eb" prot="public" virt="non-virtual"><scope>bittensor::_metagraph::metagraph_impl::Metagraph</scope><name>trust</name></member>
+      <member refid="classbittensor_1_1__metagraph_1_1metagraph__impl_1_1_metagraph_1a0f06479517f3ac4c5011c1fc4b0f7328" prot="public" virt="non-virtual"><scope>bittensor::_metagraph::metagraph_impl::Metagraph</scope><name>uids</name></member>
+      <member refid="classbittensor_1_1__metagraph_1_1metagraph__impl_1_1_metagraph_1ac389fe277d31ef7ab8cafb54a5eeccb9" prot="public" virt="non-virtual"><scope>bittensor::_metagraph::metagraph_impl::Metagraph</scope><name>version</name></member>
+      <member refid="classbittensor_1_1__metagraph_1_1metagraph__impl_1_1_metagraph_1a139bf84686f3eb2c9d735e96dadf0fa9" prot="public" virt="non-virtual"><scope>bittensor::_metagraph::metagraph_impl::Metagraph</scope><name>W</name></member>
+      <member refid="classbittensor_1_1__metagraph_1_1metagraph__impl_1_1_metagraph_1a5aca6de2c3773ba3e3896b1759dfab69" prot="public" virt="non-virtual"><scope>bittensor::_metagraph::metagraph_impl::Metagraph</scope><name>weights</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

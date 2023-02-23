@@ -1,0 +1,554 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="classbittensor_1_1__cli_1_1cli__impl_1_1_c_l_i" kind="class" language="Python" prot="public">
+    <compoundname>bittensor::_cli::cli_impl::CLI</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classbittensor_1_1__cli_1_1cli__impl_1_1_c_l_i_1a3177be63b5e485d029d6026a7c462ba3" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._cli.cli_impl.CLI::config</definition>
+        <argsstring></argsstring>
+        <name>config</name>
+        <qualifiedname>bittensor._cli.cli_impl.CLI.config</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_cli/cli_impl.py" line="49" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_cli/cli_impl.py" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classbittensor_1_1__cli_1_1cli__impl_1_1_c_l_i_1a2c87386c80c22ee8a63a2d98d233a0f4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._cli.cli_impl.CLI.__init__</definition>
+        <argsstring>(self, &apos;bittensor.Config&apos; config)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>bittensor._cli.cli_impl.CLI.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>&apos;<ref refid="classbittensor_1_1__config_1_1config__impl_1_1_config" kindref="compound">bittensor.Config</ref>&apos;</type>
+          <declname>config</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Initialized a bittensor.CLI object.
+        Args:
+            config (:obj:`bittensor.Config`, `required`): 
+                bittensor.cli.config()</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_cli/cli_impl.py" line="38" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_cli/cli_impl.py" bodystart="38" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__cli_1_1cli__impl_1_1_c_l_i_1aefb4bb012305712b2dbbd29545c843ce" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._cli.cli_impl.CLI.run</definition>
+        <argsstring>(self)</argsstring>
+        <name>run</name>
+        <qualifiedname>bittensor._cli.cli_impl.CLI.run</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Execute the command from config 
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_cli/cli_impl.py" line="51" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_cli/cli_impl.py" bodystart="51" bodyend="92"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__cli_1_1cli__impl_1_1_c_l_i_1a6a1192b46449ce24aae1ccd51e35250c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._cli.cli_impl.CLI.create_new_coldkey</definition>
+        <argsstring>(self)</argsstring>
+        <name>create_new_coldkey</name>
+        <qualifiedname>bittensor._cli.cli_impl.CLI.create_new_coldkey</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Creates a new coldkey under this wallet.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_cli/cli_impl.py" line="93" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_cli/cli_impl.py" bodystart="93" bodyend="98"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__cli_1_1cli__impl_1_1_c_l_i_1a0548a75ad25967c52cae2d573c9f4030" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._cli.cli_impl.CLI.create_new_hotkey</definition>
+        <argsstring>(self)</argsstring>
+        <name>create_new_hotkey</name>
+        <qualifiedname>bittensor._cli.cli_impl.CLI.create_new_hotkey</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Creates a new hotke under this wallet.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_cli/cli_impl.py" line="99" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_cli/cli_impl.py" bodystart="99" bodyend="104"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__cli_1_1cli__impl_1_1_c_l_i_1a1678121ca05eae53202c00038466d32f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._cli.cli_impl.CLI.regen_coldkey</definition>
+        <argsstring>(self)</argsstring>
+        <name>regen_coldkey</name>
+        <qualifiedname>bittensor._cli.cli_impl.CLI.regen_coldkey</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Creates a new coldkey under this wallet.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_cli/cli_impl.py" line="105" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_cli/cli_impl.py" bodystart="105" bodyend="110"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__cli_1_1cli__impl_1_1_c_l_i_1a8992d7666e12d1bf8e0ed7ca1c2ebcc4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._cli.cli_impl.CLI.regen_coldkeypub</definition>
+        <argsstring>(self)</argsstring>
+        <name>regen_coldkeypub</name>
+        <qualifiedname>bittensor._cli.cli_impl.CLI.regen_coldkeypub</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Creates a new coldkeypub under this wallet.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_cli/cli_impl.py" line="111" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_cli/cli_impl.py" bodystart="111" bodyend="116"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__cli_1_1cli__impl_1_1_c_l_i_1afe7ec8989786267bb79bf306ee51042b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._cli.cli_impl.CLI.regen_hotkey</definition>
+        <argsstring>(self)</argsstring>
+        <name>regen_hotkey</name>
+        <qualifiedname>bittensor._cli.cli_impl.CLI.regen_hotkey</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Creates a new coldkey under this wallet.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_cli/cli_impl.py" line="117" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_cli/cli_impl.py" bodystart="117" bodyend="122"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__cli_1_1cli__impl_1_1_c_l_i_1a28233e9b884cddde0f4be5de20b6d493" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._cli.cli_impl.CLI.query</definition>
+        <argsstring>(self)</argsstring>
+        <name>query</name>
+        <qualifiedname>bittensor._cli.cli_impl.CLI.query</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Query an endpoint and get query time.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_cli/cli_impl.py" line="123" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_cli/cli_impl.py" bodystart="123" bodyend="138"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__cli_1_1cli__impl_1_1_c_l_i_1ae03172c94947caed1fdc0a5c0a0aa8c2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._cli.cli_impl.CLI.inspect</definition>
+        <argsstring>(self)</argsstring>
+        <name>inspect</name>
+        <qualifiedname>bittensor._cli.cli_impl.CLI.inspect</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Inspect a cold, hot pair.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_cli/cli_impl.py" line="139" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_cli/cli_impl.py" bodystart="139" bodyend="176"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__cli_1_1cli__impl_1_1_c_l_i_1ab8f83bedd72de6a09c18d896e2e43bd1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._cli.cli_impl.CLI.run_miner</definition>
+        <argsstring>(self)</argsstring>
+        <name>run_miner</name>
+        <qualifiedname>bittensor._cli.cli_impl.CLI.run_miner</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_cli/cli_impl.py" line="177" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_cli/cli_impl.py" bodystart="177" bodyend="222"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__cli_1_1cli__impl_1_1_c_l_i_1a73b2ddbde67cc2ee13a10ae2ed0cbbb4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._cli.cli_impl.CLI.help</definition>
+        <argsstring>(self)</argsstring>
+        <name>help</name>
+        <qualifiedname>bittensor._cli.cli_impl.CLI.help</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_cli/cli_impl.py" line="223" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_cli/cli_impl.py" bodystart="223" bodyend="236"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__cli_1_1cli__impl_1_1_c_l_i_1a81836a50bb6f722fec22cebe496be832" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._cli.cli_impl.CLI.update</definition>
+        <argsstring>(self)</argsstring>
+        <name>update</name>
+        <qualifiedname>bittensor._cli.cli_impl.CLI.update</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_cli/cli_impl.py" line="237" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_cli/cli_impl.py" bodystart="237" bodyend="241"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__cli_1_1cli__impl_1_1_c_l_i_1a0292f3b462e08e9450f1aa0a70091052" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._cli.cli_impl.CLI.register</definition>
+        <argsstring>(self)</argsstring>
+        <name>register</name>
+        <qualifiedname>bittensor._cli.cli_impl.CLI.register</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Register neuron.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_cli/cli_impl.py" line="242" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_cli/cli_impl.py" bodystart="242" bodyend="258"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__cli_1_1cli__impl_1_1_c_l_i_1ad18bd39035bfdcfc09f3e908d6a7c367" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._cli.cli_impl.CLI.transfer</definition>
+        <argsstring>(self)</argsstring>
+        <name>transfer</name>
+        <qualifiedname>bittensor._cli.cli_impl.CLI.transfer</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Transfer token of amount to destination.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_cli/cli_impl.py" line="259" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_cli/cli_impl.py" bodystart="259" bodyend="265"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__cli_1_1cli__impl_1_1_c_l_i_1ac2cec11ea22420a66863fbd13d2b7cb8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._cli.cli_impl.CLI.unstake</definition>
+        <argsstring>(self)</argsstring>
+        <name>unstake</name>
+        <qualifiedname>bittensor._cli.cli_impl.CLI.unstake</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Unstake token of amount from hotkey(s).
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_cli/cli_impl.py" line="266" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_cli/cli_impl.py" bodystart="266" bodyend="326"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__cli_1_1cli__impl_1_1_c_l_i_1a6118617aae9e3b42004c164ddf45daa9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._cli.cli_impl.CLI.stake</definition>
+        <argsstring>(self)</argsstring>
+        <name>stake</name>
+        <qualifiedname>bittensor._cli.cli_impl.CLI.stake</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Stake token of amount to hotkey(s).
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_cli/cli_impl.py" line="327" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_cli/cli_impl.py" bodystart="327" bodyend="409"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__cli_1_1cli__impl_1_1_c_l_i_1a8c282110b8cd6b75f5c6232b7f6c11af" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._cli.cli_impl.CLI.set_weights</definition>
+        <argsstring>(self)</argsstring>
+        <name>set_weights</name>
+        <qualifiedname>bittensor._cli.cli_impl.CLI.set_weights</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Set weights and uids on chain.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_cli/cli_impl.py" line="410" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_cli/cli_impl.py" bodystart="410" bodyend="422"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__cli_1_1cli__impl_1_1_c_l_i_1a3c09f2ef73d5c05c96cdcd9da0d191de" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._cli.cli_impl.CLI.list</definition>
+        <argsstring>(self)</argsstring>
+        <name>list</name>
+        <qualifiedname>bittensor._cli.cli_impl.CLI.list</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Lists wallets.</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_cli/cli_impl.py" line="459" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_cli/cli_impl.py" bodystart="459" bodyend="500"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__cli_1_1cli__impl_1_1_c_l_i_1a8f20743c8fbc4ed6a84a277d8a827d71" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._cli.cli_impl.CLI.metagraph</definition>
+        <argsstring>(self)</argsstring>
+        <name>metagraph</name>
+        <qualifiedname>bittensor._cli.cli_impl.CLI.metagraph</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Prints an entire metagraph.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_cli/cli_impl.py" line="501" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_cli/cli_impl.py" bodystart="501" bodyend="572"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__cli_1_1cli__impl_1_1_c_l_i_1a358ad8ed4e81c8d04fd6625ede838e58" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._cli.cli_impl.CLI.weights</definition>
+        <argsstring>(self)</argsstring>
+        <name>weights</name>
+        <qualifiedname>bittensor._cli.cli_impl.CLI.weights</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Prints an weights to screen.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_cli/cli_impl.py" line="573" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_cli/cli_impl.py" bodystart="573" bodyend="607"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__cli_1_1cli__impl_1_1_c_l_i_1aec87599f88d66cae35b0f26210a14047" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._cli.cli_impl.CLI.overview</definition>
+        <argsstring>(self)</argsstring>
+        <name>overview</name>
+        <qualifiedname>bittensor._cli.cli_impl.CLI.overview</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Prints an overview for the wallet&apos;s colkey.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_cli/cli_impl.py" line="608" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_cli/cli_impl.py" bodystart="608" bodyend="788"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__cli_1_1cli__impl_1_1_c_l_i_1a687f5e6fd9bca35041218b74703f5e64" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._cli.cli_impl.CLI.full</definition>
+        <argsstring>(self)</argsstring>
+        <name>full</name>
+        <qualifiedname>bittensor._cli.cli_impl.CLI.full</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Prints an overview for the wallet&apos;s colkey.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_cli/cli_impl.py" line="789" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_cli/cli_impl.py" bodystart="789" bodyend="895"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-static-func">
+      <memberdef kind="function" id="classbittensor_1_1__cli_1_1cli__impl_1_1_c_l_i_1a1f59df46b9a35438460f3c02ee2b2b08" prot="protected" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>List[ &apos;<ref refid="classbittensor_1_1__wallet_1_1wallet" kindref="compound">bittensor.wallet</ref>&apos;]</type>
+        <definition> List[&apos;bittensor.wallet&apos;] bittensor._cli.cli_impl.CLI._get_hotkey_wallets_for_wallet</definition>
+        <argsstring>(wallet)</argsstring>
+        <name>_get_hotkey_wallets_for_wallet</name>
+        <qualifiedname>bittensor._cli.cli_impl.CLI._get_hotkey_wallets_for_wallet</qualifiedname>
+        <param>
+          <type><ref refid="classbittensor_1_1__wallet_1_1wallet" kindref="compound">wallet</ref></type>
+          <defname>wallet</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_cli/cli_impl.py" line="424" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_cli/cli_impl.py" bodystart="424" bodyend="439"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__cli_1_1cli__impl_1_1_c_l_i_1a209fa651b583eee82455f3843afdc493" prot="protected" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>List[ &apos;<ref refid="classbittensor_1_1__wallet_1_1wallet" kindref="compound">bittensor.wallet</ref>&apos;]</type>
+        <definition> List[&apos;bittensor.wallet&apos;] bittensor._cli.cli_impl.CLI._get_coldkey_wallets_for_path</definition>
+        <argsstring>(str path)</argsstring>
+        <name>_get_coldkey_wallets_for_path</name>
+        <qualifiedname>bittensor._cli.cli_impl.CLI._get_coldkey_wallets_for_path</qualifiedname>
+        <param>
+          <type>str</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_cli/cli_impl.py" line="441" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_cli/cli_impl.py" bodystart="441" bodyend="449"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__cli_1_1cli__impl_1_1_c_l_i_1ae1c5f617abcdf66abf3fb35c28334b1e" prot="protected" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>List[ &apos;<ref refid="classbittensor_1_1__wallet_1_1wallet" kindref="compound">bittensor.wallet</ref>&apos;]</type>
+        <definition> List[&apos;bittensor.wallet&apos;] bittensor._cli.cli_impl.CLI._get_all_wallets_for_path</definition>
+        <argsstring>(str path)</argsstring>
+        <name>_get_all_wallets_for_path</name>
+        <qualifiedname>bittensor._cli.cli_impl.CLI._get_all_wallets_for_path</qualifiedname>
+        <param>
+          <type>str</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_cli/cli_impl.py" line="451" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_cli/cli_impl.py" bodystart="451" bodyend="458"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Implementation of the CLI class, which handles the coldkey, hotkey and money transfer 
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/Users/macthrasher/bittensor/bittensor/_cli/cli_impl.py" line="34" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_cli/cli_impl.py" bodystart="34" bodyend="895"/>
+    <listofallmembers>
+      <member refid="classbittensor_1_1__cli_1_1cli__impl_1_1_c_l_i_1a2c87386c80c22ee8a63a2d98d233a0f4" prot="public" virt="non-virtual"><scope>bittensor::_cli::cli_impl::CLI</scope><name>__init__</name></member>
+      <member refid="classbittensor_1_1__cli_1_1cli__impl_1_1_c_l_i_1ae1c5f617abcdf66abf3fb35c28334b1e" prot="protected" virt="non-virtual"><scope>bittensor::_cli::cli_impl::CLI</scope><name>_get_all_wallets_for_path</name></member>
+      <member refid="classbittensor_1_1__cli_1_1cli__impl_1_1_c_l_i_1a209fa651b583eee82455f3843afdc493" prot="protected" virt="non-virtual"><scope>bittensor::_cli::cli_impl::CLI</scope><name>_get_coldkey_wallets_for_path</name></member>
+      <member refid="classbittensor_1_1__cli_1_1cli__impl_1_1_c_l_i_1a1f59df46b9a35438460f3c02ee2b2b08" prot="protected" virt="non-virtual"><scope>bittensor::_cli::cli_impl::CLI</scope><name>_get_hotkey_wallets_for_wallet</name></member>
+      <member refid="classbittensor_1_1__cli_1_1cli__impl_1_1_c_l_i_1a3177be63b5e485d029d6026a7c462ba3" prot="public" virt="non-virtual"><scope>bittensor::_cli::cli_impl::CLI</scope><name>config</name></member>
+      <member refid="classbittensor_1_1__cli_1_1cli__impl_1_1_c_l_i_1a6a1192b46449ce24aae1ccd51e35250c" prot="public" virt="non-virtual"><scope>bittensor::_cli::cli_impl::CLI</scope><name>create_new_coldkey</name></member>
+      <member refid="classbittensor_1_1__cli_1_1cli__impl_1_1_c_l_i_1a0548a75ad25967c52cae2d573c9f4030" prot="public" virt="non-virtual"><scope>bittensor::_cli::cli_impl::CLI</scope><name>create_new_hotkey</name></member>
+      <member refid="classbittensor_1_1__cli_1_1cli__impl_1_1_c_l_i_1a687f5e6fd9bca35041218b74703f5e64" prot="public" virt="non-virtual"><scope>bittensor::_cli::cli_impl::CLI</scope><name>full</name></member>
+      <member refid="classbittensor_1_1__cli_1_1cli__impl_1_1_c_l_i_1a73b2ddbde67cc2ee13a10ae2ed0cbbb4" prot="public" virt="non-virtual"><scope>bittensor::_cli::cli_impl::CLI</scope><name>help</name></member>
+      <member refid="classbittensor_1_1__cli_1_1cli__impl_1_1_c_l_i_1ae03172c94947caed1fdc0a5c0a0aa8c2" prot="public" virt="non-virtual"><scope>bittensor::_cli::cli_impl::CLI</scope><name>inspect</name></member>
+      <member refid="classbittensor_1_1__cli_1_1cli__impl_1_1_c_l_i_1a3c09f2ef73d5c05c96cdcd9da0d191de" prot="public" virt="non-virtual"><scope>bittensor::_cli::cli_impl::CLI</scope><name>list</name></member>
+      <member refid="classbittensor_1_1__cli_1_1cli__impl_1_1_c_l_i_1a8f20743c8fbc4ed6a84a277d8a827d71" prot="public" virt="non-virtual"><scope>bittensor::_cli::cli_impl::CLI</scope><name>metagraph</name></member>
+      <member refid="classbittensor_1_1__cli_1_1cli__impl_1_1_c_l_i_1aec87599f88d66cae35b0f26210a14047" prot="public" virt="non-virtual"><scope>bittensor::_cli::cli_impl::CLI</scope><name>overview</name></member>
+      <member refid="classbittensor_1_1__cli_1_1cli__impl_1_1_c_l_i_1a28233e9b884cddde0f4be5de20b6d493" prot="public" virt="non-virtual"><scope>bittensor::_cli::cli_impl::CLI</scope><name>query</name></member>
+      <member refid="classbittensor_1_1__cli_1_1cli__impl_1_1_c_l_i_1a1678121ca05eae53202c00038466d32f" prot="public" virt="non-virtual"><scope>bittensor::_cli::cli_impl::CLI</scope><name>regen_coldkey</name></member>
+      <member refid="classbittensor_1_1__cli_1_1cli__impl_1_1_c_l_i_1a8992d7666e12d1bf8e0ed7ca1c2ebcc4" prot="public" virt="non-virtual"><scope>bittensor::_cli::cli_impl::CLI</scope><name>regen_coldkeypub</name></member>
+      <member refid="classbittensor_1_1__cli_1_1cli__impl_1_1_c_l_i_1afe7ec8989786267bb79bf306ee51042b" prot="public" virt="non-virtual"><scope>bittensor::_cli::cli_impl::CLI</scope><name>regen_hotkey</name></member>
+      <member refid="classbittensor_1_1__cli_1_1cli__impl_1_1_c_l_i_1a0292f3b462e08e9450f1aa0a70091052" prot="public" virt="non-virtual"><scope>bittensor::_cli::cli_impl::CLI</scope><name>register</name></member>
+      <member refid="classbittensor_1_1__cli_1_1cli__impl_1_1_c_l_i_1aefb4bb012305712b2dbbd29545c843ce" prot="public" virt="non-virtual"><scope>bittensor::_cli::cli_impl::CLI</scope><name>run</name></member>
+      <member refid="classbittensor_1_1__cli_1_1cli__impl_1_1_c_l_i_1ab8f83bedd72de6a09c18d896e2e43bd1" prot="public" virt="non-virtual"><scope>bittensor::_cli::cli_impl::CLI</scope><name>run_miner</name></member>
+      <member refid="classbittensor_1_1__cli_1_1cli__impl_1_1_c_l_i_1a8c282110b8cd6b75f5c6232b7f6c11af" prot="public" virt="non-virtual"><scope>bittensor::_cli::cli_impl::CLI</scope><name>set_weights</name></member>
+      <member refid="classbittensor_1_1__cli_1_1cli__impl_1_1_c_l_i_1a6118617aae9e3b42004c164ddf45daa9" prot="public" virt="non-virtual"><scope>bittensor::_cli::cli_impl::CLI</scope><name>stake</name></member>
+      <member refid="classbittensor_1_1__cli_1_1cli__impl_1_1_c_l_i_1ad18bd39035bfdcfc09f3e908d6a7c367" prot="public" virt="non-virtual"><scope>bittensor::_cli::cli_impl::CLI</scope><name>transfer</name></member>
+      <member refid="classbittensor_1_1__cli_1_1cli__impl_1_1_c_l_i_1ac2cec11ea22420a66863fbd13d2b7cb8" prot="public" virt="non-virtual"><scope>bittensor::_cli::cli_impl::CLI</scope><name>unstake</name></member>
+      <member refid="classbittensor_1_1__cli_1_1cli__impl_1_1_c_l_i_1a81836a50bb6f722fec22cebe496be832" prot="public" virt="non-virtual"><scope>bittensor::_cli::cli_impl::CLI</scope><name>update</name></member>
+      <member refid="classbittensor_1_1__cli_1_1cli__impl_1_1_c_l_i_1a358ad8ed4e81c8d04fd6625ede838e58" prot="public" virt="non-virtual"><scope>bittensor::_cli::cli_impl::CLI</scope><name>weights</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

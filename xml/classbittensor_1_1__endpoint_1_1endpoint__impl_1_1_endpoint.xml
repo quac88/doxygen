@@ -1,0 +1,382 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint" kind="class" language="Python" prot="public">
+    <compoundname>bittensor::_endpoint::endpoint_impl::Endpoint</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint_1a7a9927f99a948d0b20892ba52a62c770" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._endpoint.endpoint_impl.Endpoint::version</definition>
+        <argsstring></argsstring>
+        <name>version</name>
+        <qualifiedname>bittensor._endpoint.endpoint_impl.Endpoint.version</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_endpoint/endpoint_impl.py" line="38" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_endpoint/endpoint_impl.py" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint_1a0ae60a0de59e326142a45bed64c10ee9" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._endpoint.endpoint_impl.Endpoint::uid</definition>
+        <argsstring></argsstring>
+        <name>uid</name>
+        <qualifiedname>bittensor._endpoint.endpoint_impl.Endpoint.uid</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_endpoint/endpoint_impl.py" line="39" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_endpoint/endpoint_impl.py" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint_1a1be6eb32331288fd64cc8051efefe6aa" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._endpoint.endpoint_impl.Endpoint::hotkey</definition>
+        <argsstring></argsstring>
+        <name>hotkey</name>
+        <qualifiedname>bittensor._endpoint.endpoint_impl.Endpoint.hotkey</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_endpoint/endpoint_impl.py" line="40" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_endpoint/endpoint_impl.py" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint_1a61841e68e74f7d5821d3598afed235f7" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._endpoint.endpoint_impl.Endpoint::ip</definition>
+        <argsstring></argsstring>
+        <name>ip</name>
+        <qualifiedname>bittensor._endpoint.endpoint_impl.Endpoint.ip</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_endpoint/endpoint_impl.py" line="41" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_endpoint/endpoint_impl.py" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint_1acdd16a7abbd37e7c1f5ad5fb0e3d78e0" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._endpoint.endpoint_impl.Endpoint::ip_type</definition>
+        <argsstring></argsstring>
+        <name>ip_type</name>
+        <qualifiedname>bittensor._endpoint.endpoint_impl.Endpoint.ip_type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_endpoint/endpoint_impl.py" line="42" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_endpoint/endpoint_impl.py" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint_1a5815f52e608f016a0360234b1c390593" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._endpoint.endpoint_impl.Endpoint::port</definition>
+        <argsstring></argsstring>
+        <name>port</name>
+        <qualifiedname>bittensor._endpoint.endpoint_impl.Endpoint.port</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_endpoint/endpoint_impl.py" line="43" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_endpoint/endpoint_impl.py" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint_1af22a7a4419e7225f7a45a6a9c07883ec" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._endpoint.endpoint_impl.Endpoint::coldkey</definition>
+        <argsstring></argsstring>
+        <name>coldkey</name>
+        <qualifiedname>bittensor._endpoint.endpoint_impl.Endpoint.coldkey</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_endpoint/endpoint_impl.py" line="44" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_endpoint/endpoint_impl.py" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint_1a843d0491ac657a4124aa7efb62867e05" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._endpoint.endpoint_impl.Endpoint::modality</definition>
+        <argsstring></argsstring>
+        <name>modality</name>
+        <qualifiedname>bittensor._endpoint.endpoint_impl.Endpoint.modality</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_endpoint/endpoint_impl.py" line="45" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_endpoint/endpoint_impl.py" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint_1a99961bc0e0e8cf11181f147ae3540b05" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._endpoint.endpoint_impl.Endpoint.__init__</definition>
+        <argsstring>(self, int version, int uid, str hotkey, str ip, int ip_type, int port, int modality, str coldkey)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>bittensor._endpoint.endpoint_impl.Endpoint.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>version</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>uid</declname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>hotkey</declname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>ip</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>ip_type</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>port</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>modality</declname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>coldkey</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_endpoint/endpoint_impl.py" line="37" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_endpoint/endpoint_impl.py" bodystart="37" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint_1a3a8356af525e51486afb913e62d28cb6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._endpoint.endpoint_impl.Endpoint.assert_format</definition>
+        <argsstring>(self)</argsstring>
+        <name>assert_format</name>
+        <qualifiedname>bittensor._endpoint.endpoint_impl.Endpoint.assert_format</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Asserts that the endpoint has a valid format
+    Raises:
+        Multiple assertion errors.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_endpoint/endpoint_impl.py" line="48" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_endpoint/endpoint_impl.py" bodystart="48" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint_1ae4024209df77060f20fafde20fa7fd76" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool bittensor._endpoint.endpoint_impl.Endpoint.is_serving</definition>
+        <argsstring>(self)</argsstring>
+        <name>is_serving</name>
+        <qualifiedname>bittensor._endpoint.endpoint_impl.Endpoint.is_serving</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> True if the endpoint is serving.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_endpoint/endpoint_impl.py" line="64" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_endpoint/endpoint_impl.py" bodystart="64" bodyend="71"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint_1a93fcc171a63deaa711b82900112af980" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool bittensor._endpoint.endpoint_impl.Endpoint.check_format</definition>
+        <argsstring>(self)</argsstring>
+        <name>check_format</name>
+        <qualifiedname>bittensor._endpoint.endpoint_impl.Endpoint.check_format</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Checks that the endpoint has a valid format.
+    Raises:
+        is_valid_format (bool):
+            True if the endpoint has a valid format.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_endpoint/endpoint_impl.py" line="72" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_endpoint/endpoint_impl.py" bodystart="72" bodyend="106"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint_1a97cd40c5509f3153b227b10e1dbb89d4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>torch.LongTensor</type>
+        <definition> torch.LongTensor bittensor._endpoint.endpoint_impl.Endpoint.to_tensor</definition>
+        <argsstring>(self)</argsstring>
+        <name>to_tensor</name>
+        <qualifiedname>bittensor._endpoint.endpoint_impl.Endpoint.to_tensor</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Return the specification of an endpoint as a tensor
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_endpoint/endpoint_impl.py" line="107" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_endpoint/endpoint_impl.py" bodystart="107" bodyend="118"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint_1a63b1d4a87e336c520cb29a39c62cbbc3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._endpoint.endpoint_impl.Endpoint.dumps</definition>
+        <argsstring>(self)</argsstring>
+        <name>dumps</name>
+        <qualifiedname>bittensor._endpoint.endpoint_impl.Endpoint.dumps</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Return json with the endpoints&apos;s specification
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_endpoint/endpoint_impl.py" line="119" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_endpoint/endpoint_impl.py" bodystart="119" bodyend="133"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint_1a649e0672e7f9ef9e582e90b4f55d43cf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str bittensor._endpoint.endpoint_impl.Endpoint.ip_str</definition>
+        <argsstring>(self)</argsstring>
+        <name>ip_str</name>
+        <qualifiedname>bittensor._endpoint.endpoint_impl.Endpoint.ip_str</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Return the whole ip as string
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_endpoint/endpoint_impl.py" line="134" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_endpoint/endpoint_impl.py" bodystart="134" bodyend="138"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint_1a9cd59696ed1cd7fce83ae8e3a96cf7a7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._endpoint.endpoint_impl.Endpoint.__eq__</definition>
+        <argsstring>(self, &apos;Endpoint&apos; other)</argsstring>
+        <name>__eq__</name>
+        <qualifiedname>bittensor._endpoint.endpoint_impl.Endpoint.__eq__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>&apos;<ref refid="classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint" kindref="compound">Endpoint</ref>&apos;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_endpoint/endpoint_impl.py" line="139" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_endpoint/endpoint_impl.py" bodystart="139" bodyend="146"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint_1a6d4f0f44ad4613f5ebe383fcdad6f7ab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._endpoint.endpoint_impl.Endpoint.__str__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__str__</name>
+        <qualifiedname>bittensor._endpoint.endpoint_impl.Endpoint.__str__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_endpoint/endpoint_impl.py" line="147" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_endpoint/endpoint_impl.py" bodystart="147" bodyend="149"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint_1a0b6e26c5206312c76e8c3a4ad85015f7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._endpoint.endpoint_impl.Endpoint.__repr__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__repr__</name>
+        <qualifiedname>bittensor._endpoint.endpoint_impl.Endpoint.__repr__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_endpoint/endpoint_impl.py" line="150" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_endpoint/endpoint_impl.py" bodystart="150" bodyend="152"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim> Implementation of an endpoint object, with attr hotkey, coldkey, modality and ip
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/Users/macthrasher/bittensor/bittensor/_endpoint/endpoint_impl.py" line="34" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_endpoint/endpoint_impl.py" bodystart="34" bodyend="152"/>
+    <listofallmembers>
+      <member refid="classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint_1a9cd59696ed1cd7fce83ae8e3a96cf7a7" prot="public" virt="non-virtual"><scope>bittensor::_endpoint::endpoint_impl::Endpoint</scope><name>__eq__</name></member>
+      <member refid="classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint_1a99961bc0e0e8cf11181f147ae3540b05" prot="public" virt="non-virtual"><scope>bittensor::_endpoint::endpoint_impl::Endpoint</scope><name>__init__</name></member>
+      <member refid="classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint_1a0b6e26c5206312c76e8c3a4ad85015f7" prot="public" virt="non-virtual"><scope>bittensor::_endpoint::endpoint_impl::Endpoint</scope><name>__repr__</name></member>
+      <member refid="classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint_1a6d4f0f44ad4613f5ebe383fcdad6f7ab" prot="public" virt="non-virtual"><scope>bittensor::_endpoint::endpoint_impl::Endpoint</scope><name>__str__</name></member>
+      <member refid="classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint_1a3a8356af525e51486afb913e62d28cb6" prot="public" virt="non-virtual"><scope>bittensor::_endpoint::endpoint_impl::Endpoint</scope><name>assert_format</name></member>
+      <member refid="classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint_1a93fcc171a63deaa711b82900112af980" prot="public" virt="non-virtual"><scope>bittensor::_endpoint::endpoint_impl::Endpoint</scope><name>check_format</name></member>
+      <member refid="classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint_1af22a7a4419e7225f7a45a6a9c07883ec" prot="public" virt="non-virtual"><scope>bittensor::_endpoint::endpoint_impl::Endpoint</scope><name>coldkey</name></member>
+      <member refid="classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint_1a63b1d4a87e336c520cb29a39c62cbbc3" prot="public" virt="non-virtual"><scope>bittensor::_endpoint::endpoint_impl::Endpoint</scope><name>dumps</name></member>
+      <member refid="classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint_1a1be6eb32331288fd64cc8051efefe6aa" prot="public" virt="non-virtual"><scope>bittensor::_endpoint::endpoint_impl::Endpoint</scope><name>hotkey</name></member>
+      <member refid="classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint_1a61841e68e74f7d5821d3598afed235f7" prot="public" virt="non-virtual"><scope>bittensor::_endpoint::endpoint_impl::Endpoint</scope><name>ip</name></member>
+      <member refid="classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint_1a649e0672e7f9ef9e582e90b4f55d43cf" prot="public" virt="non-virtual"><scope>bittensor::_endpoint::endpoint_impl::Endpoint</scope><name>ip_str</name></member>
+      <member refid="classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint_1acdd16a7abbd37e7c1f5ad5fb0e3d78e0" prot="public" virt="non-virtual"><scope>bittensor::_endpoint::endpoint_impl::Endpoint</scope><name>ip_type</name></member>
+      <member refid="classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint_1ae4024209df77060f20fafde20fa7fd76" prot="public" virt="non-virtual"><scope>bittensor::_endpoint::endpoint_impl::Endpoint</scope><name>is_serving</name></member>
+      <member refid="classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint_1a843d0491ac657a4124aa7efb62867e05" prot="public" virt="non-virtual"><scope>bittensor::_endpoint::endpoint_impl::Endpoint</scope><name>modality</name></member>
+      <member refid="classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint_1a5815f52e608f016a0360234b1c390593" prot="public" virt="non-virtual"><scope>bittensor::_endpoint::endpoint_impl::Endpoint</scope><name>port</name></member>
+      <member refid="classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint_1a97cd40c5509f3153b227b10e1dbb89d4" prot="public" virt="non-virtual"><scope>bittensor::_endpoint::endpoint_impl::Endpoint</scope><name>to_tensor</name></member>
+      <member refid="classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint_1a0ae60a0de59e326142a45bed64c10ee9" prot="public" virt="non-virtual"><scope>bittensor::_endpoint::endpoint_impl::Endpoint</scope><name>uid</name></member>
+      <member refid="classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint_1a7a9927f99a948d0b20892ba52a62c770" prot="public" virt="non-virtual"><scope>bittensor::_endpoint::endpoint_impl::Endpoint</scope><name>version</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,203 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="classbittensor_1_1__subtensor_1_1subtensor" kind="class" language="Python" prot="public">
+    <compoundname>bittensor::_subtensor::subtensor</compoundname>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classbittensor_1_1__subtensor_1_1subtensor_1a9094f0afe953e3b39c1482174175ce22" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type> &apos;<ref refid="classbittensor_1_1__subtensor_1_1subtensor__impl_1_1_subtensor" kindref="compound">bittensor.Subtensor</ref>&apos;</type>
+        <definition> &apos;bittensor.Subtensor&apos; bittensor._subtensor.subtensor.__new__</definition>
+        <argsstring>(cls, &apos;bittensor.config&apos; config=None, str network=None, str chain_endpoint=None, bool _mock=None)</argsstring>
+        <name>__new__</name>
+        <qualifiedname>bittensor._subtensor.subtensor.__new__</qualifiedname>
+        <param>
+          <type>cls</type>
+          <defname>cls</defname>
+        </param>
+        <param>
+          <type>&apos;<ref refid="classbittensor_1_1__config_1_1config" kindref="compound">bittensor.config</ref>&apos;</type>
+          <declname>config</declname>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>network</declname>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>chain_endpoint</declname>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>_mock</declname>
+          <defval>None</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Initializes a subtensor chain interface.
+        Args:
+            config (:obj:`bittensor.Config`, `optional`): 
+                bittensor.subtensor.config()
+            network (default=&apos;local&apos;, type=str)
+                The subtensor network flag. The likely choices are:
+                        -- local (local running network)
+                        -- nakamoto (main network)
+                        -- nobunaga (staging network)
+                        -- mock (mock network for testing.)
+                If this option is set it overloads subtensor.chain_endpoint with 
+                an entry point node from that network.
+            chain_endpoint (default=None, type=str)
+                The subtensor endpoint flag. If set, overrides the network argument.
+            _mock (bool, `optional`):
+                Returned object is mocks the underlying chain connection.</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_subtensor/__init__.py" line="74" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_subtensor/__init__.py" bodystart="80" bodyend="159"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__subtensor_1_1subtensor_1aa334fe4e5112e8fa64a2bf255d02dd23" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._subtensor.subtensor.help</definition>
+        <argsstring>(cls)</argsstring>
+        <name>help</name>
+        <qualifiedname>bittensor._subtensor.subtensor.help</qualifiedname>
+        <param>
+          <type>cls</type>
+          <defname>cls</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Print help to stdout
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_subtensor/__init__.py" line="167" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_subtensor/__init__.py" bodystart="167" bodyend="174"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__subtensor_1_1subtensor_1ab2a96f88c69af04bf2f0cab8c46445d4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._subtensor.subtensor.add_args</definition>
+        <argsstring>(cls, argparse.ArgumentParser parser, str prefix=None)</argsstring>
+        <name>add_args</name>
+        <qualifiedname>bittensor._subtensor.subtensor.add_args</qualifiedname>
+        <param>
+          <type>cls</type>
+          <defname>cls</defname>
+        </param>
+        <param>
+          <type>argparse.ArgumentParser</type>
+          <declname>parser</declname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>prefix</declname>
+          <defval>None</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_subtensor/__init__.py" line="176" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_subtensor/__init__.py" bodystart="176" bodyend="208"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__subtensor_1_1subtensor_1a183604333b50b2f333de25a9342e4281" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._subtensor.subtensor.add_defaults</definition>
+        <argsstring>(cls, defaults)</argsstring>
+        <name>add_defaults</name>
+        <qualifiedname>bittensor._subtensor.subtensor.add_defaults</qualifiedname>
+        <param>
+          <type>cls</type>
+          <defname>cls</defname>
+        </param>
+        <param>
+          <type>defaults</type>
+          <defname>defaults</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Adds parser defaults to object from enviroment variables.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_subtensor/__init__.py" line="210" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_subtensor/__init__.py" bodystart="210" bodyend="230"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classbittensor_1_1__subtensor_1_1subtensor_1a286524719d01e54533c069abddcf8a85" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type> &apos;<ref refid="classbittensor_1_1__config_1_1config__impl_1_1_config" kindref="compound">bittensor.Config</ref>&apos;</type>
+        <definition> &apos;bittensor.Config&apos; bittensor._subtensor.subtensor.config</definition>
+        <argsstring>()</argsstring>
+        <name>config</name>
+        <qualifiedname>bittensor._subtensor.subtensor.config</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_subtensor/__init__.py" line="161" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_subtensor/__init__.py" bodystart="161" bodyend="165"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__subtensor_1_1subtensor_1a6657bce6e30ffa7c95ec0b4a1b0b19fd" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._subtensor.subtensor.check_config</definition>
+        <argsstring>(&apos;bittensor.Config&apos; config)</argsstring>
+        <name>check_config</name>
+        <qualifiedname>bittensor._subtensor.subtensor.check_config</qualifiedname>
+        <param>
+          <type>&apos;<ref refid="classbittensor_1_1__config_1_1config__impl_1_1_config" kindref="compound">bittensor.Config</ref>&apos;</type>
+          <declname>config</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_subtensor/__init__.py" line="232" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_subtensor/__init__.py" bodystart="232" bodyend="247"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__subtensor_1_1subtensor_1a4db3daf82de5826e62e47e56768eb700" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._subtensor.subtensor.determine_chain_endpoint</definition>
+        <argsstring>(str network)</argsstring>
+        <name>determine_chain_endpoint</name>
+        <qualifiedname>bittensor._subtensor.subtensor.determine_chain_endpoint</qualifiedname>
+        <param>
+          <type>str</type>
+          <declname>network</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_subtensor/__init__.py" line="249" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_subtensor/__init__.py" bodystart="249" bodyend="266"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Factory Class for both bittensor.Subtensor and Mock_Subtensor Classes
+
+The Subtensor class handles interactions with the substrate subtensor chain.
+By default, the Subtensor class connects to the Nakamoto which serves as the main bittensor network.</verbatim> </para>
+    </detaileddescription>
+    <location file="/Users/macthrasher/bittensor/bittensor/_subtensor/__init__.py" line="66" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_subtensor/__init__.py" bodystart="66" bodyend="266"/>
+    <listofallmembers>
+      <member refid="classbittensor_1_1__subtensor_1_1subtensor_1a9094f0afe953e3b39c1482174175ce22" prot="public" virt="non-virtual"><scope>bittensor::_subtensor::subtensor</scope><name>__new__</name></member>
+      <member refid="classbittensor_1_1__subtensor_1_1subtensor_1ab2a96f88c69af04bf2f0cab8c46445d4" prot="public" virt="non-virtual"><scope>bittensor::_subtensor::subtensor</scope><name>add_args</name></member>
+      <member refid="classbittensor_1_1__subtensor_1_1subtensor_1a183604333b50b2f333de25a9342e4281" prot="public" virt="non-virtual"><scope>bittensor::_subtensor::subtensor</scope><name>add_defaults</name></member>
+      <member refid="classbittensor_1_1__subtensor_1_1subtensor_1a6657bce6e30ffa7c95ec0b4a1b0b19fd" prot="public" virt="non-virtual"><scope>bittensor::_subtensor::subtensor</scope><name>check_config</name></member>
+      <member refid="classbittensor_1_1__subtensor_1_1subtensor_1a286524719d01e54533c069abddcf8a85" prot="public" virt="non-virtual"><scope>bittensor::_subtensor::subtensor</scope><name>config</name></member>
+      <member refid="classbittensor_1_1__subtensor_1_1subtensor_1a4db3daf82de5826e62e47e56768eb700" prot="public" virt="non-virtual"><scope>bittensor::_subtensor::subtensor</scope><name>determine_chain_endpoint</name></member>
+      <member refid="classbittensor_1_1__subtensor_1_1subtensor_1aa334fe4e5112e8fa64a2bf255d02dd23" prot="public" virt="non-virtual"><scope>bittensor::_subtensor::subtensor</scope><name>help</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

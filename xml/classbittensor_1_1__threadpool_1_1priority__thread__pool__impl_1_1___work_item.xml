@@ -1,0 +1,175 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="classbittensor_1_1__threadpool_1_1priority__thread__pool__impl_1_1___work_item" kind="class" language="Python" prot="public">
+    <compoundname>bittensor::_threadpool::priority_thread_pool_impl::_WorkItem</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">object</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classbittensor_1_1__threadpool_1_1priority__thread__pool__impl_1_1___work_item_1a54470d37f028614683bbe09483978efc" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._threadpool.priority_thread_pool_impl._WorkItem::future</definition>
+        <argsstring></argsstring>
+        <name>future</name>
+        <qualifiedname>bittensor._threadpool.priority_thread_pool_impl._WorkItem.future</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_threadpool/priority_thread_pool_impl.py" line="40" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_threadpool/priority_thread_pool_impl.py" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__threadpool_1_1priority__thread__pool__impl_1_1___work_item_1a6bb183bd7bc1ff8d0dec69755ec90b62" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._threadpool.priority_thread_pool_impl._WorkItem::fn</definition>
+        <argsstring></argsstring>
+        <name>fn</name>
+        <qualifiedname>bittensor._threadpool.priority_thread_pool_impl._WorkItem.fn</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_threadpool/priority_thread_pool_impl.py" line="41" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_threadpool/priority_thread_pool_impl.py" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__threadpool_1_1priority__thread__pool__impl_1_1___work_item_1aea989c7b3b7f62fdc3615f52a6550c46" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._threadpool.priority_thread_pool_impl._WorkItem::start_time</definition>
+        <argsstring></argsstring>
+        <name>start_time</name>
+        <qualifiedname>bittensor._threadpool.priority_thread_pool_impl._WorkItem.start_time</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_threadpool/priority_thread_pool_impl.py" line="42" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_threadpool/priority_thread_pool_impl.py" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__threadpool_1_1priority__thread__pool__impl_1_1___work_item_1ad1cc67d0031fe4c80454bff84fbb74dc" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._threadpool.priority_thread_pool_impl._WorkItem::args</definition>
+        <argsstring></argsstring>
+        <name>args</name>
+        <qualifiedname>bittensor._threadpool.priority_thread_pool_impl._WorkItem.args</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_threadpool/priority_thread_pool_impl.py" line="43" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_threadpool/priority_thread_pool_impl.py" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__threadpool_1_1priority__thread__pool__impl_1_1___work_item_1a85315df51dddd468c835a602c9eefce3" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._threadpool.priority_thread_pool_impl._WorkItem::kwargs</definition>
+        <argsstring></argsstring>
+        <name>kwargs</name>
+        <qualifiedname>bittensor._threadpool.priority_thread_pool_impl._WorkItem.kwargs</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_threadpool/priority_thread_pool_impl.py" line="44" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_threadpool/priority_thread_pool_impl.py" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classbittensor_1_1__threadpool_1_1priority__thread__pool__impl_1_1___work_item_1af6f561365090a4eede0c125c724f31a5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._threadpool.priority_thread_pool_impl._WorkItem.__init__</definition>
+        <argsstring>(self, future, fn, start_time, args, kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>bittensor._threadpool.priority_thread_pool_impl._WorkItem.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>future</type>
+          <defname>future</defname>
+        </param>
+        <param>
+          <type>fn</type>
+          <defname>fn</defname>
+        </param>
+        <param>
+          <type>start_time</type>
+          <defname>start_time</defname>
+        </param>
+        <param>
+          <type>args</type>
+          <defname>args</defname>
+        </param>
+        <param>
+          <type>kwargs</type>
+          <defname>kwargs</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_threadpool/priority_thread_pool_impl.py" line="39" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_threadpool/priority_thread_pool_impl.py" bodystart="39" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__threadpool_1_1priority__thread__pool__impl_1_1___work_item_1abe2a47ebd9ed85653be4e6ecea488d36" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._threadpool.priority_thread_pool_impl._WorkItem.run</definition>
+        <argsstring>(self)</argsstring>
+        <name>run</name>
+        <qualifiedname>bittensor._threadpool.priority_thread_pool_impl._WorkItem.run</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Run the given work item
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_threadpool/priority_thread_pool_impl.py" line="46" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_threadpool/priority_thread_pool_impl.py" bodystart="46" bodyend="62"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>bittensor._threadpool.priority_thread_pool_impl._WorkItem</label>
+        <link refid="classbittensor_1_1__threadpool_1_1priority__thread__pool__impl_1_1___work_item"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>object</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>bittensor._threadpool.priority_thread_pool_impl._WorkItem</label>
+        <link refid="classbittensor_1_1__threadpool_1_1priority__thread__pool__impl_1_1___work_item"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>object</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/macthrasher/bittensor/bittensor/_threadpool/priority_thread_pool_impl.py" line="38" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_threadpool/priority_thread_pool_impl.py" bodystart="38" bodyend="62"/>
+    <listofallmembers>
+      <member refid="classbittensor_1_1__threadpool_1_1priority__thread__pool__impl_1_1___work_item_1af6f561365090a4eede0c125c724f31a5" prot="public" virt="non-virtual"><scope>bittensor::_threadpool::priority_thread_pool_impl::_WorkItem</scope><name>__init__</name></member>
+      <member refid="classbittensor_1_1__threadpool_1_1priority__thread__pool__impl_1_1___work_item_1ad1cc67d0031fe4c80454bff84fbb74dc" prot="public" virt="non-virtual"><scope>bittensor::_threadpool::priority_thread_pool_impl::_WorkItem</scope><name>args</name></member>
+      <member refid="classbittensor_1_1__threadpool_1_1priority__thread__pool__impl_1_1___work_item_1a6bb183bd7bc1ff8d0dec69755ec90b62" prot="public" virt="non-virtual"><scope>bittensor::_threadpool::priority_thread_pool_impl::_WorkItem</scope><name>fn</name></member>
+      <member refid="classbittensor_1_1__threadpool_1_1priority__thread__pool__impl_1_1___work_item_1a54470d37f028614683bbe09483978efc" prot="public" virt="non-virtual"><scope>bittensor::_threadpool::priority_thread_pool_impl::_WorkItem</scope><name>future</name></member>
+      <member refid="classbittensor_1_1__threadpool_1_1priority__thread__pool__impl_1_1___work_item_1a85315df51dddd468c835a602c9eefce3" prot="public" virt="non-virtual"><scope>bittensor::_threadpool::priority_thread_pool_impl::_WorkItem</scope><name>kwargs</name></member>
+      <member refid="classbittensor_1_1__threadpool_1_1priority__thread__pool__impl_1_1___work_item_1abe2a47ebd9ed85653be4e6ecea488d36" prot="public" virt="non-virtual"><scope>bittensor::_threadpool::priority_thread_pool_impl::_WorkItem</scope><name>run</name></member>
+      <member refid="classbittensor_1_1__threadpool_1_1priority__thread__pool__impl_1_1___work_item_1aea989c7b3b7f62fdc3615f52a6550c46" prot="public" virt="non-virtual"><scope>bittensor::_threadpool::priority_thread_pool_impl::_WorkItem</scope><name>start_time</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

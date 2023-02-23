@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="namespacebittensor_1_1__subtensor" kind="namespace" language="Python">
+    <compoundname>bittensor::_subtensor</compoundname>
+    <innerclass refid="classbittensor_1_1__subtensor_1_1subtensor" prot="public">bittensor::_subtensor::subtensor</innerclass>
+    <innernamespace refid="namespacebittensor_1_1__subtensor_1_1subtensor__impl">bittensor::_subtensor::subtensor_impl</innernamespace>
+    <innernamespace refid="namespacebittensor_1_1__subtensor_1_1subtensor__mock">bittensor::_subtensor::subtensor_mock</innernamespace>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="__subtensor_2____init_____8py_1a4dccd81352b6c81fc7fe9947e8e45a0f" prot="public" static="no" mutable="no">
+        <type>logger</type>
+        <definition>logger bittensor::_subtensor.logger</definition>
+        <argsstring></argsstring>
+        <name>logger</name>
+        <qualifiedname>bittensor._subtensor.logger</qualifiedname>
+        <initializer>=  logger.opt(colors=True)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_subtensor/__init__.py" line="30" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_subtensor/__init__.py" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="__subtensor_2____init_____8py_1a33a9d068261cf0571d5f0fbf1f41816f" prot="private" static="no" mutable="no">
+        <type>dict</type>
+        <definition>dict bittensor::_subtensor.__type_registery__</definition>
+        <argsstring></argsstring>
+        <name>__type_registery__</name>
+        <qualifiedname>bittensor._subtensor.__type_registery__</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_subtensor/__init__.py" line="32" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_subtensor/__init__.py" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="__subtensor_2____init_____8py_1a4961bcc94a5b994a406ac8846c6b4f24" prot="public" static="no" mutable="no">
+        <type>str</type>
+        <definition>str bittensor::_subtensor.GLOBAL_SUBTENSOR_MOCK_PROCESS_NAME</definition>
+        <argsstring></argsstring>
+        <name>GLOBAL_SUBTENSOR_MOCK_PROCESS_NAME</name>
+        <qualifiedname>bittensor._subtensor.GLOBAL_SUBTENSOR_MOCK_PROCESS_NAME</qualifiedname>
+        <initializer>=  &apos;node-<ref refid="classbittensor_1_1__subtensor_1_1subtensor" kindref="compound">subtensor</ref>&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_subtensor/__init__.py" line="64" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_subtensor/__init__.py" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/macthrasher/bittensor/bittensor/_subtensor/__init__.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

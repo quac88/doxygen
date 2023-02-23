@@ -1,0 +1,1016 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="classbittensor_1_1__neuron_1_1text_1_1core__server_1_1nucleus__impl_1_1server" kind="class" language="Python" prot="public">
+    <compoundname>bittensor::_neuron::text::core_server::nucleus_impl::server</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">torch.nn.Module</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classbittensor_1_1__neuron_1_1text_1_1core__server_1_1nucleus__impl_1_1server_1a1fe51e3db9d34b727f1065d635974c4e" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._neuron.text.core_server.nucleus_impl.server::config</definition>
+        <argsstring></argsstring>
+        <name>config</name>
+        <qualifiedname>bittensor._neuron.text.core_server.nucleus_impl.server.config</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_server/nucleus_impl.py" line="58" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_server/nucleus_impl.py" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__neuron_1_1text_1_1core__server_1_1nucleus__impl_1_1server_1a2ea0c9a2c94e7361a527199d06c2e7a7" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._neuron.text.core_server.nucleus_impl.server::std_tokenizer</definition>
+        <argsstring></argsstring>
+        <name>std_tokenizer</name>
+        <qualifiedname>bittensor._neuron.text.core_server.nucleus_impl.server.std_tokenizer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_server/nucleus_impl.py" line="59" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_server/nucleus_impl.py" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__neuron_1_1text_1_1core__server_1_1nucleus__impl_1_1server_1ae899ad3334d1974b0a39a10e30367abf" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._neuron.text.core_server.nucleus_impl.server::device</definition>
+        <argsstring></argsstring>
+        <name>device</name>
+        <qualifiedname>bittensor._neuron.text.core_server.nucleus_impl.server.device</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_server/nucleus_impl.py" line="60" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_server/nucleus_impl.py" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__neuron_1_1text_1_1core__server_1_1nucleus__impl_1_1server_1a58719232feeb83555ed82117b6fa0f0d" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._neuron.text.core_server.nucleus_impl.server::model_name</definition>
+        <argsstring></argsstring>
+        <name>model_name</name>
+        <qualifiedname>bittensor._neuron.text.core_server.nucleus_impl.server.model_name</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_server/nucleus_impl.py" line="63" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_server/nucleus_impl.py" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__neuron_1_1text_1_1core__server_1_1nucleus__impl_1_1server_1a43a711aa5b2f3fb5f3e0444c0b348d2c" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._neuron.text.core_server.nucleus_impl.server::pretrained</definition>
+        <argsstring></argsstring>
+        <name>pretrained</name>
+        <qualifiedname>bittensor._neuron.text.core_server.nucleus_impl.server.pretrained</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_server/nucleus_impl.py" line="64" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_server/nucleus_impl.py" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__neuron_1_1text_1_1core__server_1_1nucleus__impl_1_1server_1a19dd46f7b10bcf825fceef96966c5273" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._neuron.text.core_server.nucleus_impl.server::pre_model</definition>
+        <argsstring></argsstring>
+        <name>pre_model</name>
+        <qualifiedname>bittensor._neuron.text.core_server.nucleus_impl.server.pre_model</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_server/nucleus_impl.py" line="66" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_server/nucleus_impl.py" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__neuron_1_1text_1_1core__server_1_1nucleus__impl_1_1server_1af2fb1f8356881cc49cc3d29e12ab5dfc" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._neuron.text.core_server.nucleus_impl.server::tokenizer</definition>
+        <argsstring></argsstring>
+        <name>tokenizer</name>
+        <qualifiedname>bittensor._neuron.text.core_server.nucleus_impl.server.tokenizer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_server/nucleus_impl.py" line="67" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_server/nucleus_impl.py" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__neuron_1_1text_1_1core__server_1_1nucleus__impl_1_1server_1a9b2ffcddff2457f054c9a8defe165bea" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._neuron.text.core_server.nucleus_impl.server::to_translation_map</definition>
+        <argsstring></argsstring>
+        <name>to_translation_map</name>
+        <qualifiedname>bittensor._neuron.text.core_server.nucleus_impl.server.to_translation_map</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_server/nucleus_impl.py" line="86" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_server/nucleus_impl.py" bodystart="86" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__neuron_1_1text_1_1core__server_1_1nucleus__impl_1_1server_1a98a186d02407406e0600f46340c04cc0" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._neuron.text.core_server.nucleus_impl.server::from_translation_map</definition>
+        <argsstring></argsstring>
+        <name>from_translation_map</name>
+        <qualifiedname>bittensor._neuron.text.core_server.nucleus_impl.server.from_translation_map</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_server/nucleus_impl.py" line="87" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_server/nucleus_impl.py" bodystart="87" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__neuron_1_1text_1_1core__server_1_1nucleus__impl_1_1server_1a21794b8b4d9c313aa791915cc710105d" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._neuron.text.core_server.nucleus_impl.server::split_map_cache</definition>
+        <argsstring></argsstring>
+        <name>split_map_cache</name>
+        <qualifiedname>bittensor._neuron.text.core_server.nucleus_impl.server.split_map_cache</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_server/nucleus_impl.py" line="88" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_server/nucleus_impl.py" bodystart="88" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__neuron_1_1text_1_1core__server_1_1nucleus__impl_1_1server_1ae8c3bbd769bb479e7ee08d86452f4115" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._neuron.text.core_server.nucleus_impl.server::final_dim</definition>
+        <argsstring></argsstring>
+        <name>final_dim</name>
+        <qualifiedname>bittensor._neuron.text.core_server.nucleus_impl.server.final_dim</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_server/nucleus_impl.py" line="101" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_server/nucleus_impl.py" bodystart="101" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__neuron_1_1text_1_1core__server_1_1nucleus__impl_1_1server_1a91f231d0ec2453812dbba74395ace7d5" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._neuron.text.core_server.nucleus_impl.server::pre_dimension</definition>
+        <argsstring></argsstring>
+        <name>pre_dimension</name>
+        <qualifiedname>bittensor._neuron.text.core_server.nucleus_impl.server.pre_dimension</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_server/nucleus_impl.py" line="102" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_server/nucleus_impl.py" bodystart="102" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__neuron_1_1text_1_1core__server_1_1nucleus__impl_1_1server_1aa8d8826166f382eb1e2d2f877010737e" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._neuron.text.core_server.nucleus_impl.server::padding</definition>
+        <argsstring></argsstring>
+        <name>padding</name>
+        <qualifiedname>bittensor._neuron.text.core_server.nucleus_impl.server.padding</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_server/nucleus_impl.py" line="103" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_server/nucleus_impl.py" bodystart="103" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__neuron_1_1text_1_1core__server_1_1nucleus__impl_1_1server_1a8e361a0163795bb84e3ed0c0d8aea22a" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._neuron.text.core_server.nucleus_impl.server::interpolate</definition>
+        <argsstring></argsstring>
+        <name>interpolate</name>
+        <qualifiedname>bittensor._neuron.text.core_server.nucleus_impl.server.interpolate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_server/nucleus_impl.py" line="104" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_server/nucleus_impl.py" bodystart="104" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__neuron_1_1text_1_1core__server_1_1nucleus__impl_1_1server_1a4b00d04e2efafcd5ab2ef09a0f6e95ec" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._neuron.text.core_server.nucleus_impl.server::inter_degree</definition>
+        <argsstring></argsstring>
+        <name>inter_degree</name>
+        <qualifiedname>bittensor._neuron.text.core_server.nucleus_impl.server.inter_degree</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_server/nucleus_impl.py" line="105" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_server/nucleus_impl.py" bodystart="105" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__neuron_1_1text_1_1core__server_1_1nucleus__impl_1_1server_1a0eb233826f22d6a7b03844043ea20102" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._neuron.text.core_server.nucleus_impl.server::checking</definition>
+        <argsstring></argsstring>
+        <name>checking</name>
+        <qualifiedname>bittensor._neuron.text.core_server.nucleus_impl.server.checking</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_server/nucleus_impl.py" line="106" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_server/nucleus_impl.py" bodystart="106" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__neuron_1_1text_1_1core__server_1_1nucleus__impl_1_1server_1a73c162f7a06d87ef824b2da7c1a1cdb0" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._neuron.text.core_server.nucleus_impl.server::mapping_function</definition>
+        <argsstring></argsstring>
+        <name>mapping_function</name>
+        <qualifiedname>bittensor._neuron.text.core_server.nucleus_impl.server.mapping_function</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_server/nucleus_impl.py" line="107" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_server/nucleus_impl.py" bodystart="107" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__neuron_1_1text_1_1core__server_1_1nucleus__impl_1_1server_1a3e684c0f6202d453f185afba381919be" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._neuron.text.core_server.nucleus_impl.server::token_remap</definition>
+        <argsstring></argsstring>
+        <name>token_remap</name>
+        <qualifiedname>bittensor._neuron.text.core_server.nucleus_impl.server.token_remap</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_server/nucleus_impl.py" line="108" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_server/nucleus_impl.py" bodystart="108" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__neuron_1_1text_1_1core__server_1_1nucleus__impl_1_1server_1a24846bd379930a27372f3ae3f3254dc7" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._neuron.text.core_server.nucleus_impl.server::mapping</definition>
+        <argsstring></argsstring>
+        <name>mapping</name>
+        <qualifiedname>bittensor._neuron.text.core_server.nucleus_impl.server.mapping</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_server/nucleus_impl.py" line="111" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_server/nucleus_impl.py" bodystart="111" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__neuron_1_1text_1_1core__server_1_1nucleus__impl_1_1server_1af9d0050ad9132134af85214098b41b8b" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._neuron.text.core_server.nucleus_impl.server::decoder</definition>
+        <argsstring></argsstring>
+        <name>decoder</name>
+        <qualifiedname>bittensor._neuron.text.core_server.nucleus_impl.server.decoder</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_server/nucleus_impl.py" line="113" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_server/nucleus_impl.py" bodystart="113" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__neuron_1_1text_1_1core__server_1_1nucleus__impl_1_1server_1a499385f44e3a8639cb02a41a18adf969" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._neuron.text.core_server.nucleus_impl.server::loss_fct</definition>
+        <argsstring></argsstring>
+        <name>loss_fct</name>
+        <qualifiedname>bittensor._neuron.text.core_server.nucleus_impl.server.loss_fct</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_server/nucleus_impl.py" line="114" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_server/nucleus_impl.py" bodystart="114" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__neuron_1_1text_1_1core__server_1_1nucleus__impl_1_1server_1afe16b8513b5fabcce755942de484b263" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._neuron.text.core_server.nucleus_impl.server::outputs_cache</definition>
+        <argsstring></argsstring>
+        <name>outputs_cache</name>
+        <qualifiedname>bittensor._neuron.text.core_server.nucleus_impl.server.outputs_cache</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_server/nucleus_impl.py" line="116" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_server/nucleus_impl.py" bodystart="116" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__neuron_1_1text_1_1core__server_1_1nucleus__impl_1_1server_1aa712efaf2ecfee34c71ed605fa316533" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._neuron.text.core_server.nucleus_impl.server::gradients_cache</definition>
+        <argsstring></argsstring>
+        <name>gradients_cache</name>
+        <qualifiedname>bittensor._neuron.text.core_server.nucleus_impl.server.gradients_cache</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_server/nucleus_impl.py" line="117" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_server/nucleus_impl.py" bodystart="117" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__neuron_1_1text_1_1core__server_1_1nucleus__impl_1_1server_1a4bb4e0ae1dd2ad2978d301a89075b92b" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._neuron.text.core_server.nucleus_impl.server::best_loss</definition>
+        <argsstring></argsstring>
+        <name>best_loss</name>
+        <qualifiedname>bittensor._neuron.text.core_server.nucleus_impl.server.best_loss</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_server/nucleus_impl.py" line="118" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_server/nucleus_impl.py" bodystart="118" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__neuron_1_1text_1_1core__server_1_1nucleus__impl_1_1server_1a0ebc1b62937f368ec16fc15fba2e6731" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._neuron.text.core_server.nucleus_impl.server::best_remote_loss</definition>
+        <argsstring></argsstring>
+        <name>best_remote_loss</name>
+        <qualifiedname>bittensor._neuron.text.core_server.nucleus_impl.server.best_remote_loss</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_server/nucleus_impl.py" line="119" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_server/nucleus_impl.py" bodystart="119" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__neuron_1_1text_1_1core__server_1_1nucleus__impl_1_1server_1a88e13af700b009f4414388f50bc03c1d" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._neuron.text.core_server.nucleus_impl.server::backward_gradients_count</definition>
+        <argsstring></argsstring>
+        <name>backward_gradients_count</name>
+        <qualifiedname>bittensor._neuron.text.core_server.nucleus_impl.server.backward_gradients_count</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_server/nucleus_impl.py" line="126" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_server/nucleus_impl.py" bodystart="126" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__neuron_1_1text_1_1core__server_1_1nucleus__impl_1_1server_1a896fad140124878a2ddf5d34f6467546" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._neuron.text.core_server.nucleus_impl.server::remote_losses</definition>
+        <argsstring></argsstring>
+        <name>remote_losses</name>
+        <qualifiedname>bittensor._neuron.text.core_server.nucleus_impl.server.remote_losses</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_server/nucleus_impl.py" line="127" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_server/nucleus_impl.py" bodystart="127" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classbittensor_1_1__neuron_1_1text_1_1core__server_1_1nucleus__impl_1_1server_1a6132e85ef58f7a42c1fe91a77ce700d7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._neuron.text.core_server.nucleus_impl.server.__init__</definition>
+        <argsstring>(self, &apos;bittensor.config&apos; config=None, bool pretrained=None, str model_name=None, bool padding=None, bool interpolate=None, str inter_degree=None, model=None, tokenizer=None, mapping_function=None, token_remap=None, checking=None)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>bittensor._neuron.text.core_server.nucleus_impl.server.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>&apos;<ref refid="classbittensor_1_1__config_1_1config" kindref="compound">bittensor.config</ref>&apos;</type>
+          <declname>config</declname>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>pretrained</declname>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>model_name</declname>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>padding</declname>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>interpolate</declname>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>inter_degree</declname>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type>model</type>
+          <defname>model</defname>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type><ref refid="classbittensor_1_1__tokenizer_1_1tokenizer" kindref="compound">tokenizer</ref></type>
+          <defname>tokenizer</defname>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type>mapping_function</type>
+          <defname>mapping_function</defname>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type>token_remap</type>
+          <defname>token_remap</defname>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type>checking</type>
+          <defname>checking</defname>
+          <defval>None</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>&quot; Creates a server that serves up a pretrained miner on the bittensor network
+Args:
+        config (:obj:`bittensor.Config`, `required`): 
+            bittensor.server.config()
+        pretrained (:obj:bool , `optional`):
+            if the model should pretrained or not
+        model_name (:obj:string , `optional`):
+            name of the pretrained model from huggingface to use
+        padding (:obj:bool, `optional`):
+            If the server should pad out to match the hidden units that the bittensor network is using
+            If set to False, it will instead create a mapping layer to do the same thing.
+        interpolate (:obj:bool, `optional`):
+            If the server should interpolate between sequence length differences.
+            If set to false, there should be a mapping function that takes care of the differnces
+        inter_degree (:obj:str, `optional`):
+            The Interpolate algorithm (nearest | linear | bilinear | bicubic | trilinear | area)
+        model (:obj:torch.module, `optional`):
+            Overrides the huggingface pretrained model with your own pretrained model
+        tokenizer (:obj:huggingface.tokenizer, `optional`):
+            Overrides the huggingface tokenizer with your tokenizer
+        mapping_function (:obj:Callable, `optional`):
+            Custom mapping function that maps between sequence length differences between tokenizers
+        token_remap (:obj:Callable, `optional`):
+            Custom function that maps between tokenizers (defaults to self.remapping_token)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_server/nucleus_impl.py" line="19" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_server/nucleus_impl.py" bodystart="30" bodyend="128"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__neuron_1_1text_1_1core__server_1_1nucleus__impl_1_1server_1a614100716e4fce09e4e00b12ee6ef1f5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Tuple[bool, str]</type>
+        <definition> Tuple[bool, str] bittensor._neuron.text.core_server.nucleus_impl.server.set_fine_tuning_params</definition>
+        <argsstring>(self)</argsstring>
+        <name>set_fine_tuning_params</name>
+        <qualifiedname>bittensor._neuron.text.core_server.nucleus_impl.server.set_fine_tuning_params</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Set to tune only the parameter of the last layer
+    Returns: 
+        reached_last_layer (:type:`bool`):
+            If we have set partial of the model to requires grad.
+        
+        last_layer_name (:type:`string`):
+            The name of the last layer that user specified or we found.
+            None if the user did not specify and we couldnt find it. 
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_server/nucleus_impl.py" line="129" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_server/nucleus_impl.py" bodystart="129" bodyend="193"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__neuron_1_1text_1_1core__server_1_1nucleus__impl_1_1server_1a62d78b2d208bf64fb184ce6dff244949" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._neuron.text.core_server.nucleus_impl.server.remapping_token</definition>
+        <argsstring>(self, token_batch, std_tokenizer=None, return_offsets_mapping=False)</argsstring>
+        <name>remapping_token</name>
+        <qualifiedname>bittensor._neuron.text.core_server.nucleus_impl.server.remapping_token</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>token_batch</type>
+          <defname>token_batch</defname>
+        </param>
+        <param>
+          <type>std_tokenizer</type>
+          <defname>std_tokenizer</defname>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type>return_offsets_mapping</type>
+          <defname>return_offsets_mapping</defname>
+          <defval>False</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Tokenizer remapping; decodes the message and then remaps the message using a new tokenizer
+    Args:
+        token_batch ( :obj:`torch.LongTensor`, `required`):
+            token_batch to be retokenized, [batch_size, sequence_len]
+        std_tokenizer ( :obj:`transformers.Tokenizer`, `optional`):
+            The standard tokenizer which was used to tokenize the input.
+        return_offsets_mapping ( :obj:`bool`, `required`):
+            Return offsets_mapping in tokenization to delineate token segment positions.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_server/nucleus_impl.py" line="194" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_server/nucleus_impl.py" bodystart="194" bodyend="223"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__neuron_1_1text_1_1core__server_1_1nucleus__impl_1_1server_1ae1bba88e9b29c127cc9086eafa8ccb38" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._neuron.text.core_server.nucleus_impl.server.forward</definition>
+        <argsstring>(self, inputs, tokenizer=None)</argsstring>
+        <name>forward</name>
+        <qualifiedname>bittensor._neuron.text.core_server.nucleus_impl.server.forward</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>inputs</type>
+          <defname>inputs</defname>
+        </param>
+        <param>
+          <type><ref refid="classbittensor_1_1__tokenizer_1_1tokenizer" kindref="compound">tokenizer</ref></type>
+          <defname>tokenizer</defname>
+          <defval>None</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>    Forward pass through the whole server model. Returns the loss and decoded predictions.
+
+    Args:
+        inputs ( :obj:`torch.Tensor`, `required`):
+            torch inputs to be forward processed.
+        tokenizer (:obj:&apos;huggingface.tokenizer&apos;, optional):
+            The tokenizer which was used to tokenize the inputs
+     Returns:
+        loss (:obj:`torch.FloatTensor`):
+            MLM loss from the inputs
+        decoded_targets (:obj:`torch.FloatTensor`):
+            Decoded predictions of the next token in the sentence.</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_server/nucleus_impl.py" line="224" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_server/nucleus_impl.py" bodystart="224" bodyend="246"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__neuron_1_1text_1_1core__server_1_1nucleus__impl_1_1server_1a6638393fba593635bf489b0575b80752" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._neuron.text.core_server.nucleus_impl.server.local_forward</definition>
+        <argsstring>(self, token_batch, tokenizer=None, encode_len=bittensor.__network_dim__, model_output=None)</argsstring>
+        <name>local_forward</name>
+        <qualifiedname>bittensor._neuron.text.core_server.nucleus_impl.server.local_forward</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>token_batch</type>
+          <defname>token_batch</defname>
+        </param>
+        <param>
+          <type><ref refid="classbittensor_1_1__tokenizer_1_1tokenizer" kindref="compound">tokenizer</ref></type>
+          <defname>tokenizer</defname>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type>encode_len</type>
+          <defname>encode_len</defname>
+          <defval>bittensor.__network_dim__</defval>
+        </param>
+        <param>
+          <type>model_output</type>
+          <defname>model_output</defname>
+          <defval>None</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Forward pass through the pretrained model and possible mappings between hidden units.
+     The response tensor should be the hidden units computed using the local context and
+     with shape: [batch_size, sequence_len, __vocab_size__].
+
+    Args:
+        token_batch ( :obj:`torch.LongTensor`, `required`):
+            torch inputs to be forward processed, [batch_size, sequence_len]
+        tokenizer ( huggingface.tokenizer, `optional`):
+            The tokenizer which was used to tokenize the inputs
+        encode_len ( :obj:`int`, `optional`):
+            logit encoding length, default bittensor.__network_dim__ length
+        model_output (:obj:`transformers.modeling_outputs.BaseModelOutputWithCrossAttentions`, `optional`):
+            The output of huggingface auto model.
+
+    Returns:
+        model_outputs (:obj:`transformers.modeling_outputs.BaseModelOutputWithCrossAttentions`, `required`):
+            The output of huggingface auto model.
+        
+        logits (:obj:`torch.FloatTensor`):
+            The nucleus&apos;s logit outputs as a torch tensor of shape [batch_size, sequence_len, __vocab_size__]
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_server/nucleus_impl.py" line="247" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_server/nucleus_impl.py" bodystart="247" bodyend="282"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__neuron_1_1text_1_1core__server_1_1nucleus__impl_1_1server_1ab592da0bacc745c98011d8e064190570" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._neuron.text.core_server.nucleus_impl.server.encode_forward</definition>
+        <argsstring>(self, inputs, tokenizer=None, model_output=None)</argsstring>
+        <name>encode_forward</name>
+        <qualifiedname>bittensor._neuron.text.core_server.nucleus_impl.server.encode_forward</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>inputs</type>
+          <defname>inputs</defname>
+        </param>
+        <param>
+          <type><ref refid="classbittensor_1_1__tokenizer_1_1tokenizer" kindref="compound">tokenizer</ref></type>
+          <defname>tokenizer</defname>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type>model_output</type>
+          <defname>model_output</defname>
+          <defval>None</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Forward pass through the pretrained model and possible mappings between hidden units. 
+     The response tensor should be the hidden units computed using the local context and with shape: [batch_size, sequence_len, __network_dim__].
+
+    Args:
+        inputs ( :obj:`torch.Tensor`, `required`):
+            torch inputs to be forward processed.
+        tokenizer ( huggingface.tokenizer, `optional`):
+            The tokenizer which was used to tokenize the inputs
+        model_outputs (:obj:`transformers.modeling_outputs.BaseModelOutputWithCrossAttentions`, `optional`):
+            The output of huggingface auto model.
+
+    Returns:
+        model_outputs (:obj:`transformers.modeling_outputs.BaseModelOutputWithCrossAttentions`, `required`):
+            The output of huggingface auto model.
+            
+        encoded_hidden (:type:`torch.Tensor`, `required`)
+            The hidden layer output as a torch tensor of shape [batch_size, sequence_len, __network_dim__ ]
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_server/nucleus_impl.py" line="283" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_server/nucleus_impl.py" bodystart="283" bodyend="336"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__neuron_1_1text_1_1core__server_1_1nucleus__impl_1_1server_1a9fe04678b6dcce05a3f9d3f25b31d65f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._neuron.text.core_server.nucleus_impl.server.encode_forward_causallm</definition>
+        <argsstring>(self, token_batch, tokenizer=None, encode_len=bittensor.__network_dim__, model_output=None)</argsstring>
+        <name>encode_forward_causallm</name>
+        <qualifiedname>bittensor._neuron.text.core_server.nucleus_impl.server.encode_forward_causallm</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>token_batch</type>
+          <defname>token_batch</defname>
+        </param>
+        <param>
+          <type><ref refid="classbittensor_1_1__tokenizer_1_1tokenizer" kindref="compound">tokenizer</ref></type>
+          <defname>tokenizer</defname>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type>encode_len</type>
+          <defname>encode_len</defname>
+          <defval>bittensor.__network_dim__</defval>
+        </param>
+        <param>
+          <type>model_output</type>
+          <defname>model_output</defname>
+          <defval>None</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Forward pass through the pretrained model and possible mappings between hidden units.
+     The response tensor should be the hidden units computed using the local context and
+     with shape: [batch_size, sequence_len, __vocab_size__].
+
+    Args:
+        token_batch ( :obj:`torch.LongTensor`, `required`):
+            torch inputs to be forward processed, [batch_size, sequence_len]
+        tokenizer ( huggingface.tokenizer, `optional`):
+            The tokenizer which was used to tokenize the inputs
+        encode_len ( :obj:`int`, `optional`):
+            logit encoding length, default bittensor.__network_dim__ length
+        model_output (:obj:`transformers.modeling_outputs.BaseModelOutputWithCrossAttentions`, `optional`):
+            The output of huggingface auto model.
+
+    Returns:
+        model_outputs (:obj:`transformers.modeling_outputs.BaseModelOutputWithCrossAttentions`, `required`):
+            The output of huggingface auto model.
+        
+        logits_std (:obj:`torch.FloatTensor`):
+            The nucleus&apos;s logit outputs as a torch tensor of shape [batch_size, sequence_len, __vocab_size__]
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_server/nucleus_impl.py" line="337" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_server/nucleus_impl.py" bodystart="337" bodyend="393"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__neuron_1_1text_1_1core__server_1_1nucleus__impl_1_1server_1aa75186146bb39740317a5476a71261ec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._neuron.text.core_server.nucleus_impl.server.encode_forward_causallmnext</definition>
+        <argsstring>(self, token_batch, std_tokenizer=None, int topk=4096, model_output=None)</argsstring>
+        <name>encode_forward_causallmnext</name>
+        <qualifiedname>bittensor._neuron.text.core_server.nucleus_impl.server.encode_forward_causallmnext</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>token_batch</type>
+          <defname>token_batch</defname>
+        </param>
+        <param>
+          <type>std_tokenizer</type>
+          <defname>std_tokenizer</defname>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>topk</declname>
+          <defval>4096</defval>
+        </param>
+        <param>
+          <type>model_output</type>
+          <defname>model_output</defname>
+          <defval>None</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Forward pass through the pretrained model and select topk tokenizer logits and retokenize with std_tokenizer,
+then compact new token phrases and probabilities
+into 1-D tensor [ &gt;= batch_size * (2 * topk + 1)] prob + at least 1 token per phrase + floor_prob.
+The floor probability is the mean probability of token phrases not captured in topk, required since
+the server tokenizer vocab_size may not be known to the receiver/validator.
+
+Args:
+    token_batch ( :obj:`torch.LongTensor`, `required`):
+        torch inputs to be forward processed, [batch_size, std_sequence_len].
+    std_tokenizer ( :obj:`PreTrainedTokenizerBase`, `optional`):
+        The standard tokenizer which was used to tokenize the inputs.
+    topk ( :obj:`int`, `optional`):
+        Amount of std_tokenized server phrases with highest probability to produce.
+    model_output (:obj:`transformers.modeling_outputs.BaseModelOutputWithCrossAttentions`, `optional`):
+        The output of transformers AutoModel.
+
+Returns:
+    model_outputs (:obj:`transformers.modeling_outputs.BaseModelOutputWithCrossAttentions`, `required`):
+        The output of transformers AutoModel.
+    topk_tensor (:obj:`torch.Tensor`, `required`):
+        [batch_size, (topk + 1), max_len] tensor includes topk token probabilities (prob_k) + floor_prob
+        in first column with gradients attached, with std_tokens in remaining columns with ignore_index padding.
+        Content structure:
+        [[[prob_k=0_b=0, tok_0_k=0_b=0, tok_1_k=0_b=0, ..., ignore_index?],
+          [prob_k=1_b=0, tok_0_k=1_b=0, tok_1_k=1_b=0, ..., ignore_index?],
+          [...],
+          [prob_floor_b=0, ignore_index, ..., ignore_index]],
+         [[prob_k=0_b=1, tok_0_k=0_b=1, tok_1_k=0_b=1, ..., ignore_index?],
+          [prob_k=1_b=1, tok_0_k=1_b=1, tok_1_k=1_b=1, ..., ignore_index?],
+          [...],
+          [prob_floor_b=1, ignore_index, ..., ignore_index]],
+         [...]]
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_server/nucleus_impl.py" line="394" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_server/nucleus_impl.py" bodystart="394" bodyend="461"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__neuron_1_1text_1_1core__server_1_1nucleus__impl_1_1server_1af1ec54d7eb69b55a7c551c37bcb01930" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>torch.FloatTensor</type>
+        <definition> torch.FloatTensor bittensor._neuron.text.core_server.nucleus_impl.server.get_loss_fct</definition>
+        <argsstring>(self, torch.FloatTensor logits, torch.LongTensor labels)</argsstring>
+        <name>get_loss_fct</name>
+        <qualifiedname>bittensor._neuron.text.core_server.nucleus_impl.server.get_loss_fct</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>torch.FloatTensor</type>
+          <declname>logits</declname>
+        </param>
+        <param>
+          <type>torch.LongTensor</type>
+          <declname>labels</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Calculate loss_fct, CausalLM loss, next-token prediction loss.
+    Args:
+        logits (:obj:`torch.FloatTensor`, `required`):
+            [batch_size, sequence_len, bittensor.__network_dim__]
+        labels (:obj:`torch.LongTensor`, `required`):
+            [batch_size, sequence_len]
+
+    Returns:
+        loss (:obj:`torch.FloatTensor`):
+            scalar
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_server/nucleus_impl.py" line="462" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_server/nucleus_impl.py" bodystart="462" bodyend="480"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__neuron_1_1text_1_1core__server_1_1nucleus__impl_1_1server_1a99bcd6cc84c562d1db5cac8e585576d7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._neuron.text.core_server.nucleus_impl.server.check</definition>
+        <argsstring>(self)</argsstring>
+        <name>check</name>
+        <qualifiedname>bittensor._neuron.text.core_server.nucleus_impl.server.check</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Checks the server settings
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_server/nucleus_impl.py" line="481" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_server/nucleus_impl.py" bodystart="481" bodyend="487"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__neuron_1_1text_1_1core__server_1_1nucleus__impl_1_1server_1a0f32537bd1c84dc6ddcdc2af36bbf093" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._neuron.text.core_server.nucleus_impl.server.save</definition>
+        <argsstring>(self, path)</argsstring>
+        <name>save</name>
+        <qualifiedname>bittensor._neuron.text.core_server.nucleus_impl.server.save</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>path</type>
+          <defname>path</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_server/nucleus_impl.py" line="488" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_server/nucleus_impl.py" bodystart="488" bodyend="503"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__neuron_1_1text_1_1core__server_1_1nucleus__impl_1_1server_1a6b538863118440e2e0c708c9ecab5caa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._neuron.text.core_server.nucleus_impl.server.load</definition>
+        <argsstring>(self, path)</argsstring>
+        <name>load</name>
+        <qualifiedname>bittensor._neuron.text.core_server.nucleus_impl.server.load</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>path</type>
+          <defname>path</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_server/nucleus_impl.py" line="504" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_server/nucleus_impl.py" bodystart="504" bodyend="519"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classbittensor_1_1__neuron_1_1text_1_1core__server_1_1nucleus__impl_1_1server_1ab73ed844f7bac4c98193de3a20df9779" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._neuron.text.core_server.nucleus_impl.server.config</definition>
+        <argsstring>()</argsstring>
+        <name>config</name>
+        <qualifiedname>bittensor._neuron.text.core_server.nucleus_impl.server.config</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_server/nucleus_impl.py" line="521" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_server/nucleus_impl.py" bodystart="521" bodyend="578"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>bittensor._neuron.text.core_server.nucleus_impl.server</label>
+        <link refid="classbittensor_1_1__neuron_1_1text_1_1core__server_1_1nucleus__impl_1_1server"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>torch.nn.Module</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>bittensor._neuron.text.core_server.nucleus_impl.server</label>
+        <link refid="classbittensor_1_1__neuron_1_1text_1_1core__server_1_1nucleus__impl_1_1server"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>torch.nn.Module</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_server/nucleus_impl.py" line="18" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_server/nucleus_impl.py" bodystart="18" bodyend="578"/>
+    <listofallmembers>
+      <member refid="classbittensor_1_1__neuron_1_1text_1_1core__server_1_1nucleus__impl_1_1server_1a6132e85ef58f7a42c1fe91a77ce700d7" prot="public" virt="non-virtual"><scope>bittensor::_neuron::text::core_server::nucleus_impl::server</scope><name>__init__</name></member>
+      <member refid="classbittensor_1_1__neuron_1_1text_1_1core__server_1_1nucleus__impl_1_1server_1a88e13af700b009f4414388f50bc03c1d" prot="public" virt="non-virtual"><scope>bittensor::_neuron::text::core_server::nucleus_impl::server</scope><name>backward_gradients_count</name></member>
+      <member refid="classbittensor_1_1__neuron_1_1text_1_1core__server_1_1nucleus__impl_1_1server_1a4bb4e0ae1dd2ad2978d301a89075b92b" prot="public" virt="non-virtual"><scope>bittensor::_neuron::text::core_server::nucleus_impl::server</scope><name>best_loss</name></member>
+      <member refid="classbittensor_1_1__neuron_1_1text_1_1core__server_1_1nucleus__impl_1_1server_1a0ebc1b62937f368ec16fc15fba2e6731" prot="public" virt="non-virtual"><scope>bittensor::_neuron::text::core_server::nucleus_impl::server</scope><name>best_remote_loss</name></member>
+      <member refid="classbittensor_1_1__neuron_1_1text_1_1core__server_1_1nucleus__impl_1_1server_1a99bcd6cc84c562d1db5cac8e585576d7" prot="public" virt="non-virtual"><scope>bittensor::_neuron::text::core_server::nucleus_impl::server</scope><name>check</name></member>
+      <member refid="classbittensor_1_1__neuron_1_1text_1_1core__server_1_1nucleus__impl_1_1server_1a0eb233826f22d6a7b03844043ea20102" prot="public" virt="non-virtual"><scope>bittensor::_neuron::text::core_server::nucleus_impl::server</scope><name>checking</name></member>
+      <member refid="classbittensor_1_1__neuron_1_1text_1_1core__server_1_1nucleus__impl_1_1server_1a1fe51e3db9d34b727f1065d635974c4e" prot="public" virt="non-virtual"><scope>bittensor::_neuron::text::core_server::nucleus_impl::server</scope><name>config</name></member>
+      <member refid="classbittensor_1_1__neuron_1_1text_1_1core__server_1_1nucleus__impl_1_1server_1ab73ed844f7bac4c98193de3a20df9779" prot="public" virt="non-virtual"><scope>bittensor::_neuron::text::core_server::nucleus_impl::server</scope><name>config</name></member>
+      <member refid="classbittensor_1_1__neuron_1_1text_1_1core__server_1_1nucleus__impl_1_1server_1af9d0050ad9132134af85214098b41b8b" prot="public" virt="non-virtual"><scope>bittensor::_neuron::text::core_server::nucleus_impl::server</scope><name>decoder</name></member>
+      <member refid="classbittensor_1_1__neuron_1_1text_1_1core__server_1_1nucleus__impl_1_1server_1ae899ad3334d1974b0a39a10e30367abf" prot="public" virt="non-virtual"><scope>bittensor::_neuron::text::core_server::nucleus_impl::server</scope><name>device</name></member>
+      <member refid="classbittensor_1_1__neuron_1_1text_1_1core__server_1_1nucleus__impl_1_1server_1ab592da0bacc745c98011d8e064190570" prot="public" virt="non-virtual"><scope>bittensor::_neuron::text::core_server::nucleus_impl::server</scope><name>encode_forward</name></member>
+      <member refid="classbittensor_1_1__neuron_1_1text_1_1core__server_1_1nucleus__impl_1_1server_1a9fe04678b6dcce05a3f9d3f25b31d65f" prot="public" virt="non-virtual"><scope>bittensor::_neuron::text::core_server::nucleus_impl::server</scope><name>encode_forward_causallm</name></member>
+      <member refid="classbittensor_1_1__neuron_1_1text_1_1core__server_1_1nucleus__impl_1_1server_1aa75186146bb39740317a5476a71261ec" prot="public" virt="non-virtual"><scope>bittensor::_neuron::text::core_server::nucleus_impl::server</scope><name>encode_forward_causallmnext</name></member>
+      <member refid="classbittensor_1_1__neuron_1_1text_1_1core__server_1_1nucleus__impl_1_1server_1ae8c3bbd769bb479e7ee08d86452f4115" prot="public" virt="non-virtual"><scope>bittensor::_neuron::text::core_server::nucleus_impl::server</scope><name>final_dim</name></member>
+      <member refid="classbittensor_1_1__neuron_1_1text_1_1core__server_1_1nucleus__impl_1_1server_1ae1bba88e9b29c127cc9086eafa8ccb38" prot="public" virt="non-virtual"><scope>bittensor::_neuron::text::core_server::nucleus_impl::server</scope><name>forward</name></member>
+      <member refid="classbittensor_1_1__neuron_1_1text_1_1core__server_1_1nucleus__impl_1_1server_1a98a186d02407406e0600f46340c04cc0" prot="public" virt="non-virtual"><scope>bittensor::_neuron::text::core_server::nucleus_impl::server</scope><name>from_translation_map</name></member>
+      <member refid="classbittensor_1_1__neuron_1_1text_1_1core__server_1_1nucleus__impl_1_1server_1af1ec54d7eb69b55a7c551c37bcb01930" prot="public" virt="non-virtual"><scope>bittensor::_neuron::text::core_server::nucleus_impl::server</scope><name>get_loss_fct</name></member>
+      <member refid="classbittensor_1_1__neuron_1_1text_1_1core__server_1_1nucleus__impl_1_1server_1aa712efaf2ecfee34c71ed605fa316533" prot="public" virt="non-virtual"><scope>bittensor::_neuron::text::core_server::nucleus_impl::server</scope><name>gradients_cache</name></member>
+      <member refid="classbittensor_1_1__neuron_1_1text_1_1core__server_1_1nucleus__impl_1_1server_1a4b00d04e2efafcd5ab2ef09a0f6e95ec" prot="public" virt="non-virtual"><scope>bittensor::_neuron::text::core_server::nucleus_impl::server</scope><name>inter_degree</name></member>
+      <member refid="classbittensor_1_1__neuron_1_1text_1_1core__server_1_1nucleus__impl_1_1server_1a8e361a0163795bb84e3ed0c0d8aea22a" prot="public" virt="non-virtual"><scope>bittensor::_neuron::text::core_server::nucleus_impl::server</scope><name>interpolate</name></member>
+      <member refid="classbittensor_1_1__neuron_1_1text_1_1core__server_1_1nucleus__impl_1_1server_1a6b538863118440e2e0c708c9ecab5caa" prot="public" virt="non-virtual"><scope>bittensor::_neuron::text::core_server::nucleus_impl::server</scope><name>load</name></member>
+      <member refid="classbittensor_1_1__neuron_1_1text_1_1core__server_1_1nucleus__impl_1_1server_1a6638393fba593635bf489b0575b80752" prot="public" virt="non-virtual"><scope>bittensor::_neuron::text::core_server::nucleus_impl::server</scope><name>local_forward</name></member>
+      <member refid="classbittensor_1_1__neuron_1_1text_1_1core__server_1_1nucleus__impl_1_1server_1a499385f44e3a8639cb02a41a18adf969" prot="public" virt="non-virtual"><scope>bittensor::_neuron::text::core_server::nucleus_impl::server</scope><name>loss_fct</name></member>
+      <member refid="classbittensor_1_1__neuron_1_1text_1_1core__server_1_1nucleus__impl_1_1server_1a24846bd379930a27372f3ae3f3254dc7" prot="public" virt="non-virtual"><scope>bittensor::_neuron::text::core_server::nucleus_impl::server</scope><name>mapping</name></member>
+      <member refid="classbittensor_1_1__neuron_1_1text_1_1core__server_1_1nucleus__impl_1_1server_1a73c162f7a06d87ef824b2da7c1a1cdb0" prot="public" virt="non-virtual"><scope>bittensor::_neuron::text::core_server::nucleus_impl::server</scope><name>mapping_function</name></member>
+      <member refid="classbittensor_1_1__neuron_1_1text_1_1core__server_1_1nucleus__impl_1_1server_1a58719232feeb83555ed82117b6fa0f0d" prot="public" virt="non-virtual"><scope>bittensor::_neuron::text::core_server::nucleus_impl::server</scope><name>model_name</name></member>
+      <member refid="classbittensor_1_1__neuron_1_1text_1_1core__server_1_1nucleus__impl_1_1server_1afe16b8513b5fabcce755942de484b263" prot="public" virt="non-virtual"><scope>bittensor::_neuron::text::core_server::nucleus_impl::server</scope><name>outputs_cache</name></member>
+      <member refid="classbittensor_1_1__neuron_1_1text_1_1core__server_1_1nucleus__impl_1_1server_1aa8d8826166f382eb1e2d2f877010737e" prot="public" virt="non-virtual"><scope>bittensor::_neuron::text::core_server::nucleus_impl::server</scope><name>padding</name></member>
+      <member refid="classbittensor_1_1__neuron_1_1text_1_1core__server_1_1nucleus__impl_1_1server_1a91f231d0ec2453812dbba74395ace7d5" prot="public" virt="non-virtual"><scope>bittensor::_neuron::text::core_server::nucleus_impl::server</scope><name>pre_dimension</name></member>
+      <member refid="classbittensor_1_1__neuron_1_1text_1_1core__server_1_1nucleus__impl_1_1server_1a19dd46f7b10bcf825fceef96966c5273" prot="public" virt="non-virtual"><scope>bittensor::_neuron::text::core_server::nucleus_impl::server</scope><name>pre_model</name></member>
+      <member refid="classbittensor_1_1__neuron_1_1text_1_1core__server_1_1nucleus__impl_1_1server_1a43a711aa5b2f3fb5f3e0444c0b348d2c" prot="public" virt="non-virtual"><scope>bittensor::_neuron::text::core_server::nucleus_impl::server</scope><name>pretrained</name></member>
+      <member refid="classbittensor_1_1__neuron_1_1text_1_1core__server_1_1nucleus__impl_1_1server_1a62d78b2d208bf64fb184ce6dff244949" prot="public" virt="non-virtual"><scope>bittensor::_neuron::text::core_server::nucleus_impl::server</scope><name>remapping_token</name></member>
+      <member refid="classbittensor_1_1__neuron_1_1text_1_1core__server_1_1nucleus__impl_1_1server_1a896fad140124878a2ddf5d34f6467546" prot="public" virt="non-virtual"><scope>bittensor::_neuron::text::core_server::nucleus_impl::server</scope><name>remote_losses</name></member>
+      <member refid="classbittensor_1_1__neuron_1_1text_1_1core__server_1_1nucleus__impl_1_1server_1a0f32537bd1c84dc6ddcdc2af36bbf093" prot="public" virt="non-virtual"><scope>bittensor::_neuron::text::core_server::nucleus_impl::server</scope><name>save</name></member>
+      <member refid="classbittensor_1_1__neuron_1_1text_1_1core__server_1_1nucleus__impl_1_1server_1a614100716e4fce09e4e00b12ee6ef1f5" prot="public" virt="non-virtual"><scope>bittensor::_neuron::text::core_server::nucleus_impl::server</scope><name>set_fine_tuning_params</name></member>
+      <member refid="classbittensor_1_1__neuron_1_1text_1_1core__server_1_1nucleus__impl_1_1server_1a21794b8b4d9c313aa791915cc710105d" prot="public" virt="non-virtual"><scope>bittensor::_neuron::text::core_server::nucleus_impl::server</scope><name>split_map_cache</name></member>
+      <member refid="classbittensor_1_1__neuron_1_1text_1_1core__server_1_1nucleus__impl_1_1server_1a2ea0c9a2c94e7361a527199d06c2e7a7" prot="public" virt="non-virtual"><scope>bittensor::_neuron::text::core_server::nucleus_impl::server</scope><name>std_tokenizer</name></member>
+      <member refid="classbittensor_1_1__neuron_1_1text_1_1core__server_1_1nucleus__impl_1_1server_1a9b2ffcddff2457f054c9a8defe165bea" prot="public" virt="non-virtual"><scope>bittensor::_neuron::text::core_server::nucleus_impl::server</scope><name>to_translation_map</name></member>
+      <member refid="classbittensor_1_1__neuron_1_1text_1_1core__server_1_1nucleus__impl_1_1server_1a3e684c0f6202d453f185afba381919be" prot="public" virt="non-virtual"><scope>bittensor::_neuron::text::core_server::nucleus_impl::server</scope><name>token_remap</name></member>
+      <member refid="classbittensor_1_1__neuron_1_1text_1_1core__server_1_1nucleus__impl_1_1server_1af2fb1f8356881cc49cc3d29e12ab5dfc" prot="public" virt="non-virtual"><scope>bittensor::_neuron::text::core_server::nucleus_impl::server</scope><name>tokenizer</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

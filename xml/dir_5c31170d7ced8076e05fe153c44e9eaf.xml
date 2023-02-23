@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="dir_5c31170d7ced8076e05fe153c44e9eaf" kind="dir">
+    <compoundname>/Users/macthrasher/bittensor/bittensor/_tokenizer</compoundname>
+    <innerfile refid="__tokenizer_2____init_____8py">__init__.py</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/macthrasher/bittensor/bittensor/_tokenizer/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,457 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="classbittensor_1_1__metagraph_1_1metagraph__mock_1_1_mock_metagraph" kind="class" language="Python" prot="public">
+    <compoundname>bittensor::_metagraph::metagraph_mock::MockMetagraph</compoundname>
+    <basecompoundref refid="classbittensor_1_1__metagraph_1_1metagraph__impl_1_1_metagraph" prot="public" virt="non-virtual">bittensor._metagraph.metagraph_impl.Metagraph</basecompoundref>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classbittensor_1_1__metagraph_1_1metagraph__mock_1_1_mock_metagraph_1a8914133f11ded3b9489fb5b6ef13ef53" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._metagraph.metagraph_mock.MockMetagraph::_endpoint_objs</definition>
+        <argsstring></argsstring>
+        <name>_endpoint_objs</name>
+        <qualifiedname>bittensor._metagraph.metagraph_mock.MockMetagraph._endpoint_objs</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_metagraph/metagraph_mock.py" line="57" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_metagraph/metagraph_mock.py" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classbittensor_1_1__metagraph_1_1metagraph__mock_1_1_mock_metagraph_1a817ec1c8d5a5304f9b4c3e8832bd11e9" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._metagraph.metagraph_mock.MockMetagraph::n</definition>
+        <argsstring></argsstring>
+        <name>n</name>
+        <qualifiedname>bittensor._metagraph.metagraph_mock.MockMetagraph.n</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_metagraph/metagraph_mock.py" line="59" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_metagraph/metagraph_mock.py" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__metagraph_1_1metagraph__mock_1_1_mock_metagraph_1a77197965a8775ef718db3a07681a8424" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._metagraph.metagraph_mock.MockMetagraph::block</definition>
+        <argsstring></argsstring>
+        <name>block</name>
+        <qualifiedname>bittensor._metagraph.metagraph_mock.MockMetagraph.block</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_metagraph/metagraph_mock.py" line="60" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_metagraph/metagraph_mock.py" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__metagraph_1_1metagraph__mock_1_1_mock_metagraph_1ab4ce4f9a4395b29e0c06879110fc343e" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._metagraph.metagraph_mock.MockMetagraph::uids</definition>
+        <argsstring></argsstring>
+        <name>uids</name>
+        <qualifiedname>bittensor._metagraph.metagraph_mock.MockMetagraph.uids</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_metagraph/metagraph_mock.py" line="61" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_metagraph/metagraph_mock.py" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__metagraph_1_1metagraph__mock_1_1_mock_metagraph_1ae7edf9cd7e41ec6cefd3ce26c8ac5cb5" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._metagraph.metagraph_mock.MockMetagraph::stake</definition>
+        <argsstring></argsstring>
+        <name>stake</name>
+        <qualifiedname>bittensor._metagraph.metagraph_mock.MockMetagraph.stake</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_metagraph/metagraph_mock.py" line="62" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_metagraph/metagraph_mock.py" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__metagraph_1_1metagraph__mock_1_1_mock_metagraph_1a2bf67c349961b2868f3815c30aacbe7f" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._metagraph.metagraph_mock.MockMetagraph::ranks</definition>
+        <argsstring></argsstring>
+        <name>ranks</name>
+        <qualifiedname>bittensor._metagraph.metagraph_mock.MockMetagraph.ranks</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_metagraph/metagraph_mock.py" line="63" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_metagraph/metagraph_mock.py" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__metagraph_1_1metagraph__mock_1_1_mock_metagraph_1aedb12482754167178446b808fa401203" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._metagraph.metagraph_mock.MockMetagraph::trust</definition>
+        <argsstring></argsstring>
+        <name>trust</name>
+        <qualifiedname>bittensor._metagraph.metagraph_mock.MockMetagraph.trust</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_metagraph/metagraph_mock.py" line="64" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_metagraph/metagraph_mock.py" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__metagraph_1_1metagraph__mock_1_1_mock_metagraph_1adb06f0d23b3f1c23bac545b88f3f8342" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._metagraph.metagraph_mock.MockMetagraph::consensus</definition>
+        <argsstring></argsstring>
+        <name>consensus</name>
+        <qualifiedname>bittensor._metagraph.metagraph_mock.MockMetagraph.consensus</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_metagraph/metagraph_mock.py" line="65" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_metagraph/metagraph_mock.py" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__metagraph_1_1metagraph__mock_1_1_mock_metagraph_1a2769534c5ba59908852f0633111218a9" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._metagraph.metagraph_mock.MockMetagraph::incentive</definition>
+        <argsstring></argsstring>
+        <name>incentive</name>
+        <qualifiedname>bittensor._metagraph.metagraph_mock.MockMetagraph.incentive</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_metagraph/metagraph_mock.py" line="66" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_metagraph/metagraph_mock.py" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__metagraph_1_1metagraph__mock_1_1_mock_metagraph_1aa04c8ea40a5bed81d6eef4872154d07c" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._metagraph.metagraph_mock.MockMetagraph::emission</definition>
+        <argsstring></argsstring>
+        <name>emission</name>
+        <qualifiedname>bittensor._metagraph.metagraph_mock.MockMetagraph.emission</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_metagraph/metagraph_mock.py" line="67" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_metagraph/metagraph_mock.py" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__metagraph_1_1metagraph__mock_1_1_mock_metagraph_1a87c5d79f7137c25da6494df8d2c7df6e" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._metagraph.metagraph_mock.MockMetagraph::dividends</definition>
+        <argsstring></argsstring>
+        <name>dividends</name>
+        <qualifiedname>bittensor._metagraph.metagraph_mock.MockMetagraph.dividends</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_metagraph/metagraph_mock.py" line="68" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_metagraph/metagraph_mock.py" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__metagraph_1_1metagraph__mock_1_1_mock_metagraph_1af511084ff616c47bc50ae25fb508a363" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._metagraph.metagraph_mock.MockMetagraph::active</definition>
+        <argsstring></argsstring>
+        <name>active</name>
+        <qualifiedname>bittensor._metagraph.metagraph_mock.MockMetagraph.active</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_metagraph/metagraph_mock.py" line="69" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_metagraph/metagraph_mock.py" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__metagraph_1_1metagraph__mock_1_1_mock_metagraph_1a6c41f5bf65c630afdbfd13a39ee388a2" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._metagraph.metagraph_mock.MockMetagraph::last_update</definition>
+        <argsstring></argsstring>
+        <name>last_update</name>
+        <qualifiedname>bittensor._metagraph.metagraph_mock.MockMetagraph.last_update</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_metagraph/metagraph_mock.py" line="70" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_metagraph/metagraph_mock.py" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__metagraph_1_1metagraph__mock_1_1_mock_metagraph_1aa9145451f15f9c2a0365359cd05304a4" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._metagraph.metagraph_mock.MockMetagraph::weights</definition>
+        <argsstring></argsstring>
+        <name>weights</name>
+        <qualifiedname>bittensor._metagraph.metagraph_mock.MockMetagraph.weights</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_metagraph/metagraph_mock.py" line="71" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_metagraph/metagraph_mock.py" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__metagraph_1_1metagraph__mock_1_1_mock_metagraph_1a0a19adf9647187ed1107edd35aacf358" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._metagraph.metagraph_mock.MockMetagraph::bonds</definition>
+        <argsstring></argsstring>
+        <name>bonds</name>
+        <qualifiedname>bittensor._metagraph.metagraph_mock.MockMetagraph.bonds</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_metagraph/metagraph_mock.py" line="72" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_metagraph/metagraph_mock.py" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__metagraph_1_1metagraph__mock_1_1_mock_metagraph_1a43b0f0d5a538f9f3103bc93b946122cb" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._metagraph.metagraph_mock.MockMetagraph::endpoints</definition>
+        <argsstring></argsstring>
+        <name>endpoints</name>
+        <qualifiedname>bittensor._metagraph.metagraph_mock.MockMetagraph.endpoints</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_metagraph/metagraph_mock.py" line="73" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_metagraph/metagraph_mock.py" bodystart="73" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__metagraph_1_1metagraph__mock_1_1_mock_metagraph_1a8cc6d855e4ae7e989d2f50ddcbceb0b5" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._metagraph.metagraph_mock.MockMetagraph::version</definition>
+        <argsstring></argsstring>
+        <name>version</name>
+        <qualifiedname>bittensor._metagraph.metagraph_mock.MockMetagraph.version</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_metagraph/metagraph_mock.py" line="80" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_metagraph/metagraph_mock.py" bodystart="80" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__metagraph_1_1metagraph__mock_1_1_mock_metagraph_1a808ba440173e71c4418655646ee6e014" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._metagraph.metagraph_mock.MockMetagraph::tau</definition>
+        <argsstring></argsstring>
+        <name>tau</name>
+        <qualifiedname>bittensor._metagraph.metagraph_mock.MockMetagraph.tau</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_metagraph/metagraph_mock.py" line="82" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_metagraph/metagraph_mock.py" bodystart="82" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classbittensor_1_1__metagraph_1_1metagraph__mock_1_1_mock_metagraph_1ad5aa9de326c31c751f2aeb4ea775a62d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._metagraph.metagraph_mock.MockMetagraph.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>bittensor._metagraph.metagraph_mock.MockMetagraph.__init__</qualifiedname>
+        <reimplements refid="classbittensor_1_1__metagraph_1_1metagraph__impl_1_1_metagraph_1ae140d5f6b82affffd1cdb4bc97843559">__init__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Initializes a new Metagraph torch chain interface object.</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_metagraph/metagraph_mock.py" line="39" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_metagraph/metagraph_mock.py" bodystart="39" bodyend="76"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__metagraph_1_1metagraph__mock_1_1_mock_metagraph_1a6b2665ea4cd6ec6c24b59562dcf55403" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type> &apos;<ref refid="classbittensor_1_1__metagraph_1_1metagraph__impl_1_1_metagraph" kindref="compound">Metagraph</ref>&apos;</type>
+        <definition> &apos;Metagraph&apos; bittensor._metagraph.metagraph_mock.MockMetagraph.clear</definition>
+        <argsstring>(self)</argsstring>
+        <name>clear</name>
+        <qualifiedname>bittensor._metagraph.metagraph_mock.MockMetagraph.clear</qualifiedname>
+        <reimplements refid="classbittensor_1_1__metagraph_1_1metagraph__impl_1_1_metagraph_1aec10f18d7e572a5014eb7f6c338ff0da">clear</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Erases Metagraph state.</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_metagraph/metagraph_mock.py" line="77" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_metagraph/metagraph_mock.py" bodystart="77" bodyend="99"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__metagraph_1_1metagraph__mock_1_1_mock_metagraph_1ab7db4705cd3e222262db487abf3d28a3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type> &apos;<ref refid="classbittensor_1_1__metagraph_1_1metagraph__impl_1_1_metagraph" kindref="compound">Metagraph</ref>&apos;</type>
+        <definition> &apos;Metagraph&apos; bittensor._metagraph.metagraph_mock.MockMetagraph.load</definition>
+        <argsstring>(self, str network=None)</argsstring>
+        <name>load</name>
+        <qualifiedname>bittensor._metagraph.metagraph_mock.MockMetagraph.load</qualifiedname>
+        <reimplements refid="classbittensor_1_1__metagraph_1_1metagraph__impl_1_1_metagraph_1ad49d2f5525651322db1a4d65329c176a">load</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>network</declname>
+          <defval>None</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Loads this metagraph object&apos;s state_dict from bittensor root dir.
+        Args: 
+            network: (:obj:`str`, required):
+                Name of state_dict to load, defaults to kusanagi</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_metagraph/metagraph_mock.py" line="100" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_metagraph/metagraph_mock.py" bodystart="100" bodyend="118"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__metagraph_1_1metagraph__mock_1_1_mock_metagraph_1a0efd55ceaf680f8454edbb8842fb9ea7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type> &apos;<ref refid="classbittensor_1_1__metagraph_1_1metagraph__impl_1_1_metagraph" kindref="compound">Metagraph</ref>&apos;</type>
+        <definition> &apos;Metagraph&apos; bittensor._metagraph.metagraph_mock.MockMetagraph.save</definition>
+        <argsstring>(self, str network=None)</argsstring>
+        <name>save</name>
+        <qualifiedname>bittensor._metagraph.metagraph_mock.MockMetagraph.save</qualifiedname>
+        <reimplements refid="classbittensor_1_1__metagraph_1_1metagraph__impl_1_1_metagraph_1acaba0037b3eb5446feb5ad664ca61346">save</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>network</declname>
+          <defval>None</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Saves this metagraph object&apos;s state_dict under bittensor root dir.
+        Args: 
+            network: (:obj:`str`, required):
+                Name of state_dict, defaults to kusanagi</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_metagraph/metagraph_mock.py" line="119" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_metagraph/metagraph_mock.py" bodystart="119" bodyend="128"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__metagraph_1_1metagraph__mock_1_1_mock_metagraph_1a1d1f31ff458b9149e04553f2121a0686" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type> &apos;<ref refid="classbittensor_1_1__metagraph_1_1metagraph__impl_1_1_metagraph" kindref="compound">Metagraph</ref>&apos;</type>
+        <definition> &apos;Metagraph&apos; bittensor._metagraph.metagraph_mock.MockMetagraph.sync</definition>
+        <argsstring>(self, int block=None, bool cached=True)</argsstring>
+        <name>sync</name>
+        <qualifiedname>bittensor._metagraph.metagraph_mock.MockMetagraph.sync</qualifiedname>
+        <reimplements refid="classbittensor_1_1__metagraph_1_1metagraph__impl_1_1_metagraph_1a816742ccbc5bfe6f38f7feb1d2e137b0">sync</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>block</declname>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>cached</declname>
+          <defval>True</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Synchronizes this metagraph with the chain state.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_metagraph/metagraph_mock.py" line="129" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_metagraph/metagraph_mock.py" bodystart="129" bodyend="131"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim> MOCKED VERSION OF THE METAGRAPH</verbatim> </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>bittensor._metagraph.metagraph_mock.MockMetagraph</label>
+        <link refid="classbittensor_1_1__metagraph_1_1metagraph__mock_1_1_mock_metagraph"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>bittensor._metagraph.metagraph_impl.Metagraph</label>
+        <link refid="classbittensor_1_1__metagraph_1_1metagraph__impl_1_1_metagraph"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>torch::nn::Module</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>bittensor._metagraph.metagraph_mock.MockMetagraph</label>
+        <link refid="classbittensor_1_1__metagraph_1_1metagraph__mock_1_1_mock_metagraph"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>bittensor._metagraph.metagraph_impl.Metagraph</label>
+        <link refid="classbittensor_1_1__metagraph_1_1metagraph__impl_1_1_metagraph"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>torch::nn::Module</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/macthrasher/bittensor/bittensor/_metagraph/metagraph_mock.py" line="35" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_metagraph/metagraph_mock.py" bodystart="35" bodyend="131"/>
+    <listofallmembers>
+      <member refid="classbittensor_1_1__metagraph_1_1metagraph__mock_1_1_mock_metagraph_1ad5aa9de326c31c751f2aeb4ea775a62d" prot="public" virt="non-virtual"><scope>bittensor::_metagraph::metagraph_mock::MockMetagraph</scope><name>__init__</name></member>
+      <member refid="classbittensor_1_1__metagraph_1_1metagraph__mock_1_1_mock_metagraph_1a8914133f11ded3b9489fb5b6ef13ef53" prot="protected" virt="non-virtual"><scope>bittensor::_metagraph::metagraph_mock::MockMetagraph</scope><name>_endpoint_objs</name></member>
+      <member refid="classbittensor_1_1__metagraph_1_1metagraph__mock_1_1_mock_metagraph_1af511084ff616c47bc50ae25fb508a363" prot="public" virt="non-virtual"><scope>bittensor::_metagraph::metagraph_mock::MockMetagraph</scope><name>active</name></member>
+      <member refid="classbittensor_1_1__metagraph_1_1metagraph__mock_1_1_mock_metagraph_1a77197965a8775ef718db3a07681a8424" prot="public" virt="non-virtual"><scope>bittensor::_metagraph::metagraph_mock::MockMetagraph</scope><name>block</name></member>
+      <member refid="classbittensor_1_1__metagraph_1_1metagraph__mock_1_1_mock_metagraph_1a0a19adf9647187ed1107edd35aacf358" prot="public" virt="non-virtual"><scope>bittensor::_metagraph::metagraph_mock::MockMetagraph</scope><name>bonds</name></member>
+      <member refid="classbittensor_1_1__metagraph_1_1metagraph__mock_1_1_mock_metagraph_1a6b2665ea4cd6ec6c24b59562dcf55403" prot="public" virt="non-virtual"><scope>bittensor::_metagraph::metagraph_mock::MockMetagraph</scope><name>clear</name></member>
+      <member refid="classbittensor_1_1__metagraph_1_1metagraph__mock_1_1_mock_metagraph_1adb06f0d23b3f1c23bac545b88f3f8342" prot="public" virt="non-virtual"><scope>bittensor::_metagraph::metagraph_mock::MockMetagraph</scope><name>consensus</name></member>
+      <member refid="classbittensor_1_1__metagraph_1_1metagraph__mock_1_1_mock_metagraph_1a87c5d79f7137c25da6494df8d2c7df6e" prot="public" virt="non-virtual"><scope>bittensor::_metagraph::metagraph_mock::MockMetagraph</scope><name>dividends</name></member>
+      <member refid="classbittensor_1_1__metagraph_1_1metagraph__mock_1_1_mock_metagraph_1aa04c8ea40a5bed81d6eef4872154d07c" prot="public" virt="non-virtual"><scope>bittensor::_metagraph::metagraph_mock::MockMetagraph</scope><name>emission</name></member>
+      <member refid="classbittensor_1_1__metagraph_1_1metagraph__mock_1_1_mock_metagraph_1a43b0f0d5a538f9f3103bc93b946122cb" prot="public" virt="non-virtual"><scope>bittensor::_metagraph::metagraph_mock::MockMetagraph</scope><name>endpoints</name></member>
+      <member refid="classbittensor_1_1__metagraph_1_1metagraph__mock_1_1_mock_metagraph_1a2769534c5ba59908852f0633111218a9" prot="public" virt="non-virtual"><scope>bittensor::_metagraph::metagraph_mock::MockMetagraph</scope><name>incentive</name></member>
+      <member refid="classbittensor_1_1__metagraph_1_1metagraph__mock_1_1_mock_metagraph_1a6c41f5bf65c630afdbfd13a39ee388a2" prot="public" virt="non-virtual"><scope>bittensor::_metagraph::metagraph_mock::MockMetagraph</scope><name>last_update</name></member>
+      <member refid="classbittensor_1_1__metagraph_1_1metagraph__mock_1_1_mock_metagraph_1ab7db4705cd3e222262db487abf3d28a3" prot="public" virt="non-virtual"><scope>bittensor::_metagraph::metagraph_mock::MockMetagraph</scope><name>load</name></member>
+      <member refid="classbittensor_1_1__metagraph_1_1metagraph__mock_1_1_mock_metagraph_1a817ec1c8d5a5304f9b4c3e8832bd11e9" prot="public" virt="non-virtual"><scope>bittensor::_metagraph::metagraph_mock::MockMetagraph</scope><name>n</name></member>
+      <member refid="classbittensor_1_1__metagraph_1_1metagraph__mock_1_1_mock_metagraph_1a2bf67c349961b2868f3815c30aacbe7f" prot="public" virt="non-virtual"><scope>bittensor::_metagraph::metagraph_mock::MockMetagraph</scope><name>ranks</name></member>
+      <member refid="classbittensor_1_1__metagraph_1_1metagraph__mock_1_1_mock_metagraph_1a0efd55ceaf680f8454edbb8842fb9ea7" prot="public" virt="non-virtual"><scope>bittensor::_metagraph::metagraph_mock::MockMetagraph</scope><name>save</name></member>
+      <member refid="classbittensor_1_1__metagraph_1_1metagraph__mock_1_1_mock_metagraph_1ae7edf9cd7e41ec6cefd3ce26c8ac5cb5" prot="public" virt="non-virtual"><scope>bittensor::_metagraph::metagraph_mock::MockMetagraph</scope><name>stake</name></member>
+      <member refid="classbittensor_1_1__metagraph_1_1metagraph__mock_1_1_mock_metagraph_1a1d1f31ff458b9149e04553f2121a0686" prot="public" virt="non-virtual"><scope>bittensor::_metagraph::metagraph_mock::MockMetagraph</scope><name>sync</name></member>
+      <member refid="classbittensor_1_1__metagraph_1_1metagraph__mock_1_1_mock_metagraph_1a808ba440173e71c4418655646ee6e014" prot="public" virt="non-virtual"><scope>bittensor::_metagraph::metagraph_mock::MockMetagraph</scope><name>tau</name></member>
+      <member refid="classbittensor_1_1__metagraph_1_1metagraph__mock_1_1_mock_metagraph_1aedb12482754167178446b808fa401203" prot="public" virt="non-virtual"><scope>bittensor::_metagraph::metagraph_mock::MockMetagraph</scope><name>trust</name></member>
+      <member refid="classbittensor_1_1__metagraph_1_1metagraph__mock_1_1_mock_metagraph_1ab4ce4f9a4395b29e0c06879110fc343e" prot="public" virt="non-virtual"><scope>bittensor::_metagraph::metagraph_mock::MockMetagraph</scope><name>uids</name></member>
+      <member refid="classbittensor_1_1__metagraph_1_1metagraph__mock_1_1_mock_metagraph_1a8cc6d855e4ae7e989d2f50ddcbceb0b5" prot="public" virt="non-virtual"><scope>bittensor::_metagraph::metagraph_mock::MockMetagraph</scope><name>version</name></member>
+      <member refid="classbittensor_1_1__metagraph_1_1metagraph__mock_1_1_mock_metagraph_1aa9145451f15f9c2a0365359cd05304a4" prot="public" virt="non-virtual"><scope>bittensor::_metagraph::metagraph_mock::MockMetagraph</scope><name>weights</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

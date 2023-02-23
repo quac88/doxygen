@@ -1,0 +1,842 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="keyfile__impl_8py" kind="file" language="Python">
+    <compoundname>keyfile_impl.py</compoundname>
+    <innerclass refid="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_key_file_error" prot="public">bittensor::_keyfile::keyfile_impl::KeyFileError</innerclass>
+    <innerclass refid="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_keyfile" prot="public">bittensor::_keyfile::keyfile_impl::Keyfile</innerclass>
+    <innerclass refid="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_mock_keyfile" prot="public">bittensor::_keyfile::keyfile_impl::MockKeyfile</innerclass>
+    <innernamespace refid="namespacebittensor">bittensor</innernamespace>
+    <innernamespace refid="namespacebittensor_1_1__keyfile">bittensor::_keyfile</innernamespace>
+    <innernamespace refid="namespacebittensor_1_1__keyfile_1_1keyfile__impl">bittensor::_keyfile::keyfile_impl</innernamespace>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="keyfile__impl_8py_1a0c3e1df8185dd636545895da66060970" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._keyfile.keyfile_impl.serialized_keypair_to_keyfile_data</definition>
+        <argsstring>(&apos;bittensor.Keypair&apos; keypair)</argsstring>
+        <name>serialized_keypair_to_keyfile_data</name>
+        <qualifiedname>bittensor._keyfile.keyfile_impl.serialized_keypair_to_keyfile_data</qualifiedname>
+        <param>
+          <type>&apos;bittensor.Keypair&apos;</type>
+          <declname>keypair</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Serializes keypair object into keyfile data.
+    Args:
+        password ( str, required ):
+            password to verify.
+    Returns:
+        valid ( bool ):
+            True if the password meets validity requirements.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_keyfile/keyfile_impl.py" line="41" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_keyfile/keyfile_impl.py" bodystart="41" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="keyfile__impl_8py_1aa62c36e5e39cef1c9db5a71928a61005" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type> &apos;bittensor.Keypair&apos;</type>
+        <definition> &apos;bittensor.Keypair&apos; bittensor._keyfile.keyfile_impl.deserialize_keypair_from_keyfile_data</definition>
+        <argsstring>(bytes keyfile_data)</argsstring>
+        <name>deserialize_keypair_from_keyfile_data</name>
+        <qualifiedname>bittensor._keyfile.keyfile_impl.deserialize_keypair_from_keyfile_data</qualifiedname>
+        <param>
+          <type>bytes</type>
+          <declname>keyfile_data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Deserializes Keypair object from passed keyfile data.
+    Args:
+        keyfile_data ( bytest, required ):
+            Keyfile data as bytes to be loaded.
+    Returns:
+        keypair (bittensor.Keypair):
+            Keypair loaded from bytes.
+    Raises:
+        KeyFileError:
+            Raised if the passed bytest cannot construct a keypair object.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_keyfile/keyfile_impl.py" line="60" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_keyfile/keyfile_impl.py" bodystart="60" bodyend="101"/>
+      </memberdef>
+      <memberdef kind="function" id="keyfile__impl_8py_1a88e75493b23b323d3297601d6e5c053f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool bittensor._keyfile.keyfile_impl.validate_password</definition>
+        <argsstring>(str password)</argsstring>
+        <name>validate_password</name>
+        <qualifiedname>bittensor._keyfile.keyfile_impl.validate_password</qualifiedname>
+        <param>
+          <type>str</type>
+          <declname>password</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Validates the password again a password policy.
+    Args:
+        password ( str, required ):
+            password to verify.
+    Returns:
+        valid ( bool ):
+            True if the password meets validity requirements.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_keyfile/keyfile_impl.py" line="102" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_keyfile/keyfile_impl.py" bodystart="102" bodyend="128"/>
+      </memberdef>
+      <memberdef kind="function" id="keyfile__impl_8py_1a7315dcbb6a30e9a25950eae09c103b73" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str bittensor._keyfile.keyfile_impl.ask_password_to_encrypt</definition>
+        <argsstring>()</argsstring>
+        <name>ask_password_to_encrypt</name>
+        <qualifiedname>bittensor._keyfile.keyfile_impl.ask_password_to_encrypt</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Password from user prompt.
+    Returns:
+        password (str):
+            Valid password from user prompt.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_keyfile/keyfile_impl.py" line="129" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_keyfile/keyfile_impl.py" bodystart="129" bodyend="140"/>
+      </memberdef>
+      <memberdef kind="function" id="keyfile__impl_8py_1ad4a7b2c5bb42f548979ace42e944c0be" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool bittensor._keyfile.keyfile_impl.keyfile_data_is_encrypted_ansible</definition>
+        <argsstring>(bytes keyfile_data)</argsstring>
+        <name>keyfile_data_is_encrypted_ansible</name>
+        <qualifiedname>bittensor._keyfile.keyfile_impl.keyfile_data_is_encrypted_ansible</qualifiedname>
+        <param>
+          <type>bytes</type>
+          <declname>keyfile_data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Returns true if the keyfile data is ansible encrypted.
+    Args:
+        keyfile_data ( bytes, required ):
+            Bytes to validate
+    Returns:
+        is_ansible (bool):
+            True if data is ansible encrypted.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_keyfile/keyfile_impl.py" line="141" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_keyfile/keyfile_impl.py" bodystart="141" bodyend="151"/>
+      </memberdef>
+      <memberdef kind="function" id="keyfile__impl_8py_1ab137b19ef73874b87db193327f772499" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool bittensor._keyfile.keyfile_impl.keyfile_data_is_encrypted_legacy</definition>
+        <argsstring>(bytes keyfile_data)</argsstring>
+        <name>keyfile_data_is_encrypted_legacy</name>
+        <qualifiedname>bittensor._keyfile.keyfile_impl.keyfile_data_is_encrypted_legacy</qualifiedname>
+        <param>
+          <type>bytes</type>
+          <declname>keyfile_data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Returns true if the keyfile data is legacy encrypted.
+    Args:
+        keyfile_data ( bytes, required ):
+            Bytes to validate
+    Returns:
+        is_legacy (bool):
+            True if data is legacy encrypted.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_keyfile/keyfile_impl.py" line="152" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_keyfile/keyfile_impl.py" bodystart="152" bodyend="162"/>
+      </memberdef>
+      <memberdef kind="function" id="keyfile__impl_8py_1ad35b6c29a3bd834b6ed1dbfddd0b8147" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool bittensor._keyfile.keyfile_impl.keyfile_data_is_encrypted</definition>
+        <argsstring>(bytes keyfile_data)</argsstring>
+        <name>keyfile_data_is_encrypted</name>
+        <qualifiedname>bittensor._keyfile.keyfile_impl.keyfile_data_is_encrypted</qualifiedname>
+        <param>
+          <type>bytes</type>
+          <declname>keyfile_data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Returns true if the keyfile data is encrypted.
+    Args:
+        keyfile_data ( bytes, required ):
+            Bytes to validate
+    Returns:
+        is_encrypted (bool):
+            True if data is encrypted.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_keyfile/keyfile_impl.py" line="163" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_keyfile/keyfile_impl.py" bodystart="163" bodyend="173"/>
+      </memberdef>
+      <memberdef kind="function" id="keyfile__impl_8py_1a4f3575379a4468e7fb6ec00dd990a3ad" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bytes</type>
+        <definition> bytes bittensor._keyfile.keyfile_impl.encrypt_keyfile_data</definition>
+        <argsstring>(bytes keyfile_data, str password=None)</argsstring>
+        <name>encrypt_keyfile_data</name>
+        <qualifiedname>bittensor._keyfile.keyfile_impl.encrypt_keyfile_data</qualifiedname>
+        <param>
+          <type>bytes</type>
+          <declname>keyfile_data</declname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>password</declname>
+          <defval>None</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Encrypts passed keyfile data using ansible vault.
+    Args:
+        keyfile_data ( bytes, required ):
+            Bytes to validate
+        password ( bool, optional ):
+            It set, uses this password to encrypt data.
+    Returns:
+        encrytped_data (bytes):
+            Ansible encrypted data.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_keyfile/keyfile_impl.py" line="174" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_keyfile/keyfile_impl.py" bodystart="174" bodyend="191"/>
+      </memberdef>
+      <memberdef kind="function" id="keyfile__impl_8py_1a18d38eb639a652d1b7779b71ae0ec4c8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Optional[str]</type>
+        <definition> Optional[str] bittensor._keyfile.keyfile_impl.get_coldkey_password_from_environment</definition>
+        <argsstring>(str coldkey_name)</argsstring>
+        <name>get_coldkey_password_from_environment</name>
+        <qualifiedname>bittensor._keyfile.keyfile_impl.get_coldkey_password_from_environment</qualifiedname>
+        <param>
+          <type>str</type>
+          <declname>coldkey_name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_keyfile/keyfile_impl.py" line="192" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_keyfile/keyfile_impl.py" bodystart="192" bodyend="203"/>
+      </memberdef>
+      <memberdef kind="function" id="keyfile__impl_8py_1a67710f5158711adb411e6038bf4e3868" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bytes</type>
+        <definition> bytes bittensor._keyfile.keyfile_impl.decrypt_keyfile_data</definition>
+        <argsstring>(bytes keyfile_data, str password=None, Optional[str] coldkey_name=None)</argsstring>
+        <name>decrypt_keyfile_data</name>
+        <qualifiedname>bittensor._keyfile.keyfile_impl.decrypt_keyfile_data</qualifiedname>
+        <param>
+          <type>bytes</type>
+          <declname>keyfile_data</declname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>password</declname>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type>Optional</type>
+          <declname>coldkey_name</declname>
+          <array>[str]</array>
+          <defval>None</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Decrypts passed keyfile data using ansible vault.
+    Args:
+        keyfile_data ( bytes, required ):
+            Bytes to validate
+        password ( bool, optional ):
+            It set, uses this password to decrypt data.
+    Returns:
+        decrypted_data (bytes):
+            Decrypted data.
+     Raises:
+        KeyFileError:
+            Raised if the file is corrupted or if the password is incorrect.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_keyfile/keyfile_impl.py" line="204" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_keyfile/keyfile_impl.py" bodystart="204" bodyend="246"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">#<sp/>The<sp/>MIT<sp/>License<sp/>(MIT)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">#<sp/>Copyright<sp/>©<sp/>2021<sp/>Yuma<sp/>Rao</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">#<sp/>Permission<sp/>is<sp/>hereby<sp/>granted,<sp/>free<sp/>of<sp/>charge,<sp/>to<sp/>any<sp/>person<sp/>obtaining<sp/>a<sp/>copy<sp/>of<sp/>this<sp/>software<sp/>and<sp/>associated<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">#<sp/>documentation<sp/>files<sp/>(the<sp/>“Software”),<sp/>to<sp/>deal<sp/>in<sp/>the<sp/>Software<sp/>without<sp/>restriction,<sp/>including<sp/>without<sp/>limitation<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">#<sp/>the<sp/>rights<sp/>to<sp/>use,<sp/>copy,<sp/>modify,<sp/>merge,<sp/>publish,<sp/>distribute,<sp/>sublicense,<sp/>and/or<sp/>sell<sp/>copies<sp/>of<sp/>the<sp/>Software,<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">#<sp/>and<sp/>to<sp/>permit<sp/>persons<sp/>to<sp/>whom<sp/>the<sp/>Software<sp/>is<sp/>furnished<sp/>to<sp/>do<sp/>so,<sp/>subject<sp/>to<sp/>the<sp/>following<sp/>conditions:</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="comment">#<sp/>The<sp/>above<sp/>copyright<sp/>notice<sp/>and<sp/>this<sp/>permission<sp/>notice<sp/>shall<sp/>be<sp/>included<sp/>in<sp/>all<sp/>copies<sp/>or<sp/>substantial<sp/>portions<sp/>of<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="comment">#<sp/>the<sp/>Software.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="comment">#<sp/>THE<sp/>SOFTWARE<sp/>IS<sp/>PROVIDED<sp/>“AS<sp/>IS”,<sp/>WITHOUT<sp/>WARRANTY<sp/>OF<sp/>ANY<sp/>KIND,<sp/>EXPRESS<sp/>OR<sp/>IMPLIED,<sp/>INCLUDING<sp/>BUT<sp/>NOT<sp/>LIMITED<sp/>TO</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="comment">#<sp/>THE<sp/>WARRANTIES<sp/>OF<sp/>MERCHANTABILITY,<sp/>FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR<sp/>PURPOSE<sp/>AND<sp/>NONINFRINGEMENT.<sp/>IN<sp/>NO<sp/>EVENT<sp/>SHALL<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="comment">#<sp/>THE<sp/>AUTHORS<sp/>OR<sp/>COPYRIGHT<sp/>HOLDERS<sp/>BE<sp/>LIABLE<sp/>FOR<sp/>ANY<sp/>CLAIM,<sp/>DAMAGES<sp/>OR<sp/>OTHER<sp/>LIABILITY,<sp/>WHETHER<sp/>IN<sp/>AN<sp/>ACTION<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="comment">#<sp/>OF<sp/>CONTRACT,<sp/>TORT<sp/>OR<sp/>OTHERWISE,<sp/>ARISING<sp/>FROM,<sp/>OUT<sp/>OF<sp/>OR<sp/>IN<sp/>CONNECTION<sp/>WITH<sp/>THE<sp/>SOFTWARE<sp/>OR<sp/>THE<sp/>USE<sp/>OR<sp/>OTHER<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="comment">#<sp/>DEALINGS<sp/>IN<sp/>THE<sp/>SOFTWARE.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>os</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>base64</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>json</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>stat</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>getpass</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>bittensor</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/>typing<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>Optional</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/>pathlib<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>Path</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/>ansible_vault<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>Vault</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/>cryptography.exceptions<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>InvalidSignature,<sp/>InvalidKey</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/>cryptography.fernet<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>Fernet,<sp/>InvalidToken</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/>cryptography.hazmat.primitives<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>hashes</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/>cryptography.hazmat.backends<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>default_backend</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/>cryptography.hazmat.primitives.kdf.pbkdf2<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>PBKDF2HMAC</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/>password_strength<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>PasswordPolicy</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/>substrateinterface.utils.ss58<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>ss58_encode</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/>termcolor<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>colored</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37" refid="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_key_file_error" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_key_file_error" kindref="compound">KeyFileError</ref>(Exception):</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;&quot;&quot;<sp/>Error<sp/>thrown<sp/>when<sp/>the<sp/>keyfile<sp/>is<sp/>corrupt,<sp/>non-writable,<sp/>nno-readable<sp/>or<sp/>the<sp/>password<sp/>used<sp/>to<sp/>decrypt<sp/>is<sp/>invalid.</highlight></codeline>
+<codeline lineno="39"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>&quot;&quot;&quot;</highlight></codeline>
+<codeline lineno="40"><highlight class="stringliteral"></highlight></codeline>
+<codeline lineno="41"><highlight class="stringliteral">def<sp/>serialized_keypair_to_keyfile_data(<sp/>keypair:<sp/>&apos;bittensor.Keypair&apos;<sp/>):</highlight></codeline>
+<codeline lineno="42"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>&quot;&quot;&quot;<sp/>Serializes<sp/>keypair<sp/>object<sp/>into<sp/>keyfile<sp/>data.</highlight></codeline>
+<codeline lineno="43"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Args:</highlight></codeline>
+<codeline lineno="44"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>password<sp/>(<sp/>str,<sp/>required<sp/>):</highlight></codeline>
+<codeline lineno="45"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>password<sp/>to<sp/>verify.</highlight></codeline>
+<codeline lineno="46"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Returns:</highlight></codeline>
+<codeline lineno="47"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>valid<sp/>(<sp/>bool<sp/>):</highlight></codeline>
+<codeline lineno="48"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">True</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>the<sp/>password<sp/>meets<sp/>validity<sp/>requirements.</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;&quot;&quot;</highlight></codeline>
+<codeline lineno="50"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>json_data<sp/>=<sp/>{</highlight></codeline>
+<codeline lineno="51"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&apos;accountId&apos;</highlight><highlight class="normal">:<sp/></highlight><highlight class="stringliteral">&quot;0x&quot;</highlight><highlight class="normal"><sp/>+<sp/>keypair.public_key.hex()<sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>keypair.public_key<sp/>!=<sp/></highlight><highlight class="keywordtype">None</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">None</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;publicKey&apos;</highlight><highlight class="normal">:<sp/></highlight><highlight class="stringliteral">&quot;0x&quot;</highlight><highlight class="normal"><sp/>+<sp/>keypair.public_key.hex()<sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>keypair.public_key<sp/>!=<sp/></highlight><highlight class="keywordtype">None</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">None</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;secretPhrase&apos;</highlight><highlight class="normal">:<sp/>keypair.mnemonic<sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>keypair.mnemonic<sp/>!=<sp/></highlight><highlight class="keywordtype">None</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">None</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;secretSeed&apos;</highlight><highlight class="normal">:<sp/></highlight><highlight class="stringliteral">&quot;0x&quot;</highlight><highlight class="normal"><sp/>+<sp/>keypair.seed_hex<sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>keypair.seed_hex<sp/>!=<sp/></highlight><highlight class="keywordtype">None</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">None</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;ss58Address&apos;</highlight><highlight class="normal">:<sp/>keypair.ss58_address<sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>keypair.ss58_address<sp/>!=<sp/></highlight><highlight class="keywordtype">None</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">None</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/>data<sp/>=<sp/>json.dumps(<sp/>json_data<sp/>).encode()</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>data</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal">deserialize_keypair_from_keyfile_data(<sp/>keyfile_data:bytes<sp/>)<sp/>-&gt;<sp/></highlight><highlight class="stringliteral">&apos;bittensor.Keypair&apos;</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;&quot;&quot;<sp/>Deserializes<sp/>Keypair<sp/>object<sp/>from<sp/>passed<sp/>keyfile<sp/>data.</highlight></codeline>
+<codeline lineno="62"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Args:</highlight></codeline>
+<codeline lineno="63"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>keyfile_data<sp/>(<sp/>bytest,<sp/>required<sp/>):</highlight></codeline>
+<codeline lineno="64"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Keyfile<sp/>data<sp/></highlight><highlight class="keyword">as</highlight><highlight class="normal"><sp/>bytes<sp/>to<sp/>be<sp/>loaded.</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Returns:</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>keypair<sp/>(bittensor.Keypair):</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Keypair<sp/>loaded<sp/></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/>bytes.</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Raises:</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>KeyFileError:</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Raised<sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>the<sp/>passed<sp/>bytest<sp/>cannot<sp/>construct<sp/>a<sp/>keypair<sp/>object.</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;&quot;&quot;</highlight></codeline>
+<codeline lineno="72"><highlight class="stringliteral"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">#<sp/>Decode<sp/>from<sp/>json.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/>keyfile_data<sp/>=<sp/>keyfile_data.decode()</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">try</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>keyfile_dict<sp/>=<sp/>dict(json.loads(<sp/>keyfile_data<sp/>))</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">except</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>string_value<sp/>=<sp/>str(keyfile_data)</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>string_value[:2]<sp/>==<sp/></highlight><highlight class="stringliteral">&quot;0x&quot;</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>string_value<sp/>=<sp/>ss58_encode(<sp/>string_value<sp/>)</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>keyfile_dict<sp/>=<sp/>{</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;accountId&apos;</highlight><highlight class="normal">:<sp/></highlight><highlight class="keywordtype">None</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;publicKey&apos;</highlight><highlight class="normal">:<sp/></highlight><highlight class="keywordtype">None</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;secretPhrase&apos;</highlight><highlight class="normal">:<sp/></highlight><highlight class="keywordtype">None</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;secretSeed&apos;</highlight><highlight class="normal">:<sp/></highlight><highlight class="keywordtype">None</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;ss58Address&apos;</highlight><highlight class="normal">:<sp/>string_value</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">raise</highlight><highlight class="normal"><sp/><ref refid="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_key_file_error" kindref="compound">KeyFileError</ref>(</highlight><highlight class="stringliteral">&apos;Keypair<sp/>could<sp/>not<sp/>be<sp/>created<sp/>from<sp/>keyfile<sp/>data:<sp/>{}&apos;</highlight><highlight class="normal">.format(<sp/>string_value<sp/>))</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;secretSeed&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">in</highlight><highlight class="normal"><sp/>keyfile_dict<sp/></highlight><highlight class="keywordflow">and</highlight><highlight class="normal"><sp/>keyfile_dict[</highlight><highlight class="stringliteral">&apos;secretSeed&apos;</highlight><highlight class="normal">]<sp/>!=<sp/></highlight><highlight class="keywordtype">None</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>bittensor.Keypair.create_from_seed(keyfile_dict[</highlight><highlight class="stringliteral">&apos;secretSeed&apos;</highlight><highlight class="normal">])</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;secretPhrase&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">in</highlight><highlight class="normal"><sp/>keyfile_dict<sp/></highlight><highlight class="keywordflow">and</highlight><highlight class="normal"><sp/>keyfile_dict[</highlight><highlight class="stringliteral">&apos;secretPhrase&apos;</highlight><highlight class="normal">]<sp/>!=<sp/></highlight><highlight class="keywordtype">None</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>bittensor.Keypair.create_from_mnemonic(mnemonic=keyfile_dict[</highlight><highlight class="stringliteral">&apos;secretPhrase&apos;</highlight><highlight class="normal">])</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;ss58Address&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">in</highlight><highlight class="normal"><sp/>keyfile_dict<sp/></highlight><highlight class="keywordflow">and</highlight><highlight class="normal"><sp/>keyfile_dict[</highlight><highlight class="stringliteral">&apos;ss58Address&apos;</highlight><highlight class="normal">]<sp/>!=<sp/></highlight><highlight class="keywordtype">None</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>bittensor.Keypair(<sp/>ss58_address<sp/>=<sp/>keyfile_dict[</highlight><highlight class="stringliteral">&apos;ss58Address&apos;</highlight><highlight class="normal">]<sp/>)</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">raise</highlight><highlight class="normal"><sp/><ref refid="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_key_file_error" kindref="compound">KeyFileError</ref>(</highlight><highlight class="stringliteral">&apos;Keypair<sp/>could<sp/>not<sp/>be<sp/>created<sp/>from<sp/>keyfile<sp/>data:<sp/>{}&apos;</highlight><highlight class="normal">.format(<sp/>keyfile_dict<sp/>))</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal">validate_password(<sp/>password:str<sp/>)<sp/>-&gt;<sp/>bool:</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;&quot;&quot;<sp/>Validates<sp/>the<sp/>password<sp/>again<sp/>a<sp/>password<sp/>policy.</highlight></codeline>
+<codeline lineno="104"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Args:</highlight></codeline>
+<codeline lineno="105"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>password<sp/>(<sp/>str,<sp/>required<sp/>):</highlight></codeline>
+<codeline lineno="106"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>password<sp/>to<sp/>verify.</highlight></codeline>
+<codeline lineno="107"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Returns:</highlight></codeline>
+<codeline lineno="108"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>valid<sp/>(<sp/>bool<sp/>):</highlight></codeline>
+<codeline lineno="109"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">True</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>the<sp/>password<sp/>meets<sp/>validity<sp/>requirements.</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;&quot;&quot;</highlight></codeline>
+<codeline lineno="111"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>policy<sp/>=<sp/>PasswordPolicy.from_names(</highlight></codeline>
+<codeline lineno="112"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>strength=0.20,</highlight></codeline>
+<codeline lineno="113"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>entropybits=10,</highlight></codeline>
+<codeline lineno="114"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>length=6,</highlight></codeline>
+<codeline lineno="115"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>)</highlight></codeline>
+<codeline lineno="116"><highlight class="stringliteral"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">not</highlight><highlight class="normal"><sp/>password:</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">False</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/>tested_pass<sp/>=<sp/>policy.password(password)</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/>result<sp/>=<sp/>tested_pass.test()</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>len(result)<sp/>&gt;<sp/>0:</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>print(colored(</highlight><highlight class="stringliteral">&apos;Password<sp/>not<sp/>strong<sp/>enough.<sp/>Try<sp/>increasing<sp/>the<sp/>length<sp/>of<sp/>the<sp/>password<sp/>or<sp/>the<sp/>password<sp/>complexity&apos;</highlight><highlight class="normal">))</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">False</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/>password_verification<sp/>=<sp/>getpass.getpass(</highlight><highlight class="stringliteral">&quot;Retype<sp/>your<sp/>password:<sp/>&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>password<sp/>!=<sp/>password_verification:</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>print(</highlight><highlight class="stringliteral">&quot;Passwords<sp/>do<sp/>not<sp/>match&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">False</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">True</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="128"><highlight class="normal"></highlight></codeline>
+<codeline lineno="129"><highlight class="normal"></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal">ask_password_to_encrypt()<sp/>-&gt;<sp/>str:</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;&quot;&quot;<sp/>Password<sp/>from<sp/>user<sp/>prompt.</highlight></codeline>
+<codeline lineno="131"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Returns:</highlight></codeline>
+<codeline lineno="132"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>password<sp/>(str):</highlight></codeline>
+<codeline lineno="133"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Valid<sp/>password<sp/></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/>user<sp/>prompt.</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;&quot;&quot;</highlight></codeline>
+<codeline lineno="135"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>valid<sp/>=<sp/></highlight><highlight class="keyword">False</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">not</highlight><highlight class="normal"><sp/>valid:</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>password<sp/>=<sp/>getpass.getpass(</highlight><highlight class="stringliteral">&quot;Specify<sp/>password<sp/>for<sp/>key<sp/>encryption:<sp/>&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>valid<sp/>=<sp/>validate_password(password)</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>password</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"></highlight></codeline>
+<codeline lineno="141"><highlight class="normal"></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal">keyfile_data_is_encrypted_ansible(<sp/>keyfile_data:bytes<sp/>)<sp/>-&gt;<sp/>bool:</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;&quot;&quot;<sp/>Returns<sp/>true<sp/>if<sp/>the<sp/>keyfile<sp/>data<sp/>is<sp/>ansible<sp/>encrypted.</highlight></codeline>
+<codeline lineno="143"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Args:</highlight></codeline>
+<codeline lineno="144"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>keyfile_data<sp/>(<sp/>bytes,<sp/>required<sp/>):</highlight></codeline>
+<codeline lineno="145"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Bytes<sp/>to<sp/>validate</highlight></codeline>
+<codeline lineno="146"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Returns:</highlight></codeline>
+<codeline lineno="147"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>is_ansible<sp/>(bool):</highlight></codeline>
+<codeline lineno="148"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">True</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>data<sp/></highlight><highlight class="keywordflow">is</highlight><highlight class="normal"><sp/>ansible<sp/>encrypted.</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;&quot;&quot;</highlight></codeline>
+<codeline lineno="150"><highlight class="stringliteral"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>keyfile_data[:14]<sp/>==<sp/>b</highlight><highlight class="stringliteral">&apos;$ANSIBLE_VAULT&apos;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="151"><highlight class="normal"></highlight></codeline>
+<codeline lineno="152"><highlight class="normal"></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal">keyfile_data_is_encrypted_legacy(<sp/>keyfile_data:bytes<sp/>)<sp/>-&gt;<sp/>bool:</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;&quot;&quot;<sp/>Returns<sp/>true<sp/>if<sp/>the<sp/>keyfile<sp/>data<sp/>is<sp/>legacy<sp/>encrypted.</highlight></codeline>
+<codeline lineno="154"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Args:</highlight></codeline>
+<codeline lineno="155"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>keyfile_data<sp/>(<sp/>bytes,<sp/>required<sp/>):</highlight></codeline>
+<codeline lineno="156"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Bytes<sp/>to<sp/>validate</highlight></codeline>
+<codeline lineno="157"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Returns:</highlight></codeline>
+<codeline lineno="158"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>is_legacy<sp/>(bool):</highlight></codeline>
+<codeline lineno="159"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">True</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>data<sp/></highlight><highlight class="keywordflow">is</highlight><highlight class="normal"><sp/>legacy<sp/>encrypted.</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;&quot;&quot;</highlight></codeline>
+<codeline lineno="161"><highlight class="stringliteral"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>keyfile_data[:6]<sp/>==<sp/>b</highlight><highlight class="stringliteral">&quot;gAAAAA&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="162"><highlight class="normal"></highlight></codeline>
+<codeline lineno="163"><highlight class="normal"></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal">keyfile_data_is_encrypted(<sp/>keyfile_data:bytes<sp/>)<sp/>-&gt;<sp/>bool:</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;&quot;&quot;<sp/>Returns<sp/>true<sp/>if<sp/>the<sp/>keyfile<sp/>data<sp/>is<sp/>encrypted.</highlight></codeline>
+<codeline lineno="165"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Args:</highlight></codeline>
+<codeline lineno="166"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>keyfile_data<sp/>(<sp/>bytes,<sp/>required<sp/>):</highlight></codeline>
+<codeline lineno="167"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Bytes<sp/>to<sp/>validate</highlight></codeline>
+<codeline lineno="168"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Returns:</highlight></codeline>
+<codeline lineno="169"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>is_encrypted<sp/>(bool):</highlight></codeline>
+<codeline lineno="170"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">True</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>data<sp/></highlight><highlight class="keywordflow">is</highlight><highlight class="normal"><sp/>encrypted.</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;&quot;&quot;</highlight></codeline>
+<codeline lineno="172"><highlight class="stringliteral"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>keyfile_data_is_encrypted_ansible(<sp/>keyfile_data<sp/>)<sp/></highlight><highlight class="keywordflow">or</highlight><highlight class="normal"><sp/>keyfile_data_is_encrypted_legacy(<sp/>keyfile_data<sp/>)</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"></highlight></codeline>
+<codeline lineno="174"><highlight class="normal"></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal">encrypt_keyfile_data<sp/>(<sp/>keyfile_data:bytes,<sp/>password:<sp/>str<sp/>=<sp/></highlight><highlight class="keywordtype">None</highlight><highlight class="normal"><sp/>)<sp/>-&gt;<sp/>bytes:</highlight></codeline>
+<codeline lineno="175"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;&quot;&quot;<sp/>Encrypts<sp/>passed<sp/>keyfile<sp/>data<sp/>using<sp/>ansible<sp/>vault.</highlight></codeline>
+<codeline lineno="176"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Args:</highlight></codeline>
+<codeline lineno="177"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>keyfile_data<sp/>(<sp/>bytes,<sp/>required<sp/>):</highlight></codeline>
+<codeline lineno="178"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Bytes<sp/>to<sp/>validate</highlight></codeline>
+<codeline lineno="179"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>password<sp/>(<sp/>bool,<sp/>optional<sp/>):</highlight></codeline>
+<codeline lineno="180"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>It<sp/>set,<sp/>uses<sp/>this<sp/>password<sp/>to<sp/>encrypt<sp/>data.</highlight></codeline>
+<codeline lineno="181"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Returns:</highlight></codeline>
+<codeline lineno="182"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>encrytped_data<sp/>(bytes):</highlight></codeline>
+<codeline lineno="183"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Ansible<sp/>encrypted<sp/>data.</highlight></codeline>
+<codeline lineno="184"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>&quot;&quot;&quot;</highlight></codeline>
+<codeline lineno="185"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>password<sp/>=<sp/>ask_password_to_encrypt()<sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>password<sp/>==<sp/></highlight><highlight class="keywordtype">None</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>password</highlight></codeline>
+<codeline lineno="186"><highlight class="normal"><sp/><sp/><sp/><sp/>console<sp/>=<sp/>bittensor.__console__;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="187"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">with</highlight><highlight class="normal"><sp/>console.status(</highlight><highlight class="stringliteral">&quot;:locked_with_key:<sp/>Encrypting<sp/>key...&quot;</highlight><highlight class="normal">):</highlight></codeline>
+<codeline lineno="188"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>vault<sp/>=<sp/>Vault(<sp/>password<sp/>)</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>vault.vault.encrypt<sp/>(<sp/>keyfile_data<sp/>)</highlight></codeline>
+<codeline lineno="190"><highlight class="normal"></highlight></codeline>
+<codeline lineno="191"><highlight class="normal"></highlight></codeline>
+<codeline lineno="192"><highlight class="normal"></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal">get_coldkey_password_from_environment(coldkey_name:<sp/>str)<sp/>-&gt;<sp/>Optional[str]:</highlight></codeline>
+<codeline lineno="193"><highlight class="normal"></highlight></codeline>
+<codeline lineno="194"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>env_var<sp/></highlight><highlight class="keywordflow">in</highlight><highlight class="normal"><sp/>os.environ:</highlight></codeline>
+<codeline lineno="195"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>env_var.upper().startswith(</highlight><highlight class="stringliteral">&quot;BT_COLD_PW_&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="197"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">and</highlight><highlight class="normal"><sp/>env_var.upper().endswith(coldkey_name.upper())</highlight></codeline>
+<codeline lineno="198"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>):</highlight></codeline>
+<codeline lineno="199"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>os.getenv(env_var)</highlight></codeline>
+<codeline lineno="200"><highlight class="normal"></highlight></codeline>
+<codeline lineno="201"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">None</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="202"><highlight class="normal"></highlight></codeline>
+<codeline lineno="203"><highlight class="normal"></highlight></codeline>
+<codeline lineno="204"><highlight class="normal"></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal">decrypt_keyfile_data(keyfile_data:<sp/>bytes,<sp/>password:<sp/>str<sp/>=<sp/></highlight><highlight class="keywordtype">None</highlight><highlight class="normal">,<sp/>coldkey_name:<sp/>Optional[str]<sp/>=<sp/></highlight><highlight class="keywordtype">None</highlight><highlight class="normal">)<sp/>-&gt;<sp/>bytes:</highlight></codeline>
+<codeline lineno="205"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;&quot;&quot;<sp/>Decrypts<sp/>passed<sp/>keyfile<sp/>data<sp/>using<sp/>ansible<sp/>vault.</highlight></codeline>
+<codeline lineno="206"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Args:</highlight></codeline>
+<codeline lineno="207"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>keyfile_data<sp/>(<sp/>bytes,<sp/>required<sp/>):</highlight></codeline>
+<codeline lineno="208"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Bytes<sp/>to<sp/>validate</highlight></codeline>
+<codeline lineno="209"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>password<sp/>(<sp/>bool,<sp/>optional<sp/>):</highlight></codeline>
+<codeline lineno="210"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>It<sp/>set,<sp/>uses<sp/>this<sp/>password<sp/>to<sp/>decrypt<sp/>data.</highlight></codeline>
+<codeline lineno="211"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Returns:</highlight></codeline>
+<codeline lineno="212"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>decrypted_data<sp/>(bytes):</highlight></codeline>
+<codeline lineno="213"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Decrypted<sp/>data.</highlight></codeline>
+<codeline lineno="214"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Raises:</highlight></codeline>
+<codeline lineno="215"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>KeyFileError:</highlight></codeline>
+<codeline lineno="216"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Raised<sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>the<sp/>file<sp/></highlight><highlight class="keywordflow">is</highlight><highlight class="normal"><sp/>corrupted<sp/></highlight><highlight class="keywordflow">or</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>the<sp/>password<sp/></highlight><highlight class="keywordflow">is</highlight><highlight class="normal"><sp/>incorrect.</highlight></codeline>
+<codeline lineno="217"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;&quot;&quot;</highlight></codeline>
+<codeline lineno="218"><highlight class="stringliteral"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>coldkey_name<sp/></highlight><highlight class="keywordflow">is</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">not</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">None</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">and</highlight><highlight class="normal"><sp/>password<sp/></highlight><highlight class="keywordflow">is</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">None</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="219"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>password<sp/>=<sp/>get_coldkey_password_from_environment(coldkey_name)</highlight></codeline>
+<codeline lineno="220"><highlight class="normal"></highlight></codeline>
+<codeline lineno="221"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">try</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="222"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>password<sp/>=<sp/>getpass.getpass(</highlight><highlight class="stringliteral">&quot;Enter<sp/>password<sp/>to<sp/>unlock<sp/>key:<sp/>&quot;</highlight><highlight class="normal">)<sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>password<sp/></highlight><highlight class="keywordflow">is</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">None</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>password</highlight></codeline>
+<codeline lineno="223"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>console<sp/>=<sp/>bittensor.__console__;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="224"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">with</highlight><highlight class="normal"><sp/>console.status(</highlight><highlight class="stringliteral">&quot;:key:<sp/>Decrypting<sp/>key...&quot;</highlight><highlight class="normal">):</highlight></codeline>
+<codeline lineno="225"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">#<sp/>Ansible<sp/>decrypt.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="226"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>keyfile_data_is_encrypted_ansible(<sp/>keyfile_data<sp/>):</highlight></codeline>
+<codeline lineno="227"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>vault<sp/>=<sp/>Vault(<sp/>password<sp/>)</highlight></codeline>
+<codeline lineno="228"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>decrypted_keyfile_data<sp/>=<sp/>vault.load(<sp/>keyfile_data<sp/>)</highlight></codeline>
+<codeline lineno="229"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">#<sp/>Legacy<sp/>decrypt.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="230"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">elif</highlight><highlight class="normal"><sp/>keyfile_data_is_encrypted_legacy(<sp/>keyfile_data<sp/>):</highlight></codeline>
+<codeline lineno="231"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>__SALT<sp/>=<sp/>b</highlight><highlight class="stringliteral">&quot;Iguesscyborgslikemyselfhaveatendencytobeparanoidaboutourorigins&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="232"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>kdf<sp/>=<sp/>PBKDF2HMAC(algorithm=hashes.SHA256(),<sp/>salt=__SALT,<sp/>length=32,<sp/>iterations=10000000,<sp/>backend=default_backend())</highlight></codeline>
+<codeline lineno="233"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>key<sp/>=<sp/>base64.urlsafe_b64encode(kdf.derive(password.encode()))</highlight></codeline>
+<codeline lineno="234"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cipher_suite<sp/>=<sp/>Fernet(key)</highlight></codeline>
+<codeline lineno="235"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>decrypted_keyfile_data<sp/>=<sp/>cipher_suite.decrypt(<sp/>keyfile_data<sp/>)<sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="236"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">#<sp/>Unknown.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="237"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal">:<sp/></highlight></codeline>
+<codeline lineno="238"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">raise</highlight><highlight class="normal"><sp/><ref refid="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_key_file_error" kindref="compound">KeyFileError</ref>(<sp/></highlight><highlight class="stringliteral">&quot;Keyfile<sp/>data:<sp/>{}<sp/>is<sp/>corrupt&quot;</highlight><highlight class="normal">.format(<sp/>keyfile_data<sp/>))</highlight></codeline>
+<codeline lineno="239"><highlight class="normal"></highlight></codeline>
+<codeline lineno="240"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">except</highlight><highlight class="normal"><sp/>(InvalidSignature,<sp/>InvalidKey,<sp/>InvalidToken):</highlight></codeline>
+<codeline lineno="241"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">raise</highlight><highlight class="normal"><sp/><ref refid="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_key_file_error" kindref="compound">KeyFileError</ref>(</highlight><highlight class="stringliteral">&apos;Invalid<sp/>password&apos;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="242"><highlight class="normal"></highlight></codeline>
+<codeline lineno="243"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">not</highlight><highlight class="normal"><sp/>isinstance(decrypted_keyfile_data,<sp/>bytes):</highlight></codeline>
+<codeline lineno="244"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>decrypted_keyfile_data<sp/>=<sp/>json.dumps(<sp/>decrypted_keyfile_data<sp/>).encode()</highlight></codeline>
+<codeline lineno="245"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>decrypted_keyfile_data</highlight></codeline>
+<codeline lineno="246"><highlight class="normal"></highlight></codeline>
+<codeline lineno="247" refid="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_keyfile" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_keyfile" kindref="compound">Keyfile</ref>(<sp/>object<sp/>):</highlight></codeline>
+<codeline lineno="248"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;&quot;&quot;<sp/>Defines<sp/>an<sp/>interface<sp/>for<sp/>a<sp/>subtrate<sp/>interface<sp/>keypair<sp/>stored<sp/>on<sp/>device.</highlight></codeline>
+<codeline lineno="249"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>&quot;&quot;&quot;</highlight></codeline>
+<codeline lineno="250"><highlight class="stringliteral"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal">__init__(<sp/>self,<sp/>path:<sp/>str<sp/>):</highlight></codeline>
+<codeline lineno="251"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.<ref refid="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_keyfile_1a7d200c2b4305e100ce1079965eb40f9b" kindref="member">path</ref><sp/>=<sp/>os.path.expanduser(path)</highlight></codeline>
+<codeline lineno="252"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.<ref refid="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_keyfile_1a4715c6a6d37730a6615f772f4ccfe847" kindref="member">name</ref><sp/>=<sp/>Path(self.<ref refid="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_keyfile_1a7d200c2b4305e100ce1079965eb40f9b" kindref="member">path</ref>).parent.stem</highlight></codeline>
+<codeline lineno="253"><highlight class="normal"></highlight></codeline>
+<codeline lineno="254"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal">__str__(self):</highlight></codeline>
+<codeline lineno="255"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">not</highlight><highlight class="normal"><sp/>self.<ref refid="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_keyfile_1aae61dd8080aa8b20c16906bd55e40200" kindref="member">exists_on_device</ref>():</highlight></codeline>
+<codeline lineno="256"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;Keyfile<sp/>(empty,<sp/>{})&gt;&quot;</highlight><highlight class="normal">.format(<sp/>self.<ref refid="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_keyfile_1a7d200c2b4305e100ce1079965eb40f9b" kindref="member">path</ref><sp/>)</highlight></codeline>
+<codeline lineno="257"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>self.<ref refid="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_keyfile_1ad413bbc7faf38a71a436099fa98673ec" kindref="member">is_encrypted</ref>():</highlight></codeline>
+<codeline lineno="258"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;Keyfile<sp/>(encrypted,<sp/>{})&gt;&quot;</highlight><highlight class="normal">.format(<sp/>self.<ref refid="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_keyfile_1a7d200c2b4305e100ce1079965eb40f9b" kindref="member">path</ref><sp/>)</highlight></codeline>
+<codeline lineno="259"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="260"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;Keyfile<sp/>(decrypted,<sp/>{})&gt;&quot;</highlight><highlight class="normal">.format(<sp/>self.<ref refid="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_keyfile_1a7d200c2b4305e100ce1079965eb40f9b" kindref="member">path</ref><sp/>)</highlight></codeline>
+<codeline lineno="261"><highlight class="normal"></highlight></codeline>
+<codeline lineno="262"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal">__repr__(self):</highlight></codeline>
+<codeline lineno="263"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>self.<ref refid="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_keyfile_1ace444327efe72b0c732ecdc78e4a217a" kindref="member">__str__</ref>()</highlight></codeline>
+<codeline lineno="264"><highlight class="normal"></highlight></codeline>
+<codeline lineno="265"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="preprocessor">@property</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="266"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_keyfile_1abf9c1149326695e827f98e65635ccc1c" kindref="member">keypair</ref>(<sp/>self<sp/>)<sp/>-&gt;<sp/>&apos;bittensor.Keypair&apos;:</highlight></codeline>
+<codeline lineno="267"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;&quot;&quot;<sp/>Returns<sp/>the<sp/>keypair<sp/>from<sp/>path,<sp/>decrypts<sp/>data<sp/>if<sp/>the<sp/>file<sp/>is<sp/>encrypted.</highlight></codeline>
+<codeline lineno="268"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Args:</highlight></codeline>
+<codeline lineno="269"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>password<sp/>(<sp/>str,<sp/>optional<sp/>):</highlight></codeline>
+<codeline lineno="270"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Optional<sp/>password<sp/>used<sp/>to<sp/>decrypt<sp/>file.<sp/>If<sp/></highlight><highlight class="keywordtype">None</highlight><highlight class="normal">,<sp/>asks<sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>user<sp/>input.</highlight></codeline>
+<codeline lineno="271"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Returns:</highlight></codeline>
+<codeline lineno="272"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>keypair<sp/>(bittensor.Keypair):</highlight></codeline>
+<codeline lineno="273"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Keypair<sp/>stored<sp/>under<sp/>path.</highlight></codeline>
+<codeline lineno="274"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Raises:</highlight></codeline>
+<codeline lineno="275"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>KeyFileError:</highlight></codeline>
+<codeline lineno="276"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Raised<sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>the<sp/>file<sp/>does<sp/></highlight><highlight class="keywordflow">not</highlight><highlight class="normal"><sp/>exists,<sp/></highlight><highlight class="keywordflow">is</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">not</highlight><highlight class="normal"><sp/>readable,<sp/>writable<sp/></highlight></codeline>
+<codeline lineno="277"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>corrupted,<sp/></highlight><highlight class="keywordflow">or</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>the<sp/>password<sp/></highlight><highlight class="keywordflow">is</highlight><highlight class="normal"><sp/>incorrect.</highlight></codeline>
+<codeline lineno="278"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;&quot;&quot;</highlight></codeline>
+<codeline lineno="279"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>self.<ref refid="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_keyfile_1af5b9f07e88fc0dbc9fc94e2e97490c6e" kindref="member">get_keypair</ref>()</highlight></codeline>
+<codeline lineno="280"><highlight class="normal"></highlight></codeline>
+<codeline lineno="281"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="preprocessor">@property</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="282"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_keyfile_1adef2640c132af5c43448d3da467b7ab3" kindref="member">data</ref>(<sp/>self<sp/>)<sp/>-&gt;<sp/>bytes:</highlight></codeline>
+<codeline lineno="283"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;&quot;&quot;<sp/>Returns<sp/>keyfile<sp/>data<sp/>under<sp/>path.</highlight></codeline>
+<codeline lineno="284"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Returns:</highlight></codeline>
+<codeline lineno="285"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>keyfile_data<sp/>(bytes):<sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="286"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Keyfile<sp/>data<sp/>stored<sp/>under<sp/>path.</highlight></codeline>
+<codeline lineno="287"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Raises:</highlight></codeline>
+<codeline lineno="288"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>KeyFileError:</highlight></codeline>
+<codeline lineno="289"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Raised<sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>the<sp/>file<sp/>does<sp/></highlight><highlight class="keywordflow">not</highlight><highlight class="normal"><sp/>exists,<sp/></highlight><highlight class="keywordflow">is</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">not</highlight><highlight class="normal"><sp/>readable,<sp/></highlight><highlight class="keywordflow">or</highlight><highlight class="normal"><sp/>writable.</highlight></codeline>
+<codeline lineno="290"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;&quot;&quot;</highlight></codeline>
+<codeline lineno="291"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>self.<ref refid="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_keyfile_1a35a65736ecb1b571e571a27df0cde5e5" kindref="member">_read_keyfile_data_from_file</ref>()</highlight></codeline>
+<codeline lineno="292"><highlight class="normal"></highlight></codeline>
+<codeline lineno="293"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="preprocessor">@property</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="294"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_keyfile_1a960494a52126409f55eea00f0cf30f0f" kindref="member">keyfile_data</ref>(<sp/>self<sp/>)<sp/>-&gt;<sp/>bytes:</highlight></codeline>
+<codeline lineno="295"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;&quot;&quot;<sp/>Returns<sp/>keyfile<sp/>data<sp/>under<sp/>path.</highlight></codeline>
+<codeline lineno="296"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Returns:</highlight></codeline>
+<codeline lineno="297"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>keyfile_data<sp/>(bytes):<sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="298"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Keyfile<sp/>data<sp/>stored<sp/>under<sp/>path.</highlight></codeline>
+<codeline lineno="299"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Raises:</highlight></codeline>
+<codeline lineno="300"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>KeyFileError:</highlight></codeline>
+<codeline lineno="301"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Raised<sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>the<sp/>file<sp/>does<sp/></highlight><highlight class="keywordflow">not</highlight><highlight class="normal"><sp/>exists,<sp/></highlight><highlight class="keywordflow">is</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">not</highlight><highlight class="normal"><sp/>readable,<sp/></highlight><highlight class="keywordflow">or</highlight><highlight class="normal"><sp/>writable.</highlight></codeline>
+<codeline lineno="302"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;&quot;&quot;</highlight></codeline>
+<codeline lineno="303"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>self.<ref refid="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_keyfile_1a35a65736ecb1b571e571a27df0cde5e5" kindref="member">_read_keyfile_data_from_file</ref>()</highlight></codeline>
+<codeline lineno="304"><highlight class="normal"></highlight></codeline>
+<codeline lineno="305"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_keyfile_1a6cd8c6885bf5818ce214febbe63887f6" kindref="member">set_keypair</ref><sp/>(<sp/>self,<sp/>keypair:<sp/></highlight><highlight class="stringliteral">&apos;bittensor.Keypair&apos;</highlight><highlight class="normal">,<sp/>encrypt:<sp/>bool<sp/>=<sp/></highlight><highlight class="keyword">True</highlight><highlight class="normal">,<sp/>overwrite:<sp/>bool<sp/>=<sp/></highlight><highlight class="keyword">False</highlight><highlight class="normal">,<sp/>password:str<sp/>=<sp/></highlight><highlight class="keywordtype">None</highlight><highlight class="normal">):</highlight></codeline>
+<codeline lineno="306"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;&quot;&quot;<sp/>Writes<sp/>the<sp/>keypair<sp/>to<sp/>the<sp/>file<sp/>and<sp/>optional<sp/>encrypts<sp/>data.</highlight></codeline>
+<codeline lineno="307"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Args:</highlight></codeline>
+<codeline lineno="308"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>keypair<sp/>(bittensor.Keypair):</highlight></codeline>
+<codeline lineno="309"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Keypair<sp/>to<sp/>store<sp/>under<sp/>path.</highlight></codeline>
+<codeline lineno="310"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>encrypt<sp/>(<sp/>bool,<sp/>optional,<sp/>default<sp/>=<sp/></highlight><highlight class="keyword">True</highlight><highlight class="normal"><sp/>):</highlight></codeline>
+<codeline lineno="311"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>If<sp/></highlight><highlight class="keyword">True</highlight><highlight class="normal">,<sp/>encrypts<sp/>file<sp/>under<sp/>path.</highlight></codeline>
+<codeline lineno="312"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>overwrite<sp/>(<sp/>bool,<sp/>optional,<sp/>default<sp/>=<sp/></highlight><highlight class="keyword">True</highlight><highlight class="normal"><sp/>):</highlight></codeline>
+<codeline lineno="313"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>If<sp/></highlight><highlight class="keyword">True</highlight><highlight class="normal">,<sp/>forces<sp/>overwrite<sp/>of<sp/>current<sp/>file.</highlight></codeline>
+<codeline lineno="314"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>password<sp/>(<sp/>str,<sp/>optional<sp/>):</highlight></codeline>
+<codeline lineno="315"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Optional<sp/>password<sp/>used<sp/>to<sp/>encrypt<sp/>file.<sp/>If<sp/></highlight><highlight class="keywordtype">None</highlight><highlight class="normal">,<sp/>asks<sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>user<sp/>input.</highlight></codeline>
+<codeline lineno="316"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Raises:</highlight></codeline>
+<codeline lineno="317"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>KeyFileError:</highlight></codeline>
+<codeline lineno="318"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Raised<sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>the<sp/>file<sp/>does<sp/></highlight><highlight class="keywordflow">not</highlight><highlight class="normal"><sp/>exists,<sp/></highlight><highlight class="keywordflow">is</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">not</highlight><highlight class="normal"><sp/>readable,<sp/></highlight><highlight class="keywordflow">or</highlight><highlight class="normal"><sp/>writable.</highlight></codeline>
+<codeline lineno="319"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;&quot;&quot;</highlight></codeline>
+<codeline lineno="320"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.<ref refid="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_keyfile_1a0d8dd9d1339cd24982500afdc7964546" kindref="member">make_dirs</ref>()</highlight></codeline>
+<codeline lineno="321"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>keyfile_data<sp/>=<sp/>serialized_keypair_to_keyfile_data(<sp/>keypair<sp/>)</highlight></codeline>
+<codeline lineno="322"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>encrypt:</highlight></codeline>
+<codeline lineno="323"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>keyfile_data<sp/>=<sp/>encrypt_keyfile_data(<sp/>keyfile_data,<sp/>password<sp/>)</highlight></codeline>
+<codeline lineno="324"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.<ref refid="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_keyfile_1a99174e45bad19a8d43023cd17d5f3ce5" kindref="member">_write_keyfile_data_to_file</ref>(<sp/>keyfile_data,<sp/>overwrite<sp/>=<sp/>overwrite<sp/>)</highlight></codeline>
+<codeline lineno="325"><highlight class="normal"></highlight></codeline>
+<codeline lineno="326"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_keyfile_1af5b9f07e88fc0dbc9fc94e2e97490c6e" kindref="member">get_keypair</ref>(self,<sp/>password:<sp/>str<sp/>=<sp/></highlight><highlight class="keywordtype">None</highlight><highlight class="normal">)<sp/>-&gt;<sp/></highlight><highlight class="stringliteral">&apos;bittensor.Keypair&apos;</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="327"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;&quot;&quot;<sp/>Returns<sp/>the<sp/>keypair<sp/>from<sp/>path,<sp/>decrypts<sp/>data<sp/>if<sp/>the<sp/>file<sp/>is<sp/>encrypted.</highlight></codeline>
+<codeline lineno="328"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Args:</highlight></codeline>
+<codeline lineno="329"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>password<sp/>(<sp/>str,<sp/>optional<sp/>):</highlight></codeline>
+<codeline lineno="330"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Optional<sp/>password<sp/>used<sp/>to<sp/>decrypt<sp/>file.<sp/>If<sp/></highlight><highlight class="keywordtype">None</highlight><highlight class="normal">,<sp/>asks<sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>user<sp/>input.</highlight></codeline>
+<codeline lineno="331"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Returns:</highlight></codeline>
+<codeline lineno="332"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>keypair<sp/>(bittensor.Keypair):</highlight></codeline>
+<codeline lineno="333"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Keypair<sp/>stored<sp/>under<sp/>path.</highlight></codeline>
+<codeline lineno="334"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Raises:</highlight></codeline>
+<codeline lineno="335"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>KeyFileError:</highlight></codeline>
+<codeline lineno="336"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Raised<sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>the<sp/>file<sp/>does<sp/></highlight><highlight class="keywordflow">not</highlight><highlight class="normal"><sp/>exists,<sp/></highlight><highlight class="keywordflow">is</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">not</highlight><highlight class="normal"><sp/>readable,<sp/>writable<sp/></highlight></codeline>
+<codeline lineno="337"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>corrupted,<sp/></highlight><highlight class="keywordflow">or</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>the<sp/>password<sp/></highlight><highlight class="keywordflow">is</highlight><highlight class="normal"><sp/>incorrect.</highlight></codeline>
+<codeline lineno="338"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;&quot;&quot;</highlight></codeline>
+<codeline lineno="339"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>keyfile_data<sp/>=<sp/>self.<ref refid="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_keyfile_1a35a65736ecb1b571e571a27df0cde5e5" kindref="member">_read_keyfile_data_from_file</ref>()</highlight></codeline>
+<codeline lineno="340"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>keyfile_data_is_encrypted(<sp/>keyfile_data<sp/>):</highlight></codeline>
+<codeline lineno="341"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>keyfile_data<sp/>=<sp/>decrypt_keyfile_data(keyfile_data,<sp/>password,<sp/>coldkey_name=self.<ref refid="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_keyfile_1a4715c6a6d37730a6615f772f4ccfe847" kindref="member">name</ref>)</highlight></codeline>
+<codeline lineno="342"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>deserialize_keypair_from_keyfile_data(<sp/>keyfile_data<sp/>)</highlight></codeline>
+<codeline lineno="343"><highlight class="normal"></highlight></codeline>
+<codeline lineno="344"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_keyfile_1a0d8dd9d1339cd24982500afdc7964546" kindref="member">make_dirs</ref>(<sp/>self<sp/>):</highlight></codeline>
+<codeline lineno="345"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;&quot;&quot;<sp/>Makes<sp/>directories<sp/>for<sp/>path.</highlight></codeline>
+<codeline lineno="346"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&quot;&quot;&quot;</highlight></codeline>
+<codeline lineno="347"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>directory<sp/>=<sp/>os.path.dirname(<sp/>self.<ref refid="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_keyfile_1a7d200c2b4305e100ce1079965eb40f9b" kindref="member">path</ref><sp/>)</highlight></codeline>
+<codeline lineno="348"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">not</highlight><highlight class="normal"><sp/>os.path.exists(<sp/>directory<sp/>):</highlight></codeline>
+<codeline lineno="349"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>os.makedirs(<sp/>directory<sp/>)<sp/></highlight></codeline>
+<codeline lineno="350"><highlight class="normal"></highlight></codeline>
+<codeline lineno="351"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_keyfile_1aae61dd8080aa8b20c16906bd55e40200" kindref="member">exists_on_device</ref>(<sp/>self<sp/>)<sp/>-&gt;<sp/>bool:</highlight></codeline>
+<codeline lineno="352"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;&quot;&quot;<sp/>Returns<sp/>true<sp/>if<sp/>the<sp/>file<sp/>exists<sp/>on<sp/>the<sp/>device.</highlight></codeline>
+<codeline lineno="353"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Returns:</highlight></codeline>
+<codeline lineno="354"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>on_device<sp/>(bool):</highlight></codeline>
+<codeline lineno="355"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">True</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>the<sp/>file<sp/></highlight><highlight class="keywordflow">is</highlight><highlight class="normal"><sp/>on<sp/>device.</highlight></codeline>
+<codeline lineno="356"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;&quot;&quot;</highlight></codeline>
+<codeline lineno="357"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">not</highlight><highlight class="normal"><sp/>os.path.isfile(<sp/>self.<ref refid="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_keyfile_1a7d200c2b4305e100ce1079965eb40f9b" kindref="member">path</ref><sp/>):</highlight></codeline>
+<codeline lineno="358"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">False</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="359"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">True</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="360"><highlight class="normal"></highlight></codeline>
+<codeline lineno="361"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_keyfile_1ae89e29be6bb73f4c5d93f6dffe197886" kindref="member">is_readable</ref>(<sp/>self<sp/>)<sp/>-&gt;<sp/>bool:</highlight></codeline>
+<codeline lineno="362"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;&quot;&quot;<sp/>Returns<sp/>true<sp/>if<sp/>the<sp/>file<sp/>under<sp/>path<sp/>is<sp/>readable.</highlight></codeline>
+<codeline lineno="363"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Returns:</highlight></codeline>
+<codeline lineno="364"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>readable<sp/>(bool):</highlight></codeline>
+<codeline lineno="365"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">True</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>the<sp/>file<sp/></highlight><highlight class="keywordflow">is</highlight><highlight class="normal"><sp/>readable.</highlight></codeline>
+<codeline lineno="366"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;&quot;&quot;</highlight></codeline>
+<codeline lineno="367"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">not</highlight><highlight class="normal"><sp/>self.<ref refid="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_keyfile_1aae61dd8080aa8b20c16906bd55e40200" kindref="member">exists_on_device</ref>():</highlight></codeline>
+<codeline lineno="368"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">False</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="369"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">not</highlight><highlight class="normal"><sp/>os.access(<sp/>self.<ref refid="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_keyfile_1a7d200c2b4305e100ce1079965eb40f9b" kindref="member">path</ref><sp/>,<sp/>os.R_OK<sp/>):</highlight></codeline>
+<codeline lineno="370"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">False</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="371"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">True</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="372"><highlight class="normal"></highlight></codeline>
+<codeline lineno="373"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_keyfile_1a07173ee799689c445493368512c1b135" kindref="member">is_writable</ref>(<sp/>self<sp/>)<sp/>-&gt;<sp/>bool:</highlight></codeline>
+<codeline lineno="374"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;&quot;&quot;<sp/>Returns<sp/>true<sp/>if<sp/>the<sp/>file<sp/>under<sp/>path<sp/>is<sp/>writable.</highlight></codeline>
+<codeline lineno="375"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Returns:</highlight></codeline>
+<codeline lineno="376"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>writable<sp/>(bool):</highlight></codeline>
+<codeline lineno="377"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">True</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>the<sp/>file<sp/></highlight><highlight class="keywordflow">is</highlight><highlight class="normal"><sp/>writable.</highlight></codeline>
+<codeline lineno="378"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;&quot;&quot;</highlight></codeline>
+<codeline lineno="379"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>os.access(self.<ref refid="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_keyfile_1a7d200c2b4305e100ce1079965eb40f9b" kindref="member">path</ref>,<sp/>os.W_OK):</highlight></codeline>
+<codeline lineno="380"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">True</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="381"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">False</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="382"><highlight class="normal"></highlight></codeline>
+<codeline lineno="383"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_keyfile_1ad413bbc7faf38a71a436099fa98673ec" kindref="member">is_encrypted</ref><sp/>(<sp/>self<sp/>)<sp/>-&gt;<sp/>bool:</highlight></codeline>
+<codeline lineno="384"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;&quot;&quot;<sp/>Returns<sp/>true<sp/>if<sp/>the<sp/>file<sp/>under<sp/>path<sp/>is<sp/>encrypted.</highlight></codeline>
+<codeline lineno="385"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Returns:</highlight></codeline>
+<codeline lineno="386"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>encrypted<sp/>(bool):</highlight></codeline>
+<codeline lineno="387"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">True</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>the<sp/>file<sp/></highlight><highlight class="keywordflow">is</highlight><highlight class="normal"><sp/>encrypted.</highlight></codeline>
+<codeline lineno="388"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;&quot;&quot;</highlight></codeline>
+<codeline lineno="389"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">not</highlight><highlight class="normal"><sp/>self.<ref refid="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_keyfile_1aae61dd8080aa8b20c16906bd55e40200" kindref="member">exists_on_device</ref>():</highlight></codeline>
+<codeline lineno="390"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">False</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="391"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">not</highlight><highlight class="normal"><sp/>self.<ref refid="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_keyfile_1ae89e29be6bb73f4c5d93f6dffe197886" kindref="member">is_readable</ref>():</highlight></codeline>
+<codeline lineno="392"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">False</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="393"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>keyfile_data_is_encrypted(<sp/>self.<ref refid="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_keyfile_1a35a65736ecb1b571e571a27df0cde5e5" kindref="member">_read_keyfile_data_from_file</ref>()<sp/>)</highlight></codeline>
+<codeline lineno="394"><highlight class="normal"></highlight></codeline>
+<codeline lineno="395"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal">_may_overwrite<sp/>(<sp/>self<sp/>)<sp/>-&gt;<sp/>bool:</highlight></codeline>
+<codeline lineno="396"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>choice<sp/>=<sp/>input(</highlight><highlight class="stringliteral">&quot;File<sp/>{}<sp/>already<sp/>exists.<sp/>Overwrite<sp/>?<sp/>(y/N)<sp/>&quot;</highlight><highlight class="normal">.format(<sp/>self.<ref refid="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_keyfile_1a7d200c2b4305e100ce1079965eb40f9b" kindref="member">path</ref><sp/>))</highlight></codeline>
+<codeline lineno="397"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>choice<sp/>==<sp/></highlight><highlight class="stringliteral">&apos;y&apos;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="398"><highlight class="normal"></highlight></codeline>
+<codeline lineno="399"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_keyfile_1ad4292d86cd05d09f46bb148c4e1a135a" kindref="member">encrypt</ref>(<sp/>self,<sp/>password:<sp/>str<sp/>=<sp/></highlight><highlight class="keywordtype">None</highlight><highlight class="normal">):</highlight></codeline>
+<codeline lineno="400"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;&quot;&quot;<sp/>Encrypts<sp/>file<sp/>under<sp/>path.</highlight></codeline>
+<codeline lineno="401"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Args:</highlight></codeline>
+<codeline lineno="402"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>password:<sp/>(str,<sp/>optional):</highlight></codeline>
+<codeline lineno="403"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Optional<sp/>password<sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>encryption.<sp/>Otherwise<sp/>asks<sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>user<sp/>input.</highlight></codeline>
+<codeline lineno="404"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Raises:</highlight></codeline>
+<codeline lineno="405"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>KeyFileError:</highlight></codeline>
+<codeline lineno="406"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Raised<sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>the<sp/>file<sp/>does<sp/></highlight><highlight class="keywordflow">not</highlight><highlight class="normal"><sp/>exists,<sp/></highlight><highlight class="keywordflow">is</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">not</highlight><highlight class="normal"><sp/>readable,<sp/>writable.</highlight></codeline>
+<codeline lineno="407"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;&quot;&quot;</highlight></codeline>
+<codeline lineno="408"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">not</highlight><highlight class="normal"><sp/>self.<ref refid="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_keyfile_1aae61dd8080aa8b20c16906bd55e40200" kindref="member">exists_on_device</ref>():</highlight></codeline>
+<codeline lineno="409"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">raise</highlight><highlight class="normal"><sp/><ref refid="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_key_file_error" kindref="compound">KeyFileError</ref>(<sp/></highlight><highlight class="stringliteral">&quot;Keyfile<sp/>at:<sp/>{}<sp/>is<sp/>not<sp/>a<sp/>file&quot;</highlight><highlight class="normal">.format(<sp/>self.<ref refid="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_keyfile_1a7d200c2b4305e100ce1079965eb40f9b" kindref="member">path</ref><sp/>))</highlight></codeline>
+<codeline lineno="410"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">not</highlight><highlight class="normal"><sp/>self.<ref refid="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_keyfile_1ae89e29be6bb73f4c5d93f6dffe197886" kindref="member">is_readable</ref>():</highlight></codeline>
+<codeline lineno="411"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">raise</highlight><highlight class="normal"><sp/><ref refid="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_key_file_error" kindref="compound">KeyFileError</ref>(<sp/></highlight><highlight class="stringliteral">&quot;Keyfile<sp/>at:<sp/>{}<sp/>is<sp/>not<sp/>readable&quot;</highlight><highlight class="normal">.format(<sp/>self.<ref refid="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_keyfile_1a7d200c2b4305e100ce1079965eb40f9b" kindref="member">path</ref><sp/>))</highlight></codeline>
+<codeline lineno="412"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">not</highlight><highlight class="normal"><sp/>self.<ref refid="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_keyfile_1a07173ee799689c445493368512c1b135" kindref="member">is_writable</ref>():</highlight></codeline>
+<codeline lineno="413"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">raise</highlight><highlight class="normal"><sp/><ref refid="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_key_file_error" kindref="compound">KeyFileError</ref>(<sp/></highlight><highlight class="stringliteral">&quot;Keyfile<sp/>at:<sp/>{}<sp/>is<sp/>not<sp/>writeable&quot;</highlight><highlight class="normal">.format(<sp/>self.<ref refid="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_keyfile_1a7d200c2b4305e100ce1079965eb40f9b" kindref="member">path</ref><sp/>)<sp/>)<sp/></highlight></codeline>
+<codeline lineno="414"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>keyfile_data<sp/>=<sp/>self.<ref refid="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_keyfile_1a35a65736ecb1b571e571a27df0cde5e5" kindref="member">_read_keyfile_data_from_file</ref>()</highlight></codeline>
+<codeline lineno="415"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">not</highlight><highlight class="normal"><sp/>keyfile_data_is_encrypted(<sp/>keyfile_data<sp/>):</highlight></codeline>
+<codeline lineno="416"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>as_keypair<sp/>=<sp/>deserialize_keypair_from_keyfile_data(<sp/>keyfile_data<sp/>)</highlight></codeline>
+<codeline lineno="417"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>keyfile_data<sp/>=<sp/>serialized_keypair_to_keyfile_data(<sp/>as_keypair<sp/>)</highlight></codeline>
+<codeline lineno="418"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>keyfile_data<sp/>=<sp/>encrypt_keyfile_data(<sp/>keyfile_data,<sp/>password<sp/>)</highlight></codeline>
+<codeline lineno="419"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.<ref refid="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_keyfile_1a99174e45bad19a8d43023cd17d5f3ce5" kindref="member">_write_keyfile_data_to_file</ref>(<sp/>keyfile_data,<sp/>overwrite<sp/>=<sp/></highlight><highlight class="keyword">True</highlight><highlight class="normal"><sp/>)</highlight></codeline>
+<codeline lineno="420"><highlight class="normal"></highlight></codeline>
+<codeline lineno="421"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_keyfile_1aa68fcf205c5234ad1725d8fd41264e28" kindref="member">decrypt</ref>(<sp/>self,<sp/>password:<sp/>str<sp/>=<sp/></highlight><highlight class="keywordtype">None</highlight><highlight class="normal">):</highlight></codeline>
+<codeline lineno="422"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;&quot;&quot;<sp/>Decrypts<sp/>file<sp/>under<sp/>path.</highlight></codeline>
+<codeline lineno="423"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Args:</highlight></codeline>
+<codeline lineno="424"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>password:<sp/>(str,<sp/>optional):</highlight></codeline>
+<codeline lineno="425"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Optional<sp/>password<sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>decryption.<sp/>Otherwise<sp/>asks<sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>user<sp/>input.</highlight></codeline>
+<codeline lineno="426"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Raises:</highlight></codeline>
+<codeline lineno="427"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>KeyFileError:</highlight></codeline>
+<codeline lineno="428"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Raised<sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>the<sp/>file<sp/>does<sp/></highlight><highlight class="keywordflow">not</highlight><highlight class="normal"><sp/>exists,<sp/></highlight><highlight class="keywordflow">is</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">not</highlight><highlight class="normal"><sp/>readable,<sp/>writable<sp/></highlight></codeline>
+<codeline lineno="429"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>corrupted,<sp/></highlight><highlight class="keywordflow">or</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>the<sp/>password<sp/></highlight><highlight class="keywordflow">is</highlight><highlight class="normal"><sp/>incorrect.</highlight></codeline>
+<codeline lineno="430"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;&quot;&quot;</highlight></codeline>
+<codeline lineno="431"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">not</highlight><highlight class="normal"><sp/>self.<ref refid="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_keyfile_1aae61dd8080aa8b20c16906bd55e40200" kindref="member">exists_on_device</ref>():</highlight></codeline>
+<codeline lineno="432"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">raise</highlight><highlight class="normal"><sp/><ref refid="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_key_file_error" kindref="compound">KeyFileError</ref>(<sp/></highlight><highlight class="stringliteral">&quot;Keyfile<sp/>at:<sp/>{}<sp/>is<sp/>not<sp/>a<sp/>file&quot;</highlight><highlight class="normal">.format(<sp/>self.<ref refid="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_keyfile_1a7d200c2b4305e100ce1079965eb40f9b" kindref="member">path</ref><sp/>))</highlight></codeline>
+<codeline lineno="433"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">not</highlight><highlight class="normal"><sp/>self.<ref refid="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_keyfile_1ae89e29be6bb73f4c5d93f6dffe197886" kindref="member">is_readable</ref>():</highlight></codeline>
+<codeline lineno="434"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">raise</highlight><highlight class="normal"><sp/><ref refid="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_key_file_error" kindref="compound">KeyFileError</ref>(<sp/></highlight><highlight class="stringliteral">&quot;Keyfile<sp/>at:<sp/>{}<sp/>is<sp/>not<sp/>readable&quot;</highlight><highlight class="normal">.format(<sp/>self.<ref refid="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_keyfile_1a7d200c2b4305e100ce1079965eb40f9b" kindref="member">path</ref><sp/>))</highlight></codeline>
+<codeline lineno="435"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">not</highlight><highlight class="normal"><sp/>self.<ref refid="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_keyfile_1a07173ee799689c445493368512c1b135" kindref="member">is_writable</ref>():</highlight></codeline>
+<codeline lineno="436"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">raise</highlight><highlight class="normal"><sp/><ref refid="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_key_file_error" kindref="compound">KeyFileError</ref>(<sp/></highlight><highlight class="stringliteral">&quot;No<sp/>write<sp/>access<sp/>for<sp/>{}&quot;</highlight><highlight class="normal">.format(<sp/>self.<ref refid="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_keyfile_1a7d200c2b4305e100ce1079965eb40f9b" kindref="member">path</ref><sp/>)<sp/>)<sp/></highlight></codeline>
+<codeline lineno="437"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>keyfile_data<sp/>=<sp/>self.<ref refid="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_keyfile_1a35a65736ecb1b571e571a27df0cde5e5" kindref="member">_read_keyfile_data_from_file</ref>()</highlight></codeline>
+<codeline lineno="438"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>keyfile_data_is_encrypted(<sp/>keyfile_data<sp/>):</highlight></codeline>
+<codeline lineno="439"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>keyfile_data<sp/>=<sp/>decrypt_keyfile_data(keyfile_data,<sp/>password,<sp/>coldkey_name=self.<ref refid="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_keyfile_1a4715c6a6d37730a6615f772f4ccfe847" kindref="member">name</ref>)</highlight></codeline>
+<codeline lineno="440"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>as_keypair<sp/>=<sp/>deserialize_keypair_from_keyfile_data(<sp/>keyfile_data<sp/>)</highlight></codeline>
+<codeline lineno="441"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>keyfile_data<sp/>=<sp/>serialized_keypair_to_keyfile_data(<sp/>as_keypair<sp/>)</highlight></codeline>
+<codeline lineno="442"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.<ref refid="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_keyfile_1a99174e45bad19a8d43023cd17d5f3ce5" kindref="member">_write_keyfile_data_to_file</ref>(<sp/>keyfile_data,<sp/>overwrite<sp/>=<sp/></highlight><highlight class="keyword">True</highlight><highlight class="normal"><sp/>)</highlight></codeline>
+<codeline lineno="443"><highlight class="normal"></highlight></codeline>
+<codeline lineno="444"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_keyfile_1a35a65736ecb1b571e571a27df0cde5e5" kindref="member">_read_keyfile_data_from_file</ref><sp/>(<sp/>self<sp/>)<sp/>-&gt;<sp/>bytes:</highlight></codeline>
+<codeline lineno="445"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;&quot;&quot;<sp/>Reads<sp/>keyfile<sp/>data<sp/>from<sp/>path.</highlight></codeline>
+<codeline lineno="446"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Returns:</highlight></codeline>
+<codeline lineno="447"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>keyfile_data:<sp/>(bytes,<sp/>required):</highlight></codeline>
+<codeline lineno="448"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Keyfile<sp/>data<sp/>sotred<sp/>under<sp/>path.</highlight></codeline>
+<codeline lineno="449"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Raises:</highlight></codeline>
+<codeline lineno="450"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>KeyFileError:</highlight></codeline>
+<codeline lineno="451"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Raised<sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>the<sp/>file<sp/>does<sp/></highlight><highlight class="keywordflow">not</highlight><highlight class="normal"><sp/>exists<sp/></highlight><highlight class="keywordflow">or</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">is</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">not</highlight><highlight class="normal"><sp/>readable.</highlight></codeline>
+<codeline lineno="452"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;&quot;&quot;</highlight></codeline>
+<codeline lineno="453"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">not</highlight><highlight class="normal"><sp/>self.<ref refid="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_keyfile_1aae61dd8080aa8b20c16906bd55e40200" kindref="member">exists_on_device</ref>():</highlight></codeline>
+<codeline lineno="454"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">raise</highlight><highlight class="normal"><sp/><ref refid="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_key_file_error" kindref="compound">KeyFileError</ref>(<sp/></highlight><highlight class="stringliteral">&quot;Keyfile<sp/>at:<sp/>{}<sp/>is<sp/>not<sp/>a<sp/>file&quot;</highlight><highlight class="normal">.format(<sp/>self.<ref refid="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_keyfile_1a7d200c2b4305e100ce1079965eb40f9b" kindref="member">path</ref><sp/>))</highlight></codeline>
+<codeline lineno="455"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">not</highlight><highlight class="normal"><sp/>self.<ref refid="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_keyfile_1ae89e29be6bb73f4c5d93f6dffe197886" kindref="member">is_readable</ref>():</highlight></codeline>
+<codeline lineno="456"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">raise</highlight><highlight class="normal"><sp/><ref refid="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_key_file_error" kindref="compound">KeyFileError</ref>(<sp/></highlight><highlight class="stringliteral">&quot;Keyfile<sp/>at:<sp/>{}<sp/>is<sp/>not<sp/>readable&quot;</highlight><highlight class="normal">.format(<sp/>self.<ref refid="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_keyfile_1a7d200c2b4305e100ce1079965eb40f9b" kindref="member">path</ref><sp/>))</highlight></codeline>
+<codeline lineno="457"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">with</highlight><highlight class="normal"><sp/>open(<sp/>self.<ref refid="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_keyfile_1a7d200c2b4305e100ce1079965eb40f9b" kindref="member">path</ref><sp/>,<sp/></highlight><highlight class="stringliteral">&apos;rb&apos;</highlight><highlight class="normal">)<sp/></highlight><highlight class="keyword">as</highlight><highlight class="normal"><sp/>file:</highlight></codeline>
+<codeline lineno="458"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>data<sp/>=<sp/>file.read()</highlight></codeline>
+<codeline lineno="459"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>data</highlight></codeline>
+<codeline lineno="460"><highlight class="normal"></highlight></codeline>
+<codeline lineno="461"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_keyfile_1a99174e45bad19a8d43023cd17d5f3ce5" kindref="member">_write_keyfile_data_to_file</ref><sp/>(<sp/>self,<sp/>keyfile_data:bytes,<sp/>overwrite:<sp/>bool<sp/>=<sp/></highlight><highlight class="keyword">False</highlight><highlight class="normal"><sp/>):</highlight></codeline>
+<codeline lineno="462"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;&quot;&quot;<sp/>Writes<sp/>the<sp/>keyfile<sp/>data<sp/>to<sp/>path,<sp/>if<sp/>overwrite<sp/>is<sp/>true,<sp/>forces<sp/>operation<sp/>without<sp/>asking.</highlight></codeline>
+<codeline lineno="463"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Args:</highlight></codeline>
+<codeline lineno="464"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>keyfile_data:<sp/>(bytes,<sp/>required):</highlight></codeline>
+<codeline lineno="465"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Byte<sp/>data<sp/>to<sp/>store<sp/>under<sp/>path.</highlight></codeline>
+<codeline lineno="466"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>overwrite<sp/>(bool,<sp/>optional):</highlight></codeline>
+<codeline lineno="467"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>If<sp/></highlight><highlight class="keyword">True</highlight><highlight class="normal">,<sp/>overwrites<sp/>data<sp/>without<sp/>asking<sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>overwrite<sp/>permissions<sp/></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/>the<sp/>user.</highlight></codeline>
+<codeline lineno="468"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Raises:</highlight></codeline>
+<codeline lineno="469"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>KeyFileError:</highlight></codeline>
+<codeline lineno="470"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Raised<sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>the<sp/>file<sp/></highlight><highlight class="keywordflow">is</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">not</highlight><highlight class="normal"><sp/>writable<sp/></highlight><highlight class="keywordflow">or</highlight><highlight class="normal"><sp/>the<sp/>user<sp/>returns<sp/>No<sp/>to<sp/>overwrite<sp/>prompt.</highlight></codeline>
+<codeline lineno="471"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;&quot;&quot;</highlight></codeline>
+<codeline lineno="472"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">#<sp/>Check<sp/>overwrite.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="473"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>self.<ref refid="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_keyfile_1aae61dd8080aa8b20c16906bd55e40200" kindref="member">exists_on_device</ref>()<sp/></highlight><highlight class="keywordflow">and</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">not</highlight><highlight class="normal"><sp/>overwrite:</highlight></codeline>
+<codeline lineno="474"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">not</highlight><highlight class="normal"><sp/>self.<ref refid="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_keyfile_1ad1fc6e07b90a2ff78488d4a3b115b70f" kindref="member">_may_overwrite</ref>():</highlight></codeline>
+<codeline lineno="475"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">raise</highlight><highlight class="normal"><sp/><ref refid="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_key_file_error" kindref="compound">KeyFileError</ref>(<sp/></highlight><highlight class="stringliteral">&quot;Keyfile<sp/>at:<sp/>{}<sp/>is<sp/>not<sp/>writeable&quot;</highlight><highlight class="normal">.format(<sp/>self.<ref refid="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_keyfile_1a7d200c2b4305e100ce1079965eb40f9b" kindref="member">path</ref><sp/>)<sp/>)<sp/></highlight></codeline>
+<codeline lineno="476"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">with</highlight><highlight class="normal"><sp/>open(self.<ref refid="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_keyfile_1a7d200c2b4305e100ce1079965eb40f9b" kindref="member">path</ref>,<sp/></highlight><highlight class="stringliteral">&quot;wb&quot;</highlight><highlight class="normal">)<sp/></highlight><highlight class="keyword">as</highlight><highlight class="normal"><sp/>keyfile:</highlight></codeline>
+<codeline lineno="477"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>keyfile.write(<sp/>keyfile_data<sp/>)</highlight></codeline>
+<codeline lineno="478"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">#<sp/>Set<sp/>file<sp/>permissions.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="479"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>os.chmod(self.<ref refid="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_keyfile_1a7d200c2b4305e100ce1079965eb40f9b" kindref="member">path</ref>,<sp/>stat.S_IRUSR<sp/>|<sp/>stat.S_IWUSR)</highlight></codeline>
+<codeline lineno="480"><highlight class="normal"></highlight></codeline>
+<codeline lineno="481"><highlight class="normal"></highlight></codeline>
+<codeline lineno="482" refid="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_mock_keyfile" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_mock_keyfile" kindref="compound">MockKeyfile</ref>(<sp/>object<sp/>):</highlight></codeline>
+<codeline lineno="483"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;&quot;&quot;<sp/>Defines<sp/>an<sp/>interface<sp/>to<sp/>a<sp/>mocked<sp/>keyfile<sp/>object<sp/>(nothing<sp/>is<sp/>created<sp/>on<sp/>device)<sp/>keypair<sp/>is<sp/>treated<sp/>as<sp/>non<sp/>encrypted<sp/>and<sp/>the<sp/>data<sp/>is<sp/>just<sp/>the<sp/>string<sp/>version.</highlight></codeline>
+<codeline lineno="484"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>&quot;&quot;&quot;</highlight></codeline>
+<codeline lineno="485"><highlight class="stringliteral"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal">__init__(<sp/>self,<sp/>path:<sp/>str<sp/>):</highlight></codeline>
+<codeline lineno="486"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.<ref refid="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_mock_keyfile_1a98e092939c3b07120787a3c32160c716" kindref="member">path</ref><sp/>=<sp/>os.path.expanduser(path)</highlight></codeline>
+<codeline lineno="487"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.<ref refid="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_mock_keyfile_1a308d5a0e644b42ddc352721c877d2d0e" kindref="member">_mock_keypair</ref><sp/>=<sp/>bittensor.Keypair.create_from_mnemonic(<sp/>mnemonic<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;arrive<sp/>produce<sp/>someone<sp/>view<sp/>end<sp/>scout<sp/>bargain<sp/>coil<sp/>slight<sp/>festival<sp/>excess<sp/>struggle&apos;</highlight><highlight class="normal"><sp/>)</highlight></codeline>
+<codeline lineno="488"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.<ref refid="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_mock_keyfile_1af9e11d8c02ab01991215df4f9a5d2bf6" kindref="member">_mock_data</ref><sp/>=<sp/>serialized_keypair_to_keyfile_data(<sp/>self.<ref refid="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_mock_keyfile_1a308d5a0e644b42ddc352721c877d2d0e" kindref="member">_mock_keypair</ref><sp/>)</highlight></codeline>
+<codeline lineno="489"><highlight class="normal"></highlight></codeline>
+<codeline lineno="490"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal">__str__(self):</highlight></codeline>
+<codeline lineno="491"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">not</highlight><highlight class="normal"><sp/>self.<ref refid="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_mock_keyfile_1ad2c8658adce5f7ec145d0078a4c78b31" kindref="member">exists_on_device</ref>():</highlight></codeline>
+<codeline lineno="492"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;Keyfile<sp/>(empty,<sp/>{})&gt;&quot;</highlight><highlight class="normal">.format(<sp/>self.<ref refid="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_mock_keyfile_1a98e092939c3b07120787a3c32160c716" kindref="member">path</ref><sp/>)</highlight></codeline>
+<codeline lineno="493"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>self.<ref refid="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_mock_keyfile_1afbdc40d64d6864526ec9a90b25bdc963" kindref="member">is_encrypted</ref>():</highlight></codeline>
+<codeline lineno="494"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;Keyfile<sp/>(encrypted,<sp/>{})&gt;&quot;</highlight><highlight class="normal">.format(<sp/>self.<ref refid="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_mock_keyfile_1a98e092939c3b07120787a3c32160c716" kindref="member">path</ref><sp/>)</highlight></codeline>
+<codeline lineno="495"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="496"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;Keyfile<sp/>(decrypted,<sp/>{})&gt;&quot;</highlight><highlight class="normal">.format(<sp/>self.<ref refid="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_mock_keyfile_1a98e092939c3b07120787a3c32160c716" kindref="member">path</ref><sp/>)</highlight></codeline>
+<codeline lineno="497"><highlight class="normal"></highlight></codeline>
+<codeline lineno="498"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal">__repr__(self):</highlight></codeline>
+<codeline lineno="499"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>self.<ref refid="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_mock_keyfile_1aeff5e38361e63c4e4d946a1badc1e784" kindref="member">__str__</ref>()</highlight></codeline>
+<codeline lineno="500"><highlight class="normal"></highlight></codeline>
+<codeline lineno="501"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="preprocessor">@property</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="502"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal">keypair(<sp/>self<sp/>)<sp/>-&gt;<sp/>&apos;bittensor.Keypair&apos;:</highlight></codeline>
+<codeline lineno="503"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>self.<ref refid="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_mock_keyfile_1a308d5a0e644b42ddc352721c877d2d0e" kindref="member">_mock_keypair</ref></highlight></codeline>
+<codeline lineno="504"><highlight class="normal"></highlight></codeline>
+<codeline lineno="505"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="preprocessor">@property</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="506"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal">data(<sp/>self<sp/>)<sp/>-&gt;<sp/>bytes:</highlight></codeline>
+<codeline lineno="507"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>bytes(self.<ref refid="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_mock_keyfile_1af9e11d8c02ab01991215df4f9a5d2bf6" kindref="member">_mock_data</ref>)</highlight></codeline>
+<codeline lineno="508"><highlight class="normal"></highlight></codeline>
+<codeline lineno="509"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="preprocessor">@property</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="510"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal">keyfile_data(<sp/>self<sp/>)<sp/>-&gt;<sp/>bytes:</highlight></codeline>
+<codeline lineno="511"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>bytes(<sp/>self.<ref refid="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_mock_keyfile_1af9e11d8c02ab01991215df4f9a5d2bf6" kindref="member">_mock_data</ref>)<sp/></highlight></codeline>
+<codeline lineno="512"><highlight class="normal"></highlight></codeline>
+<codeline lineno="513"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal">set_keypair<sp/>(<sp/>self,<sp/>keypair:<sp/></highlight><highlight class="stringliteral">&apos;bittensor.Keypair&apos;</highlight><highlight class="normal">,<sp/>encrypt:<sp/>bool<sp/>=<sp/></highlight><highlight class="keyword">True</highlight><highlight class="normal">,<sp/>overwrite:<sp/>bool<sp/>=<sp/></highlight><highlight class="keyword">False</highlight><highlight class="normal">,<sp/>password:str<sp/>=<sp/></highlight><highlight class="keywordtype">None</highlight><highlight class="normal">):</highlight></codeline>
+<codeline lineno="514"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.<ref refid="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_mock_keyfile_1a308d5a0e644b42ddc352721c877d2d0e" kindref="member">_mock_keypair</ref><sp/>=<sp/>keypair</highlight></codeline>
+<codeline lineno="515"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.<ref refid="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_mock_keyfile_1af9e11d8c02ab01991215df4f9a5d2bf6" kindref="member">_mock_data</ref><sp/>=<sp/>serialized_keypair_to_keyfile_data(<sp/>self.<ref refid="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_mock_keyfile_1a308d5a0e644b42ddc352721c877d2d0e" kindref="member">_mock_keypair</ref><sp/>)</highlight></codeline>
+<codeline lineno="516"><highlight class="normal"></highlight></codeline>
+<codeline lineno="517"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal">get_keypair(self,<sp/>password:<sp/>str<sp/>=<sp/></highlight><highlight class="keywordtype">None</highlight><highlight class="normal">)<sp/>-&gt;<sp/></highlight><highlight class="stringliteral">&apos;bittensor.Keypair&apos;</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="518"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>self.<ref refid="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_mock_keyfile_1a308d5a0e644b42ddc352721c877d2d0e" kindref="member">_mock_keypair</ref></highlight></codeline>
+<codeline lineno="519"><highlight class="normal"></highlight></codeline>
+<codeline lineno="520"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal">make_dirs(<sp/>self<sp/>):</highlight></codeline>
+<codeline lineno="521"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="522"><highlight class="normal"></highlight></codeline>
+<codeline lineno="523"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal">exists_on_device(<sp/>self<sp/>)<sp/>-&gt;<sp/>bool:</highlight></codeline>
+<codeline lineno="524"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">True</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="525"><highlight class="normal"></highlight></codeline>
+<codeline lineno="526"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal">is_readable(<sp/>self<sp/>)<sp/>-&gt;<sp/>bool:</highlight></codeline>
+<codeline lineno="527"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">True</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="528"><highlight class="normal"></highlight></codeline>
+<codeline lineno="529"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal">is_writable(<sp/>self<sp/>)<sp/>-&gt;<sp/>bool:</highlight></codeline>
+<codeline lineno="530"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">True</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="531"><highlight class="normal"></highlight></codeline>
+<codeline lineno="532"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal">is_encrypted<sp/>(<sp/>self<sp/>)<sp/>-&gt;<sp/>bool:</highlight></codeline>
+<codeline lineno="533"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">False</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="534"><highlight class="normal"></highlight></codeline>
+<codeline lineno="535"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal">encrypt(<sp/>self,<sp/>password:<sp/>str<sp/>=<sp/></highlight><highlight class="keywordtype">None</highlight><highlight class="normal">):</highlight></codeline>
+<codeline lineno="536"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">raise</highlight><highlight class="normal"><sp/>ValueError(</highlight><highlight class="stringliteral">&apos;Cannot<sp/>encrypt<sp/>a<sp/>mock<sp/>keyfile&apos;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="537"><highlight class="normal"></highlight></codeline>
+<codeline lineno="538"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal">decrypt(<sp/>self,<sp/>password:<sp/>str<sp/>=<sp/></highlight><highlight class="keywordtype">None</highlight><highlight class="normal">):</highlight></codeline>
+<codeline lineno="539"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="540"><highlight class="normal"></highlight></codeline>
+<codeline lineno="541"><highlight class="normal"></highlight></codeline>
+<codeline lineno="542"><highlight class="normal"></highlight></codeline>
+<codeline lineno="543"><highlight class="normal"></highlight></codeline>
+<codeline lineno="544"><highlight class="normal"></highlight></codeline>
+<codeline lineno="545"><highlight class="normal"></highlight></codeline>
+<codeline lineno="546"><highlight class="normal"></highlight></codeline>
+<codeline lineno="547"><highlight class="normal"></highlight></codeline>
+<codeline lineno="548"><highlight class="normal"></highlight></codeline>
+<codeline lineno="549"><highlight class="normal"></highlight></codeline>
+<codeline lineno="550"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+    </programlisting>
+    <location file="/Users/macthrasher/bittensor/bittensor/_keyfile/keyfile_impl.py"/>
+  </compounddef>
+</doxygen>

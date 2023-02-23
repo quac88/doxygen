@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="namespacebittensor_1_1utils_1_1codes" kind="namespace" language="Python">
+    <compoundname>bittensor::utils::codes</compoundname>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="namespacebittensor_1_1utils_1_1codes_1a21774d381ca7e9cbfae2b729935a9b47" prot="public" static="no" mutable="no">
+        <type>logger</type>
+        <definition>logger bittensor::utils::codes.logger</definition>
+        <argsstring></argsstring>
+        <name>logger</name>
+        <qualifiedname>bittensor.utils.codes.logger</qualifiedname>
+        <initializer>=  logger.opt(colors=True)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/codes.py" line="23" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/codes.py" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="namespacebittensor_1_1utils_1_1codes_1ad8c20d0a2927539fd3757cc18bebd6bb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str bittensor.utils.codes.code_to_string</definition>
+        <argsstring>(&apos;bittensor.proto.ReturnCode&apos; code)</argsstring>
+        <name>code_to_string</name>
+        <qualifiedname>bittensor.utils.codes.code_to_string</qualifiedname>
+        <param>
+          <type>&apos;bittensor.proto.ReturnCode&apos;</type>
+          <declname>code</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Return code -&gt; string
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/codes.py" line="25" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/codes.py" bodystart="25" bodyend="76"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacebittensor_1_1utils_1_1codes_1ac37ca468e8d3380dc7b9ca938cc9c542" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str bittensor.utils.codes.code_to_loguru_color</definition>
+        <argsstring>(&apos;bittensor.proto.ReturnCode&apos; code)</argsstring>
+        <name>code_to_loguru_color</name>
+        <qualifiedname>bittensor.utils.codes.code_to_loguru_color</qualifiedname>
+        <param>
+          <type>&apos;bittensor.proto.ReturnCode&apos;</type>
+          <declname>code</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Return code -&gt; loguru color
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/codes.py" line="77" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/codes.py" bodystart="77" bodyend="128"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacebittensor_1_1utils_1_1codes_1a2fa996e2263dd4dcfa6cb118610abd74" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor.utils.codes.code_to_synapse</definition>
+        <argsstring>(&apos;bittensor.proto.Synapse.SynapseType&apos; code)</argsstring>
+        <name>code_to_synapse</name>
+        <qualifiedname>bittensor.utils.codes.code_to_synapse</qualifiedname>
+        <param>
+          <type>&apos;bittensor.proto.Synapse.SynapseType&apos;</type>
+          <declname>code</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Return Code -&gt; Synapse Type</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/codes.py" line="129" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/codes.py" bodystart="129" bodyend="141"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim> utils for rpc log, convert return code to string with color for the log
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/Users/macthrasher/bittensor/bittensor/utils/codes.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

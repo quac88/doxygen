@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="dir_1920ca253748e024da8dea346576658b" kind="dir">
+    <compoundname>/Users/macthrasher/bittensor/bittensor/_axon</compoundname>
+    <innerfile refid="__axon_2____init_____8py">__init__.py</innerfile>
+    <innerfile refid="axon__impl_8py">axon_impl.py</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/macthrasher/bittensor/bittensor/_axon/"/>
+  </compounddef>
+</doxygen>

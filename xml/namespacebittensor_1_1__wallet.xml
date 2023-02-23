@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="namespacebittensor_1_1__wallet" kind="namespace" language="Python">
+    <compoundname>bittensor::_wallet</compoundname>
+    <innerclass refid="classbittensor_1_1__wallet_1_1wallet" prot="public">bittensor::_wallet::wallet</innerclass>
+    <innernamespace refid="namespacebittensor_1_1__wallet_1_1wallet__impl">bittensor::_wallet::wallet_impl</innernamespace>
+    <innernamespace refid="namespacebittensor_1_1__wallet_1_1wallet__mock">bittensor::_wallet::wallet_mock</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim> Create and init wallet that stores coldkey and hotkey
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/Users/macthrasher/bittensor/bittensor/_wallet/__init__.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

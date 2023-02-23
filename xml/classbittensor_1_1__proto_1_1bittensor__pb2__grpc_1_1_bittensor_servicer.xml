@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="classbittensor_1_1__proto_1_1bittensor__pb2__grpc_1_1_bittensor_servicer" kind="class" language="Python" prot="public">
+    <compoundname>bittensor::_proto::bittensor_pb2_grpc::BittensorServicer</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">object</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classbittensor_1_1__proto_1_1bittensor__pb2__grpc_1_1_bittensor_servicer_1a09059ad8f2825a3e906fb9b7c37f12d3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._proto.bittensor_pb2_grpc.BittensorServicer.Forward</definition>
+        <argsstring>(self, request, context)</argsstring>
+        <name>Forward</name>
+        <qualifiedname>bittensor._proto.bittensor_pb2_grpc.BittensorServicer.Forward</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>request</type>
+          <defname>request</defname>
+        </param>
+        <param>
+          <type>context</type>
+          <defname>context</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Forward tensor request. 
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_proto/bittensor_pb2_grpc.py" line="34" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_proto/bittensor_pb2_grpc.py" bodystart="34" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__proto_1_1bittensor__pb2__grpc_1_1_bittensor_servicer_1ab75f42babd204574b766570c0a5d7923" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._proto.bittensor_pb2_grpc.BittensorServicer.Backward</definition>
+        <argsstring>(self, request, context)</argsstring>
+        <name>Backward</name>
+        <qualifiedname>bittensor._proto.bittensor_pb2_grpc.BittensorServicer.Backward</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>request</type>
+          <defname>request</defname>
+        </param>
+        <param>
+          <type>context</type>
+          <defname>context</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Backward tensor request i.e. gradient.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_proto/bittensor_pb2_grpc.py" line="41" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_proto/bittensor_pb2_grpc.py" bodystart="41" bodyend="48"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Service definition for tensor processing servers.
+</verbatim> </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>bittensor._proto.bittensor_pb2_grpc.BittensorServicer</label>
+        <link refid="classbittensor_1_1__proto_1_1bittensor__pb2__grpc_1_1_bittensor_servicer"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>object</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>bittensor._proto.bittensor_pb2_grpc.BittensorServicer</label>
+        <link refid="classbittensor_1_1__proto_1_1bittensor__pb2__grpc_1_1_bittensor_servicer"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>object</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/macthrasher/bittensor/bittensor/_proto/bittensor_pb2_grpc.py" line="30" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_proto/bittensor_pb2_grpc.py" bodystart="30" bodyend="48"/>
+    <listofallmembers>
+      <member refid="classbittensor_1_1__proto_1_1bittensor__pb2__grpc_1_1_bittensor_servicer_1ab75f42babd204574b766570c0a5d7923" prot="public" virt="non-virtual"><scope>bittensor::_proto::bittensor_pb2_grpc::BittensorServicer</scope><name>Backward</name></member>
+      <member refid="classbittensor_1_1__proto_1_1bittensor__pb2__grpc_1_1_bittensor_servicer_1a09059ad8f2825a3e906fb9b7c37f12d3" prot="public" virt="non-virtual"><scope>bittensor::_proto::bittensor_pb2_grpc::BittensorServicer</scope><name>Forward</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

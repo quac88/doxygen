@@ -1,0 +1,330 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="classbittensor_1_1__neuron_1_1text_1_1neuron__utilities_1_1_thread_queue" kind="class" language="Python" prot="public">
+    <compoundname>bittensor::_neuron::text::neuron_utilities::ThreadQueue</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">threading.Thread</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classbittensor_1_1__neuron_1_1text_1_1neuron__utilities_1_1_thread_queue_1adff1523b57b9dee58a4cde0bb1981899" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._neuron.text.neuron_utilities.ThreadQueue::target</definition>
+        <argsstring></argsstring>
+        <name>target</name>
+        <qualifiedname>bittensor._neuron.text.neuron_utilities.ThreadQueue.target</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_neuron/text/neuron_utilities.py" line="192" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_neuron/text/neuron_utilities.py" bodystart="192" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__neuron_1_1text_1_1neuron__utilities_1_1_thread_queue_1ac8dcd8b497220468ef9738168b98de12" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._neuron.text.neuron_utilities.ThreadQueue::num_jobs</definition>
+        <argsstring></argsstring>
+        <name>num_jobs</name>
+        <qualifiedname>bittensor._neuron.text.neuron_utilities.ThreadQueue.num_jobs</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_neuron/text/neuron_utilities.py" line="193" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_neuron/text/neuron_utilities.py" bodystart="193" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__neuron_1_1text_1_1neuron__utilities_1_1_thread_queue_1a5769483c78c8a1d9e345de7c9f7951ba" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._neuron.text.neuron_utilities.ThreadQueue::queue</definition>
+        <argsstring></argsstring>
+        <name>queue</name>
+        <qualifiedname>bittensor._neuron.text.neuron_utilities.ThreadQueue.queue</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_neuron/text/neuron_utilities.py" line="194" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_neuron/text/neuron_utilities.py" bodystart="194" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__neuron_1_1text_1_1neuron__utilities_1_1_thread_queue_1a54cd5d9ddf187a035a4cb821f75c4be8" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._neuron.text.neuron_utilities.ThreadQueue::finished_job_count</definition>
+        <argsstring></argsstring>
+        <name>finished_job_count</name>
+        <qualifiedname>bittensor._neuron.text.neuron_utilities.ThreadQueue.finished_job_count</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_neuron/text/neuron_utilities.py" line="195" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_neuron/text/neuron_utilities.py" bodystart="195" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classbittensor_1_1__neuron_1_1text_1_1neuron__utilities_1_1_thread_queue_1a96823da913e5fcd822b1608d670ce1b6" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._neuron.text.neuron_utilities.ThreadQueue::_pause_event</definition>
+        <argsstring></argsstring>
+        <name>_pause_event</name>
+        <qualifiedname>bittensor._neuron.text.neuron_utilities.ThreadQueue._pause_event</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_neuron/text/neuron_utilities.py" line="196" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_neuron/text/neuron_utilities.py" bodystart="196" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__neuron_1_1text_1_1neuron__utilities_1_1_thread_queue_1a5691a1d2078ae9502bc2ac06682c0128" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._neuron.text.neuron_utilities.ThreadQueue::_stop_event</definition>
+        <argsstring></argsstring>
+        <name>_stop_event</name>
+        <qualifiedname>bittensor._neuron.text.neuron_utilities.ThreadQueue._stop_event</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_neuron/text/neuron_utilities.py" line="197" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_neuron/text/neuron_utilities.py" bodystart="197" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classbittensor_1_1__neuron_1_1text_1_1neuron__utilities_1_1_thread_queue_1a53f22b9f68c15921019b0a8862134ee9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._neuron.text.neuron_utilities.ThreadQueue.__init__</definition>
+        <argsstring>(self, num_jobs, target=None)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>bittensor._neuron.text.neuron_utilities.ThreadQueue.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>num_jobs</type>
+          <defname>num_jobs</defname>
+        </param>
+        <param>
+          <type>target</type>
+          <defname>target</defname>
+          <defval>None</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Initialization.
+    Args:
+        queue (:obj:`queue.Queue`, `required`)
+            The queue to be filled.
+            
+        target (:obj:`function`, `required`)
+            The target function to run when the queue is not full.
+
+        arg (:type:`tuple`, `required`)
+            The arguments to be passed to the target function.
+
+        name (:type:`str`, `optional`)
+            The name of this threading object. </verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_neuron/text/neuron_utilities.py" line="176" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_neuron/text/neuron_utilities.py" bodystart="176" bodyend="198"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__neuron_1_1text_1_1neuron__utilities_1_1_thread_queue_1a4865e1e836d7de13ac12fd47ad3984ae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._neuron.text.neuron_utilities.ThreadQueue.run</definition>
+        <argsstring>(self)</argsstring>
+        <name>run</name>
+        <qualifiedname>bittensor._neuron.text.neuron_utilities.ThreadQueue.run</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Once this thread object start(), 
+    run the following which kick start multiple target functions,
+    the results of the target function would be punt into the queue. </verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_neuron/text/neuron_utilities.py" line="199" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_neuron/text/neuron_utilities.py" bodystart="199" bodyend="215"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__neuron_1_1text_1_1neuron__utilities_1_1_thread_queue_1a04fe8701d263543e6bc01c0ea84d312b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._neuron.text.neuron_utilities.ThreadQueue.resume</definition>
+        <argsstring>(self)</argsstring>
+        <name>resume</name>
+        <qualifiedname>bittensor._neuron.text.neuron_utilities.ThreadQueue.resume</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_neuron/text/neuron_utilities.py" line="216" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_neuron/text/neuron_utilities.py" bodystart="216" bodyend="218"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__neuron_1_1text_1_1neuron__utilities_1_1_thread_queue_1a329139bb27cfb9796e718534c48b0783" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._neuron.text.neuron_utilities.ThreadQueue.pause</definition>
+        <argsstring>(self)</argsstring>
+        <name>pause</name>
+        <qualifiedname>bittensor._neuron.text.neuron_utilities.ThreadQueue.pause</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_neuron/text/neuron_utilities.py" line="219" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_neuron/text/neuron_utilities.py" bodystart="219" bodyend="221"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__neuron_1_1text_1_1neuron__utilities_1_1_thread_queue_1a6aa7f09a606c83dac9cd98354344668f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._neuron.text.neuron_utilities.ThreadQueue.paused</definition>
+        <argsstring>(self)</argsstring>
+        <name>paused</name>
+        <qualifiedname>bittensor._neuron.text.neuron_utilities.ThreadQueue.paused</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_neuron/text/neuron_utilities.py" line="222" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_neuron/text/neuron_utilities.py" bodystart="222" bodyend="224"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__neuron_1_1text_1_1neuron__utilities_1_1_thread_queue_1a0fc267c0a1172c98a1401badee1b04af" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._neuron.text.neuron_utilities.ThreadQueue.stop</definition>
+        <argsstring>(self)</argsstring>
+        <name>stop</name>
+        <qualifiedname>bittensor._neuron.text.neuron_utilities.ThreadQueue.stop</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_neuron/text/neuron_utilities.py" line="225" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_neuron/text/neuron_utilities.py" bodystart="225" bodyend="227"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__neuron_1_1text_1_1neuron__utilities_1_1_thread_queue_1ac5422175d489417272b881e1e05a5a68" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._neuron.text.neuron_utilities.ThreadQueue.stopped</definition>
+        <argsstring>(self)</argsstring>
+        <name>stopped</name>
+        <qualifiedname>bittensor._neuron.text.neuron_utilities.ThreadQueue.stopped</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_neuron/text/neuron_utilities.py" line="228" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_neuron/text/neuron_utilities.py" bodystart="228" bodyend="230"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__neuron_1_1text_1_1neuron__utilities_1_1_thread_queue_1adef339c517ce54f88be7360ea78a6353" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._neuron.text.neuron_utilities.ThreadQueue.is_empty</definition>
+        <argsstring>(self)</argsstring>
+        <name>is_empty</name>
+        <qualifiedname>bittensor._neuron.text.neuron_utilities.ThreadQueue.is_empty</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_neuron/text/neuron_utilities.py" line="231" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_neuron/text/neuron_utilities.py" bodystart="231" bodyend="233"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__neuron_1_1text_1_1neuron__utilities_1_1_thread_queue_1a2b0bd85923811e7411fe9c46b59d64fa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._neuron.text.neuron_utilities.ThreadQueue.get</definition>
+        <argsstring>(self)</argsstring>
+        <name>get</name>
+        <qualifiedname>bittensor._neuron.text.neuron_utilities.ThreadQueue.get</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_neuron/text/neuron_utilities.py" line="234" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_neuron/text/neuron_utilities.py" bodystart="234" bodyend="237"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim> This producer thread runs in backgraound to fill the queue with the result of the target function.
+</verbatim> </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>bittensor._neuron.text.neuron_utilities.ThreadQueue</label>
+        <link refid="classbittensor_1_1__neuron_1_1text_1_1neuron__utilities_1_1_thread_queue"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>threading.Thread</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>bittensor._neuron.text.neuron_utilities.ThreadQueue</label>
+        <link refid="classbittensor_1_1__neuron_1_1text_1_1neuron__utilities_1_1_thread_queue"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>threading.Thread</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/macthrasher/bittensor/bittensor/_neuron/text/neuron_utilities.py" line="173" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_neuron/text/neuron_utilities.py" bodystart="173" bodyend="237"/>
+    <listofallmembers>
+      <member refid="classbittensor_1_1__neuron_1_1text_1_1neuron__utilities_1_1_thread_queue_1a53f22b9f68c15921019b0a8862134ee9" prot="public" virt="non-virtual"><scope>bittensor::_neuron::text::neuron_utilities::ThreadQueue</scope><name>__init__</name></member>
+      <member refid="classbittensor_1_1__neuron_1_1text_1_1neuron__utilities_1_1_thread_queue_1a96823da913e5fcd822b1608d670ce1b6" prot="protected" virt="non-virtual"><scope>bittensor::_neuron::text::neuron_utilities::ThreadQueue</scope><name>_pause_event</name></member>
+      <member refid="classbittensor_1_1__neuron_1_1text_1_1neuron__utilities_1_1_thread_queue_1a5691a1d2078ae9502bc2ac06682c0128" prot="protected" virt="non-virtual"><scope>bittensor::_neuron::text::neuron_utilities::ThreadQueue</scope><name>_stop_event</name></member>
+      <member refid="classbittensor_1_1__neuron_1_1text_1_1neuron__utilities_1_1_thread_queue_1a54cd5d9ddf187a035a4cb821f75c4be8" prot="public" virt="non-virtual"><scope>bittensor::_neuron::text::neuron_utilities::ThreadQueue</scope><name>finished_job_count</name></member>
+      <member refid="classbittensor_1_1__neuron_1_1text_1_1neuron__utilities_1_1_thread_queue_1a2b0bd85923811e7411fe9c46b59d64fa" prot="public" virt="non-virtual"><scope>bittensor::_neuron::text::neuron_utilities::ThreadQueue</scope><name>get</name></member>
+      <member refid="classbittensor_1_1__neuron_1_1text_1_1neuron__utilities_1_1_thread_queue_1adef339c517ce54f88be7360ea78a6353" prot="public" virt="non-virtual"><scope>bittensor::_neuron::text::neuron_utilities::ThreadQueue</scope><name>is_empty</name></member>
+      <member refid="classbittensor_1_1__neuron_1_1text_1_1neuron__utilities_1_1_thread_queue_1ac8dcd8b497220468ef9738168b98de12" prot="public" virt="non-virtual"><scope>bittensor::_neuron::text::neuron_utilities::ThreadQueue</scope><name>num_jobs</name></member>
+      <member refid="classbittensor_1_1__neuron_1_1text_1_1neuron__utilities_1_1_thread_queue_1a329139bb27cfb9796e718534c48b0783" prot="public" virt="non-virtual"><scope>bittensor::_neuron::text::neuron_utilities::ThreadQueue</scope><name>pause</name></member>
+      <member refid="classbittensor_1_1__neuron_1_1text_1_1neuron__utilities_1_1_thread_queue_1a6aa7f09a606c83dac9cd98354344668f" prot="public" virt="non-virtual"><scope>bittensor::_neuron::text::neuron_utilities::ThreadQueue</scope><name>paused</name></member>
+      <member refid="classbittensor_1_1__neuron_1_1text_1_1neuron__utilities_1_1_thread_queue_1a5769483c78c8a1d9e345de7c9f7951ba" prot="public" virt="non-virtual"><scope>bittensor::_neuron::text::neuron_utilities::ThreadQueue</scope><name>queue</name></member>
+      <member refid="classbittensor_1_1__neuron_1_1text_1_1neuron__utilities_1_1_thread_queue_1a04fe8701d263543e6bc01c0ea84d312b" prot="public" virt="non-virtual"><scope>bittensor::_neuron::text::neuron_utilities::ThreadQueue</scope><name>resume</name></member>
+      <member refid="classbittensor_1_1__neuron_1_1text_1_1neuron__utilities_1_1_thread_queue_1a4865e1e836d7de13ac12fd47ad3984ae" prot="public" virt="non-virtual"><scope>bittensor::_neuron::text::neuron_utilities::ThreadQueue</scope><name>run</name></member>
+      <member refid="classbittensor_1_1__neuron_1_1text_1_1neuron__utilities_1_1_thread_queue_1a0fc267c0a1172c98a1401badee1b04af" prot="public" virt="non-virtual"><scope>bittensor::_neuron::text::neuron_utilities::ThreadQueue</scope><name>stop</name></member>
+      <member refid="classbittensor_1_1__neuron_1_1text_1_1neuron__utilities_1_1_thread_queue_1ac5422175d489417272b881e1e05a5a68" prot="public" virt="non-virtual"><scope>bittensor::_neuron::text::neuron_utilities::ThreadQueue</scope><name>stopped</name></member>
+      <member refid="classbittensor_1_1__neuron_1_1text_1_1neuron__utilities_1_1_thread_queue_1adff1523b57b9dee58a4cde0bb1981899" prot="public" virt="non-virtual"><scope>bittensor::_neuron::text::neuron_utilities::ThreadQueue</scope><name>target</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

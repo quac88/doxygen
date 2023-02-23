@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="namespacebittensor_1_1__neuron_1_1text_1_1core__validator_1_1main" kind="namespace" language="Python">
+    <compoundname>bittensor::_neuron::text::core_validator::main</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim> Main Validator script.
+
+Example:
+    $ python3 bittensor/_neurons/text/core_validator/main.py ...
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_validator/main.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

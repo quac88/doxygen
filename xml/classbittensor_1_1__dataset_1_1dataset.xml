@@ -1,0 +1,252 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="classbittensor_1_1__dataset_1_1dataset" kind="class" language="Python" prot="public">
+    <compoundname>bittensor::_dataset::dataset</compoundname>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classbittensor_1_1__dataset_1_1dataset_1a502cde6cc1ed2b5b439271374018142b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._dataset.dataset.__new__</definition>
+        <argsstring>(cls, &apos;bittensor.config&apos; config=None, int block_size=None, int batch_size=None, int num_workers=None, list dataset_name=[], bool save_dataset=None, bool no_tokenizer=None, int num_batches=None, bool _mock=None)</argsstring>
+        <name>__new__</name>
+        <qualifiedname>bittensor._dataset.dataset.__new__</qualifiedname>
+        <param>
+          <type>cls</type>
+          <defname>cls</defname>
+        </param>
+        <param>
+          <type>&apos;<ref refid="classbittensor_1_1__config_1_1config" kindref="compound">bittensor.config</ref>&apos;</type>
+          <declname>config</declname>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>block_size</declname>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>batch_size</declname>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>num_workers</declname>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type>list</type>
+          <declname>dataset_name</declname>
+          <defval>[]</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>save_dataset</declname>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>no_tokenizer</declname>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>num_batches</declname>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>_mock</declname>
+          <defval>None</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Create and init the GenesisTextDataset class, which handles dataloading from ipfs.
+        Args:
+            config (:obj:`bittensor.Config`, `optional`): 
+                bittensor.dataset.config()
+            block_size (:obj:`int`, `optional`):
+                Number of text items to pull for each example.
+            batch_size (:obj:`int`, `optional`):
+                Batch size.
+            num_workers (:obj:`int`, `optional`):
+                Number of workers for data loader.
+            dataset_name (:obj:`list`, `optional`):
+                Which datasets to use (ArXiv, BookCorpus2, Books3, DMMathematics, EnronEmails, EuroParl, 
+                Gutenberg_PG, HackerNews, NIHExPorter, OpenSubtitles, PhilPapers, UbuntuIRC, YoutubeSubtitles)).
+            save_dataset (:obj:`bool`, `optional`):
+                Save the downloaded dataset or not.
+            no_tokenizer (:obj:`bool`, `optional`):
+                To return non-tokenized text (EXPERIMENTAL, DO NOT USE)
+            num_batches (:obj:`int`, `optional`):
+                The number of batches of data to prepare for the dataloader.
+            _mock (:obj:`bool`, `optional`):
+                For testing, if true the dataset if filled with fake text data.  </verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_dataset/__init__.py" line="40" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_dataset/__init__.py" bodystart="51" bodyend="112"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__dataset_1_1dataset_1aecfa54098d68aef00750ce267ed8fe06" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._dataset.dataset.mock</definition>
+        <argsstring>(cls)</argsstring>
+        <name>mock</name>
+        <qualifiedname>bittensor._dataset.dataset.mock</qualifiedname>
+        <param>
+          <type>cls</type>
+          <defname>cls</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_dataset/__init__.py" line="114" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_dataset/__init__.py" bodystart="114" bodyend="116"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__dataset_1_1dataset_1a87c59d83dcfd4887835558caeeb4a21d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type> &apos;<ref refid="classbittensor_1_1__config_1_1config__impl_1_1_config" kindref="compound">bittensor.Config</ref>&apos;</type>
+        <definition> &apos;bittensor.Config&apos; bittensor._dataset.dataset.config</definition>
+        <argsstring>(cls)</argsstring>
+        <name>config</name>
+        <qualifiedname>bittensor._dataset.dataset.config</qualifiedname>
+        <param>
+          <type>cls</type>
+          <defname>cls</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Get config from the argument parser 
+    Return: bittensor.config object
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_dataset/__init__.py" line="118" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_dataset/__init__.py" bodystart="118" bodyend="125"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__dataset_1_1dataset_1a4f9cc40ba3ff7638cc04a2511ac5c18c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._dataset.dataset.add_args</definition>
+        <argsstring>(cls, argparse.ArgumentParser parser, str prefix=None)</argsstring>
+        <name>add_args</name>
+        <qualifiedname>bittensor._dataset.dataset.add_args</qualifiedname>
+        <param>
+          <type>cls</type>
+          <defname>cls</defname>
+        </param>
+        <param>
+          <type>argparse.ArgumentParser</type>
+          <declname>parser</declname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>prefix</declname>
+          <defval>None</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Accept specific arguments from parser
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_dataset/__init__.py" line="127" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_dataset/__init__.py" bodystart="127" bodyend="148"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__dataset_1_1dataset_1a5289194bb435a98b4dc08f6fd21a1b31" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._dataset.dataset.help</definition>
+        <argsstring>(cls)</argsstring>
+        <name>help</name>
+        <qualifiedname>bittensor._dataset.dataset.help</qualifiedname>
+        <param>
+          <type>cls</type>
+          <defname>cls</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Print help to stdout
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_dataset/__init__.py" line="150" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_dataset/__init__.py" bodystart="150" bodyend="157"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__dataset_1_1dataset_1a9e1b50354cbdb8b12efd3812d154048b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._dataset.dataset.add_defaults</definition>
+        <argsstring>(cls, defaults)</argsstring>
+        <name>add_defaults</name>
+        <qualifiedname>bittensor._dataset.dataset.add_defaults</qualifiedname>
+        <param>
+          <type>cls</type>
+          <defname>cls</defname>
+        </param>
+        <param>
+          <type>defaults</type>
+          <defname>defaults</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Adds parser defaults to object from enviroment variables.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_dataset/__init__.py" line="159" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_dataset/__init__.py" bodystart="159" bodyend="172"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__dataset_1_1dataset_1a3622f12bfd150e7844096bdd440f6a79" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._dataset.dataset.check_config</definition>
+        <argsstring>(cls, &apos;bittensor.Config&apos; config)</argsstring>
+        <name>check_config</name>
+        <qualifiedname>bittensor._dataset.dataset.check_config</qualifiedname>
+        <param>
+          <type>cls</type>
+          <defname>cls</defname>
+        </param>
+        <param>
+          <type>&apos;<ref refid="classbittensor_1_1__config_1_1config__impl_1_1_config" kindref="compound">bittensor.Config</ref>&apos;</type>
+          <declname>config</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Check config for batch size, block size, corpus size, num_workers and dataset
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_dataset/__init__.py" line="174" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_dataset/__init__.py" bodystart="174" bodyend="181"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim> Factory class for the GenesisTextDataset class or the mocked GenesisTextDataset
+The GenesisTextDataset downloads text data from the bittensor mountain dataset. 
+The class makes http requests to bittensor&apos;s IPFS backend server which contains the full dataset.
+By default, the GenesisTextDataset class will return a fully functioning pytorch dataloader.
+
+Examples:: 
+        &gt;&gt;&gt; dataset = bittensor.dataset(batch_size = 10, block_size=20)
+        &gt;&gt;&gt; # data.shape[batch_size, block_size]
+        &gt;&gt;&gt; data = next(dataset)
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/Users/macthrasher/bittensor/bittensor/_dataset/__init__.py" line="29" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_dataset/__init__.py" bodystart="29" bodyend="181"/>
+    <listofallmembers>
+      <member refid="classbittensor_1_1__dataset_1_1dataset_1a502cde6cc1ed2b5b439271374018142b" prot="public" virt="non-virtual"><scope>bittensor::_dataset::dataset</scope><name>__new__</name></member>
+      <member refid="classbittensor_1_1__dataset_1_1dataset_1a4f9cc40ba3ff7638cc04a2511ac5c18c" prot="public" virt="non-virtual"><scope>bittensor::_dataset::dataset</scope><name>add_args</name></member>
+      <member refid="classbittensor_1_1__dataset_1_1dataset_1a9e1b50354cbdb8b12efd3812d154048b" prot="public" virt="non-virtual"><scope>bittensor::_dataset::dataset</scope><name>add_defaults</name></member>
+      <member refid="classbittensor_1_1__dataset_1_1dataset_1a3622f12bfd150e7844096bdd440f6a79" prot="public" virt="non-virtual"><scope>bittensor::_dataset::dataset</scope><name>check_config</name></member>
+      <member refid="classbittensor_1_1__dataset_1_1dataset_1a87c59d83dcfd4887835558caeeb4a21d" prot="public" virt="non-virtual"><scope>bittensor::_dataset::dataset</scope><name>config</name></member>
+      <member refid="classbittensor_1_1__dataset_1_1dataset_1a5289194bb435a98b4dc08f6fd21a1b31" prot="public" virt="non-virtual"><scope>bittensor::_dataset::dataset</scope><name>help</name></member>
+      <member refid="classbittensor_1_1__dataset_1_1dataset_1aecfa54098d68aef00750ce267ed8fe06" prot="public" virt="non-virtual"><scope>bittensor::_dataset::dataset</scope><name>mock</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

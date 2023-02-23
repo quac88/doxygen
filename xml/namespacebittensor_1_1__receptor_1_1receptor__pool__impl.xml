@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="namespacebittensor_1_1__receptor_1_1receptor__pool__impl" kind="namespace" language="Python">
+    <compoundname>bittensor::_receptor::receptor_pool_impl</compoundname>
+    <innerclass refid="classbittensor_1_1__receptor_1_1receptor__pool__impl_1_1_receptor_pool" prot="public">bittensor::_receptor::receptor_pool_impl::ReceptorPool</innerclass>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="namespacebittensor_1_1__receptor_1_1receptor__pool__impl_1a727f18a72784e7ac879582c4805095ab" prot="public" static="no" mutable="no">
+        <type>logger</type>
+        <definition>logger bittensor::_receptor::receptor_pool_impl.logger</definition>
+        <argsstring></argsstring>
+        <name>logger</name>
+        <qualifiedname>bittensor._receptor.receptor_pool_impl.logger</qualifiedname>
+        <initializer>=  logger.opt(colors=True)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_receptor/receptor_pool_impl.py" line="33" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_receptor/receptor_pool_impl.py" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim> Manages a pool of grpc connections as receptors
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/Users/macthrasher/bittensor/bittensor/_receptor/receptor_pool_impl.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

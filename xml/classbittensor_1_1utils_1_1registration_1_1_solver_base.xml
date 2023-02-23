@@ -1,0 +1,562 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="classbittensor_1_1utils_1_1registration_1_1_solver_base" kind="class" language="Python" prot="public">
+    <compoundname>bittensor::utils::registration::SolverBase</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">multiprocessing.Process</basecompoundref>
+    <derivedcompoundref refid="classbittensor_1_1utils_1_1registration_1_1_c_u_d_a_solver" prot="public" virt="non-virtual">bittensor.utils.registration.CUDASolver</derivedcompoundref>
+    <derivedcompoundref refid="classbittensor_1_1utils_1_1registration_1_1_solver" prot="public" virt="non-virtual">bittensor.utils.registration.Solver</derivedcompoundref>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classbittensor_1_1utils_1_1registration_1_1_solver_base_1a0a92bd76af997c045d350237581c7dbc" prot="public" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int bittensor.utils.registration.SolverBase::proc_num</definition>
+        <argsstring></argsstring>
+        <name>proc_num</name>
+        <qualifiedname>bittensor.utils.registration.SolverBase.proc_num</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/registration.py" line="147" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/registration.py" bodystart="147" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1utils_1_1registration_1_1_solver_base_1ab4d14ed2f95ffa7df895d5f9cc573063" prot="public" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int bittensor.utils.registration.SolverBase::num_proc</definition>
+        <argsstring></argsstring>
+        <name>num_proc</name>
+        <qualifiedname>bittensor.utils.registration.SolverBase.num_proc</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/registration.py" line="148" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/registration.py" bodystart="148" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1utils_1_1registration_1_1_solver_base_1a9e19ddaf1e05033396fd91e88d08c145" prot="public" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int bittensor.utils.registration.SolverBase::update_interval</definition>
+        <argsstring></argsstring>
+        <name>update_interval</name>
+        <qualifiedname>bittensor.utils.registration.SolverBase.update_interval</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/registration.py" line="149" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/registration.py" bodystart="149" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1utils_1_1registration_1_1_solver_base_1ac79d2c033ee35e5d212164a0f87965f0" prot="public" static="yes" mutable="no">
+        <type>multiprocessing</type>
+        <definition>multiprocessing bittensor.utils.registration.SolverBase::finished_queue</definition>
+        <argsstring></argsstring>
+        <name>finished_queue</name>
+        <qualifiedname>bittensor.utils.registration.SolverBase.finished_queue</qualifiedname>
+        <initializer>.Queue</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/registration.py" line="150" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/registration.py" bodystart="150" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1utils_1_1registration_1_1_solver_base_1a9f758006126a5939ab0da9557ce1abd0" prot="public" static="yes" mutable="no">
+        <type>multiprocessing</type>
+        <definition>multiprocessing bittensor.utils.registration.SolverBase::solution_queue</definition>
+        <argsstring></argsstring>
+        <name>solution_queue</name>
+        <qualifiedname>bittensor.utils.registration.SolverBase.solution_queue</qualifiedname>
+        <initializer>.Queue</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/registration.py" line="151" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/registration.py" bodystart="151" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1utils_1_1registration_1_1_solver_base_1a7805983d63bec73b0d80a6127e6e99fd" prot="public" static="yes" mutable="no">
+        <type>multiprocessing</type>
+        <definition>multiprocessing bittensor.utils.registration.SolverBase::newBlockEvent</definition>
+        <argsstring></argsstring>
+        <name>newBlockEvent</name>
+        <qualifiedname>bittensor.utils.registration.SolverBase.newBlockEvent</qualifiedname>
+        <initializer>.Event</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/registration.py" line="152" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/registration.py" bodystart="152" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1utils_1_1registration_1_1_solver_base_1a10a25240348f4bec5b99dcf56b10088b" prot="public" static="yes" mutable="no">
+        <type>multiprocessing</type>
+        <definition>multiprocessing bittensor.utils.registration.SolverBase::stopEvent</definition>
+        <argsstring></argsstring>
+        <name>stopEvent</name>
+        <qualifiedname>bittensor.utils.registration.SolverBase.stopEvent</qualifiedname>
+        <initializer>.Event</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/registration.py" line="153" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/registration.py" bodystart="153" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1utils_1_1registration_1_1_solver_base_1a715d901084ee2ebbf9e153e4494fe123" prot="public" static="yes" mutable="no">
+        <type>multiprocessing</type>
+        <definition>multiprocessing bittensor.utils.registration.SolverBase::curr_block</definition>
+        <argsstring></argsstring>
+        <name>curr_block</name>
+        <qualifiedname>bittensor.utils.registration.SolverBase.curr_block</qualifiedname>
+        <initializer>.Array</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/registration.py" line="154" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/registration.py" bodystart="154" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1utils_1_1registration_1_1_solver_base_1abd0facd26f8a1ae6c2fe73643f8dd64e" prot="public" static="yes" mutable="no">
+        <type>multiprocessing</type>
+        <definition>multiprocessing bittensor.utils.registration.SolverBase::curr_block_num</definition>
+        <argsstring></argsstring>
+        <name>curr_block_num</name>
+        <qualifiedname>bittensor.utils.registration.SolverBase.curr_block_num</qualifiedname>
+        <initializer>.Value</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/registration.py" line="155" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/registration.py" bodystart="155" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1utils_1_1registration_1_1_solver_base_1af5e25920336661ecc497e4d5db48a37b" prot="public" static="yes" mutable="no">
+        <type>multiprocessing</type>
+        <definition>multiprocessing bittensor.utils.registration.SolverBase::curr_diff</definition>
+        <argsstring></argsstring>
+        <name>curr_diff</name>
+        <qualifiedname>bittensor.utils.registration.SolverBase.curr_diff</qualifiedname>
+        <initializer>.Array</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/registration.py" line="156" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/registration.py" bodystart="156" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1utils_1_1registration_1_1_solver_base_1ad2148580f9b678611afe4629c73eb19d" prot="public" static="yes" mutable="no">
+        <type>multiprocessing</type>
+        <definition>multiprocessing bittensor.utils.registration.SolverBase::check_block</definition>
+        <argsstring></argsstring>
+        <name>check_block</name>
+        <qualifiedname>bittensor.utils.registration.SolverBase.check_block</qualifiedname>
+        <initializer>.Lock</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/registration.py" line="157" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/registration.py" bodystart="157" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1utils_1_1registration_1_1_solver_base_1a85f4ede5b1ece531b02964c3c199c6e0" prot="public" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int bittensor.utils.registration.SolverBase::limit</definition>
+        <argsstring></argsstring>
+        <name>limit</name>
+        <qualifiedname>bittensor.utils.registration.SolverBase.limit</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/registration.py" line="158" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/registration.py" bodystart="158" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classbittensor_1_1utils_1_1registration_1_1_solver_base_1ae6350ee352d6bae1a1556553096a50fb" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor.utils.registration.SolverBase::proc_num</definition>
+        <argsstring></argsstring>
+        <name>proc_num</name>
+        <qualifiedname>bittensor.utils.registration.SolverBase.proc_num</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/registration.py" line="162" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/registration.py" bodystart="162" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1utils_1_1registration_1_1_solver_base_1a1dad06b7c658325fc30ab1cd0aee2871" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor.utils.registration.SolverBase::num_proc</definition>
+        <argsstring></argsstring>
+        <name>num_proc</name>
+        <qualifiedname>bittensor.utils.registration.SolverBase.num_proc</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/registration.py" line="163" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/registration.py" bodystart="163" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1utils_1_1registration_1_1_solver_base_1a4ddb90f211f8cbcd194a0cbebf38fd0f" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor.utils.registration.SolverBase::update_interval</definition>
+        <argsstring></argsstring>
+        <name>update_interval</name>
+        <qualifiedname>bittensor.utils.registration.SolverBase.update_interval</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/registration.py" line="164" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/registration.py" bodystart="164" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1utils_1_1registration_1_1_solver_base_1a0ab7a33e30b47c36f71e2ffab8fbfc5e" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor.utils.registration.SolverBase::finished_queue</definition>
+        <argsstring></argsstring>
+        <name>finished_queue</name>
+        <qualifiedname>bittensor.utils.registration.SolverBase.finished_queue</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/registration.py" line="165" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/registration.py" bodystart="165" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1utils_1_1registration_1_1_solver_base_1af3cb77a7d93141bb0c8834bc3321abe2" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor.utils.registration.SolverBase::solution_queue</definition>
+        <argsstring></argsstring>
+        <name>solution_queue</name>
+        <qualifiedname>bittensor.utils.registration.SolverBase.solution_queue</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/registration.py" line="166" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/registration.py" bodystart="166" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1utils_1_1registration_1_1_solver_base_1ac5e62a5e6ef5bd215b6cd7b4ad1d1553" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor.utils.registration.SolverBase::newBlockEvent</definition>
+        <argsstring></argsstring>
+        <name>newBlockEvent</name>
+        <qualifiedname>bittensor.utils.registration.SolverBase.newBlockEvent</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/registration.py" line="167" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/registration.py" bodystart="167" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1utils_1_1registration_1_1_solver_base_1a454d6294cf9914ab56272d09aa3e5155" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor.utils.registration.SolverBase::curr_block</definition>
+        <argsstring></argsstring>
+        <name>curr_block</name>
+        <qualifiedname>bittensor.utils.registration.SolverBase.curr_block</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/registration.py" line="169" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/registration.py" bodystart="169" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1utils_1_1registration_1_1_solver_base_1a86c8632c1cbd51b7b41dc21d59f49736" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor.utils.registration.SolverBase::curr_block_num</definition>
+        <argsstring></argsstring>
+        <name>curr_block_num</name>
+        <qualifiedname>bittensor.utils.registration.SolverBase.curr_block_num</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/registration.py" line="170" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/registration.py" bodystart="170" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1utils_1_1registration_1_1_solver_base_1a6903e52d697baac85594dbddcb0fff66" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor.utils.registration.SolverBase::curr_diff</definition>
+        <argsstring></argsstring>
+        <name>curr_diff</name>
+        <qualifiedname>bittensor.utils.registration.SolverBase.curr_diff</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/registration.py" line="171" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/registration.py" bodystart="171" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1utils_1_1registration_1_1_solver_base_1a62e004aa811ff4c7aa196fa442ad5251" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor.utils.registration.SolverBase::check_block</definition>
+        <argsstring></argsstring>
+        <name>check_block</name>
+        <qualifiedname>bittensor.utils.registration.SolverBase.check_block</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/registration.py" line="172" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/registration.py" bodystart="172" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1utils_1_1registration_1_1_solver_base_1ac0fbe4d943cf23cccf00424803e83498" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor.utils.registration.SolverBase::stopEvent</definition>
+        <argsstring></argsstring>
+        <name>stopEvent</name>
+        <qualifiedname>bittensor.utils.registration.SolverBase.stopEvent</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/registration.py" line="173" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/registration.py" bodystart="173" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1utils_1_1registration_1_1_solver_base_1a5302809ae88926e4b269d52a9efcfe9e" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor.utils.registration.SolverBase::limit</definition>
+        <argsstring></argsstring>
+        <name>limit</name>
+        <qualifiedname>bittensor.utils.registration.SolverBase.limit</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/registration.py" line="174" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/registration.py" bodystart="174" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classbittensor_1_1utils_1_1registration_1_1_solver_base_1ac051a1bfd6228037178c238934e828cd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor.utils.registration.SolverBase.__init__</definition>
+        <argsstring>(self, proc_num, num_proc, update_interval, finished_queue, solution_queue, stopEvent, curr_block, curr_block_num, curr_diff, check_block, limit)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>bittensor.utils.registration.SolverBase.__init__</qualifiedname>
+        <reimplementedby refid="classbittensor_1_1utils_1_1registration_1_1_c_u_d_a_solver_1a6be04816536ef399338558f6d6b40495">__init__</reimplementedby>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>proc_num</type>
+          <defname>proc_num</defname>
+        </param>
+        <param>
+          <type>num_proc</type>
+          <defname>num_proc</defname>
+        </param>
+        <param>
+          <type>update_interval</type>
+          <defname>update_interval</defname>
+        </param>
+        <param>
+          <type>finished_queue</type>
+          <defname>finished_queue</defname>
+        </param>
+        <param>
+          <type>solution_queue</type>
+          <defname>solution_queue</defname>
+        </param>
+        <param>
+          <type>stopEvent</type>
+          <defname>stopEvent</defname>
+        </param>
+        <param>
+          <type>curr_block</type>
+          <defname>curr_block</defname>
+        </param>
+        <param>
+          <type>curr_block_num</type>
+          <defname>curr_block_num</defname>
+        </param>
+        <param>
+          <type>curr_diff</type>
+          <defname>curr_diff</defname>
+        </param>
+        <param>
+          <type>check_block</type>
+          <defname>check_block</defname>
+        </param>
+        <param>
+          <type>limit</type>
+          <defname>limit</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/registration.py" line="160" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/registration.py" bodystart="160" bodyend="175"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1utils_1_1registration_1_1_solver_base_1aee1da22d8fa4ec1a7ad0c006c097fca9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor.utils.registration.SolverBase.run</definition>
+        <argsstring>(self)</argsstring>
+        <name>run</name>
+        <qualifiedname>bittensor.utils.registration.SolverBase.run</qualifiedname>
+        <reimplementedby refid="classbittensor_1_1utils_1_1registration_1_1_solver_1abcd76e741b811e9b46ef5112bb6a84b9">run</reimplementedby>
+        <reimplementedby refid="classbittensor_1_1utils_1_1registration_1_1_c_u_d_a_solver_1a4ee1ea8c13e6ed65db51b65e80ae2177">run</reimplementedby>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/registration.py" line="176" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/registration.py" bodystart="176" bodyend="179"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>A process that solves the registration PoW problem.
+
+Args:
+    proc_num: int
+        The number of the process being created.
+    num_proc: int
+        The total number of processes running.
+    update_interval: int
+        The number of nonces to try to solve before checking for a new block.
+    finished_queue: multiprocessing.Queue
+        The queue to put the process number when a process finishes each update_interval.
+        Used for calculating the average time per update_interval across all processes.
+    solution_queue: multiprocessing.Queue
+        The queue to put the solution the process has found during the pow solve.
+    newBlockEvent: multiprocessing.Event
+        The event to set by the main process when a new block is finalized in the network.
+        The solver process will check for the event after each update_interval.
+        The solver process will get the new block hash and difficulty and start solving for a new nonce.
+    stopEvent: multiprocessing.Event
+        The event to set by the main process when all the solver processes should stop.
+        The solver process will check for the event after each update_interval.
+        The solver process will stop when the event is set.
+        Used to stop the solver processes when a solution is found.
+    curr_block: multiprocessing.Array
+        The array containing this process&apos;s current block hash.
+        The main process will set the array to the new block hash when a new block is finalized in the network.
+        The solver process will get the new block hash from this array when newBlockEvent is set.
+    curr_block_num: multiprocessing.Value
+        The value containing this process&apos;s current block number.
+        The main process will set the value to the new block number when a new block is finalized in the network.
+        The solver process will get the new block number from this value when newBlockEvent is set.
+    curr_diff: multiprocessing.Array
+        The array containing this process&apos;s current difficulty.
+        The main process will set the array to the new difficulty when a new block is finalized in the network.
+        The solver process will get the new difficulty from this array when newBlockEvent is set.
+    check_block: multiprocessing.Lock
+        The lock to prevent this process from getting the new block data while the main process is updating the data.
+    limit: int
+        The limit of the pow solve for a valid solution.
+</verbatim> </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>bittensor.utils.registration.SolverBase</label>
+        <link refid="classbittensor_1_1utils_1_1registration_1_1_solver_base"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>bittensor.utils.registration.CUDASolver</label>
+        <link refid="classbittensor_1_1utils_1_1registration_1_1_c_u_d_a_solver"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>bittensor.utils.registration.Solver</label>
+        <link refid="classbittensor_1_1utils_1_1registration_1_1_solver"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>multiprocessing::Process</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>bittensor.utils.registration.SolverBase</label>
+        <link refid="classbittensor_1_1utils_1_1registration_1_1_solver_base"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>check_block</edgelabel>
+          <edgelabel>curr_block</edgelabel>
+          <edgelabel>curr_block_num</edgelabel>
+          <edgelabel>curr_diff</edgelabel>
+          <edgelabel>finished_queue</edgelabel>
+          <edgelabel>newBlockEvent</edgelabel>
+          <edgelabel>solution_queue</edgelabel>
+          <edgelabel>stopEvent</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>multiprocessing</label>
+      </node>
+      <node id="2">
+        <label>multiprocessing::Process</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/macthrasher/bittensor/bittensor/utils/registration.py" line="105" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/registration.py" bodystart="105" bodyend="179"/>
+    <listofallmembers>
+      <member refid="classbittensor_1_1utils_1_1registration_1_1_solver_base_1ac051a1bfd6228037178c238934e828cd" prot="public" virt="non-virtual"><scope>bittensor::utils::registration::SolverBase</scope><name>__init__</name></member>
+      <member refid="classbittensor_1_1utils_1_1registration_1_1_solver_base_1ad2148580f9b678611afe4629c73eb19d" prot="public" virt="non-virtual"><scope>bittensor::utils::registration::SolverBase</scope><name>check_block</name></member>
+      <member refid="classbittensor_1_1utils_1_1registration_1_1_solver_base_1a62e004aa811ff4c7aa196fa442ad5251" prot="public" virt="non-virtual"><scope>bittensor::utils::registration::SolverBase</scope><name>check_block</name></member>
+      <member refid="classbittensor_1_1utils_1_1registration_1_1_solver_base_1a715d901084ee2ebbf9e153e4494fe123" prot="public" virt="non-virtual"><scope>bittensor::utils::registration::SolverBase</scope><name>curr_block</name></member>
+      <member refid="classbittensor_1_1utils_1_1registration_1_1_solver_base_1a454d6294cf9914ab56272d09aa3e5155" prot="public" virt="non-virtual"><scope>bittensor::utils::registration::SolverBase</scope><name>curr_block</name></member>
+      <member refid="classbittensor_1_1utils_1_1registration_1_1_solver_base_1abd0facd26f8a1ae6c2fe73643f8dd64e" prot="public" virt="non-virtual"><scope>bittensor::utils::registration::SolverBase</scope><name>curr_block_num</name></member>
+      <member refid="classbittensor_1_1utils_1_1registration_1_1_solver_base_1a86c8632c1cbd51b7b41dc21d59f49736" prot="public" virt="non-virtual"><scope>bittensor::utils::registration::SolverBase</scope><name>curr_block_num</name></member>
+      <member refid="classbittensor_1_1utils_1_1registration_1_1_solver_base_1af5e25920336661ecc497e4d5db48a37b" prot="public" virt="non-virtual"><scope>bittensor::utils::registration::SolverBase</scope><name>curr_diff</name></member>
+      <member refid="classbittensor_1_1utils_1_1registration_1_1_solver_base_1a6903e52d697baac85594dbddcb0fff66" prot="public" virt="non-virtual"><scope>bittensor::utils::registration::SolverBase</scope><name>curr_diff</name></member>
+      <member refid="classbittensor_1_1utils_1_1registration_1_1_solver_base_1ac79d2c033ee35e5d212164a0f87965f0" prot="public" virt="non-virtual"><scope>bittensor::utils::registration::SolverBase</scope><name>finished_queue</name></member>
+      <member refid="classbittensor_1_1utils_1_1registration_1_1_solver_base_1a0ab7a33e30b47c36f71e2ffab8fbfc5e" prot="public" virt="non-virtual"><scope>bittensor::utils::registration::SolverBase</scope><name>finished_queue</name></member>
+      <member refid="classbittensor_1_1utils_1_1registration_1_1_solver_base_1a85f4ede5b1ece531b02964c3c199c6e0" prot="public" virt="non-virtual"><scope>bittensor::utils::registration::SolverBase</scope><name>limit</name></member>
+      <member refid="classbittensor_1_1utils_1_1registration_1_1_solver_base_1a5302809ae88926e4b269d52a9efcfe9e" prot="public" virt="non-virtual"><scope>bittensor::utils::registration::SolverBase</scope><name>limit</name></member>
+      <member refid="classbittensor_1_1utils_1_1registration_1_1_solver_base_1a7805983d63bec73b0d80a6127e6e99fd" prot="public" virt="non-virtual"><scope>bittensor::utils::registration::SolverBase</scope><name>newBlockEvent</name></member>
+      <member refid="classbittensor_1_1utils_1_1registration_1_1_solver_base_1ac5e62a5e6ef5bd215b6cd7b4ad1d1553" prot="public" virt="non-virtual"><scope>bittensor::utils::registration::SolverBase</scope><name>newBlockEvent</name></member>
+      <member refid="classbittensor_1_1utils_1_1registration_1_1_solver_base_1ab4d14ed2f95ffa7df895d5f9cc573063" prot="public" virt="non-virtual"><scope>bittensor::utils::registration::SolverBase</scope><name>num_proc</name></member>
+      <member refid="classbittensor_1_1utils_1_1registration_1_1_solver_base_1a1dad06b7c658325fc30ab1cd0aee2871" prot="public" virt="non-virtual"><scope>bittensor::utils::registration::SolverBase</scope><name>num_proc</name></member>
+      <member refid="classbittensor_1_1utils_1_1registration_1_1_solver_base_1a0a92bd76af997c045d350237581c7dbc" prot="public" virt="non-virtual"><scope>bittensor::utils::registration::SolverBase</scope><name>proc_num</name></member>
+      <member refid="classbittensor_1_1utils_1_1registration_1_1_solver_base_1ae6350ee352d6bae1a1556553096a50fb" prot="public" virt="non-virtual"><scope>bittensor::utils::registration::SolverBase</scope><name>proc_num</name></member>
+      <member refid="classbittensor_1_1utils_1_1registration_1_1_solver_base_1aee1da22d8fa4ec1a7ad0c006c097fca9" prot="public" virt="non-virtual"><scope>bittensor::utils::registration::SolverBase</scope><name>run</name></member>
+      <member refid="classbittensor_1_1utils_1_1registration_1_1_solver_base_1a9f758006126a5939ab0da9557ce1abd0" prot="public" virt="non-virtual"><scope>bittensor::utils::registration::SolverBase</scope><name>solution_queue</name></member>
+      <member refid="classbittensor_1_1utils_1_1registration_1_1_solver_base_1af3cb77a7d93141bb0c8834bc3321abe2" prot="public" virt="non-virtual"><scope>bittensor::utils::registration::SolverBase</scope><name>solution_queue</name></member>
+      <member refid="classbittensor_1_1utils_1_1registration_1_1_solver_base_1a10a25240348f4bec5b99dcf56b10088b" prot="public" virt="non-virtual"><scope>bittensor::utils::registration::SolverBase</scope><name>stopEvent</name></member>
+      <member refid="classbittensor_1_1utils_1_1registration_1_1_solver_base_1ac0fbe4d943cf23cccf00424803e83498" prot="public" virt="non-virtual"><scope>bittensor::utils::registration::SolverBase</scope><name>stopEvent</name></member>
+      <member refid="classbittensor_1_1utils_1_1registration_1_1_solver_base_1a9e19ddaf1e05033396fd91e88d08c145" prot="public" virt="non-virtual"><scope>bittensor::utils::registration::SolverBase</scope><name>update_interval</name></member>
+      <member refid="classbittensor_1_1utils_1_1registration_1_1_solver_base_1a4ddb90f211f8cbcd194a0cbebf38fd0f" prot="public" virt="non-virtual"><scope>bittensor::utils::registration::SolverBase</scope><name>update_interval</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

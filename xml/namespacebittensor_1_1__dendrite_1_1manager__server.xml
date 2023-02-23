@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="namespacebittensor_1_1__dendrite_1_1manager__server" kind="namespace" language="Python">
+    <compoundname>bittensor::_dendrite::manager_server</compoundname>
+    <innerclass refid="classbittensor_1_1__dendrite_1_1manager__server_1_1_manager_server" prot="public">bittensor::_dendrite::manager_server::ManagerServer</innerclass>
+    <innerclass refid="classbittensor_1_1__dendrite_1_1manager__server_1_1_stoppable_thread" prot="public">bittensor::_dendrite::manager_server::StoppableThread</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/macthrasher/bittensor/bittensor/_dendrite/manager_server.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

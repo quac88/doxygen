@@ -1,0 +1,131 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="classbittensor_1_1utils_1_1stats_1_1_events_per_second_rolling_average" kind="class" language="Python" prot="public">
+    <compoundname>bittensor::utils::stats::EventsPerSecondRollingAverage</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classbittensor_1_1utils_1_1stats_1_1_events_per_second_rolling_average_1a02ae11e2a32afa8a7f23fc095b7e48ca" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor.utils.stats.EventsPerSecondRollingAverage::value</definition>
+        <argsstring></argsstring>
+        <name>value</name>
+        <qualifiedname>bittensor.utils.stats.EventsPerSecondRollingAverage.value</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/stats.py" line="67" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/stats.py" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1utils_1_1stats_1_1_events_per_second_rolling_average_1ad88fc1f8fd2ee17936fd1c05fc2895dc" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor.utils.stats.EventsPerSecondRollingAverage::alpha</definition>
+        <argsstring></argsstring>
+        <name>alpha</name>
+        <qualifiedname>bittensor.utils.stats.EventsPerSecondRollingAverage.alpha</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/stats.py" line="68" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/stats.py" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1utils_1_1stats_1_1_events_per_second_rolling_average_1a3fa9606fd0fccc1a25503476e79276fa" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor.utils.stats.EventsPerSecondRollingAverage::last_update</definition>
+        <argsstring></argsstring>
+        <name>last_update</name>
+        <qualifiedname>bittensor.utils.stats.EventsPerSecondRollingAverage.last_update</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/stats.py" line="69" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/stats.py" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classbittensor_1_1utils_1_1stats_1_1_events_per_second_rolling_average_1a6ab9ed78b0a530c7abe2fe05aa8e8167" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor.utils.stats.EventsPerSecondRollingAverage.__init__</definition>
+        <argsstring>(self, initial_value, alpha)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>bittensor.utils.stats.EventsPerSecondRollingAverage.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>initial_value</type>
+          <defname>initial_value</defname>
+        </param>
+        <param>
+          <type>alpha</type>
+          <defname>alpha</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/stats.py" line="66" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/stats.py" bodystart="66" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1utils_1_1stats_1_1_events_per_second_rolling_average_1a4587e126cfdb4dca4bcaf26c649480a7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor.utils.stats.EventsPerSecondRollingAverage.event</definition>
+        <argsstring>(self)</argsstring>
+        <name>event</name>
+        <qualifiedname>bittensor.utils.stats.EventsPerSecondRollingAverage.event</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Update self.value (the moving average) with the new_value 
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/stats.py" line="71" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/stats.py" bodystart="71" bodyend="82"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1utils_1_1stats_1_1_events_per_second_rolling_average_1a10018753fe3023ca5eca202378529870" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float bittensor.utils.stats.EventsPerSecondRollingAverage.get</definition>
+        <argsstring>(self)</argsstring>
+        <name>get</name>
+        <qualifiedname>bittensor.utils.stats.EventsPerSecondRollingAverage.get</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/stats.py" line="83" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/stats.py" bodystart="83" bodyend="85"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim> A exponential moving average that counts the number of events per second.
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/Users/macthrasher/bittensor/bittensor/utils/stats.py" line="63" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/stats.py" bodystart="63" bodyend="85"/>
+    <listofallmembers>
+      <member refid="classbittensor_1_1utils_1_1stats_1_1_events_per_second_rolling_average_1a6ab9ed78b0a530c7abe2fe05aa8e8167" prot="public" virt="non-virtual"><scope>bittensor::utils::stats::EventsPerSecondRollingAverage</scope><name>__init__</name></member>
+      <member refid="classbittensor_1_1utils_1_1stats_1_1_events_per_second_rolling_average_1ad88fc1f8fd2ee17936fd1c05fc2895dc" prot="public" virt="non-virtual"><scope>bittensor::utils::stats::EventsPerSecondRollingAverage</scope><name>alpha</name></member>
+      <member refid="classbittensor_1_1utils_1_1stats_1_1_events_per_second_rolling_average_1a4587e126cfdb4dca4bcaf26c649480a7" prot="public" virt="non-virtual"><scope>bittensor::utils::stats::EventsPerSecondRollingAverage</scope><name>event</name></member>
+      <member refid="classbittensor_1_1utils_1_1stats_1_1_events_per_second_rolling_average_1a10018753fe3023ca5eca202378529870" prot="public" virt="non-virtual"><scope>bittensor::utils::stats::EventsPerSecondRollingAverage</scope><name>get</name></member>
+      <member refid="classbittensor_1_1utils_1_1stats_1_1_events_per_second_rolling_average_1a3fa9606fd0fccc1a25503476e79276fa" prot="public" virt="non-virtual"><scope>bittensor::utils::stats::EventsPerSecondRollingAverage</scope><name>last_update</name></member>
+      <member refid="classbittensor_1_1utils_1_1stats_1_1_events_per_second_rolling_average_1a02ae11e2a32afa8a7f23fc095b7e48ca" prot="public" virt="non-virtual"><scope>bittensor::utils::stats::EventsPerSecondRollingAverage</scope><name>value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

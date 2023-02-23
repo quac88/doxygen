@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="namespacebittensor_1_1__synapse_1_1synapse__impl" kind="namespace" language="Python">
+    <compoundname>bittensor::_synapse::synapse_impl</compoundname>
+    <innerclass refid="classbittensor_1_1__synapse_1_1synapse__impl_1_1_null_synapse" prot="public">bittensor::_synapse::synapse_impl::NullSynapse</innerclass>
+    <innerclass refid="classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse" prot="public">bittensor::_synapse::synapse_impl::Synapse</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/macthrasher/bittensor/bittensor/_synapse/synapse_impl.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,429 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="classbittensor_1_1__neuron_1_1text_1_1core__validator_1_1nucleus" kind="class" language="Python" prot="public">
+    <compoundname>bittensor::_neuron::text::core_validator::nucleus</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">torch.nn.Module</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classbittensor_1_1__neuron_1_1text_1_1core__validator_1_1nucleus_1a1cfbc24d3abc9e81a32955e341a68877" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._neuron.text.core_validator.nucleus::config</definition>
+        <argsstring></argsstring>
+        <name>config</name>
+        <qualifiedname>bittensor._neuron.text.core_validator.nucleus.config</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_validator/__init__.py" line="826" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_validator/__init__.py" bodystart="826" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__neuron_1_1text_1_1core__validator_1_1nucleus_1a7fd75379b86f88aded056db210ad6e1f" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._neuron.text.core_validator.nucleus::device</definition>
+        <argsstring></argsstring>
+        <name>device</name>
+        <qualifiedname>bittensor._neuron.text.core_validator.nucleus.device</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_validator/__init__.py" line="832" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_validator/__init__.py" bodystart="832" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__neuron_1_1text_1_1core__validator_1_1nucleus_1afd4057fa45247f8941bf740c7869f798" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._neuron.text.core_validator.nucleus::max_n</definition>
+        <argsstring></argsstring>
+        <name>max_n</name>
+        <qualifiedname>bittensor._neuron.text.core_validator.nucleus.max_n</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_validator/__init__.py" line="833" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_validator/__init__.py" bodystart="833" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__neuron_1_1text_1_1core__validator_1_1nucleus_1a099bd4132fd3be35e9adaea9611cdd3c" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._neuron.text.core_validator.nucleus::permute_uids</definition>
+        <argsstring></argsstring>
+        <name>permute_uids</name>
+        <qualifiedname>bittensor._neuron.text.core_validator.nucleus.permute_uids</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_validator/__init__.py" line="834" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_validator/__init__.py" bodystart="834" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__neuron_1_1text_1_1core__validator_1_1nucleus_1a2d618a6b1160da399b6bb726a749cacc" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._neuron.text.core_validator.nucleus::pad_token</definition>
+        <argsstring></argsstring>
+        <name>pad_token</name>
+        <qualifiedname>bittensor._neuron.text.core_validator.nucleus.pad_token</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_validator/__init__.py" line="837" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_validator/__init__.py" bodystart="837" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__neuron_1_1text_1_1core__validator_1_1nucleus_1a325560a1ee478657c626d89b72f1e524" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._neuron.text.core_validator.nucleus::token_embedding</definition>
+        <argsstring></argsstring>
+        <name>token_embedding</name>
+        <qualifiedname>bittensor._neuron.text.core_validator.nucleus.token_embedding</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_validator/__init__.py" line="840" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_validator/__init__.py" bodystart="840" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__neuron_1_1text_1_1core__validator_1_1nucleus_1acb6ce4edf99c1a63dfc9c112ec661278" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._neuron.text.core_validator.nucleus::routing_encoder_layers</definition>
+        <argsstring></argsstring>
+        <name>routing_encoder_layers</name>
+        <qualifiedname>bittensor._neuron.text.core_validator.nucleus.routing_encoder_layers</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_validator/__init__.py" line="843" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_validator/__init__.py" bodystart="843" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__neuron_1_1text_1_1core__validator_1_1nucleus_1a3263be5fd9613dd9eff2f521e645ec58" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._neuron.text.core_validator.nucleus::routing_encoder</definition>
+        <argsstring></argsstring>
+        <name>routing_encoder</name>
+        <qualifiedname>bittensor._neuron.text.core_validator.nucleus.routing_encoder</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_validator/__init__.py" line="844" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_validator/__init__.py" bodystart="844" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__neuron_1_1text_1_1core__validator_1_1nucleus_1aef63b259e4ab05367b4bab886b76fe71" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._neuron.text.core_validator.nucleus::encoder_layers</definition>
+        <argsstring></argsstring>
+        <name>encoder_layers</name>
+        <qualifiedname>bittensor._neuron.text.core_validator.nucleus.encoder_layers</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_validator/__init__.py" line="847" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_validator/__init__.py" bodystart="847" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__neuron_1_1text_1_1core__validator_1_1nucleus_1a528542e3e21bd5c07dae1505b9675b2f" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._neuron.text.core_validator.nucleus::encoder</definition>
+        <argsstring></argsstring>
+        <name>encoder</name>
+        <qualifiedname>bittensor._neuron.text.core_validator.nucleus.encoder</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_validator/__init__.py" line="848" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_validator/__init__.py" bodystart="848" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__neuron_1_1text_1_1core__validator_1_1nucleus_1a6931a1fbd5be09b4f47655f163e487d9" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._neuron.text.core_validator.nucleus::decoder</definition>
+        <argsstring></argsstring>
+        <name>decoder</name>
+        <qualifiedname>bittensor._neuron.text.core_validator.nucleus.decoder</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_validator/__init__.py" line="851" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_validator/__init__.py" bodystart="851" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__neuron_1_1text_1_1core__validator_1_1nucleus_1a50ff3f426d7b539c15d80283b7d3b401" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._neuron.text.core_validator.nucleus::local_pos_encoder</definition>
+        <argsstring></argsstring>
+        <name>local_pos_encoder</name>
+        <qualifiedname>bittensor._neuron.text.core_validator.nucleus.local_pos_encoder</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_validator/__init__.py" line="854" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_validator/__init__.py" bodystart="854" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__neuron_1_1text_1_1core__validator_1_1nucleus_1aefd63dbb70e16d40467d4b08a5878e88" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._neuron.text.core_validator.nucleus::loss_fct</definition>
+        <argsstring></argsstring>
+        <name>loss_fct</name>
+        <qualifiedname>bittensor._neuron.text.core_validator.nucleus.loss_fct</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_validator/__init__.py" line="857" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_validator/__init__.py" bodystart="857" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__neuron_1_1text_1_1core__validator_1_1nucleus_1a2109acc4d7bec3a4a1b0ad495f78cb74" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._neuron.text.core_validator.nucleus::gates</definition>
+        <argsstring></argsstring>
+        <name>gates</name>
+        <qualifiedname>bittensor._neuron.text.core_validator.nucleus.gates</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_validator/__init__.py" line="860" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_validator/__init__.py" bodystart="860" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__neuron_1_1text_1_1core__validator_1_1nucleus_1ad0ee1cea1ee74b6d53de1303e9a8bf96" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._neuron.text.core_validator.nucleus::sigmoid</definition>
+        <argsstring></argsstring>
+        <name>sigmoid</name>
+        <qualifiedname>bittensor._neuron.text.core_validator.nucleus.sigmoid</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_validator/__init__.py" line="862" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_validator/__init__.py" bodystart="862" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classbittensor_1_1__neuron_1_1text_1_1core__validator_1_1nucleus_1af6d40afc6ec537230b769e1c2ca70ef7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._neuron.text.core_validator.nucleus.__init__</definition>
+        <argsstring>(self, config, device, subtensor)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>bittensor._neuron.text.core_validator.nucleus.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classbittensor_1_1__config_1_1config" kindref="compound">config</ref></type>
+          <defname>config</defname>
+        </param>
+        <param>
+          <type>device</type>
+          <defname>device</defname>
+        </param>
+        <param>
+          <type><ref refid="classbittensor_1_1__subtensor_1_1subtensor" kindref="compound">subtensor</ref></type>
+          <defname>subtensor</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_validator/__init__.py" line="824" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_validator/__init__.py" bodystart="824" bodyend="865"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__neuron_1_1text_1_1core__validator_1_1nucleus_1afd2091dd63458b880907109b78c7912b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._neuron.text.core_validator.nucleus.add_args</definition>
+        <argsstring>(cls, parser)</argsstring>
+        <name>add_args</name>
+        <qualifiedname>bittensor._neuron.text.core_validator.nucleus.add_args</qualifiedname>
+        <param>
+          <type>cls</type>
+          <defname>cls</defname>
+        </param>
+        <param>
+          <type>parser</type>
+          <defname>parser</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_validator/__init__.py" line="867" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_validator/__init__.py" bodystart="867" bodyend="879"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__neuron_1_1text_1_1core__validator_1_1nucleus_1a90fe0804eb6b195cd57c619912815173" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._neuron.text.core_validator.nucleus.config</definition>
+        <argsstring>(cls)</argsstring>
+        <name>config</name>
+        <qualifiedname>bittensor._neuron.text.core_validator.nucleus.config</qualifiedname>
+        <param>
+          <type>cls</type>
+          <defname>cls</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_validator/__init__.py" line="881" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_validator/__init__.py" bodystart="881" bodyend="885"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__neuron_1_1text_1_1core__validator_1_1nucleus_1aa151cd5685bfbd75984075e0a875b57f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._neuron.text.core_validator.nucleus.check_config</definition>
+        <argsstring>(cls, &apos;bittensor.Config&apos; config)</argsstring>
+        <name>check_config</name>
+        <qualifiedname>bittensor._neuron.text.core_validator.nucleus.check_config</qualifiedname>
+        <param>
+          <type>cls</type>
+          <defname>cls</defname>
+        </param>
+        <param>
+          <type>&apos;<ref refid="classbittensor_1_1__config_1_1config__impl_1_1_config" kindref="compound">bittensor.Config</ref>&apos;</type>
+          <declname>config</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_validator/__init__.py" line="887" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_validator/__init__.py" bodystart="887" bodyend="889"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__neuron_1_1text_1_1core__validator_1_1nucleus_1a6c1a2d4dca5591c6a2d3458e76aedc85" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._neuron.text.core_validator.nucleus.reset_weights</definition>
+        <argsstring>(self)</argsstring>
+        <name>reset_weights</name>
+        <qualifiedname>bittensor._neuron.text.core_validator.nucleus.reset_weights</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Resets the validator weights.</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_validator/__init__.py" line="890" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_validator/__init__.py" bodystart="890" bodyend="904"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__neuron_1_1text_1_1core__validator_1_1nucleus_1a1b795f663d44b83ce4a9db81faa7d371" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._neuron.text.core_validator.nucleus.forward</definition>
+        <argsstring>(self, torch.FloatTensor inputs, &apos;bittensor.Metagraph&apos; metagraph, &apos;bittensor.Dendrite&apos; dendrite)</argsstring>
+        <name>forward</name>
+        <qualifiedname>bittensor._neuron.text.core_validator.nucleus.forward</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>torch.FloatTensor</type>
+          <declname>inputs</declname>
+        </param>
+        <param>
+          <type>&apos;<ref refid="classbittensor_1_1__metagraph_1_1metagraph__impl_1_1_metagraph" kindref="compound">bittensor.Metagraph</ref>&apos;</type>
+          <declname>metagraph</declname>
+        </param>
+        <param>
+          <type>&apos;<ref refid="classbittensor_1_1__dendrite_1_1dendrite__impl_1_1_dendrite" kindref="compound">bittensor.Dendrite</ref>&apos;</type>
+          <declname>dendrite</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Forward validator pass. Selects endpoints to query and validate, calculates routing_score and Shapley values
+for validated synapses.
+    Args:
+        inputs (:obj:`torch.FloatTensor` of shape :obj:`(batch_size, *-1*)`, `required`): 
+            Tensor inputs to distribute to neurons using query context.
+        metagraph (bittensor.Metagraph):
+            Metagraph object used to query network information.
+        dendrite (bittensor.Dendrite):
+            Dendrite RPC client used to make network queries.
+    Returns:
+        loss (:obj:`torch.FloatTensor`):
+            Loss for training validator nucleus and dendrite backward to endpoints.
+        neuron_stats (:obj:`Dict`, `required`):
+            Statistics per endpoint for this batch.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_validator/__init__.py" line="905" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_validator/__init__.py" bodystart="910" bodyend="1053"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim> Nucleus class which holds the validator model.
+</verbatim> </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>bittensor._neuron.text.core_validator.nucleus</label>
+        <link refid="classbittensor_1_1__neuron_1_1text_1_1core__validator_1_1nucleus"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>torch.nn.Module</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>bittensor._neuron.text.core_validator.nucleus</label>
+        <link refid="classbittensor_1_1__neuron_1_1text_1_1core__validator_1_1nucleus"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>torch.nn.Module</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_validator/__init__.py" line="821" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_validator/__init__.py" bodystart="821" bodyend="1053"/>
+    <listofallmembers>
+      <member refid="classbittensor_1_1__neuron_1_1text_1_1core__validator_1_1nucleus_1af6d40afc6ec537230b769e1c2ca70ef7" prot="public" virt="non-virtual"><scope>bittensor::_neuron::text::core_validator::nucleus</scope><name>__init__</name></member>
+      <member refid="classbittensor_1_1__neuron_1_1text_1_1core__validator_1_1nucleus_1afd2091dd63458b880907109b78c7912b" prot="public" virt="non-virtual"><scope>bittensor::_neuron::text::core_validator::nucleus</scope><name>add_args</name></member>
+      <member refid="classbittensor_1_1__neuron_1_1text_1_1core__validator_1_1nucleus_1aa151cd5685bfbd75984075e0a875b57f" prot="public" virt="non-virtual"><scope>bittensor::_neuron::text::core_validator::nucleus</scope><name>check_config</name></member>
+      <member refid="classbittensor_1_1__neuron_1_1text_1_1core__validator_1_1nucleus_1a1cfbc24d3abc9e81a32955e341a68877" prot="public" virt="non-virtual"><scope>bittensor::_neuron::text::core_validator::nucleus</scope><name>config</name></member>
+      <member refid="classbittensor_1_1__neuron_1_1text_1_1core__validator_1_1nucleus_1a90fe0804eb6b195cd57c619912815173" prot="public" virt="non-virtual"><scope>bittensor::_neuron::text::core_validator::nucleus</scope><name>config</name></member>
+      <member refid="classbittensor_1_1__neuron_1_1text_1_1core__validator_1_1nucleus_1a6931a1fbd5be09b4f47655f163e487d9" prot="public" virt="non-virtual"><scope>bittensor::_neuron::text::core_validator::nucleus</scope><name>decoder</name></member>
+      <member refid="classbittensor_1_1__neuron_1_1text_1_1core__validator_1_1nucleus_1a7fd75379b86f88aded056db210ad6e1f" prot="public" virt="non-virtual"><scope>bittensor::_neuron::text::core_validator::nucleus</scope><name>device</name></member>
+      <member refid="classbittensor_1_1__neuron_1_1text_1_1core__validator_1_1nucleus_1a528542e3e21bd5c07dae1505b9675b2f" prot="public" virt="non-virtual"><scope>bittensor::_neuron::text::core_validator::nucleus</scope><name>encoder</name></member>
+      <member refid="classbittensor_1_1__neuron_1_1text_1_1core__validator_1_1nucleus_1aef63b259e4ab05367b4bab886b76fe71" prot="public" virt="non-virtual"><scope>bittensor::_neuron::text::core_validator::nucleus</scope><name>encoder_layers</name></member>
+      <member refid="classbittensor_1_1__neuron_1_1text_1_1core__validator_1_1nucleus_1a1b795f663d44b83ce4a9db81faa7d371" prot="public" virt="non-virtual"><scope>bittensor::_neuron::text::core_validator::nucleus</scope><name>forward</name></member>
+      <member refid="classbittensor_1_1__neuron_1_1text_1_1core__validator_1_1nucleus_1a2109acc4d7bec3a4a1b0ad495f78cb74" prot="public" virt="non-virtual"><scope>bittensor::_neuron::text::core_validator::nucleus</scope><name>gates</name></member>
+      <member refid="classbittensor_1_1__neuron_1_1text_1_1core__validator_1_1nucleus_1a50ff3f426d7b539c15d80283b7d3b401" prot="public" virt="non-virtual"><scope>bittensor::_neuron::text::core_validator::nucleus</scope><name>local_pos_encoder</name></member>
+      <member refid="classbittensor_1_1__neuron_1_1text_1_1core__validator_1_1nucleus_1aefd63dbb70e16d40467d4b08a5878e88" prot="public" virt="non-virtual"><scope>bittensor::_neuron::text::core_validator::nucleus</scope><name>loss_fct</name></member>
+      <member refid="classbittensor_1_1__neuron_1_1text_1_1core__validator_1_1nucleus_1afd4057fa45247f8941bf740c7869f798" prot="public" virt="non-virtual"><scope>bittensor::_neuron::text::core_validator::nucleus</scope><name>max_n</name></member>
+      <member refid="classbittensor_1_1__neuron_1_1text_1_1core__validator_1_1nucleus_1a2d618a6b1160da399b6bb726a749cacc" prot="public" virt="non-virtual"><scope>bittensor::_neuron::text::core_validator::nucleus</scope><name>pad_token</name></member>
+      <member refid="classbittensor_1_1__neuron_1_1text_1_1core__validator_1_1nucleus_1a099bd4132fd3be35e9adaea9611cdd3c" prot="public" virt="non-virtual"><scope>bittensor::_neuron::text::core_validator::nucleus</scope><name>permute_uids</name></member>
+      <member refid="classbittensor_1_1__neuron_1_1text_1_1core__validator_1_1nucleus_1a6c1a2d4dca5591c6a2d3458e76aedc85" prot="public" virt="non-virtual"><scope>bittensor::_neuron::text::core_validator::nucleus</scope><name>reset_weights</name></member>
+      <member refid="classbittensor_1_1__neuron_1_1text_1_1core__validator_1_1nucleus_1a3263be5fd9613dd9eff2f521e645ec58" prot="public" virt="non-virtual"><scope>bittensor::_neuron::text::core_validator::nucleus</scope><name>routing_encoder</name></member>
+      <member refid="classbittensor_1_1__neuron_1_1text_1_1core__validator_1_1nucleus_1acb6ce4edf99c1a63dfc9c112ec661278" prot="public" virt="non-virtual"><scope>bittensor::_neuron::text::core_validator::nucleus</scope><name>routing_encoder_layers</name></member>
+      <member refid="classbittensor_1_1__neuron_1_1text_1_1core__validator_1_1nucleus_1ad0ee1cea1ee74b6d53de1303e9a8bf96" prot="public" virt="non-virtual"><scope>bittensor::_neuron::text::core_validator::nucleus</scope><name>sigmoid</name></member>
+      <member refid="classbittensor_1_1__neuron_1_1text_1_1core__validator_1_1nucleus_1a325560a1ee478657c626d89b72f1e524" prot="public" virt="non-virtual"><scope>bittensor::_neuron::text::core_validator::nucleus</scope><name>token_embedding</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

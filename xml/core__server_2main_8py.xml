@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="core__server_2main_8py" kind="file" language="Python">
+    <compoundname>main.py</compoundname>
+    <innernamespace refid="namespacebittensor">bittensor</innernamespace>
+    <innernamespace refid="namespacebittensor_1_1__neuron">bittensor::_neuron</innernamespace>
+    <innernamespace refid="namespacebittensor_1_1__neuron_1_1text">bittensor::_neuron::text</innernamespace>
+    <innernamespace refid="namespacebittensor_1_1__neuron_1_1text_1_1core__server">bittensor::_neuron::text::core_server</innernamespace>
+    <innernamespace refid="namespacebittensor_1_1__neuron_1_1text_1_1core__server_1_1main">bittensor::_neuron::text::core_server::main</innernamespace>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="core__server_2main_8py_1a969d2136a9281fe7158ae5a758eeeeeb" prot="public" static="no" mutable="no">
+        <type>bittensor</type>
+        <definition>bittensor bittensor::_neuron::text::core_server::main.template</definition>
+        <argsstring></argsstring>
+        <name>template</name>
+        <qualifiedname>bittensor._neuron.text.core_server.main.template</qualifiedname>
+        <initializer>=  bittensor.neurons.core_server.neuron().run()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_server/main.py" line="4" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_server/main.py" bodystart="4" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">import</highlight><highlight class="normal"><sp/>bittensor</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>__name__<sp/>==<sp/></highlight><highlight class="stringliteral">&quot;__main__&quot;</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="utils_2____init_____8py_1ae91d503bc0725dc1ce90ccc1fabb93a1" kindref="member">bittensor.utils.version_checking</ref>()</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"><sp/><sp/><sp/><sp/>template<sp/>=<sp/>bittensor.neurons.core_server.neuron().run()</highlight></codeline>
+    </programlisting>
+    <location file="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_server/main.py"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="namespacebittensor_1_1__neuron_1_1text_1_1core__server_1_1main" kind="namespace" language="Python">
+    <compoundname>bittensor::_neuron::text::core_server::main</compoundname>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="core__server_2main_8py_1a969d2136a9281fe7158ae5a758eeeeeb" prot="public" static="no" mutable="no">
+        <type>bittensor</type>
+        <definition>bittensor bittensor::_neuron::text::core_server::main.template</definition>
+        <argsstring></argsstring>
+        <name>template</name>
+        <qualifiedname>bittensor._neuron.text.core_server.main.template</qualifiedname>
+        <initializer>=  bittensor.neurons.core_server.neuron().run()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_server/main.py" line="4" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_server/main.py" bodystart="4" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_server/main.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

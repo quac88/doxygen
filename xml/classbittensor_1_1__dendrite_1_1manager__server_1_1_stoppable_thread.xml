@@ -1,0 +1,122 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="classbittensor_1_1__dendrite_1_1manager__server_1_1_stoppable_thread" kind="class" language="Python" prot="public">
+    <compoundname>bittensor::_dendrite::manager_server::StoppableThread</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">threading.Thread</basecompoundref>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classbittensor_1_1__dendrite_1_1manager__server_1_1_stoppable_thread_1adc8aae3cfa0f6626db3011802f584ff4" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._dendrite.manager_server.StoppableThread::_stop_event</definition>
+        <argsstring></argsstring>
+        <name>_stop_event</name>
+        <qualifiedname>bittensor._dendrite.manager_server.StoppableThread._stop_event</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_dendrite/manager_server.py" line="28" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_dendrite/manager_server.py" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classbittensor_1_1__dendrite_1_1manager__server_1_1_stoppable_thread_1acdcde910692c3a980fea6379b158c4c1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._dendrite.manager_server.StoppableThread.__init__</definition>
+        <argsstring>(self, *args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>bittensor._dendrite.manager_server.StoppableThread.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_dendrite/manager_server.py" line="26" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_dendrite/manager_server.py" bodystart="26" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__dendrite_1_1manager__server_1_1_stoppable_thread_1ae2c8f87c2f576706ae74af2e1ec42bd3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._dendrite.manager_server.StoppableThread.stop</definition>
+        <argsstring>(self)</argsstring>
+        <name>stop</name>
+        <qualifiedname>bittensor._dendrite.manager_server.StoppableThread.stop</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_dendrite/manager_server.py" line="30" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_dendrite/manager_server.py" bodystart="30" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__dendrite_1_1manager__server_1_1_stoppable_thread_1af9bac981c87c6d71f8c99e8e3856bc9d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._dendrite.manager_server.StoppableThread.stopped</definition>
+        <argsstring>(self)</argsstring>
+        <name>stopped</name>
+        <qualifiedname>bittensor._dendrite.manager_server.StoppableThread.stopped</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_dendrite/manager_server.py" line="33" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_dendrite/manager_server.py" bodystart="33" bodyend="36"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Thread class with a stop() method. The thread itself has to check
+regularly for the stopped() condition.</verbatim> </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>bittensor._dendrite.manager_server.StoppableThread</label>
+        <link refid="classbittensor_1_1__dendrite_1_1manager__server_1_1_stoppable_thread"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>threading.Thread</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>bittensor._dendrite.manager_server.StoppableThread</label>
+        <link refid="classbittensor_1_1__dendrite_1_1manager__server_1_1_stoppable_thread"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>threading.Thread</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/macthrasher/bittensor/bittensor/_dendrite/manager_server.py" line="22" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_dendrite/manager_server.py" bodystart="22" bodyend="36"/>
+    <listofallmembers>
+      <member refid="classbittensor_1_1__dendrite_1_1manager__server_1_1_stoppable_thread_1acdcde910692c3a980fea6379b158c4c1" prot="public" virt="non-virtual"><scope>bittensor::_dendrite::manager_server::StoppableThread</scope><name>__init__</name></member>
+      <member refid="classbittensor_1_1__dendrite_1_1manager__server_1_1_stoppable_thread_1adc8aae3cfa0f6626db3011802f584ff4" prot="protected" virt="non-virtual"><scope>bittensor::_dendrite::manager_server::StoppableThread</scope><name>_stop_event</name></member>
+      <member refid="classbittensor_1_1__dendrite_1_1manager__server_1_1_stoppable_thread_1ae2c8f87c2f576706ae74af2e1ec42bd3" prot="public" virt="non-virtual"><scope>bittensor::_dendrite::manager_server::StoppableThread</scope><name>stop</name></member>
+      <member refid="classbittensor_1_1__dendrite_1_1manager__server_1_1_stoppable_thread_1af9bac981c87c6d71f8c99e8e3856bc9d" prot="public" virt="non-virtual"><scope>bittensor::_dendrite::manager_server::StoppableThread</scope><name>stopped</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

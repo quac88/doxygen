@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="dir_defd091b1aa55cf85e063c2d756f9078" kind="dir">
+    <compoundname>/Users/macthrasher/bittensor/bittensor/_dataset</compoundname>
+    <innerfile refid="__dataset_2____init_____8py">__init__.py</innerfile>
+    <innerfile refid="dataset__impl_8py">dataset_impl.py</innerfile>
+    <innerfile refid="dataset__mock_8py">dataset_mock.py</innerfile>
+    <innerfile refid="thread__queue_8py">thread_queue.py</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/macthrasher/bittensor/bittensor/_dataset/"/>
+  </compounddef>
+</doxygen>

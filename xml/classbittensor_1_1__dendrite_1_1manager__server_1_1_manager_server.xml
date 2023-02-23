@@ -1,0 +1,169 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="classbittensor_1_1__dendrite_1_1manager__server_1_1_manager_server" kind="class" language="Python" prot="public">
+    <compoundname>bittensor::_dendrite::manager_server::ManagerServer</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">BaseManager</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classbittensor_1_1__dendrite_1_1manager__server_1_1_manager_server_1a8ec8e7892cad1698bc146cc9a83b0a7f" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._dendrite.manager_server.ManagerServer::connected_count</definition>
+        <argsstring></argsstring>
+        <name>connected_count</name>
+        <qualifiedname>bittensor._dendrite.manager_server.ManagerServer.connected_count</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_dendrite/manager_server.py" line="40" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_dendrite/manager_server.py" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__dendrite_1_1manager__server_1_1_manager_server_1a5da6877f5982055bf47c60792798b2fb" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._dendrite.manager_server.ManagerServer::server</definition>
+        <argsstring></argsstring>
+        <name>server</name>
+        <qualifiedname>bittensor._dendrite.manager_server.ManagerServer.server</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_dendrite/manager_server.py" line="41" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_dendrite/manager_server.py" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__dendrite_1_1manager__server_1_1_manager_server_1add7cd5622bac99913e51e949dd8f5b08" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._dendrite.manager_server.ManagerServer::manager_thread</definition>
+        <argsstring></argsstring>
+        <name>manager_thread</name>
+        <qualifiedname>bittensor._dendrite.manager_server.ManagerServer.manager_thread</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_dendrite/manager_server.py" line="42" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_dendrite/manager_server.py" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classbittensor_1_1__dendrite_1_1manager__server_1_1_manager_server_1a71c7e1e4c768c3c2a4bb4bcb439a98a1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._dendrite.manager_server.ManagerServer.__init__</definition>
+        <argsstring>(self, *args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>bittensor._dendrite.manager_server.ManagerServer.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_dendrite/manager_server.py" line="38" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_dendrite/manager_server.py" bodystart="38" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__dendrite_1_1manager__server_1_1_manager_server_1ad75ee5ba38bf07e63f1d8cab0e535804" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._dendrite.manager_server.ManagerServer.close</definition>
+        <argsstring>(self)</argsstring>
+        <name>close</name>
+        <qualifiedname>bittensor._dendrite.manager_server.ManagerServer.close</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_dendrite/manager_server.py" line="47" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_dendrite/manager_server.py" bodystart="47" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__dendrite_1_1manager__server_1_1_manager_server_1ada6cd70dbefcf517fc09b789d0815c06" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._dendrite.manager_server.ManagerServer.add_connection_count</definition>
+        <argsstring>(self)</argsstring>
+        <name>add_connection_count</name>
+        <qualifiedname>bittensor._dendrite.manager_server.ManagerServer.add_connection_count</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_dendrite/manager_server.py" line="54" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_dendrite/manager_server.py" bodystart="54" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__dendrite_1_1manager__server_1_1_manager_server_1aee8840930a3f4500903f4d2d0675cf05" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._dendrite.manager_server.ManagerServer.deduct_connection_count</definition>
+        <argsstring>(self)</argsstring>
+        <name>deduct_connection_count</name>
+        <qualifiedname>bittensor._dendrite.manager_server.ManagerServer.deduct_connection_count</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_dendrite/manager_server.py" line="59" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_dendrite/manager_server.py" bodystart="59" bodyend="68"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>bittensor._dendrite.manager_server.ManagerServer</label>
+        <link refid="classbittensor_1_1__dendrite_1_1manager__server_1_1_manager_server"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>BaseManager</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>bittensor._dendrite.manager_server.ManagerServer</label>
+        <link refid="classbittensor_1_1__dendrite_1_1manager__server_1_1_manager_server"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>BaseManager</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/macthrasher/bittensor/bittensor/_dendrite/manager_server.py" line="37" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_dendrite/manager_server.py" bodystart="37" bodyend="68"/>
+    <listofallmembers>
+      <member refid="classbittensor_1_1__dendrite_1_1manager__server_1_1_manager_server_1a71c7e1e4c768c3c2a4bb4bcb439a98a1" prot="public" virt="non-virtual"><scope>bittensor::_dendrite::manager_server::ManagerServer</scope><name>__init__</name></member>
+      <member refid="classbittensor_1_1__dendrite_1_1manager__server_1_1_manager_server_1ada6cd70dbefcf517fc09b789d0815c06" prot="public" virt="non-virtual"><scope>bittensor::_dendrite::manager_server::ManagerServer</scope><name>add_connection_count</name></member>
+      <member refid="classbittensor_1_1__dendrite_1_1manager__server_1_1_manager_server_1ad75ee5ba38bf07e63f1d8cab0e535804" prot="public" virt="non-virtual"><scope>bittensor::_dendrite::manager_server::ManagerServer</scope><name>close</name></member>
+      <member refid="classbittensor_1_1__dendrite_1_1manager__server_1_1_manager_server_1a8ec8e7892cad1698bc146cc9a83b0a7f" prot="public" virt="non-virtual"><scope>bittensor::_dendrite::manager_server::ManagerServer</scope><name>connected_count</name></member>
+      <member refid="classbittensor_1_1__dendrite_1_1manager__server_1_1_manager_server_1aee8840930a3f4500903f4d2d0675cf05" prot="public" virt="non-virtual"><scope>bittensor::_dendrite::manager_server::ManagerServer</scope><name>deduct_connection_count</name></member>
+      <member refid="classbittensor_1_1__dendrite_1_1manager__server_1_1_manager_server_1add7cd5622bac99913e51e949dd8f5b08" prot="public" virt="non-virtual"><scope>bittensor::_dendrite::manager_server::ManagerServer</scope><name>manager_thread</name></member>
+      <member refid="classbittensor_1_1__dendrite_1_1manager__server_1_1_manager_server_1a5da6877f5982055bf47c60792798b2fb" prot="public" virt="non-virtual"><scope>bittensor::_dendrite::manager_server::ManagerServer</scope><name>server</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

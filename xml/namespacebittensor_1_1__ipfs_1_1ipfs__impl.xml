@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="namespacebittensor_1_1__ipfs_1_1ipfs__impl" kind="namespace" language="Python">
+    <compoundname>bittensor::_ipfs::ipfs_impl</compoundname>
+    <innerclass refid="classbittensor_1_1__ipfs_1_1ipfs__impl_1_1_ipfs" prot="public">bittensor::_ipfs::ipfs_impl::Ipfs</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/macthrasher/bittensor/bittensor/_ipfs/ipfs_impl.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

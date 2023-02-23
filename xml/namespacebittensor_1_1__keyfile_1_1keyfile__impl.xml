@@ -1,0 +1,287 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="namespacebittensor_1_1__keyfile_1_1keyfile__impl" kind="namespace" language="Python">
+    <compoundname>bittensor::_keyfile::keyfile_impl</compoundname>
+    <innerclass refid="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_keyfile" prot="public">bittensor::_keyfile::keyfile_impl::Keyfile</innerclass>
+    <innerclass refid="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_key_file_error" prot="public">bittensor::_keyfile::keyfile_impl::KeyFileError</innerclass>
+    <innerclass refid="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_mock_keyfile" prot="public">bittensor::_keyfile::keyfile_impl::MockKeyfile</innerclass>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="keyfile__impl_8py_1a0c3e1df8185dd636545895da66060970" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._keyfile.keyfile_impl.serialized_keypair_to_keyfile_data</definition>
+        <argsstring>(&apos;bittensor.Keypair&apos; keypair)</argsstring>
+        <name>serialized_keypair_to_keyfile_data</name>
+        <qualifiedname>bittensor._keyfile.keyfile_impl.serialized_keypair_to_keyfile_data</qualifiedname>
+        <param>
+          <type>&apos;bittensor.Keypair&apos;</type>
+          <declname>keypair</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Serializes keypair object into keyfile data.
+    Args:
+        password ( str, required ):
+            password to verify.
+    Returns:
+        valid ( bool ):
+            True if the password meets validity requirements.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_keyfile/keyfile_impl.py" line="41" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_keyfile/keyfile_impl.py" bodystart="41" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="keyfile__impl_8py_1aa62c36e5e39cef1c9db5a71928a61005" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type> &apos;bittensor.Keypair&apos;</type>
+        <definition> &apos;bittensor.Keypair&apos; bittensor._keyfile.keyfile_impl.deserialize_keypair_from_keyfile_data</definition>
+        <argsstring>(bytes keyfile_data)</argsstring>
+        <name>deserialize_keypair_from_keyfile_data</name>
+        <qualifiedname>bittensor._keyfile.keyfile_impl.deserialize_keypair_from_keyfile_data</qualifiedname>
+        <param>
+          <type>bytes</type>
+          <declname>keyfile_data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Deserializes Keypair object from passed keyfile data.
+    Args:
+        keyfile_data ( bytest, required ):
+            Keyfile data as bytes to be loaded.
+    Returns:
+        keypair (bittensor.Keypair):
+            Keypair loaded from bytes.
+    Raises:
+        KeyFileError:
+            Raised if the passed bytest cannot construct a keypair object.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_keyfile/keyfile_impl.py" line="60" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_keyfile/keyfile_impl.py" bodystart="60" bodyend="101"/>
+      </memberdef>
+      <memberdef kind="function" id="keyfile__impl_8py_1a88e75493b23b323d3297601d6e5c053f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool bittensor._keyfile.keyfile_impl.validate_password</definition>
+        <argsstring>(str password)</argsstring>
+        <name>validate_password</name>
+        <qualifiedname>bittensor._keyfile.keyfile_impl.validate_password</qualifiedname>
+        <param>
+          <type>str</type>
+          <declname>password</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Validates the password again a password policy.
+    Args:
+        password ( str, required ):
+            password to verify.
+    Returns:
+        valid ( bool ):
+            True if the password meets validity requirements.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_keyfile/keyfile_impl.py" line="102" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_keyfile/keyfile_impl.py" bodystart="102" bodyend="128"/>
+      </memberdef>
+      <memberdef kind="function" id="keyfile__impl_8py_1a7315dcbb6a30e9a25950eae09c103b73" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str bittensor._keyfile.keyfile_impl.ask_password_to_encrypt</definition>
+        <argsstring>()</argsstring>
+        <name>ask_password_to_encrypt</name>
+        <qualifiedname>bittensor._keyfile.keyfile_impl.ask_password_to_encrypt</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Password from user prompt.
+    Returns:
+        password (str):
+            Valid password from user prompt.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_keyfile/keyfile_impl.py" line="129" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_keyfile/keyfile_impl.py" bodystart="129" bodyend="140"/>
+      </memberdef>
+      <memberdef kind="function" id="keyfile__impl_8py_1ad4a7b2c5bb42f548979ace42e944c0be" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool bittensor._keyfile.keyfile_impl.keyfile_data_is_encrypted_ansible</definition>
+        <argsstring>(bytes keyfile_data)</argsstring>
+        <name>keyfile_data_is_encrypted_ansible</name>
+        <qualifiedname>bittensor._keyfile.keyfile_impl.keyfile_data_is_encrypted_ansible</qualifiedname>
+        <param>
+          <type>bytes</type>
+          <declname>keyfile_data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Returns true if the keyfile data is ansible encrypted.
+    Args:
+        keyfile_data ( bytes, required ):
+            Bytes to validate
+    Returns:
+        is_ansible (bool):
+            True if data is ansible encrypted.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_keyfile/keyfile_impl.py" line="141" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_keyfile/keyfile_impl.py" bodystart="141" bodyend="151"/>
+      </memberdef>
+      <memberdef kind="function" id="keyfile__impl_8py_1ab137b19ef73874b87db193327f772499" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool bittensor._keyfile.keyfile_impl.keyfile_data_is_encrypted_legacy</definition>
+        <argsstring>(bytes keyfile_data)</argsstring>
+        <name>keyfile_data_is_encrypted_legacy</name>
+        <qualifiedname>bittensor._keyfile.keyfile_impl.keyfile_data_is_encrypted_legacy</qualifiedname>
+        <param>
+          <type>bytes</type>
+          <declname>keyfile_data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Returns true if the keyfile data is legacy encrypted.
+    Args:
+        keyfile_data ( bytes, required ):
+            Bytes to validate
+    Returns:
+        is_legacy (bool):
+            True if data is legacy encrypted.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_keyfile/keyfile_impl.py" line="152" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_keyfile/keyfile_impl.py" bodystart="152" bodyend="162"/>
+      </memberdef>
+      <memberdef kind="function" id="keyfile__impl_8py_1ad35b6c29a3bd834b6ed1dbfddd0b8147" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool bittensor._keyfile.keyfile_impl.keyfile_data_is_encrypted</definition>
+        <argsstring>(bytes keyfile_data)</argsstring>
+        <name>keyfile_data_is_encrypted</name>
+        <qualifiedname>bittensor._keyfile.keyfile_impl.keyfile_data_is_encrypted</qualifiedname>
+        <param>
+          <type>bytes</type>
+          <declname>keyfile_data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Returns true if the keyfile data is encrypted.
+    Args:
+        keyfile_data ( bytes, required ):
+            Bytes to validate
+    Returns:
+        is_encrypted (bool):
+            True if data is encrypted.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_keyfile/keyfile_impl.py" line="163" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_keyfile/keyfile_impl.py" bodystart="163" bodyend="173"/>
+      </memberdef>
+      <memberdef kind="function" id="keyfile__impl_8py_1a4f3575379a4468e7fb6ec00dd990a3ad" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bytes</type>
+        <definition> bytes bittensor._keyfile.keyfile_impl.encrypt_keyfile_data</definition>
+        <argsstring>(bytes keyfile_data, str password=None)</argsstring>
+        <name>encrypt_keyfile_data</name>
+        <qualifiedname>bittensor._keyfile.keyfile_impl.encrypt_keyfile_data</qualifiedname>
+        <param>
+          <type>bytes</type>
+          <declname>keyfile_data</declname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>password</declname>
+          <defval>None</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Encrypts passed keyfile data using ansible vault.
+    Args:
+        keyfile_data ( bytes, required ):
+            Bytes to validate
+        password ( bool, optional ):
+            It set, uses this password to encrypt data.
+    Returns:
+        encrytped_data (bytes):
+            Ansible encrypted data.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_keyfile/keyfile_impl.py" line="174" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_keyfile/keyfile_impl.py" bodystart="174" bodyend="191"/>
+      </memberdef>
+      <memberdef kind="function" id="keyfile__impl_8py_1a18d38eb639a652d1b7779b71ae0ec4c8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Optional[str]</type>
+        <definition> Optional[str] bittensor._keyfile.keyfile_impl.get_coldkey_password_from_environment</definition>
+        <argsstring>(str coldkey_name)</argsstring>
+        <name>get_coldkey_password_from_environment</name>
+        <qualifiedname>bittensor._keyfile.keyfile_impl.get_coldkey_password_from_environment</qualifiedname>
+        <param>
+          <type>str</type>
+          <declname>coldkey_name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_keyfile/keyfile_impl.py" line="192" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_keyfile/keyfile_impl.py" bodystart="192" bodyend="203"/>
+      </memberdef>
+      <memberdef kind="function" id="keyfile__impl_8py_1a67710f5158711adb411e6038bf4e3868" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bytes</type>
+        <definition> bytes bittensor._keyfile.keyfile_impl.decrypt_keyfile_data</definition>
+        <argsstring>(bytes keyfile_data, str password=None, Optional[str] coldkey_name=None)</argsstring>
+        <name>decrypt_keyfile_data</name>
+        <qualifiedname>bittensor._keyfile.keyfile_impl.decrypt_keyfile_data</qualifiedname>
+        <param>
+          <type>bytes</type>
+          <declname>keyfile_data</declname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>password</declname>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type>Optional</type>
+          <declname>coldkey_name</declname>
+          <array>[str]</array>
+          <defval>None</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Decrypts passed keyfile data using ansible vault.
+    Args:
+        keyfile_data ( bytes, required ):
+            Bytes to validate
+        password ( bool, optional ):
+            It set, uses this password to decrypt data.
+    Returns:
+        decrypted_data (bytes):
+            Decrypted data.
+     Raises:
+        KeyFileError:
+            Raised if the file is corrupted or if the password is incorrect.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_keyfile/keyfile_impl.py" line="204" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_keyfile/keyfile_impl.py" bodystart="204" bodyend="246"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/macthrasher/bittensor/bittensor/_keyfile/keyfile_impl.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

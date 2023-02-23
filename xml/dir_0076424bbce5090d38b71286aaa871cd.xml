@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="dir_0076424bbce5090d38b71286aaa871cd" kind="dir">
+    <compoundname>/Users/macthrasher/bittensor/bittensor/_neuron/text</compoundname>
+    <innerdir refid="dir_a3e57267ad7e67d77cf5ee636078a36c">/Users/macthrasher/bittensor/bittensor/_neuron/text/core_server</innerdir>
+    <innerdir refid="dir_071c7766c8e55d19386060a3bf2c61d6">/Users/macthrasher/bittensor/bittensor/_neuron/text/core_validator</innerdir>
+    <innerfile refid="__neuron_2text_2____init_____8py">__init__.py</innerfile>
+    <innerfile refid="neuron__utilities_8py">neuron_utilities.py</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/macthrasher/bittensor/bittensor/_neuron/text/"/>
+  </compounddef>
+</doxygen>

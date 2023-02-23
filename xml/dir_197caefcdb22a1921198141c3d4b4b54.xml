@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="dir_197caefcdb22a1921198141c3d4b4b54" kind="dir">
+    <compoundname>/Users/macthrasher/bittensor/bittensor/_synapse</compoundname>
+    <innerfile refid="__synapse_2____init_____8py">__init__.py</innerfile>
+    <innerfile refid="synapse__impl_8py">synapse_impl.py</innerfile>
+    <innerfile refid="text__causallm__impl_8py">text_causallm_impl.py</innerfile>
+    <innerfile refid="text__causallmnext__impl_8py">text_causallmnext_impl.py</innerfile>
+    <innerfile refid="text__lasthiddenstate__impl_8py">text_lasthiddenstate_impl.py</innerfile>
+    <innerfile refid="text__seq2seq__impl_8py">text_seq2seq_impl.py</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/macthrasher/bittensor/bittensor/_synapse/"/>
+  </compounddef>
+</doxygen>

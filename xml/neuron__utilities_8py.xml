@@ -1,0 +1,525 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="neuron__utilities_8py" kind="file" language="Python">
+    <compoundname>neuron_utilities.py</compoundname>
+    <innerclass refid="classbittensor_1_1__neuron_1_1text_1_1neuron__utilities_1_1_thread_queue" prot="public">bittensor::_neuron::text::neuron_utilities::ThreadQueue</innerclass>
+    <innerclass refid="classbittensor_1_1__neuron_1_1text_1_1neuron__utilities_1_1_positional_encoding" prot="public">bittensor::_neuron::text::neuron_utilities::PositionalEncoding</innerclass>
+    <innernamespace refid="namespacebittensor">bittensor</innernamespace>
+    <innernamespace refid="namespacebittensor_1_1__neuron">bittensor::_neuron</innernamespace>
+    <innernamespace refid="namespacebittensor_1_1__neuron_1_1text">bittensor::_neuron::text</innernamespace>
+    <innernamespace refid="namespacebittensor_1_1__neuron_1_1text_1_1neuron__utilities">bittensor::_neuron::text::neuron_utilities</innernamespace>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="neuron__utilities_8py_1a71af6209babb96c64cc46cfcc7437bee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._neuron.text.neuron_utilities.calc_loss_fct</definition>
+        <argsstring>(loss_fct, logits, labels)</argsstring>
+        <name>calc_loss_fct</name>
+        <qualifiedname>bittensor._neuron.text.neuron_utilities.calc_loss_fct</qualifiedname>
+        <param>
+          <type>loss_fct</type>
+          <defname>loss_fct</defname>
+        </param>
+        <param>
+          <type>logits</type>
+          <defname>logits</defname>
+        </param>
+        <param>
+          <type>labels</type>
+          <defname>labels</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Calculates self.loss_fct with logits and labels that are expected to be aligned already.</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_neuron/text/neuron_utilities.py" line="16" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_neuron/text/neuron_utilities.py" bodystart="16" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="neuron__utilities_8py_1ac3fecf1fe9a99e24a9d277cf66e12c59" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._neuron.text.neuron_utilities.update_metagraph_peerweight</definition>
+        <argsstring>(metagraph, nucleus, device)</argsstring>
+        <name>update_metagraph_peerweight</name>
+        <qualifiedname>bittensor._neuron.text.neuron_utilities.update_metagraph_peerweight</qualifiedname>
+        <param>
+          <type>metagraph</type>
+          <defname>metagraph</defname>
+        </param>
+        <param>
+          <type>nucleus</type>
+          <defname>nucleus</defname>
+        </param>
+        <param>
+          <type>device</type>
+          <defname>device</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>    Check for the change in hotkey before and after metagraph sync, 
+    update the peer_weight of nucleus accordingingly.
+        Args:
+            metagraph (:obj:`bittensor.metagraph`, `required`):
+                The metagraph to sync.
+            nucleus (:obj:`bittensor.neuron.text.nucleus`, `required`):
+                The nn.Module class that needs the peerweight to be updated.
+            device (:type:`torch.device`)
+                The device where peer_weight should be stored. </verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_neuron/text/neuron_utilities.py" line="25" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_neuron/text/neuron_utilities.py" bodystart="25" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="neuron__utilities_8py_1a58c211fb801b746f4469701eb6eaddc3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._neuron.text.neuron_utilities.jacobian</definition>
+        <argsstring>(y, x, create_graph=False, hessian=False)</argsstring>
+        <name>jacobian</name>
+        <qualifiedname>bittensor._neuron.text.neuron_utilities.jacobian</qualifiedname>
+        <param>
+          <type>y</type>
+          <defname>y</defname>
+        </param>
+        <param>
+          <type>x</type>
+          <defname>x</defname>
+        </param>
+        <param>
+          <type>create_graph</type>
+          <defname>create_graph</defname>
+          <defval>False</defval>
+        </param>
+        <param>
+          <type>hessian</type>
+          <defname>hessian</defname>
+          <defval>False</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Calulates the Jacobian from the inputs; adapted from : https://gist.github.com/apaszke/226abdf867c4e9d6698bd198f3b45fb7
+    Args:
+        y  (:type:`pytorch.FloatTensor`, `required`):
+            The loss function
+        x  (:type:`pytorch.FloatTensor`, `required`):
+            The parameters to differentiate loss by
+        create_graph  (:type:`bool`, `optional`):
+            If we should pass parameter to grad function
+        hessian (:type:`bool`, `optional`):
+            turn on if the calculation is for a hessian instead of jacobian
+
+    Returns:
+        jacobian (:type:`pytorch.FloatTensor``, `required):
+            The jacobian matrix which contains the partial differentials </verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_neuron/text/neuron_utilities.py" line="49" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_neuron/text/neuron_utilities.py" bodystart="49" bodyend="85"/>
+      </memberdef>
+      <memberdef kind="function" id="neuron__utilities_8py_1a580167b80683a83b551547658e49466c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._neuron.text.neuron_utilities.fisher_score_approximation</definition>
+        <argsstring>(loss, peer_weights)</argsstring>
+        <name>fisher_score_approximation</name>
+        <qualifiedname>bittensor._neuron.text.neuron_utilities.fisher_score_approximation</qualifiedname>
+        <param>
+          <type>loss</type>
+          <defname>loss</defname>
+        </param>
+        <param>
+          <type>peer_weights</type>
+          <defname>peer_weights</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Uses the jacobian function to approximate the saliency scores, currently not used
+
+    Args:
+        loss  (:type:`pytorch.Loss`, `required`):
+            The remote target loss 
+        peer_weights  (:type:`pytorch.FloatTensor`, `required`):
+            The peer weights which was used to calculate the loss
+
+    Returns:
+        validator_scores (:type:`pytorch.FloatTensor``, `required):
+            A saliency score that approximates the fisher information of each peer</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_neuron/text/neuron_utilities.py" line="86" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_neuron/text/neuron_utilities.py" bodystart="86" bodyend="109"/>
+      </memberdef>
+      <memberdef kind="function" id="neuron__utilities_8py_1a241c5581ff7794ab19d861d1a27759c2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._neuron.text.neuron_utilities.joining_context</definition>
+        <argsstring>(return_ops, topk_weights, responses, synapses)</argsstring>
+        <name>joining_context</name>
+        <qualifiedname>bittensor._neuron.text.neuron_utilities.joining_context</qualifiedname>
+        <param>
+          <type>return_ops</type>
+          <defname>return_ops</defname>
+        </param>
+        <param>
+          <type>topk_weights</type>
+          <defname>topk_weights</defname>
+        </param>
+        <param>
+          <type>responses</type>
+          <defname>responses</defname>
+        </param>
+        <param>
+          <type>synapses</type>
+          <defname>synapses</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Joins response embbedings depending on the return codes 
+    Args:
+        return_ops  (:type:`pytorch.LongTensor`, `required`), shape = [n]:
+            The return codes of dendrite call return ops.
+        topk_weights  (:type:`pytorch.FloatTensor`, `required`), shape = [n]:
+            The topk weights selected for joining
+        responses  (:type:`pytorch.FloatTensor`, `required`), shape = [n]:
+            The embeddings that sent by the peers
+
+    Returns:
+        output (:type:`pytorch.FloatTensor``, `required), shape = [n]:
+            The joinned output embedding using the weights
+        joining_uids  (:type:`pytorch.LongTensor`, `required`), shape = [n]:
+            The uids used to create output</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_neuron/text/neuron_utilities.py" line="110" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_neuron/text/neuron_utilities.py" bodystart="110" bodyend="142"/>
+      </memberdef>
+      <memberdef kind="function" id="neuron__utilities_8py_1a55d54a5c879af8998d5a94af50343478" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._neuron.text.neuron_utilities.partial_contexts</definition>
+        <argsstring>(return_ops, topk_uids, topk_weights, responses, synapses)</argsstring>
+        <name>partial_contexts</name>
+        <qualifiedname>bittensor._neuron.text.neuron_utilities.partial_contexts</qualifiedname>
+        <param>
+          <type>return_ops</type>
+          <defname>return_ops</defname>
+        </param>
+        <param>
+          <type>topk_uids</type>
+          <defname>topk_uids</defname>
+        </param>
+        <param>
+          <type>topk_weights</type>
+          <defname>topk_weights</defname>
+        </param>
+        <param>
+          <type>responses</type>
+          <defname>responses</defname>
+        </param>
+        <param>
+          <type>synapses</type>
+          <defname>synapses</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Creates the partial contexts which are used to calculate the shapley scores 
+
+    Args:
+        return_ops  (:type:`pytorch.LongTensor`, `required`), shape = [n]:
+            The return codes of dendrite call return ops.
+        topk_uids (:type:`pytorch.LongTensor`, `required`), shape = [n]:
+            The topk uids selected for joining                
+        topk_weights  (:type:`pytorch.FloatTensor`, `required`), shape = [n]:
+            The topk weights selected for joining
+        responses  (:type:`pytorch.FloatTensor`, `required`), shape = [n]:
+            The embeddings that sent by the peers
+
+    Returns:
+        partial_context (:type:`Dictionary``, `required):
+            A dict containing all of joinned contexts with a single peer masked out </verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_neuron/text/neuron_utilities.py" line="143" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_neuron/text/neuron_utilities.py" bodystart="143" bodyend="172"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">from</highlight><highlight class="normal"><sp/>numpy<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>zeros_like</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>bittensor</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>threading</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>time</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>math</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>torch</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/><ref refid="namespacetorch_1_1nn" kindref="compound">torch.nn</ref><sp/></highlight><highlight class="keyword">as</highlight><highlight class="normal"><sp/>nn</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>torch.nn.functional<sp/></highlight><highlight class="keyword">as</highlight><highlight class="normal"><sp/>F</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/>concurrent.futures<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>Future</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>queue</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/>threading<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>Thread</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/>concurrent.futures<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>ThreadPoolExecutor</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/>copy<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>deepcopy</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal">calc_loss_fct(loss_fct,<sp/>logits,<sp/>labels):</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">r&quot;&quot;&quot;<sp/>Calculates<sp/>self.loss_fct<sp/>with<sp/>logits<sp/>and<sp/>labels<sp/>that<sp/>are<sp/>expected<sp/>to<sp/>be<sp/>aligned<sp/>already.</highlight></codeline>
+<codeline lineno="18"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>&quot;&quot;&quot;</highlight></codeline>
+<codeline lineno="19"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>_logits<sp/>=<sp/>logits.contiguous()</highlight></codeline>
+<codeline lineno="20"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>_labels<sp/>=<sp/>labels.contiguous()</highlight></codeline>
+<codeline lineno="21"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>loss<sp/>=<sp/>loss_fct(_logits.view(-1,<sp/>_logits.size(-1)),<sp/>_labels.view(-1))</highlight></codeline>
+<codeline lineno="22"><highlight class="stringliteral"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>loss</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal">update_metagraph_peerweight(metagraph,<sp/>nucleus,<sp/>device):</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">r&quot;&quot;&quot;</highlight></codeline>
+<codeline lineno="27"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>Check<sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>the<sp/>change<sp/></highlight><highlight class="keywordflow">in</highlight><highlight class="normal"><sp/>hotkey<sp/>before<sp/></highlight><highlight class="keywordflow">and</highlight><highlight class="normal"><sp/>after<sp/>metagraph<sp/>sync,<sp/></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/>update<sp/>the<sp/>peer_weight<sp/>of<sp/>nucleus<sp/>accordingingly.</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Args:</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>metagraph<sp/>(:obj:`<ref refid="classbittensor_1_1__metagraph_1_1metagraph" kindref="compound">bittensor.metagraph</ref>`,<sp/>`required`):</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>The<sp/>metagraph<sp/>to<sp/>sync.</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>nucleus<sp/>(:obj:`bittensor.neuron.text.nucleus`,<sp/>`required`):</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>The<sp/>nn.Module<sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">that<sp/>needs<sp/>the<sp/>peerweight<sp/>to<sp/>be<sp/>updated.</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>device<sp/>(:type:`torch.device`)</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>The<sp/>device<sp/>where<sp/>peer_weight<sp/>should<sp/>be<sp/>stored.<sp/></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;&quot;&quot;<sp/></highlight></codeline>
+<codeline lineno="37"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>old_hotkeys<sp/>=<sp/>metagraph.hotkeys</highlight></codeline>
+<codeline lineno="38"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>metagraph.sync()</highlight></codeline>
+<codeline lineno="39"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>new_hotkeys<sp/>=<sp/>metagraph.hotkeys</highlight></codeline>
+<codeline lineno="40"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>peer_weight_mean<sp/>=<sp/>torch.mean(nucleus.peer_weights)</highlight></codeline>
+<codeline lineno="41"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>chain_growth<sp/>=<sp/>max(metagraph.n.item()<sp/>-<sp/>nucleus.peer_weights.shape[0],<sp/>0)</highlight></codeline>
+<codeline lineno="42"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>nucleus.peer_weights<sp/>=<sp/>nn.Parameter(torch.cat([nucleus.peer_weights,<sp/>torch.ones([chain_growth],dtype=torch.float32,requires_grad=</highlight><highlight class="keyword">True</highlight><highlight class="normal">).to(device)]))</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>i,<sp/>(old_hotkey,<sp/>new_hotkey)<sp/></highlight><highlight class="keywordflow">in</highlight><highlight class="normal"><sp/>enumerate(zip(old_hotkeys,<sp/>new_hotkeys)):</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>old_hotkey<sp/>!=<sp/>new_hotkey:</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">with</highlight><highlight class="normal"><sp/>torch.no_grad():</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>nucleus.peer_weights[i]<sp/>=<sp/>peer_weight_mean</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal">jacobian(y,<sp/>x,<sp/>create_graph=False,hessian<sp/>=False):<sp/></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;&quot;&quot;</highlight></codeline>
+<codeline lineno="52"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>Calulates<sp/>the<sp/>Jacobian<sp/></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/>the<sp/>inputs;<sp/>adapted<sp/></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/>:<sp/>https://gist.github.com/apaszke/226abdf867c4e9d6698bd198f3b45fb7</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Args:</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>y<sp/><sp/>(:type:`pytorch.FloatTensor`,<sp/>`required`):</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>The<sp/>loss<sp/>function</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>x<sp/><sp/>(:type:`pytorch.FloatTensor`,<sp/>`required`):</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>The<sp/>parameters<sp/>to<sp/>differentiate<sp/>loss<sp/>by</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>create_graph<sp/><sp/>(:type:`bool`,<sp/>`optional`):</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>If<sp/>we<sp/>should<sp/></highlight><highlight class="keywordflow">pass</highlight><highlight class="normal"><sp/>parameter<sp/>to<sp/>grad<sp/>function</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>hessian<sp/>(:type:`bool`,<sp/>`optional`):</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>turn<sp/>on<sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>the<sp/>calculation<sp/></highlight><highlight class="keywordflow">is</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>a<sp/>hessian<sp/>instead<sp/>of<sp/>jacobian</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Returns:</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>jacobian<sp/>(:type:`pytorch.FloatTensor``,<sp/>`required):</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>The<sp/>jacobian<sp/>matrix<sp/>which<sp/>contains<sp/>the<sp/>partial<sp/>differentials<sp/></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;&quot;&quot;</highlight></codeline>
+<codeline lineno="68"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>jac<sp/>=<sp/>[]<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="69"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>flat_y<sp/>=<sp/>y.reshape(-1)<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="70"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>grad_y<sp/>=<sp/>torch.zeros_like(flat_y)</highlight></codeline>
+<codeline lineno="71"><highlight class="stringliteral"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>i<sp/></highlight><highlight class="keywordflow">in</highlight><highlight class="normal"><sp/>range(len(flat_y)):<sp/></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>hessian<sp/>==</highlight><highlight class="keyword">True</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">and</highlight><highlight class="normal"><sp/>flat_y[i].item()<sp/>==<sp/>0:</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>grad_x<sp/>=<sp/>torch.zeros_like(x)</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>jac.append(grad_x.reshape(x.shape))<sp/></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">pass</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>grad_y[i]<sp/>=<sp/>1.</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">try</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>grad_x,<sp/>=<sp/>torch.autograd.grad(flat_y,<sp/>x,<sp/>grad_y,<sp/>retain_graph=</highlight><highlight class="keyword">True</highlight><highlight class="normal">,<sp/>create_graph=create_graph)</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">except</highlight><highlight class="normal"><sp/>Exception<sp/></highlight><highlight class="keyword">as</highlight><highlight class="normal"><sp/>e:</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>torch.zeros(y.shape<sp/>+<sp/>x.shape)</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>jac.append(grad_x.reshape(x.shape))<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>grad_y[i]<sp/>=<sp/>0.<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>torch.stack(jac).reshape(y.shape<sp/>+<sp/>x.shape)<sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal">fisher_score_approximation(loss,<sp/>peer_weights,<sp/>):</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;&quot;&quot;</highlight></codeline>
+<codeline lineno="88"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>Uses<sp/>the<sp/>jacobian<sp/>function<sp/>to<sp/>approximate<sp/>the<sp/>saliency<sp/>scores,<sp/>currently<sp/></highlight><highlight class="keywordflow">not</highlight><highlight class="normal"><sp/>used</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Args:</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>loss<sp/><sp/>(:type:`pytorch.Loss`,<sp/>`required`):</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>The<sp/>remote<sp/>target<sp/>loss<sp/></highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>peer_weights<sp/><sp/>(:type:`pytorch.FloatTensor`,<sp/>`required`):</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>The<sp/>peer<sp/>weights<sp/>which<sp/>was<sp/>used<sp/>to<sp/>calculate<sp/>the<sp/>loss</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Returns:</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>validator_scores<sp/>(:type:`pytorch.FloatTensor``,<sp/>`required):</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>A<sp/>saliency<sp/>score<sp/>that<sp/>approximates<sp/>the<sp/>fisher<sp/>information<sp/>of<sp/>each<sp/>peer</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;&quot;&quot;</highlight></codeline>
+<codeline lineno="102"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>peer_weights_d1<sp/>=<sp/>jacobian(loss,<sp/>peer_weights,<sp/>create_graph=</highlight><highlight class="keyword">True</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>peer_weights_d1<sp/>==<sp/></highlight><highlight class="keywordtype">None</highlight><highlight class="normal">:<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>torch.ones_like(<sp/>peer_weights<sp/>)<sp/></highlight><highlight class="comment">#<sp/>None<sp/>if<sp/>no<sp/>grad<sp/>w.r.t<sp/>the<sp/>chain<sp/>weights.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/>peer_weights_d2<sp/>=<sp/>jacobian(peer_weights_d1,<sp/>peer_weights,<sp/>hessian=</highlight><highlight class="keyword">True</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/>second_order<sp/>=<sp/>(peer_weights_d2.detach()<sp/>*<sp/>(torch.outer(-peer_weights.detach(),-peer_weights.detach()))/2<sp/>).sum(dim=1)</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/>first_order<sp/>=<sp/>(peer_weights_d1.detach()*<sp/>-peer_weights.detach())</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/>validator_scores<sp/>=<sp/><sp/>second_order<sp/>+<sp/>first_order</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>validator_scores</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight></codeline>
+<codeline lineno="110"><highlight class="normal"></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal">joining_context(return_ops,<sp/>topk_weights,<sp/>responses,<sp/>synapses):</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;&quot;&quot;</highlight></codeline>
+<codeline lineno="112"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>Joins<sp/>response<sp/>embbedings<sp/>depending<sp/>on<sp/>the<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>codes<sp/></highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Args:</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>return_ops<sp/><sp/>(:type:`pytorch.LongTensor`,<sp/>`required`),<sp/>shape<sp/>=<sp/>[n]:</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>The<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>codes<sp/>of<sp/>dendrite<sp/>call<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>ops.</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>topk_weights<sp/><sp/>(:type:`pytorch.FloatTensor`,<sp/>`required`),<sp/>shape<sp/>=<sp/>[n]:</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>The<sp/>topk<sp/>weights<sp/>selected<sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>joining</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>responses<sp/><sp/>(:type:`pytorch.FloatTensor`,<sp/>`required`),<sp/>shape<sp/>=<sp/>[n]:</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>The<sp/>embeddings<sp/>that<sp/>sent<sp/>by<sp/>the<sp/>peers</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"></highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Returns:</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>output<sp/>(:type:`pytorch.FloatTensor``,<sp/>`required),<sp/>shape<sp/>=<sp/>[n]:</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>The<sp/>joinned<sp/>output<sp/>embedding<sp/>using<sp/>the<sp/>weights</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>joining_uids<sp/><sp/>(:type:`pytorch.LongTensor`,<sp/>`required`),<sp/>shape<sp/>=<sp/>[n]:</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>The<sp/>uids<sp/>used<sp/>to<sp/>create<sp/>output</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;&quot;&quot;</highlight></codeline>
+<codeline lineno="128"><highlight class="stringliteral"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">#<sp/>TODO<sp/>:<sp/>Test<sp/>for<sp/>different<sp/>modalities<sp/>(currently<sp/>works<sp/>for<sp/>casuallm)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/>codes<sp/>=<sp/>torch.stack(return_ops)</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/>outputs<sp/>=<sp/>[]</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>index_s,<sp/>synapse<sp/></highlight><highlight class="keywordflow">in</highlight><highlight class="normal"><sp/>enumerate(synapses):</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>joining_uids=<sp/>torch.where(<sp/>codes[:,index_s]<sp/>==<sp/>bittensor.proto.ReturnCode.Success<sp/>)[0]</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>joining_weights<sp/>=<sp/>F.softmax(<sp/>topk_weights[(codes[:,index_s]<sp/>==<sp/>bittensor.proto.ReturnCode.Success)],<sp/>dim<sp/>=<sp/>0<sp/>)<sp/></highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>len(joining_uids)<sp/>!=<sp/>0:</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>output<sp/>=<sp/>torch.zeros_like(responses[joining_uids[0]][index_s]<sp/>)</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>index,<sp/>joining_weight<sp/></highlight><highlight class="keywordflow">in</highlight><highlight class="normal"><sp/>enumerate(<sp/>joining_weights<sp/>):</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>output<sp/>+=<sp/>responses[joining_uids[index]][index_s]*<sp/>joining_weight</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>outputs.append(output)</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>outputs.append([])</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>outputs,<sp/>joining_uids</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"></highlight></codeline>
+<codeline lineno="143"><highlight class="normal"></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal">partial_contexts(return_ops,<sp/>topk_uids,<sp/>topk_weights,<sp/>responses,<sp/>synapses):</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;&quot;&quot;</highlight></codeline>
+<codeline lineno="145"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>Creates<sp/>the<sp/>partial<sp/>contexts<sp/>which<sp/>are<sp/>used<sp/>to<sp/>calculate<sp/>the<sp/>shapley<sp/>scores<sp/></highlight></codeline>
+<codeline lineno="146"><highlight class="stringliteral"></highlight></codeline>
+<codeline lineno="147"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Args:</highlight></codeline>
+<codeline lineno="148"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>return_ops<sp/><sp/>(:type:`pytorch.LongTensor`,<sp/>`required`),<sp/>shape<sp/>=<sp/>[n]:</highlight></codeline>
+<codeline lineno="149"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>The<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>codes<sp/>of<sp/>dendrite<sp/>call<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>ops.</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>topk_uids<sp/>(:type:`pytorch.LongTensor`,<sp/>`required`),<sp/>shape<sp/>=<sp/>[n]:</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>The<sp/>topk<sp/>uids<sp/>selected<sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>joining<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>topk_weights<sp/><sp/>(:type:`pytorch.FloatTensor`,<sp/>`required`),<sp/>shape<sp/>=<sp/>[n]:</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>The<sp/>topk<sp/>weights<sp/>selected<sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>joining</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>responses<sp/><sp/>(:type:`pytorch.FloatTensor`,<sp/>`required`),<sp/>shape<sp/>=<sp/>[n]:</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>The<sp/>embeddings<sp/>that<sp/>sent<sp/>by<sp/>the<sp/>peers</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"></highlight></codeline>
+<codeline lineno="157"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Returns:</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>partial_context<sp/>(:type:`Dictionary``,<sp/>`required):</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>A<sp/>dict<sp/>containing<sp/>all<sp/>of<sp/>joinned<sp/>contexts<sp/></highlight><highlight class="keyword">with</highlight><highlight class="normal"><sp/>a<sp/>single<sp/>peer<sp/>masked<sp/>out<sp/></highlight></codeline>
+<codeline lineno="160"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;&quot;&quot;</highlight></codeline>
+<codeline lineno="162"><highlight class="stringliteral"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">#<sp/>TODO<sp/>:<sp/>Test<sp/>for<sp/>different<sp/>modalities<sp/>(currently<sp/>works<sp/>for<sp/>casuallm)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/><sp/><sp/><sp/>partial_context<sp/>=<sp/>{}</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">with</highlight><highlight class="normal"><sp/>torch.no_grad():</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>i,<sp/>uid<sp/></highlight><highlight class="keywordflow">in</highlight><highlight class="normal"><sp/>enumerate(topk_uids):</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>partial_return_ops<sp/>=<sp/>deepcopy(return_ops)</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">#<sp/>---<sp/>Only<sp/>mask<sp/>peers<sp/>that<sp/>successfully</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="168"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>partial_return_ops[i][<sp/>partial_return_ops[i]<sp/>==<sp/>bittensor.proto.ReturnCode.Success<sp/>]<sp/>=<sp/>bittensor.proto.ReturnCode.NoReturn</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"></highlight></codeline>
+<codeline lineno="170"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>partial_context[uid.item()],<sp/>_<sp/>=<sp/>joining_context(partial_return_ops,<sp/>topk_weights,<sp/>responses,<sp/>synapses)</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>partial_context</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="173" refid="classbittensor_1_1__neuron_1_1text_1_1neuron__utilities_1_1_thread_queue" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classbittensor_1_1__neuron_1_1text_1_1neuron__utilities_1_1_thread_queue" kindref="compound">ThreadQueue</ref>(threading.Thread):</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">r&quot;&quot;&quot;<sp/>This<sp/>producer<sp/>thread<sp/>runs<sp/>in<sp/>backgraound<sp/>to<sp/>fill<sp/>the<sp/>queue<sp/>with<sp/>the<sp/>result<sp/>of<sp/>the<sp/>target<sp/>function.</highlight></codeline>
+<codeline lineno="175"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>&quot;&quot;&quot;</highlight></codeline>
+<codeline lineno="176"><highlight class="stringliteral"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="classbittensor_1_1__neuron_1_1text_1_1neuron__utilities_1_1_thread_queue_1a53f22b9f68c15921019b0a8862134ee9" kindref="member">__init__</ref>(self,<sp/>num_jobs,<sp/>target=None):</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">r&quot;&quot;&quot;Initialization.</highlight></codeline>
+<codeline lineno="178"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Args:</highlight></codeline>
+<codeline lineno="179"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>queue<sp/>(:obj:`queue.Queue`,<sp/>`required`)</highlight></codeline>
+<codeline lineno="180"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>The<sp/>queue<sp/>to<sp/>be<sp/>filled.</highlight></codeline>
+<codeline lineno="181"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="182"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>target<sp/>(:obj:`function`,<sp/>`required`)</highlight></codeline>
+<codeline lineno="183"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>The<sp/>target<sp/>function<sp/>to<sp/>run<sp/>when<sp/>the<sp/>queue<sp/></highlight><highlight class="keywordflow">is</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">not</highlight><highlight class="normal"><sp/>full.</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"></highlight></codeline>
+<codeline lineno="185"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>arg<sp/>(:type:`tuple`,<sp/>`required`)</highlight></codeline>
+<codeline lineno="186"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>The<sp/>arguments<sp/>to<sp/>be<sp/>passed<sp/>to<sp/>the<sp/>target<sp/>function.</highlight></codeline>
+<codeline lineno="187"><highlight class="normal"></highlight></codeline>
+<codeline lineno="188"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>name<sp/>(:type:`str`,<sp/>`optional`)</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>The<sp/>name<sp/>of<sp/>this<sp/>threading<sp/>object.<sp/></highlight></codeline>
+<codeline lineno="190"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;&quot;&quot;</highlight></codeline>
+<codeline lineno="191"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>super(ThreadQueue,self).<ref refid="classbittensor_1_1__neuron_1_1text_1_1neuron__utilities_1_1_thread_queue_1a53f22b9f68c15921019b0a8862134ee9" kindref="member">__init__</ref>()</highlight></codeline>
+<codeline lineno="192"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.<ref refid="classbittensor_1_1__neuron_1_1text_1_1neuron__utilities_1_1_thread_queue_1adff1523b57b9dee58a4cde0bb1981899" kindref="member">target</ref><sp/>=<sp/>target</highlight></codeline>
+<codeline lineno="193"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.<ref refid="classbittensor_1_1__neuron_1_1text_1_1neuron__utilities_1_1_thread_queue_1ac8dcd8b497220468ef9738168b98de12" kindref="member">num_jobs</ref><sp/>=<sp/>num_jobs</highlight></codeline>
+<codeline lineno="194"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.<ref refid="classbittensor_1_1__neuron_1_1text_1_1neuron__utilities_1_1_thread_queue_1a5769483c78c8a1d9e345de7c9f7951ba" kindref="member">queue</ref><sp/>=<sp/>queue.Queue(1)</highlight></codeline>
+<codeline lineno="195"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.<ref refid="classbittensor_1_1__neuron_1_1text_1_1neuron__utilities_1_1_thread_queue_1a54cd5d9ddf187a035a4cb821f75c4be8" kindref="member">finished_job_count</ref><sp/>=<sp/>0</highlight></codeline>
+<codeline lineno="196"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.<ref refid="classbittensor_1_1__neuron_1_1text_1_1neuron__utilities_1_1_thread_queue_1a96823da913e5fcd822b1608d670ce1b6" kindref="member">_pause_event</ref><sp/>=<sp/>threading.Event()</highlight></codeline>
+<codeline lineno="197"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.<ref refid="classbittensor_1_1__neuron_1_1text_1_1neuron__utilities_1_1_thread_queue_1a5691a1d2078ae9502bc2ac06682c0128" kindref="member">_stop_event</ref><sp/>=<sp/>threading.Event()</highlight></codeline>
+<codeline lineno="198"><highlight class="stringliteral"></highlight></codeline>
+<codeline lineno="199"><highlight class="stringliteral"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="classbittensor_1_1__neuron_1_1text_1_1neuron__utilities_1_1_thread_queue_1a4865e1e836d7de13ac12fd47ad3984ae" kindref="member">run</ref>(self):</highlight></codeline>
+<codeline lineno="200"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">r&quot;&quot;&quot;<sp/>Once<sp/>this<sp/>thread<sp/>object<sp/>start(),<sp/></highlight></codeline>
+<codeline lineno="201"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>run<sp/>the<sp/>following<sp/>which<sp/>kick<sp/>start<sp/>multiple<sp/>target<sp/>functions,</highlight></codeline>
+<codeline lineno="202"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>the<sp/>results<sp/>of<sp/>the<sp/>target<sp/>function<sp/>would<sp/>be<sp/>punt<sp/>into<sp/>the<sp/>queue.<sp/></highlight></codeline>
+<codeline lineno="203"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&quot;&quot;&quot;</highlight></codeline>
+<codeline lineno="204"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">True</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">and</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">not</highlight><highlight class="normal"><sp/>self.<ref refid="classbittensor_1_1__neuron_1_1text_1_1neuron__utilities_1_1_thread_queue_1ac5422175d489417272b881e1e05a5a68" kindref="member">stopped</ref>():</highlight></codeline>
+<codeline lineno="205"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(self.<ref refid="classbittensor_1_1__neuron_1_1text_1_1neuron__utilities_1_1_thread_queue_1a54cd5d9ddf187a035a4cb821f75c4be8" kindref="member">finished_job_count</ref><sp/>&lt;<sp/>self.<ref refid="classbittensor_1_1__neuron_1_1text_1_1neuron__utilities_1_1_thread_queue_1ac8dcd8b497220468ef9738168b98de12" kindref="member">num_jobs</ref>)<sp/></highlight><highlight class="keywordflow">and</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordflow">not</highlight><highlight class="normal"><sp/>self.<ref refid="classbittensor_1_1__neuron_1_1text_1_1neuron__utilities_1_1_thread_queue_1a5769483c78c8a1d9e345de7c9f7951ba" kindref="member">queue</ref>.full())<sp/></highlight><highlight class="keywordflow">and</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordflow">not</highlight><highlight class="normal"><sp/>self.<ref refid="classbittensor_1_1__neuron_1_1text_1_1neuron__utilities_1_1_thread_queue_1a6aa7f09a606c83dac9cd98354344668f" kindref="member">paused</ref>()):</highlight></codeline>
+<codeline lineno="206"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>item<sp/>=<sp/>self.<ref refid="classbittensor_1_1__neuron_1_1text_1_1neuron__utilities_1_1_thread_queue_1adff1523b57b9dee58a4cde0bb1981899" kindref="member">target</ref>()</highlight></codeline>
+<codeline lineno="207"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.<ref refid="classbittensor_1_1__neuron_1_1text_1_1neuron__utilities_1_1_thread_queue_1a5769483c78c8a1d9e345de7c9f7951ba" kindref="member">queue</ref>.put(item)</highlight></codeline>
+<codeline lineno="208"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.<ref refid="classbittensor_1_1__neuron_1_1text_1_1neuron__utilities_1_1_thread_queue_1a54cd5d9ddf187a035a4cb821f75c4be8" kindref="member">finished_job_count</ref><sp/>+=<sp/>1</highlight></codeline>
+<codeline lineno="209"><highlight class="normal"></highlight></codeline>
+<codeline lineno="210"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(self.<ref refid="classbittensor_1_1__neuron_1_1text_1_1neuron__utilities_1_1_thread_queue_1a54cd5d9ddf187a035a4cb821f75c4be8" kindref="member">finished_job_count</ref><sp/>&gt;=<sp/>self.<ref refid="classbittensor_1_1__neuron_1_1text_1_1neuron__utilities_1_1_thread_queue_1ac8dcd8b497220468ef9738168b98de12" kindref="member">num_jobs</ref>):</highlight></codeline>
+<codeline lineno="211"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.<ref refid="classbittensor_1_1__neuron_1_1text_1_1neuron__utilities_1_1_thread_queue_1a54cd5d9ddf187a035a4cb821f75c4be8" kindref="member">finished_job_count</ref><sp/>=<sp/>0</highlight></codeline>
+<codeline lineno="212"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.<ref refid="classbittensor_1_1__neuron_1_1text_1_1neuron__utilities_1_1_thread_queue_1a329139bb27cfb9796e718534c48b0783" kindref="member">pause</ref>()</highlight></codeline>
+<codeline lineno="213"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>time.sleep(1)</highlight></codeline>
+<codeline lineno="214"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="215"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="216"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal">resume(self):</highlight></codeline>
+<codeline lineno="217"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.<ref refid="classbittensor_1_1__neuron_1_1text_1_1neuron__utilities_1_1_thread_queue_1a96823da913e5fcd822b1608d670ce1b6" kindref="member">_pause_event</ref>.clear()</highlight></codeline>
+<codeline lineno="218"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="219"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal">pause(self):</highlight></codeline>
+<codeline lineno="220"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.<ref refid="classbittensor_1_1__neuron_1_1text_1_1neuron__utilities_1_1_thread_queue_1a96823da913e5fcd822b1608d670ce1b6" kindref="member">_pause_event</ref>.set()</highlight></codeline>
+<codeline lineno="221"><highlight class="normal"></highlight></codeline>
+<codeline lineno="222"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal">paused(self):</highlight></codeline>
+<codeline lineno="223"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>self.<ref refid="classbittensor_1_1__neuron_1_1text_1_1neuron__utilities_1_1_thread_queue_1a96823da913e5fcd822b1608d670ce1b6" kindref="member">_pause_event</ref>.is_set()</highlight></codeline>
+<codeline lineno="224"><highlight class="normal"></highlight></codeline>
+<codeline lineno="225"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal">stop(self):</highlight></codeline>
+<codeline lineno="226"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.<ref refid="classbittensor_1_1__neuron_1_1text_1_1neuron__utilities_1_1_thread_queue_1a5691a1d2078ae9502bc2ac06682c0128" kindref="member">_stop_event</ref>.set()</highlight></codeline>
+<codeline lineno="227"><highlight class="normal"></highlight></codeline>
+<codeline lineno="228"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal">stopped(self):</highlight></codeline>
+<codeline lineno="229"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>self.<ref refid="classbittensor_1_1__neuron_1_1text_1_1neuron__utilities_1_1_thread_queue_1a5691a1d2078ae9502bc2ac06682c0128" kindref="member">_stop_event</ref>.is_set()</highlight></codeline>
+<codeline lineno="230"><highlight class="normal"></highlight></codeline>
+<codeline lineno="231"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal">is_empty(self):</highlight></codeline>
+<codeline lineno="232"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>self.<ref refid="classbittensor_1_1__neuron_1_1text_1_1neuron__utilities_1_1_thread_queue_1a5769483c78c8a1d9e345de7c9f7951ba" kindref="member">queue</ref>.empty()</highlight></codeline>
+<codeline lineno="233"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="234"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal">get(self):</highlight></codeline>
+<codeline lineno="235"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>self.<ref refid="classbittensor_1_1__neuron_1_1text_1_1neuron__utilities_1_1_thread_queue_1a5769483c78c8a1d9e345de7c9f7951ba" kindref="member">queue</ref>.get()</highlight></codeline>
+<codeline lineno="236"><highlight class="normal"></highlight></codeline>
+<codeline lineno="237"><highlight class="normal"></highlight></codeline>
+<codeline lineno="238" refid="classbittensor_1_1__neuron_1_1text_1_1neuron__utilities_1_1_positional_encoding" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classbittensor_1_1__neuron_1_1text_1_1neuron__utilities_1_1_positional_encoding" kindref="compound">PositionalEncoding</ref>(nn.Module):</highlight></codeline>
+<codeline lineno="239"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">r&quot;&quot;&quot;<sp/>Positional<sp/>Encoder<sp/>which<sp/>adds<sp/>information<sp/>based<sp/>on<sp/>the<sp/>relative<sp/>position<sp/>of<sp/>each<sp/>token</highlight></codeline>
+<codeline lineno="240"><highlight class="stringliteral"></highlight></codeline>
+<codeline lineno="241"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>&quot;&quot;&quot;</highlight></codeline>
+<codeline lineno="242"><highlight class="stringliteral"></highlight></codeline>
+<codeline lineno="243"><highlight class="stringliteral"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal">__init__(self,<sp/>d_model:<sp/>int,<sp/>dropout:<sp/>float,<sp/>max_len:<sp/>int<sp/>=<sp/>5000):</highlight></codeline>
+<codeline lineno="244"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>super().__init__()</highlight></codeline>
+<codeline lineno="245"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.<ref refid="classbittensor_1_1__neuron_1_1text_1_1neuron__utilities_1_1_positional_encoding_1afacd520accf25ed2784b2280ba616a56" kindref="member">dropout</ref><sp/>=<sp/>nn.Dropout(p=dropout)</highlight></codeline>
+<codeline lineno="246"><highlight class="normal"></highlight></codeline>
+<codeline lineno="247"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>position<sp/>=<sp/>torch.arange(max_len).unsqueeze(1)</highlight></codeline>
+<codeline lineno="248"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>div_term<sp/>=<sp/>torch.exp(torch.arange(0,<sp/>d_model,<sp/>2)<sp/>*<sp/>(-math.log(10000.0)<sp/>/<sp/>d_model))</highlight></codeline>
+<codeline lineno="249"><highlight class="normal"></highlight></codeline>
+<codeline lineno="250"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">#<sp/>===<sp/>Create<sp/>position<sp/>matrix<sp/>===</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="251"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">#<sp/>Creates<sp/>a<sp/>positional<sp/>matrix<sp/>with<sp/>alternating<sp/>frequencies</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="252"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">#<sp/>pe:<sp/>(torch.FloatTensor)<sp/>positional<sp/>encoding<sp/>matrix</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="253"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">#<sp/>pe.shape:<sp/>[1,<sp/>max_len,<sp/>network_dim]</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="254"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pe<sp/>=<sp/>torch.zeros(1,<sp/>max_len,<sp/>d_model)</highlight></codeline>
+<codeline lineno="255"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pe[0,<sp/>:,<sp/>0::2]<sp/>=<sp/>torch.sin(position<sp/>*<sp/>div_term)</highlight></codeline>
+<codeline lineno="256"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pe[0,<sp/>:,<sp/>1::2]<sp/>=<sp/>torch.cos(position<sp/>*<sp/>div_term)</highlight></codeline>
+<codeline lineno="257"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.register_buffer(</highlight><highlight class="stringliteral">&apos;pe&apos;</highlight><highlight class="normal">,<sp/>pe)</highlight></codeline>
+<codeline lineno="258"><highlight class="normal"></highlight></codeline>
+<codeline lineno="259"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="classbittensor_1_1__neuron_1_1text_1_1neuron__utilities_1_1_positional_encoding_1a16c93217e92b3dab4da67e9c778ab118" kindref="member">forward</ref>(self,<sp/>x:<sp/>torch.tensor)<sp/>-&gt;<sp/>torch.tensor:</highlight></codeline>
+<codeline lineno="260"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;&quot;&quot;</highlight></codeline>
+<codeline lineno="261"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Args:</highlight></codeline>
+<codeline lineno="262"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>x:<sp/>Tensor,<sp/>shape<sp/>[batch_size,<sp/>seq_len,<sp/>embedding_dim]</highlight></codeline>
+<codeline lineno="263"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&quot;&quot;&quot;</highlight></codeline>
+<codeline lineno="264"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">#<sp/>===<sp/>Positional<sp/>Encoding<sp/>===</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="265"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">#<sp/>Inject<sp/>some<sp/>information<sp/>of<sp/>the<sp/>relative<sp/>position<sp/>of<sp/>the<sp/>token<sp/>in<sp/>the<sp/>sequence.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="266"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">#<sp/><sp/>Finally,<sp/>Dropout<sp/>is<sp/>applied<sp/>to<sp/>tokens</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="267"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">#<sp/>x:<sp/>(torch.FloatTensor)<sp/>input<sp/>sequence<sp/>tokens<sp/>with<sp/>position<sp/>information<sp/>injected</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="268"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">#<sp/>x.shape:<sp/>[batch_size,<sp/>seq_len,<sp/>network_dim]</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="269"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>x<sp/>=<sp/>x<sp/>+<sp/>self.pe[0,<sp/>:x.size(1)]</highlight></codeline>
+<codeline lineno="270"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>self.<ref refid="classbittensor_1_1__neuron_1_1text_1_1neuron__utilities_1_1_positional_encoding_1afacd520accf25ed2784b2280ba616a56" kindref="member">dropout</ref>(x)</highlight></codeline>
+    </programlisting>
+    <location file="/Users/macthrasher/bittensor/bittensor/_neuron/text/neuron_utilities.py"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,189 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="classbittensor_1_1__subtensor_1_1subtensor__mock_1_1_mock___subtensor" kind="class" language="Python" prot="public">
+    <compoundname>bittensor::_subtensor::subtensor_mock::Mock_Subtensor</compoundname>
+    <basecompoundref refid="classbittensor_1_1__subtensor_1_1subtensor__impl_1_1_subtensor" prot="public" virt="non-virtual">bittensor._subtensor.subtensor_impl.Subtensor</basecompoundref>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classbittensor_1_1__subtensor_1_1subtensor__mock_1_1_mock___subtensor_1a19f03eaa88ffc0ea7b00a2795ba9213d" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._subtensor.subtensor_mock.Mock_Subtensor::_owned_mock_subtensor_process</definition>
+        <argsstring></argsstring>
+        <name>_owned_mock_subtensor_process</name>
+        <qualifiedname>bittensor._subtensor.subtensor_mock.Mock_Subtensor._owned_mock_subtensor_process</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_subtensor/subtensor_mock.py" line="138" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_subtensor/subtensor_mock.py" bodystart="138" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__subtensor_1_1subtensor__mock_1_1_mock___subtensor_1a3a2ad4de42624a003d6b3ddda92731c3" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._subtensor.subtensor_mock.Mock_Subtensor::_is_mocked</definition>
+        <argsstring></argsstring>
+        <name>_is_mocked</name>
+        <qualifiedname>bittensor._subtensor.subtensor_mock.Mock_Subtensor._is_mocked</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_subtensor/subtensor_mock.py" line="139" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_subtensor/subtensor_mock.py" bodystart="139" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classbittensor_1_1__subtensor_1_1subtensor__mock_1_1_mock___subtensor_1a08ffa4bf8fd61f9ac302f513ede65bf9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._subtensor.subtensor_mock.Mock_Subtensor.__init__</definition>
+        <argsstring>(self, bool _is_mocked, object _owned_mock_subtensor_process, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>bittensor._subtensor.subtensor_mock.Mock_Subtensor.__init__</qualifiedname>
+        <reimplements refid="classbittensor_1_1__subtensor_1_1subtensor__impl_1_1_subtensor_1a4a7d9e6d5e9dae78bfc7c05c2e9baeab">__init__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>_is_mocked</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>_owned_mock_subtensor_process</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Initializes a subtensor chain interface.
+        Args:
+            _owned_mock_subtensor_process (Used for testing):
+                a subprocess where a mock chain is running.</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_subtensor/subtensor_mock.py" line="125" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_subtensor/subtensor_mock.py" bodystart="130" bodyend="142"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__subtensor_1_1subtensor__mock_1_1_mock___subtensor_1a745ebb545639b3f8bc40defc77b37df3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str bittensor._subtensor.subtensor_mock.Mock_Subtensor.__str__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__str__</name>
+        <qualifiedname>bittensor._subtensor.subtensor_mock.Mock_Subtensor.__str__</qualifiedname>
+        <reimplements refid="classbittensor_1_1__subtensor_1_1subtensor__impl_1_1_subtensor_1aea17846b5579f836c0659a24eaf4b903">__str__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_subtensor/subtensor_mock.py" line="143" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_subtensor/subtensor_mock.py" bodystart="143" bodyend="150"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__subtensor_1_1subtensor__mock_1_1_mock___subtensor_1a6495fb0866e8c3effdcb27187fc7f26f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._subtensor.subtensor_mock.Mock_Subtensor.__del__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__del__</name>
+        <qualifiedname>bittensor._subtensor.subtensor_mock.Mock_Subtensor.__del__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_subtensor/subtensor_mock.py" line="151" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_subtensor/subtensor_mock.py" bodystart="151" bodyend="153"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__subtensor_1_1subtensor__mock_1_1_mock___subtensor_1a02e877bf6dcb4ff6eff10f94c2d64372" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._subtensor.subtensor_mock.Mock_Subtensor.__exit__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__exit__</name>
+        <qualifiedname>bittensor._subtensor.subtensor_mock.Mock_Subtensor.__exit__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_subtensor/subtensor_mock.py" line="154" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_subtensor/subtensor_mock.py" bodystart="154" bodyend="156"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__subtensor_1_1subtensor__mock_1_1_mock___subtensor_1aced9b020ecd86025840392eaf57f84d9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._subtensor.subtensor_mock.Mock_Subtensor.optionally_kill_owned_mock_instance</definition>
+        <argsstring>(self)</argsstring>
+        <name>optionally_kill_owned_mock_instance</name>
+        <qualifiedname>bittensor._subtensor.subtensor_mock.Mock_Subtensor.optionally_kill_owned_mock_instance</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> If this subtensor instance owns the mock process, it kills the process.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_subtensor/subtensor_mock.py" line="157" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_subtensor/subtensor_mock.py" bodystart="157" bodyend="170"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Handles interactions with the subtensor chain.
+</verbatim> </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>bittensor._subtensor.subtensor_mock.Mock_Subtensor</label>
+        <link refid="classbittensor_1_1__subtensor_1_1subtensor__mock_1_1_mock___subtensor"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>bittensor._subtensor.subtensor_impl.Subtensor</label>
+        <link refid="classbittensor_1_1__subtensor_1_1subtensor__impl_1_1_subtensor"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>bittensor._subtensor.subtensor_mock.Mock_Subtensor</label>
+        <link refid="classbittensor_1_1__subtensor_1_1subtensor__mock_1_1_mock___subtensor"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>bittensor._subtensor.subtensor_impl.Subtensor</label>
+        <link refid="classbittensor_1_1__subtensor_1_1subtensor__impl_1_1_subtensor"/>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/macthrasher/bittensor/bittensor/_subtensor/subtensor_mock.py" line="121" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_subtensor/subtensor_mock.py" bodystart="121" bodyend="170"/>
+    <listofallmembers>
+      <member refid="classbittensor_1_1__subtensor_1_1subtensor__mock_1_1_mock___subtensor_1a6495fb0866e8c3effdcb27187fc7f26f" prot="public" virt="non-virtual"><scope>bittensor::_subtensor::subtensor_mock::Mock_Subtensor</scope><name>__del__</name></member>
+      <member refid="classbittensor_1_1__subtensor_1_1subtensor__mock_1_1_mock___subtensor_1a02e877bf6dcb4ff6eff10f94c2d64372" prot="public" virt="non-virtual"><scope>bittensor::_subtensor::subtensor_mock::Mock_Subtensor</scope><name>__exit__</name></member>
+      <member refid="classbittensor_1_1__subtensor_1_1subtensor__mock_1_1_mock___subtensor_1a08ffa4bf8fd61f9ac302f513ede65bf9" prot="public" virt="non-virtual"><scope>bittensor::_subtensor::subtensor_mock::Mock_Subtensor</scope><name>__init__</name></member>
+      <member refid="classbittensor_1_1__subtensor_1_1subtensor__mock_1_1_mock___subtensor_1a745ebb545639b3f8bc40defc77b37df3" prot="public" virt="non-virtual"><scope>bittensor::_subtensor::subtensor_mock::Mock_Subtensor</scope><name>__str__</name></member>
+      <member refid="classbittensor_1_1__subtensor_1_1subtensor__mock_1_1_mock___subtensor_1a3a2ad4de42624a003d6b3ddda92731c3" prot="protected" virt="non-virtual"><scope>bittensor::_subtensor::subtensor_mock::Mock_Subtensor</scope><name>_is_mocked</name></member>
+      <member refid="classbittensor_1_1__subtensor_1_1subtensor__mock_1_1_mock___subtensor_1a19f03eaa88ffc0ea7b00a2795ba9213d" prot="protected" virt="non-virtual"><scope>bittensor::_subtensor::subtensor_mock::Mock_Subtensor</scope><name>_owned_mock_subtensor_process</name></member>
+      <member refid="classbittensor_1_1__subtensor_1_1subtensor__mock_1_1_mock___subtensor_1aced9b020ecd86025840392eaf57f84d9" prot="public" virt="non-virtual"><scope>bittensor::_subtensor::subtensor_mock::Mock_Subtensor</scope><name>optionally_kill_owned_mock_instance</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

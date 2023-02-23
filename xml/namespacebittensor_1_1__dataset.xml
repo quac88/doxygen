@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="namespacebittensor_1_1__dataset" kind="namespace" language="Python">
+    <compoundname>bittensor::_dataset</compoundname>
+    <innerclass refid="classbittensor_1_1__dataset_1_1dataset" prot="public">bittensor::_dataset::dataset</innerclass>
+    <innernamespace refid="namespacebittensor_1_1__dataset_1_1dataset__impl">bittensor::_dataset::dataset_impl</innernamespace>
+    <innernamespace refid="namespacebittensor_1_1__dataset_1_1dataset__mock">bittensor::_dataset::dataset_mock</innernamespace>
+    <innernamespace refid="namespacebittensor_1_1__dataset_1_1thread__queue">bittensor::_dataset::thread_queue</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim> Create and init the GenesisTextDataset class, which handles dataloading from ipfs
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/Users/macthrasher/bittensor/bittensor/_dataset/__init__.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

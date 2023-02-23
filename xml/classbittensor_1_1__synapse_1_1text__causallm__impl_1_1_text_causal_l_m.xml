@@ -1,0 +1,660 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="classbittensor_1_1__synapse_1_1text__causallm__impl_1_1_text_causal_l_m" kind="class" language="Python" prot="public">
+    <compoundname>bittensor::_synapse::text_causallm_impl::TextCausalLM</compoundname>
+    <basecompoundref refid="classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse" prot="public" virt="non-virtual">bittensor._synapse.synapse_impl.Synapse</basecompoundref>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classbittensor_1_1__synapse_1_1text__causallm__impl_1_1_text_causal_l_m_1ad948ccd27e2bb273b413ab372466a492" prot="public" static="yes" mutable="no">
+        <type>bittensor</type>
+        <definition>bittensor bittensor._synapse.text_causallm_impl.TextCausalLM::synapse_type</definition>
+        <argsstring></argsstring>
+        <name>synapse_type</name>
+        <qualifiedname>bittensor._synapse.text_causallm_impl.TextCausalLM.synapse_type</qualifiedname>
+        <initializer>=  bittensor.proto.Synapse.SynapseType.TEXT_CAUSAL_LM</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_synapse/text_causallm_impl.py" line="26" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_synapse/text_causallm_impl.py" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classbittensor_1_1__synapse_1_1text__causallm__impl_1_1_text_causal_l_m_1ad84357b67f45a30d2bb8ed7052098d89" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._synapse.text_causallm_impl.TextCausalLM::topk</definition>
+        <argsstring></argsstring>
+        <name>topk</name>
+        <qualifiedname>bittensor._synapse.text_causallm_impl.TextCausalLM.topk</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_synapse/text_causallm_impl.py" line="58" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_synapse/text_causallm_impl.py" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__synapse_1_1text__causallm__impl_1_1_text_causal_l_m_1a95afbef81dd81c708626640bcbe59f98" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._synapse.text_causallm_impl.TextCausalLM::synapse_type</definition>
+        <argsstring></argsstring>
+        <name>synapse_type</name>
+        <qualifiedname>bittensor._synapse.text_causallm_impl.TextCausalLM.synapse_type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_synapse/text_causallm_impl.py" line="59" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_synapse/text_causallm_impl.py" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classbittensor_1_1__synapse_1_1text__causallm__impl_1_1_text_causal_l_m_1af50c0ca9c674e3e4b1be481300766a62" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._synapse.text_causallm_impl.TextCausalLM.__init__</definition>
+        <argsstring>(self, int topk=512, &apos;bittensor.proto.Serializer.Type&apos; forward_request_serializer_type=bittensor.proto.Serializer.MSGPACK, &apos;bittensor.proto.Serializer.Type&apos; forward_response_serializer_type=bittensor.proto.Serializer.MSGPACK, &apos;bittensor.proto.Serializer.Type&apos; backward_request_serializer_type=bittensor.proto.Serializer.MSGPACK, &apos;bittensor.proto.Serializer.Type&apos; backward_response_serializer_type=bittensor.proto.Serializer.MSGPACK)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>bittensor._synapse.text_causallm_impl.TextCausalLM.__init__</qualifiedname>
+        <reimplements refid="classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse_1a43f83b557416a8a3936d5ddc175b5e6f">__init__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>topk</declname>
+          <defval>512</defval>
+        </param>
+        <param>
+          <type>&apos;bittensor.proto.Serializer.Type&apos;</type>
+          <declname>forward_request_serializer_type</declname>
+          <defval>bittensor.proto.Serializer.MSGPACK</defval>
+        </param>
+        <param>
+          <type>&apos;bittensor.proto.Serializer.Type&apos;</type>
+          <declname>forward_response_serializer_type</declname>
+          <defval>bittensor.proto.Serializer.MSGPACK</defval>
+        </param>
+        <param>
+          <type>&apos;bittensor.proto.Serializer.Type&apos;</type>
+          <declname>backward_request_serializer_type</declname>
+          <defval>bittensor.proto.Serializer.MSGPACK</defval>
+        </param>
+        <param>
+          <type>&apos;bittensor.proto.Serializer.Type&apos;</type>
+          <declname>backward_response_serializer_type</declname>
+          <defval>bittensor.proto.Serializer.MSGPACK</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> TextCausalLM Synapse initializer.
+Args:
+    Topk (:obj:int, :default: 512):
+        The top k number of logits to compress and send over the wire 
+    forward_request_serializer_type (:obj:`bittensor.proto.Serializer.Type` of shape :obj:`(1)`, `optional`, :default: `bittensor.proto.Serializer.MSGPACK`):
+        Serializer used to pack torch tensors on forward request.
+    forward_response_serializer_type (:obj:`bittensor.proto.Serializer.Type` of shape :obj:`(1)`, `optional`, :default: `bittensor.proto.Serializer.MSGPACK`):
+        Serializer used to pack torch tensors on forward response.
+    backward_request_serializer_type (:obj:`bittensor.proto.Serializer.Type` of shape :obj:`(1)`, `optional`, :default: `bittensor.proto.Serializer.MSGPACK`):
+        Serializer used to pack torch tensors on forward request.
+    backward_response_serializer_type (:obj:`bittensor.proto.Serializer.Type` of shape :obj:`(1)`, `optional`, :default: `bittensor.proto.Serializer.MSGPACK`):
+        Serialzer used to pack torch tensors on backward response.
+Returns:
+    TextLastHiddenState (:obj:`TextLastHiddenState`, `required`):
+        TextLastHiddenState instance adapter class.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_synapse/text_causallm_impl.py" line="28" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_synapse/text_causallm_impl.py" bodystart="35" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__synapse_1_1text__causallm__impl_1_1_text_causal_l_m_1a8fe6e3ffc7964ee28e84b21eb11eaa32" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str bittensor._synapse.text_causallm_impl.TextCausalLM.__repr__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__repr__</name>
+        <qualifiedname>bittensor._synapse.text_causallm_impl.TextCausalLM.__repr__</qualifiedname>
+        <reimplements refid="classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse_1a33b86030b6dc0f28aba3b1c7070de48e">__repr__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_synapse/text_causallm_impl.py" line="61" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_synapse/text_causallm_impl.py" bodystart="61" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__synapse_1_1text__causallm__impl_1_1_text_causal_l_m_1ae25e8a3b0a2ce16819f68e7e79d5b16a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str bittensor._synapse.text_causallm_impl.TextCausalLM.__str__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__str__</name>
+        <qualifiedname>bittensor._synapse.text_causallm_impl.TextCausalLM.__str__</qualifiedname>
+        <reimplements refid="classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse_1a49b7378ad62c7b9dd4aae80f81703234">__str__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_synapse/text_causallm_impl.py" line="62" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_synapse/text_causallm_impl.py" bodystart="62" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__synapse_1_1text__causallm__impl_1_1_text_causal_l_m_1ac6bf14316d09415f75eb0a419635a8cc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type> &apos;bittensor.proto.Synapse.TextCausalLM&apos;</type>
+        <definition> &apos;bittensor.proto.Synapse.TextCausalLM&apos; bittensor._synapse.text_causallm_impl.TextCausalLM.serialize_to_instance_proto</definition>
+        <argsstring>(self)</argsstring>
+        <name>serialize_to_instance_proto</name>
+        <qualifiedname>bittensor._synapse.text_causallm_impl.TextCausalLM.serialize_to_instance_proto</qualifiedname>
+        <reimplements refid="classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse_1a9e2c93dbd788e9fb778997874f6429fb">serialize_to_instance_proto</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Serializes the class instance to a Synapse instance proto.
+    Returns:
+        serialized_synapse_as_instance_proto (:obj:`torch.Tensor`, `required`):
+            Instance class serialized to a instance proto.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_synapse/text_causallm_impl.py" line="80" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_synapse/text_causallm_impl.py" bodystart="80" bodyend="88"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__synapse_1_1text__causallm__impl_1_1_text_causal_l_m_1ad9952f1aff2d650102cd64d9fc45d216" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bittensor.proto.Synapse</type>
+        <definition> bittensor.proto.Synapse bittensor._synapse.text_causallm_impl.TextCausalLM.serialize_to_wire_proto</definition>
+        <argsstring>(self, &apos;bittensor.proto.ReturnCode&apos; code=0, str message=&apos;&apos;)</argsstring>
+        <name>serialize_to_wire_proto</name>
+        <qualifiedname>bittensor._synapse.text_causallm_impl.TextCausalLM.serialize_to_wire_proto</qualifiedname>
+        <reimplements refid="classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse_1a9fd871f88280feb461379b7d957ef368">serialize_to_wire_proto</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>&apos;bittensor.proto.ReturnCode&apos;</type>
+          <declname>kwargs</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>message</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Serializes the class instance to a Synapse wire proto.
+    Returns:
+        serialized_synapse_as_wire_proto (:obj:`torch.Tensor`, `required`):
+            Instance class serialized to a wire proto.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_synapse/text_causallm_impl.py" line="89" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_synapse/text_causallm_impl.py" bodystart="89" bodyend="96"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__synapse_1_1text__causallm__impl_1_1_text_causal_l_m_1a5dc432638585ce3335a2d77d5f9815f2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._synapse.text_causallm_impl.TextCausalLM.check_forward_request_tensor</definition>
+        <argsstring>(self, forward_request_tensor)</argsstring>
+        <name>check_forward_request_tensor</name>
+        <qualifiedname>bittensor._synapse.text_causallm_impl.TextCausalLM.check_forward_request_tensor</qualifiedname>
+        <reimplements refid="classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse_1acc3a89c693c501b031ec130b399a0931">check_forward_request_tensor</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>forward_request_tensor</type>
+          <defname>forward_request_tensor</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_synapse/text_causallm_impl.py" line="97" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_synapse/text_causallm_impl.py" bodystart="97" bodyend="100"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__synapse_1_1text__causallm__impl_1_1_text_causal_l_m_1aa8258678931f1079df46b25effc7c6ae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._synapse.text_causallm_impl.TextCausalLM.check_forward_response_tensor</definition>
+        <argsstring>(self, forward_request_tensor, forward_response_tensor)</argsstring>
+        <name>check_forward_response_tensor</name>
+        <qualifiedname>bittensor._synapse.text_causallm_impl.TextCausalLM.check_forward_response_tensor</qualifiedname>
+        <reimplements refid="classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse_1acb6d69d2b432bde2495df6b668f17c40">check_forward_response_tensor</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>forward_request_tensor</type>
+          <defname>forward_request_tensor</defname>
+        </param>
+        <param>
+          <type>forward_response_tensor</type>
+          <defname>forward_response_tensor</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_synapse/text_causallm_impl.py" line="101" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_synapse/text_causallm_impl.py" bodystart="101" bodyend="112"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__synapse_1_1text__causallm__impl_1_1_text_causal_l_m_1a2e7724b38593acf0556d5e4788efe805" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._synapse.text_causallm_impl.TextCausalLM.check_backward_request_gradient</definition>
+        <argsstring>(self, forward_request_tensor, backward_request_gradient)</argsstring>
+        <name>check_backward_request_gradient</name>
+        <qualifiedname>bittensor._synapse.text_causallm_impl.TextCausalLM.check_backward_request_gradient</qualifiedname>
+        <reimplements refid="classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse_1a7ba717d9b34e08826d484c5ec8853fbb">check_backward_request_gradient</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>forward_request_tensor</type>
+          <defname>forward_request_tensor</defname>
+        </param>
+        <param>
+          <type>backward_request_gradient</type>
+          <defname>backward_request_gradient</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_synapse/text_causallm_impl.py" line="113" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_synapse/text_causallm_impl.py" bodystart="113" bodyend="120"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__synapse_1_1text__causallm__impl_1_1_text_causal_l_m_1a59f0ee75b8e34af8db3c56e9dbd51239" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>torch.Tensor</type>
+        <definition> torch.Tensor bittensor._synapse.text_causallm_impl.TextCausalLM.encode_forward_request_tensor</definition>
+        <argsstring>(self, torch.Tensor forward_request_tensor)</argsstring>
+        <name>encode_forward_request_tensor</name>
+        <qualifiedname>bittensor._synapse.text_causallm_impl.TextCausalLM.encode_forward_request_tensor</qualifiedname>
+        <reimplements refid="classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse_1ab0f074f5045e9ca075605c1f9e1664d2">encode_forward_request_tensor</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>torch.Tensor</type>
+          <declname>forward_request_tensor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_synapse/text_causallm_impl.py" line="121" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_synapse/text_causallm_impl.py" bodystart="121" bodyend="121"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__synapse_1_1text__causallm__impl_1_1_text_causal_l_m_1a7ed9c65e50fbc45b89d9238a0d211a5d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>torch.Tensor</type>
+        <definition> torch.Tensor bittensor._synapse.text_causallm_impl.TextCausalLM.decode_forward_request_tensor</definition>
+        <argsstring>(self, torch.Tensor forward_request_tensor)</argsstring>
+        <name>decode_forward_request_tensor</name>
+        <qualifiedname>bittensor._synapse.text_causallm_impl.TextCausalLM.decode_forward_request_tensor</qualifiedname>
+        <reimplements refid="classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse_1a054c4ee0bc9b2d26b0ffde2f5e6c6d6d">decode_forward_request_tensor</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>torch.Tensor</type>
+          <declname>forward_request_tensor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_synapse/text_causallm_impl.py" line="122" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_synapse/text_causallm_impl.py" bodystart="122" bodyend="123"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__synapse_1_1text__causallm__impl_1_1_text_causal_l_m_1a90e11dd8f72c4bbd0aa8a1fd71354ec8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>torch.Tensor</type>
+        <definition> torch.Tensor bittensor._synapse.text_causallm_impl.TextCausalLM.encode_forward_response_tensor</definition>
+        <argsstring>(self, torch.Tensor forward_response_tensor)</argsstring>
+        <name>encode_forward_response_tensor</name>
+        <qualifiedname>bittensor._synapse.text_causallm_impl.TextCausalLM.encode_forward_response_tensor</qualifiedname>
+        <reimplements refid="classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse_1a652c329c4cfa85daf0c250a0e8547ac5">encode_forward_response_tensor</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>torch.Tensor</type>
+          <declname>forward_response_tensor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Returns topk tokens/probabilities given unnormalized logits as input. </verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_synapse/text_causallm_impl.py" line="124" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_synapse/text_causallm_impl.py" bodystart="124" bodyend="131"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__synapse_1_1text__causallm__impl_1_1_text_causal_l_m_1a9760176f469882d933dac28509894c2a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>torch.Tensor</type>
+        <definition> torch.Tensor bittensor._synapse.text_causallm_impl.TextCausalLM.decode_forward_response_tensor</definition>
+        <argsstring>(self, torch.Tensor forward_response_tensor)</argsstring>
+        <name>decode_forward_response_tensor</name>
+        <qualifiedname>bittensor._synapse.text_causallm_impl.TextCausalLM.decode_forward_response_tensor</qualifiedname>
+        <reimplements refid="classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse_1a25615a9c2971459105fc13b81e942dd1">decode_forward_response_tensor</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>torch.Tensor</type>
+          <declname>forward_response_tensor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Returns full logits by decoding topk-encoding input. </verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_synapse/text_causallm_impl.py" line="132" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_synapse/text_causallm_impl.py" bodystart="132" bodyend="148"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__synapse_1_1text__causallm__impl_1_1_text_causal_l_m_1abf9e7aa2b3f542094968a32bb015151b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>torch.Tensor</type>
+        <definition> torch.Tensor bittensor._synapse.text_causallm_impl.TextCausalLM.encode_backward_response_gradient</definition>
+        <argsstring>(self, torch.Tensor backward_request_gradient)</argsstring>
+        <name>encode_backward_response_gradient</name>
+        <qualifiedname>bittensor._synapse.text_causallm_impl.TextCausalLM.encode_backward_response_gradient</qualifiedname>
+        <reimplements refid="classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse_1abf013ae6c8a55b22a3951abe095f5ef0">encode_backward_response_gradient</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>torch.Tensor</type>
+          <declname>backward_request_gradient</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_synapse/text_causallm_impl.py" line="149" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_synapse/text_causallm_impl.py" bodystart="149" bodyend="149"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__synapse_1_1text__causallm__impl_1_1_text_causal_l_m_1aead3f28e1678712ca9b6e55228d75953" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>torch.Tensor</type>
+        <definition> torch.Tensor bittensor._synapse.text_causallm_impl.TextCausalLM.decode_backward_response_gradient</definition>
+        <argsstring>(self, torch.Tensor backward_request_gradient)</argsstring>
+        <name>decode_backward_response_gradient</name>
+        <qualifiedname>bittensor._synapse.text_causallm_impl.TextCausalLM.decode_backward_response_gradient</qualifiedname>
+        <reimplements refid="classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse_1a626bd9a586b62c9be3fc34577356f574">decode_backward_response_gradient</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>torch.Tensor</type>
+          <declname>backward_request_gradient</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_synapse/text_causallm_impl.py" line="150" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_synapse/text_causallm_impl.py" bodystart="150" bodyend="151"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__synapse_1_1text__causallm__impl_1_1_text_causal_l_m_1ab1cb80f4457880f4c0f5bfff3a793718" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>torch.Tensor</type>
+        <definition> torch.Tensor bittensor._synapse.text_causallm_impl.TextCausalLM.encode_backward_request_gradient</definition>
+        <argsstring>(self, torch.Tensor backward_response_gradient)</argsstring>
+        <name>encode_backward_request_gradient</name>
+        <qualifiedname>bittensor._synapse.text_causallm_impl.TextCausalLM.encode_backward_request_gradient</qualifiedname>
+        <reimplements refid="classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse_1a6877da80a2e6f46224cc1679149a1683">encode_backward_request_gradient</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>torch.Tensor</type>
+          <declname>backward_response_gradient</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Return topk most negative token grads given full logit gradients. </verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_synapse/text_causallm_impl.py" line="152" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_synapse/text_causallm_impl.py" bodystart="152" bodyend="157"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__synapse_1_1text__causallm__impl_1_1_text_causal_l_m_1a5e5b9fed3bc610895792ebcc94589562" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>torch.Tensor</type>
+        <definition> torch.Tensor bittensor._synapse.text_causallm_impl.TextCausalLM.decode_backward_request_gradient</definition>
+        <argsstring>(self, torch.Tensor backward_response_gradient)</argsstring>
+        <name>decode_backward_request_gradient</name>
+        <qualifiedname>bittensor._synapse.text_causallm_impl.TextCausalLM.decode_backward_request_gradient</qualifiedname>
+        <reimplements refid="classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse_1a9964345c43f2dd70ad9bace134f367cb">decode_backward_request_gradient</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>torch.Tensor</type>
+          <declname>backward_response_gradient</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Return full gradients by decoding topk-encoding input. </verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_synapse/text_causallm_impl.py" line="158" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_synapse/text_causallm_impl.py" bodystart="158" bodyend="169"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__synapse_1_1text__causallm__impl_1_1_text_causal_l_m_1a23e462ed39d7abcd9457425903f82afd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>torch.Tensor</type>
+        <definition> torch.Tensor bittensor._synapse.text_causallm_impl.TextCausalLM.nill_forward_response_tensor</definition>
+        <argsstring>(self, torch.Tensor forward_request_tensor)</argsstring>
+        <name>nill_forward_response_tensor</name>
+        <qualifiedname>bittensor._synapse.text_causallm_impl.TextCausalLM.nill_forward_response_tensor</qualifiedname>
+        <reimplements refid="classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse_1a29704899ae87600748e464fa7823a04e">nill_forward_response_tensor</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>torch.Tensor</type>
+          <declname>forward_request_tensor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Returns a zeroed tensor used as response to a dendrite forward call when the call fails.
+    Args:
+        forward_request_tensor (:obj:`torch.Tensor`, `required`):
+            Tensor being sent as forward request.
+    Returns:
+        nill_forward_response_tensor (:obj:`torch.Tensor`, `required`):
+            Zeroed forward response tensor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_synapse/text_causallm_impl.py" line="170" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_synapse/text_causallm_impl.py" bodystart="170" bodyend="175"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__synapse_1_1text__causallm__impl_1_1_text_causal_l_m_1a01f706030bcf2ddb0b6d10adeca9893c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>torch.Tensor</type>
+        <definition> torch.Tensor bittensor._synapse.text_causallm_impl.TextCausalLM.nill_backward_response_tensor</definition>
+        <argsstring>(self, torch.Tensor forward_request_tensor)</argsstring>
+        <name>nill_backward_response_tensor</name>
+        <qualifiedname>bittensor._synapse.text_causallm_impl.TextCausalLM.nill_backward_response_tensor</qualifiedname>
+        <reimplements refid="classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse_1a28f55eb21a6e304a690594db9edc4922">nill_backward_response_tensor</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>torch.Tensor</type>
+          <declname>forward_request_tensor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Returns a zeroed tensor used as response to a dendrite backward call when the call fails.
+    Args:
+        forward_request_tensor  (:obj:`torch.Tensor`, `required`):
+            Tensor being sent as forward request.
+    Returns:
+        nill_backward_response_tensor  (:obj:`torch.Tensor`, `required`):
+            Zeroed backward response gradient.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_synapse/text_causallm_impl.py" line="176" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_synapse/text_causallm_impl.py" bodystart="176" bodyend="181"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classbittensor_1_1__synapse_1_1text__causallm__impl_1_1_text_causal_l_m_1ac64a9ee1f8031b6728b501c8a671dc19" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type> &apos;<ref refid="classbittensor_1_1__synapse_1_1text__causallm__impl_1_1_text_causal_l_m" kindref="compound">TextCausalLM</ref>&apos;</type>
+        <definition> &apos;TextCausalLM&apos; bittensor._synapse.text_causallm_impl.TextCausalLM.deserialize_from_instance_proto</definition>
+        <argsstring>(bittensor.proto.Synapse instance_proto)</argsstring>
+        <name>deserialize_from_instance_proto</name>
+        <qualifiedname>bittensor._synapse.text_causallm_impl.TextCausalLM.deserialize_from_instance_proto</qualifiedname>
+        <reimplements refid="classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse_1a93012de6476558437aac932fdafe7630">deserialize_from_instance_proto</reimplements>
+        <param>
+          <type>bittensor.proto.Synapse</type>
+          <declname>isntance_proto</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Deserialzied the instance proto to an instance class.
+    Args:
+        isntance_proto (:obj:`bittensor.proto.Synapse` of shape :obj:`(1)`, `required`):
+            Synapse instance proto to be deserialized.
+    Returns:
+        synapse_instance_clasee (:obj:`torch.Tensor`, `required`):
+            Deserialized instance class.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_synapse/text_causallm_impl.py" line="65" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_synapse/text_causallm_impl.py" bodystart="65" bodyend="73"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__synapse_1_1text__causallm__impl_1_1_text_causal_l_m_1a0ae4722c9d175c1c3bf6f5b0b2e7908d" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type> &apos;<ref refid="classbittensor_1_1__synapse_1_1text__causallm__impl_1_1_text_causal_l_m" kindref="compound">TextCausalLM</ref>&apos;</type>
+        <definition> &apos;TextCausalLM&apos; bittensor._synapse.text_causallm_impl.TextCausalLM.deserialize_from_wire_proto</definition>
+        <argsstring>(bittensor.proto.Synapse wire_proto)</argsstring>
+        <name>deserialize_from_wire_proto</name>
+        <qualifiedname>bittensor._synapse.text_causallm_impl.TextCausalLM.deserialize_from_wire_proto</qualifiedname>
+        <reimplements refid="classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse_1aeb38ec002657d66a4e8e947b95e4a129">deserialize_from_wire_proto</reimplements>
+        <param>
+          <type>bittensor.proto.Synapse</type>
+          <declname>wire_proto</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Deserialzied the wire proto to an instance class.
+    Args:
+        wire_proto (:obj:`bittensor.proto.Synapse` of shape :obj:`(1)`, `required`):
+            Synapse wire proto to be deserialized.
+    Returns:
+        synapse_instance_clasee (:obj:`torch.Tensor`, `required`):
+            Deserialized instance class.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_synapse/text_causallm_impl.py" line="75" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_synapse/text_causallm_impl.py" bodystart="75" bodyend="79"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim> TextCausalLM Synapse type for next token prediction from languge models.
+</verbatim> </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>bittensor._synapse.text_causallm_impl.TextCausalLM</label>
+        <link refid="classbittensor_1_1__synapse_1_1text__causallm__impl_1_1_text_causal_l_m"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>bittensor._synapse.synapse_impl.Synapse</label>
+        <link refid="classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>bittensor</label>
+      </node>
+      <node id="1">
+        <label>bittensor._synapse.text_causallm_impl.TextCausalLM</label>
+        <link refid="classbittensor_1_1__synapse_1_1text__causallm__impl_1_1_text_causal_l_m"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>synapse_type</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>bittensor._synapse.synapse_impl.Synapse</label>
+        <link refid="classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>synapse_type</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/macthrasher/bittensor/bittensor/_synapse/text_causallm_impl.py" line="23" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_synapse/text_causallm_impl.py" bodystart="23" bodyend="181"/>
+    <listofallmembers>
+      <member refid="classbittensor_1_1__synapse_1_1text__causallm__impl_1_1_text_causal_l_m_1af50c0ca9c674e3e4b1be481300766a62" prot="public" virt="non-virtual"><scope>bittensor::_synapse::text_causallm_impl::TextCausalLM</scope><name>__init__</name></member>
+      <member refid="classbittensor_1_1__synapse_1_1text__causallm__impl_1_1_text_causal_l_m_1a8fe6e3ffc7964ee28e84b21eb11eaa32" prot="public" virt="non-virtual"><scope>bittensor::_synapse::text_causallm_impl::TextCausalLM</scope><name>__repr__</name></member>
+      <member refid="classbittensor_1_1__synapse_1_1text__causallm__impl_1_1_text_causal_l_m_1ae25e8a3b0a2ce16819f68e7e79d5b16a" prot="public" virt="non-virtual"><scope>bittensor::_synapse::text_causallm_impl::TextCausalLM</scope><name>__str__</name></member>
+      <member refid="classbittensor_1_1__synapse_1_1text__causallm__impl_1_1_text_causal_l_m_1a2e7724b38593acf0556d5e4788efe805" prot="public" virt="non-virtual"><scope>bittensor::_synapse::text_causallm_impl::TextCausalLM</scope><name>check_backward_request_gradient</name></member>
+      <member refid="classbittensor_1_1__synapse_1_1text__causallm__impl_1_1_text_causal_l_m_1a5dc432638585ce3335a2d77d5f9815f2" prot="public" virt="non-virtual"><scope>bittensor::_synapse::text_causallm_impl::TextCausalLM</scope><name>check_forward_request_tensor</name></member>
+      <member refid="classbittensor_1_1__synapse_1_1text__causallm__impl_1_1_text_causal_l_m_1aa8258678931f1079df46b25effc7c6ae" prot="public" virt="non-virtual"><scope>bittensor::_synapse::text_causallm_impl::TextCausalLM</scope><name>check_forward_response_tensor</name></member>
+      <member refid="classbittensor_1_1__synapse_1_1text__causallm__impl_1_1_text_causal_l_m_1a5e5b9fed3bc610895792ebcc94589562" prot="public" virt="non-virtual"><scope>bittensor::_synapse::text_causallm_impl::TextCausalLM</scope><name>decode_backward_request_gradient</name></member>
+      <member refid="classbittensor_1_1__synapse_1_1text__causallm__impl_1_1_text_causal_l_m_1aead3f28e1678712ca9b6e55228d75953" prot="public" virt="non-virtual"><scope>bittensor::_synapse::text_causallm_impl::TextCausalLM</scope><name>decode_backward_response_gradient</name></member>
+      <member refid="classbittensor_1_1__synapse_1_1text__causallm__impl_1_1_text_causal_l_m_1a7ed9c65e50fbc45b89d9238a0d211a5d" prot="public" virt="non-virtual"><scope>bittensor::_synapse::text_causallm_impl::TextCausalLM</scope><name>decode_forward_request_tensor</name></member>
+      <member refid="classbittensor_1_1__synapse_1_1text__causallm__impl_1_1_text_causal_l_m_1a9760176f469882d933dac28509894c2a" prot="public" virt="non-virtual"><scope>bittensor::_synapse::text_causallm_impl::TextCausalLM</scope><name>decode_forward_response_tensor</name></member>
+      <member refid="classbittensor_1_1__synapse_1_1text__causallm__impl_1_1_text_causal_l_m_1ac64a9ee1f8031b6728b501c8a671dc19" prot="public" virt="non-virtual"><scope>bittensor::_synapse::text_causallm_impl::TextCausalLM</scope><name>deserialize_from_instance_proto</name></member>
+      <member refid="classbittensor_1_1__synapse_1_1text__causallm__impl_1_1_text_causal_l_m_1a0ae4722c9d175c1c3bf6f5b0b2e7908d" prot="public" virt="non-virtual"><scope>bittensor::_synapse::text_causallm_impl::TextCausalLM</scope><name>deserialize_from_wire_proto</name></member>
+      <member refid="classbittensor_1_1__synapse_1_1text__causallm__impl_1_1_text_causal_l_m_1ab1cb80f4457880f4c0f5bfff3a793718" prot="public" virt="non-virtual"><scope>bittensor::_synapse::text_causallm_impl::TextCausalLM</scope><name>encode_backward_request_gradient</name></member>
+      <member refid="classbittensor_1_1__synapse_1_1text__causallm__impl_1_1_text_causal_l_m_1abf9e7aa2b3f542094968a32bb015151b" prot="public" virt="non-virtual"><scope>bittensor::_synapse::text_causallm_impl::TextCausalLM</scope><name>encode_backward_response_gradient</name></member>
+      <member refid="classbittensor_1_1__synapse_1_1text__causallm__impl_1_1_text_causal_l_m_1a59f0ee75b8e34af8db3c56e9dbd51239" prot="public" virt="non-virtual"><scope>bittensor::_synapse::text_causallm_impl::TextCausalLM</scope><name>encode_forward_request_tensor</name></member>
+      <member refid="classbittensor_1_1__synapse_1_1text__causallm__impl_1_1_text_causal_l_m_1a90e11dd8f72c4bbd0aa8a1fd71354ec8" prot="public" virt="non-virtual"><scope>bittensor::_synapse::text_causallm_impl::TextCausalLM</scope><name>encode_forward_response_tensor</name></member>
+      <member refid="classbittensor_1_1__synapse_1_1text__causallm__impl_1_1_text_causal_l_m_1a01f706030bcf2ddb0b6d10adeca9893c" prot="public" virt="non-virtual"><scope>bittensor::_synapse::text_causallm_impl::TextCausalLM</scope><name>nill_backward_response_tensor</name></member>
+      <member refid="classbittensor_1_1__synapse_1_1text__causallm__impl_1_1_text_causal_l_m_1a23e462ed39d7abcd9457425903f82afd" prot="public" virt="non-virtual"><scope>bittensor::_synapse::text_causallm_impl::TextCausalLM</scope><name>nill_forward_response_tensor</name></member>
+      <member refid="classbittensor_1_1__synapse_1_1text__causallm__impl_1_1_text_causal_l_m_1ac6bf14316d09415f75eb0a419635a8cc" prot="public" virt="non-virtual"><scope>bittensor::_synapse::text_causallm_impl::TextCausalLM</scope><name>serialize_to_instance_proto</name></member>
+      <member refid="classbittensor_1_1__synapse_1_1text__causallm__impl_1_1_text_causal_l_m_1ad9952f1aff2d650102cd64d9fc45d216" prot="public" virt="non-virtual"><scope>bittensor::_synapse::text_causallm_impl::TextCausalLM</scope><name>serialize_to_wire_proto</name></member>
+      <member refid="classbittensor_1_1__synapse_1_1text__causallm__impl_1_1_text_causal_l_m_1ad948ccd27e2bb273b413ab372466a492" prot="public" virt="non-virtual"><scope>bittensor::_synapse::text_causallm_impl::TextCausalLM</scope><name>synapse_type</name></member>
+      <member refid="classbittensor_1_1__synapse_1_1text__causallm__impl_1_1_text_causal_l_m_1a95afbef81dd81c708626640bcbe59f98" prot="public" virt="non-virtual"><scope>bittensor::_synapse::text_causallm_impl::TextCausalLM</scope><name>synapse_type</name></member>
+      <member refid="classbittensor_1_1__synapse_1_1text__causallm__impl_1_1_text_causal_l_m_1ad84357b67f45a30d2bb8ed7052098d89" prot="public" virt="non-virtual"><scope>bittensor::_synapse::text_causallm_impl::TextCausalLM</scope><name>topk</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

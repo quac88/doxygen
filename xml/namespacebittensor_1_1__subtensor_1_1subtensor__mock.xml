@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="namespacebittensor_1_1__subtensor_1_1subtensor__mock" kind="namespace" language="Python">
+    <compoundname>bittensor::_subtensor::subtensor_mock</compoundname>
+    <innerclass refid="classbittensor_1_1__subtensor_1_1subtensor__mock_1_1mock__subtensor" prot="public">bittensor::_subtensor::subtensor_mock::mock_subtensor</innerclass>
+    <innerclass refid="classbittensor_1_1__subtensor_1_1subtensor__mock_1_1_mock___subtensor" prot="public">bittensor::_subtensor::subtensor_mock::Mock_Subtensor</innerclass>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="subtensor__mock_8py_1ad873943414e0603c48145d966e936449" prot="private" static="no" mutable="no">
+        <type>dict</type>
+        <definition>dict bittensor::_subtensor::subtensor_mock.__type_registery__</definition>
+        <argsstring></argsstring>
+        <name>__type_registery__</name>
+        <qualifiedname>bittensor._subtensor.subtensor_mock.__type_registery__</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_subtensor/subtensor_mock.py" line="12" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_subtensor/subtensor_mock.py" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="subtensor__mock_8py_1a93d4eb557c23050b0d88c92487da97cb" prot="public" static="no" mutable="no">
+        <type>str</type>
+        <definition>str bittensor::_subtensor::subtensor_mock.GLOBAL_SUBTENSOR_MOCK_PROCESS_NAME</definition>
+        <argsstring></argsstring>
+        <name>GLOBAL_SUBTENSOR_MOCK_PROCESS_NAME</name>
+        <qualifiedname>bittensor._subtensor.subtensor_mock.GLOBAL_SUBTENSOR_MOCK_PROCESS_NAME</qualifiedname>
+        <initializer>=  &quot;node-subtensor&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_subtensor/subtensor_mock.py" line="44" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_subtensor/subtensor_mock.py" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/macthrasher/bittensor/bittensor/_subtensor/subtensor_mock.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

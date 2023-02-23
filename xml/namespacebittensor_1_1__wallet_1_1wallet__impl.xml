@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="namespacebittensor_1_1__wallet_1_1wallet__impl" kind="namespace" language="Python">
+    <compoundname>bittensor::_wallet::wallet_impl</compoundname>
+    <innerclass refid="classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet" prot="public">bittensor::_wallet::wallet_impl::Wallet</innerclass>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="namespacebittensor_1_1__wallet_1_1wallet__impl_1aa2d8330744b6047752e501baf54b9c7e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._wallet.wallet_impl.display_mnemonic_msg</definition>
+        <argsstring>(Keypair keypair, str key_type)</argsstring>
+        <name>display_mnemonic_msg</name>
+        <qualifiedname>bittensor._wallet.wallet_impl.display_mnemonic_msg</qualifiedname>
+        <param>
+          <type>Keypair</type>
+          <declname>keypair</declname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>key_type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Displaying the mnemonic and warning message to keep mnemonic safe
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_wallet/wallet_impl.py" line="31" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_wallet/wallet_impl.py" bodystart="31" bodyend="42"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim> Implementation of the wallet class, which manages balances with staking and transfer. Also manages hotkey and coldkey.
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/Users/macthrasher/bittensor/bittensor/_wallet/wallet_impl.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

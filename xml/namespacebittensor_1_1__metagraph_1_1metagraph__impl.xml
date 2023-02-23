@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="namespacebittensor_1_1__metagraph_1_1metagraph__impl" kind="namespace" language="Python">
+    <compoundname>bittensor::_metagraph::metagraph_impl</compoundname>
+    <innerclass refid="classbittensor_1_1__metagraph_1_1metagraph__impl_1_1_metagraph" prot="public">bittensor::_metagraph::metagraph_impl::Metagraph</innerclass>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="namespacebittensor_1_1__metagraph_1_1metagraph__impl_1a207165bad5b40fa79316cac4b768f312" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int bittensor::_metagraph::metagraph_impl.RAOPERTAO</definition>
+        <argsstring></argsstring>
+        <name>RAOPERTAO</name>
+        <qualifiedname>bittensor._metagraph.metagraph_impl.RAOPERTAO</qualifiedname>
+        <initializer>=  1000000000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_metagraph/metagraph_impl.py" line="36" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_metagraph/metagraph_impl.py" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacebittensor_1_1__metagraph_1_1metagraph__impl_1abaccf06362aa8cd7272dda4a26649ded" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int bittensor::_metagraph::metagraph_impl.U64MAX</definition>
+        <argsstring></argsstring>
+        <name>U64MAX</name>
+        <qualifiedname>bittensor._metagraph.metagraph_impl.U64MAX</qualifiedname>
+        <initializer>=  18446744073709551615</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_metagraph/metagraph_impl.py" line="37" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_metagraph/metagraph_impl.py" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim> Maintains chain state as a torch.nn.Module.
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/Users/macthrasher/bittensor/bittensor/_metagraph/metagraph_impl.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

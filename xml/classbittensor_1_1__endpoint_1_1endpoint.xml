@@ -1,0 +1,208 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="classbittensor_1_1__endpoint_1_1endpoint" kind="class" language="Python" prot="public">
+    <compoundname>bittensor::_endpoint::endpoint</compoundname>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classbittensor_1_1__endpoint_1_1endpoint_1aeb176dabcf46340c4d2789a6980be031" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type> &apos;<ref refid="classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint" kindref="compound">bittensor.Endpoint</ref>&apos;</type>
+        <definition> &apos;bittensor.Endpoint&apos; bittensor._endpoint.endpoint.__new__</definition>
+        <argsstring>(cls, int version, int uid, str hotkey, str ip, int ip_type, int port, int modality, str coldkey)</argsstring>
+        <name>__new__</name>
+        <qualifiedname>bittensor._endpoint.endpoint.__new__</qualifiedname>
+        <param>
+          <type>cls</type>
+          <defname>cls</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>version</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>uid</declname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>hotkey</declname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>ip</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>ip_type</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>port</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>modality</declname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>coldkey</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_endpoint/__init__.py" line="40" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_endpoint/__init__.py" bodystart="50" bodyend="63"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classbittensor_1_1__endpoint_1_1endpoint_1a21de531c8d911a381333e012fc3abb53" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type> &apos;<ref refid="classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint" kindref="compound">bittensor.Endpoint</ref>&apos;</type>
+        <definition> &apos;bittensor.Endpoint&apos; bittensor._endpoint.endpoint.from_neuron</definition>
+        <argsstring>(SimpleNamespace neuron)</argsstring>
+        <name>from_neuron</name>
+        <qualifiedname>bittensor._endpoint.endpoint.from_neuron</qualifiedname>
+        <param>
+          <type>SimpleNamespace</type>
+          <declname>neuron</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>endpoint.assert_format(
+    version = neuron.version,
+    uid = neuron.uid, 
+    hotkey = neuron.hotkey, 
+    port = neuron.port,
+    ip = neuron.ip, 
+    ip_type = neuron.ip_type, 
+    modality = neuron.modality, 
+    coldkey = neuron.coldkey
+)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_endpoint/__init__.py" line="65" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_endpoint/__init__.py" bodystart="65" bodyend="88"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__endpoint_1_1endpoint_1ac5d80693719fc94686c0ad4c03606c6b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type> &apos;<ref refid="classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint" kindref="compound">bittensor.Endpoint</ref>&apos;</type>
+        <definition> &apos;bittensor.Endpoint&apos; bittensor._endpoint.endpoint.from_dict</definition>
+        <argsstring>(dict endpoint_dict)</argsstring>
+        <name>from_dict</name>
+        <qualifiedname>bittensor._endpoint.endpoint.from_dict</qualifiedname>
+        <param>
+          <type>dict</type>
+          <declname>endpoint_dict</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Return an endpoint with spec from dictionary
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_endpoint/__init__.py" line="90" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_endpoint/__init__.py" bodystart="90" bodyend="113"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__endpoint_1_1endpoint_1afb089e57ffcbe66e50179b5dbe2a2312" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type> &apos;<ref refid="classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint" kindref="compound">bittensor.Endpoint</ref>&apos;</type>
+        <definition> &apos;bittensor.Endpoint&apos; bittensor._endpoint.endpoint.from_tensor</definition>
+        <argsstring>(torch.LongTensor tensor)</argsstring>
+        <name>from_tensor</name>
+        <qualifiedname>bittensor._endpoint.endpoint.from_tensor</qualifiedname>
+        <param>
+          <type>torch.LongTensor</type>
+          <declname>tensor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Return an endpoint with spec from tensor
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_endpoint/__init__.py" line="115" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_endpoint/__init__.py" bodystart="115" bodyend="139"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__endpoint_1_1endpoint_1af4494653d2493ff5b49055a7cd884677" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._endpoint.endpoint.dummy</definition>
+        <argsstring>()</argsstring>
+        <name>dummy</name>
+        <qualifiedname>bittensor._endpoint.endpoint.dummy</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_endpoint/__init__.py" line="141" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_endpoint/__init__.py" bodystart="141" bodyend="143"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__endpoint_1_1endpoint_1a06e709e4da1d6254e9c06e6cb7cb1410" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool bittensor._endpoint.endpoint.assert_format</definition>
+        <argsstring>(int version, int uid, str hotkey, str ip, int ip_type, int port, int modality, str coldkey)</argsstring>
+        <name>assert_format</name>
+        <qualifiedname>bittensor._endpoint.endpoint.assert_format</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>version</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>uid</declname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>hotkey</declname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>ip</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>ip_type</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>port</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>modality</declname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>coldkey</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Asserts that the endpoint has a valid format
+    Raises:
+        Multiple assertion errors.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_endpoint/__init__.py" line="145" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_endpoint/__init__.py" bodystart="154" bodyend="170"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim> Create and init neuron object, with attr hotkey, coldkey, modality and ip
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/Users/macthrasher/bittensor/bittensor/_endpoint/__init__.py" line="36" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_endpoint/__init__.py" bodystart="36" bodyend="170"/>
+    <listofallmembers>
+      <member refid="classbittensor_1_1__endpoint_1_1endpoint_1aeb176dabcf46340c4d2789a6980be031" prot="public" virt="non-virtual"><scope>bittensor::_endpoint::endpoint</scope><name>__new__</name></member>
+      <member refid="classbittensor_1_1__endpoint_1_1endpoint_1a06e709e4da1d6254e9c06e6cb7cb1410" prot="public" virt="non-virtual"><scope>bittensor::_endpoint::endpoint</scope><name>assert_format</name></member>
+      <member refid="classbittensor_1_1__endpoint_1_1endpoint_1af4494653d2493ff5b49055a7cd884677" prot="public" virt="non-virtual"><scope>bittensor::_endpoint::endpoint</scope><name>dummy</name></member>
+      <member refid="classbittensor_1_1__endpoint_1_1endpoint_1ac5d80693719fc94686c0ad4c03606c6b" prot="public" virt="non-virtual"><scope>bittensor::_endpoint::endpoint</scope><name>from_dict</name></member>
+      <member refid="classbittensor_1_1__endpoint_1_1endpoint_1a21de531c8d911a381333e012fc3abb53" prot="public" virt="non-virtual"><scope>bittensor::_endpoint::endpoint</scope><name>from_neuron</name></member>
+      <member refid="classbittensor_1_1__endpoint_1_1endpoint_1afb089e57ffcbe66e50179b5dbe2a2312" prot="public" virt="non-virtual"><scope>bittensor::_endpoint::endpoint</scope><name>from_tensor</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="dir_803f4c833d37889a7cb6fe3c78d59c19" kind="dir">
+    <compoundname>/Users/macthrasher/bittensor/bittensor/_dendrite</compoundname>
+    <innerfile refid="__dendrite_2____init_____8py">__init__.py</innerfile>
+    <innerfile refid="dendrite__impl_8py">dendrite_impl.py</innerfile>
+    <innerfile refid="dendrite__mock_8py">dendrite_mock.py</innerfile>
+    <innerfile refid="manager__server_8py">manager_server.py</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/macthrasher/bittensor/bittensor/_dendrite/"/>
+  </compounddef>
+</doxygen>

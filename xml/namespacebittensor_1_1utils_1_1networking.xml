@@ -1,0 +1,190 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="namespacebittensor_1_1utils_1_1networking" kind="namespace" language="Python">
+    <compoundname>bittensor::utils::networking</compoundname>
+    <innerclass refid="classbittensor_1_1utils_1_1networking_1_1_external_i_p_not_found" prot="public">bittensor::utils::networking::ExternalIPNotFound</innerclass>
+    <innerclass refid="classbittensor_1_1utils_1_1networking_1_1_u_p_n_p_c_exception" prot="public">bittensor::utils::networking::UPNPCException</innerclass>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="namespacebittensor_1_1utils_1_1networking_1a3ce52d67459b626e292b0464b687e0db" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str bittensor.utils.networking.int_to_ip</definition>
+        <argsstring>(int int_val)</argsstring>
+        <name>int_to_ip</name>
+        <qualifiedname>bittensor.utils.networking.int_to_ip</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>int_val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Maps an integer to a unique ip-string 
+        Args:
+            int_val  (:type:`int128`, `required`):
+                The integer representation of an ip. Must be in the range (0, 3.4028237e+38).
+
+        Returns:
+            str_val (:tyep:`str`, `required):
+                The string representation of an ip. Of form *.*.*.* for ipv4 or *::*:*:*:* for ipv6
+
+        Raises:
+            netaddr.core.AddrFormatError (Exception):
+                Raised when the passed int_vals is not a valid ip int value.</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/networking.py" line="29" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/networking.py" bodystart="29" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacebittensor_1_1utils_1_1networking_1a3e1260111799024e8a830c0028b37cfe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int bittensor.utils.networking.ip_to_int</definition>
+        <argsstring>(str str_val)</argsstring>
+        <name>ip_to_int</name>
+        <qualifiedname>bittensor.utils.networking.ip_to_int</qualifiedname>
+        <param>
+          <type>str</type>
+          <declname>str_val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Maps an ip-string to a unique integer.
+        arg:
+            str_val (:tyep:`str`, `required):
+                The string representation of an ip. Of form *.*.*.* for ipv4 or *::*:*:*:* for ipv6
+
+        Returns:
+            int_val  (:type:`int128`, `required`):
+                The integer representation of an ip. Must be in the range (0, 3.4028237e+38).
+
+        Raises:
+            netaddr.core.AddrFormatError (Exception):
+                Raised when the passed str_val is not a valid ip string value.</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/networking.py" line="45" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/networking.py" bodystart="45" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacebittensor_1_1utils_1_1networking_1a9f4b2ed13a55ea16b6c2e8dc2c7abda7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int bittensor.utils.networking.ip_version</definition>
+        <argsstring>(str str_val)</argsstring>
+        <name>ip_version</name>
+        <qualifiedname>bittensor.utils.networking.ip_version</qualifiedname>
+        <param>
+          <type>str</type>
+          <declname>str_val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Returns the ip version (IPV4 or IPV6).
+        arg:
+            str_val (:tyep:`str`, `required):
+                The string representation of an ip. Of form *.*.*.* for ipv4 or *::*:*:*:* for ipv6
+
+        Returns:
+            int_val  (:type:`int128`, `required`):
+                The ip version (Either 4 or 6 for IPv4/IPv6)
+
+        Raises:
+            netaddr.core.AddrFormatError (Exception):
+                Raised when the passed str_val is not a valid ip string value.</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/networking.py" line="61" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/networking.py" bodystart="61" bodyend="76"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacebittensor_1_1utils_1_1networking_1a189557a300dcc2a24c43883fd8f76146" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor.utils.networking.ip__str__</definition>
+        <argsstring>(int ip_type, str ip_str, int port)</argsstring>
+        <name>ip__str__</name>
+        <qualifiedname>bittensor.utils.networking.ip__str__</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>ip_type</declname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>ip_str</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>port</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Return a formatted ip string
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/networking.py" line="77" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/networking.py" bodystart="77" bodyend="81"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacebittensor_1_1utils_1_1networking_1a9f1c7ddcdfbc87b5341ad6d791204ac6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str bittensor.utils.networking.get_external_ip</definition>
+        <argsstring>()</argsstring>
+        <name>get_external_ip</name>
+        <qualifiedname>bittensor.utils.networking.get_external_ip</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Checks CURL/URLLIB/IPIFY/AWS for your external ip.
+    Returns:
+        external_ip  (:obj:`str` `required`):
+            Your routers external facing ip as a string.
+
+    Raises:
+        ExternalIPNotFound (Exception):
+            Raised if all external ip attempts fail.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/networking.py" line="85" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/networking.py" bodystart="85" bodyend="149"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacebittensor_1_1utils_1_1networking_1a3ad6dda702f8ae7e306a169de58aee8b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor.utils.networking.upnpc_create_port_map</definition>
+        <argsstring>(int port)</argsstring>
+        <name>upnpc_create_port_map</name>
+        <qualifiedname>bittensor.utils.networking.upnpc_create_port_map</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>port</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Creates a upnpc port map on your router from passed external_port to local port.
+
+    Args: 
+        port (int, `required`):
+            The local machine port to map from your external port.
+
+    Return:
+        external_port (int, `required`):
+            The external port mapped to the local port on your machine.
+
+    Raises:
+        UPNPCException (Exception):
+            Raised if UPNPC port mapping fails, for instance, if upnpc is not enabled on your router.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/utils/networking.py" line="154" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/utils/networking.py" bodystart="154" bodyend="202"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim> Utils for handling local network with ip and ports. 
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/Users/macthrasher/bittensor/bittensor/utils/networking.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

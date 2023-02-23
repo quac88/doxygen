@@ -1,0 +1,574 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_keyfile" kind="class" language="Python" prot="public">
+    <compoundname>bittensor::_keyfile::keyfile_impl::Keyfile</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">object</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_keyfile_1a7d200c2b4305e100ce1079965eb40f9b" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._keyfile.keyfile_impl.Keyfile::path</definition>
+        <argsstring></argsstring>
+        <name>path</name>
+        <qualifiedname>bittensor._keyfile.keyfile_impl.Keyfile.path</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_keyfile/keyfile_impl.py" line="251" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_keyfile/keyfile_impl.py" bodystart="251" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_keyfile_1a4715c6a6d37730a6615f772f4ccfe847" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._keyfile.keyfile_impl.Keyfile::name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <qualifiedname>bittensor._keyfile.keyfile_impl.Keyfile.name</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_keyfile/keyfile_impl.py" line="252" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_keyfile/keyfile_impl.py" bodystart="252" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_keyfile_1a676ad4b908819238fb2839c174f5ddb0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._keyfile.keyfile_impl.Keyfile.__init__</definition>
+        <argsstring>(self, str path)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>bittensor._keyfile.keyfile_impl.Keyfile.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_keyfile/keyfile_impl.py" line="250" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_keyfile/keyfile_impl.py" bodystart="250" bodyend="253"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_keyfile_1ace444327efe72b0c732ecdc78e4a217a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._keyfile.keyfile_impl.Keyfile.__str__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__str__</name>
+        <qualifiedname>bittensor._keyfile.keyfile_impl.Keyfile.__str__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_keyfile/keyfile_impl.py" line="254" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_keyfile/keyfile_impl.py" bodystart="254" bodyend="261"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_keyfile_1a70251f103ffb0821cb80c7a42c689c13" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._keyfile.keyfile_impl.Keyfile.__repr__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__repr__</name>
+        <qualifiedname>bittensor._keyfile.keyfile_impl.Keyfile.__repr__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_keyfile/keyfile_impl.py" line="262" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_keyfile/keyfile_impl.py" bodystart="262" bodyend="264"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_keyfile_1abf9c1149326695e827f98e65635ccc1c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type> &apos;bittensor.Keypair&apos;</type>
+        <definition> &apos;bittensor.Keypair&apos; bittensor._keyfile.keyfile_impl.Keyfile.keypair</definition>
+        <argsstring>(self)</argsstring>
+        <name>keypair</name>
+        <qualifiedname>bittensor._keyfile.keyfile_impl.Keyfile.keypair</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Returns the keypair from path, decrypts data if the file is encrypted.
+    Args:
+        password ( str, optional ):
+            Optional password used to decrypt file. If None, asks for user input.
+    Returns:
+        keypair (bittensor.Keypair):
+            Keypair stored under path.
+    Raises:
+        KeyFileError:
+            Raised if the file does not exists, is not readable, writable 
+            corrupted, or if the password is incorrect.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_keyfile/keyfile_impl.py" line="266" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_keyfile/keyfile_impl.py" bodystart="266" bodyend="280"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_keyfile_1adef2640c132af5c43448d3da467b7ab3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bytes</type>
+        <definition> bytes bittensor._keyfile.keyfile_impl.Keyfile.data</definition>
+        <argsstring>(self)</argsstring>
+        <name>data</name>
+        <qualifiedname>bittensor._keyfile.keyfile_impl.Keyfile.data</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Returns keyfile data under path.
+    Returns:
+        keyfile_data (bytes):   
+            Keyfile data stored under path.
+    Raises:
+        KeyFileError:
+            Raised if the file does not exists, is not readable, or writable.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_keyfile/keyfile_impl.py" line="282" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_keyfile/keyfile_impl.py" bodystart="282" bodyend="292"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_keyfile_1a960494a52126409f55eea00f0cf30f0f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bytes</type>
+        <definition> bytes bittensor._keyfile.keyfile_impl.Keyfile.keyfile_data</definition>
+        <argsstring>(self)</argsstring>
+        <name>keyfile_data</name>
+        <qualifiedname>bittensor._keyfile.keyfile_impl.Keyfile.keyfile_data</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Returns keyfile data under path.
+    Returns:
+        keyfile_data (bytes):   
+            Keyfile data stored under path.
+    Raises:
+        KeyFileError:
+            Raised if the file does not exists, is not readable, or writable.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_keyfile/keyfile_impl.py" line="294" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_keyfile/keyfile_impl.py" bodystart="294" bodyend="304"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_keyfile_1a6cd8c6885bf5818ce214febbe63887f6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._keyfile.keyfile_impl.Keyfile.set_keypair</definition>
+        <argsstring>(self, &apos;bittensor.Keypair&apos; keypair, bool encrypt=True, bool overwrite=False, str password=None)</argsstring>
+        <name>set_keypair</name>
+        <qualifiedname>bittensor._keyfile.keyfile_impl.Keyfile.set_keypair</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>&apos;bittensor.Keypair&apos;</type>
+          <declname>keypair</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>encrypt</declname>
+          <defval>True</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>overwrite</declname>
+          <defval>False</defval>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>password</declname>
+          <defval>None</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Writes the keypair to the file and optional encrypts data.
+    Args:
+        keypair (bittensor.Keypair):
+            Keypair to store under path.
+        encrypt ( bool, optional, default = True ):
+            If True, encrypts file under path.
+        overwrite ( bool, optional, default = True ):
+            If True, forces overwrite of current file.
+        password ( str, optional ):
+            Optional password used to encrypt file. If None, asks for user input.
+    Raises:
+        KeyFileError:
+            Raised if the file does not exists, is not readable, or writable.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_keyfile/keyfile_impl.py" line="305" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_keyfile/keyfile_impl.py" bodystart="305" bodyend="325"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_keyfile_1af5b9f07e88fc0dbc9fc94e2e97490c6e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type> &apos;bittensor.Keypair&apos;</type>
+        <definition> &apos;bittensor.Keypair&apos; bittensor._keyfile.keyfile_impl.Keyfile.get_keypair</definition>
+        <argsstring>(self, str password=None)</argsstring>
+        <name>get_keypair</name>
+        <qualifiedname>bittensor._keyfile.keyfile_impl.Keyfile.get_keypair</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>password</declname>
+          <defval>None</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Returns the keypair from path, decrypts data if the file is encrypted.
+    Args:
+        password ( str, optional ):
+            Optional password used to decrypt file. If None, asks for user input.
+    Returns:
+        keypair (bittensor.Keypair):
+            Keypair stored under path.
+    Raises:
+        KeyFileError:
+            Raised if the file does not exists, is not readable, writable 
+            corrupted, or if the password is incorrect.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_keyfile/keyfile_impl.py" line="326" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_keyfile/keyfile_impl.py" bodystart="326" bodyend="343"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_keyfile_1a0d8dd9d1339cd24982500afdc7964546" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._keyfile.keyfile_impl.Keyfile.make_dirs</definition>
+        <argsstring>(self)</argsstring>
+        <name>make_dirs</name>
+        <qualifiedname>bittensor._keyfile.keyfile_impl.Keyfile.make_dirs</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Makes directories for path.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_keyfile/keyfile_impl.py" line="344" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_keyfile/keyfile_impl.py" bodystart="344" bodyend="350"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_keyfile_1aae61dd8080aa8b20c16906bd55e40200" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool bittensor._keyfile.keyfile_impl.Keyfile.exists_on_device</definition>
+        <argsstring>(self)</argsstring>
+        <name>exists_on_device</name>
+        <qualifiedname>bittensor._keyfile.keyfile_impl.Keyfile.exists_on_device</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Returns true if the file exists on the device.
+    Returns:
+        on_device (bool):
+            True if the file is on device.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_keyfile/keyfile_impl.py" line="351" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_keyfile/keyfile_impl.py" bodystart="351" bodyend="360"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_keyfile_1ae89e29be6bb73f4c5d93f6dffe197886" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool bittensor._keyfile.keyfile_impl.Keyfile.is_readable</definition>
+        <argsstring>(self)</argsstring>
+        <name>is_readable</name>
+        <qualifiedname>bittensor._keyfile.keyfile_impl.Keyfile.is_readable</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Returns true if the file under path is readable.
+    Returns:
+        readable (bool):
+            True if the file is readable.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_keyfile/keyfile_impl.py" line="361" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_keyfile/keyfile_impl.py" bodystart="361" bodyend="372"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_keyfile_1a07173ee799689c445493368512c1b135" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool bittensor._keyfile.keyfile_impl.Keyfile.is_writable</definition>
+        <argsstring>(self)</argsstring>
+        <name>is_writable</name>
+        <qualifiedname>bittensor._keyfile.keyfile_impl.Keyfile.is_writable</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Returns true if the file under path is writable.
+    Returns:
+        writable (bool):
+            True if the file is writable.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_keyfile/keyfile_impl.py" line="373" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_keyfile/keyfile_impl.py" bodystart="373" bodyend="382"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_keyfile_1ad413bbc7faf38a71a436099fa98673ec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool bittensor._keyfile.keyfile_impl.Keyfile.is_encrypted</definition>
+        <argsstring>(self)</argsstring>
+        <name>is_encrypted</name>
+        <qualifiedname>bittensor._keyfile.keyfile_impl.Keyfile.is_encrypted</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Returns true if the file under path is encrypted.
+    Returns:
+        encrypted (bool):
+            True if the file is encrypted.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_keyfile/keyfile_impl.py" line="383" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_keyfile/keyfile_impl.py" bodystart="383" bodyend="394"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_keyfile_1ad4292d86cd05d09f46bb148c4e1a135a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._keyfile.keyfile_impl.Keyfile.encrypt</definition>
+        <argsstring>(self, str password=None)</argsstring>
+        <name>encrypt</name>
+        <qualifiedname>bittensor._keyfile.keyfile_impl.Keyfile.encrypt</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>password</declname>
+          <defval>None</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Encrypts file under path.
+    Args:
+        password: (str, optional):
+            Optional password for encryption. Otherwise asks for user input.
+    Raises:
+        KeyFileError:
+            Raised if the file does not exists, is not readable, writable.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_keyfile/keyfile_impl.py" line="399" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_keyfile/keyfile_impl.py" bodystart="399" bodyend="420"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_keyfile_1aa68fcf205c5234ad1725d8fd41264e28" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._keyfile.keyfile_impl.Keyfile.decrypt</definition>
+        <argsstring>(self, str password=None)</argsstring>
+        <name>decrypt</name>
+        <qualifiedname>bittensor._keyfile.keyfile_impl.Keyfile.decrypt</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>password</declname>
+          <defval>None</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Decrypts file under path.
+    Args:
+        password: (str, optional):
+            Optional password for decryption. Otherwise asks for user input.
+    Raises:
+        KeyFileError:
+            Raised if the file does not exists, is not readable, writable 
+            corrupted, or if the password is incorrect.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_keyfile/keyfile_impl.py" line="421" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_keyfile/keyfile_impl.py" bodystart="421" bodyend="443"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_keyfile_1ad1fc6e07b90a2ff78488d4a3b115b70f" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool bittensor._keyfile.keyfile_impl.Keyfile._may_overwrite</definition>
+        <argsstring>(self)</argsstring>
+        <name>_may_overwrite</name>
+        <qualifiedname>bittensor._keyfile.keyfile_impl.Keyfile._may_overwrite</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_keyfile/keyfile_impl.py" line="395" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_keyfile/keyfile_impl.py" bodystart="395" bodyend="398"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_keyfile_1a35a65736ecb1b571e571a27df0cde5e5" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bytes</type>
+        <definition> bytes bittensor._keyfile.keyfile_impl.Keyfile._read_keyfile_data_from_file</definition>
+        <argsstring>(self)</argsstring>
+        <name>_read_keyfile_data_from_file</name>
+        <qualifiedname>bittensor._keyfile.keyfile_impl.Keyfile._read_keyfile_data_from_file</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Reads keyfile data from path.
+    Returns:
+        keyfile_data: (bytes, required):
+            Keyfile data sotred under path.
+    Raises:
+        KeyFileError:
+            Raised if the file does not exists or is not readable.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_keyfile/keyfile_impl.py" line="444" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_keyfile/keyfile_impl.py" bodystart="444" bodyend="460"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_keyfile_1a99174e45bad19a8d43023cd17d5f3ce5" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._keyfile.keyfile_impl.Keyfile._write_keyfile_data_to_file</definition>
+        <argsstring>(self, bytes keyfile_data, bool overwrite=False)</argsstring>
+        <name>_write_keyfile_data_to_file</name>
+        <qualifiedname>bittensor._keyfile.keyfile_impl.Keyfile._write_keyfile_data_to_file</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>bytes</type>
+          <declname>keyfile_data</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>overwrite</declname>
+          <defval>False</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Writes the keyfile data to path, if overwrite is true, forces operation without asking.
+    Args:
+        keyfile_data: (bytes, required):
+            Byte data to store under path.
+        overwrite (bool, optional):
+            If True, overwrites data without asking for overwrite permissions from the user.
+    Raises:
+        KeyFileError:
+            Raised if the file is not writable or the user returns No to overwrite prompt.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_keyfile/keyfile_impl.py" line="461" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_keyfile/keyfile_impl.py" bodystart="461" bodyend="481"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim> Defines an interface for a subtrate interface keypair stored on device.
+</verbatim> </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>bittensor._keyfile.keyfile_impl.Keyfile</label>
+        <link refid="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_keyfile"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>object</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>bittensor._keyfile.keyfile_impl.Keyfile</label>
+        <link refid="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_keyfile"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>object</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/macthrasher/bittensor/bittensor/_keyfile/keyfile_impl.py" line="247" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_keyfile/keyfile_impl.py" bodystart="247" bodyend="481"/>
+    <listofallmembers>
+      <member refid="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_keyfile_1a676ad4b908819238fb2839c174f5ddb0" prot="public" virt="non-virtual"><scope>bittensor::_keyfile::keyfile_impl::Keyfile</scope><name>__init__</name></member>
+      <member refid="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_keyfile_1a70251f103ffb0821cb80c7a42c689c13" prot="public" virt="non-virtual"><scope>bittensor::_keyfile::keyfile_impl::Keyfile</scope><name>__repr__</name></member>
+      <member refid="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_keyfile_1ace444327efe72b0c732ecdc78e4a217a" prot="public" virt="non-virtual"><scope>bittensor::_keyfile::keyfile_impl::Keyfile</scope><name>__str__</name></member>
+      <member refid="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_keyfile_1ad1fc6e07b90a2ff78488d4a3b115b70f" prot="protected" virt="non-virtual"><scope>bittensor::_keyfile::keyfile_impl::Keyfile</scope><name>_may_overwrite</name></member>
+      <member refid="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_keyfile_1a35a65736ecb1b571e571a27df0cde5e5" prot="protected" virt="non-virtual"><scope>bittensor::_keyfile::keyfile_impl::Keyfile</scope><name>_read_keyfile_data_from_file</name></member>
+      <member refid="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_keyfile_1a99174e45bad19a8d43023cd17d5f3ce5" prot="protected" virt="non-virtual"><scope>bittensor::_keyfile::keyfile_impl::Keyfile</scope><name>_write_keyfile_data_to_file</name></member>
+      <member refid="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_keyfile_1adef2640c132af5c43448d3da467b7ab3" prot="public" virt="non-virtual"><scope>bittensor::_keyfile::keyfile_impl::Keyfile</scope><name>data</name></member>
+      <member refid="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_keyfile_1aa68fcf205c5234ad1725d8fd41264e28" prot="public" virt="non-virtual"><scope>bittensor::_keyfile::keyfile_impl::Keyfile</scope><name>decrypt</name></member>
+      <member refid="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_keyfile_1ad4292d86cd05d09f46bb148c4e1a135a" prot="public" virt="non-virtual"><scope>bittensor::_keyfile::keyfile_impl::Keyfile</scope><name>encrypt</name></member>
+      <member refid="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_keyfile_1aae61dd8080aa8b20c16906bd55e40200" prot="public" virt="non-virtual"><scope>bittensor::_keyfile::keyfile_impl::Keyfile</scope><name>exists_on_device</name></member>
+      <member refid="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_keyfile_1af5b9f07e88fc0dbc9fc94e2e97490c6e" prot="public" virt="non-virtual"><scope>bittensor::_keyfile::keyfile_impl::Keyfile</scope><name>get_keypair</name></member>
+      <member refid="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_keyfile_1ad413bbc7faf38a71a436099fa98673ec" prot="public" virt="non-virtual"><scope>bittensor::_keyfile::keyfile_impl::Keyfile</scope><name>is_encrypted</name></member>
+      <member refid="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_keyfile_1ae89e29be6bb73f4c5d93f6dffe197886" prot="public" virt="non-virtual"><scope>bittensor::_keyfile::keyfile_impl::Keyfile</scope><name>is_readable</name></member>
+      <member refid="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_keyfile_1a07173ee799689c445493368512c1b135" prot="public" virt="non-virtual"><scope>bittensor::_keyfile::keyfile_impl::Keyfile</scope><name>is_writable</name></member>
+      <member refid="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_keyfile_1a960494a52126409f55eea00f0cf30f0f" prot="public" virt="non-virtual"><scope>bittensor::_keyfile::keyfile_impl::Keyfile</scope><name>keyfile_data</name></member>
+      <member refid="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_keyfile_1abf9c1149326695e827f98e65635ccc1c" prot="public" virt="non-virtual"><scope>bittensor::_keyfile::keyfile_impl::Keyfile</scope><name>keypair</name></member>
+      <member refid="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_keyfile_1a0d8dd9d1339cd24982500afdc7964546" prot="public" virt="non-virtual"><scope>bittensor::_keyfile::keyfile_impl::Keyfile</scope><name>make_dirs</name></member>
+      <member refid="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_keyfile_1a4715c6a6d37730a6615f772f4ccfe847" prot="public" virt="non-virtual"><scope>bittensor::_keyfile::keyfile_impl::Keyfile</scope><name>name</name></member>
+      <member refid="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_keyfile_1a7d200c2b4305e100ce1079965eb40f9b" prot="public" virt="non-virtual"><scope>bittensor::_keyfile::keyfile_impl::Keyfile</scope><name>path</name></member>
+      <member refid="classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_keyfile_1a6cd8c6885bf5818ce214febbe63887f6" prot="public" virt="non-virtual"><scope>bittensor::_keyfile::keyfile_impl::Keyfile</scope><name>set_keypair</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

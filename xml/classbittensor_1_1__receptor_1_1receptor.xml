@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="classbittensor_1_1__receptor_1_1receptor" kind="class" language="Python" prot="public">
+    <compoundname>bittensor::_receptor::receptor</compoundname>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classbittensor_1_1__receptor_1_1receptor_1a13a9e0e9304877542df3752a0f451c16" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type> &apos;<ref refid="classbittensor_1_1__receptor_1_1receptor__impl_1_1_receptor" kindref="compound">bittensor.Receptor</ref>&apos;</type>
+        <definition> &apos;bittensor.Receptor&apos; bittensor._receptor.receptor.__new__</definition>
+        <argsstring>(cls, &apos;bittensor.Endpoint&apos; endpoint, &apos;int&apos; max_processes=1, &apos;bittensor.Wallet&apos; wallet=None, &apos;str&apos; external_ip=None, str compression=None)</argsstring>
+        <name>__new__</name>
+        <qualifiedname>bittensor._receptor.receptor.__new__</qualifiedname>
+        <param>
+          <type>cls</type>
+          <defname>cls</defname>
+        </param>
+        <param>
+          <type>&apos;<ref refid="classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint" kindref="compound">bittensor.Endpoint</ref>&apos;</type>
+          <declname>endpoint</declname>
+        </param>
+        <param>
+          <type>&apos;int&apos;</type>
+          <declname>max_processes</declname>
+          <defval>1</defval>
+        </param>
+        <param>
+          <type>&apos;<ref refid="classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet" kindref="compound">bittensor.Wallet</ref>&apos;</type>
+          <declname>wallet</declname>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type>&apos;str&apos;</type>
+          <declname>external_ip</declname>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>compression</declname>
+          <defval>None</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Initializes a receptor grpc connection.
+        Args:
+            endpoint (:obj:`bittensor.Endpoint`, `required`):
+                neuron endpoint descriptor.</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_receptor/__init__.py" line="30" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_receptor/__init__.py" bodystart="37" bodyend="77"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim> Create and init the receptor object, which encapsulates a grpc connection to an axon endpoint
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/Users/macthrasher/bittensor/bittensor/_receptor/__init__.py" line="27" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_receptor/__init__.py" bodystart="27" bodyend="77"/>
+    <listofallmembers>
+      <member refid="classbittensor_1_1__receptor_1_1receptor_1a13a9e0e9304877542df3752a0f451c16" prot="public" virt="non-virtual"><scope>bittensor::_receptor::receptor</scope><name>__new__</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

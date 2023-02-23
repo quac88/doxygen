@@ -1,0 +1,514 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="classbittensor_1_1__dataset_1_1dataset__mock_1_1_mock_genesis_text_dataset" kind="class" language="Python" prot="public">
+    <compoundname>bittensor::_dataset::dataset_mock::MockGenesisTextDataset</compoundname>
+    <basecompoundref refid="classbittensor_1_1__dataset_1_1dataset__impl_1_1_dataset" prot="public" virt="non-virtual">bittensor._dataset.dataset_impl.Dataset</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classbittensor_1_1__dataset_1_1dataset__mock_1_1_mock_genesis_text_dataset_1a1b2beed07f5ae3dd8feb4c119655e3b2" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._dataset.dataset_mock.MockGenesisTextDataset::block_size</definition>
+        <argsstring></argsstring>
+        <name>block_size</name>
+        <qualifiedname>bittensor._dataset.dataset_mock.MockGenesisTextDataset.block_size</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_dataset/dataset_mock.py" line="45" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_dataset/dataset_mock.py" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__dataset_1_1dataset__mock_1_1_mock_genesis_text_dataset_1a7dab52a98bae8fcd8b212b459e879853" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._dataset.dataset_mock.MockGenesisTextDataset::batch_size</definition>
+        <argsstring></argsstring>
+        <name>batch_size</name>
+        <qualifiedname>bittensor._dataset.dataset_mock.MockGenesisTextDataset.batch_size</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_dataset/dataset_mock.py" line="46" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_dataset/dataset_mock.py" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__dataset_1_1dataset__mock_1_1_mock_genesis_text_dataset_1a7ddc8482e1ba8317a3ed5036514d6d4e" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._dataset.dataset_mock.MockGenesisTextDataset::num_workers</definition>
+        <argsstring></argsstring>
+        <name>num_workers</name>
+        <qualifiedname>bittensor._dataset.dataset_mock.MockGenesisTextDataset.num_workers</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_dataset/dataset_mock.py" line="47" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_dataset/dataset_mock.py" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__dataset_1_1dataset__mock_1_1_mock_genesis_text_dataset_1a268b9f789609d111adde536e6843728a" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._dataset.dataset_mock.MockGenesisTextDataset::tokenizer</definition>
+        <argsstring></argsstring>
+        <name>tokenizer</name>
+        <qualifiedname>bittensor._dataset.dataset_mock.MockGenesisTextDataset.tokenizer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_dataset/dataset_mock.py" line="48" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_dataset/dataset_mock.py" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__dataset_1_1dataset__mock_1_1_mock_genesis_text_dataset_1a40126bc19fb8e4e3b0a774fd4dcf5b23" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._dataset.dataset_mock.MockGenesisTextDataset::dataset_name</definition>
+        <argsstring></argsstring>
+        <name>dataset_name</name>
+        <qualifiedname>bittensor._dataset.dataset_mock.MockGenesisTextDataset.dataset_name</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_dataset/dataset_mock.py" line="49" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_dataset/dataset_mock.py" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__dataset_1_1dataset__mock_1_1_mock_genesis_text_dataset_1afc148bf54342734d170c6b1ec57b8eed" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._dataset.dataset_mock.MockGenesisTextDataset::data_dir</definition>
+        <argsstring></argsstring>
+        <name>data_dir</name>
+        <qualifiedname>bittensor._dataset.dataset_mock.MockGenesisTextDataset.data_dir</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_dataset/dataset_mock.py" line="50" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_dataset/dataset_mock.py" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__dataset_1_1dataset__mock_1_1_mock_genesis_text_dataset_1a6152827ec22641005021fcee565a917d" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._dataset.dataset_mock.MockGenesisTextDataset::save_dataset</definition>
+        <argsstring></argsstring>
+        <name>save_dataset</name>
+        <qualifiedname>bittensor._dataset.dataset_mock.MockGenesisTextDataset.save_dataset</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_dataset/dataset_mock.py" line="51" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_dataset/dataset_mock.py" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__dataset_1_1dataset__mock_1_1_mock_genesis_text_dataset_1adb06f58906ab73744586de97097f3c65" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._dataset.dataset_mock.MockGenesisTextDataset::datafile_size_bound</definition>
+        <argsstring></argsstring>
+        <name>datafile_size_bound</name>
+        <qualifiedname>bittensor._dataset.dataset_mock.MockGenesisTextDataset.datafile_size_bound</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_dataset/dataset_mock.py" line="52" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_dataset/dataset_mock.py" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__dataset_1_1dataset__mock_1_1_mock_genesis_text_dataset_1a3fadc95b4b24eab714aee269fd40ccd5" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._dataset.dataset_mock.MockGenesisTextDataset::max_datasets</definition>
+        <argsstring></argsstring>
+        <name>max_datasets</name>
+        <qualifiedname>bittensor._dataset.dataset_mock.MockGenesisTextDataset.max_datasets</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_dataset/dataset_mock.py" line="53" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_dataset/dataset_mock.py" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__dataset_1_1dataset__mock_1_1_mock_genesis_text_dataset_1a0ec4f120de91beb283b981ae594a588c" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._dataset.dataset_mock.MockGenesisTextDataset::no_tokenizer</definition>
+        <argsstring></argsstring>
+        <name>no_tokenizer</name>
+        <qualifiedname>bittensor._dataset.dataset_mock.MockGenesisTextDataset.no_tokenizer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_dataset/dataset_mock.py" line="55" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_dataset/dataset_mock.py" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__dataset_1_1dataset__mock_1_1_mock_genesis_text_dataset_1acdc502e0710f4388c55ef0f037081fcb" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._dataset.dataset_mock.MockGenesisTextDataset::max_directories</definition>
+        <argsstring></argsstring>
+        <name>max_directories</name>
+        <qualifiedname>bittensor._dataset.dataset_mock.MockGenesisTextDataset.max_directories</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_dataset/dataset_mock.py" line="56" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_dataset/dataset_mock.py" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__dataset_1_1dataset__mock_1_1_mock_genesis_text_dataset_1a40005e4bc9ea411afbf3269db9f581f6" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._dataset.dataset_mock.MockGenesisTextDataset::data</definition>
+        <argsstring></argsstring>
+        <name>data</name>
+        <qualifiedname>bittensor._dataset.dataset_mock.MockGenesisTextDataset.data</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_dataset/dataset_mock.py" line="59" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_dataset/dataset_mock.py" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__dataset_1_1dataset__mock_1_1_mock_genesis_text_dataset_1a40087a79a5fbaedbf80db7de84ef294b" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._dataset.dataset_mock.MockGenesisTextDataset::data_remained</definition>
+        <argsstring></argsstring>
+        <name>data_remained</name>
+        <qualifiedname>bittensor._dataset.dataset_mock.MockGenesisTextDataset.data_remained</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_dataset/dataset_mock.py" line="60" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_dataset/dataset_mock.py" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classbittensor_1_1__dataset_1_1dataset__mock_1_1_mock_genesis_text_dataset_1a5d9ee23c34c353bf679c4809e1b5950e" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._dataset.dataset_mock.MockGenesisTextDataset::__infinite_dataset_iterator</definition>
+        <argsstring></argsstring>
+        <name>__infinite_dataset_iterator</name>
+        <qualifiedname>bittensor._dataset.dataset_mock.MockGenesisTextDataset.__infinite_dataset_iterator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_dataset/dataset_mock.py" line="54" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_dataset/dataset_mock.py" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classbittensor_1_1__dataset_1_1dataset__mock_1_1_mock_genesis_text_dataset_1a65ab9aa29f7757d7705f08f87632ab95" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._dataset.dataset_mock.MockGenesisTextDataset.__init__</definition>
+        <argsstring>(self, block_size, batch_size, num_workers, dataset_name, data_dir, save_dataset, max_datasets, no_tokenizer, num_batches, max_directories)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>bittensor._dataset.dataset_mock.MockGenesisTextDataset.__init__</qualifiedname>
+        <reimplements refid="classbittensor_1_1__dataset_1_1dataset__impl_1_1_dataset_1a60a63337f780daa76d50af7e61402ded">__init__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>block_size</type>
+          <defname>block_size</defname>
+        </param>
+        <param>
+          <type>batch_size</type>
+          <defname>batch_size</defname>
+        </param>
+        <param>
+          <type>num_workers</type>
+          <defname>num_workers</defname>
+        </param>
+        <param>
+          <type>dataset_name</type>
+          <defname>dataset_name</defname>
+        </param>
+        <param>
+          <type>data_dir</type>
+          <defname>data_dir</defname>
+        </param>
+        <param>
+          <type>save_dataset</type>
+          <defname>save_dataset</defname>
+        </param>
+        <param>
+          <type>max_datasets</type>
+          <defname>max_datasets</defname>
+        </param>
+        <param>
+          <type>no_tokenizer</type>
+          <defname>no_tokenizer</defname>
+        </param>
+        <param>
+          <type>num_batches</type>
+          <defname>num_batches</defname>
+        </param>
+        <param>
+          <type>max_directories</type>
+          <defname>max_directories</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_dataset/dataset_mock.py" line="31" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_dataset/dataset_mock.py" bodystart="43" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__dataset_1_1dataset__mock_1_1_mock_genesis_text_dataset_1a157914b489048a1ff1cabc5bf3815748" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._dataset.dataset_mock.MockGenesisTextDataset.close</definition>
+        <argsstring>(self)</argsstring>
+        <name>close</name>
+        <qualifiedname>bittensor._dataset.dataset_mock.MockGenesisTextDataset.close</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_dataset/dataset_mock.py" line="62" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_dataset/dataset_mock.py" bodystart="62" bodyend="64"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__dataset_1_1dataset__mock_1_1_mock_genesis_text_dataset_1a080c4e04723987d9561491c366bd24f7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._dataset.dataset_mock.MockGenesisTextDataset.__del__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__del__</name>
+        <qualifiedname>bittensor._dataset.dataset_mock.MockGenesisTextDataset.__del__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_dataset/dataset_mock.py" line="65" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_dataset/dataset_mock.py" bodystart="65" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__dataset_1_1dataset__mock_1_1_mock_genesis_text_dataset_1a129e52b186d8e0c956881ac6cae6067e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._dataset.dataset_mock.MockGenesisTextDataset.construct_text_corpus</definition>
+        <argsstring>(self, min_data_len=0)</argsstring>
+        <name>construct_text_corpus</name>
+        <qualifiedname>bittensor._dataset.dataset_mock.MockGenesisTextDataset.construct_text_corpus</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>min_data_len</type>
+          <defname>min_data_len</defname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_dataset/dataset_mock.py" line="68" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_dataset/dataset_mock.py" bodystart="68" bodyend="79"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__dataset_1_1dataset__mock_1_1_mock_genesis_text_dataset_1a472c4806ab9f4781027b5a340217efc7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._dataset.dataset_mock.MockGenesisTextDataset.dataloader</definition>
+        <argsstring>(self, epoch_length=100)</argsstring>
+        <name>dataloader</name>
+        <qualifiedname>bittensor._dataset.dataset_mock.MockGenesisTextDataset.dataloader</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>epoch_length</type>
+          <defname>epoch_length</defname>
+          <defval>100</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Creates a torch dataloader out of a subclass of this class.
+
+Args:
+    epoch_length (int, optional): The epoch length of the miner. If this length is not set or if it is larger than the dataset,
+    then a dataloader for the entire dataset is returned. Otherwise, a dataloader for a subset of the dataset of epoch_length
+    is returned. Defaults to None.
+
+Returns:
+    torch.utils.data.dataloader.DataLoader: Pytorch dataloader.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_dataset/dataset_mock.py" line="90" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_dataset/dataset_mock.py" bodystart="90" bodyend="107"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__dataset_1_1dataset__mock_1_1_mock_genesis_text_dataset_1ade55894c4d45f78dcf75c44448c85e50" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._dataset.dataset_mock.MockGenesisTextDataset.__next__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__next__</name>
+        <qualifiedname>bittensor._dataset.dataset_mock.MockGenesisTextDataset.__next__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Returns the next element from the dataset. 
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_dataset/dataset_mock.py" line="108" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_dataset/dataset_mock.py" bodystart="108" bodyend="118"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__dataset_1_1dataset__mock_1_1_mock_genesis_text_dataset_1a38c1ef29ee25c9c535bb87dd03f58aec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._dataset.dataset_mock.MockGenesisTextDataset.__len__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__len__</name>
+        <qualifiedname>bittensor._dataset.dataset_mock.MockGenesisTextDataset.__len__</qualifiedname>
+        <reimplements refid="classbittensor_1_1__dataset_1_1dataset__impl_1_1_dataset_1a64b7e8477907e64b2e737833e3802d6f">__len__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Returns number of samples (blocks) of dataset
+
+Returns:
+    length: int
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_dataset/dataset_mock.py" line="119" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_dataset/dataset_mock.py" bodystart="119" bodyend="128"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__dataset_1_1dataset__mock_1_1_mock_genesis_text_dataset_1adcc20e51c20c9698c140469b09655db5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._dataset.dataset_mock.MockGenesisTextDataset.__getitem__</definition>
+        <argsstring>(self, idx)</argsstring>
+        <name>__getitem__</name>
+        <qualifiedname>bittensor._dataset.dataset_mock.MockGenesisTextDataset.__getitem__</qualifiedname>
+        <reimplements refid="classbittensor_1_1__dataset_1_1dataset__impl_1_1_dataset_1a495efa0d0eeee76dc87dad2b6c82036e">__getitem__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>idx</type>
+          <defname>idx</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Returns a block of sentences from text dataset.
+
+    Args:
+        idx: index of data input
+
+    Returns:
+        torch.tensor(dix)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_dataset/dataset_mock.py" line="129" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_dataset/dataset_mock.py" bodystart="129" bodyend="147"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classbittensor_1_1__dataset_1_1dataset__mock_1_1_mock_genesis_text_dataset_1afc63af802764f324b1240d54acd44c74" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._dataset.dataset_mock.MockGenesisTextDataset._fill_data</definition>
+        <argsstring>(self, int epoch_length=100)</argsstring>
+        <name>_fill_data</name>
+        <qualifiedname>bittensor._dataset.dataset_mock.MockGenesisTextDataset._fill_data</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>epoch_length</declname>
+          <defval>100</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_dataset/dataset_mock.py" line="80" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_dataset/dataset_mock.py" bodystart="80" bodyend="89"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>bittensor._dataset.dataset_mock.MockGenesisTextDataset</label>
+        <link refid="classbittensor_1_1__dataset_1_1dataset__mock_1_1_mock_genesis_text_dataset"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>bittensor._dataset.dataset_impl.Dataset</label>
+        <link refid="classbittensor_1_1__dataset_1_1dataset__impl_1_1_dataset"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>bittensor._dataset.dataset_mock.MockGenesisTextDataset</label>
+        <link refid="classbittensor_1_1__dataset_1_1dataset__mock_1_1_mock_genesis_text_dataset"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>bittensor._dataset.dataset_impl.Dataset</label>
+        <link refid="classbittensor_1_1__dataset_1_1dataset__impl_1_1_dataset"/>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/macthrasher/bittensor/bittensor/_dataset/dataset_mock.py" line="30" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_dataset/dataset_mock.py" bodystart="30" bodyend="147"/>
+    <listofallmembers>
+      <member refid="classbittensor_1_1__dataset_1_1dataset__mock_1_1_mock_genesis_text_dataset_1a080c4e04723987d9561491c366bd24f7" prot="public" virt="non-virtual"><scope>bittensor::_dataset::dataset_mock::MockGenesisTextDataset</scope><name>__del__</name></member>
+      <member refid="classbittensor_1_1__dataset_1_1dataset__mock_1_1_mock_genesis_text_dataset_1adcc20e51c20c9698c140469b09655db5" prot="public" virt="non-virtual"><scope>bittensor::_dataset::dataset_mock::MockGenesisTextDataset</scope><name>__getitem__</name></member>
+      <member refid="classbittensor_1_1__dataset_1_1dataset__mock_1_1_mock_genesis_text_dataset_1a5d9ee23c34c353bf679c4809e1b5950e" prot="private" virt="non-virtual"><scope>bittensor::_dataset::dataset_mock::MockGenesisTextDataset</scope><name>__infinite_dataset_iterator</name></member>
+      <member refid="classbittensor_1_1__dataset_1_1dataset__mock_1_1_mock_genesis_text_dataset_1a65ab9aa29f7757d7705f08f87632ab95" prot="public" virt="non-virtual"><scope>bittensor::_dataset::dataset_mock::MockGenesisTextDataset</scope><name>__init__</name></member>
+      <member refid="classbittensor_1_1__dataset_1_1dataset__mock_1_1_mock_genesis_text_dataset_1a38c1ef29ee25c9c535bb87dd03f58aec" prot="public" virt="non-virtual"><scope>bittensor::_dataset::dataset_mock::MockGenesisTextDataset</scope><name>__len__</name></member>
+      <member refid="classbittensor_1_1__dataset_1_1dataset__mock_1_1_mock_genesis_text_dataset_1ade55894c4d45f78dcf75c44448c85e50" prot="public" virt="non-virtual"><scope>bittensor::_dataset::dataset_mock::MockGenesisTextDataset</scope><name>__next__</name></member>
+      <member refid="classbittensor_1_1__dataset_1_1dataset__mock_1_1_mock_genesis_text_dataset_1afc63af802764f324b1240d54acd44c74" prot="protected" virt="non-virtual"><scope>bittensor::_dataset::dataset_mock::MockGenesisTextDataset</scope><name>_fill_data</name></member>
+      <member refid="classbittensor_1_1__dataset_1_1dataset__mock_1_1_mock_genesis_text_dataset_1a7dab52a98bae8fcd8b212b459e879853" prot="public" virt="non-virtual"><scope>bittensor::_dataset::dataset_mock::MockGenesisTextDataset</scope><name>batch_size</name></member>
+      <member refid="classbittensor_1_1__dataset_1_1dataset__mock_1_1_mock_genesis_text_dataset_1a1b2beed07f5ae3dd8feb4c119655e3b2" prot="public" virt="non-virtual"><scope>bittensor::_dataset::dataset_mock::MockGenesisTextDataset</scope><name>block_size</name></member>
+      <member refid="classbittensor_1_1__dataset_1_1dataset__mock_1_1_mock_genesis_text_dataset_1a157914b489048a1ff1cabc5bf3815748" prot="public" virt="non-virtual"><scope>bittensor::_dataset::dataset_mock::MockGenesisTextDataset</scope><name>close</name></member>
+      <member refid="classbittensor_1_1__dataset_1_1dataset__mock_1_1_mock_genesis_text_dataset_1a129e52b186d8e0c956881ac6cae6067e" prot="public" virt="non-virtual"><scope>bittensor::_dataset::dataset_mock::MockGenesisTextDataset</scope><name>construct_text_corpus</name></member>
+      <member refid="classbittensor_1_1__dataset_1_1dataset__mock_1_1_mock_genesis_text_dataset_1a40005e4bc9ea411afbf3269db9f581f6" prot="public" virt="non-virtual"><scope>bittensor::_dataset::dataset_mock::MockGenesisTextDataset</scope><name>data</name></member>
+      <member refid="classbittensor_1_1__dataset_1_1dataset__mock_1_1_mock_genesis_text_dataset_1afc148bf54342734d170c6b1ec57b8eed" prot="public" virt="non-virtual"><scope>bittensor::_dataset::dataset_mock::MockGenesisTextDataset</scope><name>data_dir</name></member>
+      <member refid="classbittensor_1_1__dataset_1_1dataset__mock_1_1_mock_genesis_text_dataset_1a40087a79a5fbaedbf80db7de84ef294b" prot="public" virt="non-virtual"><scope>bittensor::_dataset::dataset_mock::MockGenesisTextDataset</scope><name>data_remained</name></member>
+      <member refid="classbittensor_1_1__dataset_1_1dataset__mock_1_1_mock_genesis_text_dataset_1adb06f58906ab73744586de97097f3c65" prot="public" virt="non-virtual"><scope>bittensor::_dataset::dataset_mock::MockGenesisTextDataset</scope><name>datafile_size_bound</name></member>
+      <member refid="classbittensor_1_1__dataset_1_1dataset__mock_1_1_mock_genesis_text_dataset_1a472c4806ab9f4781027b5a340217efc7" prot="public" virt="non-virtual"><scope>bittensor::_dataset::dataset_mock::MockGenesisTextDataset</scope><name>dataloader</name></member>
+      <member refid="classbittensor_1_1__dataset_1_1dataset__mock_1_1_mock_genesis_text_dataset_1a40126bc19fb8e4e3b0a774fd4dcf5b23" prot="public" virt="non-virtual"><scope>bittensor::_dataset::dataset_mock::MockGenesisTextDataset</scope><name>dataset_name</name></member>
+      <member refid="classbittensor_1_1__dataset_1_1dataset__mock_1_1_mock_genesis_text_dataset_1a3fadc95b4b24eab714aee269fd40ccd5" prot="public" virt="non-virtual"><scope>bittensor::_dataset::dataset_mock::MockGenesisTextDataset</scope><name>max_datasets</name></member>
+      <member refid="classbittensor_1_1__dataset_1_1dataset__mock_1_1_mock_genesis_text_dataset_1acdc502e0710f4388c55ef0f037081fcb" prot="public" virt="non-virtual"><scope>bittensor::_dataset::dataset_mock::MockGenesisTextDataset</scope><name>max_directories</name></member>
+      <member refid="classbittensor_1_1__dataset_1_1dataset__mock_1_1_mock_genesis_text_dataset_1a0ec4f120de91beb283b981ae594a588c" prot="public" virt="non-virtual"><scope>bittensor::_dataset::dataset_mock::MockGenesisTextDataset</scope><name>no_tokenizer</name></member>
+      <member refid="classbittensor_1_1__dataset_1_1dataset__mock_1_1_mock_genesis_text_dataset_1a7ddc8482e1ba8317a3ed5036514d6d4e" prot="public" virt="non-virtual"><scope>bittensor::_dataset::dataset_mock::MockGenesisTextDataset</scope><name>num_workers</name></member>
+      <member refid="classbittensor_1_1__dataset_1_1dataset__mock_1_1_mock_genesis_text_dataset_1a6152827ec22641005021fcee565a917d" prot="public" virt="non-virtual"><scope>bittensor::_dataset::dataset_mock::MockGenesisTextDataset</scope><name>save_dataset</name></member>
+      <member refid="classbittensor_1_1__dataset_1_1dataset__mock_1_1_mock_genesis_text_dataset_1a268b9f789609d111adde536e6843728a" prot="public" virt="non-virtual"><scope>bittensor::_dataset::dataset_mock::MockGenesisTextDataset</scope><name>tokenizer</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

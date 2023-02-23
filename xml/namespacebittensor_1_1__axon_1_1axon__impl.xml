@@ -1,0 +1,226 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="namespacebittensor_1_1__axon_1_1axon__impl" kind="namespace" language="Python">
+    <compoundname>bittensor::_axon::axon_impl</compoundname>
+    <innerclass refid="classbittensor_1_1__axon_1_1axon__impl_1_1_axon" prot="public">bittensor::_axon::axon_impl::Axon</innerclass>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="namespacebittensor_1_1__axon_1_1axon__impl_1a9a755e3fbbe879598c007a5e52537e61" prot="public" static="no" mutable="no">
+        <type>logger</type>
+        <definition>logger bittensor::_axon::axon_impl.logger</definition>
+        <argsstring></argsstring>
+        <name>logger</name>
+        <qualifiedname>bittensor._axon.axon_impl.logger</qualifiedname>
+        <initializer>=  logger.opt(colors=True)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_axon/axon_impl.py" line="40" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_axon/axon_impl.py" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacebittensor_1_1__axon_1_1axon__impl_1a70c8935660a2f5afbb49ef312ed7b3ee" prot="public" static="no" mutable="no">
+        <type>Enum</type>
+        <definition>Enum bittensor::_axon::axon_impl.PROM_axon_is_started</definition>
+        <argsstring></argsstring>
+        <name>PROM_axon_is_started</name>
+        <qualifiedname>bittensor._axon.axon_impl.PROM_axon_is_started</qualifiedname>
+        <initializer>=  Enum(&apos;axon_is_started&apos;, &apos;is_started&apos;, states=[&apos;stopped&apos;, &apos;started&apos;])</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_axon/axon_impl.py" line="43" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_axon/axon_impl.py" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacebittensor_1_1__axon_1_1axon__impl_1ac4f6ee41dfcd506f3fcf9c106f69a22b" prot="public" static="no" mutable="no">
+        <type>Counter</type>
+        <definition>Counter bittensor::_axon::axon_impl.PROM_total_forward</definition>
+        <argsstring></argsstring>
+        <name>PROM_total_forward</name>
+        <qualifiedname>bittensor._axon.axon_impl.PROM_total_forward</qualifiedname>
+        <initializer>=  Counter(&apos;axon_total_forward&apos;, &apos;total_forward&apos;, [&apos;<ref refid="classbittensor_1_1__wallet_1_1wallet" kindref="compound">wallet</ref>&apos;, &apos;identifier&apos;])</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_axon/axon_impl.py" line="44" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_axon/axon_impl.py" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacebittensor_1_1__axon_1_1axon__impl_1a8583fc31251e5cf88334a8736c29117f" prot="public" static="no" mutable="no">
+        <type>Counter</type>
+        <definition>Counter bittensor::_axon::axon_impl.PROM_total_backward</definition>
+        <argsstring></argsstring>
+        <name>PROM_total_backward</name>
+        <qualifiedname>bittensor._axon.axon_impl.PROM_total_backward</qualifiedname>
+        <initializer>=  Counter(&apos;axon_total_backward&apos;, &apos;total_backward&apos;, [&apos;<ref refid="classbittensor_1_1__wallet_1_1wallet" kindref="compound">wallet</ref>&apos;, &apos;identifier&apos;])</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_axon/axon_impl.py" line="45" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_axon/axon_impl.py" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacebittensor_1_1__axon_1_1axon__impl_1a677a6c309ef0c31c936f5cccaf14d55c" prot="public" static="no" mutable="no">
+        <type>Histogram</type>
+        <definition>Histogram bittensor::_axon::axon_impl.PROM_forward_latency</definition>
+        <argsstring></argsstring>
+        <name>PROM_forward_latency</name>
+        <qualifiedname>bittensor._axon.axon_impl.PROM_forward_latency</qualifiedname>
+        <initializer>=  Histogram(&apos;axon_forward_latency&apos;, &apos;forward_latency&apos;, [&apos;<ref refid="classbittensor_1_1__wallet_1_1wallet" kindref="compound">wallet</ref>&apos;, &apos;identifier&apos;], buckets=list(range(0,bittensor.__blocktime__,1)))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_axon/axon_impl.py" line="46" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_axon/axon_impl.py" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacebittensor_1_1__axon_1_1axon__impl_1ae921e990e6d8da8879eb3580233b1539" prot="public" static="no" mutable="no">
+        <type>Histogram</type>
+        <definition>Histogram bittensor::_axon::axon_impl.PROM_backward_latency</definition>
+        <argsstring></argsstring>
+        <name>PROM_backward_latency</name>
+        <qualifiedname>bittensor._axon.axon_impl.PROM_backward_latency</qualifiedname>
+        <initializer>=  Histogram(&apos;axon_backward_latency&apos;, &apos;backward_latency&apos;, [&apos;<ref refid="classbittensor_1_1__wallet_1_1wallet" kindref="compound">wallet</ref>&apos;, &apos;identifier&apos;], buckets=list(range(0,bittensor.__blocktime__,1)))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_axon/axon_impl.py" line="47" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_axon/axon_impl.py" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacebittensor_1_1__axon_1_1axon__impl_1a604a461e6482b5d08bedba3c972136e7" prot="public" static="no" mutable="no">
+        <type>Counter</type>
+        <definition>Counter bittensor::_axon::axon_impl.PROM_forward_synapses</definition>
+        <argsstring></argsstring>
+        <name>PROM_forward_synapses</name>
+        <qualifiedname>bittensor._axon.axon_impl.PROM_forward_synapses</qualifiedname>
+        <initializer>=  Counter(&apos;axon_forward_synapses&apos;, &apos;forward_synapses&apos;, [&apos;<ref refid="classbittensor_1_1__wallet_1_1wallet" kindref="compound">wallet</ref>&apos;, &apos;identifier&apos;, &quot;synapse&quot;])</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_axon/axon_impl.py" line="48" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_axon/axon_impl.py" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacebittensor_1_1__axon_1_1axon__impl_1aa623928984c14bcd26736a84727507c7" prot="public" static="no" mutable="no">
+        <type>Counter</type>
+        <definition>Counter bittensor::_axon::axon_impl.PROM_backward_synapses</definition>
+        <argsstring></argsstring>
+        <name>PROM_backward_synapses</name>
+        <qualifiedname>bittensor._axon.axon_impl.PROM_backward_synapses</qualifiedname>
+        <initializer>=  Counter(&apos;axon_backward_synapses&apos;, &apos;backward_synapses&apos;, [&apos;<ref refid="classbittensor_1_1__wallet_1_1wallet" kindref="compound">wallet</ref>&apos;, &apos;identifier&apos;, &quot;synapse&quot;])</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_axon/axon_impl.py" line="49" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_axon/axon_impl.py" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacebittensor_1_1__axon_1_1axon__impl_1a0e22aadb9d6bfd39e1a5be567fa68824" prot="public" static="no" mutable="no">
+        <type>Counter</type>
+        <definition>Counter bittensor::_axon::axon_impl.PROM_forward_codes</definition>
+        <argsstring></argsstring>
+        <name>PROM_forward_codes</name>
+        <qualifiedname>bittensor._axon.axon_impl.PROM_forward_codes</qualifiedname>
+        <initializer>=  Counter(&apos;axon_forward_codes&apos;, &apos;forward_codes&apos;, [&apos;<ref refid="classbittensor_1_1__wallet_1_1wallet" kindref="compound">wallet</ref>&apos;, &apos;identifier&apos;, &quot;code&quot;])</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_axon/axon_impl.py" line="50" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_axon/axon_impl.py" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacebittensor_1_1__axon_1_1axon__impl_1a4e44667b6f9c13fbd9a63ea19b179951" prot="public" static="no" mutable="no">
+        <type>Counter</type>
+        <definition>Counter bittensor::_axon::axon_impl.PROM_backward_codes</definition>
+        <argsstring></argsstring>
+        <name>PROM_backward_codes</name>
+        <qualifiedname>bittensor._axon.axon_impl.PROM_backward_codes</qualifiedname>
+        <initializer>=  Counter(&apos;axon_backward_codes&apos;, &apos;backward_codes&apos;, [&apos;<ref refid="classbittensor_1_1__wallet_1_1wallet" kindref="compound">wallet</ref>&apos;, &apos;identifier&apos;, &quot;code&quot;])</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_axon/axon_impl.py" line="51" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_axon/axon_impl.py" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacebittensor_1_1__axon_1_1axon__impl_1aa0d6300d509fe0a23bcb2c26e724c9f8" prot="public" static="no" mutable="no">
+        <type>Counter</type>
+        <definition>Counter bittensor::_axon::axon_impl.PROM_forward_hotkeys</definition>
+        <argsstring></argsstring>
+        <name>PROM_forward_hotkeys</name>
+        <qualifiedname>bittensor._axon.axon_impl.PROM_forward_hotkeys</qualifiedname>
+        <initializer>=  Counter(&apos;axon_forward_hotkeys&apos;, &apos;forward_hotkeys&apos;, [&apos;<ref refid="classbittensor_1_1__wallet_1_1wallet" kindref="compound">wallet</ref>&apos;, &apos;identifier&apos;, &quot;hotkey&quot;])</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_axon/axon_impl.py" line="52" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_axon/axon_impl.py" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacebittensor_1_1__axon_1_1axon__impl_1a457bac9c61d7e4f91c298f5961e252ed" prot="public" static="no" mutable="no">
+        <type>Counter</type>
+        <definition>Counter bittensor::_axon::axon_impl.PROM_backward_hotkeys</definition>
+        <argsstring></argsstring>
+        <name>PROM_backward_hotkeys</name>
+        <qualifiedname>bittensor._axon.axon_impl.PROM_backward_hotkeys</qualifiedname>
+        <initializer>=  Counter(&apos;axon_backward_hotkeys&apos;, &apos;backward_hotkeys&apos;, [&apos;<ref refid="classbittensor_1_1__wallet_1_1wallet" kindref="compound">wallet</ref>&apos;, &apos;identifier&apos;, &quot;hotkey&quot;])</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_axon/axon_impl.py" line="53" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_axon/axon_impl.py" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacebittensor_1_1__axon_1_1axon__impl_1aff3dd14dc1e0cd40af55a7f9e7f79aa1" prot="public" static="no" mutable="no">
+        <type>Counter</type>
+        <definition>Counter bittensor::_axon::axon_impl.PROM_forward_bytes</definition>
+        <argsstring></argsstring>
+        <name>PROM_forward_bytes</name>
+        <qualifiedname>bittensor._axon.axon_impl.PROM_forward_bytes</qualifiedname>
+        <initializer>=  Counter(&apos;axon_forward_bytes&apos;, &apos;forward_bytes&apos;, [&apos;<ref refid="classbittensor_1_1__wallet_1_1wallet" kindref="compound">wallet</ref>&apos;, &apos;identifier&apos;, &quot;hotkey&quot;])</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_axon/axon_impl.py" line="54" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_axon/axon_impl.py" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacebittensor_1_1__axon_1_1axon__impl_1a847bae9ed6f9305ba7e7266c8379e1c1" prot="public" static="no" mutable="no">
+        <type>Counter</type>
+        <definition>Counter bittensor::_axon::axon_impl.PROM_backward_bytes</definition>
+        <argsstring></argsstring>
+        <name>PROM_backward_bytes</name>
+        <qualifiedname>bittensor._axon.axon_impl.PROM_backward_bytes</qualifiedname>
+        <initializer>=  Counter(&apos;axon_backward_bytes&apos;, &apos;backward_bytes&apos;, [&apos;<ref refid="classbittensor_1_1__wallet_1_1wallet" kindref="compound">wallet</ref>&apos;, &apos;identifier&apos;, &quot;hotkey&quot;])</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_axon/axon_impl.py" line="55" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_axon/axon_impl.py" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim> Implementation of Axon, services Forward and Backward requests from other neurons.
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/Users/macthrasher/bittensor/bittensor/_axon/axon_impl.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="dir_071c7766c8e55d19386060a3bf2c61d6" kind="dir">
+    <compoundname>/Users/macthrasher/bittensor/bittensor/_neuron/text/core_validator</compoundname>
+    <innerfile refid="__neuron_2text_2core__validator_2____init_____8py">__init__.py</innerfile>
+    <innerfile refid="core__validator_2main_8py">main.py</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_validator/"/>
+  </compounddef>
+</doxygen>

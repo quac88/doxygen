@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="namespacebittensor_1_1__cli" kind="namespace" language="Python">
+    <compoundname>bittensor::_cli</compoundname>
+    <innerclass refid="classbittensor_1_1__cli_1_1cli" prot="public">bittensor::_cli::cli</innerclass>
+    <innerclass refid="classbittensor_1_1__cli_1_1_int_list_prompt" prot="public">bittensor::_cli::IntListPrompt</innerclass>
+    <innernamespace refid="namespacebittensor_1_1__cli_1_1cli__impl">bittensor::_cli::cli_impl</innernamespace>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="namespacebittensor_1_1__cli_1a2a5eb58634aea048dfa31452b6e3230b" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor::_cli.show_locals</definition>
+        <argsstring></argsstring>
+        <name>show_locals</name>
+        <qualifiedname>bittensor._cli.show_locals</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_cli/__init__.py" line="35" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_cli/__init__.py" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacebittensor_1_1__cli_1a5b3a9b7affbe9d8771b59352fd670cef" prot="public" static="no" mutable="no">
+        <type>bittensor</type>
+        <definition>bittensor bittensor::_cli.console</definition>
+        <argsstring></argsstring>
+        <name>console</name>
+        <qualifiedname>bittensor._cli.console</qualifiedname>
+        <initializer>=  bittensor.__console__</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_cli/__init__.py" line="37" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_cli/__init__.py" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Create and init the CLI class, which handles the coldkey, hotkey and money transfer 
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/Users/macthrasher/bittensor/bittensor/_cli/__init__.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

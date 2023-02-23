@@ -1,0 +1,1287 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="classbittensor_1_1__dendrite_1_1dendrite__impl_1_1_dendrite" kind="class" language="Python" prot="public">
+    <compoundname>bittensor::_dendrite::dendrite_impl::Dendrite</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">torch.autograd.Function</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classbittensor_1_1__dendrite_1_1dendrite__impl_1_1_dendrite_1a004e88ced27124365900597f2ec74fdb" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._dendrite.dendrite_impl.Dendrite::config</definition>
+        <argsstring></argsstring>
+        <name>config</name>
+        <qualifiedname>bittensor._dendrite.dendrite_impl.Dendrite.config</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_dendrite/dendrite_impl.py" line="87" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_dendrite/dendrite_impl.py" bodystart="87" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__dendrite_1_1dendrite__impl_1_1_dendrite_1ac4939061f29081ffca15953a91d3e842" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._dendrite.dendrite_impl.Dendrite::wallet</definition>
+        <argsstring></argsstring>
+        <name>wallet</name>
+        <qualifiedname>bittensor._dendrite.dendrite_impl.Dendrite.wallet</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_dendrite/dendrite_impl.py" line="88" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_dendrite/dendrite_impl.py" bodystart="88" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__dendrite_1_1dendrite__impl_1_1_dendrite_1aba6742399ca4fb120ffc9437d82e0751" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._dendrite.dendrite_impl.Dendrite::receptor_pool</definition>
+        <argsstring></argsstring>
+        <name>receptor_pool</name>
+        <qualifiedname>bittensor._dendrite.dendrite_impl.Dendrite.receptor_pool</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_dendrite/dendrite_impl.py" line="89" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_dendrite/dendrite_impl.py" bodystart="89" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__dendrite_1_1dendrite__impl_1_1_dendrite_1a8e0f5727d0f7186963334e477ee0d243" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._dendrite.dendrite_impl.Dendrite::manager</definition>
+        <argsstring></argsstring>
+        <name>manager</name>
+        <qualifiedname>bittensor._dendrite.dendrite_impl.Dendrite.manager</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_dendrite/dendrite_impl.py" line="90" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_dendrite/dendrite_impl.py" bodystart="90" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__dendrite_1_1dendrite__impl_1_1_dendrite_1affd0640a693e4281a8a0927cd4058859" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._dendrite.dendrite_impl.Dendrite::stats</definition>
+        <argsstring></argsstring>
+        <name>stats</name>
+        <qualifiedname>bittensor._dendrite.dendrite_impl.Dendrite.stats</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_dendrite/dendrite_impl.py" line="93" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_dendrite/dendrite_impl.py" bodystart="93" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classbittensor_1_1__dendrite_1_1dendrite__impl_1_1_dendrite_1aa4f6aa19bbf9f43e52b04d2c9f86b7fe" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._dendrite.dendrite_impl.Dendrite::_prometheus_uuid</definition>
+        <argsstring></argsstring>
+        <name>_prometheus_uuid</name>
+        <qualifiedname>bittensor._dendrite.dendrite_impl.Dendrite._prometheus_uuid</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_dendrite/dendrite_impl.py" line="94" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_dendrite/dendrite_impl.py" bodystart="94" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classbittensor_1_1__dendrite_1_1dendrite__impl_1_1_dendrite_1a80e3be1a7ae6a4090f8689bd550949c5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._dendrite.dendrite_impl.Dendrite.__init__</definition>
+        <argsstring>(self, &apos;bittensor.Config&apos; config, &apos;bittensor.Wallet&apos; wallet, &apos;bittensor.ReceptorPool&apos; receptor_pool, &apos;BaseManager&apos; manager=None)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>bittensor._dendrite.dendrite_impl.Dendrite.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>&apos;<ref refid="classbittensor_1_1__config_1_1config__impl_1_1_config" kindref="compound">bittensor.Config</ref>&apos;</type>
+          <declname>config</declname>
+        </param>
+        <param>
+          <type>&apos;<ref refid="classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet" kindref="compound">bittensor.Wallet</ref>&apos;</type>
+          <declname>wallet</declname>
+        </param>
+        <param>
+          <type>&apos;<ref refid="classbittensor_1_1__receptor_1_1receptor__pool__impl_1_1_receptor_pool" kindref="compound">bittensor.ReceptorPool</ref>&apos;</type>
+          <declname>receptor_pool</declname>
+        </param>
+        <param>
+          <type>&apos;BaseManager&apos;</type>
+          <declname>manager</declname>
+          <defval>None</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Initializes a new Dendrite entry point.
+        Args:
+            receptor_pool (:obj:`bittensor.ReceptorPool`, `required`):
+                bittensor receptor pool</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_dendrite/dendrite_impl.py" line="75" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_dendrite/dendrite_impl.py" bodystart="81" bodyend="95"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__dendrite_1_1dendrite__impl_1_1_dendrite_1a6ad20828b96711b3b05cb5448da88066" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._dendrite.dendrite_impl.Dendrite.__str__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__str__</name>
+        <qualifiedname>bittensor._dendrite.dendrite_impl.Dendrite.__str__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_dendrite/dendrite_impl.py" line="96" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_dendrite/dendrite_impl.py" bodystart="96" bodyend="98"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__dendrite_1_1dendrite__impl_1_1_dendrite_1a140022be021c06a4d51922be0473a5ec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._dendrite.dendrite_impl.Dendrite.__repr__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__repr__</name>
+        <qualifiedname>bittensor._dendrite.dendrite_impl.Dendrite.__repr__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_dendrite/dendrite_impl.py" line="99" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_dendrite/dendrite_impl.py" bodystart="99" bodyend="101"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__dendrite_1_1dendrite__impl_1_1_dendrite_1adc463ae82af32a95dd0c0b538556ef88" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._dendrite.dendrite_impl.Dendrite.__del__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__del__</name>
+        <qualifiedname>bittensor._dendrite.dendrite_impl.Dendrite.__del__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_dendrite/dendrite_impl.py" line="102" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_dendrite/dendrite_impl.py" bodystart="102" bodyend="109"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__dendrite_1_1dendrite__impl_1_1_dendrite_1a13fd8cc44e4289f9662236107c6577b1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Tuple[List[str], List[float], List[str]]</type>
+        <definition> Tuple[ List[str], List[float], List[str] ] bittensor._dendrite.dendrite_impl.Dendrite.generate</definition>
+        <argsstring>(self, Union[torch.LongTensor, List[torch.LongTensor], List[&apos;bittensor.Endpoint&apos;], &apos;bittensor.Endpoint&apos;] endpoints, Union[str, List[str], List[torch.LongTensor], torch.LongTensor] prompt, int timeout=None, int topk=50, int num_to_generate=256, int num_beams=5, int no_repeat_ngram_size=2, bool early_stopping=False, int num_return_sequences=1, bool do_sample=False, float top_p=0.95, float temperature=1.0, float repetition_penalty=1.0, float length_penalty=1.0, float max_time=150, int num_beam_groups=1)</argsstring>
+        <name>generate</name>
+        <qualifiedname>bittensor._dendrite.dendrite_impl.Dendrite.generate</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>Union</type>
+          <defname>endpoints</defname>
+          <array>[torch.LongTensor, List[torch.LongTensor]</array>
+        </param>
+        <param>
+          <type>List</type>
+          <defname>prompt</defname>
+          <array>[ &apos;bittensor.Endpoint&apos;]</array>
+        </param>
+        <param>
+          <type>&apos;<ref refid="classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint" kindref="compound">bittensor.Endpoint</ref>&apos;]</type>
+          <declname>endpoints</declname>
+          <defname>timeout</defname>
+        </param>
+        <param>
+          <type>Union</type>
+          <defname>topk</defname>
+          <array>[str, List[str]</array>
+        </param>
+        <param>
+          <type>List</type>
+          <defname>num_to_generate</defname>
+          <array>[torch.LongTensor]</array>
+        </param>
+        <param>
+          <type>torch.LongTensor]</type>
+          <declname>prompt</declname>
+          <defname>num_beams</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>timeout</declname>
+          <defname>no_repeat_ngram_size</defname>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>topk</declname>
+          <defname>early_stopping</defname>
+          <defval>50</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>num_to_generate</declname>
+          <defname>num_return_sequences</defname>
+          <defval>256</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>num_beams</declname>
+          <defname>do_sample</defname>
+          <defval>5</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>no_repeat_ngram_size</declname>
+          <defname>top_p</defname>
+          <defval>2</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>early_stopping</declname>
+          <defname>temperature</defname>
+          <defval>False</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>num_return_sequences</declname>
+          <defname>repetition_penalty</defname>
+          <defval>1</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>do_sample</declname>
+          <defname>length_penalty</defname>
+          <defval>False</defval>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>top_p</declname>
+          <defname>max_time</defname>
+          <defval>0.95</defval>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>temperature</declname>
+          <defname>num_beam_groups</defname>
+          <defval>1.0</defval>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>repetition_penalty</declname>
+          <defval>1.0</defval>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>length_penalty</declname>
+          <defval>1.0</defval>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>max_time</declname>
+          <defval>150</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>num_beam_groups</declname>
+          <defval>1</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Returns a tuple containing the prompt generations produced by endpoints with corresponding parsed codes and query times.
+
+Args:
+    endpoints (:obj:`Union[torch.LongTensor, List[torch.LongTensor], List[bittensor.Endpoint], bittensor.Endpoint]` of shape :obj:`(num_endpoints)`, `required`):
+                Endpoints to send inputs to. Endpoint can be one of the following types:
+                    - a single endpoint tensor shape [250]
+                    - a set of endpoint tensors shape [n, 250]
+                    - a list of endpoints tensors each of shape [250]
+                    - a single endpoint object. Inputs will be sent to this endpoint alone.
+                    - a list of endpoint objects. All inputs will be sent to these endpoints.
+
+    prompts (:obj:`Union[str,  List[str], List[torch.LongTensor], torch.LongTensor]` of shape :obj:`(num_endpoints * [batch_size, sequence_len])`, `required`):
+                Tokenized sentences to send on the wire. Inputs can be one of the following types:
+                    - a single string: the string will be tokenized using the bittensor tokenizer.
+                    - a list of strings: the strings will be tokenized using the bittensor tokenizer.
+                    - a tensor with shape [batch_size, sequence_len], assumed to be the output of bittensor tokenizer.
+                    - a tensor with shape [n, batch_size, sequence_len], the operation will unbind the tensor and pass inputs to endpoints.
+                    - a list of tensors of type long each representing a tokenized sentence to be sent to each endpoint.
+                If inputs are tensors they will be cast to int64 format before sending on the wire.
+
+    timeout (:type:`int`, default = dendrite.timeout `optional`):
+        Request timeout. Queries that do not respond will be replaced by zeros.
+
+    Topk (:obj:int, :default: 50):
+        The number of highest probability vocabulary tokens to keep for top-k-filtering. 
+    num_to_generate (:obj: int, :default: 256):
+        The number of tokens to generate using the language model
+    num_beams (:obj: int, :default: 5):
+        The number of beams to keep during beam search
+    no_repeat_ngram_size (:obj: int, :default: 2):
+        The number of repeat n gram allowed
+    early_stopping: (:obj: bool, :default: True):
+        If the model should early stop if the probabilty drops a certain threshold
+    num_return_sequences: (:obj: int, :default: 1):
+        How many sequences should the model return
+    do_sample (:obj: bool, :default: False):
+        If the model should do sample its probablity during generation
+    top_p (:obj: float, :default: 0.95): 
+        probability cutoff for top p sampling
+    temperature: (:obj: float, :default: 1.0):
+        The value used to module the next token probabilities for the softmax calculation
+    repetition_penalty (:obj: float, :default: 1.0):
+        The parameter for repetition penalty. 1.0 means no penalty.
+    length_penalty (:obj: float, :default: 1.0): 
+        The parameter for length penalty. 0.0 means no penalty, &lt;0 to encourage longer sequences.
+    max_time (:obj: float, :default: 150): 
+        The maximum time that a server can use to generate
+    num_beam_groups (:obj: int, :default: 1):
+        Number of groups to divide num_beams into in order to ensure diversity among different groups of beams. 
+Returns:
+    codes (:obj:`List[str]`, `required`):
+        Parsed codes from each endpoint from query.
+
+    times (:obj:`List[float]`, `required`):
+        Query times for each call from each endpoint.
+
+    generations (:obj:`List[str]`, `required`):
+        Generations from each endpoint.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_dendrite/dendrite_impl.py" line="351" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_dendrite/dendrite_impl.py" bodystart="369" bodyend="464"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__dendrite_1_1dendrite__impl_1_1_dendrite_1af64a1b06ea6d77b00c6b191f2b95daad" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Tuple[Union[List[torch.FloatTensor], torch.FloatTensor], torch.LongTensor, torch.FloatTensor]</type>
+        <definition> Tuple[ Union[List[torch.FloatTensor], torch.FloatTensor], torch.LongTensor, torch.FloatTensor] bittensor._dendrite.dendrite_impl.Dendrite.text</definition>
+        <argsstring>(self, Union[torch.LongTensor, List[torch.LongTensor], List[&apos;bittensor.Endpoint&apos;], &apos;bittensor.Endpoint&apos;] endpoints, List[ &apos;bittensor.Synapse&apos;] synapses, Union[str, List[str], List[torch.LongTensor], torch.LongTensor] inputs, int timeout=None, bool requires_grad=None)</argsstring>
+        <name>text</name>
+        <qualifiedname>bittensor._dendrite.dendrite_impl.Dendrite.text</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>Union</type>
+          <defname>endpoints</defname>
+          <array>[torch.LongTensor, List[torch.LongTensor]</array>
+        </param>
+        <param>
+          <type>List</type>
+          <defname>synapses</defname>
+          <array>[ &apos;bittensor.Endpoint&apos;]</array>
+        </param>
+        <param>
+          <type>&apos;<ref refid="classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint" kindref="compound">bittensor.Endpoint</ref>&apos;]</type>
+          <declname>endpoints</declname>
+          <defname>inputs</defname>
+        </param>
+        <param>
+          <type>List</type>
+          <declname>synapses</declname>
+          <defname>timeout</defname>
+          <array>[&apos;bittensor.Synapse&apos;]</array>
+        </param>
+        <param>
+          <type>Union</type>
+          <defname>requires_grad</defname>
+          <array>[str, List[str]</array>
+        </param>
+        <param>
+          <type>List</type>
+          <array>[torch.LongTensor]</array>
+        </param>
+        <param>
+          <type>torch.LongTensor]</type>
+          <declname>inputs</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>timeout</declname>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>requires_grad</declname>
+          <defval>None</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Forward text inputs to a list of neuron endpoints and returns logit encodings or timeout.
+
+        Args:
+            endpoints (:obj:`Union[torch.LongTensor, List[torch.LongTensor], List[bittensor.Endpoint], bittensor.Endpoint]` of shape :obj:`(num_endpoints)`, `required`):
+                Endpoints to send inputs to. Endpoint can be one of the following types:
+                    - a single endpoint tensor shape [250]
+                    - a set of endpoint tensors shape [n, 250]
+                    - a list of endpoints tensors each of shape [250]
+                    - a single endpoint object. Inputs will be sent to this endpoint alone.
+                    - a list of endpoint objects. All inputs will be sent to these endpoints.
+
+            synapses (:obj:`List[ &apos;bittensor.Synapse&apos; ]` of shape :obj:`(num_synapses)`, `required`):
+                Bittensor synapse objects with arguments. Each corresponds to a synapse function on the axon.
+                Responses are packed in this ordering. 
+
+            inputs (:obj:`Union[str,  List[str], List[torch.LongTensor], torch.LongTensor]` of shape :obj:`(num_endpoints * [batch_size, sequence_len])`, `required`):
+                Tokenized sentences to send on the wire. Inputs can be one of the following types:
+                    - a single string: the string will be tokenized using the bittensor tokenizer.
+                    - a list of strings: the strings will be tokenized using the bittensor tokenizer.
+                    - a tensor with shape [batch_size, sequence_len], assumed to be the output of bittensor tokenizer.
+                    - a tensor with shape [n, batch_size, sequence_len], the operation will unbind the tensor and pass inputs to endpoints.
+                    - a list of tensors of type long each representing a tokenized sentence to be sent to each endpoint.
+                If inputs are tensors they will be cast to int64 format before sending on the wire.
+
+            timeout (:type:`int`, default = dendrite.timeout `optional`):
+                Request timeout. Queries that do not respond will be replaced by zeros.
+
+            requires_grad (:type:`int`, default = dendrite.requires_grad, `optional`):
+                If true, the backward pass triggers passing gradients on the wire.
+
+        Returns:
+            outputs (:obj:`List[ List[ torch.FloatTensor ] ]` of shape :obj:`num_synapses * ( num_endpoints * ( -1, -1, -1 ) )`, `required`):
+                List of outputs from synapses, each a list of size num_endpoints of tensors with relevant size. Non-responses are zeroes of relevant 
+                synapse shape.
+
+            codes (:obj:`List [ torch.LongTensor ]` of shape :obj:`[ num_endpoints ]`, `required`):
+                Return code per call per synapse.
+
+            times (:obj:`List [ torch.FloatTensor ]` of shape :obj:`[ num_endpoints ]`, `required`):
+                Times per call per synapse.</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_dendrite/dendrite_impl.py" line="465" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_dendrite/dendrite_impl.py" bodystart="472" bodyend="528"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__dendrite_1_1dendrite__impl_1_1_dendrite_1ad12fdba0d1db1b1e0eb4cd5a8e209d5b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Tuple[Union[List[torch.FloatTensor], torch.FloatTensor], torch.LongTensor, torch.FloatTensor]</type>
+        <definition> Tuple[Union[List[torch.FloatTensor], torch.FloatTensor], torch.LongTensor, torch.FloatTensor] bittensor._dendrite.dendrite_impl.Dendrite.text_causal_lm</definition>
+        <argsstring>(self, Union[torch.LongTensor, List[torch.LongTensor], List[ &apos;bittensor.Endpoint&apos;], &apos;bittensor.Endpoint&apos;] endpoints, Union[str, List[str], List[torch.LongTensor], torch.LongTensor] inputs, Optional[ &apos;bittensor.synapse.TextCausalLM&apos;] synapse=synapse.TextCausalLM(), Optional[int] timeout=None, Optional[bool] requires_grad=None)</argsstring>
+        <name>text_causal_lm</name>
+        <qualifiedname>bittensor._dendrite.dendrite_impl.Dendrite.text_causal_lm</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>Union</type>
+          <defname>endpoints</defname>
+          <array>[torch.LongTensor, List[torch.LongTensor]</array>
+        </param>
+        <param>
+          <type>List</type>
+          <defname>inputs</defname>
+          <array>[&apos;bittensor.Endpoint&apos;]</array>
+        </param>
+        <param>
+          <type>&apos;<ref refid="classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint" kindref="compound">bittensor.Endpoint</ref>&apos;]</type>
+          <declname>endpoints</declname>
+          <defname>synapse</defname>
+        </param>
+        <param>
+          <type>Union</type>
+          <defname>timeout</defname>
+          <array>[str, List[str]</array>
+        </param>
+        <param>
+          <type>List</type>
+          <defname>requires_grad</defname>
+          <array>[torch.LongTensor]</array>
+        </param>
+        <param>
+          <type>torch.LongTensor]</type>
+          <declname>inputs</declname>
+        </param>
+        <param>
+          <type>Optional</type>
+          <declname>synapse</declname>
+          <array>[&apos;bittensor.synapse.TextCausalLM&apos;]</array>
+          <defval><ref refid="classbittensor_1_1__synapse_1_1synapse_1a238e9d58958a570ca7407f3d9aa3d35f" kindref="member">synapse.TextCausalLM</ref>()</defval>
+        </param>
+        <param>
+          <type>Optional</type>
+          <declname>timeout</declname>
+          <array>[int]</array>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type>Optional</type>
+          <declname>requires_grad</declname>
+          <array>[bool]</array>
+          <defval>None</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Forward text inputs to a list of neuron endpoints and returns logit encodings or timeout.
+
+        Args:
+            endpoints (:obj:`Union[torch.LongTensor, List[torch.LongTensor], List[bittensor.Endpoint], bittensor.Endpoint]` of shape :obj:`(num_endpoints)`, `required`):
+                Endpoints to send inputs to. Endpoint can be one of the following types:
+                    - a single endpoint tensor shape [250]
+                    - a set of endpoint tensors shape [n, 250]
+                    - a list of endpoints tensors each of shape [250]
+                    - a single endpoint object. Inputs will be sent to this endpoint alone.
+                    - a list of endpoint objects. All inputs will be sent to these endpoints.
+
+
+            inputs (:obj:`Union[str,  List[str], List[torch.LongTensor], torch.LongTensor]` of shape :obj:`(num_endpoints * [batch_size, sequence_len])`, `required`):
+                Tokenized sentences to send on the wire. Inputs can be one of the following types:
+                    - a single string: the string will be tokenized using the bittensor tokenizer.
+                    - a list of strings: the strings will be tokenized using the bittensor tokenizer.
+                    - a tensor with shape [batch_size, sequence_len], assumed to be the output of bittensor tokenizer.
+                    - a tensor with shape [n, batch_size, sequence_len], the operation will unbind the tensor and pass inputs to endpoints.
+                    - a list of tensors of type long each representing a tokenized sentence to be sent to each endpoint.
+                If inputs are tensors they will be cast to int64 format before sending on the wire.
+
+            synapse (:type:`&apos;bittensor.synapse.TextCausalLM&apos;`, default = bittensor.synapse.TextCausalLM(), `optional`):
+                Synapse axon function call which defaults to bittensor.synapse.TextCausalLM().
+            
+            timeout (:type:`int`, default = dendrite.timeout `optional`):
+                Request timeout. Queries that do not respond will be replaced by zeros.
+
+            requires_grad (:type:`int`, default = dendrite.requires_grad, `optional`):
+                If true, the backward pass triggers passing gradients on the wire.
+
+        Returns:
+            outputs (:obj:`List[ torch.FloatTensor ]` of shape :obj:`num_endpoints * (batch_size, sequence_len, bittensor.__vocab_size__ )`, `required`):
+                List of output logit encodings of inputs produced by each remote endpoints. Non-responses are zeroes of input shape plus output dimension.
+                The first dimension will match the number of endpoints queried.
+
+            codes (:obj:`torch.LongTensor` of shape :obj:`[ num_endpoints ]`, `required`):
+                dendrite call return ops.
+
+            times (:obj:`torch.FloatTensor` of shape :obj:`[ num_endpoints ]`, `required`):
+                times per call.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_dendrite/dendrite_impl.py" line="529" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_dendrite/dendrite_impl.py" bodystart="536" bodyend="599"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__dendrite_1_1dendrite__impl_1_1_dendrite_1a0cf9d7590cb94638a20627417b057c78" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Tuple[Union[List[torch.FloatTensor], torch.FloatTensor], torch.LongTensor, torch.FloatTensor]</type>
+        <definition> Tuple[Union[List[torch.FloatTensor], torch.FloatTensor], torch.LongTensor, torch.FloatTensor] bittensor._dendrite.dendrite_impl.Dendrite.text_causal_lm_next</definition>
+        <argsstring>(self, Union[torch.LongTensor, List[torch.LongTensor], List[&apos;bittensor.Endpoint&apos;], &apos;bittensor.Endpoint&apos;] endpoints, Union[str, List[str], List[torch.LongTensor], torch.LongTensor] inputs, Optional[&apos;bittensor.synapse.TextCausalLMNext&apos;] synapse=synapse.TextCausalLMNext(), Optional[int] timeout=None, Optional[bool] requires_grad=None)</argsstring>
+        <name>text_causal_lm_next</name>
+        <qualifiedname>bittensor._dendrite.dendrite_impl.Dendrite.text_causal_lm_next</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>Union</type>
+          <defname>endpoints</defname>
+          <array>[torch.LongTensor, List[torch.LongTensor]</array>
+        </param>
+        <param>
+          <type>List</type>
+          <defname>inputs</defname>
+          <array>[ &apos;bittensor.Endpoint&apos;]</array>
+        </param>
+        <param>
+          <type>&apos;<ref refid="classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint" kindref="compound">bittensor.Endpoint</ref>&apos;]</type>
+          <declname>endpoints</declname>
+          <defname>synapse</defname>
+        </param>
+        <param>
+          <type>Union</type>
+          <defname>timeout</defname>
+          <array>[str, List[str]</array>
+        </param>
+        <param>
+          <type>List</type>
+          <defname>requires_grad</defname>
+          <array>[torch.LongTensor]</array>
+        </param>
+        <param>
+          <type>torch.LongTensor]</type>
+          <declname>inputs</declname>
+        </param>
+        <param>
+          <type>Optional</type>
+          <declname>synapse</declname>
+          <array>[ &apos;bittensor.synapse.TextCausalLMNext&apos;]</array>
+          <defval><ref refid="classbittensor_1_1__synapse_1_1synapse_1a53e1f1a97ac117a0618ee982aae7d38b" kindref="member">synapse.TextCausalLMNext</ref>()</defval>
+        </param>
+        <param>
+          <type>Optional</type>
+          <declname>timeout</declname>
+          <array>[int]</array>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type>Optional</type>
+          <declname>requires_grad</declname>
+          <array>[bool]</array>
+          <defval>None</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Forward text inputs to a list of neuron endpoints and returns logit encodings or timeout.
+
+        Args:
+            endpoints (:obj:`Union[torch.LongTensor, List[torch.LongTensor], List[bittensor.Endpoint], bittensor.Endpoint]` of shape :obj:`(num_endpoints)`, `required`):
+                Endpoints to send inputs to. Endpoint can be one of the following types:
+                    - a single endpoint tensor shape [250]
+                    - a set of endpoint tensors shape [n, 250]
+                    - a list of endpoints tensors each of shape [250]
+                    - a single endpoint object. Inputs will be sent to this endpoint alone.
+                    - a list of endpoint objects. All inputs will be sent to these endpoints.
+
+
+            inputs (:obj:`Union[str,  List[str], List[torch.LongTensor], torch.LongTensor]` of shape :obj:`(num_endpoints * [batch_size, sequence_len])`, `required`):
+                Tokenized sentences to send on the wire. Inputs can be one of the following types:
+                    - a single string: the string will be tokenized using the bittensor tokenizer.
+                    - a list of strings: the strings will be tokenized using the bittensor tokenizer.
+                    - a tensor with shape [batch_size, sequence_len], assumed to be the output of bittensor tokenizer.
+                    - a tensor with shape [n, batch_size, sequence_len], the operation will unbind the tensor and pass inputs to endpoints.
+                    - a list of tensors of type long each representing a tokenized sentence to be sent to each endpoint.
+                If inputs are tensors they will be cast to int64 format before sending on the wire.
+
+            synapse (:type:`&apos;bittensor.synapse.TextCausalLMNext&apos;`, default = bittensor.synapse.TextCausalLMNext(), `optional`):
+                Synapse axon function call which defaults to bittensor.synapse.TextCausalLMNext().
+
+            timeout (:type:`int`, default = dendrite.timeout `optional`):
+                Request timeout. Queries that do not respond will be replaced by zeros.
+
+            requires_grad (:type:`int`, default = dendrite.requires_grad, `optional`):
+                If true, the backward pass triggers passing gradients on the wire.
+
+        Returns:
+            outputs (:obj:`List[ torch.FloatTensor ]` of shape :obj:`num_endpoints * ( &gt;= batch_size * (2 * topk + 1) )`, `required`):
+                List of output topk phrases encodings of inputs produced by each remote endpoints.
+                Non-responses are zeroes of input shape plus output dimension.
+                The first dimension will match the number of endpoints queried.
+
+            codes (:obj:`torch.LongTensor` of shape :obj:`[ num_endpoints ]`, `required`):
+                dendrite call return ops.
+
+            times (:obj:`torch.FloatTensor` of shape :obj:`[ num_endpoints ]`, `required`):
+                times per call.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_dendrite/dendrite_impl.py" line="600" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_dendrite/dendrite_impl.py" bodystart="607" bodyend="672"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__dendrite_1_1dendrite__impl_1_1_dendrite_1a847c81a7312898dcca79439dab3e1420" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Tuple[Union[List[torch.FloatTensor], torch.FloatTensor], torch.LongTensor, torch.FloatTensor]</type>
+        <definition> Tuple[Union[List[torch.FloatTensor], torch.FloatTensor], torch.LongTensor, torch.FloatTensor] bittensor._dendrite.dendrite_impl.Dendrite.text_last_hidden_state</definition>
+        <argsstring>(self, Union[torch.LongTensor, List[torch.LongTensor], List[&apos;bittensor.Endpoint&apos;], &apos;bittensor.Endpoint&apos;] endpoints, Union[str, List[str], List[torch.LongTensor], torch.LongTensor] inputs, Optional[ &apos;bittensor.synapse.TextLastHiddenState&apos;] synapse=synapse.TextLastHiddenState(), int timeout=None, bool requires_grad=None)</argsstring>
+        <name>text_last_hidden_state</name>
+        <qualifiedname>bittensor._dendrite.dendrite_impl.Dendrite.text_last_hidden_state</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>Union</type>
+          <defname>endpoints</defname>
+          <array>[torch.LongTensor, List[torch.LongTensor]</array>
+        </param>
+        <param>
+          <type>List</type>
+          <defname>inputs</defname>
+          <array>[ &apos;bittensor.Endpoint&apos;]</array>
+        </param>
+        <param>
+          <type>&apos;<ref refid="classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint" kindref="compound">bittensor.Endpoint</ref>&apos;]</type>
+          <declname>endpoints</declname>
+          <defname>synapse</defname>
+        </param>
+        <param>
+          <type>Union</type>
+          <defname>timeout</defname>
+          <array>[str, List[str]</array>
+        </param>
+        <param>
+          <type>List</type>
+          <defname>requires_grad</defname>
+          <array>[torch.LongTensor]</array>
+        </param>
+        <param>
+          <type>torch.LongTensor]</type>
+          <declname>inputs</declname>
+        </param>
+        <param>
+          <type>Optional</type>
+          <declname>synapse</declname>
+          <array>[&apos;bittensor.synapse.TextLastHiddenState&apos;]</array>
+          <defval><ref refid="classbittensor_1_1__synapse_1_1synapse_1aa477e1b335c842bbc9ce3b90d05e7dd1" kindref="member">synapse.TextLastHiddenState</ref>()</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>timeout</declname>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>requires_grad</declname>
+          <defval>None</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Forward text inputs to a list of neuron endpoints and block until last hidden state responses or timeout.
+
+        Args:
+            endpoints (:obj:`Union[torch.LongTensor, List[torch.LongTensor], List[bittensor.Endpoint], bittensor.Endpoint]` of shape :obj:`(num_endpoints)`, `required`):
+                Endpoints to send inputs to. Endpoint can be one of the following types:
+                    - a single endpoint tensor shape [250]
+                    - a set of endpoint tensors shape [n, 250]
+                    - a list of endpoints tensors each of shape [250]
+                    - a single endpoint object. Inputs will be sent to this endpoint alone.
+                    - a list of endpoint objects. All inputs will be sent to these endpoints.
+
+            inputs (:obj:`Union[str,  List[str], List[torch.LongTensor], torch.LongTensor]` of shape :obj:`(num_endpoints * [batch_size, sequence_len])`, `required`):
+                Tokenized sentences to send on the wire. Inputs can be one of the following types:
+                    - a single string: the string will be tokenized using the bittensor tokenizer.
+                    - a list of strings: the strings will be tokenized using the bittensor tokenizer.
+                    - a tensor with shape [batch_size, sequence_len], assumed to be the output of bittensor tokenizer.
+                    - a tensor with shape [n, batch_size, sequence_len], the operation will unbind the tensor and pass inputs to endpoints.
+                If inputs are tensors they will be cast to int64 format before sending on the wire.
+
+            synapse (:type:`&apos;bittensor.synapse.TextLastHiddenState&apos;`, default = bittensor.synapse.TextLastHiddenState(), `optional`):
+                Synapse axon function call which defaults to bittensor.synapse.TextLastHiddenState().
+
+            timeout (:type:`int`, default = dendrite.timeout `optional`):
+                Request timeout. Queries that do not respond will be replaced by zeros.
+
+            requires_grad (:type:`int`, default = dendrite.requires_grad, `optional`):
+                If true, the backward pass triggers passing gradients on the wire.
+
+        Returns:
+            outputs (:obj:`List [ torch.FloatTensor ]` of shape :obj:` num_endpoints * ( -1, sequence_len, bittensor.__network_dim__ )`, `required`):
+                List of output last hidden state encodings of inputs produced by remote endpoints. Non-responses are zeroes of input shape plus output dimension.
+                The first dimension will match the number of endpoints queried.
+
+            codes (:obj:`torch.LongTensor` of shape :obj:`[ num_endpoints ]`, `required`):
+                dendrite call return ops.
+
+            times (:obj:`torch.FloatTensor` of shape :obj:`[ num_endpoints ]`, `required`):
+                times per call.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_dendrite/dendrite_impl.py" line="673" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_dendrite/dendrite_impl.py" bodystart="680" bodyend="740"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__dendrite_1_1dendrite__impl_1_1_dendrite_1abab26bb7988e58f64548aef9489d8830" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Tuple[&apos;<ref refid="classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint" kindref="compound">bittensor.Endpoint</ref>&apos;, List[torch.LongTensor]]</type>
+        <definition> Tuple[ &apos;bittensor.Endpoint&apos;, List[torch.LongTensor] ] bittensor._dendrite.dendrite_impl.Dendrite.format_text_inputs</definition>
+        <argsstring>(self, Union[torch.LongTensor, List[torch.LongTensor], List[&apos;bittensor.Endpoint&apos;], &apos;bittensor.Endpoint&apos;] endpoints, Union[str, List[str], List[torch.LongTensor], torch.LongTensor] inputs)</argsstring>
+        <name>format_text_inputs</name>
+        <qualifiedname>bittensor._dendrite.dendrite_impl.Dendrite.format_text_inputs</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>Union</type>
+          <defname>endpoints</defname>
+          <array>[torch.LongTensor, List[torch.LongTensor]</array>
+        </param>
+        <param>
+          <type>List</type>
+          <defname>inputs</defname>
+          <array>[ &apos;bittensor.Endpoint&apos;]</array>
+        </param>
+        <param>
+          <type>&apos;<ref refid="classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint" kindref="compound">bittensor.Endpoint</ref>&apos;]</type>
+          <declname>endpoints</declname>
+        </param>
+        <param>
+          <type>Union</type>
+          <array>[str, List[str]</array>
+        </param>
+        <param>
+          <type>List</type>
+          <array>[torch.LongTensor]</array>
+        </param>
+        <param>
+          <type>torch.LongTensor]</type>
+          <declname>inputs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Formats endpoint and inputs args to a common format.
+    Args:
+        endpoints (:obj:`Union[torch.LongTensor, List[torch.LongTensor], List[bittensor.Endpoint], bittensor.Endpoint]` of shape :obj:`(num_endpoints)`, `required`):
+            Endpoints to send inputs to. Endpoint can be one of the following types:
+                - a single endpoint tensor shape [250]
+                - a set of endpoint tensors shape [n, 250]
+                - a list of endpoints tensors each of shape [250]
+                - a single endpoint object. Inputs will be sent to this endpoint alone.
+                - a list of endpoint objects. All inputs will be sent to these endpoints.
+
+        inputs (:obj:`Union[str,  List[str], List[torch.LongTensor], torch.LongTensor]` of shape :obj:`(num_endpoints * [batch_size, sequence_len])`, `required`):
+            Tokenized sentences to send on the wire. Inputs can be one of the following types:
+                - a single string: the string will be tokenized using the bittensor tokenizer.
+                - a list of strings: the strings will be tokenized using the bittensor tokenizer.
+                - a tensor with shape [batch_size, sequence_len], assumed to be the output of bittensor tokenizer.
+                - a tensor with shape [n, batch_size, sequence_len], the operation will unbind the tensor and pass inputs to endpoints.
+            If inputs are tensors they will be cast to int64 format before sending on the wire.
+
+    Returns:
+        formatted_endpoints (:obj:`Union[torch.LongTensor, List[torch.LongTensor], List[bittensor.Endpoint], bittensor.Endpoint]` of shape :obj:`(num_endpoints)`, `required`):
+            A list of endpoint objects. All inputs will be sent to these endpoints.
+
+        formatted_inputs (:obj:`Union[str,  List[str], List[torch.LongTensor], torch.LongTensor]` of shape :obj:`(num_endpoints * [batch_size, sequence_len])`, `required`):
+            A list of tensor of type long each representing a tokenized sentence to be sent to each endpoint.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_dendrite/dendrite_impl.py" line="741" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_dendrite/dendrite_impl.py" bodystart="745" bodyend="884"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__dendrite_1_1dendrite__impl_1_1_dendrite_1a52f56fdee119d8db1bc4528266623519" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._dendrite.dendrite_impl.Dendrite.update_stats</definition>
+        <argsstring>(self, List[ &apos;bittensor.Endpoint&apos;] endpoints, List[ &apos;bittensor.proto.Synapse&apos;] synapses, List[torch.Tensor] inputs, List[List[torch.Tensor]] outputs, List[List[torch.LongTensor]] codes, List[List[torch.FloatTensor]] times)</argsstring>
+        <name>update_stats</name>
+        <qualifiedname>bittensor._dendrite.dendrite_impl.Dendrite.update_stats</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>List</type>
+          <declname>endpoints</declname>
+          <array>[&apos;bittensor.Endpoint&apos;]</array>
+        </param>
+        <param>
+          <type>List</type>
+          <declname>synapses</declname>
+          <array>[&apos;bittensor.proto.Synapse&apos;]</array>
+        </param>
+        <param>
+          <type>List</type>
+          <declname>inputs</declname>
+          <array>[torch.Tensor]</array>
+        </param>
+        <param>
+          <type>List]</type>
+          <declname>outputs</declname>
+          <array>[List[torch.Tensor]</array>
+        </param>
+        <param>
+          <type>List]</type>
+          <declname>codes</declname>
+          <array>[List[torch.LongTensor]</array>
+        </param>
+        <param>
+          <type>List]</type>
+          <declname>times</declname>
+          <array>[List[torch.FloatTensor]</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Update dendrite stat according to the response we get from peers. Updates were saved to self.stats.
+    Args:
+        endpoints (:obj:`List[bittensor.Endpoint]` of shape :obj:`(num_endpoints)`, `required`):
+            The set of endpoints that dendrite sent request to.
+
+        synapses (:obj:`List[ &apos;bittensor.Synapse&apos; ]` of shape :obj:`(num_synapses)`, `required`):
+            Bittensor synapse objects with arguments. Each corresponds to a synapse function on the axon.
+            Responses are packed in this ordering. 
+
+        inputs (:obj:`List[torch.Tensor]` of shape :obj:`(n_endpoints)`, `required`):
+            List of torch tensors to be sent to the associated endpoints.
+
+        outputs (:obj:`List[ List[ torch.FloatTensor ] ]` of shape :obj:`num_synapses * ( num_endpoints * ( -1, -1, -1 ) )`, `required`):
+            List of outputs from synapses, each a list of size num_endpoints of tensors with relevant size. Non-responses are zeroes of relevant 
+            synapse shape.
+
+        codes (:obj:`List [ torch.LongTensor ]` of shape :obj:`[ num_endpoints ]`, `required`):
+            Return code per call per synapse.
+
+        times (:obj:`List [ torch.FloatTensor ]` of shape :obj:`[ num_endpoints ]`, `required`):
+            Times per call per synapse.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_dendrite/dendrite_impl.py" line="910" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_dendrite/dendrite_impl.py" bodystart="918" bodyend="973"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__dendrite_1_1dendrite__impl_1_1_dendrite_1a162b4285d8ae80681dc18c33379aa38d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._dendrite.dendrite_impl.Dendrite.to_dataframe</definition>
+        <argsstring>(self, metagraph)</argsstring>
+        <name>to_dataframe</name>
+        <qualifiedname>bittensor._dendrite.dendrite_impl.Dendrite.to_dataframe</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classbittensor_1_1__metagraph_1_1metagraph" kindref="compound">metagraph</ref></type>
+          <defname>metagraph</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Return a stats info as a pandas dataframe indexed by the metagraph or pubkey if not existend.
+Args:
+metagraph: (bittensor.Metagraph):
+    Indexes the stats data using metagraph hotkeys.
+Return:
+dataframe (:obj:`pandas.Dataframe`)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_dendrite/dendrite_impl.py" line="974" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_dendrite/dendrite_impl.py" bodystart="974" bodyend="1003"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__dendrite_1_1dendrite__impl_1_1_dendrite_1a9489a72a71cd70e2b6bf11aa4a892d5b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._dendrite.dendrite_impl.Dendrite.to_wandb</definition>
+        <argsstring>(self)</argsstring>
+        <name>to_wandb</name>
+        <qualifiedname>bittensor._dendrite.dendrite_impl.Dendrite.to_wandb</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Return a dictionary of dendrite stats as wandb logging info.
+Args:
+metagraph: (bittensor.Metagraph):
+If not None, indexes the wandb data using int uids rather than string pubkeys.
+Return:
+wandb_info (:obj:`Dict`)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_dendrite/dendrite_impl.py" line="1004" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_dendrite/dendrite_impl.py" bodystart="1004" bodyend="1024"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classbittensor_1_1__dendrite_1_1dendrite__impl_1_1_dendrite_1af5a6b8827b65e4e7991aecc1872de492" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Tuple[torch.Tensor,...]</type>
+        <definition> Tuple[torch.Tensor, ...] bittensor._dendrite.dendrite_impl.Dendrite.forward</definition>
+        <argsstring>(ctx, &apos;bittensor.Dendrite&apos; dendrite, torch.Tensor dummy, List[&apos;bittensor.Endpoint&apos;] endpoints, List[ &apos;bittensor.Synapse&apos;] synapses, int timeout, bool requires_grad, *torch.Tensor inputs)</argsstring>
+        <name>forward</name>
+        <qualifiedname>bittensor._dendrite.dendrite_impl.Dendrite.forward</qualifiedname>
+        <param>
+          <type>ctx</type>
+          <defname>ctx</defname>
+        </param>
+        <param>
+          <type>&apos;<ref refid="classbittensor_1_1__dendrite_1_1dendrite__impl_1_1_dendrite" kindref="compound">bittensor.Dendrite</ref>&apos;</type>
+          <declname>dendrite</declname>
+        </param>
+        <param>
+          <type>torch.Tensor</type>
+          <declname>dummy</declname>
+        </param>
+        <param>
+          <type>List</type>
+          <declname>endpoints</declname>
+          <array>[ &apos;bittensor.Endpoint&apos;]</array>
+        </param>
+        <param>
+          <type>List</type>
+          <declname>synapses</declname>
+          <array>[&apos;bittensor.Synapse&apos;]</array>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>timeout</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>requires_grad</declname>
+        </param>
+        <param>
+          <type>*torch.Tensor</type>
+          <declname>inputs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Internal autograd-friendly Forward RPC call to a list of neuron endpoints.
+
+    Args:
+        ctx: (:obj:`torch.autograd.ctx`, `required`):
+            Autograd context, saves state information between forward and backward calls. i.e. inputs for gradient computation.
+
+        dendrite: (:obj:`bittensor.Dendrite`, `required`):
+            Pointer to a bittensor dendrite object on which we are creating the forward requests.
+
+        dummy: (:obj:`torch.Tensor`, `required`):
+            Dummy torch tensor used to ensure that torch.backward computation is called on this function 
+            regardless of the input types.
+
+        endpoints (:obj:`List[bittensor.Endpoint&apos;]` of shape :obj:`(n_endpoints)`, `required`):
+            List of endpoints which match length of inputs. Inputs are sent forward to these endpoints.
+
+        synapses (:obj:`List[ &apos;bittensor.Synapse&apos; ]` of shape :obj:`(num_synapses)`, `required`):
+            Bittensor synapse objects with arguments. Each corresponds to a synapse function on the axon.
+            Responses are packed in this ordering. 
+
+        timeout (int):
+            request timeout.
+
+        requires_grad (int, default = dendrite.requires_grad, `optional`):
+            If true, the backward pass triggers passing gradients on the wire.
+
+        inputs (:obj:`List[torch.Tensor]` of shape :obj:`(n_endpoints)`, `required`):
+            List of torch tensors to be sent to the associated endpoints.
+
+    Returns:
+        codes (:obj:`torch.LongTensor` of shape :obj:`(n_endpoints)` `required`):
+            Return code associated with forward call.
+
+        times (:obj:`torch.FloatTensor` of shape :obj:`[ num_endpoints ]`, `required`):
+            times per call.
+        
+        outputs (:obj:`List[torch.FloatTensor` of shape :obj:`num_synapses * n_endpoints * (-1, -1, -1) `, `required`):
+            List of outputs from each synapses and each endpoint unfolded into a single list. Non-responses are zeroes of expected shape.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_dendrite/dendrite_impl.py" line="111" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_dendrite/dendrite_impl.py" bodystart="120" bodyend="189"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__dendrite_1_1dendrite__impl_1_1_dendrite_1a2bff366b9b2753b63a570c84ceec955e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Tuple[Optional[torch.Tensor],...]</type>
+        <definition> Tuple[Optional[torch.Tensor], ...] bittensor._dendrite.dendrite_impl.Dendrite.backward</definition>
+        <argsstring>(ctx, torch.FloatTensor unused_code_grads, torch.FloatTensor unused_time_grads, *torch.FloatTensor output_grads)</argsstring>
+        <name>backward</name>
+        <qualifiedname>bittensor._dendrite.dendrite_impl.Dendrite.backward</qualifiedname>
+        <param>
+          <type>ctx</type>
+          <defname>ctx</defname>
+        </param>
+        <param>
+          <type>torch.FloatTensor</type>
+          <declname>unused_code_grads</declname>
+        </param>
+        <param>
+          <type>torch.FloatTensor</type>
+          <declname>unused_time_grads</declname>
+        </param>
+        <param>
+          <type>*torch.FloatTensor</type>
+          <declname>output_grads</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Internal autograd-friendly Backward RPC call to a list of neuron endpoints.
+
+    Args:
+        ctx: (:obj:`torch.autograd.ctx`, `required`):
+            Autograd context, saves state information between forward and backward calls. i.e. inputs for gradient computation.
+
+        unused_code_grads: (:obj:`List[torch.Tensor]` of shape :obj:`(shape)`, `required`):
+            Gradients of this function&apos;s codes. (Unused)
+
+        unused_time_grads: (:obj:`List[torch.Tensor]` of shape :obj:`(shape)`, `required`):
+            Gradients of this function&apos;s query times. (Unused)
+
+        grads (:obj:`List[torch.Tensor]` of shape :obj:`(shape)`, `required`):
+            Gradients of this function&apos;s outputs computed during the loss.backward() call.
+            This is a list item of size num_endpoints * num_synapses.
+    
+    Returns:
+        DUMMY, None, None, None,
+        outputs (:obj:`List[torch.FloatTensor], `optional`):
+            Gradient results for each input.</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_dendrite/dendrite_impl.py" line="192" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_dendrite/dendrite_impl.py" bodystart="197" bodyend="241"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classbittensor_1_1__dendrite_1_1dendrite__impl_1_1_dendrite_1ab0bedbfadc59c5895ad47f48f05b7b69" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Tuple[List[torch.Tensor], List[torch.LongTensor], List[torch.FloatTensor]]</type>
+        <definition> Tuple [ List[ torch.Tensor ], List[ torch.LongTensor ], List [ torch.FloatTensor ]] bittensor._dendrite.dendrite_impl.Dendrite._forward</definition>
+        <argsstring>(self, List[ &apos;bittensor.Endpoint&apos;] endpoints, List[ &apos;bittensor.Synapse&apos;] synapses, List[torch.Tensor] inputs, Optional[int] timeout=None, Optional[bool] requires_grad=None)</argsstring>
+        <name>_forward</name>
+        <qualifiedname>bittensor._dendrite.dendrite_impl.Dendrite._forward</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>List</type>
+          <declname>endpoints</declname>
+          <array>[&apos;bittensor.Endpoint&apos;]</array>
+        </param>
+        <param>
+          <type>List</type>
+          <declname>synapses</declname>
+          <array>[&apos;bittensor.Synapse&apos;]</array>
+        </param>
+        <param>
+          <type>List</type>
+          <declname>inputs</declname>
+          <array>[torch.Tensor]</array>
+        </param>
+        <param>
+          <type>Optional</type>
+          <declname>timeout</declname>
+          <array>[int]</array>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type>Optional</type>
+          <declname>requires_grad</declname>
+          <array>[bool]</array>
+          <defval>None</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Internal Forward tensor inputs to a list of neuron endpoints.
+
+Args:
+    endpoints (:obj:`List[bittensor.Endpoint]` of shape :obj:`(num_endpoints)`, `required`):
+        List of remote endpoints which match length of inputs. Tensors from inputs are sent forward to these endpoints.
+
+    synapses (:obj:`List[ &apos;bittensor.Synapse&apos; ]` of shape :obj:`(num_synapses)`, `required`):
+        Bittensor synapse objects with arguments. Each corresponds to a synapse function on the axon.
+        Responses are packed in this ordering. 
+
+    inputs (:obj:`List[torch.Tensor]` of shape :obj:`(num_endpoints * [shape])`, `required`):
+        List of tensors to send to corresponding endpoints. Tensors are of arbitrary type and shape depending on the
+        synapse.
+
+    timeout (int, default = dendrite.timeout, `optional`):
+        request timeout.
+
+    requires_grad (int, default = dendrite.requires_grad, `optional`):
+        If true, the backward pass triggers passing gradients on the wire.
+
+Returns:
+    outputs (:obj:`List[torch.FloatTensor]` of shape :obj:`(batch_size, sequence_len, bittensor.__network_dim__)`, `required`):
+        Output encodings of inputs produced by the remote endpoints. Non-responses are zeroes of common shape.
+
+    codes (:obj:`List[torch.LongTensor]` of shape :obj:`[num_endpoints]`, `required`):
+        Return codes per endpoint per synapse.
+
+    times (:obj:`torch.FloatTensor` of shape :obj:`[ num_endpoints ]`, `required`):
+        Call times per endpoint per synapse.</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_dendrite/dendrite_impl.py" line="242" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_dendrite/dendrite_impl.py" bodystart="249" bodyend="350"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__dendrite_1_1dendrite__impl_1_1_dendrite_1a021071b2859f5bc990a73803ac3f90f7" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._dendrite.dendrite_impl.Dendrite._init_stats</definition>
+        <argsstring>(self)</argsstring>
+        <name>_init_stats</name>
+        <qualifiedname>bittensor._dendrite.dendrite_impl.Dendrite._init_stats</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_dendrite/dendrite_impl.py" line="885" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_dendrite/dendrite_impl.py" bodystart="885" bodyend="909"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim> This is the implementation class for a bittensor.dendrite(). The dendrite class operates as a normal torch autograd friendly operation
+which accepts a list of bittensor.endpoints and a list of torch tensors. The passed endpoints are queried with the passed inputs and either return
+results or zeros. The operation is fully differentiable with a torch computation graph such that calls to loss.backward() produce Backward calls on
+the passed endpoints.
+
+Args:
+    config (:obj:`bittensor.Config`, `optional`, defaults to bittensor.dendrite.config()):
+        config namespace object created by calling bittensor.dendrite.config()
+    wallet (:obj:`bittensor.Wallet`, `optional`, defaults to bittensor.wallet( name = &apos;default&apos;, wallet =&apos;default&apos;)):
+        A bittensor wallet object containing a pair of cryptographic keys, the hot and coldkey, used for signing messages
+        on the wire.
+    receptor_pool (:obj:`bittensor.ReceptorPool`, `optional`, defaults to bittensor.receptor_pool()):
+        A bittensor receptor pool object which maintains a set of connections to other peers in the network and operates as
+        a normal torch.nn.Module. By default this object is created with the dendrite config.
+</verbatim> </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>bittensor._dendrite.dendrite_impl.Dendrite</label>
+        <link refid="classbittensor_1_1__dendrite_1_1dendrite__impl_1_1_dendrite"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>torch::autograd::Function</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>bittensor._dendrite.dendrite_impl.Dendrite</label>
+        <link refid="classbittensor_1_1__dendrite_1_1dendrite__impl_1_1_dendrite"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>torch::autograd::Function</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/macthrasher/bittensor/bittensor/_dendrite/dendrite_impl.py" line="58" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_dendrite/dendrite_impl.py" bodystart="58" bodyend="1024"/>
+    <listofallmembers>
+      <member refid="classbittensor_1_1__dendrite_1_1dendrite__impl_1_1_dendrite_1adc463ae82af32a95dd0c0b538556ef88" prot="public" virt="non-virtual"><scope>bittensor::_dendrite::dendrite_impl::Dendrite</scope><name>__del__</name></member>
+      <member refid="classbittensor_1_1__dendrite_1_1dendrite__impl_1_1_dendrite_1a80e3be1a7ae6a4090f8689bd550949c5" prot="public" virt="non-virtual"><scope>bittensor::_dendrite::dendrite_impl::Dendrite</scope><name>__init__</name></member>
+      <member refid="classbittensor_1_1__dendrite_1_1dendrite__impl_1_1_dendrite_1a140022be021c06a4d51922be0473a5ec" prot="public" virt="non-virtual"><scope>bittensor::_dendrite::dendrite_impl::Dendrite</scope><name>__repr__</name></member>
+      <member refid="classbittensor_1_1__dendrite_1_1dendrite__impl_1_1_dendrite_1a6ad20828b96711b3b05cb5448da88066" prot="public" virt="non-virtual"><scope>bittensor::_dendrite::dendrite_impl::Dendrite</scope><name>__str__</name></member>
+      <member refid="classbittensor_1_1__dendrite_1_1dendrite__impl_1_1_dendrite_1ab0bedbfadc59c5895ad47f48f05b7b69" prot="protected" virt="non-virtual"><scope>bittensor::_dendrite::dendrite_impl::Dendrite</scope><name>_forward</name></member>
+      <member refid="classbittensor_1_1__dendrite_1_1dendrite__impl_1_1_dendrite_1a021071b2859f5bc990a73803ac3f90f7" prot="protected" virt="non-virtual"><scope>bittensor::_dendrite::dendrite_impl::Dendrite</scope><name>_init_stats</name></member>
+      <member refid="classbittensor_1_1__dendrite_1_1dendrite__impl_1_1_dendrite_1aa4f6aa19bbf9f43e52b04d2c9f86b7fe" prot="protected" virt="non-virtual"><scope>bittensor::_dendrite::dendrite_impl::Dendrite</scope><name>_prometheus_uuid</name></member>
+      <member refid="classbittensor_1_1__dendrite_1_1dendrite__impl_1_1_dendrite_1a2bff366b9b2753b63a570c84ceec955e" prot="public" virt="non-virtual"><scope>bittensor::_dendrite::dendrite_impl::Dendrite</scope><name>backward</name></member>
+      <member refid="classbittensor_1_1__dendrite_1_1dendrite__impl_1_1_dendrite_1a004e88ced27124365900597f2ec74fdb" prot="public" virt="non-virtual"><scope>bittensor::_dendrite::dendrite_impl::Dendrite</scope><name>config</name></member>
+      <member refid="classbittensor_1_1__dendrite_1_1dendrite__impl_1_1_dendrite_1abab26bb7988e58f64548aef9489d8830" prot="public" virt="non-virtual"><scope>bittensor::_dendrite::dendrite_impl::Dendrite</scope><name>format_text_inputs</name></member>
+      <member refid="classbittensor_1_1__dendrite_1_1dendrite__impl_1_1_dendrite_1af5a6b8827b65e4e7991aecc1872de492" prot="public" virt="non-virtual"><scope>bittensor::_dendrite::dendrite_impl::Dendrite</scope><name>forward</name></member>
+      <member refid="classbittensor_1_1__dendrite_1_1dendrite__impl_1_1_dendrite_1a13fd8cc44e4289f9662236107c6577b1" prot="public" virt="non-virtual"><scope>bittensor::_dendrite::dendrite_impl::Dendrite</scope><name>generate</name></member>
+      <member refid="classbittensor_1_1__dendrite_1_1dendrite__impl_1_1_dendrite_1a8e0f5727d0f7186963334e477ee0d243" prot="public" virt="non-virtual"><scope>bittensor::_dendrite::dendrite_impl::Dendrite</scope><name>manager</name></member>
+      <member refid="classbittensor_1_1__dendrite_1_1dendrite__impl_1_1_dendrite_1aba6742399ca4fb120ffc9437d82e0751" prot="public" virt="non-virtual"><scope>bittensor::_dendrite::dendrite_impl::Dendrite</scope><name>receptor_pool</name></member>
+      <member refid="classbittensor_1_1__dendrite_1_1dendrite__impl_1_1_dendrite_1affd0640a693e4281a8a0927cd4058859" prot="public" virt="non-virtual"><scope>bittensor::_dendrite::dendrite_impl::Dendrite</scope><name>stats</name></member>
+      <member refid="classbittensor_1_1__dendrite_1_1dendrite__impl_1_1_dendrite_1af64a1b06ea6d77b00c6b191f2b95daad" prot="public" virt="non-virtual"><scope>bittensor::_dendrite::dendrite_impl::Dendrite</scope><name>text</name></member>
+      <member refid="classbittensor_1_1__dendrite_1_1dendrite__impl_1_1_dendrite_1ad12fdba0d1db1b1e0eb4cd5a8e209d5b" prot="public" virt="non-virtual"><scope>bittensor::_dendrite::dendrite_impl::Dendrite</scope><name>text_causal_lm</name></member>
+      <member refid="classbittensor_1_1__dendrite_1_1dendrite__impl_1_1_dendrite_1a0cf9d7590cb94638a20627417b057c78" prot="public" virt="non-virtual"><scope>bittensor::_dendrite::dendrite_impl::Dendrite</scope><name>text_causal_lm_next</name></member>
+      <member refid="classbittensor_1_1__dendrite_1_1dendrite__impl_1_1_dendrite_1a847c81a7312898dcca79439dab3e1420" prot="public" virt="non-virtual"><scope>bittensor::_dendrite::dendrite_impl::Dendrite</scope><name>text_last_hidden_state</name></member>
+      <member refid="classbittensor_1_1__dendrite_1_1dendrite__impl_1_1_dendrite_1a162b4285d8ae80681dc18c33379aa38d" prot="public" virt="non-virtual"><scope>bittensor::_dendrite::dendrite_impl::Dendrite</scope><name>to_dataframe</name></member>
+      <member refid="classbittensor_1_1__dendrite_1_1dendrite__impl_1_1_dendrite_1a9489a72a71cd70e2b6bf11aa4a892d5b" prot="public" virt="non-virtual"><scope>bittensor::_dendrite::dendrite_impl::Dendrite</scope><name>to_wandb</name></member>
+      <member refid="classbittensor_1_1__dendrite_1_1dendrite__impl_1_1_dendrite_1a52f56fdee119d8db1bc4528266623519" prot="public" virt="non-virtual"><scope>bittensor::_dendrite::dendrite_impl::Dendrite</scope><name>update_stats</name></member>
+      <member refid="classbittensor_1_1__dendrite_1_1dendrite__impl_1_1_dendrite_1ac4939061f29081ffca15953a91d3e842" prot="public" virt="non-virtual"><scope>bittensor::_dendrite::dendrite_impl::Dendrite</scope><name>wallet</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

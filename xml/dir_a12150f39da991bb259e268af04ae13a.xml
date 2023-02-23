@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="dir_a12150f39da991bb259e268af04ae13a" kind="dir">
+    <compoundname>/Users/macthrasher/bittensor/bittensor/_receptor</compoundname>
+    <innerfile refid="__receptor_2____init_____8py">__init__.py</innerfile>
+    <innerfile refid="receptor__impl_8py">receptor_impl.py</innerfile>
+    <innerfile refid="receptor__pool__impl_8py">receptor_pool_impl.py</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/macthrasher/bittensor/bittensor/_receptor/"/>
+  </compounddef>
+</doxygen>

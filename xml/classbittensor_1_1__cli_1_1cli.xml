@@ -1,0 +1,464 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="classbittensor_1_1__cli_1_1cli" kind="class" language="Python" prot="public">
+    <compoundname>bittensor::_cli::cli</compoundname>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classbittensor_1_1__cli_1_1cli_1a955242a912c483e064dad4f2a3678d18" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type> &apos;<ref refid="classbittensor_1_1__cli_1_1cli__impl_1_1_c_l_i" kindref="compound">bittensor.CLI</ref>&apos;</type>
+        <definition> &apos;bittensor.CLI&apos; bittensor._cli.cli.__new__</definition>
+        <argsstring>(cls, Optional[&apos;bittensor.Config&apos;] config=None, Optional[List[str]] args=None)</argsstring>
+        <name>__new__</name>
+        <qualifiedname>bittensor._cli.cli.__new__</qualifiedname>
+        <param>
+          <type>cls</type>
+          <defname>cls</defname>
+        </param>
+        <param>
+          <type>Optional</type>
+          <declname>config</declname>
+          <array>[ &apos;bittensor.Config&apos;]</array>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type>Optional]</type>
+          <declname>args</declname>
+          <array>[List[str]</array>
+          <defval>None</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Creates a new bittensor.cli from passed arguments.
+        Args:
+            config (:obj:`bittensor.Config`, `optional`): 
+                bittensor.cli.config()
+            args (`List[str]`, `optional`): 
+                The arguments to parse from the command line.</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_cli/__init__.py" line="47" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_cli/__init__.py" bodystart="51" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__cli_1_1cli_1a9b12829fe9947b226fb6512af0c0052a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._cli.cli.check_metagraph_config</definition>
+        <argsstring>(&apos;bittensor.Config&apos; config)</argsstring>
+        <name>check_metagraph_config</name>
+        <qualifiedname>bittensor._cli.cli.check_metagraph_config</qualifiedname>
+        <param>
+          <type>&apos;<ref refid="classbittensor_1_1__config_1_1config__impl_1_1_config" kindref="compound">bittensor.Config</ref>&apos;</type>
+          <declname>config</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_cli/__init__.py" line="708" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_cli/__init__.py" bodystart="708" bodyend="711"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__cli_1_1cli_1a2a0083c4b76d9fefe33f9c532a340cf6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._cli.cli.check_weights_config</definition>
+        <argsstring>(&apos;bittensor.Config&apos; config)</argsstring>
+        <name>check_weights_config</name>
+        <qualifiedname>bittensor._cli.cli.check_weights_config</qualifiedname>
+        <param>
+          <type>&apos;<ref refid="classbittensor_1_1__config_1_1config__impl_1_1_config" kindref="compound">bittensor.Config</ref>&apos;</type>
+          <declname>config</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_cli/__init__.py" line="712" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_cli/__init__.py" bodystart="712" bodyend="729"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__cli_1_1cli_1a3f71742da4bb398b5eac3854bc4d49a2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._cli.cli.check_transfer_config</definition>
+        <argsstring>(&apos;bittensor.Config&apos; config)</argsstring>
+        <name>check_transfer_config</name>
+        <qualifiedname>bittensor._cli.cli.check_transfer_config</qualifiedname>
+        <param>
+          <type>&apos;<ref refid="classbittensor_1_1__config_1_1config__impl_1_1_config" kindref="compound">bittensor.Config</ref>&apos;</type>
+          <declname>config</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_cli/__init__.py" line="730" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_cli/__init__.py" bodystart="730" bodyend="766"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__cli_1_1cli_1a7eed0924af3da3b7f64a4dc4d8d76c8e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._cli.cli.check_unstake_config</definition>
+        <argsstring>(&apos;bittensor.Config&apos; config)</argsstring>
+        <name>check_unstake_config</name>
+        <qualifiedname>bittensor._cli.cli.check_unstake_config</qualifiedname>
+        <param>
+          <type>&apos;<ref refid="classbittensor_1_1__config_1_1config__impl_1_1_config" kindref="compound">bittensor.Config</ref>&apos;</type>
+          <declname>config</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_cli/__init__.py" line="767" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_cli/__init__.py" bodystart="767" bodyend="798"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__cli_1_1cli_1a490b665ee51c831075a153ecb7ee4a0c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._cli.cli.check_query_config</definition>
+        <argsstring>(&apos;bittensor.Config&apos; config)</argsstring>
+        <name>check_query_config</name>
+        <qualifiedname>bittensor._cli.cli.check_query_config</qualifiedname>
+        <param>
+          <type>&apos;<ref refid="classbittensor_1_1__config_1_1config__impl_1_1_config" kindref="compound">bittensor.Config</ref>&apos;</type>
+          <declname>config</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_cli/__init__.py" line="799" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_cli/__init__.py" bodystart="799" bodyend="818"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__cli_1_1cli_1afe5ccae9076fd059bf7531b60d4744d9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._cli.cli.check_set_weights_config</definition>
+        <argsstring>(&apos;bittensor.Config&apos; config)</argsstring>
+        <name>check_set_weights_config</name>
+        <qualifiedname>bittensor._cli.cli.check_set_weights_config</qualifiedname>
+        <param>
+          <type>&apos;<ref refid="classbittensor_1_1__config_1_1config__impl_1_1_config" kindref="compound">bittensor.Config</ref>&apos;</type>
+          <declname>config</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_cli/__init__.py" line="819" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_cli/__init__.py" bodystart="819" bodyend="838"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__cli_1_1cli_1a0e7a0cbbfeeb558cd0478c6798e94c18" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._cli.cli.check_inspect_config</definition>
+        <argsstring>(&apos;bittensor.Config&apos; config)</argsstring>
+        <name>check_inspect_config</name>
+        <qualifiedname>bittensor._cli.cli.check_inspect_config</qualifiedname>
+        <param>
+          <type>&apos;<ref refid="classbittensor_1_1__config_1_1config__impl_1_1_config" kindref="compound">bittensor.Config</ref>&apos;</type>
+          <declname>config</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_cli/__init__.py" line="839" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_cli/__init__.py" bodystart="839" bodyend="850"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__cli_1_1cli_1aba3017b4300cdf19ca03428f51b43a16" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._cli.cli.check_stake_config</definition>
+        <argsstring>(&apos;bittensor.Config&apos; config)</argsstring>
+        <name>check_stake_config</name>
+        <qualifiedname>bittensor._cli.cli.check_stake_config</qualifiedname>
+        <param>
+          <type>&apos;<ref refid="classbittensor_1_1__config_1_1config__impl_1_1_config" kindref="compound">bittensor.Config</ref>&apos;</type>
+          <declname>config</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_cli/__init__.py" line="851" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_cli/__init__.py" bodystart="851" bodyend="874"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__cli_1_1cli_1a193dfe88bbbb7a0b5db86262cfef3c8e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._cli.cli.check_overview_config</definition>
+        <argsstring>(&apos;bittensor.Config&apos; config)</argsstring>
+        <name>check_overview_config</name>
+        <qualifiedname>bittensor._cli.cli.check_overview_config</qualifiedname>
+        <param>
+          <type>&apos;<ref refid="classbittensor_1_1__config_1_1config__impl_1_1_config" kindref="compound">bittensor.Config</ref>&apos;</type>
+          <declname>config</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_cli/__init__.py" line="875" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_cli/__init__.py" bodystart="875" bodyend="882"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__cli_1_1cli_1afca3330eb9fd9f2a5698dd85ac11803a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._cli.cli.check_register_config</definition>
+        <argsstring>(&apos;bittensor.Config&apos; config)</argsstring>
+        <name>check_register_config</name>
+        <qualifiedname>bittensor._cli.cli.check_register_config</qualifiedname>
+        <param>
+          <type>&apos;<ref refid="classbittensor_1_1__config_1_1config__impl_1_1_config" kindref="compound">bittensor.Config</ref>&apos;</type>
+          <declname>config</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_cli/__init__.py" line="919" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_cli/__init__.py" bodystart="919" bodyend="933"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__cli_1_1cli_1a3966d69b99e3d578bbb3a8f801840f7f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._cli.cli.check_new_coldkey_config</definition>
+        <argsstring>(&apos;bittensor.Config&apos; config)</argsstring>
+        <name>check_new_coldkey_config</name>
+        <qualifiedname>bittensor._cli.cli.check_new_coldkey_config</qualifiedname>
+        <param>
+          <type>&apos;<ref refid="classbittensor_1_1__config_1_1config__impl_1_1_config" kindref="compound">bittensor.Config</ref>&apos;</type>
+          <declname>config</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_cli/__init__.py" line="934" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_cli/__init__.py" bodystart="934" bodyend="938"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__cli_1_1cli_1a1941fa2b48c5c9c8b5e2f9a147372611" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._cli.cli.check_new_hotkey_config</definition>
+        <argsstring>(&apos;bittensor.Config&apos; config)</argsstring>
+        <name>check_new_hotkey_config</name>
+        <qualifiedname>bittensor._cli.cli.check_new_hotkey_config</qualifiedname>
+        <param>
+          <type>&apos;<ref refid="classbittensor_1_1__config_1_1config__impl_1_1_config" kindref="compound">bittensor.Config</ref>&apos;</type>
+          <declname>config</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_cli/__init__.py" line="939" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_cli/__init__.py" bodystart="939" bodyend="947"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__cli_1_1cli_1a36b0ca725c680b3ff9a2455f4cf2f7a8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._cli.cli.check_regen_hotkey_config</definition>
+        <argsstring>(&apos;bittensor.Config&apos; config)</argsstring>
+        <name>check_regen_hotkey_config</name>
+        <qualifiedname>bittensor._cli.cli.check_regen_hotkey_config</qualifiedname>
+        <param>
+          <type>&apos;<ref refid="classbittensor_1_1__config_1_1config__impl_1_1_config" kindref="compound">bittensor.Config</ref>&apos;</type>
+          <declname>config</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_cli/__init__.py" line="948" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_cli/__init__.py" bodystart="948" bodyend="963"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__cli_1_1cli_1a50d935c9a47b718efff0806a3c757b0b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._cli.cli.check_regen_coldkey_config</definition>
+        <argsstring>(&apos;bittensor.Config&apos; config)</argsstring>
+        <name>check_regen_coldkey_config</name>
+        <qualifiedname>bittensor._cli.cli.check_regen_coldkey_config</qualifiedname>
+        <param>
+          <type>&apos;<ref refid="classbittensor_1_1__config_1_1config__impl_1_1_config" kindref="compound">bittensor.Config</ref>&apos;</type>
+          <declname>config</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_cli/__init__.py" line="964" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_cli/__init__.py" bodystart="964" bodyend="974"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__cli_1_1cli_1acad1fa5636926c151a63d3a123063ec0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._cli.cli.check_regen_coldkeypub_config</definition>
+        <argsstring>(&apos;bittensor.Config&apos; config)</argsstring>
+        <name>check_regen_coldkeypub_config</name>
+        <qualifiedname>bittensor._cli.cli.check_regen_coldkeypub_config</qualifiedname>
+        <param>
+          <type>&apos;<ref refid="classbittensor_1_1__config_1_1config__impl_1_1_config" kindref="compound">bittensor.Config</ref>&apos;</type>
+          <declname>config</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_cli/__init__.py" line="975" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_cli/__init__.py" bodystart="975" bodyend="987"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__cli_1_1cli_1afcf013ca8070f9d1b94d2b8d59472e90" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._cli.cli.check_run_config</definition>
+        <argsstring>(&apos;bittensor.Config&apos; config)</argsstring>
+        <name>check_run_config</name>
+        <qualifiedname>bittensor._cli.cli.check_run_config</qualifiedname>
+        <param>
+          <type>&apos;<ref refid="classbittensor_1_1__config_1_1config__impl_1_1_config" kindref="compound">bittensor.Config</ref>&apos;</type>
+          <declname>config</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_cli/__init__.py" line="988" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_cli/__init__.py" bodystart="988" bodyend="1015"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__cli_1_1cli_1a8c88ecfe33eaf07f86531ccd494d81fa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._cli.cli.check_help_config</definition>
+        <argsstring>(&apos;bittensor.Config&apos; config)</argsstring>
+        <name>check_help_config</name>
+        <qualifiedname>bittensor._cli.cli.check_help_config</qualifiedname>
+        <param>
+          <type>&apos;<ref refid="classbittensor_1_1__config_1_1config__impl_1_1_config" kindref="compound">bittensor.Config</ref>&apos;</type>
+          <declname>config</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_cli/__init__.py" line="1016" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_cli/__init__.py" bodystart="1016" bodyend="1020"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__cli_1_1cli_1aef76a64a165e6ba244175af10ec9bbcf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._cli.cli.check_update_config</definition>
+        <argsstring>(&apos;bittensor.Config&apos; config)</argsstring>
+        <name>check_update_config</name>
+        <qualifiedname>bittensor._cli.cli.check_update_config</qualifiedname>
+        <param>
+          <type>&apos;<ref refid="classbittensor_1_1__config_1_1config__impl_1_1_config" kindref="compound">bittensor.Config</ref>&apos;</type>
+          <declname>config</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_cli/__init__.py" line="1021" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_cli/__init__.py" bodystart="1021" bodyend="1025"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classbittensor_1_1__cli_1_1cli_1a943ad4fd046ebbfe2aaaf497fb88b5ee" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type> &apos;<ref refid="classbittensor_1_1__config_1_1config" kindref="compound">bittensor.config</ref>&apos;</type>
+        <definition> &apos;bittensor.config&apos; bittensor._cli.cli.config</definition>
+        <argsstring>(List[str] args)</argsstring>
+        <name>config</name>
+        <qualifiedname>bittensor._cli.cli.config</qualifiedname>
+        <param>
+          <type>List</type>
+          <declname>args</declname>
+          <array>[str]</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> From the argument parser, add config to bittensor.executor and local config 
+    Return: bittensor.config object
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_cli/__init__.py" line="65" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_cli/__init__.py" bodystart="65" bodyend="666"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__cli_1_1cli_1a8cd297f95ca6618210d496d07d240935" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._cli.cli.check_config</definition>
+        <argsstring>(&apos;bittensor.Config&apos; config)</argsstring>
+        <name>check_config</name>
+        <qualifiedname>bittensor._cli.cli.check_config</qualifiedname>
+        <param>
+          <type>&apos;<ref refid="classbittensor_1_1__config_1_1config__impl_1_1_config" kindref="compound">bittensor.Config</ref>&apos;</type>
+          <declname>config</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Check if the essential condig exist under different command
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_cli/__init__.py" line="668" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_cli/__init__.py" bodystart="668" bodyend="707"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classbittensor_1_1__cli_1_1cli_1a5e9a172878d8cc4fea6d9b261ea150d0" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None bittensor._cli.cli._check_for_cuda_reg_config</definition>
+        <argsstring>(&apos;bittensor.Config&apos; config)</argsstring>
+        <name>_check_for_cuda_reg_config</name>
+        <qualifiedname>bittensor._cli.cli._check_for_cuda_reg_config</qualifiedname>
+        <param>
+          <type>&apos;<ref refid="classbittensor_1_1__config_1_1config__impl_1_1_config" kindref="compound">bittensor.Config</ref>&apos;</type>
+          <declname>config</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Checks, when CUDA is available, if the user would like to register with their CUDA device.</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_cli/__init__.py" line="883" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_cli/__init__.py" bodystart="883" bodyend="918"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Create and init the CLI class, which handles the coldkey, hotkey and tao transfer 
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/Users/macthrasher/bittensor/bittensor/_cli/__init__.py" line="43" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_cli/__init__.py" bodystart="43" bodyend="1025"/>
+    <listofallmembers>
+      <member refid="classbittensor_1_1__cli_1_1cli_1a955242a912c483e064dad4f2a3678d18" prot="public" virt="non-virtual"><scope>bittensor::_cli::cli</scope><name>__new__</name></member>
+      <member refid="classbittensor_1_1__cli_1_1cli_1a5e9a172878d8cc4fea6d9b261ea150d0" prot="protected" virt="non-virtual"><scope>bittensor::_cli::cli</scope><name>_check_for_cuda_reg_config</name></member>
+      <member refid="classbittensor_1_1__cli_1_1cli_1a8cd297f95ca6618210d496d07d240935" prot="public" virt="non-virtual"><scope>bittensor::_cli::cli</scope><name>check_config</name></member>
+      <member refid="classbittensor_1_1__cli_1_1cli_1a8c88ecfe33eaf07f86531ccd494d81fa" prot="public" virt="non-virtual"><scope>bittensor::_cli::cli</scope><name>check_help_config</name></member>
+      <member refid="classbittensor_1_1__cli_1_1cli_1a0e7a0cbbfeeb558cd0478c6798e94c18" prot="public" virt="non-virtual"><scope>bittensor::_cli::cli</scope><name>check_inspect_config</name></member>
+      <member refid="classbittensor_1_1__cli_1_1cli_1a9b12829fe9947b226fb6512af0c0052a" prot="public" virt="non-virtual"><scope>bittensor::_cli::cli</scope><name>check_metagraph_config</name></member>
+      <member refid="classbittensor_1_1__cli_1_1cli_1a3966d69b99e3d578bbb3a8f801840f7f" prot="public" virt="non-virtual"><scope>bittensor::_cli::cli</scope><name>check_new_coldkey_config</name></member>
+      <member refid="classbittensor_1_1__cli_1_1cli_1a1941fa2b48c5c9c8b5e2f9a147372611" prot="public" virt="non-virtual"><scope>bittensor::_cli::cli</scope><name>check_new_hotkey_config</name></member>
+      <member refid="classbittensor_1_1__cli_1_1cli_1a193dfe88bbbb7a0b5db86262cfef3c8e" prot="public" virt="non-virtual"><scope>bittensor::_cli::cli</scope><name>check_overview_config</name></member>
+      <member refid="classbittensor_1_1__cli_1_1cli_1a490b665ee51c831075a153ecb7ee4a0c" prot="public" virt="non-virtual"><scope>bittensor::_cli::cli</scope><name>check_query_config</name></member>
+      <member refid="classbittensor_1_1__cli_1_1cli_1a50d935c9a47b718efff0806a3c757b0b" prot="public" virt="non-virtual"><scope>bittensor::_cli::cli</scope><name>check_regen_coldkey_config</name></member>
+      <member refid="classbittensor_1_1__cli_1_1cli_1acad1fa5636926c151a63d3a123063ec0" prot="public" virt="non-virtual"><scope>bittensor::_cli::cli</scope><name>check_regen_coldkeypub_config</name></member>
+      <member refid="classbittensor_1_1__cli_1_1cli_1a36b0ca725c680b3ff9a2455f4cf2f7a8" prot="public" virt="non-virtual"><scope>bittensor::_cli::cli</scope><name>check_regen_hotkey_config</name></member>
+      <member refid="classbittensor_1_1__cli_1_1cli_1afca3330eb9fd9f2a5698dd85ac11803a" prot="public" virt="non-virtual"><scope>bittensor::_cli::cli</scope><name>check_register_config</name></member>
+      <member refid="classbittensor_1_1__cli_1_1cli_1afcf013ca8070f9d1b94d2b8d59472e90" prot="public" virt="non-virtual"><scope>bittensor::_cli::cli</scope><name>check_run_config</name></member>
+      <member refid="classbittensor_1_1__cli_1_1cli_1afe5ccae9076fd059bf7531b60d4744d9" prot="public" virt="non-virtual"><scope>bittensor::_cli::cli</scope><name>check_set_weights_config</name></member>
+      <member refid="classbittensor_1_1__cli_1_1cli_1aba3017b4300cdf19ca03428f51b43a16" prot="public" virt="non-virtual"><scope>bittensor::_cli::cli</scope><name>check_stake_config</name></member>
+      <member refid="classbittensor_1_1__cli_1_1cli_1a3f71742da4bb398b5eac3854bc4d49a2" prot="public" virt="non-virtual"><scope>bittensor::_cli::cli</scope><name>check_transfer_config</name></member>
+      <member refid="classbittensor_1_1__cli_1_1cli_1a7eed0924af3da3b7f64a4dc4d8d76c8e" prot="public" virt="non-virtual"><scope>bittensor::_cli::cli</scope><name>check_unstake_config</name></member>
+      <member refid="classbittensor_1_1__cli_1_1cli_1aef76a64a165e6ba244175af10ec9bbcf" prot="public" virt="non-virtual"><scope>bittensor::_cli::cli</scope><name>check_update_config</name></member>
+      <member refid="classbittensor_1_1__cli_1_1cli_1a2a0083c4b76d9fefe33f9c532a340cf6" prot="public" virt="non-virtual"><scope>bittensor::_cli::cli</scope><name>check_weights_config</name></member>
+      <member refid="classbittensor_1_1__cli_1_1cli_1a943ad4fd046ebbfe2aaaf497fb88b5ee" prot="public" virt="non-virtual"><scope>bittensor::_cli::cli</scope><name>config</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

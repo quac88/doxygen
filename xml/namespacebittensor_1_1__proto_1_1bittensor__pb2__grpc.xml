@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="namespacebittensor_1_1__proto_1_1bittensor__pb2__grpc" kind="namespace" language="Python">
+    <compoundname>bittensor::_proto::bittensor_pb2_grpc</compoundname>
+    <innerclass refid="classbittensor_1_1__proto_1_1bittensor__pb2__grpc_1_1_bittensor" prot="public">bittensor::_proto::bittensor_pb2_grpc::Bittensor</innerclass>
+    <innerclass refid="classbittensor_1_1__proto_1_1bittensor__pb2__grpc_1_1_bittensor_servicer" prot="public">bittensor::_proto::bittensor_pb2_grpc::BittensorServicer</innerclass>
+    <innerclass refid="classbittensor_1_1__proto_1_1bittensor__pb2__grpc_1_1_bittensor_stub" prot="public">bittensor::_proto::bittensor_pb2_grpc::BittensorStub</innerclass>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="namespacebittensor_1_1__proto_1_1bittensor__pb2__grpc_1a516349b153aada228105b5788bf7002b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._proto.bittensor_pb2_grpc.add_BittensorServicer_to_server</definition>
+        <argsstring>(servicer, server)</argsstring>
+        <name>add_BittensorServicer_to_server</name>
+        <qualifiedname>bittensor._proto.bittensor_pb2_grpc.add_BittensorServicer_to_server</qualifiedname>
+        <param>
+          <type>servicer</type>
+          <defname>servicer</defname>
+        </param>
+        <param>
+          <type>server</type>
+          <defname>server</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_proto/bittensor_pb2_grpc.py" line="49" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_proto/bittensor_pb2_grpc.py" bodystart="49" bodyend="67"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Client and server classes corresponding to protobuf-defined services.</verbatim> </para>
+    </detaileddescription>
+    <location file="/Users/macthrasher/bittensor/bittensor/_proto/bittensor_pb2_grpc.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

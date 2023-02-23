@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="dir_a00731e740fbce22eeff9bf720ce482a" kind="dir">
+    <compoundname>/Users/macthrasher/bittensor/bittensor/_cli</compoundname>
+    <innerfile refid="__cli_2____init_____8py">__init__.py</innerfile>
+    <innerfile refid="cli__impl_8py">cli_impl.py</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/macthrasher/bittensor/bittensor/_cli/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="namespacebittensor_1_1__neuron_1_1text_1_1core__server_1_1run" kind="namespace" language="Python">
+    <compoundname>bittensor::_neuron::text::core_server::run</compoundname>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="namespacebittensor_1_1__neuron_1_1text_1_1core__server_1_1run_1a34313c1b49bca0f3b7ac2d5e6388977b" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor::_neuron::text::core_server::run.logger</definition>
+        <argsstring></argsstring>
+        <name>logger</name>
+        <qualifiedname>bittensor._neuron.text.core_server.run.logger</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_server/run.py" line="30" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_server/run.py" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacebittensor_1_1__neuron_1_1text_1_1core__server_1_1run_1a4005ce9ca48ad034650393bfb718c357" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor::_neuron::text::core_server::run.colors</definition>
+        <argsstring></argsstring>
+        <name>colors</name>
+        <qualifiedname>bittensor._neuron.text.core_server.run.colors</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_server/run.py" line="30" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_server/run.py" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="namespacebittensor_1_1__neuron_1_1text_1_1core__server_1_1run_1a29ebde5982916438c4ecf4a64a4bdce0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._neuron.text.core_server.run.serve</definition>
+        <argsstring>(config, model, subtensor=None, wallet=None, axon=None, metagraph=None)</argsstring>
+        <name>serve</name>
+        <qualifiedname>bittensor._neuron.text.core_server.run.serve</qualifiedname>
+        <param>
+          <type><ref refid="classbittensor_1_1__config_1_1config" kindref="compound">config</ref></type>
+          <defname>config</defname>
+        </param>
+        <param>
+          <type>model</type>
+          <defname>model</defname>
+        </param>
+        <param>
+          <type><ref refid="classbittensor_1_1__subtensor_1_1subtensor" kindref="compound">subtensor</ref></type>
+          <defname>subtensor</defname>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type><ref refid="classbittensor_1_1__wallet_1_1wallet" kindref="compound">wallet</ref></type>
+          <defname>wallet</defname>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type><ref refid="classbittensor_1_1__axon_1_1axon" kindref="compound">axon</ref></type>
+          <defname>axon</defname>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type><ref refid="classbittensor_1_1__metagraph_1_1metagraph" kindref="compound">metagraph</ref></type>
+          <defname>metagraph</defname>
+          <defval>None</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_server/run.py" line="42" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_server/run.py" bodystart="49" bodyend="481"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim> The Exodus base client.
+
+Example:
+    $ python miners/text/template_client.py</verbatim> </para>
+    </detaileddescription>
+    <location file="/Users/macthrasher/bittensor/bittensor/_neuron/text/core_server/run.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

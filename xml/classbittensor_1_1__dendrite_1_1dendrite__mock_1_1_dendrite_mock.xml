@@ -1,0 +1,751 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="classbittensor_1_1__dendrite_1_1dendrite__mock_1_1_dendrite_mock" kind="class" language="Python" prot="public">
+    <compoundname>bittensor::_dendrite::dendrite_mock::DendriteMock</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">torch.autograd.Function</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classbittensor_1_1__dendrite_1_1dendrite__mock_1_1_dendrite_mock_1a9f892c0ae3ad0c4215c37e32c06fc9c6" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._dendrite.dendrite_mock.DendriteMock::config</definition>
+        <argsstring></argsstring>
+        <name>config</name>
+        <qualifiedname>bittensor._dendrite.dendrite_mock.DendriteMock.config</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_dendrite/dendrite_mock.py" line="53" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_dendrite/dendrite_mock.py" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__dendrite_1_1dendrite__mock_1_1_dendrite_mock_1a319e9d2b826f7d5e6c1d6eeace3181fb" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._dendrite.dendrite_mock.DendriteMock::wallet</definition>
+        <argsstring></argsstring>
+        <name>wallet</name>
+        <qualifiedname>bittensor._dendrite.dendrite_mock.DendriteMock.wallet</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_dendrite/dendrite_mock.py" line="54" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_dendrite/dendrite_mock.py" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbittensor_1_1__dendrite_1_1dendrite__mock_1_1_dendrite_mock_1aebb0242acf69b207f575854795c00403" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bittensor._dendrite.dendrite_mock.DendriteMock::stats</definition>
+        <argsstring></argsstring>
+        <name>stats</name>
+        <qualifiedname>bittensor._dendrite.dendrite_mock.DendriteMock.stats</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_dendrite/dendrite_mock.py" line="55" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_dendrite/dendrite_mock.py" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classbittensor_1_1__dendrite_1_1dendrite__mock_1_1_dendrite_mock_1a81ffefc2213c7563e28f2e2de997f5d5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._dendrite.dendrite_mock.DendriteMock.__init__</definition>
+        <argsstring>(self, &apos;bittensor.Config&apos; config, &apos;bittensor.Wallet&apos; wallet)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>bittensor._dendrite.dendrite_mock.DendriteMock.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>&apos;<ref refid="classbittensor_1_1__config_1_1config__impl_1_1_config" kindref="compound">bittensor.Config</ref>&apos;</type>
+          <declname>config</declname>
+        </param>
+        <param>
+          <type>&apos;<ref refid="classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet" kindref="compound">bittensor.Wallet</ref>&apos;</type>
+          <declname>wallet</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Initializes a new Mock Dendrite entry point.</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_dendrite/dendrite_mock.py" line="46" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_dendrite/dendrite_mock.py" bodystart="50" bodyend="56"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__dendrite_1_1dendrite__mock_1_1_dendrite_mock_1ae632c778cd7e16859863ceeb57b1b96f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._dendrite.dendrite_mock.DendriteMock.__str__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__str__</name>
+        <qualifiedname>bittensor._dendrite.dendrite_mock.DendriteMock.__str__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_dendrite/dendrite_mock.py" line="57" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_dendrite/dendrite_mock.py" bodystart="57" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__dendrite_1_1dendrite__mock_1_1_dendrite_mock_1ad557a24a1819db6c705133390b0c115c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._dendrite.dendrite_mock.DendriteMock.__repr__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__repr__</name>
+        <qualifiedname>bittensor._dendrite.dendrite_mock.DendriteMock.__repr__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_dendrite/dendrite_mock.py" line="60" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_dendrite/dendrite_mock.py" bodystart="60" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__dendrite_1_1dendrite__mock_1_1_dendrite_mock_1a808509a1c1618ec006377e3131becf1a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._dendrite.dendrite_mock.DendriteMock.__del__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__del__</name>
+        <qualifiedname>bittensor._dendrite.dendrite_mock.DendriteMock.__del__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_dendrite/dendrite_mock.py" line="63" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_dendrite/dendrite_mock.py" bodystart="63" bodyend="65"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__dendrite_1_1dendrite__mock_1_1_dendrite_mock_1aba4861e1bd42622eced10ec450fddfb5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Tuple[Union[List[torch.FloatTensor], torch.FloatTensor], torch.LongTensor, torch.FloatTensor]</type>
+        <definition> Tuple[Union[List[torch.FloatTensor], torch.FloatTensor], torch.LongTensor, torch.FloatTensor] bittensor._dendrite.dendrite_mock.DendriteMock.forward_image</definition>
+        <argsstring>(self, Union[List[&apos;bittensor.Endpoint&apos;], &apos;bittensor.Endpoint&apos;] endpoints, List[torch.FloatTensor] inputs, int timeout=None, bool requires_grad=None)</argsstring>
+        <name>forward_image</name>
+        <qualifiedname>bittensor._dendrite.dendrite_mock.DendriteMock.forward_image</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>Union</type>
+          <defname>endpoints</defname>
+          <array>[List[ &apos;bittensor.Endpoint&apos;]</array>
+        </param>
+        <param>
+          <type>&apos;<ref refid="classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint" kindref="compound">bittensor.Endpoint</ref>&apos;]</type>
+          <declname>endpoints</declname>
+          <defname>inputs</defname>
+        </param>
+        <param>
+          <type>List</type>
+          <declname>inputs</declname>
+          <defname>timeout</defname>
+          <array>[torch.FloatTensor]</array>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>timeout</declname>
+          <defname>requires_grad</defname>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>requires_grad</declname>
+          <defval>None</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Forward image inputs to endpoints.
+
+  Args:
+        endpoints (:obj:`Union[List[bittensor.Endpoint], bittensor.Endpoint]` of shape :obj:`(num_endpoints)`, `required`):
+            List or single of endpoints which match the length of inputs. Inputs are sent forward to these endpoints.
+
+        inputs (:obj:`Union[List[torch.FloatTensor], torch.FloatTensor]` of shape :obj:`(num_endpoints * [ batch_size, sequence_len, channels, rows, cols ])`, `required`):
+            List or single of image-tensors to send to corresponding endpoints. Tensors are images encoded using the
+            torch.toTensor() or other encoding which produces the shape [batch_size, channels, rows, cols].
+
+        timeout (int, default = dendrite.timeout `optional`):
+            Request timeout.
+
+        requires_grad (int, default = dendrite.requires_grad, `optional`):
+            If true, the backward pass triggers passing gradients on the wire.
+
+    Returns:
+        responses (:obj:`Union[ List[torch.FloatTensor], torch.FloatTensor] ` of shape :obj:`(batch_size, sequence_len, bittensor.__network_dim__)`, `required`):
+            Output encodings of inputs produced by remote endpoints. Non-responses are zeroes of input shape plus output dimension.
+
+        codes (:obj:`torch.LongTensor` of shape :obj:`[ num_endpoints ]`, `required`):
+            dendrite call return ops.
+
+        times (:obj:`torch.FloatTensor` of shape :obj:`[ num_endpoints ]`, `required`):
+            times per call.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_dendrite/dendrite_mock.py" line="233" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_dendrite/dendrite_mock.py" bodystart="239" bodyend="328"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__dendrite_1_1dendrite__mock_1_1_dendrite_mock_1a596804548b4ab12580fa1ce97fe36e54" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Tuple[Union[List[torch.FloatTensor], torch.FloatTensor], torch.LongTensor, torch.FloatTensor]</type>
+        <definition> Tuple[Union[List[torch.FloatTensor], torch.FloatTensor], torch.LongTensor, torch.FloatTensor] bittensor._dendrite.dendrite_mock.DendriteMock.forward_tensor</definition>
+        <argsstring>(self, Union[List[&apos;bittensor.Endpoint&apos;], &apos;bittensor.Endpoint&apos;] endpoints, List[torch.FloatTensor] inputs, int timeout=None, bool requires_grad=None)</argsstring>
+        <name>forward_tensor</name>
+        <qualifiedname>bittensor._dendrite.dendrite_mock.DendriteMock.forward_tensor</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>Union</type>
+          <defname>endpoints</defname>
+          <array>[List[ &apos;bittensor.Endpoint&apos;]</array>
+        </param>
+        <param>
+          <type>&apos;<ref refid="classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint" kindref="compound">bittensor.Endpoint</ref>&apos;]</type>
+          <declname>endpoints</declname>
+          <defname>inputs</defname>
+        </param>
+        <param>
+          <type>List</type>
+          <declname>inputs</declname>
+          <defname>timeout</defname>
+          <array>[torch.FloatTensor]</array>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>timeout</declname>
+          <defname>requires_grad</defname>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>requires_grad</declname>
+          <defval>None</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Forward tensor inputs to endpoints.
+
+    Args:
+        endpoints (:obj:`Union[List[bittensor.Endpoint], bittensor.Endpoint]` of shape :obj:`(num_endpoints)`, `required`):
+            List or single of endpoints which match the length of inputs. Inputs are sent forward to these endpoints.
+
+        inputs (:obj:`Union[List[torch.LongTensor], torch.LongTensor]` of shape :obj:`(num_endpoints * [batch_size, sequence_len])`, `required`):
+            List or single tensors to send to corresponding endpoints. Tensors are of float type and
+            with shape [batch_size, sequence_len, bittensor.__network_dim__].
+
+        timeout (int, default = dendrite.timeout `optional`):
+            Request timeout.
+
+        requires_grad (int, default = dendrite.requires_grad, `optional`):
+            If true, the backward pass triggers passing gradients on the wire.
+
+    Returns:
+        responses (:obj:`Union[ List[torch.FloatTensor], torch.FloatTensor] ` of shape :obj:`(batch_size, sequence_len, bittensor.__network_dim__)`, `required`):
+            Output encodings of inputs produced by remote endpoints. Non-responses are zeroes of input shape plus output dimension.
+
+        codes (:obj:`torch.LongTensor` of shape :obj:`[ num_endpoints ]`, `required`):
+            dendrite call return ops.
+
+        times (:obj:`torch.FloatTensor` of shape :obj:`[ num_endpoints ]`, `required`):
+            times per call.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_dendrite/dendrite_mock.py" line="329" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_dendrite/dendrite_mock.py" bodystart="335" bodyend="427"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__dendrite_1_1dendrite__mock_1_1_dendrite_mock_1a05b1862d3fcc5a34924ff9d89424585d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Tuple[Union[List[torch.FloatTensor], torch.FloatTensor], torch.LongTensor, torch.FloatTensor]</type>
+        <definition> Tuple[Union[List[torch.FloatTensor], torch.FloatTensor], torch.LongTensor, torch.FloatTensor] bittensor._dendrite.dendrite_mock.DendriteMock.forward_text</definition>
+        <argsstring>(self, Union[torch.LongTensor, List[torch.LongTensor], List[&apos;bittensor.Endpoint&apos;], &apos;bittensor.Endpoint&apos;] endpoints, Union[str, List[str], List[torch.LongTensor], torch.LongTensor] inputs, int timeout=None, bool requires_grad=None)</argsstring>
+        <name>forward_text</name>
+        <qualifiedname>bittensor._dendrite.dendrite_mock.DendriteMock.forward_text</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>Union</type>
+          <defname>endpoints</defname>
+          <array>[torch.LongTensor, List[torch.LongTensor]</array>
+        </param>
+        <param>
+          <type>List</type>
+          <defname>inputs</defname>
+          <array>[ &apos;bittensor.Endpoint&apos;]</array>
+        </param>
+        <param>
+          <type>&apos;<ref refid="classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint" kindref="compound">bittensor.Endpoint</ref>&apos;]</type>
+          <declname>endpoints</declname>
+          <defname>timeout</defname>
+        </param>
+        <param>
+          <type>Union</type>
+          <defname>requires_grad</defname>
+          <array>[str, List[str]</array>
+        </param>
+        <param>
+          <type>List</type>
+          <array>[torch.LongTensor]</array>
+        </param>
+        <param>
+          <type>torch.LongTensor]</type>
+          <declname>inputs</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>timeout</declname>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>requires_grad</declname>
+          <defval>None</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Forward text inputs to a list of neuron endpoints and block until responses or timeout.
+
+        Args:
+            endpoints (:obj:`Union[torch.LongTensor, List[torch.LongTensor], List[bittensor.Endpoint], bittensor.Endpoint]` of shape :obj:`(num_endpoints)`, `required`):
+                Endpoints to send inputs to. Endpoint can be one of the following types:
+                    - a single endpoint tensor shape [250]
+                    - a set of endpoint tensors shape [n, 250]
+                    - a list of endpoints tensors each of shape [250]
+                    - a single endpoint object. Inputs will be sent to this endpoint alone.
+                    - a list of endpoint objects. All inputs will be sent to these endpoints.
+
+            inputs (:obj:`Union[str,  List[str], List[torch.LongTensor], torch.LongTensor]` of shape :obj:`(num_endpoints * [batch_size, sequence_len])`, `required`):
+                Tokenized sentences to send on the wire. Inputs can be one of the following types:
+                    - a single string: the string will be tokenized using the bittensor tokenizer.
+                    - a list of strings: the strings will be tokenized using the bittensor tokenizer.
+                    - a tensor with shape [batch_size, sequence_len], assumed to be the output of bittensor tokenizer.
+                    - a tensor with shape [n, batch_size, sequence_len], the operation will unbind the tensor and pass inputs to endpoints.
+                If inputs are tensors they will be cast to int64 format before sending on the wire.
+
+            timeout (:type:`int`, default = dendrite.timeout `optional`):
+                Request timeout. Queries that do not respond will be replaced by zeros.
+
+            requires_grad (:type:`int`, default = dendrite.requires_grad, `optional`):
+                If true, the backward pass triggers passing gradients on the wire.
+
+        Returns:
+            responses (:obj:`torch.FloatTensor` of shape :obj:`(n, batch_size, sequence_len, bittensor.__network_dim__)`, `required`):
+                Output encodings of inputs produced by remote endpoints. Non-responses are zeroes of input shape plus output dimension.
+                The first dimension will match the number of endpoints queried.
+
+            codes (:obj:`torch.LongTensor` of shape :obj:`[ num_endpoints ]`, `required`):
+                dendrite call return ops.
+
+            times (:obj:`torch.FloatTensor` of shape :obj:`[ num_endpoints ]`, `required`):
+                times per call.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_dendrite/dendrite_mock.py" line="428" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_dendrite/dendrite_mock.py" bodystart="435" bodyend="598"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__dendrite_1_1dendrite__mock_1_1_dendrite_mock_1ae078e5bf68d851035d9c4e7a125f3611" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._dendrite.dendrite_mock.DendriteMock.update_stats</definition>
+        <argsstring>(self, endpoints, requests, responses, return_ops, query_times)</argsstring>
+        <name>update_stats</name>
+        <qualifiedname>bittensor._dendrite.dendrite_mock.DendriteMock.update_stats</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>endpoints</type>
+          <defname>endpoints</defname>
+        </param>
+        <param>
+          <type>requests</type>
+          <defname>requests</defname>
+        </param>
+        <param>
+          <type>responses</type>
+          <defname>responses</defname>
+        </param>
+        <param>
+          <type>return_ops</type>
+          <defname>return_ops</defname>
+        </param>
+        <param>
+          <type>query_times</type>
+          <defname>query_times</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Update dendrite stat according to the response we get from peers. Updates were saved to self.stats.
+    Args:
+        endpoints (:obj:`List[bittensor.Endpoint]` of shape :obj:`(num_endpoints)`, `required`):
+            The set of endpoints that dendrite sent request to.
+
+        requests (List[torch.Tensor] of shape :obj:`[ num_endpoints ]`, `required`):
+            Requests from the call.
+
+        responses (List[torch.FloatTensor] of shape :obj:`[ num_endpoints ]`, `required`):
+            Responses from the call.
+
+        return_ops (:obj:`torch.LongTensor` of shape :obj:`[ num_endpoints ]`, `required`):
+            Dendrite call return ops.
+
+        query_times (:obj:`torch.FloatTensor` of shape :obj:`[ num_endpoints ]`, `required`):
+            Times per call.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_dendrite/dendrite_mock.py" line="624" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_dendrite/dendrite_mock.py" bodystart="624" bodyend="674"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__dendrite_1_1dendrite__mock_1_1_dendrite_mock_1a7308a89e8472c87b19e6b1955d4b6a2f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._dendrite.dendrite_mock.DendriteMock.to_dataframe</definition>
+        <argsstring>(self, metagraph)</argsstring>
+        <name>to_dataframe</name>
+        <qualifiedname>bittensor._dendrite.dendrite_mock.DendriteMock.to_dataframe</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classbittensor_1_1__metagraph_1_1metagraph" kindref="compound">metagraph</ref></type>
+          <defname>metagraph</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Return a stats info as a pandas dataframe indexed by the metagraph or pubkey if not existend.
+Args:
+metagraph: (bittensor.Metagraph):
+    Indexes the stats data using metagraph hotkeys.
+Return:
+dataframe (:obj:`pandas.Dataframe`)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_dendrite/dendrite_mock.py" line="675" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_dendrite/dendrite_mock.py" bodystart="675" bodyend="703"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__dendrite_1_1dendrite__mock_1_1_dendrite_mock_1a19bd830edb5d9b7ec5224fb8fe613f63" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._dendrite.dendrite_mock.DendriteMock.to_wandb</definition>
+        <argsstring>(self)</argsstring>
+        <name>to_wandb</name>
+        <qualifiedname>bittensor._dendrite.dendrite_mock.DendriteMock.to_wandb</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Return a dictionary of dendrite stats as wandb logging info.
+Args:
+metagraph: (bittensor.Metagraph):
+If not None, indexes the wandb data using int uids rather than string pubkeys.
+Return:
+wandb_info (:obj:`Dict`)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_dendrite/dendrite_mock.py" line="704" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_dendrite/dendrite_mock.py" bodystart="704" bodyend="724"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classbittensor_1_1__dendrite_1_1dendrite__mock_1_1_dendrite_mock_1ae81c0740aa0705e26e7aad62de72e2f3" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Tuple[torch.Tensor,...]</type>
+        <definition> Tuple[torch.Tensor, ...] bittensor._dendrite.dendrite_mock.DendriteMock.forward</definition>
+        <argsstring>(ctx, &apos;bittensor.Dendrite&apos; dendrite, torch.Tensor dummy, List[&apos;bittensor.Endpoint&apos;] endpoints, bittensor.proto.Modality modality, int timeout, bool requires_grad, *torch.Tensor inputs)</argsstring>
+        <name>forward</name>
+        <qualifiedname>bittensor._dendrite.dendrite_mock.DendriteMock.forward</qualifiedname>
+        <param>
+          <type>ctx</type>
+          <defname>ctx</defname>
+        </param>
+        <param>
+          <type>&apos;<ref refid="classbittensor_1_1__dendrite_1_1dendrite__impl_1_1_dendrite" kindref="compound">bittensor.Dendrite</ref>&apos;</type>
+          <declname>dendrite</declname>
+        </param>
+        <param>
+          <type>torch.Tensor</type>
+          <declname>dummy</declname>
+        </param>
+        <param>
+          <type>List</type>
+          <declname>endpoints</declname>
+          <array>[ &apos;bittensor.Endpoint&apos;]</array>
+        </param>
+        <param>
+          <type>bittensor.proto.Modality</type>
+          <declname>modality</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>timeout</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>requires_grad</declname>
+        </param>
+        <param>
+          <type>*torch.Tensor</type>
+          <declname>inputs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Internal autograd-friendly Forward RPC call to a list of neuron endpoints.
+
+    Args:
+        ctx: (:obj:`torch.autograd.ctx`, `required`):
+            Autograd context, saves state information between forward and backward calls. i.e. inputs for gradient computation.
+
+        dendrite: (:obj:`bittensor.Dendrite`, `required`):
+            Pointer to a bittensor dendrite object on which we are creating the forward requests.
+
+        dummy: (:obj:`torch.Tensor`, `required`):
+            Dummy torch tensor used to ensure that torch.backward computation is called on this function 
+            regardless of the input types.
+
+        endpoints (:obj:`List[bittensor.Endpoint&apos;]` of shape :obj:`(n_endpoints)`, `required`):
+            List of endpoints which match length of inputs. Inputs are sent forward to these endpoints.
+
+        modality (:obj:`bittensor.proto.Modality` of shape :obj:`(1)`, `required`):
+            Bittensor forward modality or type ENUM [TEXT, IMAGE, TENSOR]
+
+        inputs (:obj:`List[torch.Tensor]` of shape :obj:`(n_endpoints)`, `required`):
+            List of torch tensors to be sent to the associated endpoints.
+
+        timeout (int):
+            request timeout.
+
+        requires_grad (int, default = dendrite.requires_grad, `optional`):
+            If true, the backward pass triggers passing gradients on the wire.
+
+    Returns:
+        codes (:obj:`torch.LongTensor` of shape :obj:`(n_endpoints)` `required`):
+            Return code associated with forward call.
+
+        times (:obj:`torch.FloatTensor` of shape :obj:`[ num_endpoints ]`, `required`):
+            times per call.
+        
+        outputs (:obj:`List[torch.FloatTensor]` of shape :obj:`n_endpoints * (batch_size, sequence_len, bittensor.__network_dim__)`, `required`):
+                Output encodings of inputs produced by the remote endpoints. Non-responses are zeroes of common shape.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_dendrite/dendrite_mock.py" line="67" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_dendrite/dendrite_mock.py" bodystart="76" bodyend="136"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__dendrite_1_1dendrite__mock_1_1_dendrite_mock_1ab918018e0982ed5cc000b773a158155b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Tuple[Optional[torch.Tensor],...]</type>
+        <definition> Tuple[Optional[torch.Tensor], ...] bittensor._dendrite.dendrite_mock.DendriteMock.backward</definition>
+        <argsstring>(ctx, torch.FloatTensor unused_code_grads, torch.FloatTensor unused_time_grads, *torch.FloatTensor output_grads)</argsstring>
+        <name>backward</name>
+        <qualifiedname>bittensor._dendrite.dendrite_mock.DendriteMock.backward</qualifiedname>
+        <param>
+          <type>ctx</type>
+          <defname>ctx</defname>
+        </param>
+        <param>
+          <type>torch.FloatTensor</type>
+          <declname>unused_code_grads</declname>
+        </param>
+        <param>
+          <type>torch.FloatTensor</type>
+          <declname>unused_time_grads</declname>
+        </param>
+        <param>
+          <type>*torch.FloatTensor</type>
+          <declname>output_grads</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Internal autograd-friendly Backward RPC call to a list of neuron endpoints.
+
+    Args:
+        ctx: (:obj:`torch.autograd.ctx`, `required`):
+            Autograd context, saves state information between forward and backward calls. i.e. inputs for gradient computation.
+
+        unused_code_grads: (:obj:`List[torch.Tensor]` of shape :obj:`(shape)`, `required`):
+            Gradients of this function&apos;s codes. (Unused)
+
+        unused_time_grads: (:obj:`List[torch.Tensor]` of shape :obj:`(shape)`, `required`):
+            Gradients of this function&apos;s query times. (Unused)
+
+        grads (:obj:`List[torch.Tensor]` of shape :obj:`(shape)`, `required`):
+            Gradients of this function&apos;s outputs computed during the loss.backward() call.
+    
+    Returns:
+        DUMMY, None, None, None,
+        outputs (:obj:`List[torch.FloatTensor], `optional`):
+            Gradient results for each input.</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_dendrite/dendrite_mock.py" line="139" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_dendrite/dendrite_mock.py" bodystart="144" bodyend="178"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classbittensor_1_1__dendrite_1_1dendrite__mock_1_1_dendrite_mock_1ab55cc43ecfbdfbe6c12477c357e1f45a" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Tuple[List[torch.Tensor], torch.LongTensor, torch.FloatTensor]</type>
+        <definition> Tuple[List[torch.Tensor], torch.LongTensor, torch.FloatTensor] bittensor._dendrite.dendrite_mock.DendriteMock._forward</definition>
+        <argsstring>(self, List[&apos;bittensor.Endpoint&apos;] endpoints, List[torch.Tensor] inputs, bittensor.proto.Modality modality, int timeout=None, bool requires_grad=None)</argsstring>
+        <name>_forward</name>
+        <qualifiedname>bittensor._dendrite.dendrite_mock.DendriteMock._forward</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>List</type>
+          <declname>endpoints</declname>
+          <array>[ &apos;bittensor.Endpoint&apos;]</array>
+        </param>
+        <param>
+          <type>List</type>
+          <declname>inputs</declname>
+          <array>[torch.Tensor]</array>
+        </param>
+        <param>
+          <type>bittensor.proto.Modality</type>
+          <declname>modality</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>timeout</declname>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>requires_grad</declname>
+          <defval>None</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Internal Forward tensor inputs to a list of neuron endpoints.
+
+    Args:
+        endpoints (:obj:`List[bittensor.Endpoint]` of shape :obj:`(num_endpoints)`, `required`):
+            List of remote endpoints which match length of inputs. Tensors from inputs are sent forward to these endpoints.
+
+        inputs (:obj:`List[torch.Tensor]` of shape :obj:`(num_endpoints * [shape])`, `required`):
+            List of tensors to send to corresponding endpoints. Tensors are of arbitrary type and shape depending on the
+            modality.
+
+        modality (:obj:`bittensor.proto.Modality` of shape :obj:`(1)`, `required`):
+            Bittensor forward modality type. Enum in [TEXT, IMAGE, TENSOR]
+
+        timeout (int, default = dendrite.timeout, `required`):
+            request timeout.
+
+        requires_grad (int, default = dendrite.requires_grad, `optional`):
+            If true, the backward pass triggers passing gradients on the wire.
+
+    Returns:
+        responses (:obj:`List[torch.FloatTensor]` of shape :obj:`(batch_size, sequence_len, bittensor.__network_dim__)`, `required`):
+            Output encodings of inputs produced by the remote endpoints. Non-responses are zeroes of common shape.
+
+        codes (:obj:`List[torch.LongTensor]` of shape :obj:`[num_endpoints]`, `required`):
+            dendrite call return codes.
+
+        times (:obj:`torch.FloatTensor` of shape :obj:`[ num_endpoints ]`, `required`):
+            times per call.</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_dendrite/dendrite_mock.py" line="179" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_dendrite/dendrite_mock.py" bodystart="186" bodyend="232"/>
+      </memberdef>
+      <memberdef kind="function" id="classbittensor_1_1__dendrite_1_1dendrite__mock_1_1_dendrite_mock_1a769f1dd732c542a449bf729438db3267" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bittensor._dendrite.dendrite_mock.DendriteMock._init_stats</definition>
+        <argsstring>(self)</argsstring>
+        <name>_init_stats</name>
+        <qualifiedname>bittensor._dendrite.dendrite_mock.DendriteMock._init_stats</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/macthrasher/bittensor/bittensor/_dendrite/dendrite_mock.py" line="599" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_dendrite/dendrite_mock.py" bodystart="599" bodyend="623"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim> Mocked Dendrite returns random results 50% of the time.
+</verbatim> </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>bittensor._dendrite.dendrite_mock.DendriteMock</label>
+        <link refid="classbittensor_1_1__dendrite_1_1dendrite__mock_1_1_dendrite_mock"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>torch.autograd.Function</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>bittensor._dendrite.dendrite_mock.DendriteMock</label>
+        <link refid="classbittensor_1_1__dendrite_1_1dendrite__mock_1_1_dendrite_mock"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>torch.autograd.Function</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/macthrasher/bittensor/bittensor/_dendrite/dendrite_mock.py" line="41" column="1" bodyfile="/Users/macthrasher/bittensor/bittensor/_dendrite/dendrite_mock.py" bodystart="41" bodyend="724"/>
+    <listofallmembers>
+      <member refid="classbittensor_1_1__dendrite_1_1dendrite__mock_1_1_dendrite_mock_1a808509a1c1618ec006377e3131becf1a" prot="public" virt="non-virtual"><scope>bittensor::_dendrite::dendrite_mock::DendriteMock</scope><name>__del__</name></member>
+      <member refid="classbittensor_1_1__dendrite_1_1dendrite__mock_1_1_dendrite_mock_1a81ffefc2213c7563e28f2e2de997f5d5" prot="public" virt="non-virtual"><scope>bittensor::_dendrite::dendrite_mock::DendriteMock</scope><name>__init__</name></member>
+      <member refid="classbittensor_1_1__dendrite_1_1dendrite__mock_1_1_dendrite_mock_1ad557a24a1819db6c705133390b0c115c" prot="public" virt="non-virtual"><scope>bittensor::_dendrite::dendrite_mock::DendriteMock</scope><name>__repr__</name></member>
+      <member refid="classbittensor_1_1__dendrite_1_1dendrite__mock_1_1_dendrite_mock_1ae632c778cd7e16859863ceeb57b1b96f" prot="public" virt="non-virtual"><scope>bittensor::_dendrite::dendrite_mock::DendriteMock</scope><name>__str__</name></member>
+      <member refid="classbittensor_1_1__dendrite_1_1dendrite__mock_1_1_dendrite_mock_1ab55cc43ecfbdfbe6c12477c357e1f45a" prot="protected" virt="non-virtual"><scope>bittensor::_dendrite::dendrite_mock::DendriteMock</scope><name>_forward</name></member>
+      <member refid="classbittensor_1_1__dendrite_1_1dendrite__mock_1_1_dendrite_mock_1a769f1dd732c542a449bf729438db3267" prot="protected" virt="non-virtual"><scope>bittensor::_dendrite::dendrite_mock::DendriteMock</scope><name>_init_stats</name></member>
+      <member refid="classbittensor_1_1__dendrite_1_1dendrite__mock_1_1_dendrite_mock_1ab918018e0982ed5cc000b773a158155b" prot="public" virt="non-virtual"><scope>bittensor::_dendrite::dendrite_mock::DendriteMock</scope><name>backward</name></member>
+      <member refid="classbittensor_1_1__dendrite_1_1dendrite__mock_1_1_dendrite_mock_1a9f892c0ae3ad0c4215c37e32c06fc9c6" prot="public" virt="non-virtual"><scope>bittensor::_dendrite::dendrite_mock::DendriteMock</scope><name>config</name></member>
+      <member refid="classbittensor_1_1__dendrite_1_1dendrite__mock_1_1_dendrite_mock_1ae81c0740aa0705e26e7aad62de72e2f3" prot="public" virt="non-virtual"><scope>bittensor::_dendrite::dendrite_mock::DendriteMock</scope><name>forward</name></member>
+      <member refid="classbittensor_1_1__dendrite_1_1dendrite__mock_1_1_dendrite_mock_1aba4861e1bd42622eced10ec450fddfb5" prot="public" virt="non-virtual"><scope>bittensor::_dendrite::dendrite_mock::DendriteMock</scope><name>forward_image</name></member>
+      <member refid="classbittensor_1_1__dendrite_1_1dendrite__mock_1_1_dendrite_mock_1a596804548b4ab12580fa1ce97fe36e54" prot="public" virt="non-virtual"><scope>bittensor::_dendrite::dendrite_mock::DendriteMock</scope><name>forward_tensor</name></member>
+      <member refid="classbittensor_1_1__dendrite_1_1dendrite__mock_1_1_dendrite_mock_1a05b1862d3fcc5a34924ff9d89424585d" prot="public" virt="non-virtual"><scope>bittensor::_dendrite::dendrite_mock::DendriteMock</scope><name>forward_text</name></member>
+      <member refid="classbittensor_1_1__dendrite_1_1dendrite__mock_1_1_dendrite_mock_1aebb0242acf69b207f575854795c00403" prot="public" virt="non-virtual"><scope>bittensor::_dendrite::dendrite_mock::DendriteMock</scope><name>stats</name></member>
+      <member refid="classbittensor_1_1__dendrite_1_1dendrite__mock_1_1_dendrite_mock_1a7308a89e8472c87b19e6b1955d4b6a2f" prot="public" virt="non-virtual"><scope>bittensor::_dendrite::dendrite_mock::DendriteMock</scope><name>to_dataframe</name></member>
+      <member refid="classbittensor_1_1__dendrite_1_1dendrite__mock_1_1_dendrite_mock_1a19bd830edb5d9b7ec5224fb8fe613f63" prot="public" virt="non-virtual"><scope>bittensor::_dendrite::dendrite_mock::DendriteMock</scope><name>to_wandb</name></member>
+      <member refid="classbittensor_1_1__dendrite_1_1dendrite__mock_1_1_dendrite_mock_1ae078e5bf68d851035d9c4e7a125f3611" prot="public" virt="non-virtual"><scope>bittensor::_dendrite::dendrite_mock::DendriteMock</scope><name>update_stats</name></member>
+      <member refid="classbittensor_1_1__dendrite_1_1dendrite__mock_1_1_dendrite_mock_1a319e9d2b826f7d5e6c1d6eeace3181fb" prot="public" virt="non-virtual"><scope>bittensor::_dendrite::dendrite_mock::DendriteMock</scope><name>wallet</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
