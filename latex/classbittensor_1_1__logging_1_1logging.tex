@@ -1,0 +1,215 @@
+\hypertarget{classbittensor_1_1__logging_1_1logging}{}\doxysection{bittensor.\+\_\+logging.\+logging Class Reference}
+\label{classbittensor_1_1__logging_1_1logging}\index{bittensor.\_logging.logging@{bittensor.\_logging.logging}}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \mbox{\hyperlink{classbittensor_1_1__logging_1_1logging_ab3c967ee33d0922ba0c4b7fd54819a56}{\+\_\+\+\_\+new\+\_\+\+\_\+}} (cls, \textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__config_1_1config__impl_1_1_config}{bittensor.\+Config}}\textquotesingle{} \mbox{\hyperlink{classbittensor_1_1__config_1_1config}{config}}=None, bool debug=None, bool trace=None, bool record\+\_\+log=None, str logging\+\_\+dir=None)
+\item 
+def \mbox{\hyperlink{classbittensor_1_1__logging_1_1logging_ac77d64a20b44564f6c9899c212af3a15}{config}} (cls)
+\item 
+def \mbox{\hyperlink{classbittensor_1_1__logging_1_1logging_a2ed6539be7f75fda81d7f82a8dd5f967}{help}} (cls)
+\item 
+def \mbox{\hyperlink{classbittensor_1_1__logging_1_1logging_a2e003cfd2803110d2958b78006432176}{add\+\_\+args}} (cls, argparse.\+Argument\+Parser parser, str prefix=None)
+\item 
+def \mbox{\hyperlink{classbittensor_1_1__logging_1_1logging_ac9f9b9f53ba564c9a5cf43ba70cba448}{add\+\_\+defaults}} (cls, defaults)
+\item 
+def \mbox{\hyperlink{classbittensor_1_1__logging_1_1logging_a3a5967e0ae367d00dfb0bb7af0ff0c83}{check\+\_\+config}} (cls, \textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__config_1_1config__impl_1_1_config}{bittensor.\+Config}}\textquotesingle{} \mbox{\hyperlink{classbittensor_1_1__config_1_1config}{config}})
+\item 
+def \mbox{\hyperlink{classbittensor_1_1__logging_1_1logging_abf0e1a127d746978fca5a95bd9c59255}{set\+\_\+debug}} (cls, bool debug\+\_\+on=True)
+\item 
+def \mbox{\hyperlink{classbittensor_1_1__logging_1_1logging_aaf642e633c12a2ab90f38e05e3a7ef5c}{set\+\_\+trace}} (cls, bool trace\+\_\+on=True)
+\item 
+def \mbox{\hyperlink{classbittensor_1_1__logging_1_1logging_aadf0cb47f3aa973fc61da41a9c430a9a}{log\+\_\+filter}} (cls, record)
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__logging_1_1logging_ad02edaf38a0486123913fd2150856976}\label{classbittensor_1_1__logging_1_1logging_ad02edaf38a0486123913fd2150856976}} 
+def {\bfseries log\+\_\+save\+\_\+filter} (cls, record)
+\item 
+def \mbox{\hyperlink{classbittensor_1_1__logging_1_1logging_a9bbaaa7af91c6bd82c3071f2360fa856}{log\+\_\+formatter}} (cls, record)
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__logging_1_1logging_a07c20365564888060e9dd1a58be16528}\label{classbittensor_1_1__logging_1_1logging_a07c20365564888060e9dd1a58be16528}} 
+def {\bfseries log\+\_\+save\+\_\+formatter} (cls, record)
+\item 
+def \mbox{\hyperlink{classbittensor_1_1__logging_1_1logging_a4ad62ad68f4447ddb6aec4d5ef7d0478}{rpc\+\_\+log}} (cls, bool \mbox{\hyperlink{classbittensor_1_1__axon_1_1axon}{axon}}, bool forward, bool is\+\_\+response, int code, float call\+\_\+time, str pubkey, int uid=None, list inputs=None, list outputs=None, str message=\textquotesingle{}\textquotesingle{}, \textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse}{bittensor.\+Synapse}}\textquotesingle{} \mbox{\hyperlink{classbittensor_1_1__synapse_1_1synapse}{synapse}}=None)
+\item 
+def \mbox{\hyperlink{classbittensor_1_1__logging_1_1logging_a11f6abdeeccd006aa5995b6f28a617ce}{create\+\_\+receptor\+\_\+log}} (cls, \textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint}{bittensor.\+Endpoint}}\textquotesingle{} \mbox{\hyperlink{classbittensor_1_1__endpoint_1_1endpoint}{endpoint}})
+\item 
+def \mbox{\hyperlink{classbittensor_1_1__logging_1_1logging_a1103e107f5a1ed33895808b15473b306}{update\+\_\+receptor\+\_\+log}} (cls, \textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint}{bittensor.\+Endpoint}}\textquotesingle{} \mbox{\hyperlink{classbittensor_1_1__endpoint_1_1endpoint}{endpoint}})
+\item 
+def \mbox{\hyperlink{classbittensor_1_1__logging_1_1logging_afd3c989d7e0d0ddebbe5b44bc82a5a5e}{destroy\+\_\+receptor\+\_\+log}} (cls, \textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint}{bittensor.\+Endpoint}}\textquotesingle{} \mbox{\hyperlink{classbittensor_1_1__endpoint_1_1endpoint}{endpoint}})
+\item 
+def \mbox{\hyperlink{classbittensor_1_1__logging_1_1logging_a4540ca5606ef6f1a32912b9300c970f4}{success}} (cls, str prefix, str sufix)
+\item 
+def \mbox{\hyperlink{classbittensor_1_1__logging_1_1logging_aa6703c1ae9b6f3d66f10495195375c16}{warning}} (cls, str prefix, str sufix)
+\item 
+def \mbox{\hyperlink{classbittensor_1_1__logging_1_1logging_afe2a3d20041f811c28ecfb229b8d854d}{error}} (cls, str prefix, str sufix)
+\item 
+def \mbox{\hyperlink{classbittensor_1_1__logging_1_1logging_af3fc68595e163f44002a5fec27d97c5a}{info}} (cls, str prefix, str sufix)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\begin{DoxyVerb} Standardize logging for bittensor
+\end{DoxyVerb}
+ 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classbittensor_1_1__logging_1_1logging_ab3c967ee33d0922ba0c4b7fd54819a56}\label{classbittensor_1_1__logging_1_1logging_ab3c967ee33d0922ba0c4b7fd54819a56}} 
+\index{bittensor.\_logging.logging@{bittensor.\_logging.logging}!\_\_new\_\_@{\_\_new\_\_}}
+\index{\_\_new\_\_@{\_\_new\_\_}!bittensor.\_logging.logging@{bittensor.\_logging.logging}}
+\doxysubsubsection{\texorpdfstring{\_\_new\_\_()}{\_\_new\_\_()}}
+{\footnotesize\ttfamily def bittensor.\+\_\+logging.\+logging.\+\_\+\+\_\+new\+\_\+\+\_\+ (\begin{DoxyParamCaption}\item[{}]{cls,  }\item[{\textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__config_1_1config__impl_1_1_config}{bittensor.\+Config}}\textquotesingle{} }]{config = {\ttfamily None},  }\item[{bool }]{debug = {\ttfamily None},  }\item[{bool }]{trace = {\ttfamily None},  }\item[{bool }]{record\+\_\+log = {\ttfamily None},  }\item[{str }]{logging\+\_\+dir = {\ttfamily None} }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb} Instantiate bittensor logging system backend.
+        Args:
+            config (:obj:`bittensor.Config`, `optional`): 
+                bittensor.logging.config()
+            debug (:obj:`bool`, `optional`):
+                Turn on debug.
+            trace (:obj:`bool`, `optional`):
+                Turn on trace.
+            record_log (:obj:`bool`, `optional`):
+                If true, logs are saved to loggind dir.
+            logging_dir (:obj:`str`, `optional`):
+                Directory where logs are sunk. \end{DoxyVerb}
+ \mbox{\Hypertarget{classbittensor_1_1__logging_1_1logging_a2e003cfd2803110d2958b78006432176}\label{classbittensor_1_1__logging_1_1logging_a2e003cfd2803110d2958b78006432176}} 
+\index{bittensor.\_logging.logging@{bittensor.\_logging.logging}!add\_args@{add\_args}}
+\index{add\_args@{add\_args}!bittensor.\_logging.logging@{bittensor.\_logging.logging}}
+\doxysubsubsection{\texorpdfstring{add\_args()}{add\_args()}}
+{\footnotesize\ttfamily def bittensor.\+\_\+logging.\+logging.\+add\+\_\+args (\begin{DoxyParamCaption}\item[{}]{cls,  }\item[{argparse.\+Argument\+Parser}]{parser,  }\item[{str }]{prefix = {\ttfamily None} }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb} Accept specific arguments fro parser
+\end{DoxyVerb}
+ \mbox{\Hypertarget{classbittensor_1_1__logging_1_1logging_ac9f9b9f53ba564c9a5cf43ba70cba448}\label{classbittensor_1_1__logging_1_1logging_ac9f9b9f53ba564c9a5cf43ba70cba448}} 
+\index{bittensor.\_logging.logging@{bittensor.\_logging.logging}!add\_defaults@{add\_defaults}}
+\index{add\_defaults@{add\_defaults}!bittensor.\_logging.logging@{bittensor.\_logging.logging}}
+\doxysubsubsection{\texorpdfstring{add\_defaults()}{add\_defaults()}}
+{\footnotesize\ttfamily def bittensor.\+\_\+logging.\+logging.\+add\+\_\+defaults (\begin{DoxyParamCaption}\item[{}]{cls,  }\item[{}]{defaults }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb} Adds parser defaults to object from enviroment variables.
+\end{DoxyVerb}
+ \mbox{\Hypertarget{classbittensor_1_1__logging_1_1logging_a3a5967e0ae367d00dfb0bb7af0ff0c83}\label{classbittensor_1_1__logging_1_1logging_a3a5967e0ae367d00dfb0bb7af0ff0c83}} 
+\index{bittensor.\_logging.logging@{bittensor.\_logging.logging}!check\_config@{check\_config}}
+\index{check\_config@{check\_config}!bittensor.\_logging.logging@{bittensor.\_logging.logging}}
+\doxysubsubsection{\texorpdfstring{check\_config()}{check\_config()}}
+{\footnotesize\ttfamily def bittensor.\+\_\+logging.\+logging.\+check\+\_\+config (\begin{DoxyParamCaption}\item[{}]{cls,  }\item[{\textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__config_1_1config__impl_1_1_config}{bittensor.\+Config}}\textquotesingle{} }]{config }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb} Check config
+\end{DoxyVerb}
+ \mbox{\Hypertarget{classbittensor_1_1__logging_1_1logging_ac77d64a20b44564f6c9899c212af3a15}\label{classbittensor_1_1__logging_1_1logging_ac77d64a20b44564f6c9899c212af3a15}} 
+\index{bittensor.\_logging.logging@{bittensor.\_logging.logging}!config@{config}}
+\index{config@{config}!bittensor.\_logging.logging@{bittensor.\_logging.logging}}
+\doxysubsubsection{\texorpdfstring{config()}{config()}}
+{\footnotesize\ttfamily def bittensor.\+\_\+logging.\+logging.\+config (\begin{DoxyParamCaption}\item[{}]{cls }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb} Get config from the argument parser
+    Return: bittensor.config object
+\end{DoxyVerb}
+ \mbox{\Hypertarget{classbittensor_1_1__logging_1_1logging_a11f6abdeeccd006aa5995b6f28a617ce}\label{classbittensor_1_1__logging_1_1logging_a11f6abdeeccd006aa5995b6f28a617ce}} 
+\index{bittensor.\_logging.logging@{bittensor.\_logging.logging}!create\_receptor\_log@{create\_receptor\_log}}
+\index{create\_receptor\_log@{create\_receptor\_log}!bittensor.\_logging.logging@{bittensor.\_logging.logging}}
+\doxysubsubsection{\texorpdfstring{create\_receptor\_log()}{create\_receptor\_log()}}
+{\footnotesize\ttfamily def bittensor.\+\_\+logging.\+logging.\+create\+\_\+receptor\+\_\+log (\begin{DoxyParamCaption}\item[{}]{cls,  }\item[{\textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint}{bittensor.\+Endpoint}}\textquotesingle{} }]{endpoint }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb} Debug logging for the connection between endpoints 
+\end{DoxyVerb}
+ \mbox{\Hypertarget{classbittensor_1_1__logging_1_1logging_afd3c989d7e0d0ddebbe5b44bc82a5a5e}\label{classbittensor_1_1__logging_1_1logging_afd3c989d7e0d0ddebbe5b44bc82a5a5e}} 
+\index{bittensor.\_logging.logging@{bittensor.\_logging.logging}!destroy\_receptor\_log@{destroy\_receptor\_log}}
+\index{destroy\_receptor\_log@{destroy\_receptor\_log}!bittensor.\_logging.logging@{bittensor.\_logging.logging}}
+\doxysubsubsection{\texorpdfstring{destroy\_receptor\_log()}{destroy\_receptor\_log()}}
+{\footnotesize\ttfamily def bittensor.\+\_\+logging.\+logging.\+destroy\+\_\+receptor\+\_\+log (\begin{DoxyParamCaption}\item[{}]{cls,  }\item[{\textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint}{bittensor.\+Endpoint}}\textquotesingle{} }]{endpoint }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb} Debug logging for destroying connection with endpoint
+\end{DoxyVerb}
+ \mbox{\Hypertarget{classbittensor_1_1__logging_1_1logging_afe2a3d20041f811c28ecfb229b8d854d}\label{classbittensor_1_1__logging_1_1logging_afe2a3d20041f811c28ecfb229b8d854d}} 
+\index{bittensor.\_logging.logging@{bittensor.\_logging.logging}!error@{error}}
+\index{error@{error}!bittensor.\_logging.logging@{bittensor.\_logging.logging}}
+\doxysubsubsection{\texorpdfstring{error()}{error()}}
+{\footnotesize\ttfamily def bittensor.\+\_\+logging.\+logging.\+error (\begin{DoxyParamCaption}\item[{}]{cls,  }\item[{str}]{prefix,  }\item[{str }]{sufix }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb} Error logging
+\end{DoxyVerb}
+ \mbox{\Hypertarget{classbittensor_1_1__logging_1_1logging_a2ed6539be7f75fda81d7f82a8dd5f967}\label{classbittensor_1_1__logging_1_1logging_a2ed6539be7f75fda81d7f82a8dd5f967}} 
+\index{bittensor.\_logging.logging@{bittensor.\_logging.logging}!help@{help}}
+\index{help@{help}!bittensor.\_logging.logging@{bittensor.\_logging.logging}}
+\doxysubsubsection{\texorpdfstring{help()}{help()}}
+{\footnotesize\ttfamily def bittensor.\+\_\+logging.\+logging.\+help (\begin{DoxyParamCaption}\item[{}]{cls }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb} Print help to stdout
+\end{DoxyVerb}
+ \mbox{\Hypertarget{classbittensor_1_1__logging_1_1logging_af3fc68595e163f44002a5fec27d97c5a}\label{classbittensor_1_1__logging_1_1logging_af3fc68595e163f44002a5fec27d97c5a}} 
+\index{bittensor.\_logging.logging@{bittensor.\_logging.logging}!info@{info}}
+\index{info@{info}!bittensor.\_logging.logging@{bittensor.\_logging.logging}}
+\doxysubsubsection{\texorpdfstring{info()}{info()}}
+{\footnotesize\ttfamily def bittensor.\+\_\+logging.\+logging.\+info (\begin{DoxyParamCaption}\item[{}]{cls,  }\item[{str}]{prefix,  }\item[{str }]{sufix }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb} Info logging
+\end{DoxyVerb}
+ \mbox{\Hypertarget{classbittensor_1_1__logging_1_1logging_aadf0cb47f3aa973fc61da41a9c430a9a}\label{classbittensor_1_1__logging_1_1logging_aadf0cb47f3aa973fc61da41a9c430a9a}} 
+\index{bittensor.\_logging.logging@{bittensor.\_logging.logging}!log\_filter@{log\_filter}}
+\index{log\_filter@{log\_filter}!bittensor.\_logging.logging@{bittensor.\_logging.logging}}
+\doxysubsubsection{\texorpdfstring{log\_filter()}{log\_filter()}}
+{\footnotesize\ttfamily def bittensor.\+\_\+logging.\+logging.\+log\+\_\+filter (\begin{DoxyParamCaption}\item[{}]{cls,  }\item[{}]{record }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb} Filter out debug log if debug is not on
+\end{DoxyVerb}
+ \mbox{\Hypertarget{classbittensor_1_1__logging_1_1logging_a9bbaaa7af91c6bd82c3071f2360fa856}\label{classbittensor_1_1__logging_1_1logging_a9bbaaa7af91c6bd82c3071f2360fa856}} 
+\index{bittensor.\_logging.logging@{bittensor.\_logging.logging}!log\_formatter@{log\_formatter}}
+\index{log\_formatter@{log\_formatter}!bittensor.\_logging.logging@{bittensor.\_logging.logging}}
+\doxysubsubsection{\texorpdfstring{log\_formatter()}{log\_formatter()}}
+{\footnotesize\ttfamily def bittensor.\+\_\+logging.\+logging.\+log\+\_\+formatter (\begin{DoxyParamCaption}\item[{}]{cls,  }\item[{}]{record }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb} Log with different format according to record['extra']
+\end{DoxyVerb}
+ \mbox{\Hypertarget{classbittensor_1_1__logging_1_1logging_a4ad62ad68f4447ddb6aec4d5ef7d0478}\label{classbittensor_1_1__logging_1_1logging_a4ad62ad68f4447ddb6aec4d5ef7d0478}} 
+\index{bittensor.\_logging.logging@{bittensor.\_logging.logging}!rpc\_log@{rpc\_log}}
+\index{rpc\_log@{rpc\_log}!bittensor.\_logging.logging@{bittensor.\_logging.logging}}
+\doxysubsubsection{\texorpdfstring{rpc\_log()}{rpc\_log()}}
+{\footnotesize\ttfamily def bittensor.\+\_\+logging.\+logging.\+rpc\+\_\+log (\begin{DoxyParamCaption}\item[{}]{cls,  }\item[{bool}]{axon,  }\item[{bool}]{forward,  }\item[{bool}]{is\+\_\+response,  }\item[{int}]{code,  }\item[{float}]{call\+\_\+time,  }\item[{str}]{pubkey,  }\item[{int }]{uid = {\ttfamily None},  }\item[{list }]{inputs = {\ttfamily None},  }\item[{list }]{outputs = {\ttfamily None},  }\item[{str }]{message = {\ttfamily \textquotesingle{}\textquotesingle{}},  }\item[{\textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse}{bittensor.\+Synapse}}\textquotesingle{} }]{synapse = {\ttfamily None} }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb} Debug logging for the communication between endpoints with axon/dendrite 
+\end{DoxyVerb}
+ \mbox{\Hypertarget{classbittensor_1_1__logging_1_1logging_abf0e1a127d746978fca5a95bd9c59255}\label{classbittensor_1_1__logging_1_1logging_abf0e1a127d746978fca5a95bd9c59255}} 
+\index{bittensor.\_logging.logging@{bittensor.\_logging.logging}!set\_debug@{set\_debug}}
+\index{set\_debug@{set\_debug}!bittensor.\_logging.logging@{bittensor.\_logging.logging}}
+\doxysubsubsection{\texorpdfstring{set\_debug()}{set\_debug()}}
+{\footnotesize\ttfamily def bittensor.\+\_\+logging.\+logging.\+set\+\_\+debug (\begin{DoxyParamCaption}\item[{}]{cls,  }\item[{bool }]{debug\+\_\+on = {\ttfamily True} }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb} Set debug for the specific cls class 
+\end{DoxyVerb}
+ \mbox{\Hypertarget{classbittensor_1_1__logging_1_1logging_aaf642e633c12a2ab90f38e05e3a7ef5c}\label{classbittensor_1_1__logging_1_1logging_aaf642e633c12a2ab90f38e05e3a7ef5c}} 
+\index{bittensor.\_logging.logging@{bittensor.\_logging.logging}!set\_trace@{set\_trace}}
+\index{set\_trace@{set\_trace}!bittensor.\_logging.logging@{bittensor.\_logging.logging}}
+\doxysubsubsection{\texorpdfstring{set\_trace()}{set\_trace()}}
+{\footnotesize\ttfamily def bittensor.\+\_\+logging.\+logging.\+set\+\_\+trace (\begin{DoxyParamCaption}\item[{}]{cls,  }\item[{bool }]{trace\+\_\+on = {\ttfamily True} }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb} Set trace back for the specific cls class 
+\end{DoxyVerb}
+ \mbox{\Hypertarget{classbittensor_1_1__logging_1_1logging_a4540ca5606ef6f1a32912b9300c970f4}\label{classbittensor_1_1__logging_1_1logging_a4540ca5606ef6f1a32912b9300c970f4}} 
+\index{bittensor.\_logging.logging@{bittensor.\_logging.logging}!success@{success}}
+\index{success@{success}!bittensor.\_logging.logging@{bittensor.\_logging.logging}}
+\doxysubsubsection{\texorpdfstring{success()}{success()}}
+{\footnotesize\ttfamily def bittensor.\+\_\+logging.\+logging.\+success (\begin{DoxyParamCaption}\item[{}]{cls,  }\item[{str}]{prefix,  }\item[{str }]{sufix }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb} Success logging 
+\end{DoxyVerb}
+ \mbox{\Hypertarget{classbittensor_1_1__logging_1_1logging_a1103e107f5a1ed33895808b15473b306}\label{classbittensor_1_1__logging_1_1logging_a1103e107f5a1ed33895808b15473b306}} 
+\index{bittensor.\_logging.logging@{bittensor.\_logging.logging}!update\_receptor\_log@{update\_receptor\_log}}
+\index{update\_receptor\_log@{update\_receptor\_log}!bittensor.\_logging.logging@{bittensor.\_logging.logging}}
+\doxysubsubsection{\texorpdfstring{update\_receptor\_log()}{update\_receptor\_log()}}
+{\footnotesize\ttfamily def bittensor.\+\_\+logging.\+logging.\+update\+\_\+receptor\+\_\+log (\begin{DoxyParamCaption}\item[{}]{cls,  }\item[{\textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint}{bittensor.\+Endpoint}}\textquotesingle{} }]{endpoint }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb} Debug logging for updating the connection with endpoint
+\end{DoxyVerb}
+ \mbox{\Hypertarget{classbittensor_1_1__logging_1_1logging_aa6703c1ae9b6f3d66f10495195375c16}\label{classbittensor_1_1__logging_1_1logging_aa6703c1ae9b6f3d66f10495195375c16}} 
+\index{bittensor.\_logging.logging@{bittensor.\_logging.logging}!warning@{warning}}
+\index{warning@{warning}!bittensor.\_logging.logging@{bittensor.\_logging.logging}}
+\doxysubsubsection{\texorpdfstring{warning()}{warning()}}
+{\footnotesize\ttfamily def bittensor.\+\_\+logging.\+logging.\+warning (\begin{DoxyParamCaption}\item[{}]{cls,  }\item[{str}]{prefix,  }\item[{str }]{sufix }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb} Warning logging
+\end{DoxyVerb}
+ 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+/\+Users/macthrasher/bittensor/bittensor/\+\_\+logging/\+\_\+\+\_\+init\+\_\+\+\_\+.\+py\end{DoxyCompactItemize}

@@ -1,0 +1,12 @@
+var searchData=
+[
+  ['b_0',['B',['../classbittensor_1_1__metagraph_1_1metagraph__impl_1_1_metagraph.html#a9accbd9184103fb1ec5d5207b3d41ca3',1,'bittensor::_metagraph::metagraph_impl::Metagraph']]],
+  ['backward_1',['backward',['../classbittensor_1_1__dendrite_1_1dendrite__impl_1_1_dendrite.html#a2bff366b9b2753b63a570c84ceec955e',1,'bittensor._dendrite.dendrite_impl.Dendrite.backward()'],['../classbittensor_1_1__dendrite_1_1dendrite__mock_1_1_dendrite_mock.html#ab918018e0982ed5cc000b773a158155b',1,'bittensor._dendrite.dendrite_mock.DendriteMock.backward()'],['../classbittensor_1_1__receptor_1_1receptor__impl_1_1_receptor.html#a491913657ab7aa2feca1460bc623a277',1,'bittensor._receptor.receptor_impl.Receptor.backward()'],['../classbittensor_1_1__receptor_1_1receptor__pool__impl_1_1_receptor_pool.html#a313e28fb635ef661bfdd9bb2373b0266',1,'bittensor._receptor.receptor_pool_impl.ReceptorPool.backward()']]],
+  ['backward_2',['Backward',['../classbittensor_1_1__axon_1_1axon__impl_1_1_axon.html#acc5703beb6b5d5be24f7f7ecdd744f3e',1,'bittensor._axon.axon_impl.Axon.Backward()'],['../classbittensor_1_1__proto_1_1bittensor__pb2__grpc_1_1_bittensor_servicer.html#ab75f42babd204574b766570c0a5d7923',1,'bittensor._proto.bittensor_pb2_grpc.BittensorServicer.Backward()']]],
+  ['bittensor_5fdtype_5fnp_5fdtype_3',['bittensor_dtype_np_dtype',['../classbittensor_1_1__serializer_1_1serializer.html#a96395c79dd5f42cbfe5c466e6a92a404',1,'bittensor::_serializer::serializer']]],
+  ['bittensor_5fdtype_5fto_5ftorch_5fdtype_4',['bittensor_dtype_to_torch_dtype',['../classbittensor_1_1__serializer_1_1serializer.html#a9f374d241012cf0758c17a22f24f5fac',1,'bittensor::_serializer::serializer']]],
+  ['black_5flist_5fchecking_5',['black_list_checking',['../classbittensor_1_1__axon_1_1_auth_interceptor.html#a3df81786f91fa9bc186b982e63aaa072',1,'bittensor::_axon::AuthInterceptor']]],
+  ['block_6',['block',['../classbittensor_1_1__subtensor_1_1subtensor__impl_1_1_subtensor.html#adefde7126a53fbca0a584e835c776c22',1,'bittensor::_subtensor::subtensor_impl::Subtensor']]],
+  ['blocks_5fper_5fepoch_7',['blocks_per_epoch',['../classbittensor_1_1__subtensor_1_1subtensor__impl_1_1_subtensor.html#ac21bdb480529cfad30abe749c914703a',1,'bittensor::_subtensor::subtensor_impl::Subtensor']]],
+  ['blocks_5fsince_5fepoch_8',['blocks_since_epoch',['../classbittensor_1_1__subtensor_1_1subtensor__impl_1_1_subtensor.html#a600e032b944630eab7505e53991e76d8',1,'bittensor::_subtensor::subtensor_impl::Subtensor']]]
+];

@@ -1,0 +1,101 @@
+\hypertarget{classbittensor_1_1__prometheus_1_1prometheus}{}\doxysection{bittensor.\+\_\+prometheus.\+prometheus Class Reference}
+\label{classbittensor_1_1__prometheus_1_1prometheus}\index{bittensor.\_prometheus.prometheus@{bittensor.\_prometheus.prometheus}}
+\doxysubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{classbittensor_1_1__prometheus_1_1prometheus_1_1level}{level}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \mbox{\hyperlink{classbittensor_1_1__prometheus_1_1prometheus_adcba4e2bd530a698f9f6ece9d976ac37}{\+\_\+\+\_\+new\+\_\+\+\_\+}} (cls, \textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__config_1_1config}{bittensor.\+config}}\textquotesingle{} \mbox{\hyperlink{classbittensor_1_1__config_1_1config}{config}}=None, int port=None, Union\mbox{[}str, \char`\"{}prometheus.\+level\char`\"{}\mbox{]} \mbox{\hyperlink{classbittensor_1_1__prometheus_1_1prometheus_1_1level}{level}}=None)
+\item 
+ \textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__config_1_1config__impl_1_1_config}{bittensor.\+Config}}\textquotesingle{} \mbox{\hyperlink{classbittensor_1_1__prometheus_1_1prometheus_a2019917f4ad8e595357a744dc20f1a66}{config}} (cls)
+\item 
+def \mbox{\hyperlink{classbittensor_1_1__prometheus_1_1prometheus_a286bff6021a40130f3630271e1f645b9}{help}} (cls)
+\item 
+def \mbox{\hyperlink{classbittensor_1_1__prometheus_1_1prometheus_a2bcb633847d166730ec18afb875bec15}{add\+\_\+args}} (cls, argparse.\+Argument\+Parser parser, str prefix=None)
+\item 
+def \mbox{\hyperlink{classbittensor_1_1__prometheus_1_1prometheus_acc359cfd8180659672a331f2924f17e2}{add\+\_\+defaults}} (cls, defaults)
+\item 
+def \mbox{\hyperlink{classbittensor_1_1__prometheus_1_1prometheus_ad818bb9d6b027538cd1a4ca5b2b617b3}{check\+\_\+config}} (cls, \textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__config_1_1config__impl_1_1_config}{bittensor.\+Config}}\textquotesingle{} \mbox{\hyperlink{classbittensor_1_1__config_1_1config}{config}})
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__prometheus_1_1prometheus_a031e296d2ba3cd6ab13ddafa2716e137}\label{classbittensor_1_1__prometheus_1_1prometheus_a031e296d2ba3cd6ab13ddafa2716e137}} 
+int {\bfseries port} = None
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__prometheus_1_1prometheus_a2878c027754256ad521be4ea014ac7ce}\label{classbittensor_1_1__prometheus_1_1prometheus_a2878c027754256ad521be4ea014ac7ce}} 
+bool {\bfseries started} = False
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\begin{DoxyVerb} Namespace for prometheus tooling.
+\end{DoxyVerb}
+ 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classbittensor_1_1__prometheus_1_1prometheus_adcba4e2bd530a698f9f6ece9d976ac37}\label{classbittensor_1_1__prometheus_1_1prometheus_adcba4e2bd530a698f9f6ece9d976ac37}} 
+\index{bittensor.\_prometheus.prometheus@{bittensor.\_prometheus.prometheus}!\_\_new\_\_@{\_\_new\_\_}}
+\index{\_\_new\_\_@{\_\_new\_\_}!bittensor.\_prometheus.prometheus@{bittensor.\_prometheus.prometheus}}
+\doxysubsubsection{\texorpdfstring{\_\_new\_\_()}{\_\_new\_\_()}}
+{\footnotesize\ttfamily def bittensor.\+\_\+prometheus.\+prometheus.\+\_\+\+\_\+new\+\_\+\+\_\+ (\begin{DoxyParamCaption}\item[{}]{cls,  }\item[{\textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__config_1_1config}{bittensor.\+config}}\textquotesingle{} }]{config = {\ttfamily None},  }\item[{int }]{port = {\ttfamily None},  }\item[{Union\mbox{[}str, \char`\"{}prometheus.\+level\char`\"{}\mbox{]} }]{level = {\ttfamily None} }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb} Instantiates a global prometheus DB which can be accessed by other processes.
+    Each prometheus DB is designated by a port.
+    Args:
+        config (:obj:`bittensor.Config`, `optional`, defaults to bittensor.prometheus.config()):
+            A config namespace object created by calling bittensor.prometheus.config()
+        port (:obj:`int`, `optional`, defaults to bittensor.defaults.prometheus.port ):
+            The port to run the prometheus DB on, this uniquely identifies the prometheus DB.
+        level (:obj:`prometheus.level`, `optional`, defaults to bittensor.defaults.prometheus.level ):
+            Prometheus logging level. If OFF, the prometheus DB is not initialized.
+\end{DoxyVerb}
+ \mbox{\Hypertarget{classbittensor_1_1__prometheus_1_1prometheus_a2bcb633847d166730ec18afb875bec15}\label{classbittensor_1_1__prometheus_1_1prometheus_a2bcb633847d166730ec18afb875bec15}} 
+\index{bittensor.\_prometheus.prometheus@{bittensor.\_prometheus.prometheus}!add\_args@{add\_args}}
+\index{add\_args@{add\_args}!bittensor.\_prometheus.prometheus@{bittensor.\_prometheus.prometheus}}
+\doxysubsubsection{\texorpdfstring{add\_args()}{add\_args()}}
+{\footnotesize\ttfamily def bittensor.\+\_\+prometheus.\+prometheus.\+add\+\_\+args (\begin{DoxyParamCaption}\item[{}]{cls,  }\item[{argparse.\+Argument\+Parser}]{parser,  }\item[{str }]{prefix = {\ttfamily None} }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb} Accept specific arguments from parser
+\end{DoxyVerb}
+ \mbox{\Hypertarget{classbittensor_1_1__prometheus_1_1prometheus_acc359cfd8180659672a331f2924f17e2}\label{classbittensor_1_1__prometheus_1_1prometheus_acc359cfd8180659672a331f2924f17e2}} 
+\index{bittensor.\_prometheus.prometheus@{bittensor.\_prometheus.prometheus}!add\_defaults@{add\_defaults}}
+\index{add\_defaults@{add\_defaults}!bittensor.\_prometheus.prometheus@{bittensor.\_prometheus.prometheus}}
+\doxysubsubsection{\texorpdfstring{add\_defaults()}{add\_defaults()}}
+{\footnotesize\ttfamily def bittensor.\+\_\+prometheus.\+prometheus.\+add\+\_\+defaults (\begin{DoxyParamCaption}\item[{}]{cls,  }\item[{}]{defaults }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb} Adds parser defaults to object from enviroment variables.
+\end{DoxyVerb}
+ \mbox{\Hypertarget{classbittensor_1_1__prometheus_1_1prometheus_ad818bb9d6b027538cd1a4ca5b2b617b3}\label{classbittensor_1_1__prometheus_1_1prometheus_ad818bb9d6b027538cd1a4ca5b2b617b3}} 
+\index{bittensor.\_prometheus.prometheus@{bittensor.\_prometheus.prometheus}!check\_config@{check\_config}}
+\index{check\_config@{check\_config}!bittensor.\_prometheus.prometheus@{bittensor.\_prometheus.prometheus}}
+\doxysubsubsection{\texorpdfstring{check\_config()}{check\_config()}}
+{\footnotesize\ttfamily def bittensor.\+\_\+prometheus.\+prometheus.\+check\+\_\+config (\begin{DoxyParamCaption}\item[{}]{cls,  }\item[{\textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__config_1_1config__impl_1_1_config}{bittensor.\+Config}}\textquotesingle{} }]{config }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb} Check config for wallet name/hotkey/path/hotkeys/sort_by
+\end{DoxyVerb}
+ \mbox{\Hypertarget{classbittensor_1_1__prometheus_1_1prometheus_a2019917f4ad8e595357a744dc20f1a66}\label{classbittensor_1_1__prometheus_1_1prometheus_a2019917f4ad8e595357a744dc20f1a66}} 
+\index{bittensor.\_prometheus.prometheus@{bittensor.\_prometheus.prometheus}!config@{config}}
+\index{config@{config}!bittensor.\_prometheus.prometheus@{bittensor.\_prometheus.prometheus}}
+\doxysubsubsection{\texorpdfstring{config()}{config()}}
+{\footnotesize\ttfamily  \textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__config_1_1config__impl_1_1_config}{bittensor.\+Config}}\textquotesingle{} bittensor.\+\_\+prometheus.\+prometheus.\+config (\begin{DoxyParamCaption}\item[{}]{cls }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb} Get config from the argument parser
+Return: bittensor.config object
+\end{DoxyVerb}
+ \mbox{\Hypertarget{classbittensor_1_1__prometheus_1_1prometheus_a286bff6021a40130f3630271e1f645b9}\label{classbittensor_1_1__prometheus_1_1prometheus_a286bff6021a40130f3630271e1f645b9}} 
+\index{bittensor.\_prometheus.prometheus@{bittensor.\_prometheus.prometheus}!help@{help}}
+\index{help@{help}!bittensor.\_prometheus.prometheus@{bittensor.\_prometheus.prometheus}}
+\doxysubsubsection{\texorpdfstring{help()}{help()}}
+{\footnotesize\ttfamily def bittensor.\+\_\+prometheus.\+prometheus.\+help (\begin{DoxyParamCaption}\item[{}]{cls }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb} Print help to stdout
+\end{DoxyVerb}
+ 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+/\+Users/macthrasher/bittensor/bittensor/\+\_\+prometheus/\+\_\+\+\_\+init\+\_\+\+\_\+.\+py\end{DoxyCompactItemize}

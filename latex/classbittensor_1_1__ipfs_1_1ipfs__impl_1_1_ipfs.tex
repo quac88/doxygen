@@ -1,0 +1,81 @@
+\hypertarget{classbittensor_1_1__ipfs_1_1ipfs__impl_1_1_ipfs}{}\doxysection{bittensor.\+\_\+ipfs.\+ipfs\+\_\+impl.\+Ipfs Class Reference}
+\label{classbittensor_1_1__ipfs_1_1ipfs__impl_1_1_ipfs}\index{bittensor.\_ipfs.ipfs\_impl.Ipfs@{bittensor.\_ipfs.ipfs\_impl.Ipfs}}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__ipfs_1_1ipfs__impl_1_1_ipfs_ad5d19e76264fc520240177d79d3a688b}\label{classbittensor_1_1__ipfs_1_1ipfs__impl_1_1_ipfs_ad5d19e76264fc520240177d79d3a688b}} 
+def {\bfseries \+\_\+\+\_\+init\+\_\+\+\_\+} (self)
+\item 
+def \mbox{\hyperlink{classbittensor_1_1__ipfs_1_1ipfs__impl_1_1_ipfs_a4f0654421ddc4e28d38c1f512b041d45}{retrieve\+\_\+directory}} (self, str address, params=None, str action=\textquotesingle{}post\textquotesingle{}, int timeout=180)
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \mbox{\hyperlink{classbittensor_1_1__ipfs_1_1ipfs__impl_1_1_ipfs_a16cda134ae7787ea37f9718a9e260c64}{requests\+\_\+retry\+\_\+session}} (retries=1, backoff\+\_\+factor=0.\+5, status\+\_\+forcelist=(104, 500, 502, 504), session=None)
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__ipfs_1_1ipfs__impl_1_1_ipfs_adf8015010ff73aa00001f8fd12348970}\label{classbittensor_1_1__ipfs_1_1ipfs__impl_1_1_ipfs_adf8015010ff73aa00001f8fd12348970}} 
+{\bfseries cat}
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__ipfs_1_1ipfs__impl_1_1_ipfs_a55a93ed160283dfda3dbeec925d32547}\label{classbittensor_1_1__ipfs_1_1ipfs__impl_1_1_ipfs_a55a93ed160283dfda3dbeec925d32547}} 
+{\bfseries node\+\_\+get}
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__ipfs_1_1ipfs__impl_1_1_ipfs_a513327d6de3253324f56808bd26a93b9}\label{classbittensor_1_1__ipfs_1_1ipfs__impl_1_1_ipfs_a513327d6de3253324f56808bd26a93b9}} 
+{\bfseries ipns\+\_\+resolve}
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__ipfs_1_1ipfs__impl_1_1_ipfs_a126094b31bdea74b69c8541b6ee5da6d}\label{classbittensor_1_1__ipfs_1_1ipfs__impl_1_1_ipfs_a126094b31bdea74b69c8541b6ee5da6d}} 
+{\bfseries mountain\+\_\+hash}
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__ipfs_1_1ipfs__impl_1_1_ipfs_a5b302d45d46a9b6d4b09fb5df934f1d8}\label{classbittensor_1_1__ipfs_1_1ipfs__impl_1_1_ipfs_a5b302d45d46a9b6d4b09fb5df934f1d8}} 
+{\bfseries latest\+\_\+neurons\+\_\+ipns}
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__ipfs_1_1ipfs__impl_1_1_ipfs_a7d0676ccdf952a0049697b452b2294ea}\label{classbittensor_1_1__ipfs_1_1ipfs__impl_1_1_ipfs_a7d0676ccdf952a0049697b452b2294ea}} 
+{\bfseries historical\+\_\+neurons\+\_\+ipns}
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__ipfs_1_1ipfs__impl_1_1_ipfs_ad71ed522d8e02f5714f36e1e81d2d6a3}\label{classbittensor_1_1__ipfs_1_1ipfs__impl_1_1_ipfs_ad71ed522d8e02f5714f36e1e81d2d6a3}} 
+{\bfseries refresh\+\_\+corpus}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\begin{DoxyVerb} Implementation for the dataset class, which handles dataloading from ipfs
+\end{DoxyVerb}
+ 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classbittensor_1_1__ipfs_1_1ipfs__impl_1_1_ipfs_a16cda134ae7787ea37f9718a9e260c64}\label{classbittensor_1_1__ipfs_1_1ipfs__impl_1_1_ipfs_a16cda134ae7787ea37f9718a9e260c64}} 
+\index{bittensor.\_ipfs.ipfs\_impl.Ipfs@{bittensor.\_ipfs.ipfs\_impl.Ipfs}!requests\_retry\_session@{requests\_retry\_session}}
+\index{requests\_retry\_session@{requests\_retry\_session}!bittensor.\_ipfs.ipfs\_impl.Ipfs@{bittensor.\_ipfs.ipfs\_impl.Ipfs}}
+\doxysubsubsection{\texorpdfstring{requests\_retry\_session()}{requests\_retry\_session()}}
+{\footnotesize\ttfamily def bittensor.\+\_\+ipfs.\+ipfs\+\_\+impl.\+Ipfs.\+requests\+\_\+retry\+\_\+session (\begin{DoxyParamCaption}\item[{}]{retries = {\ttfamily 1},  }\item[{}]{backoff\+\_\+factor = {\ttfamily 0.5},  }\item[{}]{status\+\_\+forcelist = {\ttfamily (104,~500,~502,~504)},  }\item[{}]{session = {\ttfamily None} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+\begin{DoxyVerb} Creates a retriable session for request calls. This enables
+automatic retries and back-off retries should any request calls fail.
+
+Args:
+    retries (int, optional): Maximum number of retries. Defaults to 3.
+    backoff_factor (float, optional): Factor by which to back off if a retry fails. Defaults to 0.3.
+    status_forcelist (tuple, optional): A set of integer HTTP status codes that we should force a retry on. Defaults to (500, 502, 504).
+    session ([type], optional): Session for which to set up the retries. Defaults to None.
+
+Returns:
+    requests.Session(): A Requests Session object set up for retries and backoff.
+\end{DoxyVerb}
+ \mbox{\Hypertarget{classbittensor_1_1__ipfs_1_1ipfs__impl_1_1_ipfs_a4f0654421ddc4e28d38c1f512b041d45}\label{classbittensor_1_1__ipfs_1_1ipfs__impl_1_1_ipfs_a4f0654421ddc4e28d38c1f512b041d45}} 
+\index{bittensor.\_ipfs.ipfs\_impl.Ipfs@{bittensor.\_ipfs.ipfs\_impl.Ipfs}!retrieve\_directory@{retrieve\_directory}}
+\index{retrieve\_directory@{retrieve\_directory}!bittensor.\_ipfs.ipfs\_impl.Ipfs@{bittensor.\_ipfs.ipfs\_impl.Ipfs}}
+\doxysubsubsection{\texorpdfstring{retrieve\_directory()}{retrieve\_directory()}}
+{\footnotesize\ttfamily def bittensor.\+\_\+ipfs.\+ipfs\+\_\+impl.\+Ipfs.\+retrieve\+\_\+directory (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{str}]{address,  }\item[{}]{params = {\ttfamily None},  }\item[{str }]{action = {\ttfamily \textquotesingle{}post\textquotesingle{}},  }\item[{int }]{timeout = {\ttfamily 180} }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Connects to Pinata IPFS gateway and retrieves directory.
+
+Returns:
+    dict: A dictionary of the files inside of the genesis_datasets and their hashes.
+\end{DoxyVerb}
+ 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+/\+Users/macthrasher/bittensor/bittensor/\+\_\+ipfs/ipfs\+\_\+impl.\+py\end{DoxyCompactItemize}

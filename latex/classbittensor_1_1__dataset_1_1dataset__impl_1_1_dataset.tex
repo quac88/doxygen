@@ -1,0 +1,114 @@
+\hypertarget{classbittensor_1_1__dataset_1_1dataset__impl_1_1_dataset}{}\doxysection{bittensor.\+\_\+dataset.\+dataset\+\_\+impl.\+Dataset Class Reference}
+\label{classbittensor_1_1__dataset_1_1dataset__impl_1_1_dataset}\index{bittensor.\_dataset.dataset\_impl.Dataset@{bittensor.\_dataset.dataset\_impl.Dataset}}
+Inheritance diagram for bittensor.\+\_\+dataset.\+dataset\+\_\+impl.\+Dataset\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=1.627907cm]{classbittensor_1_1__dataset_1_1dataset__impl_1_1_dataset}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__dataset_1_1dataset__impl_1_1_dataset_a60a63337f780daa76d50af7e61402ded}\label{classbittensor_1_1__dataset_1_1dataset__impl_1_1_dataset_a60a63337f780daa76d50af7e61402ded}} 
+def {\bfseries \+\_\+\+\_\+init\+\_\+\+\_\+} (self)
+\item 
+def \mbox{\hyperlink{classbittensor_1_1__dataset_1_1dataset__impl_1_1_dataset_adac9d1df6c5460cadb940da9a735060e}{get\+\_\+ipfs\+\_\+directory}} (self, str address, dict file\+\_\+meta, str action=\textquotesingle{}post\textquotesingle{}, int timeout=180)
+\item 
+def \mbox{\hyperlink{classbittensor_1_1__dataset_1_1dataset__impl_1_1_dataset_a64b7e8477907e64b2e737833e3802d6f}{\+\_\+\+\_\+len\+\_\+\+\_\+}} (self)
+\item 
+def \mbox{\hyperlink{classbittensor_1_1__dataset_1_1dataset__impl_1_1_dataset_a495efa0d0eeee76dc87dad2b6c82036e}{\+\_\+\+\_\+getitem\+\_\+\+\_\+}} (self, idx)
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \mbox{\hyperlink{classbittensor_1_1__dataset_1_1dataset__impl_1_1_dataset_a0610ebda290a3a7d1fc7cb59515370fa}{requests\+\_\+retry\+\_\+session}} (retries=1, backoff\+\_\+factor=0.\+5, status\+\_\+forcelist=(104, 500, 502, 504), session=None)
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__dataset_1_1dataset__impl_1_1_dataset_afc60562ef4c1c4c36878524d4ccb02a6}\label{classbittensor_1_1__dataset_1_1dataset__impl_1_1_dataset_afc60562ef4c1c4c36878524d4ccb02a6}} 
+{\bfseries dataset\+\_\+dir}
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__dataset_1_1dataset__impl_1_1_dataset_a9a0ae51b8cb646f1c364cf19d6d40ca4}\label{classbittensor_1_1__dataset_1_1dataset__impl_1_1_dataset_a9a0ae51b8cb646f1c364cf19d6d40ca4}} 
+{\bfseries text\+\_\+dir}
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__dataset_1_1dataset__impl_1_1_dataset_a19c33c938f41b7656f9dfa2875dc26b4}\label{classbittensor_1_1__dataset_1_1dataset__impl_1_1_dataset_a19c33c938f41b7656f9dfa2875dc26b4}} 
+{\bfseries mountain\+\_\+hash}
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__dataset_1_1dataset__impl_1_1_dataset_acaede26d17fc99b179b32dd72dc67bce}\label{classbittensor_1_1__dataset_1_1dataset__impl_1_1_dataset_acaede26d17fc99b179b32dd72dc67bce}} 
+{\bfseries refresh\+\_\+corpus}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\begin{DoxyVerb} Implementation for the dataset class, which handles dataloading from ipfs
+\end{DoxyVerb}
+ 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classbittensor_1_1__dataset_1_1dataset__impl_1_1_dataset_a495efa0d0eeee76dc87dad2b6c82036e}\label{classbittensor_1_1__dataset_1_1dataset__impl_1_1_dataset_a495efa0d0eeee76dc87dad2b6c82036e}} 
+\index{bittensor.\_dataset.dataset\_impl.Dataset@{bittensor.\_dataset.dataset\_impl.Dataset}!\_\_getitem\_\_@{\_\_getitem\_\_}}
+\index{\_\_getitem\_\_@{\_\_getitem\_\_}!bittensor.\_dataset.dataset\_impl.Dataset@{bittensor.\_dataset.dataset\_impl.Dataset}}
+\doxysubsubsection{\texorpdfstring{\_\_getitem\_\_()}{\_\_getitem\_\_()}}
+{\footnotesize\ttfamily def bittensor.\+\_\+dataset.\+dataset\+\_\+impl.\+Dataset.\+\_\+\+\_\+getitem\+\_\+\+\_\+ (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{idx }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb} Returns the next batch from the dataset.
+\end{DoxyVerb}
+ 
+
+Reimplemented in \mbox{\hyperlink{classbittensor_1_1__dataset_1_1dataset__mock_1_1_mock_genesis_text_dataset_adcc20e51c20c9698c140469b09655db5}{bittensor.\+\_\+dataset.\+dataset\+\_\+mock.\+Mock\+Genesis\+Text\+Dataset}}, and \mbox{\hyperlink{classbittensor_1_1__dataset_1_1dataset__impl_1_1_genesis_text_dataset_a559f292561fa11de57d4f5c8b0cc8d67}{bittensor.\+\_\+dataset.\+dataset\+\_\+impl.\+Genesis\+Text\+Dataset}}.
+
+\mbox{\Hypertarget{classbittensor_1_1__dataset_1_1dataset__impl_1_1_dataset_a64b7e8477907e64b2e737833e3802d6f}\label{classbittensor_1_1__dataset_1_1dataset__impl_1_1_dataset_a64b7e8477907e64b2e737833e3802d6f}} 
+\index{bittensor.\_dataset.dataset\_impl.Dataset@{bittensor.\_dataset.dataset\_impl.Dataset}!\_\_len\_\_@{\_\_len\_\_}}
+\index{\_\_len\_\_@{\_\_len\_\_}!bittensor.\_dataset.dataset\_impl.Dataset@{bittensor.\_dataset.dataset\_impl.Dataset}}
+\doxysubsubsection{\texorpdfstring{\_\_len\_\_()}{\_\_len\_\_()}}
+{\footnotesize\ttfamily def bittensor.\+\_\+dataset.\+dataset\+\_\+impl.\+Dataset.\+\_\+\+\_\+len\+\_\+\+\_\+ (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb} Returns length of the dataset that the dataset is processing
+\end{DoxyVerb}
+ 
+
+Reimplemented in \mbox{\hyperlink{classbittensor_1_1__dataset_1_1dataset__impl_1_1_genesis_text_dataset_aea845490db793c1d2bab3212e9dc2068}{bittensor.\+\_\+dataset.\+dataset\+\_\+impl.\+Genesis\+Text\+Dataset}}, and \mbox{\hyperlink{classbittensor_1_1__dataset_1_1dataset__mock_1_1_mock_genesis_text_dataset_a38c1ef29ee25c9c535bb87dd03f58aec}{bittensor.\+\_\+dataset.\+dataset\+\_\+mock.\+Mock\+Genesis\+Text\+Dataset}}.
+
+\mbox{\Hypertarget{classbittensor_1_1__dataset_1_1dataset__impl_1_1_dataset_adac9d1df6c5460cadb940da9a735060e}\label{classbittensor_1_1__dataset_1_1dataset__impl_1_1_dataset_adac9d1df6c5460cadb940da9a735060e}} 
+\index{bittensor.\_dataset.dataset\_impl.Dataset@{bittensor.\_dataset.dataset\_impl.Dataset}!get\_ipfs\_directory@{get\_ipfs\_directory}}
+\index{get\_ipfs\_directory@{get\_ipfs\_directory}!bittensor.\_dataset.dataset\_impl.Dataset@{bittensor.\_dataset.dataset\_impl.Dataset}}
+\doxysubsubsection{\texorpdfstring{get\_ipfs\_directory()}{get\_ipfs\_directory()}}
+{\footnotesize\ttfamily def bittensor.\+\_\+dataset.\+dataset\+\_\+impl.\+Dataset.\+get\+\_\+ipfs\+\_\+directory (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{str}]{address,  }\item[{dict}]{file\+\_\+meta,  }\item[{str }]{action = {\ttfamily \textquotesingle{}post\textquotesingle{}},  }\item[{int }]{timeout = {\ttfamily 180} }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Connects to IPFS gateway and retrieves directory.
+Args:
+    address: (:type:`str`, required):
+        The target address of the request. 
+    params: (:type:`tuple`, optional):
+        The arguments of the request. eg. (('arg', dataset_hash),)
+    action: (:type:`str`, optional):
+        POST or GET.
+    timeout: (:type:`int`, optional):
+        Timeout for getting the server's response. 
+Returns:
+    dict: A dictionary of the files inside of the genesis_datasets and their hashes.
+\end{DoxyVerb}
+ \mbox{\Hypertarget{classbittensor_1_1__dataset_1_1dataset__impl_1_1_dataset_a0610ebda290a3a7d1fc7cb59515370fa}\label{classbittensor_1_1__dataset_1_1dataset__impl_1_1_dataset_a0610ebda290a3a7d1fc7cb59515370fa}} 
+\index{bittensor.\_dataset.dataset\_impl.Dataset@{bittensor.\_dataset.dataset\_impl.Dataset}!requests\_retry\_session@{requests\_retry\_session}}
+\index{requests\_retry\_session@{requests\_retry\_session}!bittensor.\_dataset.dataset\_impl.Dataset@{bittensor.\_dataset.dataset\_impl.Dataset}}
+\doxysubsubsection{\texorpdfstring{requests\_retry\_session()}{requests\_retry\_session()}}
+{\footnotesize\ttfamily def bittensor.\+\_\+dataset.\+dataset\+\_\+impl.\+Dataset.\+requests\+\_\+retry\+\_\+session (\begin{DoxyParamCaption}\item[{}]{retries = {\ttfamily 1},  }\item[{}]{backoff\+\_\+factor = {\ttfamily 0.5},  }\item[{}]{status\+\_\+forcelist = {\ttfamily (104,~500,~502,~504)},  }\item[{}]{session = {\ttfamily None} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+\begin{DoxyVerb} Creates a retriable session for request calls. This enables
+automatic retries and back-off retries should any request calls fail.
+
+Args:
+    retries (int, optional): Maximum number of retries. Defaults to 3.
+    backoff_factor (float, optional): Factor by which to back off if a retry fails. Defaults to 0.3.
+    status_forcelist (tuple, optional): A set of integer HTTP status codes that we should force a retry on. Defaults to (500, 502, 504).
+    session ([type], optional): Session for which to set up the retries. Defaults to None.
+
+Returns:
+    requests.Session(): A Requests Session object set up for retries and backoff.
+\end{DoxyVerb}
+ 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+/\+Users/macthrasher/bittensor/bittensor/\+\_\+dataset/dataset\+\_\+impl.\+py\end{DoxyCompactItemize}

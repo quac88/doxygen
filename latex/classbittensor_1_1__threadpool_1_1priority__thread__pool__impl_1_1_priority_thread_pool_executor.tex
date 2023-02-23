@@ -1,0 +1,97 @@
+\hypertarget{classbittensor_1_1__threadpool_1_1priority__thread__pool__impl_1_1_priority_thread_pool_executor}{}\doxysection{bittensor.\+\_\+threadpool.\+priority\+\_\+thread\+\_\+pool\+\_\+impl.\+Priority\+Thread\+Pool\+Executor Class Reference}
+\label{classbittensor_1_1__threadpool_1_1priority__thread__pool__impl_1_1_priority_thread_pool_executor}\index{bittensor.\_threadpool.priority\_thread\_pool\_impl.PriorityThreadPoolExecutor@{bittensor.\_threadpool.priority\_thread\_pool\_impl.PriorityThreadPoolExecutor}}
+Inheritance diagram for bittensor.\+\_\+threadpool.\+priority\+\_\+thread\+\_\+pool\+\_\+impl.\+Priority\+Thread\+Pool\+Executor\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classbittensor_1_1__threadpool_1_1priority__thread__pool__impl_1_1_priority_thread_pool_executor}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \mbox{\hyperlink{classbittensor_1_1__threadpool_1_1priority__thread__pool__impl_1_1_priority_thread_pool_executor_a1310dbb7fd127c626cdae0cbb4732bea}{\+\_\+\+\_\+init\+\_\+\+\_\+}} (self, maxsize=-\/1, max\+\_\+workers=None, thread\+\_\+name\+\_\+prefix=\textquotesingle{}\textquotesingle{}, initializer=None, initargs=())
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__threadpool_1_1priority__thread__pool__impl_1_1_priority_thread_pool_executor_a75dcb57a6b2230f2740fee133db727d2}\label{classbittensor_1_1__threadpool_1_1priority__thread__pool__impl_1_1_priority_thread_pool_executor_a75dcb57a6b2230f2740fee133db727d2}} 
+def {\bfseries is\+\_\+empty} (self)
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__threadpool_1_1priority__thread__pool__impl_1_1_priority_thread_pool_executor_a1587d463b5075f5691595e86c90dd273}\label{classbittensor_1_1__threadpool_1_1priority__thread__pool__impl_1_1_priority_thread_pool_executor_a1587d463b5075f5691595e86c90dd273}} 
+def {\bfseries submit} (self, fn, $\ast$args, $\ast$$\ast$kwargs)
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__threadpool_1_1priority__thread__pool__impl_1_1_priority_thread_pool_executor_ac73d05046477123df9948327ef8b3290}\label{classbittensor_1_1__threadpool_1_1priority__thread__pool__impl_1_1_priority_thread_pool_executor_ac73d05046477123df9948327ef8b3290}} 
+def {\bfseries shutdown} (self, wait=True)
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__threadpool_1_1priority__thread__pool__impl_1_1_priority_thread_pool_executor_ac8ba059f6d2ed49e4d115b94971676c4}\label{classbittensor_1_1__threadpool_1_1priority__thread__pool__impl_1_1_priority_thread_pool_executor_ac8ba059f6d2ed49e4d115b94971676c4}} 
+def {\bfseries \+\_\+adjust\+\_\+thread\+\_\+count} (self)
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__threadpool_1_1priority__thread__pool__impl_1_1_priority_thread_pool_executor_a6db2b1aa4020319a9f0b6aeedf3c1f24}\label{classbittensor_1_1__threadpool_1_1priority__thread__pool__impl_1_1_priority_thread_pool_executor_a6db2b1aa4020319a9f0b6aeedf3c1f24}} 
+def {\bfseries \+\_\+initializer\+\_\+failed} (self)
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__threadpool_1_1priority__thread__pool__impl_1_1_priority_thread_pool_executor_a97455b6d1085684c5ad38b151768482c}\label{classbittensor_1_1__threadpool_1_1priority__thread__pool__impl_1_1_priority_thread_pool_executor_a97455b6d1085684c5ad38b151768482c}} 
+{\bfseries \+\_\+max\+\_\+workers}
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__threadpool_1_1priority__thread__pool__impl_1_1_priority_thread_pool_executor_ae6473aeaa3cf9e400006169a617d49be}\label{classbittensor_1_1__threadpool_1_1priority__thread__pool__impl_1_1_priority_thread_pool_executor_ae6473aeaa3cf9e400006169a617d49be}} 
+{\bfseries \+\_\+work\+\_\+queue}
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__threadpool_1_1priority__thread__pool__impl_1_1_priority_thread_pool_executor_a5d762706dda3a80450bd1f950ebd7a39}\label{classbittensor_1_1__threadpool_1_1priority__thread__pool__impl_1_1_priority_thread_pool_executor_a5d762706dda3a80450bd1f950ebd7a39}} 
+{\bfseries \+\_\+idle\+\_\+semaphore}
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__threadpool_1_1priority__thread__pool__impl_1_1_priority_thread_pool_executor_af92ade177b868a32e8cbaf56084c933b}\label{classbittensor_1_1__threadpool_1_1priority__thread__pool__impl_1_1_priority_thread_pool_executor_af92ade177b868a32e8cbaf56084c933b}} 
+{\bfseries \+\_\+threads}
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__threadpool_1_1priority__thread__pool__impl_1_1_priority_thread_pool_executor_a34f038629b473b20342e943aeab6d006}\label{classbittensor_1_1__threadpool_1_1priority__thread__pool__impl_1_1_priority_thread_pool_executor_a34f038629b473b20342e943aeab6d006}} 
+{\bfseries \+\_\+broken}
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__threadpool_1_1priority__thread__pool__impl_1_1_priority_thread_pool_executor_aed261ab98e632fd84f330680d04d66b0}\label{classbittensor_1_1__threadpool_1_1priority__thread__pool__impl_1_1_priority_thread_pool_executor_aed261ab98e632fd84f330680d04d66b0}} 
+{\bfseries \+\_\+shutdown}
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__threadpool_1_1priority__thread__pool__impl_1_1_priority_thread_pool_executor_a29720866477334bdaf2078d8d3569ac8}\label{classbittensor_1_1__threadpool_1_1priority__thread__pool__impl_1_1_priority_thread_pool_executor_a29720866477334bdaf2078d8d3569ac8}} 
+{\bfseries \+\_\+shutdown\+\_\+lock}
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__threadpool_1_1priority__thread__pool__impl_1_1_priority_thread_pool_executor_a7a3f0532cd1bb063c21851aa16292a3a}\label{classbittensor_1_1__threadpool_1_1priority__thread__pool__impl_1_1_priority_thread_pool_executor_a7a3f0532cd1bb063c21851aa16292a3a}} 
+{\bfseries \+\_\+thread\+\_\+name\+\_\+prefix}
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__threadpool_1_1priority__thread__pool__impl_1_1_priority_thread_pool_executor_ad1f83104e82dbdc5799827adac534abc}\label{classbittensor_1_1__threadpool_1_1priority__thread__pool__impl_1_1_priority_thread_pool_executor_ad1f83104e82dbdc5799827adac534abc}} 
+{\bfseries \+\_\+initializer}
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__threadpool_1_1priority__thread__pool__impl_1_1_priority_thread_pool_executor_a7d48b1823941bcd0528f99cce6244d6a}\label{classbittensor_1_1__threadpool_1_1priority__thread__pool__impl_1_1_priority_thread_pool_executor_a7d48b1823941bcd0528f99cce6244d6a}} 
+{\bfseries \+\_\+initargs}
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__threadpool_1_1priority__thread__pool__impl_1_1_priority_thread_pool_executor_aefe7b052fee17a7d4d2304753b46cfb8}\label{classbittensor_1_1__threadpool_1_1priority__thread__pool__impl_1_1_priority_thread_pool_executor_aefe7b052fee17a7d4d2304753b46cfb8}} 
+itertools {\bfseries \+\_\+counter} = itertools.\+count().\+\_\+\+\_\+next\+\_\+\+\_\+
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\begin{DoxyVerb} Base threadpool executor with a priority queue 
+\end{DoxyVerb}
+ 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classbittensor_1_1__threadpool_1_1priority__thread__pool__impl_1_1_priority_thread_pool_executor_a1310dbb7fd127c626cdae0cbb4732bea}\label{classbittensor_1_1__threadpool_1_1priority__thread__pool__impl_1_1_priority_thread_pool_executor_a1310dbb7fd127c626cdae0cbb4732bea}} 
+\index{bittensor.\_threadpool.priority\_thread\_pool\_impl.PriorityThreadPoolExecutor@{bittensor.\_threadpool.priority\_thread\_pool\_impl.PriorityThreadPoolExecutor}!\_\_init\_\_@{\_\_init\_\_}}
+\index{\_\_init\_\_@{\_\_init\_\_}!bittensor.\_threadpool.priority\_thread\_pool\_impl.PriorityThreadPoolExecutor@{bittensor.\_threadpool.priority\_thread\_pool\_impl.PriorityThreadPoolExecutor}}
+\doxysubsubsection{\texorpdfstring{\_\_init\_\_()}{\_\_init\_\_()}}
+{\footnotesize\ttfamily def bittensor.\+\_\+threadpool.\+priority\+\_\+thread\+\_\+pool\+\_\+impl.\+Priority\+Thread\+Pool\+Executor.\+\_\+\+\_\+init\+\_\+\+\_\+ (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{maxsize = {\ttfamily -\/1},  }\item[{}]{max\+\_\+workers = {\ttfamily None},  }\item[{}]{thread\+\_\+name\+\_\+prefix = {\ttfamily \textquotesingle{}\textquotesingle{}},  }\item[{}]{initializer = {\ttfamily None},  }\item[{}]{initargs = {\ttfamily ()} }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Initializes a new ThreadPoolExecutor instance.
+Args:
+    max_workers: The maximum number of threads that can be used to
+        execute the given calls.
+    thread_name_prefix: An optional name prefix to give our threads.
+    initializer: An callable used to initialize worker threads.
+    initargs: A tuple of arguments to pass to the initializer.
+\end{DoxyVerb}
+ 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+/\+Users/macthrasher/bittensor/bittensor/\+\_\+threadpool/priority\+\_\+thread\+\_\+pool\+\_\+impl.\+py\end{DoxyCompactItemize}

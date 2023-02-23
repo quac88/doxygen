@@ -1,0 +1,560 @@
+\hypertarget{classbittensor_1_1__dendrite_1_1dendrite__impl_1_1_dendrite}{}\doxysection{bittensor.\+\_\+dendrite.\+dendrite\+\_\+impl.\+Dendrite Class Reference}
+\label{classbittensor_1_1__dendrite_1_1dendrite__impl_1_1_dendrite}\index{bittensor.\_dendrite.dendrite\_impl.Dendrite@{bittensor.\_dendrite.dendrite\_impl.Dendrite}}
+Inheritance diagram for bittensor.\+\_\+dendrite.\+dendrite\+\_\+impl.\+Dendrite\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classbittensor_1_1__dendrite_1_1dendrite__impl_1_1_dendrite}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \mbox{\hyperlink{classbittensor_1_1__dendrite_1_1dendrite__impl_1_1_dendrite_a80e3be1a7ae6a4090f8689bd550949c5}{\+\_\+\+\_\+init\+\_\+\+\_\+}} (self, \textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__config_1_1config__impl_1_1_config}{bittensor.\+Config}}\textquotesingle{} \mbox{\hyperlink{classbittensor_1_1__config_1_1config}{config}}, \textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet}{bittensor.\+Wallet}}\textquotesingle{} \mbox{\hyperlink{classbittensor_1_1__wallet_1_1wallet}{wallet}}, \textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__receptor_1_1receptor__pool__impl_1_1_receptor_pool}{bittensor.\+Receptor\+Pool}}\textquotesingle{} \mbox{\hyperlink{classbittensor_1_1__receptor_1_1receptor__pool}{receptor\+\_\+pool}}, \textquotesingle{}Base\+Manager\textquotesingle{} manager=None)
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__dendrite_1_1dendrite__impl_1_1_dendrite_a6ad20828b96711b3b05cb5448da88066}\label{classbittensor_1_1__dendrite_1_1dendrite__impl_1_1_dendrite_a6ad20828b96711b3b05cb5448da88066}} 
+def {\bfseries \+\_\+\+\_\+str\+\_\+\+\_\+} (self)
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__dendrite_1_1dendrite__impl_1_1_dendrite_a140022be021c06a4d51922be0473a5ec}\label{classbittensor_1_1__dendrite_1_1dendrite__impl_1_1_dendrite_a140022be021c06a4d51922be0473a5ec}} 
+def {\bfseries \+\_\+\+\_\+repr\+\_\+\+\_\+} (self)
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__dendrite_1_1dendrite__impl_1_1_dendrite_adc463ae82af32a95dd0c0b538556ef88}\label{classbittensor_1_1__dendrite_1_1dendrite__impl_1_1_dendrite_adc463ae82af32a95dd0c0b538556ef88}} 
+def {\bfseries \+\_\+\+\_\+del\+\_\+\+\_\+} (self)
+\item 
+Tuple\mbox{[}List\mbox{[}str\mbox{]}, List\mbox{[}float\mbox{]}, List\mbox{[}str\mbox{]}\mbox{]} \mbox{\hyperlink{classbittensor_1_1__dendrite_1_1dendrite__impl_1_1_dendrite_a13fd8cc44e4289f9662236107c6577b1}{generate}} (self, Union\mbox{[}torch.\+Long\+Tensor, List\mbox{[}torch.\+Long\+Tensor\mbox{]}, List\mbox{[}\textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint}{bittensor.\+Endpoint}}\textquotesingle{}\mbox{]}, \textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint}{bittensor.\+Endpoint}}\textquotesingle{}\mbox{]} endpoints, Union\mbox{[}str, List\mbox{[}str\mbox{]}, List\mbox{[}torch.\+Long\+Tensor\mbox{]}, torch.\+Long\+Tensor\mbox{]} prompt, int timeout=None, int topk=50, int num\+\_\+to\+\_\+generate=256, int num\+\_\+beams=5, int no\+\_\+repeat\+\_\+ngram\+\_\+size=2, bool early\+\_\+stopping=False, int num\+\_\+return\+\_\+sequences=1, bool do\+\_\+sample=False, float top\+\_\+p=0.\+95, float temperature=1.\+0, float repetition\+\_\+penalty=1.\+0, float length\+\_\+penalty=1.\+0, float max\+\_\+time=150, int num\+\_\+beam\+\_\+groups=1)
+\item 
+Tuple\mbox{[}Union\mbox{[}List\mbox{[}torch.\+Float\+Tensor\mbox{]}, torch.\+Float\+Tensor\mbox{]}, torch.\+Long\+Tensor, torch.\+Float\+Tensor\mbox{]} \mbox{\hyperlink{classbittensor_1_1__dendrite_1_1dendrite__impl_1_1_dendrite_af64a1b06ea6d77b00c6b191f2b95daad}{text}} (self, Union\mbox{[}torch.\+Long\+Tensor, List\mbox{[}torch.\+Long\+Tensor\mbox{]}, List\mbox{[}\textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint}{bittensor.\+Endpoint}}\textquotesingle{}\mbox{]}, \textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint}{bittensor.\+Endpoint}}\textquotesingle{}\mbox{]} endpoints, List\mbox{[} \textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse}{bittensor.\+Synapse}}\textquotesingle{}\mbox{]} synapses, Union\mbox{[}str, List\mbox{[}str\mbox{]}, List\mbox{[}torch.\+Long\+Tensor\mbox{]}, torch.\+Long\+Tensor\mbox{]} inputs, int timeout=None, bool requires\+\_\+grad=None)
+\item 
+Tuple\mbox{[}Union\mbox{[}List\mbox{[}torch.\+Float\+Tensor\mbox{]}, torch.\+Float\+Tensor\mbox{]}, torch.\+Long\+Tensor, torch.\+Float\+Tensor\mbox{]} \mbox{\hyperlink{classbittensor_1_1__dendrite_1_1dendrite__impl_1_1_dendrite_ad12fdba0d1db1b1e0eb4cd5a8e209d5b}{text\+\_\+causal\+\_\+lm}} (self, Union\mbox{[}torch.\+Long\+Tensor, List\mbox{[}torch.\+Long\+Tensor\mbox{]}, List\mbox{[} \textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint}{bittensor.\+Endpoint}}\textquotesingle{}\mbox{]}, \textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint}{bittensor.\+Endpoint}}\textquotesingle{}\mbox{]} endpoints, Union\mbox{[}str, List\mbox{[}str\mbox{]}, List\mbox{[}torch.\+Long\+Tensor\mbox{]}, torch.\+Long\+Tensor\mbox{]} inputs, Optional\mbox{[} \textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__synapse_1_1synapse_a238e9d58958a570ca7407f3d9aa3d35f}{bittensor.\+synapse.\+Text\+Causal\+LM}}\textquotesingle{}\mbox{]} \mbox{\hyperlink{classbittensor_1_1__synapse_1_1synapse}{synapse}}=\mbox{\hyperlink{classbittensor_1_1__synapse_1_1synapse_a238e9d58958a570ca7407f3d9aa3d35f}{synapse.\+Text\+Causal\+LM}}(), Optional\mbox{[}int\mbox{]} timeout=None, Optional\mbox{[}bool\mbox{]} requires\+\_\+grad=None)
+\item 
+Tuple\mbox{[}Union\mbox{[}List\mbox{[}torch.\+Float\+Tensor\mbox{]}, torch.\+Float\+Tensor\mbox{]}, torch.\+Long\+Tensor, torch.\+Float\+Tensor\mbox{]} \mbox{\hyperlink{classbittensor_1_1__dendrite_1_1dendrite__impl_1_1_dendrite_a0cf9d7590cb94638a20627417b057c78}{text\+\_\+causal\+\_\+lm\+\_\+next}} (self, Union\mbox{[}torch.\+Long\+Tensor, List\mbox{[}torch.\+Long\+Tensor\mbox{]}, List\mbox{[}\textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint}{bittensor.\+Endpoint}}\textquotesingle{}\mbox{]}, \textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint}{bittensor.\+Endpoint}}\textquotesingle{}\mbox{]} endpoints, Union\mbox{[}str, List\mbox{[}str\mbox{]}, List\mbox{[}torch.\+Long\+Tensor\mbox{]}, torch.\+Long\+Tensor\mbox{]} inputs, Optional\mbox{[}\textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__synapse_1_1synapse_a53e1f1a97ac117a0618ee982aae7d38b}{bittensor.\+synapse.\+Text\+Causal\+LMNext}}\textquotesingle{}\mbox{]} \mbox{\hyperlink{classbittensor_1_1__synapse_1_1synapse}{synapse}}=\mbox{\hyperlink{classbittensor_1_1__synapse_1_1synapse_a53e1f1a97ac117a0618ee982aae7d38b}{synapse.\+Text\+Causal\+LMNext}}(), Optional\mbox{[}int\mbox{]} timeout=None, Optional\mbox{[}bool\mbox{]} requires\+\_\+grad=None)
+\item 
+Tuple\mbox{[}Union\mbox{[}List\mbox{[}torch.\+Float\+Tensor\mbox{]}, torch.\+Float\+Tensor\mbox{]}, torch.\+Long\+Tensor, torch.\+Float\+Tensor\mbox{]} \mbox{\hyperlink{classbittensor_1_1__dendrite_1_1dendrite__impl_1_1_dendrite_a847c81a7312898dcca79439dab3e1420}{text\+\_\+last\+\_\+hidden\+\_\+state}} (self, Union\mbox{[}torch.\+Long\+Tensor, List\mbox{[}torch.\+Long\+Tensor\mbox{]}, List\mbox{[}\textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint}{bittensor.\+Endpoint}}\textquotesingle{}\mbox{]}, \textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint}{bittensor.\+Endpoint}}\textquotesingle{}\mbox{]} endpoints, Union\mbox{[}str, List\mbox{[}str\mbox{]}, List\mbox{[}torch.\+Long\+Tensor\mbox{]}, torch.\+Long\+Tensor\mbox{]} inputs, Optional\mbox{[} \textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__synapse_1_1synapse_aa477e1b335c842bbc9ce3b90d05e7dd1}{bittensor.\+synapse.\+Text\+Last\+Hidden\+State}}\textquotesingle{}\mbox{]} \mbox{\hyperlink{classbittensor_1_1__synapse_1_1synapse}{synapse}}=\mbox{\hyperlink{classbittensor_1_1__synapse_1_1synapse_aa477e1b335c842bbc9ce3b90d05e7dd1}{synapse.\+Text\+Last\+Hidden\+State}}(), int timeout=None, bool requires\+\_\+grad=None)
+\item 
+Tuple\mbox{[}\textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint}{bittensor.\+Endpoint}}\textquotesingle{}, List\mbox{[}torch.\+Long\+Tensor\mbox{]}\mbox{]} \mbox{\hyperlink{classbittensor_1_1__dendrite_1_1dendrite__impl_1_1_dendrite_abab26bb7988e58f64548aef9489d8830}{format\+\_\+text\+\_\+inputs}} (self, Union\mbox{[}torch.\+Long\+Tensor, List\mbox{[}torch.\+Long\+Tensor\mbox{]}, List\mbox{[}\textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint}{bittensor.\+Endpoint}}\textquotesingle{}\mbox{]}, \textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint}{bittensor.\+Endpoint}}\textquotesingle{}\mbox{]} endpoints, Union\mbox{[}str, List\mbox{[}str\mbox{]}, List\mbox{[}torch.\+Long\+Tensor\mbox{]}, torch.\+Long\+Tensor\mbox{]} inputs)
+\item 
+def \mbox{\hyperlink{classbittensor_1_1__dendrite_1_1dendrite__impl_1_1_dendrite_a52f56fdee119d8db1bc4528266623519}{update\+\_\+stats}} (self, List\mbox{[} \textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint}{bittensor.\+Endpoint}}\textquotesingle{}\mbox{]} endpoints, List\mbox{[} \textquotesingle{}bittensor.\+proto.\+Synapse\textquotesingle{}\mbox{]} synapses, List\mbox{[}torch.\+Tensor\mbox{]} inputs, List\mbox{[}List\mbox{[}torch.\+Tensor\mbox{]}\mbox{]} outputs, List\mbox{[}List\mbox{[}torch.\+Long\+Tensor\mbox{]}\mbox{]} codes, List\mbox{[}List\mbox{[}torch.\+Float\+Tensor\mbox{]}\mbox{]} times)
+\item 
+def \mbox{\hyperlink{classbittensor_1_1__dendrite_1_1dendrite__impl_1_1_dendrite_a162b4285d8ae80681dc18c33379aa38d}{to\+\_\+dataframe}} (self, \mbox{\hyperlink{classbittensor_1_1__metagraph_1_1metagraph}{metagraph}})
+\item 
+def \mbox{\hyperlink{classbittensor_1_1__dendrite_1_1dendrite__impl_1_1_dendrite_a9489a72a71cd70e2b6bf11aa4a892d5b}{to\+\_\+wandb}} (self)
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+Tuple\mbox{[}torch.\+Tensor,...\mbox{]} \mbox{\hyperlink{classbittensor_1_1__dendrite_1_1dendrite__impl_1_1_dendrite_af5a6b8827b65e4e7991aecc1872de492}{forward}} (ctx, \textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__dendrite_1_1dendrite__impl_1_1_dendrite}{bittensor.\+Dendrite}}\textquotesingle{} \mbox{\hyperlink{classbittensor_1_1__dendrite_1_1dendrite}{dendrite}}, torch.\+Tensor dummy, List\mbox{[}\textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint}{bittensor.\+Endpoint}}\textquotesingle{}\mbox{]} endpoints, List\mbox{[} \textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse}{bittensor.\+Synapse}}\textquotesingle{}\mbox{]} synapses, int timeout, bool requires\+\_\+grad, $\ast$torch.\+Tensor inputs)
+\item 
+Tuple\mbox{[}Optional\mbox{[}torch.\+Tensor\mbox{]},...\mbox{]} \mbox{\hyperlink{classbittensor_1_1__dendrite_1_1dendrite__impl_1_1_dendrite_a2bff366b9b2753b63a570c84ceec955e}{backward}} (ctx, torch.\+Float\+Tensor unused\+\_\+code\+\_\+grads, torch.\+Float\+Tensor unused\+\_\+time\+\_\+grads, $\ast$torch.\+Float\+Tensor output\+\_\+grads)
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__dendrite_1_1dendrite__impl_1_1_dendrite_a004e88ced27124365900597f2ec74fdb}\label{classbittensor_1_1__dendrite_1_1dendrite__impl_1_1_dendrite_a004e88ced27124365900597f2ec74fdb}} 
+{\bfseries config}
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__dendrite_1_1dendrite__impl_1_1_dendrite_ac4939061f29081ffca15953a91d3e842}\label{classbittensor_1_1__dendrite_1_1dendrite__impl_1_1_dendrite_ac4939061f29081ffca15953a91d3e842}} 
+{\bfseries wallet}
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__dendrite_1_1dendrite__impl_1_1_dendrite_aba6742399ca4fb120ffc9437d82e0751}\label{classbittensor_1_1__dendrite_1_1dendrite__impl_1_1_dendrite_aba6742399ca4fb120ffc9437d82e0751}} 
+{\bfseries receptor\+\_\+pool}
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__dendrite_1_1dendrite__impl_1_1_dendrite_a8e0f5727d0f7186963334e477ee0d243}\label{classbittensor_1_1__dendrite_1_1dendrite__impl_1_1_dendrite_a8e0f5727d0f7186963334e477ee0d243}} 
+{\bfseries manager}
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__dendrite_1_1dendrite__impl_1_1_dendrite_affd0640a693e4281a8a0927cd4058859}\label{classbittensor_1_1__dendrite_1_1dendrite__impl_1_1_dendrite_affd0640a693e4281a8a0927cd4058859}} 
+{\bfseries stats}
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+Tuple\mbox{[}List\mbox{[}torch.\+Tensor\mbox{]}, List\mbox{[}torch.\+Long\+Tensor\mbox{]}, List\mbox{[}torch.\+Float\+Tensor\mbox{]}\mbox{]} \mbox{\hyperlink{classbittensor_1_1__dendrite_1_1dendrite__impl_1_1_dendrite_ab0bedbfadc59c5895ad47f48f05b7b69}{\+\_\+forward}} (self, List\mbox{[} \textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint}{bittensor.\+Endpoint}}\textquotesingle{}\mbox{]} endpoints, List\mbox{[} \textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse}{bittensor.\+Synapse}}\textquotesingle{}\mbox{]} synapses, List\mbox{[}torch.\+Tensor\mbox{]} inputs, Optional\mbox{[}int\mbox{]} timeout=None, Optional\mbox{[}bool\mbox{]} requires\+\_\+grad=None)
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__dendrite_1_1dendrite__impl_1_1_dendrite_a021071b2859f5bc990a73803ac3f90f7}\label{classbittensor_1_1__dendrite_1_1dendrite__impl_1_1_dendrite_a021071b2859f5bc990a73803ac3f90f7}} 
+def {\bfseries \+\_\+init\+\_\+stats} (self)
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__dendrite_1_1dendrite__impl_1_1_dendrite_aa4f6aa19bbf9f43e52b04d2c9f86b7fe}\label{classbittensor_1_1__dendrite_1_1dendrite__impl_1_1_dendrite_aa4f6aa19bbf9f43e52b04d2c9f86b7fe}} 
+{\bfseries \+\_\+prometheus\+\_\+uuid}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\begin{DoxyVerb} This is the implementation class for a bittensor.dendrite(). The dendrite class operates as a normal torch autograd friendly operation
+which accepts a list of bittensor.endpoints and a list of torch tensors. The passed endpoints are queried with the passed inputs and either return
+results or zeros. The operation is fully differentiable with a torch computation graph such that calls to loss.backward() produce Backward calls on
+the passed endpoints.
+
+Args:
+    config (:obj:`bittensor.Config`, `optional`, defaults to bittensor.dendrite.config()):
+        config namespace object created by calling bittensor.dendrite.config()
+    wallet (:obj:`bittensor.Wallet`, `optional`, defaults to bittensor.wallet( name = 'default', wallet ='default')):
+        A bittensor wallet object containing a pair of cryptographic keys, the hot and coldkey, used for signing messages
+        on the wire.
+    receptor_pool (:obj:`bittensor.ReceptorPool`, `optional`, defaults to bittensor.receptor_pool()):
+        A bittensor receptor pool object which maintains a set of connections to other peers in the network and operates as
+        a normal torch.nn.Module. By default this object is created with the dendrite config.
+\end{DoxyVerb}
+ 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classbittensor_1_1__dendrite_1_1dendrite__impl_1_1_dendrite_a80e3be1a7ae6a4090f8689bd550949c5}\label{classbittensor_1_1__dendrite_1_1dendrite__impl_1_1_dendrite_a80e3be1a7ae6a4090f8689bd550949c5}} 
+\index{bittensor.\_dendrite.dendrite\_impl.Dendrite@{bittensor.\_dendrite.dendrite\_impl.Dendrite}!\_\_init\_\_@{\_\_init\_\_}}
+\index{\_\_init\_\_@{\_\_init\_\_}!bittensor.\_dendrite.dendrite\_impl.Dendrite@{bittensor.\_dendrite.dendrite\_impl.Dendrite}}
+\doxysubsubsection{\texorpdfstring{\_\_init\_\_()}{\_\_init\_\_()}}
+{\footnotesize\ttfamily def bittensor.\+\_\+dendrite.\+dendrite\+\_\+impl.\+Dendrite.\+\_\+\+\_\+init\+\_\+\+\_\+ (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{\textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__config_1_1config__impl_1_1_config}{bittensor.\+Config}}\textquotesingle{}}]{config,  }\item[{\textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet}{bittensor.\+Wallet}}\textquotesingle{}}]{wallet,  }\item[{\textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__receptor_1_1receptor__pool__impl_1_1_receptor_pool}{bittensor.\+Receptor\+Pool}}\textquotesingle{}}]{receptor\+\_\+pool,  }\item[{\textquotesingle{}Base\+Manager\textquotesingle{} }]{manager = {\ttfamily None} }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb} Initializes a new Dendrite entry point.
+        Args:
+            receptor_pool (:obj:`bittensor.ReceptorPool`, `required`):
+                bittensor receptor pool\end{DoxyVerb}
+ 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classbittensor_1_1__dendrite_1_1dendrite__impl_1_1_dendrite_ab0bedbfadc59c5895ad47f48f05b7b69}\label{classbittensor_1_1__dendrite_1_1dendrite__impl_1_1_dendrite_ab0bedbfadc59c5895ad47f48f05b7b69}} 
+\index{bittensor.\_dendrite.dendrite\_impl.Dendrite@{bittensor.\_dendrite.dendrite\_impl.Dendrite}!\_forward@{\_forward}}
+\index{\_forward@{\_forward}!bittensor.\_dendrite.dendrite\_impl.Dendrite@{bittensor.\_dendrite.dendrite\_impl.Dendrite}}
+\doxysubsubsection{\texorpdfstring{\_forward()}{\_forward()}}
+{\footnotesize\ttfamily  Tuple \mbox{[} List\mbox{[} torch.\+Tensor \mbox{]}, List\mbox{[} torch.\+Long\+Tensor \mbox{]}, List \mbox{[} torch.\+Float\+Tensor \mbox{]}\mbox{]} bittensor.\+\_\+dendrite.\+dendrite\+\_\+impl.\+Dendrite.\+\_\+forward (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{List \mbox{[} \textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint}{bittensor.\+Endpoint}}\textquotesingle{} \mbox{]}}]{endpoints,  }\item[{List\mbox{[} \textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse}{bittensor.\+Synapse}}\textquotesingle{} \mbox{]}}]{synapses,  }\item[{List \mbox{[} torch.\+Tensor \mbox{]}}]{inputs,  }\item[{Optional \mbox{[} int \mbox{]}  }]{timeout = {\ttfamily None},  }\item[{Optional \mbox{[} bool \mbox{]} }]{requires\+\_\+grad = {\ttfamily None} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+\begin{DoxyVerb} Internal Forward tensor inputs to a list of neuron endpoints.
+
+Args:
+    endpoints (:obj:`List[bittensor.Endpoint]` of shape :obj:`(num_endpoints)`, `required`):
+        List of remote endpoints which match length of inputs. Tensors from inputs are sent forward to these endpoints.
+
+    synapses (:obj:`List[ 'bittensor.Synapse' ]` of shape :obj:`(num_synapses)`, `required`):
+        Bittensor synapse objects with arguments. Each corresponds to a synapse function on the axon.
+        Responses are packed in this ordering. 
+
+    inputs (:obj:`List[torch.Tensor]` of shape :obj:`(num_endpoints * [shape])`, `required`):
+        List of tensors to send to corresponding endpoints. Tensors are of arbitrary type and shape depending on the
+        synapse.
+
+    timeout (int, default = dendrite.timeout, `optional`):
+        request timeout.
+
+    requires_grad (int, default = dendrite.requires_grad, `optional`):
+        If true, the backward pass triggers passing gradients on the wire.
+
+Returns:
+    outputs (:obj:`List[torch.FloatTensor]` of shape :obj:`(batch_size, sequence_len, bittensor.__network_dim__)`, `required`):
+        Output encodings of inputs produced by the remote endpoints. Non-responses are zeroes of common shape.
+
+    codes (:obj:`List[torch.LongTensor]` of shape :obj:`[num_endpoints]`, `required`):
+        Return codes per endpoint per synapse.
+
+    times (:obj:`torch.FloatTensor` of shape :obj:`[ num_endpoints ]`, `required`):
+        Call times per endpoint per synapse.\end{DoxyVerb}
+ \mbox{\Hypertarget{classbittensor_1_1__dendrite_1_1dendrite__impl_1_1_dendrite_a2bff366b9b2753b63a570c84ceec955e}\label{classbittensor_1_1__dendrite_1_1dendrite__impl_1_1_dendrite_a2bff366b9b2753b63a570c84ceec955e}} 
+\index{bittensor.\_dendrite.dendrite\_impl.Dendrite@{bittensor.\_dendrite.dendrite\_impl.Dendrite}!backward@{backward}}
+\index{backward@{backward}!bittensor.\_dendrite.dendrite\_impl.Dendrite@{bittensor.\_dendrite.dendrite\_impl.Dendrite}}
+\doxysubsubsection{\texorpdfstring{backward()}{backward()}}
+{\footnotesize\ttfamily  Tuple\mbox{[}Optional\mbox{[}torch.\+Tensor\mbox{]}, ...\mbox{]} bittensor.\+\_\+dendrite.\+dendrite\+\_\+impl.\+Dendrite.\+backward (\begin{DoxyParamCaption}\item[{}]{ctx,  }\item[{torch.\+Float\+Tensor}]{unused\+\_\+code\+\_\+grads,  }\item[{torch.\+Float\+Tensor}]{unused\+\_\+time\+\_\+grads,  }\item[{$\ast$torch.\+Float\+Tensor     }]{output\+\_\+grads }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+\begin{DoxyVerb} Internal autograd-friendly Backward RPC call to a list of neuron endpoints.
+
+    Args:
+        ctx: (:obj:`torch.autograd.ctx`, `required`):
+            Autograd context, saves state information between forward and backward calls. i.e. inputs for gradient computation.
+
+        unused_code_grads: (:obj:`List[torch.Tensor]` of shape :obj:`(shape)`, `required`):
+            Gradients of this function's codes. (Unused)
+
+        unused_time_grads: (:obj:`List[torch.Tensor]` of shape :obj:`(shape)`, `required`):
+            Gradients of this function's query times. (Unused)
+
+        grads (:obj:`List[torch.Tensor]` of shape :obj:`(shape)`, `required`):
+            Gradients of this function's outputs computed during the loss.backward() call.
+            This is a list item of size num_endpoints * num_synapses.
+    
+    Returns:
+        DUMMY, None, None, None,
+        outputs (:obj:`List[torch.FloatTensor], `optional`):
+            Gradient results for each input.\end{DoxyVerb}
+ \mbox{\Hypertarget{classbittensor_1_1__dendrite_1_1dendrite__impl_1_1_dendrite_abab26bb7988e58f64548aef9489d8830}\label{classbittensor_1_1__dendrite_1_1dendrite__impl_1_1_dendrite_abab26bb7988e58f64548aef9489d8830}} 
+\index{bittensor.\_dendrite.dendrite\_impl.Dendrite@{bittensor.\_dendrite.dendrite\_impl.Dendrite}!format\_text\_inputs@{format\_text\_inputs}}
+\index{format\_text\_inputs@{format\_text\_inputs}!bittensor.\_dendrite.dendrite\_impl.Dendrite@{bittensor.\_dendrite.dendrite\_impl.Dendrite}}
+\doxysubsubsection{\texorpdfstring{format\_text\_inputs()}{format\_text\_inputs()}}
+{\footnotesize\ttfamily  Tuple\mbox{[} \textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint}{bittensor.\+Endpoint}}\textquotesingle{}, List\mbox{[}torch.\+Long\+Tensor\mbox{]} \mbox{]} bittensor.\+\_\+dendrite.\+dendrite\+\_\+impl.\+Dendrite.\+format\+\_\+text\+\_\+inputs (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{Union\mbox{[} torch.\+Long\+Tensor, List\mbox{[}torch.\+Long\+Tensor\mbox{]}, List\mbox{[}\textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint}{bittensor.\+Endpoint}}\textquotesingle{}\mbox{]}, \textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint}{bittensor.\+Endpoint}}\textquotesingle{} \mbox{]}}]{endpoints,  }\item[{Union\mbox{[}str, List\mbox{[}str\mbox{]}, List\mbox{[}torch.\+Long\+Tensor\mbox{]}, torch.\+Long\+Tensor\mbox{]}}]{inputs }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb} Formats endpoint and inputs args to a common format.
+    Args:
+        endpoints (:obj:`Union[torch.LongTensor, List[torch.LongTensor], List[bittensor.Endpoint], bittensor.Endpoint]` of shape :obj:`(num_endpoints)`, `required`):
+            Endpoints to send inputs to. Endpoint can be one of the following types:
+                - a single endpoint tensor shape [250]
+                - a set of endpoint tensors shape [n, 250]
+                - a list of endpoints tensors each of shape [250]
+                - a single endpoint object. Inputs will be sent to this endpoint alone.
+                - a list of endpoint objects. All inputs will be sent to these endpoints.
+
+        inputs (:obj:`Union[str,  List[str], List[torch.LongTensor], torch.LongTensor]` of shape :obj:`(num_endpoints * [batch_size, sequence_len])`, `required`):
+            Tokenized sentences to send on the wire. Inputs can be one of the following types:
+                - a single string: the string will be tokenized using the bittensor tokenizer.
+                - a list of strings: the strings will be tokenized using the bittensor tokenizer.
+                - a tensor with shape [batch_size, sequence_len], assumed to be the output of bittensor tokenizer.
+                - a tensor with shape [n, batch_size, sequence_len], the operation will unbind the tensor and pass inputs to endpoints.
+            If inputs are tensors they will be cast to int64 format before sending on the wire.
+
+    Returns:
+        formatted_endpoints (:obj:`Union[torch.LongTensor, List[torch.LongTensor], List[bittensor.Endpoint], bittensor.Endpoint]` of shape :obj:`(num_endpoints)`, `required`):
+            A list of endpoint objects. All inputs will be sent to these endpoints.
+
+        formatted_inputs (:obj:`Union[str,  List[str], List[torch.LongTensor], torch.LongTensor]` of shape :obj:`(num_endpoints * [batch_size, sequence_len])`, `required`):
+            A list of tensor of type long each representing a tokenized sentence to be sent to each endpoint.
+\end{DoxyVerb}
+ \mbox{\Hypertarget{classbittensor_1_1__dendrite_1_1dendrite__impl_1_1_dendrite_af5a6b8827b65e4e7991aecc1872de492}\label{classbittensor_1_1__dendrite_1_1dendrite__impl_1_1_dendrite_af5a6b8827b65e4e7991aecc1872de492}} 
+\index{bittensor.\_dendrite.dendrite\_impl.Dendrite@{bittensor.\_dendrite.dendrite\_impl.Dendrite}!forward@{forward}}
+\index{forward@{forward}!bittensor.\_dendrite.dendrite\_impl.Dendrite@{bittensor.\_dendrite.dendrite\_impl.Dendrite}}
+\doxysubsubsection{\texorpdfstring{forward()}{forward()}}
+{\footnotesize\ttfamily  Tuple\mbox{[}torch.\+Tensor, ...\mbox{]} bittensor.\+\_\+dendrite.\+dendrite\+\_\+impl.\+Dendrite.\+forward (\begin{DoxyParamCaption}\item[{}]{ctx,  }\item[{\textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__dendrite_1_1dendrite__impl_1_1_dendrite}{bittensor.\+Dendrite}}\textquotesingle{}}]{dendrite,  }\item[{torch.\+Tensor}]{dummy,  }\item[{List\mbox{[}\textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint}{bittensor.\+Endpoint}}\textquotesingle{}\mbox{]}}]{endpoints,  }\item[{List\mbox{[} \textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse}{bittensor.\+Synapse}}\textquotesingle{} \mbox{]}}]{synapses,  }\item[{int}]{timeout,  }\item[{bool}]{requires\+\_\+grad,  }\item[{$\ast$torch.\+Tensor     }]{inputs }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+\begin{DoxyVerb} Internal autograd-friendly Forward RPC call to a list of neuron endpoints.
+
+    Args:
+        ctx: (:obj:`torch.autograd.ctx`, `required`):
+            Autograd context, saves state information between forward and backward calls. i.e. inputs for gradient computation.
+
+        dendrite: (:obj:`bittensor.Dendrite`, `required`):
+            Pointer to a bittensor dendrite object on which we are creating the forward requests.
+
+        dummy: (:obj:`torch.Tensor`, `required`):
+            Dummy torch tensor used to ensure that torch.backward computation is called on this function 
+            regardless of the input types.
+
+        endpoints (:obj:`List[bittensor.Endpoint']` of shape :obj:`(n_endpoints)`, `required`):
+            List of endpoints which match length of inputs. Inputs are sent forward to these endpoints.
+
+        synapses (:obj:`List[ 'bittensor.Synapse' ]` of shape :obj:`(num_synapses)`, `required`):
+            Bittensor synapse objects with arguments. Each corresponds to a synapse function on the axon.
+            Responses are packed in this ordering. 
+
+        timeout (int):
+            request timeout.
+
+        requires_grad (int, default = dendrite.requires_grad, `optional`):
+            If true, the backward pass triggers passing gradients on the wire.
+
+        inputs (:obj:`List[torch.Tensor]` of shape :obj:`(n_endpoints)`, `required`):
+            List of torch tensors to be sent to the associated endpoints.
+
+    Returns:
+        codes (:obj:`torch.LongTensor` of shape :obj:`(n_endpoints)` `required`):
+            Return code associated with forward call.
+
+        times (:obj:`torch.FloatTensor` of shape :obj:`[ num_endpoints ]`, `required`):
+            times per call.
+        
+        outputs (:obj:`List[torch.FloatTensor` of shape :obj:`num_synapses * n_endpoints * (-1, -1, -1) `, `required`):
+            List of outputs from each synapses and each endpoint unfolded into a single list. Non-responses are zeroes of expected shape.
+\end{DoxyVerb}
+ \mbox{\Hypertarget{classbittensor_1_1__dendrite_1_1dendrite__impl_1_1_dendrite_a13fd8cc44e4289f9662236107c6577b1}\label{classbittensor_1_1__dendrite_1_1dendrite__impl_1_1_dendrite_a13fd8cc44e4289f9662236107c6577b1}} 
+\index{bittensor.\_dendrite.dendrite\_impl.Dendrite@{bittensor.\_dendrite.dendrite\_impl.Dendrite}!generate@{generate}}
+\index{generate@{generate}!bittensor.\_dendrite.dendrite\_impl.Dendrite@{bittensor.\_dendrite.dendrite\_impl.Dendrite}}
+\doxysubsubsection{\texorpdfstring{generate()}{generate()}}
+{\footnotesize\ttfamily  Tuple\mbox{[} List\mbox{[}str\mbox{]}, List\mbox{[}float\mbox{]}, List\mbox{[}str\mbox{]} \mbox{]} bittensor.\+\_\+dendrite.\+dendrite\+\_\+impl.\+Dendrite.\+generate (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{Union\mbox{[} torch.\+Long\+Tensor, List\mbox{[}torch.\+Long\+Tensor\mbox{]}, List\mbox{[}\textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint}{bittensor.\+Endpoint}}\textquotesingle{}\mbox{]}, \textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint}{bittensor.\+Endpoint}}\textquotesingle{} \mbox{]}}]{endpoints,  }\item[{Union\mbox{[}str, List\mbox{[}str\mbox{]}, List\mbox{[}torch.\+Long\+Tensor\mbox{]}, torch.\+Long\+Tensor\mbox{]}}]{prompt,  }\item[{int }]{timeout = {\ttfamily None},  }\item[{int }]{topk = {\ttfamily 50},  }\item[{int }]{num\+\_\+to\+\_\+generate = {\ttfamily 256},  }\item[{int }]{num\+\_\+beams = {\ttfamily 5},  }\item[{int }]{no\+\_\+repeat\+\_\+ngram\+\_\+size = {\ttfamily 2},  }\item[{bool }]{early\+\_\+stopping = {\ttfamily False},  }\item[{int }]{num\+\_\+return\+\_\+sequences = {\ttfamily 1},  }\item[{bool }]{do\+\_\+sample = {\ttfamily False},  }\item[{float }]{top\+\_\+p = {\ttfamily 0.95},  }\item[{float }]{temperature = {\ttfamily 1.0},  }\item[{float }]{repetition\+\_\+penalty = {\ttfamily 1.0},  }\item[{float }]{length\+\_\+penalty = {\ttfamily 1.0},  }\item[{float }]{max\+\_\+time = {\ttfamily 150},  }\item[{int }]{num\+\_\+beam\+\_\+groups = {\ttfamily 1} }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Returns a tuple containing the prompt generations produced by endpoints with corresponding parsed codes and query times.
+
+Args:
+    endpoints (:obj:`Union[torch.LongTensor, List[torch.LongTensor], List[bittensor.Endpoint], bittensor.Endpoint]` of shape :obj:`(num_endpoints)`, `required`):
+                Endpoints to send inputs to. Endpoint can be one of the following types:
+                    - a single endpoint tensor shape [250]
+                    - a set of endpoint tensors shape [n, 250]
+                    - a list of endpoints tensors each of shape [250]
+                    - a single endpoint object. Inputs will be sent to this endpoint alone.
+                    - a list of endpoint objects. All inputs will be sent to these endpoints.
+
+    prompts (:obj:`Union[str,  List[str], List[torch.LongTensor], torch.LongTensor]` of shape :obj:`(num_endpoints * [batch_size, sequence_len])`, `required`):
+                Tokenized sentences to send on the wire. Inputs can be one of the following types:
+                    - a single string: the string will be tokenized using the bittensor tokenizer.
+                    - a list of strings: the strings will be tokenized using the bittensor tokenizer.
+                    - a tensor with shape [batch_size, sequence_len], assumed to be the output of bittensor tokenizer.
+                    - a tensor with shape [n, batch_size, sequence_len], the operation will unbind the tensor and pass inputs to endpoints.
+                    - a list of tensors of type long each representing a tokenized sentence to be sent to each endpoint.
+                If inputs are tensors they will be cast to int64 format before sending on the wire.
+
+    timeout (:type:`int`, default = dendrite.timeout `optional`):
+        Request timeout. Queries that do not respond will be replaced by zeros.
+
+    Topk (:obj:int, :default: 50):
+        The number of highest probability vocabulary tokens to keep for top-k-filtering. 
+    num_to_generate (:obj: int, :default: 256):
+        The number of tokens to generate using the language model
+    num_beams (:obj: int, :default: 5):
+        The number of beams to keep during beam search
+    no_repeat_ngram_size (:obj: int, :default: 2):
+        The number of repeat n gram allowed
+    early_stopping: (:obj: bool, :default: True):
+        If the model should early stop if the probabilty drops a certain threshold
+    num_return_sequences: (:obj: int, :default: 1):
+        How many sequences should the model return
+    do_sample (:obj: bool, :default: False):
+        If the model should do sample its probablity during generation
+    top_p (:obj: float, :default: 0.95): 
+        probability cutoff for top p sampling
+    temperature: (:obj: float, :default: 1.0):
+        The value used to module the next token probabilities for the softmax calculation
+    repetition_penalty (:obj: float, :default: 1.0):
+        The parameter for repetition penalty. 1.0 means no penalty.
+    length_penalty (:obj: float, :default: 1.0): 
+        The parameter for length penalty. 0.0 means no penalty, <0 to encourage longer sequences.
+    max_time (:obj: float, :default: 150): 
+        The maximum time that a server can use to generate
+    num_beam_groups (:obj: int, :default: 1):
+        Number of groups to divide num_beams into in order to ensure diversity among different groups of beams. 
+Returns:
+    codes (:obj:`List[str]`, `required`):
+        Parsed codes from each endpoint from query.
+
+    times (:obj:`List[float]`, `required`):
+        Query times for each call from each endpoint.
+
+    generations (:obj:`List[str]`, `required`):
+        Generations from each endpoint.
+\end{DoxyVerb}
+ \mbox{\Hypertarget{classbittensor_1_1__dendrite_1_1dendrite__impl_1_1_dendrite_af64a1b06ea6d77b00c6b191f2b95daad}\label{classbittensor_1_1__dendrite_1_1dendrite__impl_1_1_dendrite_af64a1b06ea6d77b00c6b191f2b95daad}} 
+\index{bittensor.\_dendrite.dendrite\_impl.Dendrite@{bittensor.\_dendrite.dendrite\_impl.Dendrite}!text@{text}}
+\index{text@{text}!bittensor.\_dendrite.dendrite\_impl.Dendrite@{bittensor.\_dendrite.dendrite\_impl.Dendrite}}
+\doxysubsubsection{\texorpdfstring{text()}{text()}}
+{\footnotesize\ttfamily  Tuple\mbox{[} Union\mbox{[}List\mbox{[}torch.\+Float\+Tensor\mbox{]}, torch.\+Float\+Tensor\mbox{]}, torch.\+Long\+Tensor, torch.\+Float\+Tensor\mbox{]} bittensor.\+\_\+dendrite.\+dendrite\+\_\+impl.\+Dendrite.\+text (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{Union\mbox{[} torch.\+Long\+Tensor, List\mbox{[}torch.\+Long\+Tensor\mbox{]}, List\mbox{[}\textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint}{bittensor.\+Endpoint}}\textquotesingle{}\mbox{]}, \textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint}{bittensor.\+Endpoint}}\textquotesingle{} \mbox{]}}]{endpoints,  }\item[{List\mbox{[} \textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse}{bittensor.\+Synapse}}\textquotesingle{} \mbox{]}}]{synapses,  }\item[{Union\mbox{[}str, List\mbox{[}str\mbox{]}, List\mbox{[}torch.\+Long\+Tensor\mbox{]}, torch.\+Long\+Tensor\mbox{]}}]{inputs,  }\item[{int }]{timeout = {\ttfamily None},  }\item[{bool }]{requires\+\_\+grad = {\ttfamily None} }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb} Forward text inputs to a list of neuron endpoints and returns logit encodings or timeout.
+
+        Args:
+            endpoints (:obj:`Union[torch.LongTensor, List[torch.LongTensor], List[bittensor.Endpoint], bittensor.Endpoint]` of shape :obj:`(num_endpoints)`, `required`):
+                Endpoints to send inputs to. Endpoint can be one of the following types:
+                    - a single endpoint tensor shape [250]
+                    - a set of endpoint tensors shape [n, 250]
+                    - a list of endpoints tensors each of shape [250]
+                    - a single endpoint object. Inputs will be sent to this endpoint alone.
+                    - a list of endpoint objects. All inputs will be sent to these endpoints.
+
+            synapses (:obj:`List[ 'bittensor.Synapse' ]` of shape :obj:`(num_synapses)`, `required`):
+                Bittensor synapse objects with arguments. Each corresponds to a synapse function on the axon.
+                Responses are packed in this ordering. 
+
+            inputs (:obj:`Union[str,  List[str], List[torch.LongTensor], torch.LongTensor]` of shape :obj:`(num_endpoints * [batch_size, sequence_len])`, `required`):
+                Tokenized sentences to send on the wire. Inputs can be one of the following types:
+                    - a single string: the string will be tokenized using the bittensor tokenizer.
+                    - a list of strings: the strings will be tokenized using the bittensor tokenizer.
+                    - a tensor with shape [batch_size, sequence_len], assumed to be the output of bittensor tokenizer.
+                    - a tensor with shape [n, batch_size, sequence_len], the operation will unbind the tensor and pass inputs to endpoints.
+                    - a list of tensors of type long each representing a tokenized sentence to be sent to each endpoint.
+                If inputs are tensors they will be cast to int64 format before sending on the wire.
+
+            timeout (:type:`int`, default = dendrite.timeout `optional`):
+                Request timeout. Queries that do not respond will be replaced by zeros.
+
+            requires_grad (:type:`int`, default = dendrite.requires_grad, `optional`):
+                If true, the backward pass triggers passing gradients on the wire.
+
+        Returns:
+            outputs (:obj:`List[ List[ torch.FloatTensor ] ]` of shape :obj:`num_synapses * ( num_endpoints * ( -1, -1, -1 ) )`, `required`):
+                List of outputs from synapses, each a list of size num_endpoints of tensors with relevant size. Non-responses are zeroes of relevant 
+                synapse shape.
+
+            codes (:obj:`List [ torch.LongTensor ]` of shape :obj:`[ num_endpoints ]`, `required`):
+                Return code per call per synapse.
+
+            times (:obj:`List [ torch.FloatTensor ]` of shape :obj:`[ num_endpoints ]`, `required`):
+                Times per call per synapse.\end{DoxyVerb}
+ \mbox{\Hypertarget{classbittensor_1_1__dendrite_1_1dendrite__impl_1_1_dendrite_ad12fdba0d1db1b1e0eb4cd5a8e209d5b}\label{classbittensor_1_1__dendrite_1_1dendrite__impl_1_1_dendrite_ad12fdba0d1db1b1e0eb4cd5a8e209d5b}} 
+\index{bittensor.\_dendrite.dendrite\_impl.Dendrite@{bittensor.\_dendrite.dendrite\_impl.Dendrite}!text\_causal\_lm@{text\_causal\_lm}}
+\index{text\_causal\_lm@{text\_causal\_lm}!bittensor.\_dendrite.dendrite\_impl.Dendrite@{bittensor.\_dendrite.dendrite\_impl.Dendrite}}
+\doxysubsubsection{\texorpdfstring{text\_causal\_lm()}{text\_causal\_lm()}}
+{\footnotesize\ttfamily  Tuple\mbox{[}Union\mbox{[}List\mbox{[}torch.\+Float\+Tensor\mbox{]}, torch.\+Float\+Tensor\mbox{]}, torch.\+Long\+Tensor, torch.\+Float\+Tensor\mbox{]} bittensor.\+\_\+dendrite.\+dendrite\+\_\+impl.\+Dendrite.\+text\+\_\+causal\+\_\+lm (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{Union \mbox{[} torch.\+Long\+Tensor, List \mbox{[} torch.\+Long\+Tensor \mbox{]}, List\mbox{[} \textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint}{bittensor.\+Endpoint}}\textquotesingle{} \mbox{]}, \textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint}{bittensor.\+Endpoint}}\textquotesingle{} \mbox{]}}]{endpoints,  }\item[{Union \mbox{[} str, List\mbox{[} str \mbox{]}, List \mbox{[} torch.\+Long\+Tensor \mbox{]}, torch.\+Long\+Tensor\mbox{]}}]{inputs,  }\item[{Optional\mbox{[} \textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__synapse_1_1synapse_a238e9d58958a570ca7407f3d9aa3d35f}{bittensor.\+synapse.\+Text\+Causal\+LM}}\textquotesingle{} \mbox{]} }]{synapse = {\ttfamily \mbox{\hyperlink{classbittensor_1_1__synapse_1_1synapse_a238e9d58958a570ca7407f3d9aa3d35f}{synapse.\+Text\+Causal\+LM}}()},  }\item[{Optional \mbox{[} int \mbox{]} }]{timeout = {\ttfamily None},  }\item[{Optional \mbox{[} bool \mbox{]} }]{requires\+\_\+grad = {\ttfamily None} }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb} Forward text inputs to a list of neuron endpoints and returns logit encodings or timeout.
+
+        Args:
+            endpoints (:obj:`Union[torch.LongTensor, List[torch.LongTensor], List[bittensor.Endpoint], bittensor.Endpoint]` of shape :obj:`(num_endpoints)`, `required`):
+                Endpoints to send inputs to. Endpoint can be one of the following types:
+                    - a single endpoint tensor shape [250]
+                    - a set of endpoint tensors shape [n, 250]
+                    - a list of endpoints tensors each of shape [250]
+                    - a single endpoint object. Inputs will be sent to this endpoint alone.
+                    - a list of endpoint objects. All inputs will be sent to these endpoints.
+
+
+            inputs (:obj:`Union[str,  List[str], List[torch.LongTensor], torch.LongTensor]` of shape :obj:`(num_endpoints * [batch_size, sequence_len])`, `required`):
+                Tokenized sentences to send on the wire. Inputs can be one of the following types:
+                    - a single string: the string will be tokenized using the bittensor tokenizer.
+                    - a list of strings: the strings will be tokenized using the bittensor tokenizer.
+                    - a tensor with shape [batch_size, sequence_len], assumed to be the output of bittensor tokenizer.
+                    - a tensor with shape [n, batch_size, sequence_len], the operation will unbind the tensor and pass inputs to endpoints.
+                    - a list of tensors of type long each representing a tokenized sentence to be sent to each endpoint.
+                If inputs are tensors they will be cast to int64 format before sending on the wire.
+
+            synapse (:type:`'bittensor.synapse.TextCausalLM'`, default = bittensor.synapse.TextCausalLM(), `optional`):
+                Synapse axon function call which defaults to bittensor.synapse.TextCausalLM().
+            
+            timeout (:type:`int`, default = dendrite.timeout `optional`):
+                Request timeout. Queries that do not respond will be replaced by zeros.
+
+            requires_grad (:type:`int`, default = dendrite.requires_grad, `optional`):
+                If true, the backward pass triggers passing gradients on the wire.
+
+        Returns:
+            outputs (:obj:`List[ torch.FloatTensor ]` of shape :obj:`num_endpoints * (batch_size, sequence_len, bittensor.__vocab_size__ )`, `required`):
+                List of output logit encodings of inputs produced by each remote endpoints. Non-responses are zeroes of input shape plus output dimension.
+                The first dimension will match the number of endpoints queried.
+
+            codes (:obj:`torch.LongTensor` of shape :obj:`[ num_endpoints ]`, `required`):
+                dendrite call return ops.
+
+            times (:obj:`torch.FloatTensor` of shape :obj:`[ num_endpoints ]`, `required`):
+                times per call.
+\end{DoxyVerb}
+ \mbox{\Hypertarget{classbittensor_1_1__dendrite_1_1dendrite__impl_1_1_dendrite_a0cf9d7590cb94638a20627417b057c78}\label{classbittensor_1_1__dendrite_1_1dendrite__impl_1_1_dendrite_a0cf9d7590cb94638a20627417b057c78}} 
+\index{bittensor.\_dendrite.dendrite\_impl.Dendrite@{bittensor.\_dendrite.dendrite\_impl.Dendrite}!text\_causal\_lm\_next@{text\_causal\_lm\_next}}
+\index{text\_causal\_lm\_next@{text\_causal\_lm\_next}!bittensor.\_dendrite.dendrite\_impl.Dendrite@{bittensor.\_dendrite.dendrite\_impl.Dendrite}}
+\doxysubsubsection{\texorpdfstring{text\_causal\_lm\_next()}{text\_causal\_lm\_next()}}
+{\footnotesize\ttfamily  Tuple\mbox{[}Union\mbox{[}List\mbox{[}torch.\+Float\+Tensor\mbox{]}, torch.\+Float\+Tensor\mbox{]}, torch.\+Long\+Tensor, torch.\+Float\+Tensor\mbox{]} bittensor.\+\_\+dendrite.\+dendrite\+\_\+impl.\+Dendrite.\+text\+\_\+causal\+\_\+lm\+\_\+next (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{Union\mbox{[}torch.\+Long\+Tensor, List\mbox{[}torch.\+Long\+Tensor\mbox{]}, List\mbox{[}\textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint}{bittensor.\+Endpoint}}\textquotesingle{}\mbox{]}, \textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint}{bittensor.\+Endpoint}}\textquotesingle{}\mbox{]}}]{endpoints,  }\item[{Union\mbox{[}str, List\mbox{[}str\mbox{]}, List\mbox{[}torch.\+Long\+Tensor\mbox{]}, torch.\+Long\+Tensor\mbox{]}}]{inputs,  }\item[{Optional\mbox{[}\textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__synapse_1_1synapse_a53e1f1a97ac117a0618ee982aae7d38b}{bittensor.\+synapse.\+Text\+Causal\+LMNext}}\textquotesingle{}\mbox{]} }]{synapse = {\ttfamily \mbox{\hyperlink{classbittensor_1_1__synapse_1_1synapse_a53e1f1a97ac117a0618ee982aae7d38b}{synapse.\+Text\+Causal\+LMNext}}()},  }\item[{Optional\mbox{[}int\mbox{]} }]{timeout = {\ttfamily None},  }\item[{Optional\mbox{[}bool\mbox{]} }]{requires\+\_\+grad = {\ttfamily None} }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb} Forward text inputs to a list of neuron endpoints and returns logit encodings or timeout.
+
+        Args:
+            endpoints (:obj:`Union[torch.LongTensor, List[torch.LongTensor], List[bittensor.Endpoint], bittensor.Endpoint]` of shape :obj:`(num_endpoints)`, `required`):
+                Endpoints to send inputs to. Endpoint can be one of the following types:
+                    - a single endpoint tensor shape [250]
+                    - a set of endpoint tensors shape [n, 250]
+                    - a list of endpoints tensors each of shape [250]
+                    - a single endpoint object. Inputs will be sent to this endpoint alone.
+                    - a list of endpoint objects. All inputs will be sent to these endpoints.
+
+
+            inputs (:obj:`Union[str,  List[str], List[torch.LongTensor], torch.LongTensor]` of shape :obj:`(num_endpoints * [batch_size, sequence_len])`, `required`):
+                Tokenized sentences to send on the wire. Inputs can be one of the following types:
+                    - a single string: the string will be tokenized using the bittensor tokenizer.
+                    - a list of strings: the strings will be tokenized using the bittensor tokenizer.
+                    - a tensor with shape [batch_size, sequence_len], assumed to be the output of bittensor tokenizer.
+                    - a tensor with shape [n, batch_size, sequence_len], the operation will unbind the tensor and pass inputs to endpoints.
+                    - a list of tensors of type long each representing a tokenized sentence to be sent to each endpoint.
+                If inputs are tensors they will be cast to int64 format before sending on the wire.
+
+            synapse (:type:`'bittensor.synapse.TextCausalLMNext'`, default = bittensor.synapse.TextCausalLMNext(), `optional`):
+                Synapse axon function call which defaults to bittensor.synapse.TextCausalLMNext().
+
+            timeout (:type:`int`, default = dendrite.timeout `optional`):
+                Request timeout. Queries that do not respond will be replaced by zeros.
+
+            requires_grad (:type:`int`, default = dendrite.requires_grad, `optional`):
+                If true, the backward pass triggers passing gradients on the wire.
+
+        Returns:
+            outputs (:obj:`List[ torch.FloatTensor ]` of shape :obj:`num_endpoints * ( >= batch_size * (2 * topk + 1) )`, `required`):
+                List of output topk phrases encodings of inputs produced by each remote endpoints.
+                Non-responses are zeroes of input shape plus output dimension.
+                The first dimension will match the number of endpoints queried.
+
+            codes (:obj:`torch.LongTensor` of shape :obj:`[ num_endpoints ]`, `required`):
+                dendrite call return ops.
+
+            times (:obj:`torch.FloatTensor` of shape :obj:`[ num_endpoints ]`, `required`):
+                times per call.
+\end{DoxyVerb}
+ \mbox{\Hypertarget{classbittensor_1_1__dendrite_1_1dendrite__impl_1_1_dendrite_a847c81a7312898dcca79439dab3e1420}\label{classbittensor_1_1__dendrite_1_1dendrite__impl_1_1_dendrite_a847c81a7312898dcca79439dab3e1420}} 
+\index{bittensor.\_dendrite.dendrite\_impl.Dendrite@{bittensor.\_dendrite.dendrite\_impl.Dendrite}!text\_last\_hidden\_state@{text\_last\_hidden\_state}}
+\index{text\_last\_hidden\_state@{text\_last\_hidden\_state}!bittensor.\_dendrite.dendrite\_impl.Dendrite@{bittensor.\_dendrite.dendrite\_impl.Dendrite}}
+\doxysubsubsection{\texorpdfstring{text\_last\_hidden\_state()}{text\_last\_hidden\_state()}}
+{\footnotesize\ttfamily  Tuple\mbox{[}Union\mbox{[}List\mbox{[}torch.\+Float\+Tensor\mbox{]}, torch.\+Float\+Tensor\mbox{]}, torch.\+Long\+Tensor, torch.\+Float\+Tensor\mbox{]} bittensor.\+\_\+dendrite.\+dendrite\+\_\+impl.\+Dendrite.\+text\+\_\+last\+\_\+hidden\+\_\+state (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{Union\mbox{[} torch.\+Long\+Tensor, List\mbox{[}torch.\+Long\+Tensor\mbox{]}, List\mbox{[}\textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint}{bittensor.\+Endpoint}}\textquotesingle{}\mbox{]}, \textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint}{bittensor.\+Endpoint}}\textquotesingle{} \mbox{]}}]{endpoints,  }\item[{Union\mbox{[}str, List\mbox{[}str\mbox{]}, List\mbox{[}torch.\+Long\+Tensor\mbox{]}, torch.\+Long\+Tensor\mbox{]}}]{inputs,  }\item[{Optional\mbox{[} \textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__synapse_1_1synapse_aa477e1b335c842bbc9ce3b90d05e7dd1}{bittensor.\+synapse.\+Text\+Last\+Hidden\+State}}\textquotesingle{} \mbox{]} }]{synapse = {\ttfamily \mbox{\hyperlink{classbittensor_1_1__synapse_1_1synapse_aa477e1b335c842bbc9ce3b90d05e7dd1}{synapse.\+Text\+Last\+Hidden\+State}}()},  }\item[{int }]{timeout = {\ttfamily None},  }\item[{bool }]{requires\+\_\+grad = {\ttfamily None} }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb} Forward text inputs to a list of neuron endpoints and block until last hidden state responses or timeout.
+
+        Args:
+            endpoints (:obj:`Union[torch.LongTensor, List[torch.LongTensor], List[bittensor.Endpoint], bittensor.Endpoint]` of shape :obj:`(num_endpoints)`, `required`):
+                Endpoints to send inputs to. Endpoint can be one of the following types:
+                    - a single endpoint tensor shape [250]
+                    - a set of endpoint tensors shape [n, 250]
+                    - a list of endpoints tensors each of shape [250]
+                    - a single endpoint object. Inputs will be sent to this endpoint alone.
+                    - a list of endpoint objects. All inputs will be sent to these endpoints.
+
+            inputs (:obj:`Union[str,  List[str], List[torch.LongTensor], torch.LongTensor]` of shape :obj:`(num_endpoints * [batch_size, sequence_len])`, `required`):
+                Tokenized sentences to send on the wire. Inputs can be one of the following types:
+                    - a single string: the string will be tokenized using the bittensor tokenizer.
+                    - a list of strings: the strings will be tokenized using the bittensor tokenizer.
+                    - a tensor with shape [batch_size, sequence_len], assumed to be the output of bittensor tokenizer.
+                    - a tensor with shape [n, batch_size, sequence_len], the operation will unbind the tensor and pass inputs to endpoints.
+                If inputs are tensors they will be cast to int64 format before sending on the wire.
+
+            synapse (:type:`'bittensor.synapse.TextLastHiddenState'`, default = bittensor.synapse.TextLastHiddenState(), `optional`):
+                Synapse axon function call which defaults to bittensor.synapse.TextLastHiddenState().
+
+            timeout (:type:`int`, default = dendrite.timeout `optional`):
+                Request timeout. Queries that do not respond will be replaced by zeros.
+
+            requires_grad (:type:`int`, default = dendrite.requires_grad, `optional`):
+                If true, the backward pass triggers passing gradients on the wire.
+
+        Returns:
+            outputs (:obj:`List [ torch.FloatTensor ]` of shape :obj:` num_endpoints * ( -1, sequence_len, bittensor.__network_dim__ )`, `required`):
+                List of output last hidden state encodings of inputs produced by remote endpoints. Non-responses are zeroes of input shape plus output dimension.
+                The first dimension will match the number of endpoints queried.
+
+            codes (:obj:`torch.LongTensor` of shape :obj:`[ num_endpoints ]`, `required`):
+                dendrite call return ops.
+
+            times (:obj:`torch.FloatTensor` of shape :obj:`[ num_endpoints ]`, `required`):
+                times per call.
+\end{DoxyVerb}
+ \mbox{\Hypertarget{classbittensor_1_1__dendrite_1_1dendrite__impl_1_1_dendrite_a162b4285d8ae80681dc18c33379aa38d}\label{classbittensor_1_1__dendrite_1_1dendrite__impl_1_1_dendrite_a162b4285d8ae80681dc18c33379aa38d}} 
+\index{bittensor.\_dendrite.dendrite\_impl.Dendrite@{bittensor.\_dendrite.dendrite\_impl.Dendrite}!to\_dataframe@{to\_dataframe}}
+\index{to\_dataframe@{to\_dataframe}!bittensor.\_dendrite.dendrite\_impl.Dendrite@{bittensor.\_dendrite.dendrite\_impl.Dendrite}}
+\doxysubsubsection{\texorpdfstring{to\_dataframe()}{to\_dataframe()}}
+{\footnotesize\ttfamily def bittensor.\+\_\+dendrite.\+dendrite\+\_\+impl.\+Dendrite.\+to\+\_\+dataframe (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{metagraph }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb} Return a stats info as a pandas dataframe indexed by the metagraph or pubkey if not existend.
+Args:
+metagraph: (bittensor.Metagraph):
+    Indexes the stats data using metagraph hotkeys.
+Return:
+dataframe (:obj:`pandas.Dataframe`)
+\end{DoxyVerb}
+ \mbox{\Hypertarget{classbittensor_1_1__dendrite_1_1dendrite__impl_1_1_dendrite_a9489a72a71cd70e2b6bf11aa4a892d5b}\label{classbittensor_1_1__dendrite_1_1dendrite__impl_1_1_dendrite_a9489a72a71cd70e2b6bf11aa4a892d5b}} 
+\index{bittensor.\_dendrite.dendrite\_impl.Dendrite@{bittensor.\_dendrite.dendrite\_impl.Dendrite}!to\_wandb@{to\_wandb}}
+\index{to\_wandb@{to\_wandb}!bittensor.\_dendrite.dendrite\_impl.Dendrite@{bittensor.\_dendrite.dendrite\_impl.Dendrite}}
+\doxysubsubsection{\texorpdfstring{to\_wandb()}{to\_wandb()}}
+{\footnotesize\ttfamily def bittensor.\+\_\+dendrite.\+dendrite\+\_\+impl.\+Dendrite.\+to\+\_\+wandb (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb} Return a dictionary of dendrite stats as wandb logging info.
+Args:
+metagraph: (bittensor.Metagraph):
+If not None, indexes the wandb data using int uids rather than string pubkeys.
+Return:
+wandb_info (:obj:`Dict`)
+\end{DoxyVerb}
+ \mbox{\Hypertarget{classbittensor_1_1__dendrite_1_1dendrite__impl_1_1_dendrite_a52f56fdee119d8db1bc4528266623519}\label{classbittensor_1_1__dendrite_1_1dendrite__impl_1_1_dendrite_a52f56fdee119d8db1bc4528266623519}} 
+\index{bittensor.\_dendrite.dendrite\_impl.Dendrite@{bittensor.\_dendrite.dendrite\_impl.Dendrite}!update\_stats@{update\_stats}}
+\index{update\_stats@{update\_stats}!bittensor.\_dendrite.dendrite\_impl.Dendrite@{bittensor.\_dendrite.dendrite\_impl.Dendrite}}
+\doxysubsubsection{\texorpdfstring{update\_stats()}{update\_stats()}}
+{\footnotesize\ttfamily def bittensor.\+\_\+dendrite.\+dendrite\+\_\+impl.\+Dendrite.\+update\+\_\+stats (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{List\mbox{[} \textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint}{bittensor.\+Endpoint}}\textquotesingle{}\mbox{]}}]{endpoints,  }\item[{List\mbox{[} \textquotesingle{}bittensor.\+proto.\+Synapse\textquotesingle{} \mbox{]}}]{synapses,  }\item[{List\mbox{[}torch.\+Tensor\mbox{]}}]{inputs,  }\item[{List\mbox{[} List\mbox{[} torch.\+Tensor \mbox{]} \mbox{]}}]{outputs,  }\item[{List \mbox{[} List\mbox{[} torch.\+Long\+Tensor \mbox{]} \mbox{]}}]{codes,  }\item[{List \mbox{[} List\mbox{[} torch.\+Float\+Tensor \mbox{]} \mbox{]}         }]{times }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb} Update dendrite stat according to the response we get from peers. Updates were saved to self.stats.
+    Args:
+        endpoints (:obj:`List[bittensor.Endpoint]` of shape :obj:`(num_endpoints)`, `required`):
+            The set of endpoints that dendrite sent request to.
+
+        synapses (:obj:`List[ 'bittensor.Synapse' ]` of shape :obj:`(num_synapses)`, `required`):
+            Bittensor synapse objects with arguments. Each corresponds to a synapse function on the axon.
+            Responses are packed in this ordering. 
+
+        inputs (:obj:`List[torch.Tensor]` of shape :obj:`(n_endpoints)`, `required`):
+            List of torch tensors to be sent to the associated endpoints.
+
+        outputs (:obj:`List[ List[ torch.FloatTensor ] ]` of shape :obj:`num_synapses * ( num_endpoints * ( -1, -1, -1 ) )`, `required`):
+            List of outputs from synapses, each a list of size num_endpoints of tensors with relevant size. Non-responses are zeroes of relevant 
+            synapse shape.
+
+        codes (:obj:`List [ torch.LongTensor ]` of shape :obj:`[ num_endpoints ]`, `required`):
+            Return code per call per synapse.
+
+        times (:obj:`List [ torch.FloatTensor ]` of shape :obj:`[ num_endpoints ]`, `required`):
+            Times per call per synapse.
+\end{DoxyVerb}
+ 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+/\+Users/macthrasher/bittensor/bittensor/\+\_\+dendrite/dendrite\+\_\+impl.\+py\end{DoxyCompactItemize}

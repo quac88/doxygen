@@ -1,0 +1,94 @@
+\hypertarget{classbittensor_1_1__wandb_1_1wandb}{}\doxysection{bittensor.\+\_\+wandb.\+wandb Class Reference}
+\label{classbittensor_1_1__wandb_1_1wandb}\index{bittensor.\_wandb.wandb@{bittensor.\_wandb.wandb}}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \mbox{\hyperlink{classbittensor_1_1__wandb_1_1wandb_a8f8b4b84809a79231cf77aa7a3cecea9}{\+\_\+\+\_\+new\+\_\+\+\_\+}} (cls, \textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__config_1_1config}{bittensor.\+config}}\textquotesingle{} \mbox{\hyperlink{classbittensor_1_1__config_1_1config}{config}}=None, str api\+\_\+key=None, str name=None, str project=None, tuple tags=None, str run\+\_\+group=None, str directory=None, str cold\+\_\+pubkey=None, str hot\+\_\+pubkey=None, str root\+\_\+dir=\textquotesingle{}$\sim$/.bittensor/miners/\textquotesingle{})
+\item 
+def \mbox{\hyperlink{classbittensor_1_1__wandb_1_1wandb_a3ed9e146339790d420f05893b6d3c01e}{add\+\_\+args}} (cls, argparse.\+Argument\+Parser parser, str prefix=None)
+\item 
+def \mbox{\hyperlink{classbittensor_1_1__wandb_1_1wandb_af78430acf92f52da4b03bf015ea72c57}{help}} (cls)
+\item 
+def \mbox{\hyperlink{classbittensor_1_1__wandb_1_1wandb_a720e9bf28a320dee5943d32216edf974}{add\+\_\+defaults}} (cls, defaults)
+\item 
+ \textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__config_1_1config__impl_1_1_config}{bittensor.\+Config}}\textquotesingle{} \mbox{\hyperlink{classbittensor_1_1__wandb_1_1wandb_aacb3528779370a3e386902cfd6d33863}{config}} (cls)
+\item 
+def \mbox{\hyperlink{classbittensor_1_1__wandb_1_1wandb_afddd601d4a63d137120d6eb8c0ecfb7a}{check\+\_\+config}} (cls, \textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__config_1_1config__impl_1_1_config}{bittensor.\+Config}}\textquotesingle{} \mbox{\hyperlink{classbittensor_1_1__config_1_1config}{config}})
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\begin{DoxyVerb} Create and init wandb to logs the interested parameters to weight and biases
+\end{DoxyVerb}
+ 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classbittensor_1_1__wandb_1_1wandb_a8f8b4b84809a79231cf77aa7a3cecea9}\label{classbittensor_1_1__wandb_1_1wandb_a8f8b4b84809a79231cf77aa7a3cecea9}} 
+\index{bittensor.\_wandb.wandb@{bittensor.\_wandb.wandb}!\_\_new\_\_@{\_\_new\_\_}}
+\index{\_\_new\_\_@{\_\_new\_\_}!bittensor.\_wandb.wandb@{bittensor.\_wandb.wandb}}
+\doxysubsubsection{\texorpdfstring{\_\_new\_\_()}{\_\_new\_\_()}}
+{\footnotesize\ttfamily def bittensor.\+\_\+wandb.\+wandb.\+\_\+\+\_\+new\+\_\+\+\_\+ (\begin{DoxyParamCaption}\item[{}]{cls,  }\item[{\textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__config_1_1config}{bittensor.\+config}}\textquotesingle{} }]{config = {\ttfamily None},  }\item[{str }]{api\+\_\+key = {\ttfamily None},  }\item[{str }]{name = {\ttfamily None},  }\item[{str }]{project = {\ttfamily None},  }\item[{tuple }]{tags = {\ttfamily None},  }\item[{str }]{run\+\_\+group = {\ttfamily None},  }\item[{str }]{directory = {\ttfamily None},  }\item[{str }]{cold\+\_\+pubkey = {\ttfamily None},  }\item[{str }]{hot\+\_\+pubkey = {\ttfamily None},  }\item[{str }]{root\+\_\+dir = {\ttfamily \textquotesingle{}$\sim$/.bittensor/miners/\textquotesingle{}} }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb} Initializes a bittensor wandb backend logging object.
+        Args:
+            config (:obj:`bittensor.Config`, `optional`): 
+                bittensor.wamdb.config()
+            api_key (:obj:`bool`, `optional`):
+                Optionally pass wandb api key for use_wandb.
+            name (:obj:`bool`, `optional`):
+                Optionally pass wandb run name for use_wandb.
+            project (:obj:`bool`, `optional`):
+                Optionally pass wandb project name for use_wandb.
+            tags (:obj:`bool`, `optional`):
+            run_group (:obj:`bool`, `optional`):
+            directory (:obj:`bool`, `optional`):
+            offline (:obj:`bool`, `optional`):
+            cold_pubkey (:obj:`bool`, `optional`):
+            hot_pubkey (:obj:`bool`, `optional`):
+            root_dir (:obj:`bool`, `optional`):\end{DoxyVerb}
+ \mbox{\Hypertarget{classbittensor_1_1__wandb_1_1wandb_a3ed9e146339790d420f05893b6d3c01e}\label{classbittensor_1_1__wandb_1_1wandb_a3ed9e146339790d420f05893b6d3c01e}} 
+\index{bittensor.\_wandb.wandb@{bittensor.\_wandb.wandb}!add\_args@{add\_args}}
+\index{add\_args@{add\_args}!bittensor.\_wandb.wandb@{bittensor.\_wandb.wandb}}
+\doxysubsubsection{\texorpdfstring{add\_args()}{add\_args()}}
+{\footnotesize\ttfamily def bittensor.\+\_\+wandb.\+wandb.\+add\+\_\+args (\begin{DoxyParamCaption}\item[{}]{cls,  }\item[{argparse.\+Argument\+Parser}]{parser,  }\item[{str }]{prefix = {\ttfamily None} }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb} Accepting specific argument from parser
+\end{DoxyVerb}
+ \mbox{\Hypertarget{classbittensor_1_1__wandb_1_1wandb_a720e9bf28a320dee5943d32216edf974}\label{classbittensor_1_1__wandb_1_1wandb_a720e9bf28a320dee5943d32216edf974}} 
+\index{bittensor.\_wandb.wandb@{bittensor.\_wandb.wandb}!add\_defaults@{add\_defaults}}
+\index{add\_defaults@{add\_defaults}!bittensor.\_wandb.wandb@{bittensor.\_wandb.wandb}}
+\doxysubsubsection{\texorpdfstring{add\_defaults()}{add\_defaults()}}
+{\footnotesize\ttfamily def bittensor.\+\_\+wandb.\+wandb.\+add\+\_\+defaults (\begin{DoxyParamCaption}\item[{}]{cls,  }\item[{}]{defaults }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb} Adds parser defaults to object from enviroment variables.
+\end{DoxyVerb}
+ \mbox{\Hypertarget{classbittensor_1_1__wandb_1_1wandb_afddd601d4a63d137120d6eb8c0ecfb7a}\label{classbittensor_1_1__wandb_1_1wandb_afddd601d4a63d137120d6eb8c0ecfb7a}} 
+\index{bittensor.\_wandb.wandb@{bittensor.\_wandb.wandb}!check\_config@{check\_config}}
+\index{check\_config@{check\_config}!bittensor.\_wandb.wandb@{bittensor.\_wandb.wandb}}
+\doxysubsubsection{\texorpdfstring{check\_config()}{check\_config()}}
+{\footnotesize\ttfamily def bittensor.\+\_\+wandb.\+wandb.\+check\+\_\+config (\begin{DoxyParamCaption}\item[{}]{cls,  }\item[{\textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__config_1_1config__impl_1_1_config}{bittensor.\+Config}}\textquotesingle{} }]{config }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb} Checking config for types
+\end{DoxyVerb}
+ \mbox{\Hypertarget{classbittensor_1_1__wandb_1_1wandb_aacb3528779370a3e386902cfd6d33863}\label{classbittensor_1_1__wandb_1_1wandb_aacb3528779370a3e386902cfd6d33863}} 
+\index{bittensor.\_wandb.wandb@{bittensor.\_wandb.wandb}!config@{config}}
+\index{config@{config}!bittensor.\_wandb.wandb@{bittensor.\_wandb.wandb}}
+\doxysubsubsection{\texorpdfstring{config()}{config()}}
+{\footnotesize\ttfamily  \textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__config_1_1config__impl_1_1_config}{bittensor.\+Config}}\textquotesingle{} bittensor.\+\_\+wandb.\+wandb.\+config (\begin{DoxyParamCaption}\item[{}]{cls }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb} Get config from argument parser
+Return bittensor.config object
+\end{DoxyVerb}
+ \mbox{\Hypertarget{classbittensor_1_1__wandb_1_1wandb_af78430acf92f52da4b03bf015ea72c57}\label{classbittensor_1_1__wandb_1_1wandb_af78430acf92f52da4b03bf015ea72c57}} 
+\index{bittensor.\_wandb.wandb@{bittensor.\_wandb.wandb}!help@{help}}
+\index{help@{help}!bittensor.\_wandb.wandb@{bittensor.\_wandb.wandb}}
+\doxysubsubsection{\texorpdfstring{help()}{help()}}
+{\footnotesize\ttfamily def bittensor.\+\_\+wandb.\+wandb.\+help (\begin{DoxyParamCaption}\item[{}]{cls }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb} Print help to stdout
+\end{DoxyVerb}
+ 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+/\+Users/macthrasher/bittensor/bittensor/\+\_\+wandb/\+\_\+\+\_\+init\+\_\+\+\_\+.\+py\end{DoxyCompactItemize}

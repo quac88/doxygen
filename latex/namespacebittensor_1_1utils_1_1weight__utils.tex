@@ -1,0 +1,97 @@
+\hypertarget{namespacebittensor_1_1utils_1_1weight__utils}{}\doxysection{bittensor.\+utils.\+weight\+\_\+utils Namespace Reference}
+\label{namespacebittensor_1_1utils_1_1weight__utils}\index{bittensor.utils.weight\_utils@{bittensor.utils.weight\_utils}}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+ \textquotesingle{}torch.\+Float\+Tensor\textquotesingle{} \mbox{\hyperlink{namespacebittensor_1_1utils_1_1weight__utils_abeb28e8f4b90d1c39102f9db8f75a86b}{normalize\+\_\+max\+\_\+weight}} (torch.\+Float\+Tensor x, float limit=0.\+1)
+\item 
+ \textquotesingle{}torch.\+Float\+Tensor\textquotesingle{} \mbox{\hyperlink{namespacebittensor_1_1utils_1_1weight__utils_a76c6807e7b871a4b945f78ec6cebb33f}{convert\+\_\+weight\+\_\+uids\+\_\+and\+\_\+vals\+\_\+to\+\_\+tensor}} (int n, List\mbox{[}int\mbox{]} uids, List\mbox{[}int\mbox{]} weights)
+\item 
+ \textquotesingle{}torch.\+Long\+Tensor\textquotesingle{} \mbox{\hyperlink{namespacebittensor_1_1utils_1_1weight__utils_ab7a5ca8f3a6455fd0a4d3b56fcaf7e90}{convert\+\_\+bond\+\_\+uids\+\_\+and\+\_\+vals\+\_\+to\+\_\+tensor}} (int n, List\mbox{[}int\mbox{]} uids, List\mbox{[}int\mbox{]} bonds)
+\item 
+Tuple\mbox{[}List\mbox{[}int\mbox{]}, List\mbox{[}int\mbox{]}\mbox{]} \mbox{\hyperlink{namespacebittensor_1_1utils_1_1weight__utils_ad6077babaaee521df6810744f68d9874}{convert\+\_\+weights\+\_\+and\+\_\+uids\+\_\+for\+\_\+emit}} (torch.\+Long\+Tensor uids, torch.\+Float\+Tensor weights)
+\end{DoxyCompactItemize}
+\doxysubsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{namespacebittensor_1_1utils_1_1weight__utils_a26180f80934e02cda38d1c1c7de555eb}\label{namespacebittensor_1_1utils_1_1weight__utils_a26180f80934e02cda38d1c1c7de555eb}} 
+int {\bfseries U32\+\_\+\+MAX} = 4294967295
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\begin{DoxyVerb} Conversion for weight between chain representation and torch tensor
+\end{DoxyVerb}
+ 
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{namespacebittensor_1_1utils_1_1weight__utils_ab7a5ca8f3a6455fd0a4d3b56fcaf7e90}\label{namespacebittensor_1_1utils_1_1weight__utils_ab7a5ca8f3a6455fd0a4d3b56fcaf7e90}} 
+\index{bittensor.utils.weight\_utils@{bittensor.utils.weight\_utils}!convert\_bond\_uids\_and\_vals\_to\_tensor@{convert\_bond\_uids\_and\_vals\_to\_tensor}}
+\index{convert\_bond\_uids\_and\_vals\_to\_tensor@{convert\_bond\_uids\_and\_vals\_to\_tensor}!bittensor.utils.weight\_utils@{bittensor.utils.weight\_utils}}
+\doxysubsubsection{\texorpdfstring{convert\_bond\_uids\_and\_vals\_to\_tensor()}{convert\_bond\_uids\_and\_vals\_to\_tensor()}}
+{\footnotesize\ttfamily  \textquotesingle{}torch.\+Long\+Tensor\textquotesingle{} bittensor.\+utils.\+weight\+\_\+utils.\+convert\+\_\+bond\+\_\+uids\+\_\+and\+\_\+vals\+\_\+to\+\_\+tensor (\begin{DoxyParamCaption}\item[{int}]{n,  }\item[{List\mbox{[}int\mbox{]}}]{uids,  }\item[{List\mbox{[}int\mbox{]} }]{bonds }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb} Converts bond and uids from chain representation into a torch tensor.
+Args:
+    n: int:
+        number of neurons on network.
+    uids (:obj:`List[int],`):
+        Tensor of uids as destinations for passed bonds.
+    bonds (:obj:`List[int],`):
+        Tensor of bonds.
+Returns:
+    row_bonds ( torch.FloatTensor ):
+        Converted row bonds.
+\end{DoxyVerb}
+ \mbox{\Hypertarget{namespacebittensor_1_1utils_1_1weight__utils_a76c6807e7b871a4b945f78ec6cebb33f}\label{namespacebittensor_1_1utils_1_1weight__utils_a76c6807e7b871a4b945f78ec6cebb33f}} 
+\index{bittensor.utils.weight\_utils@{bittensor.utils.weight\_utils}!convert\_weight\_uids\_and\_vals\_to\_tensor@{convert\_weight\_uids\_and\_vals\_to\_tensor}}
+\index{convert\_weight\_uids\_and\_vals\_to\_tensor@{convert\_weight\_uids\_and\_vals\_to\_tensor}!bittensor.utils.weight\_utils@{bittensor.utils.weight\_utils}}
+\doxysubsubsection{\texorpdfstring{convert\_weight\_uids\_and\_vals\_to\_tensor()}{convert\_weight\_uids\_and\_vals\_to\_tensor()}}
+{\footnotesize\ttfamily  \textquotesingle{}torch.\+Float\+Tensor\textquotesingle{} bittensor.\+utils.\+weight\+\_\+utils.\+convert\+\_\+weight\+\_\+uids\+\_\+and\+\_\+vals\+\_\+to\+\_\+tensor (\begin{DoxyParamCaption}\item[{int}]{n,  }\item[{List\mbox{[}int\mbox{]}}]{uids,  }\item[{List\mbox{[}int\mbox{]} }]{weights }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb} Converts weights and uids from chain representation into a torch tensor (inverse operation from convert_weights_and_uids_for_emit)
+Args:
+    n: int:
+        number of neurons on network.
+    uids (:obj:`List[int],`):
+        Tensor of uids as destinations for passed weights.
+    weights (:obj:`List[int],`):
+        Tensor of weights.
+Returns:
+    row_weights ( torch.FloatTensor ):
+        Converted row weights.
+\end{DoxyVerb}
+ \mbox{\Hypertarget{namespacebittensor_1_1utils_1_1weight__utils_ad6077babaaee521df6810744f68d9874}\label{namespacebittensor_1_1utils_1_1weight__utils_ad6077babaaee521df6810744f68d9874}} 
+\index{bittensor.utils.weight\_utils@{bittensor.utils.weight\_utils}!convert\_weights\_and\_uids\_for\_emit@{convert\_weights\_and\_uids\_for\_emit}}
+\index{convert\_weights\_and\_uids\_for\_emit@{convert\_weights\_and\_uids\_for\_emit}!bittensor.utils.weight\_utils@{bittensor.utils.weight\_utils}}
+\doxysubsubsection{\texorpdfstring{convert\_weights\_and\_uids\_for\_emit()}{convert\_weights\_and\_uids\_for\_emit()}}
+{\footnotesize\ttfamily  Tuple\mbox{[}List\mbox{[}int\mbox{]}, List\mbox{[}int\mbox{]}\mbox{]} bittensor.\+utils.\+weight\+\_\+utils.\+convert\+\_\+weights\+\_\+and\+\_\+uids\+\_\+for\+\_\+emit (\begin{DoxyParamCaption}\item[{torch.\+Long\+Tensor}]{uids,  }\item[{torch.\+Float\+Tensor }]{weights }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb} Converts weights into integer u32 representation that sum to MAX_INT_WEIGHT.
+Args:
+    uids (:obj:`torch.LongTensor,`):
+        Tensor of uids as destinations for passed weights.
+    weights (:obj:`torch.FloatTensor,`):
+        Tensor of weights.
+Returns:
+    weight_uids (List[int]):
+        Uids as a list.
+    weight_vals (List[int]):
+        Weights as a list.
+\end{DoxyVerb}
+ \mbox{\Hypertarget{namespacebittensor_1_1utils_1_1weight__utils_abeb28e8f4b90d1c39102f9db8f75a86b}\label{namespacebittensor_1_1utils_1_1weight__utils_abeb28e8f4b90d1c39102f9db8f75a86b}} 
+\index{bittensor.utils.weight\_utils@{bittensor.utils.weight\_utils}!normalize\_max\_weight@{normalize\_max\_weight}}
+\index{normalize\_max\_weight@{normalize\_max\_weight}!bittensor.utils.weight\_utils@{bittensor.utils.weight\_utils}}
+\doxysubsubsection{\texorpdfstring{normalize\_max\_weight()}{normalize\_max\_weight()}}
+{\footnotesize\ttfamily  \textquotesingle{}torch.\+Float\+Tensor\textquotesingle{} bittensor.\+utils.\+weight\+\_\+utils.\+normalize\+\_\+max\+\_\+weight (\begin{DoxyParamCaption}\item[{torch.\+Float\+Tensor}]{x,  }\item[{float }]{limit = {\ttfamily 0.1} }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb} Normalizes the tensor x so that sum(x) = 1 and the max value is not greater than the limit.
+        Args:
+            x (:obj:`torch.FloatTensor`):
+                Tensor to be max_value normalized.
+            limit: float:
+                Max value after normalization.     
+        Returns:
+            y (:obj:`torch.FloatTensor`):
+                Normalized x tensor.\end{DoxyVerb}
+ 

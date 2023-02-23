@@ -1,0 +1,299 @@
+\hypertarget{namespacebittensor_1_1__neuron_1_1text_1_1core__validator}{}\doxysection{bittensor.\+\_\+neuron.\+text.\+core\+\_\+validator Namespace Reference}
+\label{namespacebittensor_1_1__neuron_1_1text_1_1core__validator}\index{bittensor.\_neuron.text.core\_validator@{bittensor.\_neuron.text.core\_validator}}
+\doxysubsection*{Namespaces}
+\begin{DoxyCompactItemize}
+\item 
+namespace \mbox{\hyperlink{namespacebittensor_1_1__neuron_1_1text_1_1core__validator_1_1main}{main}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{classbittensor_1_1__neuron_1_1text_1_1core__validator_1_1neuron}{neuron}}
+\item 
+class \mbox{\hyperlink{classbittensor_1_1__neuron_1_1text_1_1core__validator_1_1nucleus}{nucleus}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \mbox{\hyperlink{namespacebittensor_1_1__neuron_1_1text_1_1core__validator_afbddc9ae968b91105cb4845cdec271d8}{scaling\+\_\+law\+\_\+loss\+\_\+to\+\_\+params}} (loss)
+\item 
+Tuple\mbox{[}torch.\+Float\+Tensor, Dict\mbox{]} \mbox{\hyperlink{namespacebittensor_1_1__neuron_1_1text_1_1core__validator_a156659d617f14885b3e5c58286bf0ef5}{textcausallm}} (torch.\+Tensor uids, List\mbox{[}List\mbox{[}torch.\+Float\+Tensor\mbox{]}\mbox{]} query\+\_\+responses, List\mbox{[}torch.\+Long\+Tensor\mbox{]} return\+\_\+ops, List\mbox{[}torch.\+Float\+Tensor\mbox{]} times, torch.\+Float\+Tensor routing\+\_\+score, torch.\+Float\+Tensor inputs, int validation\+\_\+len, Callable loss\+\_\+fct, float scaling\+\_\+law\+\_\+power, float synergy\+\_\+scaling\+\_\+law\+\_\+power, float logits\+\_\+divergence\+\_\+penalty, int console\+\_\+width, \mbox{\hyperlink{classbittensor_1_1__logging_1_1logging}{logging}}, \textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__synapse_1_1text__causallm__impl_1_1_text_causal_l_m}{bittensor.\+Text\+Causal\+LM}}\textquotesingle{} \mbox{\hyperlink{classbittensor_1_1__synapse_1_1synapse}{synapse}}=None, int index\+\_\+s=0)
+\item 
+Tuple\mbox{[}torch.\+Float\+Tensor, Dict\mbox{]} \mbox{\hyperlink{namespacebittensor_1_1__neuron_1_1text_1_1core__validator_ae13e132bc899ab97f56d1243dfdd9628}{textcausallmnext}} (torch.\+Tensor uids, List\mbox{[}List\mbox{[}torch.\+Float\+Tensor\mbox{]}\mbox{]} query\+\_\+responses, List\mbox{[}torch.\+Long\+Tensor\mbox{]} return\+\_\+ops, List\mbox{[}torch.\+Float\+Tensor\mbox{]} times, torch.\+Float\+Tensor routing\+\_\+score, torch.\+Float\+Tensor inputs, int validation\+\_\+len, Callable loss\+\_\+fct, float scaling\+\_\+law\+\_\+power, float synergy\+\_\+scaling\+\_\+law\+\_\+power, float logits\+\_\+divergence\+\_\+penalty, int console\+\_\+width, \mbox{\hyperlink{classbittensor_1_1__logging_1_1logging}{logging}}, \textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__synapse_1_1text__causallmnext__impl_1_1_text_causal_l_m_next}{bittensor.\+Text\+Causal\+LMNext}}\textquotesingle{} \mbox{\hyperlink{classbittensor_1_1__synapse_1_1synapse}{synapse}}=None, int index\+\_\+s=0)
+\item 
+Tuple\mbox{[}Union\mbox{[}float, torch.\+Float\+Tensor\mbox{]}, Dict, List\mbox{]} \mbox{\hyperlink{namespacebittensor_1_1__neuron_1_1text_1_1core__validator_a826517b0b4f17e635dafcc3076a57a43}{shapley\+\_\+base}} (torch.\+Tensor uids, List\mbox{[}List\mbox{[}torch.\+Float\+Tensor\mbox{]}\mbox{]} query\+\_\+responses, List\mbox{[}torch.\+Long\+Tensor\mbox{]} return\+\_\+ops, List\mbox{[}torch.\+Float\+Tensor\mbox{]} times, torch.\+Float\+Tensor routing\+\_\+score, Callable base\+\_\+params, int index\+\_\+s=0, str ext=None)
+\item 
+def \mbox{\hyperlink{namespacebittensor_1_1__neuron_1_1text_1_1core__validator_a3d48b0eacf487ad14a36ef50ef21df07}{logits\+\_\+divergence}} (Dict stats, torch.\+Tensor uids, List\mbox{[}List\mbox{[}torch.\+Float\+Tensor\mbox{]}\mbox{]} query\+\_\+responses, List\mbox{[}torch.\+Long\+Tensor\mbox{]} return\+\_\+ops, List\mbox{[}torch.\+Float\+Tensor\mbox{]} times, int index\+\_\+s=0, str ext=None)
+\item 
+def \mbox{\hyperlink{namespacebittensor_1_1__neuron_1_1text_1_1core__validator_a1bd51d8fbf1d03308c1beb60fd961dd1}{shapley\+\_\+synergy}} (Dict stats, Callable synergy, str ext, torch.\+Tensor target=None, float scaling\+\_\+law\+\_\+power=0.\+5)
+\item 
+List \mbox{\hyperlink{namespacebittensor_1_1__neuron_1_1text_1_1core__validator_ad73b7e74829f07cd55e096f14a9a39a8}{format\+\_\+predictions}} (torch.\+Tensor uids, List\mbox{[}List\mbox{[}torch.\+Float\+Tensor\mbox{]}\mbox{]} query\+\_\+responses, List\mbox{[}torch.\+Long\+Tensor\mbox{]} return\+\_\+ops, torch.\+Float\+Tensor inputs, int validation\+\_\+len, int index\+\_\+s=0, int number\+\_\+of\+\_\+predictions=3)
+\item 
+def \mbox{\hyperlink{namespacebittensor_1_1__neuron_1_1text_1_1core__validator_a0c000ee81cd21336cf103755b8ffbe89}{response\+\_\+table}} (List batch\+\_\+predictions, Dict stats, str sort\+\_\+col, int console\+\_\+width, int task\+\_\+repeat=4, int tasks\+\_\+per\+\_\+server=3)
+\item 
+def \mbox{\hyperlink{namespacebittensor_1_1__neuron_1_1text_1_1core__validator_a6fd9748649f8e6a6f82cbbcb48b164a4}{synergy\+\_\+table}} (stats, syn\+\_\+loss\+\_\+diff, sort\+\_\+col, console\+\_\+width)
+\item 
+def \mbox{\hyperlink{namespacebittensor_1_1__neuron_1_1text_1_1core__validator_a3b98321f53ed9671d10985f26470e151}{stats\+\_\+table}} (stats, sort\+\_\+col, console\+\_\+width, title, caption, mark\+\_\+uids=None)
+\item 
+def \mbox{\hyperlink{namespacebittensor_1_1__neuron_1_1text_1_1core__validator_ac65c768421ed57928ee56b3da28e5cf8}{synapse\+\_\+table}} (name, stats, sort\+\_\+col, console\+\_\+width, start\+\_\+time)
+\item 
+def \mbox{\hyperlink{namespacebittensor_1_1__neuron_1_1text_1_1core__validator_ab1b9785136040aef8a5a3e0588151ca1}{unsuccess}} (\+\_\+name, \+\_\+unsuccessful)
+\end{DoxyCompactItemize}
+\doxysubsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{namespacebittensor_1_1__neuron_1_1text_1_1core__validator_abf245d31bf2b69b6542bb98662ae1b70}\label{namespacebittensor_1_1__neuron_1_1text_1_1core__validator_abf245d31bf2b69b6542bb98662ae1b70}} 
+logger {\bfseries logger} = logger.\+opt( colors=True )
+\item 
+\mbox{\Hypertarget{namespacebittensor_1_1__neuron_1_1text_1_1core__validator_ac66a622a85b1ee7ea03d6442aa7a04c0}\label{namespacebittensor_1_1__neuron_1_1text_1_1core__validator_ac66a622a85b1ee7ea03d6442aa7a04c0}} 
+Console {\bfseries console} = Console()
+\item 
+\mbox{\Hypertarget{namespacebittensor_1_1__neuron_1_1text_1_1core__validator_a6117e317add107345576af8a89a59aa7}\label{namespacebittensor_1_1__neuron_1_1text_1_1core__validator_a6117e317add107345576af8a89a59aa7}} 
+{\bfseries show\+\_\+locals}
+\item 
+\mbox{\Hypertarget{namespacebittensor_1_1__neuron_1_1text_1_1core__validator_a81427319fc32ca2122c1af5aeec009a6}\label{namespacebittensor_1_1__neuron_1_1text_1_1core__validator_a81427319fc32ca2122c1af5aeec009a6}} 
+list {\bfseries neuron\+\_\+stats\+\_\+columns}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\begin{DoxyVerb} The bittensor base validator
+
+Example:
+    $ python3 miners/text/core_validator.py --logging.debug\end{DoxyVerb}
+ 
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{namespacebittensor_1_1__neuron_1_1text_1_1core__validator_ad73b7e74829f07cd55e096f14a9a39a8}\label{namespacebittensor_1_1__neuron_1_1text_1_1core__validator_ad73b7e74829f07cd55e096f14a9a39a8}} 
+\index{bittensor.\_neuron.text.core\_validator@{bittensor.\_neuron.text.core\_validator}!format\_predictions@{format\_predictions}}
+\index{format\_predictions@{format\_predictions}!bittensor.\_neuron.text.core\_validator@{bittensor.\_neuron.text.core\_validator}}
+\doxysubsubsection{\texorpdfstring{format\_predictions()}{format\_predictions()}}
+{\footnotesize\ttfamily  List bittensor.\+\_\+neuron.\+text.\+core\+\_\+validator.\+format\+\_\+predictions (\begin{DoxyParamCaption}\item[{torch.\+Tensor}]{uids,  }\item[{List\mbox{[}List\mbox{[}torch.\+Float\+Tensor\mbox{]}\mbox{]}}]{query\+\_\+responses,  }\item[{List\mbox{[}torch.\+Long\+Tensor\mbox{]}}]{return\+\_\+ops,  }\item[{torch.\+Float\+Tensor}]{inputs,  }\item[{int}]{validation\+\_\+len,  }\item[{int }]{index\+\_\+s = {\ttfamily 0},  }\item[{int }]{number\+\_\+of\+\_\+predictions = {\ttfamily 3} }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb} Format batch task topk predictions for rich table print of query responses.
+\end{DoxyVerb}
+ \mbox{\Hypertarget{namespacebittensor_1_1__neuron_1_1text_1_1core__validator_a3d48b0eacf487ad14a36ef50ef21df07}\label{namespacebittensor_1_1__neuron_1_1text_1_1core__validator_a3d48b0eacf487ad14a36ef50ef21df07}} 
+\index{bittensor.\_neuron.text.core\_validator@{bittensor.\_neuron.text.core\_validator}!logits\_divergence@{logits\_divergence}}
+\index{logits\_divergence@{logits\_divergence}!bittensor.\_neuron.text.core\_validator@{bittensor.\_neuron.text.core\_validator}}
+\doxysubsubsection{\texorpdfstring{logits\_divergence()}{logits\_divergence()}}
+{\footnotesize\ttfamily def bittensor.\+\_\+neuron.\+text.\+core\+\_\+validator.\+logits\+\_\+divergence (\begin{DoxyParamCaption}\item[{Dict}]{stats,  }\item[{torch.\+Tensor}]{uids,  }\item[{List\mbox{[}List\mbox{[}torch.\+Float\+Tensor\mbox{]}\mbox{]}}]{query\+\_\+responses,  }\item[{List\mbox{[}torch.\+Long\+Tensor\mbox{]}}]{return\+\_\+ops,  }\item[{List\mbox{[}torch.\+Float\+Tensor\mbox{]}}]{times,  }\item[{int }]{index\+\_\+s = {\ttfamily 0},  }\item[{str }]{ext = {\ttfamily None} }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Calculate each logits divergence per neuron per task from the average logits over all neurons per task,
+given responses from a synapse.
+Args:
+stats (:obj:`Dict`, `required`):
+Statistics per endpoint for this batch.
+uids (:obj:`torch.Tensor`, `required`): [num_neurons]
+Neuron UIDs.
+query_responses (:obj:`List[List[torch.FloatTensor]]`, `required`):
+List of outputs from synapses, each a list of size num_endpoints of tensors with relevant size.
+Non-responses are zeroes of relevant synapse shape.
+Shape num_synapses * ( num_endpoints * ( -1, -1, -1 ) )
+return_ops (:obj:`List[torch.LongTensor]` of shape :obj:`[num_endpoints]`, `required`):
+Return code per call per synapse.
+times (:obj:`List [torch.FloatTensor]` of shape :obj:`[num_endpoints]`, `required`):
+Times per call per synapse.
+index_s (:obj:`int`, `optional`):
+Index of synapse to extract responses.
+ext (:obj:`str`, `optional`):
+Extension to parameter string for stats key.
+\end{DoxyVerb}
+ \mbox{\Hypertarget{namespacebittensor_1_1__neuron_1_1text_1_1core__validator_a0c000ee81cd21336cf103755b8ffbe89}\label{namespacebittensor_1_1__neuron_1_1text_1_1core__validator_a0c000ee81cd21336cf103755b8ffbe89}} 
+\index{bittensor.\_neuron.text.core\_validator@{bittensor.\_neuron.text.core\_validator}!response\_table@{response\_table}}
+\index{response\_table@{response\_table}!bittensor.\_neuron.text.core\_validator@{bittensor.\_neuron.text.core\_validator}}
+\doxysubsubsection{\texorpdfstring{response\_table()}{response\_table()}}
+{\footnotesize\ttfamily def bittensor.\+\_\+neuron.\+text.\+core\+\_\+validator.\+response\+\_\+table (\begin{DoxyParamCaption}\item[{List}]{batch\+\_\+predictions,  }\item[{Dict}]{stats,  }\item[{str}]{sort\+\_\+col,  }\item[{int}]{console\+\_\+width,  }\item[{int }]{task\+\_\+repeat = {\ttfamily 4},  }\item[{int }]{tasks\+\_\+per\+\_\+server = {\ttfamily 3} }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb} Prints the query response table: top prediction probabilities and texts for batch tasks.
+\end{DoxyVerb}
+ \mbox{\Hypertarget{namespacebittensor_1_1__neuron_1_1text_1_1core__validator_afbddc9ae968b91105cb4845cdec271d8}\label{namespacebittensor_1_1__neuron_1_1text_1_1core__validator_afbddc9ae968b91105cb4845cdec271d8}} 
+\index{bittensor.\_neuron.text.core\_validator@{bittensor.\_neuron.text.core\_validator}!scaling\_law\_loss\_to\_params@{scaling\_law\_loss\_to\_params}}
+\index{scaling\_law\_loss\_to\_params@{scaling\_law\_loss\_to\_params}!bittensor.\_neuron.text.core\_validator@{bittensor.\_neuron.text.core\_validator}}
+\doxysubsubsection{\texorpdfstring{scaling\_law\_loss\_to\_params()}{scaling\_law\_loss\_to\_params()}}
+{\footnotesize\ttfamily def bittensor.\+\_\+neuron.\+text.\+core\+\_\+validator.\+scaling\+\_\+law\+\_\+loss\+\_\+to\+\_\+params (\begin{DoxyParamCaption}\item[{}]{loss }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb} (OpenAI scaling laws) Kaplan, Jared, et al. "Scaling laws for neural language models." arXiv:2001.08361 (2020)
+\end{DoxyVerb}
+ \mbox{\Hypertarget{namespacebittensor_1_1__neuron_1_1text_1_1core__validator_a826517b0b4f17e635dafcc3076a57a43}\label{namespacebittensor_1_1__neuron_1_1text_1_1core__validator_a826517b0b4f17e635dafcc3076a57a43}} 
+\index{bittensor.\_neuron.text.core\_validator@{bittensor.\_neuron.text.core\_validator}!shapley\_base@{shapley\_base}}
+\index{shapley\_base@{shapley\_base}!bittensor.\_neuron.text.core\_validator@{bittensor.\_neuron.text.core\_validator}}
+\doxysubsubsection{\texorpdfstring{shapley\_base()}{shapley\_base()}}
+{\footnotesize\ttfamily  Tuple\mbox{[}Union\mbox{[}float, torch.\+Float\+Tensor\mbox{]},                                                                                     Dict,                                                                                     List\mbox{]} bittensor.\+\_\+neuron.\+text.\+core\+\_\+validator.\+shapley\+\_\+base (\begin{DoxyParamCaption}\item[{torch.\+Tensor}]{uids,  }\item[{List\mbox{[}List\mbox{[}torch.\+Float\+Tensor\mbox{]}\mbox{]}}]{query\+\_\+responses,  }\item[{List\mbox{[}torch.\+Long\+Tensor\mbox{]}}]{return\+\_\+ops,  }\item[{List\mbox{[}torch.\+Float\+Tensor\mbox{]}}]{times,  }\item[{torch.\+Float\+Tensor}]{routing\+\_\+score,  }\item[{Callable}]{base\+\_\+params,  }\item[{int }]{index\+\_\+s = {\ttfamily 0},  }\item[{str }]{ext = {\ttfamily None} }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Calculate Shapley base values and neuron response validation measure statistics, given responses from a synapse.
+    Args:
+        uids (:obj:`torch.Tensor`, `required`): [num_neurons]
+            Neuron UIDs.
+        query_responses (:obj:`List[List[torch.FloatTensor]]`, `required`):
+            List of outputs from synapses, each a list of size num_endpoints of tensors with relevant size. Non-responses are zeroes of relevant
+            synapse shape. Shape num_synapses * ( num_endpoints * ( -1, -1, -1 ) )
+        return_ops (:obj:`List[torch.LongTensor]` of shape :obj:`[num_endpoints]`, `required`):
+            Return code per call per synapse.
+        times (:obj:`List [torch.FloatTensor]` of shape :obj:`[num_endpoints]`, `required`):
+            Times per call per synapse.
+        routing_score (:obj:`torch.FloatTensor`, `required`):
+            [metagraph.n] Predictive routing score per endpoint in the metagraph, mean over the batch.
+        base_params (:obj:`Callable`, `required`):
+            CrossEntropy loss function to use.
+        index_s (:obj:`int`, `optional`):
+            Index of synapse to extract responses.
+        ext (:obj:`str`, `optional`):
+            Extension to parameter string for stats key.
+
+    Returns:
+        loss (:obj:`torch.FloatTensor`):
+            Loss for training validator nucleus and dendrite backward to endpoints.
+        stats (:obj:`Dict`, `required`):
+            Statistics per endpoint for this batch.
+        unsuccessful (:obj:`List`, `required`):
+            Unsuccessful endpoints [(uid, return_op, time)].
+\end{DoxyVerb}
+ \mbox{\Hypertarget{namespacebittensor_1_1__neuron_1_1text_1_1core__validator_a1bd51d8fbf1d03308c1beb60fd961dd1}\label{namespacebittensor_1_1__neuron_1_1text_1_1core__validator_a1bd51d8fbf1d03308c1beb60fd961dd1}} 
+\index{bittensor.\_neuron.text.core\_validator@{bittensor.\_neuron.text.core\_validator}!shapley\_synergy@{shapley\_synergy}}
+\index{shapley\_synergy@{shapley\_synergy}!bittensor.\_neuron.text.core\_validator@{bittensor.\_neuron.text.core\_validator}}
+\doxysubsubsection{\texorpdfstring{shapley\_synergy()}{shapley\_synergy()}}
+{\footnotesize\ttfamily def bittensor.\+\_\+neuron.\+text.\+core\+\_\+validator.\+shapley\+\_\+synergy (\begin{DoxyParamCaption}\item[{Dict}]{stats,  }\item[{Callable}]{synergy,  }\item[{str}]{ext,  }\item[{torch.\+Tensor }]{target = {\ttfamily None},  }\item[{float }]{scaling\+\_\+law\+\_\+power = {\ttfamily 0.5} }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Calculates Shapley synergy for coalition size 2, measured performance above expected performance.
+Measured in effective number of model parameters, just like base Shapley values.
+Args:
+stats (:obj:`Dict`, `required`):
+Statistics per endpoint for this batch.
+synergy (:obj:`Callable`, `required`)
+Function to calculate measured loss.
+ext (:obj:`str`, `optional`):
+Extension to parameter string for stats key.
+target (:obj:`torch.Tensor`, `optional`):
+Target to measure loss against.
+scaling_law_power (:obj:`float`, `optional`):
+Power for modified scaling law, powered down to improve dynamic range, e.g. 3 → 6 nats for 0.5.
+
+Returns:
+syn_loss_diff (:obj:`Dict`, `required`):
+Dictionary table of pairwise synergies as loss reductions, with direct loss on diagonal.
+\end{DoxyVerb}
+ \mbox{\Hypertarget{namespacebittensor_1_1__neuron_1_1text_1_1core__validator_a3b98321f53ed9671d10985f26470e151}\label{namespacebittensor_1_1__neuron_1_1text_1_1core__validator_a3b98321f53ed9671d10985f26470e151}} 
+\index{bittensor.\_neuron.text.core\_validator@{bittensor.\_neuron.text.core\_validator}!stats\_table@{stats\_table}}
+\index{stats\_table@{stats\_table}!bittensor.\_neuron.text.core\_validator@{bittensor.\_neuron.text.core\_validator}}
+\doxysubsubsection{\texorpdfstring{stats\_table()}{stats\_table()}}
+{\footnotesize\ttfamily def bittensor.\+\_\+neuron.\+text.\+core\+\_\+validator.\+stats\+\_\+table (\begin{DoxyParamCaption}\item[{}]{stats,  }\item[{}]{sort\+\_\+col,  }\item[{}]{console\+\_\+width,  }\item[{}]{title,  }\item[{}]{caption,  }\item[{}]{mark\+\_\+uids = {\ttfamily None} }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb} Gathers data and constructs neuron statistics table and prints it
+\end{DoxyVerb}
+ \mbox{\Hypertarget{namespacebittensor_1_1__neuron_1_1text_1_1core__validator_ac65c768421ed57928ee56b3da28e5cf8}\label{namespacebittensor_1_1__neuron_1_1text_1_1core__validator_ac65c768421ed57928ee56b3da28e5cf8}} 
+\index{bittensor.\_neuron.text.core\_validator@{bittensor.\_neuron.text.core\_validator}!synapse\_table@{synapse\_table}}
+\index{synapse\_table@{synapse\_table}!bittensor.\_neuron.text.core\_validator@{bittensor.\_neuron.text.core\_validator}}
+\doxysubsubsection{\texorpdfstring{synapse\_table()}{synapse\_table()}}
+{\footnotesize\ttfamily def bittensor.\+\_\+neuron.\+text.\+core\+\_\+validator.\+synapse\+\_\+table (\begin{DoxyParamCaption}\item[{}]{name,  }\item[{}]{stats,  }\item[{}]{sort\+\_\+col,  }\item[{}]{console\+\_\+width,  }\item[{}]{start\+\_\+time }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb} Prints the evaluation of the neuron responses to the validator request
+\end{DoxyVerb}
+ \mbox{\Hypertarget{namespacebittensor_1_1__neuron_1_1text_1_1core__validator_a6fd9748649f8e6a6f82cbbcb48b164a4}\label{namespacebittensor_1_1__neuron_1_1text_1_1core__validator_a6fd9748649f8e6a6f82cbbcb48b164a4}} 
+\index{bittensor.\_neuron.text.core\_validator@{bittensor.\_neuron.text.core\_validator}!synergy\_table@{synergy\_table}}
+\index{synergy\_table@{synergy\_table}!bittensor.\_neuron.text.core\_validator@{bittensor.\_neuron.text.core\_validator}}
+\doxysubsubsection{\texorpdfstring{synergy\_table()}{synergy\_table()}}
+{\footnotesize\ttfamily def bittensor.\+\_\+neuron.\+text.\+core\+\_\+validator.\+synergy\+\_\+table (\begin{DoxyParamCaption}\item[{}]{stats,  }\item[{}]{syn\+\_\+loss\+\_\+diff,  }\item[{}]{sort\+\_\+col,  }\item[{}]{console\+\_\+width }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb} Prints the synergy loss diff matrix with pairwise loss reduction due to synergy (original loss on diagonal)
+\end{DoxyVerb}
+ \mbox{\Hypertarget{namespacebittensor_1_1__neuron_1_1text_1_1core__validator_a156659d617f14885b3e5c58286bf0ef5}\label{namespacebittensor_1_1__neuron_1_1text_1_1core__validator_a156659d617f14885b3e5c58286bf0ef5}} 
+\index{bittensor.\_neuron.text.core\_validator@{bittensor.\_neuron.text.core\_validator}!textcausallm@{textcausallm}}
+\index{textcausallm@{textcausallm}!bittensor.\_neuron.text.core\_validator@{bittensor.\_neuron.text.core\_validator}}
+\doxysubsubsection{\texorpdfstring{textcausallm()}{textcausallm()}}
+{\footnotesize\ttfamily  Tuple\mbox{[}torch.\+Float\+Tensor, Dict\mbox{]} bittensor.\+\_\+neuron.\+text.\+core\+\_\+validator.\+textcausallm (\begin{DoxyParamCaption}\item[{torch.\+Tensor}]{uids,  }\item[{List\mbox{[}List\mbox{[}torch.\+Float\+Tensor\mbox{]}\mbox{]}}]{query\+\_\+responses,  }\item[{List\mbox{[}torch.\+Long\+Tensor\mbox{]}}]{return\+\_\+ops,  }\item[{List\mbox{[}torch.\+Float\+Tensor\mbox{]}}]{times,  }\item[{torch.\+Float\+Tensor}]{routing\+\_\+score,  }\item[{torch.\+Float\+Tensor}]{inputs,  }\item[{int}]{validation\+\_\+len,  }\item[{Callable}]{loss\+\_\+fct,  }\item[{float}]{scaling\+\_\+law\+\_\+power,  }\item[{float}]{synergy\+\_\+scaling\+\_\+law\+\_\+power,  }\item[{float}]{logits\+\_\+divergence\+\_\+penalty,  }\item[{int}]{console\+\_\+width,  }\item[{}]{logging,  }\item[{\textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__synapse_1_1text__causallm__impl_1_1_text_causal_l_m}{bittensor.\+Text\+Causal\+LM}}\textquotesingle{} }]{synapse = {\ttfamily None},  }\item[{int }]{index\+\_\+s = {\ttfamily 0} }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Calculate Shapley values and neuron response validation measure statistics, given TextCausalLM synapse responses.
+Args:
+    uids (:obj:`torch.Tensor`, `required`): [num_neurons]
+        Neuron UIDs.
+    query_responses (:obj:`List[List[torch.FloatTensor]]`, `required`):
+        List of outputs from synapses, each a list of size num_endpoints of tensors with relevant size. Non-responses are zeroes of relevant
+        synapse shape. Shape num_synapses * ( num_endpoints * ( -1, -1, -1 ) )
+    return_ops (:obj:`List[torch.LongTensor]` of shape :obj:`[num_endpoints]`, `required`):
+        Return code per call per synapse.
+    times (:obj:`List [torch.FloatTensor]` of shape :obj:`[num_endpoints]`, `required`):
+        Times per call per synapse.
+    routing_score (:obj:`torch.FloatTensor`, `required`):
+        [metagraph.n] Predictive routing score per endpoint in the metagraph, mean over the batch.
+    inputs (:obj:`torch.FloatTensor`, `required`):
+        [batch_size, sequence_len + validation_len] Token batch of original inputs with validation tokens.
+    validation_len (:obj:`int`, `required`):
+        Number of held-out phrase token batch for extended validation, not sent to neurons.
+    loss_fct (:obj:`Callable`, `required`):
+        CrossEntropy loss function to use.
+    scaling_law_power (:obj:`float`, `required`):
+        Power for modified scaling law, powered down to improve dynamic range, e.g. 3 → 6 nats for 0.5.
+    synergy_scaling_law_power (:obj:`float`, `required`):
+        Power for synergy modified scaling law, powered down to improve dynamic range, e.g. 3 → 6 nats for 0.5.
+    logits_divergence_penalty (:obj:`float`, `required`):
+        Penalty scaling for logits divergence.
+    console_width (:obj:`int`, `required`):
+        Config console width for table print.
+    logging (:obj:`bool`, `required`):
+        Log tables to console.
+    synapse (:obj:`bittensor.TextCausalLM`, `optional`):
+        TextCausalLM synapse object.
+    index_s (:obj:`int`, `optional`):
+        Index of synapse to extract responses.
+
+Returns:
+    loss (:obj:`torch.FloatTensor`):
+        Loss for training validator nucleus and dendrite backward to endpoints.
+    stats (:obj:`Dict`, `required`):
+        Statistics per endpoint for this batch.
+\end{DoxyVerb}
+ \mbox{\Hypertarget{namespacebittensor_1_1__neuron_1_1text_1_1core__validator_ae13e132bc899ab97f56d1243dfdd9628}\label{namespacebittensor_1_1__neuron_1_1text_1_1core__validator_ae13e132bc899ab97f56d1243dfdd9628}} 
+\index{bittensor.\_neuron.text.core\_validator@{bittensor.\_neuron.text.core\_validator}!textcausallmnext@{textcausallmnext}}
+\index{textcausallmnext@{textcausallmnext}!bittensor.\_neuron.text.core\_validator@{bittensor.\_neuron.text.core\_validator}}
+\doxysubsubsection{\texorpdfstring{textcausallmnext()}{textcausallmnext()}}
+{\footnotesize\ttfamily  Tuple\mbox{[}torch.\+Float\+Tensor, Dict\mbox{]} bittensor.\+\_\+neuron.\+text.\+core\+\_\+validator.\+textcausallmnext (\begin{DoxyParamCaption}\item[{torch.\+Tensor}]{uids,  }\item[{List\mbox{[}List\mbox{[}torch.\+Float\+Tensor\mbox{]}\mbox{]}}]{query\+\_\+responses,  }\item[{List\mbox{[}torch.\+Long\+Tensor\mbox{]}}]{return\+\_\+ops,  }\item[{List\mbox{[}torch.\+Float\+Tensor\mbox{]}}]{times,  }\item[{torch.\+Float\+Tensor}]{routing\+\_\+score,  }\item[{torch.\+Float\+Tensor}]{inputs,  }\item[{int}]{validation\+\_\+len,  }\item[{Callable}]{loss\+\_\+fct,  }\item[{float}]{scaling\+\_\+law\+\_\+power,  }\item[{float}]{synergy\+\_\+scaling\+\_\+law\+\_\+power,  }\item[{float}]{logits\+\_\+divergence\+\_\+penalty,  }\item[{int}]{console\+\_\+width,  }\item[{}]{logging,  }\item[{\textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__synapse_1_1text__causallmnext__impl_1_1_text_causal_l_m_next}{bittensor.\+Text\+Causal\+LMNext}}\textquotesingle{} }]{synapse = {\ttfamily None},  }\item[{int }]{index\+\_\+s = {\ttfamily 0} }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Calculate Shapley values and neuron response validation measure statistics, given TextCausalLMNext synapse responses.
+    Args:
+        uids (:obj:`torch.Tensor`, `required`): [num_neurons]
+            Neuron UIDs.
+        query_responses (:obj:`List[List[torch.FloatTensor]]`, `required`):
+            List of outputs from synapses, each a list of size num_endpoints of tensors with relevant size. Non-responses are zeroes of relevant
+            synapse shape. Shape num_synapses * ( num_endpoints * ( -1, -1, -1 ) )
+        return_ops (:obj:`List[torch.LongTensor]` of shape :obj:`[num_endpoints]`, `required`):
+            Return code per call per synapse.
+        times (:obj:`List [torch.FloatTensor]` of shape :obj:`[num_endpoints]`, `required`):
+            Times per call per synapse.
+        routing_score (:obj:`torch.FloatTensor`, `required`):
+            [metagraph.n] Predictive routing score per endpoint in the metagraph, mean over the batch.
+        inputs (:obj:`torch.FloatTensor`, `required`):
+            [batch_size, sequence_len + validation_len] Token batch of original inputs with validation tokens.
+        validation_len (:obj:`int`, `required`):
+            Number of held-out phrase token batch for extended validation, not sent to neurons.
+        loss_fct (:obj:`Callable`, `required`):
+            CrossEntropy loss function to use.
+        scaling_law_power (:obj:`float`, `required`):
+            Power for modified scaling law, powered down to improve dynamic range, e.g. 3 → 6 nats for 0.5.
+        synergy_scaling_law_power (:obj:`float`, `required`):
+            Power for synergy modified scaling law, powered down to improve dynamic range, e.g. 3 → 6 nats for 0.5.
+        logits_divergence_penalty (:obj:`float`, `required`):
+            Penalty scaling for logits divergence.
+        console_width (:obj:`int`, `required`):
+            Config console width for table print.
+        logging (:obj:`bool`, `required`):
+            Log tables to console.
+        synapse (:obj:`bittensor.TextCausalLMNext`, `optional`):
+            TextCausalLMNext Synapse object.
+        index_s (:obj:`int`, `optional`):
+            Index of synapse to extract responses.
+
+    Returns:
+        loss (:obj:`torch.FloatTensor`):
+            Loss for training validator nucleus and dendrite backward to endpoints.
+        stats (:obj:`Dict`, `required`):
+            Statistics per endpoint for this batch.
+\end{DoxyVerb}
+ \mbox{\Hypertarget{namespacebittensor_1_1__neuron_1_1text_1_1core__validator_ab1b9785136040aef8a5a3e0588151ca1}\label{namespacebittensor_1_1__neuron_1_1text_1_1core__validator_ab1b9785136040aef8a5a3e0588151ca1}} 
+\index{bittensor.\_neuron.text.core\_validator@{bittensor.\_neuron.text.core\_validator}!unsuccess@{unsuccess}}
+\index{unsuccess@{unsuccess}!bittensor.\_neuron.text.core\_validator@{bittensor.\_neuron.text.core\_validator}}
+\doxysubsubsection{\texorpdfstring{unsuccess()}{unsuccess()}}
+{\footnotesize\ttfamily def bittensor.\+\_\+neuron.\+text.\+core\+\_\+validator.\+unsuccess (\begin{DoxyParamCaption}\item[{}]{\+\_\+name,  }\item[{}]{\+\_\+unsuccessful }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb} Prints the return codes and response times of unsuccessful responses
+\end{DoxyVerb}
+ 

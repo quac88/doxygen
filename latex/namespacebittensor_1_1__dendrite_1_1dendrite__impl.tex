@@ -1,0 +1,37 @@
+\hypertarget{namespacebittensor_1_1__dendrite_1_1dendrite__impl}{}\doxysection{bittensor.\+\_\+dendrite.\+dendrite\+\_\+impl Namespace Reference}
+\label{namespacebittensor_1_1__dendrite_1_1dendrite__impl}\index{bittensor.\_dendrite.dendrite\_impl@{bittensor.\_dendrite.dendrite\_impl}}
+\doxysubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{classbittensor_1_1__dendrite_1_1dendrite__impl_1_1_dendrite}{Dendrite}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{namespacebittensor_1_1__dendrite_1_1dendrite__impl_ac4f585874630d553631b7b4b330282d3}\label{namespacebittensor_1_1__dendrite_1_1dendrite__impl_ac4f585874630d553631b7b4b330282d3}} 
+logger {\bfseries logger} = logger.\+opt(colors=True)
+\item 
+\mbox{\Hypertarget{namespacebittensor_1_1__dendrite_1_1dendrite__impl_a12e8119b9e69d55fd3dffa675e534c81}\label{namespacebittensor_1_1__dendrite_1_1dendrite__impl_a12e8119b9e69d55fd3dffa675e534c81}} 
+torch {\bfseries DUMMY} = torch.\+empty(0, requires\+\_\+grad=True)
+\item 
+\mbox{\Hypertarget{namespacebittensor_1_1__dendrite_1_1dendrite__impl_a2ea86ebfd7e0a3c1028f1def1446f64c}\label{namespacebittensor_1_1__dendrite_1_1dendrite__impl_a2ea86ebfd7e0a3c1028f1def1446f64c}} 
+Counter {\bfseries PROM\+\_\+prometheus\+\_\+counters} = Counter(\textquotesingle{}dendrite\+\_\+counters\textquotesingle{}, \textquotesingle{}dendrite\+\_\+counters\textquotesingle{}, \mbox{[}\textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__wallet_1_1wallet}{wallet}}\textquotesingle{}, \textquotesingle{}identifier\textquotesingle{}, \textquotesingle{}name\textquotesingle{}\mbox{]})
+\item 
+\mbox{\Hypertarget{namespacebittensor_1_1__dendrite_1_1dendrite__impl_ae67559a5be82fe26c374671f6383fe75}\label{namespacebittensor_1_1__dendrite_1_1dendrite__impl_ae67559a5be82fe26c374671f6383fe75}} 
+Histogram {\bfseries PROM\+\_\+prometheus\+\_\+latency} = Histogram(\textquotesingle{}dendrite\+\_\+latency\textquotesingle{}, \textquotesingle{}dendrite\+\_\+latency\textquotesingle{}, \mbox{[}\textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__wallet_1_1wallet}{wallet}}\textquotesingle{}, \textquotesingle{}identifier\textquotesingle{}\mbox{]}, buckets=list(range(0,bittensor.\+\_\+\+\_\+blocktime\+\_\+\+\_\+,1)))
+\item 
+\mbox{\Hypertarget{namespacebittensor_1_1__dendrite_1_1dendrite__impl_aaf1571b020c240e73a200ed6ba68d155}\label{namespacebittensor_1_1__dendrite_1_1dendrite__impl_aaf1571b020c240e73a200ed6ba68d155}} 
+Summary {\bfseries PROM\+\_\+prometheus\+\_\+latency\+\_\+per\+\_\+uid} = Summary(\textquotesingle{}dendrite\+\_\+latency\+\_\+per\+\_\+uid\textquotesingle{}, \textquotesingle{}dendrite\+\_\+latency\+\_\+per\+\_\+uid\textquotesingle{}, \mbox{[}\textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__wallet_1_1wallet}{wallet}}\textquotesingle{}, \textquotesingle{}identifier\textquotesingle{}, \textquotesingle{}uid\textquotesingle{}\mbox{]})
+\item 
+\mbox{\Hypertarget{namespacebittensor_1_1__dendrite_1_1dendrite__impl_a37e974854aa8f50b211920d4fd96dadf}\label{namespacebittensor_1_1__dendrite_1_1dendrite__impl_a37e974854aa8f50b211920d4fd96dadf}} 
+Counter {\bfseries PROM\+\_\+prometheus\+\_\+successes\+\_\+per\+\_\+uid} = Counter(\textquotesingle{}dendrite\+\_\+successes\+\_\+per\+\_\+uid\textquotesingle{}, \textquotesingle{}dendrite\+\_\+successes\+\_\+per\+\_\+uid\textquotesingle{}, \mbox{[}\textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__wallet_1_1wallet}{wallet}}\textquotesingle{}, \textquotesingle{}identifier\textquotesingle{}, \textquotesingle{}uid\textquotesingle{}\mbox{]})
+\item 
+\mbox{\Hypertarget{namespacebittensor_1_1__dendrite_1_1dendrite__impl_a862940b02916c3856fe6b79fb6a5390c}\label{namespacebittensor_1_1__dendrite_1_1dendrite__impl_a862940b02916c3856fe6b79fb6a5390c}} 
+Counter {\bfseries PROM\+\_\+prometheus\+\_\+failures\+\_\+per\+\_\+uid} = Counter(\textquotesingle{}dendrite\+\_\+failures\+\_\+per\+\_\+uid\textquotesingle{}, \textquotesingle{}dendrite\+\_\+failures\+\_\+per\+\_\+uid\textquotesingle{}, \mbox{[}\textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__wallet_1_1wallet}{wallet}}\textquotesingle{}, \textquotesingle{}identifier\textquotesingle{}, \textquotesingle{}uid\textquotesingle{}\mbox{]})
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\begin{DoxyVerb} Implementation of class dendrite, which quries endpoints with tensors.
+\end{DoxyVerb}
+ 

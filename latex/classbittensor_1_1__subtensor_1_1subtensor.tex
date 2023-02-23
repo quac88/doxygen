@@ -1,0 +1,79 @@
+\hypertarget{classbittensor_1_1__subtensor_1_1subtensor}{}\doxysection{bittensor.\+\_\+subtensor.\+subtensor Class Reference}
+\label{classbittensor_1_1__subtensor_1_1subtensor}\index{bittensor.\_subtensor.subtensor@{bittensor.\_subtensor.subtensor}}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+ \textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__subtensor_1_1subtensor__impl_1_1_subtensor}{bittensor.\+Subtensor}}\textquotesingle{} \mbox{\hyperlink{classbittensor_1_1__subtensor_1_1subtensor_a9094f0afe953e3b39c1482174175ce22}{\+\_\+\+\_\+new\+\_\+\+\_\+}} (cls, \textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__config_1_1config}{bittensor.\+config}}\textquotesingle{} \mbox{\hyperlink{classbittensor_1_1__config_1_1config}{config}}=None, str network=None, str chain\+\_\+endpoint=None, bool \+\_\+mock=None)
+\item 
+def \mbox{\hyperlink{classbittensor_1_1__subtensor_1_1subtensor_aa334fe4e5112e8fa64a2bf255d02dd23}{help}} (cls)
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__subtensor_1_1subtensor_ab2a96f88c69af04bf2f0cab8c46445d4}\label{classbittensor_1_1__subtensor_1_1subtensor_ab2a96f88c69af04bf2f0cab8c46445d4}} 
+def {\bfseries add\+\_\+args} (cls, argparse.\+Argument\+Parser parser, str prefix=None)
+\item 
+def \mbox{\hyperlink{classbittensor_1_1__subtensor_1_1subtensor_a183604333b50b2f333de25a9342e4281}{add\+\_\+defaults}} (cls, defaults)
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__subtensor_1_1subtensor_a286524719d01e54533c069abddcf8a85}\label{classbittensor_1_1__subtensor_1_1subtensor_a286524719d01e54533c069abddcf8a85}} 
+ \textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__config_1_1config__impl_1_1_config}{bittensor.\+Config}}\textquotesingle{} {\bfseries config} ()
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__subtensor_1_1subtensor_a6657bce6e30ffa7c95ec0b4a1b0b19fd}\label{classbittensor_1_1__subtensor_1_1subtensor_a6657bce6e30ffa7c95ec0b4a1b0b19fd}} 
+def {\bfseries check\+\_\+config} (\textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__config_1_1config__impl_1_1_config}{bittensor.\+Config}}\textquotesingle{} \mbox{\hyperlink{classbittensor_1_1__config_1_1config}{config}})
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__subtensor_1_1subtensor_a4db3daf82de5826e62e47e56768eb700}\label{classbittensor_1_1__subtensor_1_1subtensor_a4db3daf82de5826e62e47e56768eb700}} 
+def {\bfseries determine\+\_\+chain\+\_\+endpoint} (str network)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\begin{DoxyVerb}Factory Class for both bittensor.Subtensor and Mock_Subtensor Classes
+
+The Subtensor class handles interactions with the substrate subtensor chain.
+By default, the Subtensor class connects to the Nakamoto which serves as the main bittensor network.\end{DoxyVerb}
+ 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classbittensor_1_1__subtensor_1_1subtensor_a9094f0afe953e3b39c1482174175ce22}\label{classbittensor_1_1__subtensor_1_1subtensor_a9094f0afe953e3b39c1482174175ce22}} 
+\index{bittensor.\_subtensor.subtensor@{bittensor.\_subtensor.subtensor}!\_\_new\_\_@{\_\_new\_\_}}
+\index{\_\_new\_\_@{\_\_new\_\_}!bittensor.\_subtensor.subtensor@{bittensor.\_subtensor.subtensor}}
+\doxysubsubsection{\texorpdfstring{\_\_new\_\_()}{\_\_new\_\_()}}
+{\footnotesize\ttfamily  \textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__subtensor_1_1subtensor__impl_1_1_subtensor}{bittensor.\+Subtensor}}\textquotesingle{} bittensor.\+\_\+subtensor.\+subtensor.\+\_\+\+\_\+new\+\_\+\+\_\+ (\begin{DoxyParamCaption}\item[{}]{cls,  }\item[{\textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__config_1_1config}{bittensor.\+config}}\textquotesingle{} }]{config = {\ttfamily None},  }\item[{str }]{network = {\ttfamily None},  }\item[{str }]{chain\+\_\+endpoint = {\ttfamily None},  }\item[{bool }]{\+\_\+mock = {\ttfamily None} }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb} Initializes a subtensor chain interface.
+        Args:
+            config (:obj:`bittensor.Config`, `optional`): 
+                bittensor.subtensor.config()
+            network (default='local', type=str)
+                The subtensor network flag. The likely choices are:
+                        -- local (local running network)
+                        -- nakamoto (main network)
+                        -- nobunaga (staging network)
+                        -- mock (mock network for testing.)
+                If this option is set it overloads subtensor.chain_endpoint with 
+                an entry point node from that network.
+            chain_endpoint (default=None, type=str)
+                The subtensor endpoint flag. If set, overrides the network argument.
+            _mock (bool, `optional`):
+                Returned object is mocks the underlying chain connection.\end{DoxyVerb}
+ \mbox{\Hypertarget{classbittensor_1_1__subtensor_1_1subtensor_a183604333b50b2f333de25a9342e4281}\label{classbittensor_1_1__subtensor_1_1subtensor_a183604333b50b2f333de25a9342e4281}} 
+\index{bittensor.\_subtensor.subtensor@{bittensor.\_subtensor.subtensor}!add\_defaults@{add\_defaults}}
+\index{add\_defaults@{add\_defaults}!bittensor.\_subtensor.subtensor@{bittensor.\_subtensor.subtensor}}
+\doxysubsubsection{\texorpdfstring{add\_defaults()}{add\_defaults()}}
+{\footnotesize\ttfamily def bittensor.\+\_\+subtensor.\+subtensor.\+add\+\_\+defaults (\begin{DoxyParamCaption}\item[{}]{cls,  }\item[{}]{defaults }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb} Adds parser defaults to object from enviroment variables.
+\end{DoxyVerb}
+ \mbox{\Hypertarget{classbittensor_1_1__subtensor_1_1subtensor_aa334fe4e5112e8fa64a2bf255d02dd23}\label{classbittensor_1_1__subtensor_1_1subtensor_aa334fe4e5112e8fa64a2bf255d02dd23}} 
+\index{bittensor.\_subtensor.subtensor@{bittensor.\_subtensor.subtensor}!help@{help}}
+\index{help@{help}!bittensor.\_subtensor.subtensor@{bittensor.\_subtensor.subtensor}}
+\doxysubsubsection{\texorpdfstring{help()}{help()}}
+{\footnotesize\ttfamily def bittensor.\+\_\+subtensor.\+subtensor.\+help (\begin{DoxyParamCaption}\item[{}]{cls }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb} Print help to stdout
+\end{DoxyVerb}
+ 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+/\+Users/macthrasher/bittensor/bittensor/\+\_\+subtensor/\+\_\+\+\_\+init\+\_\+\+\_\+.\+py\end{DoxyCompactItemize}

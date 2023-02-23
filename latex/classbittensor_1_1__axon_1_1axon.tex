@@ -1,0 +1,163 @@
+\hypertarget{classbittensor_1_1__axon_1_1axon}{}\doxysection{bittensor.\+\_\+axon.\+axon Class Reference}
+\label{classbittensor_1_1__axon_1_1axon}\index{bittensor.\_axon.axon@{bittensor.\_axon.axon}}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+ \textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__axon_1_1axon__impl_1_1_axon}{bittensor.\+Axon}}\textquotesingle{} \mbox{\hyperlink{classbittensor_1_1__axon_1_1axon_ad8b3b44a2b5e1e585286ab542a2b4892}{\+\_\+\+\_\+new\+\_\+\+\_\+}} (cls, Optional\mbox{[}\textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__config_1_1config}{bittensor.\+config}}\textquotesingle{}\mbox{]} \mbox{\hyperlink{classbittensor_1_1__config_1_1config}{config}}=None, Optional\mbox{[}\textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet}{bittensor.\+Wallet}}\textquotesingle{}\mbox{]} \mbox{\hyperlink{classbittensor_1_1__wallet_1_1wallet}{wallet}}=None, Optional\mbox{[}\textquotesingle{}Callable\textquotesingle{}\mbox{]} forward\+\_\+text=None, Optional\mbox{[}\textquotesingle{}Callable\textquotesingle{}\mbox{]} backward\+\_\+text=None, Optional\mbox{[}\textquotesingle{}Callable\textquotesingle{}\mbox{]} synapse\+\_\+last\+\_\+hidden=None, Optional\mbox{[}\textquotesingle{}Callable\textquotesingle{}\mbox{]} synapse\+\_\+causal\+\_\+lm=None, Optional\mbox{[}\textquotesingle{}Callable\textquotesingle{}\mbox{]} synapse\+\_\+causal\+\_\+lm\+\_\+next=None, Optional\mbox{[}\textquotesingle{}Callable\textquotesingle{}\mbox{]} synapse\+\_\+seq\+\_\+2\+\_\+seq=None, Optional\mbox{[}int\mbox{]} synapse\+\_\+lasthidden\+\_\+timeout=None, Optional\mbox{[}int\mbox{]} synapse\+\_\+causallm\+\_\+timeout=None, Optional\mbox{[}int\mbox{]} synapse\+\_\+causallmnext\+\_\+timeout=None, Optional\mbox{[}int\mbox{]} synapse\+\_\+seq2seq\+\_\+timeout=None, Optional\mbox{[}\textquotesingle{}Callable\textquotesingle{}\mbox{]} synapse\+\_\+checks=None, Optional\mbox{[}\textquotesingle{}futures.\+Thread\+Pool\+Executor\textquotesingle{}\mbox{]} thread\+\_\+pool=None, Optional\mbox{[}\textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__threadpool_1_1prioritythreadpool}{bittensor.\+prioritythreadpool}}\textquotesingle{}\mbox{]} priority\+\_\+threadpool=None, Optional\mbox{[}\textquotesingle{}grpc.\+\_\+\+Server\textquotesingle{}\mbox{]} server=None, Optional\mbox{[}int\mbox{]} port=None, Optional\mbox{[}str\mbox{]} ip=None, Optional\mbox{[}str\mbox{]} external\+\_\+ip=None, Optional\mbox{[}int\mbox{]} external\+\_\+port=None, Optional\mbox{[}int\mbox{]} max\+\_\+workers=None, Optional\mbox{[}int\mbox{]} maximum\+\_\+concurrent\+\_\+rpcs=None, Optional\mbox{[}\textquotesingle{}Callable\textquotesingle{}\mbox{]} blacklist=None, Optional\mbox{[}\textquotesingle{}Callable\textquotesingle{}\mbox{]} priority=None, Optional\mbox{[}int\mbox{]} forward\+\_\+timeout=None, Optional\mbox{[}int\mbox{]} backward\+\_\+timeout=None, Optional\mbox{[}str\mbox{]} compression=None)
+\item 
+ \textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__config_1_1config__impl_1_1_config}{bittensor.\+Config}}\textquotesingle{} \mbox{\hyperlink{classbittensor_1_1__axon_1_1axon_a3517455cb9fa2f6f1e0374dc0bf18c85}{config}} (cls)
+\item 
+def \mbox{\hyperlink{classbittensor_1_1__axon_1_1axon_a98606f3151d07d9e823ce4e2b752ca6f}{help}} (cls)
+\item 
+def \mbox{\hyperlink{classbittensor_1_1__axon_1_1axon_ad1dcb057c01dbc6b554db2d12da3dfd5}{add\+\_\+args}} (cls, argparse.\+Argument\+Parser parser, str prefix=None)
+\item 
+def \mbox{\hyperlink{classbittensor_1_1__axon_1_1axon_af9abc05533106e0341f45debac14e34b}{add\+\_\+defaults}} (cls, defaults)
+\item 
+def \mbox{\hyperlink{classbittensor_1_1__axon_1_1axon_afae997ebc64b4bdd9b881c954eb8f8cd}{check\+\_\+config}} (cls, \textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__config_1_1config__impl_1_1_config}{bittensor.\+Config}}\textquotesingle{} \mbox{\hyperlink{classbittensor_1_1__config_1_1config}{config}})
+\item 
+def \mbox{\hyperlink{classbittensor_1_1__axon_1_1axon_a32210d255dbc303de928cdc08a5a834c}{default\+\_\+synapse\+\_\+check}} (cls, \mbox{\hyperlink{classbittensor_1_1__synapse_1_1synapse}{synapse}}, hotkey)
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \mbox{\hyperlink{classbittensor_1_1__axon_1_1axon_a8692b67b65ebcf43f3b42eefc0df1f1c}{check\+\_\+backward\+\_\+callback}} (Callable backward\+\_\+callback, str pubkey=\textquotesingle{}\+\_\+\textquotesingle{})
+\item 
+def \mbox{\hyperlink{classbittensor_1_1__axon_1_1axon_aac806993bad87f22eead3ef25a77945a}{check\+\_\+forward\+\_\+callback}} (Callable forward\+\_\+callback, list synapses=\mbox{[}$\,$\mbox{]})
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\begin{DoxyVerb} The factory class for bittensor.Axon object
+The Axon is a grpc server for the bittensor network which opens up communication between it and other neurons.
+The server protocol is defined in bittensor.proto and describes the manner in which forward and backwards requests
+are transported / encoded between validators and servers
+
+Examples:: 
+        >>> config = bittensor.axon.config()
+        >>> axon = bittensor.axon( config = config )
+        >>> subtensor = bittensor.subtensor( network = 'nakamoto' )
+        >>> axon.serve( subtensor = subtensor )
+\end{DoxyVerb}
+ 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classbittensor_1_1__axon_1_1axon_ad8b3b44a2b5e1e585286ab542a2b4892}\label{classbittensor_1_1__axon_1_1axon_ad8b3b44a2b5e1e585286ab542a2b4892}} 
+\index{bittensor.\_axon.axon@{bittensor.\_axon.axon}!\_\_new\_\_@{\_\_new\_\_}}
+\index{\_\_new\_\_@{\_\_new\_\_}!bittensor.\_axon.axon@{bittensor.\_axon.axon}}
+\doxysubsubsection{\texorpdfstring{\_\_new\_\_()}{\_\_new\_\_()}}
+{\footnotesize\ttfamily  \textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__axon_1_1axon__impl_1_1_axon}{bittensor.\+Axon}}\textquotesingle{} bittensor.\+\_\+axon.\+axon.\+\_\+\+\_\+new\+\_\+\+\_\+ (\begin{DoxyParamCaption}\item[{}]{cls,  }\item[{Optional\mbox{[}\textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__config_1_1config}{bittensor.\+config}}\textquotesingle{}\mbox{]} }]{config = {\ttfamily None},  }\item[{Optional\mbox{[}\textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet}{bittensor.\+Wallet}}\textquotesingle{}\mbox{]} }]{wallet = {\ttfamily None},  }\item[{Optional\mbox{[}\textquotesingle{}Callable\textquotesingle{}\mbox{]} }]{forward\+\_\+text = {\ttfamily None},  }\item[{Optional\mbox{[}\textquotesingle{}Callable\textquotesingle{}\mbox{]} }]{backward\+\_\+text = {\ttfamily None},  }\item[{Optional\mbox{[}\textquotesingle{}Callable\textquotesingle{}\mbox{]} }]{synapse\+\_\+last\+\_\+hidden = {\ttfamily None},  }\item[{Optional\mbox{[}\textquotesingle{}Callable\textquotesingle{}\mbox{]} }]{synapse\+\_\+causal\+\_\+lm = {\ttfamily None},  }\item[{Optional\mbox{[}\textquotesingle{}Callable\textquotesingle{}\mbox{]} }]{synapse\+\_\+causal\+\_\+lm\+\_\+next = {\ttfamily None},  }\item[{Optional\mbox{[}\textquotesingle{}Callable\textquotesingle{}\mbox{]} }]{synapse\+\_\+seq\+\_\+2\+\_\+seq = {\ttfamily None},  }\item[{Optional\mbox{[}int\mbox{]} }]{synapse\+\_\+lasthidden\+\_\+timeout = {\ttfamily None},  }\item[{Optional\mbox{[}int\mbox{]} }]{synapse\+\_\+causallm\+\_\+timeout = {\ttfamily None},  }\item[{Optional\mbox{[}int\mbox{]} }]{synapse\+\_\+causallmnext\+\_\+timeout = {\ttfamily None},  }\item[{Optional\mbox{[}int\mbox{]} }]{synapse\+\_\+seq2seq\+\_\+timeout = {\ttfamily None},  }\item[{Optional\mbox{[}\textquotesingle{}Callable\textquotesingle{}\mbox{]} }]{synapse\+\_\+checks = {\ttfamily None},  }\item[{Optional\mbox{[}\textquotesingle{}futures.\+Thread\+Pool\+Executor\textquotesingle{}\mbox{]} }]{thread\+\_\+pool = {\ttfamily None},  }\item[{Optional\mbox{[}\textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__threadpool_1_1prioritythreadpool}{bittensor.\+prioritythreadpool}}\textquotesingle{}\mbox{]} }]{priority\+\_\+threadpool = {\ttfamily None},  }\item[{Optional\mbox{[}\textquotesingle{}grpc.\+\_\+\+Server\textquotesingle{}\mbox{]} }]{server = {\ttfamily None},  }\item[{Optional\mbox{[}int\mbox{]} }]{port = {\ttfamily None},  }\item[{Optional\mbox{[}str\mbox{]} }]{ip = {\ttfamily None},  }\item[{Optional\mbox{[}str\mbox{]} }]{external\+\_\+ip = {\ttfamily None},  }\item[{Optional\mbox{[}int\mbox{]} }]{external\+\_\+port = {\ttfamily None},  }\item[{Optional\mbox{[}int\mbox{]} }]{max\+\_\+workers = {\ttfamily None},  }\item[{Optional\mbox{[}int\mbox{]} }]{maximum\+\_\+concurrent\+\_\+rpcs = {\ttfamily None},  }\item[{Optional\mbox{[}\textquotesingle{}Callable\textquotesingle{}\mbox{]} }]{blacklist = {\ttfamily None},  }\item[{Optional\mbox{[}\textquotesingle{}Callable\textquotesingle{}\mbox{]} }]{priority = {\ttfamily None},  }\item[{Optional\mbox{[}int\mbox{]} }]{forward\+\_\+timeout = {\ttfamily None},  }\item[{Optional\mbox{[}int\mbox{]} }]{backward\+\_\+timeout = {\ttfamily None},  }\item[{Optional\mbox{[}str\mbox{]} }]{compression = {\ttfamily None} }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb} Creates a new bittensor.Axon object from passed arguments.
+        Args:
+            config (:obj:`Optional[bittensor.Config]`, `optional`): 
+                bittensor.axon.config()
+            wallet (:obj:`Optional[bittensor.Wallet]`, `optional`):
+                bittensor wallet with hotkey and coldkeypub.
+            forward_text (:obj:`Optional[callable]`, `optional`):
+                function which is called on forward text requests.
+            backward_text (:obj:`Optional[callable]`, `optional`):
+                function which is called on backward text requests.
+            synapse_last_hidden (:obj:`Optional[callable]`, `optional`):
+                function which is called by the last hidden synapse
+            synapse_causal_lm (:obj:`Optional[callable]`, `optional`):
+                function which is called by the causal lm synapse
+            synapse_causal_lm_next (:obj:`Optional[callable]`, `optional`):
+                function which is called by the TextCausalLMNext synapse
+            synapse_seq_2_seq (:obj:`Optional[callable]`, `optional`):
+                function which is called by the seq2seq synapse   
+            synapse_checks (:obj:`Optional[callable]`, 'optional'):
+                function which is called before each synapse to check for stake        
+            thread_pool (:obj:`Optional[ThreadPoolExecutor]`, `optional`):
+                Threadpool used for processing server queries.
+            server (:obj:`Optional[grpc._Server]`, `required`):
+                Grpc server endpoint, overrides passed threadpool.
+            port (:type:`Optional[int]`, `optional`):
+                Binding port.
+            ip (:type:`Optional[str]`, `optional`):
+                Binding ip.
+            external_ip (:type:`Optional[str]`, `optional`):
+                The external ip of the server to broadcast to the network.
+            external_port (:type:`Optional[int]`, `optional`):
+                The external port of the server to broadcast to the network.
+            max_workers (:type:`Optional[int]`, `optional`):
+                Used to create the threadpool if not passed, specifies the number of active threads servicing requests.
+            maximum_concurrent_rpcs (:type:`Optional[int]`, `optional`):
+                Maximum allowed concurrently processed RPCs.
+            blacklist (:obj:`Optional[callable]`, `optional`):
+                function to blacklist requests.
+            priority (:obj:`Optional[callable]`, `optional`):
+                function to assign priority on requests.
+            forward_timeout (:type:`Optional[int]`, `optional`):
+                timeout on the forward requests. 
+            backward_timeout (:type:`Optional[int]`, `optional`):
+                timeout on the backward requests.              \end{DoxyVerb}
+ \mbox{\Hypertarget{classbittensor_1_1__axon_1_1axon_ad1dcb057c01dbc6b554db2d12da3dfd5}\label{classbittensor_1_1__axon_1_1axon_ad1dcb057c01dbc6b554db2d12da3dfd5}} 
+\index{bittensor.\_axon.axon@{bittensor.\_axon.axon}!add\_args@{add\_args}}
+\index{add\_args@{add\_args}!bittensor.\_axon.axon@{bittensor.\_axon.axon}}
+\doxysubsubsection{\texorpdfstring{add\_args()}{add\_args()}}
+{\footnotesize\ttfamily def bittensor.\+\_\+axon.\+axon.\+add\+\_\+args (\begin{DoxyParamCaption}\item[{}]{cls,  }\item[{argparse.\+Argument\+Parser}]{parser,  }\item[{str }]{prefix = {\ttfamily None} }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb} Accept specific arguments from parser
+\end{DoxyVerb}
+ \mbox{\Hypertarget{classbittensor_1_1__axon_1_1axon_af9abc05533106e0341f45debac14e34b}\label{classbittensor_1_1__axon_1_1axon_af9abc05533106e0341f45debac14e34b}} 
+\index{bittensor.\_axon.axon@{bittensor.\_axon.axon}!add\_defaults@{add\_defaults}}
+\index{add\_defaults@{add\_defaults}!bittensor.\_axon.axon@{bittensor.\_axon.axon}}
+\doxysubsubsection{\texorpdfstring{add\_defaults()}{add\_defaults()}}
+{\footnotesize\ttfamily def bittensor.\+\_\+axon.\+axon.\+add\+\_\+defaults (\begin{DoxyParamCaption}\item[{}]{cls,  }\item[{}]{defaults }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb} Adds parser defaults to object from enviroment variables.
+\end{DoxyVerb}
+ \mbox{\Hypertarget{classbittensor_1_1__axon_1_1axon_a8692b67b65ebcf43f3b42eefc0df1f1c}\label{classbittensor_1_1__axon_1_1axon_a8692b67b65ebcf43f3b42eefc0df1f1c}} 
+\index{bittensor.\_axon.axon@{bittensor.\_axon.axon}!check\_backward\_callback@{check\_backward\_callback}}
+\index{check\_backward\_callback@{check\_backward\_callback}!bittensor.\_axon.axon@{bittensor.\_axon.axon}}
+\doxysubsubsection{\texorpdfstring{check\_backward\_callback()}{check\_backward\_callback()}}
+{\footnotesize\ttfamily def bittensor.\+\_\+axon.\+axon.\+check\+\_\+backward\+\_\+callback (\begin{DoxyParamCaption}\item[{Callable}]{backward\+\_\+callback,  }\item[{str }]{pubkey = {\ttfamily \textquotesingle{}\+\_\+\textquotesingle{}} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+\begin{DoxyVerb} Check and test axon backward callback function
+\end{DoxyVerb}
+ \mbox{\Hypertarget{classbittensor_1_1__axon_1_1axon_afae997ebc64b4bdd9b881c954eb8f8cd}\label{classbittensor_1_1__axon_1_1axon_afae997ebc64b4bdd9b881c954eb8f8cd}} 
+\index{bittensor.\_axon.axon@{bittensor.\_axon.axon}!check\_config@{check\_config}}
+\index{check\_config@{check\_config}!bittensor.\_axon.axon@{bittensor.\_axon.axon}}
+\doxysubsubsection{\texorpdfstring{check\_config()}{check\_config()}}
+{\footnotesize\ttfamily def bittensor.\+\_\+axon.\+axon.\+check\+\_\+config (\begin{DoxyParamCaption}\item[{}]{cls,  }\item[{\textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__config_1_1config__impl_1_1_config}{bittensor.\+Config}}\textquotesingle{} }]{config }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb} Check config for axon port and wallet
+\end{DoxyVerb}
+ \mbox{\Hypertarget{classbittensor_1_1__axon_1_1axon_aac806993bad87f22eead3ef25a77945a}\label{classbittensor_1_1__axon_1_1axon_aac806993bad87f22eead3ef25a77945a}} 
+\index{bittensor.\_axon.axon@{bittensor.\_axon.axon}!check\_forward\_callback@{check\_forward\_callback}}
+\index{check\_forward\_callback@{check\_forward\_callback}!bittensor.\_axon.axon@{bittensor.\_axon.axon}}
+\doxysubsubsection{\texorpdfstring{check\_forward\_callback()}{check\_forward\_callback()}}
+{\footnotesize\ttfamily def bittensor.\+\_\+axon.\+axon.\+check\+\_\+forward\+\_\+callback (\begin{DoxyParamCaption}\item[{Callable}]{forward\+\_\+callback,  }\item[{list }]{synapses = {\ttfamily \mbox{[}\mbox{]}} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+\begin{DoxyVerb} Check and test axon forward callback function
+\end{DoxyVerb}
+ \mbox{\Hypertarget{classbittensor_1_1__axon_1_1axon_a3517455cb9fa2f6f1e0374dc0bf18c85}\label{classbittensor_1_1__axon_1_1axon_a3517455cb9fa2f6f1e0374dc0bf18c85}} 
+\index{bittensor.\_axon.axon@{bittensor.\_axon.axon}!config@{config}}
+\index{config@{config}!bittensor.\_axon.axon@{bittensor.\_axon.axon}}
+\doxysubsubsection{\texorpdfstring{config()}{config()}}
+{\footnotesize\ttfamily  \textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__config_1_1config__impl_1_1_config}{bittensor.\+Config}}\textquotesingle{} bittensor.\+\_\+axon.\+axon.\+config (\begin{DoxyParamCaption}\item[{}]{cls }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb} Get config from the argument parser
+Return: bittensor.config object
+\end{DoxyVerb}
+ \mbox{\Hypertarget{classbittensor_1_1__axon_1_1axon_a32210d255dbc303de928cdc08a5a834c}\label{classbittensor_1_1__axon_1_1axon_a32210d255dbc303de928cdc08a5a834c}} 
+\index{bittensor.\_axon.axon@{bittensor.\_axon.axon}!default\_synapse\_check@{default\_synapse\_check}}
+\index{default\_synapse\_check@{default\_synapse\_check}!bittensor.\_axon.axon@{bittensor.\_axon.axon}}
+\doxysubsubsection{\texorpdfstring{default\_synapse\_check()}{default\_synapse\_check()}}
+{\footnotesize\ttfamily def bittensor.\+\_\+axon.\+axon.\+default\+\_\+synapse\+\_\+check (\begin{DoxyParamCaption}\item[{}]{cls,  }\item[{}]{synapse,  }\item[{}]{hotkey }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb} default synapse check function
+\end{DoxyVerb}
+ \mbox{\Hypertarget{classbittensor_1_1__axon_1_1axon_a98606f3151d07d9e823ce4e2b752ca6f}\label{classbittensor_1_1__axon_1_1axon_a98606f3151d07d9e823ce4e2b752ca6f}} 
+\index{bittensor.\_axon.axon@{bittensor.\_axon.axon}!help@{help}}
+\index{help@{help}!bittensor.\_axon.axon@{bittensor.\_axon.axon}}
+\doxysubsubsection{\texorpdfstring{help()}{help()}}
+{\footnotesize\ttfamily def bittensor.\+\_\+axon.\+axon.\+help (\begin{DoxyParamCaption}\item[{}]{cls }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb} Print help to stdout
+\end{DoxyVerb}
+ 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+/\+Users/macthrasher/bittensor/bittensor/\+\_\+axon/\+\_\+\+\_\+init\+\_\+\+\_\+.\+py\end{DoxyCompactItemize}

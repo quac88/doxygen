@@ -1,0 +1,58 @@
+\hypertarget{namespacebittensor_1_1__axon_1_1axon__impl}{}\doxysection{bittensor.\+\_\+axon.\+axon\+\_\+impl Namespace Reference}
+\label{namespacebittensor_1_1__axon_1_1axon__impl}\index{bittensor.\_axon.axon\_impl@{bittensor.\_axon.axon\_impl}}
+\doxysubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{classbittensor_1_1__axon_1_1axon__impl_1_1_axon}{Axon}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{namespacebittensor_1_1__axon_1_1axon__impl_a9a755e3fbbe879598c007a5e52537e61}\label{namespacebittensor_1_1__axon_1_1axon__impl_a9a755e3fbbe879598c007a5e52537e61}} 
+logger {\bfseries logger} = logger.\+opt(colors=True)
+\item 
+\mbox{\Hypertarget{namespacebittensor_1_1__axon_1_1axon__impl_a70c8935660a2f5afbb49ef312ed7b3ee}\label{namespacebittensor_1_1__axon_1_1axon__impl_a70c8935660a2f5afbb49ef312ed7b3ee}} 
+Enum {\bfseries PROM\+\_\+axon\+\_\+is\+\_\+started} = Enum(\textquotesingle{}axon\+\_\+is\+\_\+started\textquotesingle{}, \textquotesingle{}is\+\_\+started\textquotesingle{}, states=\mbox{[}\textquotesingle{}stopped\textquotesingle{}, \textquotesingle{}started\textquotesingle{}\mbox{]})
+\item 
+\mbox{\Hypertarget{namespacebittensor_1_1__axon_1_1axon__impl_ac4f6ee41dfcd506f3fcf9c106f69a22b}\label{namespacebittensor_1_1__axon_1_1axon__impl_ac4f6ee41dfcd506f3fcf9c106f69a22b}} 
+Counter {\bfseries PROM\+\_\+total\+\_\+forward} = Counter(\textquotesingle{}axon\+\_\+total\+\_\+forward\textquotesingle{}, \textquotesingle{}total\+\_\+forward\textquotesingle{}, \mbox{[}\textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__wallet_1_1wallet}{wallet}}\textquotesingle{}, \textquotesingle{}identifier\textquotesingle{}\mbox{]})
+\item 
+\mbox{\Hypertarget{namespacebittensor_1_1__axon_1_1axon__impl_a8583fc31251e5cf88334a8736c29117f}\label{namespacebittensor_1_1__axon_1_1axon__impl_a8583fc31251e5cf88334a8736c29117f}} 
+Counter {\bfseries PROM\+\_\+total\+\_\+backward} = Counter(\textquotesingle{}axon\+\_\+total\+\_\+backward\textquotesingle{}, \textquotesingle{}total\+\_\+backward\textquotesingle{}, \mbox{[}\textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__wallet_1_1wallet}{wallet}}\textquotesingle{}, \textquotesingle{}identifier\textquotesingle{}\mbox{]})
+\item 
+\mbox{\Hypertarget{namespacebittensor_1_1__axon_1_1axon__impl_a677a6c309ef0c31c936f5cccaf14d55c}\label{namespacebittensor_1_1__axon_1_1axon__impl_a677a6c309ef0c31c936f5cccaf14d55c}} 
+Histogram {\bfseries PROM\+\_\+forward\+\_\+latency} = Histogram(\textquotesingle{}axon\+\_\+forward\+\_\+latency\textquotesingle{}, \textquotesingle{}forward\+\_\+latency\textquotesingle{}, \mbox{[}\textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__wallet_1_1wallet}{wallet}}\textquotesingle{}, \textquotesingle{}identifier\textquotesingle{}\mbox{]}, buckets=list(range(0,bittensor.\+\_\+\+\_\+blocktime\+\_\+\+\_\+,1)))
+\item 
+\mbox{\Hypertarget{namespacebittensor_1_1__axon_1_1axon__impl_ae921e990e6d8da8879eb3580233b1539}\label{namespacebittensor_1_1__axon_1_1axon__impl_ae921e990e6d8da8879eb3580233b1539}} 
+Histogram {\bfseries PROM\+\_\+backward\+\_\+latency} = Histogram(\textquotesingle{}axon\+\_\+backward\+\_\+latency\textquotesingle{}, \textquotesingle{}backward\+\_\+latency\textquotesingle{}, \mbox{[}\textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__wallet_1_1wallet}{wallet}}\textquotesingle{}, \textquotesingle{}identifier\textquotesingle{}\mbox{]}, buckets=list(range(0,bittensor.\+\_\+\+\_\+blocktime\+\_\+\+\_\+,1)))
+\item 
+\mbox{\Hypertarget{namespacebittensor_1_1__axon_1_1axon__impl_a604a461e6482b5d08bedba3c972136e7}\label{namespacebittensor_1_1__axon_1_1axon__impl_a604a461e6482b5d08bedba3c972136e7}} 
+Counter {\bfseries PROM\+\_\+forward\+\_\+synapses} = Counter(\textquotesingle{}axon\+\_\+forward\+\_\+synapses\textquotesingle{}, \textquotesingle{}forward\+\_\+synapses\textquotesingle{}, \mbox{[}\textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__wallet_1_1wallet}{wallet}}\textquotesingle{}, \textquotesingle{}identifier\textquotesingle{}, \char`\"{}synapse\char`\"{}\mbox{]})
+\item 
+\mbox{\Hypertarget{namespacebittensor_1_1__axon_1_1axon__impl_aa623928984c14bcd26736a84727507c7}\label{namespacebittensor_1_1__axon_1_1axon__impl_aa623928984c14bcd26736a84727507c7}} 
+Counter {\bfseries PROM\+\_\+backward\+\_\+synapses} = Counter(\textquotesingle{}axon\+\_\+backward\+\_\+synapses\textquotesingle{}, \textquotesingle{}backward\+\_\+synapses\textquotesingle{}, \mbox{[}\textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__wallet_1_1wallet}{wallet}}\textquotesingle{}, \textquotesingle{}identifier\textquotesingle{}, \char`\"{}synapse\char`\"{}\mbox{]})
+\item 
+\mbox{\Hypertarget{namespacebittensor_1_1__axon_1_1axon__impl_a0e22aadb9d6bfd39e1a5be567fa68824}\label{namespacebittensor_1_1__axon_1_1axon__impl_a0e22aadb9d6bfd39e1a5be567fa68824}} 
+Counter {\bfseries PROM\+\_\+forward\+\_\+codes} = Counter(\textquotesingle{}axon\+\_\+forward\+\_\+codes\textquotesingle{}, \textquotesingle{}forward\+\_\+codes\textquotesingle{}, \mbox{[}\textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__wallet_1_1wallet}{wallet}}\textquotesingle{}, \textquotesingle{}identifier\textquotesingle{}, \char`\"{}code\char`\"{}\mbox{]})
+\item 
+\mbox{\Hypertarget{namespacebittensor_1_1__axon_1_1axon__impl_a4e44667b6f9c13fbd9a63ea19b179951}\label{namespacebittensor_1_1__axon_1_1axon__impl_a4e44667b6f9c13fbd9a63ea19b179951}} 
+Counter {\bfseries PROM\+\_\+backward\+\_\+codes} = Counter(\textquotesingle{}axon\+\_\+backward\+\_\+codes\textquotesingle{}, \textquotesingle{}backward\+\_\+codes\textquotesingle{}, \mbox{[}\textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__wallet_1_1wallet}{wallet}}\textquotesingle{}, \textquotesingle{}identifier\textquotesingle{}, \char`\"{}code\char`\"{}\mbox{]})
+\item 
+\mbox{\Hypertarget{namespacebittensor_1_1__axon_1_1axon__impl_aa0d6300d509fe0a23bcb2c26e724c9f8}\label{namespacebittensor_1_1__axon_1_1axon__impl_aa0d6300d509fe0a23bcb2c26e724c9f8}} 
+Counter {\bfseries PROM\+\_\+forward\+\_\+hotkeys} = Counter(\textquotesingle{}axon\+\_\+forward\+\_\+hotkeys\textquotesingle{}, \textquotesingle{}forward\+\_\+hotkeys\textquotesingle{}, \mbox{[}\textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__wallet_1_1wallet}{wallet}}\textquotesingle{}, \textquotesingle{}identifier\textquotesingle{}, \char`\"{}hotkey\char`\"{}\mbox{]})
+\item 
+\mbox{\Hypertarget{namespacebittensor_1_1__axon_1_1axon__impl_a457bac9c61d7e4f91c298f5961e252ed}\label{namespacebittensor_1_1__axon_1_1axon__impl_a457bac9c61d7e4f91c298f5961e252ed}} 
+Counter {\bfseries PROM\+\_\+backward\+\_\+hotkeys} = Counter(\textquotesingle{}axon\+\_\+backward\+\_\+hotkeys\textquotesingle{}, \textquotesingle{}backward\+\_\+hotkeys\textquotesingle{}, \mbox{[}\textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__wallet_1_1wallet}{wallet}}\textquotesingle{}, \textquotesingle{}identifier\textquotesingle{}, \char`\"{}hotkey\char`\"{}\mbox{]})
+\item 
+\mbox{\Hypertarget{namespacebittensor_1_1__axon_1_1axon__impl_aff3dd14dc1e0cd40af55a7f9e7f79aa1}\label{namespacebittensor_1_1__axon_1_1axon__impl_aff3dd14dc1e0cd40af55a7f9e7f79aa1}} 
+Counter {\bfseries PROM\+\_\+forward\+\_\+bytes} = Counter(\textquotesingle{}axon\+\_\+forward\+\_\+bytes\textquotesingle{}, \textquotesingle{}forward\+\_\+bytes\textquotesingle{}, \mbox{[}\textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__wallet_1_1wallet}{wallet}}\textquotesingle{}, \textquotesingle{}identifier\textquotesingle{}, \char`\"{}hotkey\char`\"{}\mbox{]})
+\item 
+\mbox{\Hypertarget{namespacebittensor_1_1__axon_1_1axon__impl_a847bae9ed6f9305ba7e7266c8379e1c1}\label{namespacebittensor_1_1__axon_1_1axon__impl_a847bae9ed6f9305ba7e7266c8379e1c1}} 
+Counter {\bfseries PROM\+\_\+backward\+\_\+bytes} = Counter(\textquotesingle{}axon\+\_\+backward\+\_\+bytes\textquotesingle{}, \textquotesingle{}backward\+\_\+bytes\textquotesingle{}, \mbox{[}\textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__wallet_1_1wallet}{wallet}}\textquotesingle{}, \textquotesingle{}identifier\textquotesingle{}, \char`\"{}hotkey\char`\"{}\mbox{]})
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\begin{DoxyVerb} Implementation of Axon, services Forward and Backward requests from other neurons.
+\end{DoxyVerb}
+ 

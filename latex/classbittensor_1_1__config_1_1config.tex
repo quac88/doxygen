@@ -1,0 +1,75 @@
+\hypertarget{classbittensor_1_1__config_1_1config}{}\doxysection{bittensor.\+\_\+config.\+config Class Reference}
+\label{classbittensor_1_1__config_1_1config}\index{bittensor.\_config.config@{bittensor.\_config.config}}
+\doxysubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{classbittensor_1_1__config_1_1config_1_1_invalid_config_file}{Invalid\+Config\+File}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \mbox{\hyperlink{classbittensor_1_1__config_1_1config_a26c0033b7f03b9d0c66db555aeadfc8c}{\+\_\+\+\_\+new\+\_\+\+\_\+}} (cls, Argument\+Parser parser=None, bool strict=False, Optional\mbox{[}List\mbox{[}str\mbox{]}\mbox{]} args=None)
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+Namespace \mbox{\hyperlink{classbittensor_1_1__config_1_1config_aaad4bc34ce0abaa1f51517f30d32807c}{\+\_\+\+\_\+parse\+\_\+args\+\_\+\+\_\+}} (List\mbox{[}str\mbox{]} args, Argument\+Parser parser=None, bool strict=False)
+\item 
+def \mbox{\hyperlink{classbittensor_1_1__config_1_1config_a7fe89b30c0cd736f3918cafbb96ff5a3}{full}} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\begin{DoxyVerb}Create and init the config class, which manages the config of different bittensor modules.
+\end{DoxyVerb}
+ 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classbittensor_1_1__config_1_1config_a26c0033b7f03b9d0c66db555aeadfc8c}\label{classbittensor_1_1__config_1_1config_a26c0033b7f03b9d0c66db555aeadfc8c}} 
+\index{bittensor.\_config.config@{bittensor.\_config.config}!\_\_new\_\_@{\_\_new\_\_}}
+\index{\_\_new\_\_@{\_\_new\_\_}!bittensor.\_config.config@{bittensor.\_config.config}}
+\doxysubsubsection{\texorpdfstring{\_\_new\_\_()}{\_\_new\_\_()}}
+{\footnotesize\ttfamily def bittensor.\+\_\+config.\+config.\+\_\+\+\_\+new\+\_\+\+\_\+ (\begin{DoxyParamCaption}\item[{}]{cls,  }\item[{Argument\+Parser }]{parser = {\ttfamily None},  }\item[{bool }]{strict = {\ttfamily False},  }\item[{Optional\mbox{[}List\mbox{[}str\mbox{]}\mbox{]} }]{args = {\ttfamily None} }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb} Translates the passed parser into a nested Bittensor config.
+    Args:
+        parser (argparse.Parser):
+            Command line parser object.
+        strict (bool):
+            If true, the command line arguments are strictly parsed.
+        args (list of str):
+            Command line arguments.
+    Returns:
+        config (bittensor.Config):
+            Nested config object created from parser arguments.\end{DoxyVerb}
+ \mbox{\Hypertarget{classbittensor_1_1__config_1_1config_aaad4bc34ce0abaa1f51517f30d32807c}\label{classbittensor_1_1__config_1_1config_aaad4bc34ce0abaa1f51517f30d32807c}} 
+\index{bittensor.\_config.config@{bittensor.\_config.config}!\_\_parse\_args\_\_@{\_\_parse\_args\_\_}}
+\index{\_\_parse\_args\_\_@{\_\_parse\_args\_\_}!bittensor.\_config.config@{bittensor.\_config.config}}
+\doxysubsubsection{\texorpdfstring{\_\_parse\_args\_\_()}{\_\_parse\_args\_\_()}}
+{\footnotesize\ttfamily  Namespace bittensor.\+\_\+config.\+config.\+\_\+\+\_\+parse\+\_\+args\+\_\+\+\_\+ (\begin{DoxyParamCaption}\item[{List\mbox{[}str\mbox{]}}]{args,  }\item[{Argument\+Parser }]{parser = {\ttfamily None},  }\item[{bool }]{strict = {\ttfamily False} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+\begin{DoxyVerb}Parses the passed args use the passed parser.
+Args:
+    args (List[str]):
+        List of arguments to parse.
+    parser (argparse.ArgumentParser):
+        Command line parser object.
+    strict (bool):
+        If true, the command line arguments are strictly parsed.
+Returns:
+    Namespace:
+        Namespace object created from parser arguments.
+\end{DoxyVerb}
+ \mbox{\Hypertarget{classbittensor_1_1__config_1_1config_a7fe89b30c0cd736f3918cafbb96ff5a3}\label{classbittensor_1_1__config_1_1config_a7fe89b30c0cd736f3918cafbb96ff5a3}} 
+\index{bittensor.\_config.config@{bittensor.\_config.config}!full@{full}}
+\index{full@{full}!bittensor.\_config.config@{bittensor.\_config.config}}
+\doxysubsubsection{\texorpdfstring{full()}{full()}}
+{\footnotesize\ttfamily def bittensor.\+\_\+config.\+config.\+full (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+\begin{DoxyVerb} From the parser, add arguments to multiple bittensor sub-modules
+\end{DoxyVerb}
+ 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+/\+Users/macthrasher/bittensor/bittensor/\+\_\+config/\+\_\+\+\_\+init\+\_\+\+\_\+.\+py\end{DoxyCompactItemize}

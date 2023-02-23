@@ -1,0 +1,93 @@
+\hypertarget{classbittensor_1_1__wallet_1_1wallet}{}\doxysection{bittensor.\+\_\+wallet.\+wallet Class Reference}
+\label{classbittensor_1_1__wallet_1_1wallet}\index{bittensor.\_wallet.wallet@{bittensor.\_wallet.wallet}}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__wallet_1_1wallet_a65d81527584df66cf99bd3d5eafc21c0}\label{classbittensor_1_1__wallet_1_1wallet_a65d81527584df66cf99bd3d5eafc21c0}} 
+ \textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet}{bittensor.\+Wallet}}\textquotesingle{} {\bfseries mock} (cls)
+\item 
+ \textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet}{bittensor.\+Wallet}}\textquotesingle{} \mbox{\hyperlink{classbittensor_1_1__wallet_1_1wallet_a6bd84078dbb4d8deda206ccbbaa55e36}{\+\_\+\+\_\+new\+\_\+\+\_\+}} (cls, \textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__config_1_1config__impl_1_1_config}{bittensor.\+Config}}\textquotesingle{} \mbox{\hyperlink{classbittensor_1_1__config_1_1config}{config}}=None, str name=None, str hotkey=None, str path=None, bool \+\_\+mock=None)
+\item 
+ \textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__config_1_1config__impl_1_1_config}{bittensor.\+Config}}\textquotesingle{} \mbox{\hyperlink{classbittensor_1_1__wallet_1_1wallet_a4f6a3003e56909d34ee62fdc4127330a}{config}} (cls)
+\item 
+def \mbox{\hyperlink{classbittensor_1_1__wallet_1_1wallet_a5a8d7e908cf9a05d8c14ebdf09ae0bd2}{help}} (cls)
+\item 
+def \mbox{\hyperlink{classbittensor_1_1__wallet_1_1wallet_a72292bb31c5723a7956ddbb31cb25d35}{add\+\_\+args}} (cls, argparse.\+Argument\+Parser parser, str prefix=None)
+\item 
+def \mbox{\hyperlink{classbittensor_1_1__wallet_1_1wallet_a0b4fefb81c89070018989883ab79336c}{add\+\_\+defaults}} (cls, defaults)
+\item 
+def \mbox{\hyperlink{classbittensor_1_1__wallet_1_1wallet_aead470bee1585f567966a094c765b9f6}{check\+\_\+config}} (cls, \textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__config_1_1config__impl_1_1_config}{bittensor.\+Config}}\textquotesingle{} \mbox{\hyperlink{classbittensor_1_1__config_1_1config}{config}})
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\begin{DoxyVerb} Create and init wallet that stores hot and coldkey
+\end{DoxyVerb}
+ 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classbittensor_1_1__wallet_1_1wallet_a6bd84078dbb4d8deda206ccbbaa55e36}\label{classbittensor_1_1__wallet_1_1wallet_a6bd84078dbb4d8deda206ccbbaa55e36}} 
+\index{bittensor.\_wallet.wallet@{bittensor.\_wallet.wallet}!\_\_new\_\_@{\_\_new\_\_}}
+\index{\_\_new\_\_@{\_\_new\_\_}!bittensor.\_wallet.wallet@{bittensor.\_wallet.wallet}}
+\doxysubsubsection{\texorpdfstring{\_\_new\_\_()}{\_\_new\_\_()}}
+{\footnotesize\ttfamily  \textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet}{bittensor.\+Wallet}}\textquotesingle{} bittensor.\+\_\+wallet.\+wallet.\+\_\+\+\_\+new\+\_\+\+\_\+ (\begin{DoxyParamCaption}\item[{}]{cls,  }\item[{\textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__config_1_1config__impl_1_1_config}{bittensor.\+Config}}\textquotesingle{} }]{config = {\ttfamily None},  }\item[{str }]{name = {\ttfamily None},  }\item[{str }]{hotkey = {\ttfamily None},  }\item[{str }]{path = {\ttfamily None},  }\item[{bool }]{\+\_\+mock = {\ttfamily None} }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb} Init bittensor wallet object containing a hot and coldkey.
+
+        Args:
+            config (:obj:`bittensor.Config`, `optional`): 
+                bittensor.wallet.config()
+            name (required=False, default='default'):
+                The name of the wallet to unlock for running bittensor
+            hotkey (required=False, default='default'):
+                The name of hotkey used to running the miner.
+            path (required=False, default='~/.bittensor/wallets/'):
+                The path to your bittensor wallets
+            _mock (required=False, default=False):
+                If true creates a mock wallet with random keys.\end{DoxyVerb}
+ \mbox{\Hypertarget{classbittensor_1_1__wallet_1_1wallet_a72292bb31c5723a7956ddbb31cb25d35}\label{classbittensor_1_1__wallet_1_1wallet_a72292bb31c5723a7956ddbb31cb25d35}} 
+\index{bittensor.\_wallet.wallet@{bittensor.\_wallet.wallet}!add\_args@{add\_args}}
+\index{add\_args@{add\_args}!bittensor.\_wallet.wallet@{bittensor.\_wallet.wallet}}
+\doxysubsubsection{\texorpdfstring{add\_args()}{add\_args()}}
+{\footnotesize\ttfamily def bittensor.\+\_\+wallet.\+wallet.\+add\+\_\+args (\begin{DoxyParamCaption}\item[{}]{cls,  }\item[{argparse.\+Argument\+Parser}]{parser,  }\item[{str }]{prefix = {\ttfamily None} }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb} Accept specific arguments from parser
+\end{DoxyVerb}
+ \mbox{\Hypertarget{classbittensor_1_1__wallet_1_1wallet_a0b4fefb81c89070018989883ab79336c}\label{classbittensor_1_1__wallet_1_1wallet_a0b4fefb81c89070018989883ab79336c}} 
+\index{bittensor.\_wallet.wallet@{bittensor.\_wallet.wallet}!add\_defaults@{add\_defaults}}
+\index{add\_defaults@{add\_defaults}!bittensor.\_wallet.wallet@{bittensor.\_wallet.wallet}}
+\doxysubsubsection{\texorpdfstring{add\_defaults()}{add\_defaults()}}
+{\footnotesize\ttfamily def bittensor.\+\_\+wallet.\+wallet.\+add\+\_\+defaults (\begin{DoxyParamCaption}\item[{}]{cls,  }\item[{}]{defaults }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb} Adds parser defaults to object from enviroment variables.
+\end{DoxyVerb}
+ \mbox{\Hypertarget{classbittensor_1_1__wallet_1_1wallet_aead470bee1585f567966a094c765b9f6}\label{classbittensor_1_1__wallet_1_1wallet_aead470bee1585f567966a094c765b9f6}} 
+\index{bittensor.\_wallet.wallet@{bittensor.\_wallet.wallet}!check\_config@{check\_config}}
+\index{check\_config@{check\_config}!bittensor.\_wallet.wallet@{bittensor.\_wallet.wallet}}
+\doxysubsubsection{\texorpdfstring{check\_config()}{check\_config()}}
+{\footnotesize\ttfamily def bittensor.\+\_\+wallet.\+wallet.\+check\+\_\+config (\begin{DoxyParamCaption}\item[{}]{cls,  }\item[{\textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__config_1_1config__impl_1_1_config}{bittensor.\+Config}}\textquotesingle{} }]{config }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb} Check config for wallet name/hotkey/path/hotkeys/sort_by
+\end{DoxyVerb}
+ \mbox{\Hypertarget{classbittensor_1_1__wallet_1_1wallet_a4f6a3003e56909d34ee62fdc4127330a}\label{classbittensor_1_1__wallet_1_1wallet_a4f6a3003e56909d34ee62fdc4127330a}} 
+\index{bittensor.\_wallet.wallet@{bittensor.\_wallet.wallet}!config@{config}}
+\index{config@{config}!bittensor.\_wallet.wallet@{bittensor.\_wallet.wallet}}
+\doxysubsubsection{\texorpdfstring{config()}{config()}}
+{\footnotesize\ttfamily  \textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__config_1_1config__impl_1_1_config}{bittensor.\+Config}}\textquotesingle{} bittensor.\+\_\+wallet.\+wallet.\+config (\begin{DoxyParamCaption}\item[{}]{cls }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb} Get config from the argument parser
+Return: bittensor.config object
+\end{DoxyVerb}
+ \mbox{\Hypertarget{classbittensor_1_1__wallet_1_1wallet_a5a8d7e908cf9a05d8c14ebdf09ae0bd2}\label{classbittensor_1_1__wallet_1_1wallet_a5a8d7e908cf9a05d8c14ebdf09ae0bd2}} 
+\index{bittensor.\_wallet.wallet@{bittensor.\_wallet.wallet}!help@{help}}
+\index{help@{help}!bittensor.\_wallet.wallet@{bittensor.\_wallet.wallet}}
+\doxysubsubsection{\texorpdfstring{help()}{help()}}
+{\footnotesize\ttfamily def bittensor.\+\_\+wallet.\+wallet.\+help (\begin{DoxyParamCaption}\item[{}]{cls }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb} Print help to stdout
+\end{DoxyVerb}
+ 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+/\+Users/macthrasher/bittensor/bittensor/\+\_\+wallet/\+\_\+\+\_\+init\+\_\+\+\_\+.\+py\end{DoxyCompactItemize}

@@ -1,0 +1,57 @@
+\hypertarget{classbittensor_1_1__dataset_1_1thread__queue_1_1_thread_queue}{}\doxysection{bittensor.\+\_\+dataset.\+thread\+\_\+queue.\+Thread\+Queue Class Reference}
+\label{classbittensor_1_1__dataset_1_1thread__queue_1_1_thread_queue}\index{bittensor.\_dataset.thread\_queue.ThreadQueue@{bittensor.\_dataset.thread\_queue.ThreadQueue}}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \mbox{\hyperlink{classbittensor_1_1__dataset_1_1thread__queue_1_1_thread_queue_a82cecb3185c1cbd474b8daff7d141900}{\+\_\+\+\_\+init\+\_\+\+\_\+}} (self, producer\+\_\+target, producer\+\_\+arg, buffer\+\_\+size=2)
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__dataset_1_1thread__queue_1_1_thread_queue_a1fba9cdc7bce42d4003530f5ee9e4257}\label{classbittensor_1_1__dataset_1_1thread__queue_1_1_thread_queue_a1fba9cdc7bce42d4003530f5ee9e4257}} 
+def {\bfseries \+\_\+\+\_\+del\+\_\+\+\_\+} (self)
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__dataset_1_1thread__queue_1_1_thread_queue_a716e14ea9630c59fc3069a6c13c49c92}\label{classbittensor_1_1__dataset_1_1thread__queue_1_1_thread_queue_a716e14ea9630c59fc3069a6c13c49c92}} 
+def {\bfseries close} (self)
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__dataset_1_1thread__queue_1_1_thread_queue_ae0614c89aec4f299154f3b1243862f2f}\label{classbittensor_1_1__dataset_1_1thread__queue_1_1_thread_queue_ae0614c89aec4f299154f3b1243862f2f}} 
+{\bfseries buffer\+\_\+size}
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__dataset_1_1thread__queue_1_1_thread_queue_ac57e1da8979775f5730e61e8032800eb}\label{classbittensor_1_1__dataset_1_1thread__queue_1_1_thread_queue_ac57e1da8979775f5730e61e8032800eb}} 
+{\bfseries queue}
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__dataset_1_1thread__queue_1_1_thread_queue_aad1594e12857b4d4e166f63819172dde}\label{classbittensor_1_1__dataset_1_1thread__queue_1_1_thread_queue_aad1594e12857b4d4e166f63819172dde}} 
+{\bfseries producer}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\begin{DoxyVerb} Manages the queue the producer thread that monitor and fills the queue.
+\end{DoxyVerb}
+ 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classbittensor_1_1__dataset_1_1thread__queue_1_1_thread_queue_a82cecb3185c1cbd474b8daff7d141900}\label{classbittensor_1_1__dataset_1_1thread__queue_1_1_thread_queue_a82cecb3185c1cbd474b8daff7d141900}} 
+\index{bittensor.\_dataset.thread\_queue.ThreadQueue@{bittensor.\_dataset.thread\_queue.ThreadQueue}!\_\_init\_\_@{\_\_init\_\_}}
+\index{\_\_init\_\_@{\_\_init\_\_}!bittensor.\_dataset.thread\_queue.ThreadQueue@{bittensor.\_dataset.thread\_queue.ThreadQueue}}
+\doxysubsubsection{\texorpdfstring{\_\_init\_\_()}{\_\_init\_\_()}}
+{\footnotesize\ttfamily def bittensor.\+\_\+dataset.\+thread\+\_\+queue.\+Thread\+Queue.\+\_\+\+\_\+init\+\_\+\+\_\+ (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{producer\+\_\+target,  }\item[{}]{producer\+\_\+arg,  }\item[{}]{buffer\+\_\+size = {\ttfamily 2} }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb} Setup the queue and start the producer thread.
+
+Args:
+        
+    producer_target (:obj:`function`, `required`)
+        The target function to run when the queue is not full.
+
+    producer_arg (:type:`tuple`, `required`)
+        The arguments to be passed to the target function.
+
+    buffer_size (:type:`int`, `optional`)
+        The size of the queue.
+\end{DoxyVerb}
+ 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+/\+Users/macthrasher/bittensor/bittensor/\+\_\+dataset/thread\+\_\+queue.\+py\end{DoxyCompactItemize}

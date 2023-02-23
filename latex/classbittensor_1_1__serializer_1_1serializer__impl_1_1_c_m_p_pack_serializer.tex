@@ -1,0 +1,96 @@
+\hypertarget{classbittensor_1_1__serializer_1_1serializer__impl_1_1_c_m_p_pack_serializer}{}\doxysection{bittensor.\+\_\+serializer.\+serializer\+\_\+impl.\+CMPPack\+Serializer Class Reference}
+\label{classbittensor_1_1__serializer_1_1serializer__impl_1_1_c_m_p_pack_serializer}\index{bittensor.\_serializer.serializer\_impl.CMPPackSerializer@{bittensor.\_serializer.serializer\_impl.CMPPackSerializer}}
+Inheritance diagram for bittensor.\+\_\+serializer.\+serializer\+\_\+impl.\+CMPPack\+Serializer\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{classbittensor_1_1__serializer_1_1serializer__impl_1_1_c_m_p_pack_serializer}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+bittensor.\+proto.\+Tensor \mbox{\hyperlink{classbittensor_1_1__serializer_1_1serializer__impl_1_1_c_m_p_pack_serializer_a124580b7d16f7b90bf093c517bac86dd}{serialize\+\_\+from\+\_\+torch}} (self, torch.\+Tensor torch\+\_\+tensor, bittensor.\+proto.\+Modality modality)
+\item 
+torch.\+Tensor \mbox{\hyperlink{classbittensor_1_1__serializer_1_1serializer__impl_1_1_c_m_p_pack_serializer_a7b89eaa87b6f07e7c172263d6216ab79}{deserialize\+\_\+to\+\_\+torch}} (self, bittensor.\+proto.\+Tensor torch\+\_\+proto)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Member Functions inherited from \mbox{\hyperlink{classbittensor_1_1__serializer_1_1serializer__impl_1_1_serializer}{bittensor.\+\_\+serializer.\+serializer\+\_\+impl.\+Serializer}}}
+\begin{DoxyCompactItemize}
+\item 
+bittensor.\+proto.\+Tensor \mbox{\hyperlink{classbittensor_1_1__serializer_1_1serializer__impl_1_1_serializer_a960320e410d06c85a697d29aef17d9ae}{serialize}} (self, object tensor\+\_\+obj, bittensor.\+proto.\+Modality modality=bittensor.\+proto.\+Modality.\+TEXT, int from\+\_\+type=bittensor.\+proto.\+Tensor\+Type.\+TORCH)
+\item 
+object \mbox{\hyperlink{classbittensor_1_1__serializer_1_1serializer__impl_1_1_serializer_ae3af7e1793a30a37e38b0e9f98bd47b8}{deserialize}} (self, bittensor.\+proto.\+Tensor tensor\+\_\+pb2, int to\+\_\+type)
+\item 
+bittensor.\+proto.\+Tensor \mbox{\hyperlink{classbittensor_1_1__serializer_1_1serializer__impl_1_1_serializer_aab5db416aedd9f4830077cb288c5887e}{serialize\+\_\+from\+\_\+tensorflow}} (self, torch.\+Tensor tensorflow\+\_\+tensor, bittensor.\+proto.\+Modality modality)
+\item 
+bittensor.\+proto.\+Tensor \mbox{\hyperlink{classbittensor_1_1__serializer_1_1serializer__impl_1_1_serializer_a7997590b584332b04f5c3e98b5bfea46}{serialize\+\_\+from\+\_\+torch}} (self, torch.\+Tensor torch\+\_\+tensor, bittensor.\+proto.\+Modality modality)
+\item 
+bittensor.\+proto.\+Tensor \mbox{\hyperlink{classbittensor_1_1__serializer_1_1serializer__impl_1_1_serializer_a939fa535f4b9a8ab4e8a4e825d15a9b1}{serialize\+\_\+from\+\_\+numpy}} (self, torch.\+Tensor numpy\+\_\+tensor, bittensor.\+proto.\+Modality modality)
+\item 
+torch.\+Tensor \mbox{\hyperlink{classbittensor_1_1__serializer_1_1serializer__impl_1_1_serializer_a0a53800eb9150bb28ee55bc7dad8c2da}{deserialize\+\_\+to\+\_\+torch}} (self, bittensor.\+proto.\+Tensor tensor\+\_\+pb2)
+\item 
+object \mbox{\hyperlink{classbittensor_1_1__serializer_1_1serializer__impl_1_1_serializer_a86af024ea4cd118df74229d0e5218017}{deserialize\+\_\+to\+\_\+tensorflow}} (self, bittensor.\+proto.\+Tensor tensor\+\_\+pb2)
+\item 
+object \mbox{\hyperlink{classbittensor_1_1__serializer_1_1serializer__impl_1_1_serializer_a57501f89fe649fb2507b89208f386edb}{deserialize\+\_\+to\+\_\+numpy}} (self, bittensor.\+proto.\+Tensor tensor\+\_\+pb2)
+\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+\doxysubsubsection*{Static Public Member Functions inherited from \mbox{\hyperlink{classbittensor_1_1__serializer_1_1serializer__impl_1_1_serializer}{bittensor.\+\_\+serializer.\+serializer\+\_\+impl.\+Serializer}}}
+\begin{DoxyCompactItemize}
+\item 
+def \mbox{\hyperlink{classbittensor_1_1__serializer_1_1serializer__impl_1_1_serializer_aaf1e311321522ddadf7f9df58e02833d}{empty}} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\begin{DoxyVerb} Make conversion between torch and bittensor.proto.torch in float16
+\end{DoxyVerb}
+ 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classbittensor_1_1__serializer_1_1serializer__impl_1_1_c_m_p_pack_serializer_a7b89eaa87b6f07e7c172263d6216ab79}\label{classbittensor_1_1__serializer_1_1serializer__impl_1_1_c_m_p_pack_serializer_a7b89eaa87b6f07e7c172263d6216ab79}} 
+\index{bittensor.\_serializer.serializer\_impl.CMPPackSerializer@{bittensor.\_serializer.serializer\_impl.CMPPackSerializer}!deserialize\_to\_torch@{deserialize\_to\_torch}}
+\index{deserialize\_to\_torch@{deserialize\_to\_torch}!bittensor.\_serializer.serializer\_impl.CMPPackSerializer@{bittensor.\_serializer.serializer\_impl.CMPPackSerializer}}
+\doxysubsubsection{\texorpdfstring{deserialize\_to\_torch()}{deserialize\_to\_torch()}}
+{\footnotesize\ttfamily  torch.\+Tensor bittensor.\+\_\+serializer.\+serializer\+\_\+impl.\+CMPPack\+Serializer.\+deserialize\+\_\+to\+\_\+torch (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{bittensor.\+proto.\+Tensor}]{torch\+\_\+proto }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Deserializes an bittensor.proto.Tensor to a torch.Tensor object.
+
+Args:
+    torch_proto (bittensor.proto.Tensor): 
+        Proto containing torch tensor to derserialize.
+
+Returns:
+    torch.Tensor: 
+        Deserialized torch tensor.
+\end{DoxyVerb}
+ 
+
+Reimplemented from \mbox{\hyperlink{classbittensor_1_1__serializer_1_1serializer__impl_1_1_serializer_a0a53800eb9150bb28ee55bc7dad8c2da}{bittensor.\+\_\+serializer.\+serializer\+\_\+impl.\+Serializer}}.
+
+\mbox{\Hypertarget{classbittensor_1_1__serializer_1_1serializer__impl_1_1_c_m_p_pack_serializer_a124580b7d16f7b90bf093c517bac86dd}\label{classbittensor_1_1__serializer_1_1serializer__impl_1_1_c_m_p_pack_serializer_a124580b7d16f7b90bf093c517bac86dd}} 
+\index{bittensor.\_serializer.serializer\_impl.CMPPackSerializer@{bittensor.\_serializer.serializer\_impl.CMPPackSerializer}!serialize\_from\_torch@{serialize\_from\_torch}}
+\index{serialize\_from\_torch@{serialize\_from\_torch}!bittensor.\_serializer.serializer\_impl.CMPPackSerializer@{bittensor.\_serializer.serializer\_impl.CMPPackSerializer}}
+\doxysubsubsection{\texorpdfstring{serialize\_from\_torch()}{serialize\_from\_torch()}}
+{\footnotesize\ttfamily  bittensor.\+proto.\+Tensor bittensor.\+\_\+serializer.\+serializer\+\_\+impl.\+CMPPack\+Serializer.\+serialize\+\_\+from\+\_\+torch (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{torch.\+Tensor}]{torch\+\_\+tensor,  }\item[{bittensor.\+proto.\+Modality}]{modality }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb} Serializes a torch.Tensor to an bittensor Tensor proto in float16
+
+Args:
+    torch_tensor (torch.Tensor): 
+        Torch tensor to serialize.
+
+    modality (bittensor.proto.Modality): 
+        Datatype modality. i.e. TENSOR, TEXT, IMAGE
+
+Returns:
+    bittensor.proto.Tensor: 
+        The serialized torch tensor as bittensor.proto.proto. 
+\end{DoxyVerb}
+ 
+
+Reimplemented from \mbox{\hyperlink{classbittensor_1_1__serializer_1_1serializer__impl_1_1_serializer_a7997590b584332b04f5c3e98b5bfea46}{bittensor.\+\_\+serializer.\+serializer\+\_\+impl.\+Serializer}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+/\+Users/macthrasher/bittensor/bittensor/\+\_\+serializer/serializer\+\_\+impl.\+py\end{DoxyCompactItemize}

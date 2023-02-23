@@ -1,0 +1,78 @@
+\hypertarget{classbittensor_1_1__endpoint_1_1endpoint}{}\doxysection{bittensor.\+\_\+endpoint.\+endpoint Class Reference}
+\label{classbittensor_1_1__endpoint_1_1endpoint}\index{bittensor.\_endpoint.endpoint@{bittensor.\_endpoint.endpoint}}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__endpoint_1_1endpoint_aeb176dabcf46340c4d2789a6980be031}\label{classbittensor_1_1__endpoint_1_1endpoint_aeb176dabcf46340c4d2789a6980be031}} 
+ \textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint}{bittensor.\+Endpoint}}\textquotesingle{} {\bfseries \+\_\+\+\_\+new\+\_\+\+\_\+} (cls, int version, int uid, str hotkey, str ip, int ip\+\_\+type, int port, int modality, str coldkey)
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+ \textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint}{bittensor.\+Endpoint}}\textquotesingle{} \mbox{\hyperlink{classbittensor_1_1__endpoint_1_1endpoint_a21de531c8d911a381333e012fc3abb53}{from\+\_\+neuron}} (Simple\+Namespace neuron)
+\item 
+ \textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint}{bittensor.\+Endpoint}}\textquotesingle{} \mbox{\hyperlink{classbittensor_1_1__endpoint_1_1endpoint_ac5d80693719fc94686c0ad4c03606c6b}{from\+\_\+dict}} (dict endpoint\+\_\+dict)
+\item 
+ \textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint}{bittensor.\+Endpoint}}\textquotesingle{} \mbox{\hyperlink{classbittensor_1_1__endpoint_1_1endpoint_afb089e57ffcbe66e50179b5dbe2a2312}{from\+\_\+tensor}} (torch.\+Long\+Tensor tensor)
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__endpoint_1_1endpoint_af4494653d2493ff5b49055a7cd884677}\label{classbittensor_1_1__endpoint_1_1endpoint_af4494653d2493ff5b49055a7cd884677}} 
+def {\bfseries dummy} ()
+\item 
+bool \mbox{\hyperlink{classbittensor_1_1__endpoint_1_1endpoint_a06e709e4da1d6254e9c06e6cb7cb1410}{assert\+\_\+format}} (int version, int uid, str hotkey, str ip, int ip\+\_\+type, int port, int modality, str coldkey)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\begin{DoxyVerb} Create and init neuron object, with attr hotkey, coldkey, modality and ip
+\end{DoxyVerb}
+ 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classbittensor_1_1__endpoint_1_1endpoint_a06e709e4da1d6254e9c06e6cb7cb1410}\label{classbittensor_1_1__endpoint_1_1endpoint_a06e709e4da1d6254e9c06e6cb7cb1410}} 
+\index{bittensor.\_endpoint.endpoint@{bittensor.\_endpoint.endpoint}!assert\_format@{assert\_format}}
+\index{assert\_format@{assert\_format}!bittensor.\_endpoint.endpoint@{bittensor.\_endpoint.endpoint}}
+\doxysubsubsection{\texorpdfstring{assert\_format()}{assert\_format()}}
+{\footnotesize\ttfamily  bool bittensor.\+\_\+endpoint.\+endpoint.\+assert\+\_\+format (\begin{DoxyParamCaption}\item[{int}]{version,  }\item[{int}]{uid,  }\item[{str}]{hotkey,  }\item[{str}]{ip,  }\item[{int}]{ip\+\_\+type,  }\item[{int}]{port,  }\item[{int}]{modality,  }\item[{str          }]{coldkey }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+\begin{DoxyVerb} Asserts that the endpoint has a valid format
+    Raises:
+        Multiple assertion errors.
+\end{DoxyVerb}
+ \mbox{\Hypertarget{classbittensor_1_1__endpoint_1_1endpoint_ac5d80693719fc94686c0ad4c03606c6b}\label{classbittensor_1_1__endpoint_1_1endpoint_ac5d80693719fc94686c0ad4c03606c6b}} 
+\index{bittensor.\_endpoint.endpoint@{bittensor.\_endpoint.endpoint}!from\_dict@{from\_dict}}
+\index{from\_dict@{from\_dict}!bittensor.\_endpoint.endpoint@{bittensor.\_endpoint.endpoint}}
+\doxysubsubsection{\texorpdfstring{from\_dict()}{from\_dict()}}
+{\footnotesize\ttfamily  \textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint}{bittensor.\+Endpoint}}\textquotesingle{} bittensor.\+\_\+endpoint.\+endpoint.\+from\+\_\+dict (\begin{DoxyParamCaption}\item[{dict}]{endpoint\+\_\+dict }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+\begin{DoxyVerb} Return an endpoint with spec from dictionary
+\end{DoxyVerb}
+ \mbox{\Hypertarget{classbittensor_1_1__endpoint_1_1endpoint_a21de531c8d911a381333e012fc3abb53}\label{classbittensor_1_1__endpoint_1_1endpoint_a21de531c8d911a381333e012fc3abb53}} 
+\index{bittensor.\_endpoint.endpoint@{bittensor.\_endpoint.endpoint}!from\_neuron@{from\_neuron}}
+\index{from\_neuron@{from\_neuron}!bittensor.\_endpoint.endpoint@{bittensor.\_endpoint.endpoint}}
+\doxysubsubsection{\texorpdfstring{from\_neuron()}{from\_neuron()}}
+{\footnotesize\ttfamily  \textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint}{bittensor.\+Endpoint}}\textquotesingle{} bittensor.\+\_\+endpoint.\+endpoint.\+from\+\_\+neuron (\begin{DoxyParamCaption}\item[{Simple\+Namespace }]{neuron }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+\begin{DoxyVerb}endpoint.assert_format(
+    version = neuron.version,
+    uid = neuron.uid, 
+    hotkey = neuron.hotkey, 
+    port = neuron.port,
+    ip = neuron.ip, 
+    ip_type = neuron.ip_type, 
+    modality = neuron.modality, 
+    coldkey = neuron.coldkey
+)
+\end{DoxyVerb}
+ \mbox{\Hypertarget{classbittensor_1_1__endpoint_1_1endpoint_afb089e57ffcbe66e50179b5dbe2a2312}\label{classbittensor_1_1__endpoint_1_1endpoint_afb089e57ffcbe66e50179b5dbe2a2312}} 
+\index{bittensor.\_endpoint.endpoint@{bittensor.\_endpoint.endpoint}!from\_tensor@{from\_tensor}}
+\index{from\_tensor@{from\_tensor}!bittensor.\_endpoint.endpoint@{bittensor.\_endpoint.endpoint}}
+\doxysubsubsection{\texorpdfstring{from\_tensor()}{from\_tensor()}}
+{\footnotesize\ttfamily  \textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint}{bittensor.\+Endpoint}}\textquotesingle{} bittensor.\+\_\+endpoint.\+endpoint.\+from\+\_\+tensor (\begin{DoxyParamCaption}\item[{torch.\+Long\+Tensor}]{tensor }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+\begin{DoxyVerb} Return an endpoint with spec from tensor
+\end{DoxyVerb}
+ 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+/\+Users/macthrasher/bittensor/bittensor/\+\_\+endpoint/\+\_\+\+\_\+init\+\_\+\+\_\+.\+py\end{DoxyCompactItemize}

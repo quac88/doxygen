@@ -1,0 +1,142 @@
+\hypertarget{classbittensor_1_1__synapse_1_1synapse}{}\doxysection{bittensor.\+\_\+synapse.\+synapse Class Reference}
+\label{classbittensor_1_1__synapse_1_1synapse}\index{bittensor.\_synapse.synapse@{bittensor.\_synapse.synapse}}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classbittensor_1_1__synapse_1_1text__lasthiddenstate__impl_1_1_text_last_hidden_state}{Text\+Last\+Hidden\+State}} \mbox{\hyperlink{classbittensor_1_1__synapse_1_1synapse_aa477e1b335c842bbc9ce3b90d05e7dd1}{Text\+Last\+Hidden\+State}} (\textquotesingle{}bittensor.\+proto.\+Serializer.\+Type\textquotesingle{} forward\+\_\+request\+\_\+serializer\+\_\+type=bittensor.\+proto.\+Serializer.\+MSGPACK, \textquotesingle{}bittensor.\+proto.\+Serializer.\+Type\textquotesingle{} forward\+\_\+response\+\_\+serializer\+\_\+type=bittensor.\+proto.\+Serializer.\+MSGPACK, \textquotesingle{}bittensor.\+proto.\+Serializer.\+Type\textquotesingle{} backward\+\_\+request\+\_\+serializer\+\_\+type=bittensor.\+proto.\+Serializer.\+MSGPACK, \textquotesingle{}bittensor.\+proto.\+Serializer.\+Type\textquotesingle{} backward\+\_\+response\+\_\+serializer\+\_\+type=bittensor.\+proto.\+Serializer.\+MSGPACK)
+\item 
+\mbox{\hyperlink{classbittensor_1_1__synapse_1_1text__causallm__impl_1_1_text_causal_l_m}{Text\+Causal\+LM}} \mbox{\hyperlink{classbittensor_1_1__synapse_1_1synapse_a238e9d58958a570ca7407f3d9aa3d35f}{Text\+Causal\+LM}} (int topk=512, \textquotesingle{}bittensor.\+proto.\+Serializer.\+Type\textquotesingle{} forward\+\_\+request\+\_\+serializer\+\_\+type=bittensor.\+proto.\+Serializer.\+MSGPACK, \textquotesingle{}bittensor.\+proto.\+Serializer.\+Type\textquotesingle{} forward\+\_\+response\+\_\+serializer\+\_\+type=bittensor.\+proto.\+Serializer.\+MSGPACK, \textquotesingle{}bittensor.\+proto.\+Serializer.\+Type\textquotesingle{} backward\+\_\+request\+\_\+serializer\+\_\+type=bittensor.\+proto.\+Serializer.\+MSGPACK, \textquotesingle{}bittensor.\+proto.\+Serializer.\+Type\textquotesingle{} backward\+\_\+response\+\_\+serializer\+\_\+type=bittensor.\+proto.\+Serializer.\+MSGPACK)
+\item 
+\mbox{\hyperlink{classbittensor_1_1__synapse_1_1text__causallmnext__impl_1_1_text_causal_l_m_next}{Text\+Causal\+LMNext}} \mbox{\hyperlink{classbittensor_1_1__synapse_1_1synapse_a53e1f1a97ac117a0618ee982aae7d38b}{Text\+Causal\+LMNext}} (int topk=4096, \textquotesingle{}bittensor.\+proto.\+Serializer.\+Type\textquotesingle{} forward\+\_\+request\+\_\+serializer\+\_\+type=bittensor.\+proto.\+Serializer.\+MSGPACK, \textquotesingle{}bittensor.\+proto.\+Serializer.\+Type\textquotesingle{} forward\+\_\+response\+\_\+serializer\+\_\+type=bittensor.\+proto.\+Serializer.\+MSGPACK, \textquotesingle{}bittensor.\+proto.\+Serializer.\+Type\textquotesingle{} backward\+\_\+request\+\_\+serializer\+\_\+type=bittensor.\+proto.\+Serializer.\+MSGPACK, \textquotesingle{}bittensor.\+proto.\+Serializer.\+Type\textquotesingle{} backward\+\_\+response\+\_\+serializer\+\_\+type=bittensor.\+proto.\+Serializer.\+MSGPACK)
+\item 
+\mbox{\hyperlink{classbittensor_1_1__synapse_1_1text__seq2seq__impl_1_1_text_seq2_seq}{Text\+Seq2\+Seq}} \mbox{\hyperlink{classbittensor_1_1__synapse_1_1synapse_a6831a3a9bde3a314199338bab9994438}{Text\+Seq2\+Seq}} (int topk=50, int num\+\_\+to\+\_\+generate=256, int num\+\_\+beams=5, int no\+\_\+repeat\+\_\+ngram\+\_\+size=2, bool early\+\_\+stopping=False, int num\+\_\+return\+\_\+sequences=1, bool do\+\_\+sample=False, float top\+\_\+p=0.\+95, float temperature=1.\+0, float repetition\+\_\+penalty=1.\+0, float length\+\_\+penalty=1.\+0, float max\+\_\+time=150, int num\+\_\+beam\+\_\+groups=1, \textquotesingle{}bittensor.\+proto.\+Serializer.\+Type\textquotesingle{} forward\+\_\+request\+\_\+serializer\+\_\+type=bittensor.\+proto.\+Serializer.\+MSGPACK, \textquotesingle{}bittensor.\+proto.\+Serializer.\+Type\textquotesingle{} forward\+\_\+response\+\_\+serializer\+\_\+type=bittensor.\+proto.\+Serializer.\+MSGPACK, \textquotesingle{}bittensor.\+proto.\+Serializer.\+Type\textquotesingle{} backward\+\_\+request\+\_\+serializer\+\_\+type=bittensor.\+proto.\+Serializer.\+MSGPACK, \textquotesingle{}bittensor.\+proto.\+Serializer.\+Type\textquotesingle{} backward\+\_\+response\+\_\+serializer\+\_\+type=bittensor.\+proto.\+Serializer.\+MSGPACK)
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__synapse_1_1synapse_a6bf6b4dd1dedeb82a5714d5364f7cab2}\label{classbittensor_1_1__synapse_1_1synapse_a6bf6b4dd1dedeb82a5714d5364f7cab2}} 
+\mbox{\hyperlink{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse}{Synapse}} {\bfseries deserialize} (bittensor.\+proto.\+Synapse synapse\+\_\+wire\+\_\+proto)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\begin{DoxyVerb}Factory class for the synapse objects. The synapses are designed to work the bittensor protocol and is 
+reponsible for the serialization and deserialization of their contents. They are expected to be included by
+the forwarding neuron when making a call through the bittensor api.
+
+Examples:
+    >>> causallm_synapse = bittensor.synapse.TextCausalLM()
+    >>> dendrite.text(endpoints = [..], inputs = [..], synapses= [causallm_synapse] )\end{DoxyVerb}
+ 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classbittensor_1_1__synapse_1_1synapse_a238e9d58958a570ca7407f3d9aa3d35f}\label{classbittensor_1_1__synapse_1_1synapse_a238e9d58958a570ca7407f3d9aa3d35f}} 
+\index{bittensor.\_synapse.synapse@{bittensor.\_synapse.synapse}!TextCausalLM@{TextCausalLM}}
+\index{TextCausalLM@{TextCausalLM}!bittensor.\_synapse.synapse@{bittensor.\_synapse.synapse}}
+\doxysubsubsection{\texorpdfstring{TextCausalLM()}{TextCausalLM()}}
+{\footnotesize\ttfamily  \mbox{\hyperlink{classbittensor_1_1__synapse_1_1text__causallm__impl_1_1_text_causal_l_m}{Text\+Causal\+LM}} bittensor.\+\_\+synapse.\+synapse.\+Text\+Causal\+LM (\begin{DoxyParamCaption}\item[{int }]{topk = {\ttfamily 512},  }\item[{\textquotesingle{}bittensor.\+proto.\+Serializer.\+Type\textquotesingle{} }]{forward\+\_\+request\+\_\+serializer\+\_\+type = {\ttfamily bittensor.proto.Serializer.MSGPACK},  }\item[{\textquotesingle{}bittensor.\+proto.\+Serializer.\+Type\textquotesingle{} }]{forward\+\_\+response\+\_\+serializer\+\_\+type = {\ttfamily bittensor.proto.Serializer.MSGPACK},  }\item[{\textquotesingle{}bittensor.\+proto.\+Serializer.\+Type\textquotesingle{} }]{backward\+\_\+request\+\_\+serializer\+\_\+type = {\ttfamily bittensor.proto.Serializer.MSGPACK},  }\item[{\textquotesingle{}bittensor.\+proto.\+Serializer.\+Type\textquotesingle{} }]{backward\+\_\+response\+\_\+serializer\+\_\+type = {\ttfamily bittensor.proto.Serializer.MSGPACK} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+\begin{DoxyVerb} Factory function which returns a TextCausalLM synapse adapter given arguments.
+    Args:
+        forward_request_serializer_type (:obj:`bittensor.proto.Serializer.Type` of shape :obj:`(1)`, `optional`, :default: `bittensor.proto.Serializer.MSGPACK`):
+            Serializer used to pack torch tensors on forward request.
+        forward_response_serializer_type (:obj:`bittensor.proto.Serializer.Type` of shape :obj:`(1)`, `optional`, :default: `bittensor.proto.Serializer.MSGPACK`):
+            Serializer used to pack torch tensors on forward response.
+        backward_request_serializer_type (:obj:`bittensor.proto.Serializer.Type` of shape :obj:`(1)`, `optional`, :default: `bittensor.proto.Serializer.MSGPACK`):
+            Serializer used to pack torch tensors on forward request.
+        backward_response_serializer_type (:obj:`bittensor.proto.Serializer.Type` of shape :obj:`(1)`, `optional`, :default: `bittensor.proto.Serializer.MSGPACK`):
+            Serialzer used to pack torch tensors on backward response.
+    Returns:
+        TextCausalLM (:obj:`TextCausalLM`, `required`):
+            TextCausalLM instance adapter class.
+\end{DoxyVerb}
+ \mbox{\Hypertarget{classbittensor_1_1__synapse_1_1synapse_a53e1f1a97ac117a0618ee982aae7d38b}\label{classbittensor_1_1__synapse_1_1synapse_a53e1f1a97ac117a0618ee982aae7d38b}} 
+\index{bittensor.\_synapse.synapse@{bittensor.\_synapse.synapse}!TextCausalLMNext@{TextCausalLMNext}}
+\index{TextCausalLMNext@{TextCausalLMNext}!bittensor.\_synapse.synapse@{bittensor.\_synapse.synapse}}
+\doxysubsubsection{\texorpdfstring{TextCausalLMNext()}{TextCausalLMNext()}}
+{\footnotesize\ttfamily  \mbox{\hyperlink{classbittensor_1_1__synapse_1_1text__causallmnext__impl_1_1_text_causal_l_m_next}{Text\+Causal\+LMNext}} bittensor.\+\_\+synapse.\+synapse.\+Text\+Causal\+LMNext (\begin{DoxyParamCaption}\item[{int }]{topk = {\ttfamily 4096},  }\item[{\textquotesingle{}bittensor.\+proto.\+Serializer.\+Type\textquotesingle{} }]{forward\+\_\+request\+\_\+serializer\+\_\+type = {\ttfamily bittensor.proto.Serializer.MSGPACK},  }\item[{\textquotesingle{}bittensor.\+proto.\+Serializer.\+Type\textquotesingle{} }]{forward\+\_\+response\+\_\+serializer\+\_\+type = {\ttfamily bittensor.proto.Serializer.MSGPACK},  }\item[{\textquotesingle{}bittensor.\+proto.\+Serializer.\+Type\textquotesingle{} }]{backward\+\_\+request\+\_\+serializer\+\_\+type = {\ttfamily bittensor.proto.Serializer.MSGPACK},  }\item[{\textquotesingle{}bittensor.\+proto.\+Serializer.\+Type\textquotesingle{} }]{backward\+\_\+response\+\_\+serializer\+\_\+type = {\ttfamily bittensor.proto.Serializer.MSGPACK} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+\begin{DoxyVerb} Factory function which returns a TextCausalLMNext synapse adapter given arguments.
+    Args:
+        topk (:obj:`int`):
+            Specifies the number of topk server token phrases to return.
+        forward_request_serializer_type (:obj:`bittensor.proto.Serializer.Type` of shape :obj:`(1)`, `optional`, :default: `bittensor.proto.Serializer.MSGPACK`):
+            Serializer used to pack torch tensors on forward request.
+        forward_response_serializer_type (:obj:`bittensor.proto.Serializer.Type` of shape :obj:`(1)`, `optional`, :default: `bittensor.proto.Serializer.MSGPACK`):
+            Serializer used to pack torch tensors on forward response.
+        backward_request_serializer_type (:obj:`bittensor.proto.Serializer.Type` of shape :obj:`(1)`, `optional`, :default: `bittensor.proto.Serializer.MSGPACK`):
+            Serializer used to pack torch tensors on forward request.
+        backward_response_serializer_type (:obj:`bittensor.proto.Serializer.Type` of shape :obj:`(1)`, `optional`, :default: `bittensor.proto.Serializer.MSGPACK`):
+            Serializer used to pack torch tensors on backward response.
+    Returns:
+        TextCausalLMNext (:obj:`TextCausalLMNext`, `required`):
+            TextCausalLMNext instance adapter class.
+\end{DoxyVerb}
+ \mbox{\Hypertarget{classbittensor_1_1__synapse_1_1synapse_aa477e1b335c842bbc9ce3b90d05e7dd1}\label{classbittensor_1_1__synapse_1_1synapse_aa477e1b335c842bbc9ce3b90d05e7dd1}} 
+\index{bittensor.\_synapse.synapse@{bittensor.\_synapse.synapse}!TextLastHiddenState@{TextLastHiddenState}}
+\index{TextLastHiddenState@{TextLastHiddenState}!bittensor.\_synapse.synapse@{bittensor.\_synapse.synapse}}
+\doxysubsubsection{\texorpdfstring{TextLastHiddenState()}{TextLastHiddenState()}}
+{\footnotesize\ttfamily  \mbox{\hyperlink{classbittensor_1_1__synapse_1_1text__lasthiddenstate__impl_1_1_text_last_hidden_state}{Text\+Last\+Hidden\+State}} bittensor.\+\_\+synapse.\+synapse.\+Text\+Last\+Hidden\+State (\begin{DoxyParamCaption}\item[{\textquotesingle{}bittensor.\+proto.\+Serializer.\+Type\textquotesingle{} }]{forward\+\_\+request\+\_\+serializer\+\_\+type = {\ttfamily bittensor.proto.Serializer.MSGPACK},  }\item[{\textquotesingle{}bittensor.\+proto.\+Serializer.\+Type\textquotesingle{} }]{forward\+\_\+response\+\_\+serializer\+\_\+type = {\ttfamily bittensor.proto.Serializer.MSGPACK},  }\item[{\textquotesingle{}bittensor.\+proto.\+Serializer.\+Type\textquotesingle{} }]{backward\+\_\+request\+\_\+serializer\+\_\+type = {\ttfamily bittensor.proto.Serializer.MSGPACK},  }\item[{\textquotesingle{}bittensor.\+proto.\+Serializer.\+Type\textquotesingle{} }]{backward\+\_\+response\+\_\+serializer\+\_\+type = {\ttfamily bittensor.proto.Serializer.MSGPACK} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+\begin{DoxyVerb} Factory function which returns a TextLastHiddenState synapse adapter given arguments.
+    Args:
+        forward_request_serializer_type (:obj:`bittensor.proto.Serializer.Type` of shape :obj:`(1)`, `optional`, :default: `bittensor.proto.Serializer.MSGPACK`):
+            Serializer used to pack torch tensors on forward request.
+        forward_response_serializer_type (:obj:`bittensor.proto.Serializer.Type` of shape :obj:`(1)`, `optional`, :default: `bittensor.proto.Serializer.MSGPACK`):
+            Serializer used to pack torch tensors on forward response.
+        backward_request_serializer_type (:obj:`bittensor.proto.Serializer.Type` of shape :obj:`(1)`, `optional`, :default: `bittensor.proto.Serializer.MSGPACK`):
+            Serializer used to pack torch tensors on forward request.
+        backward_response_serializer_type (:obj:`bittensor.proto.Serializer.Type` of shape :obj:`(1)`, `optional`, :default: `bittensor.proto.Serializer.MSGPACK`):
+            Serialzer used to pack torch tensors on backward response.
+    Returns:
+        TextLastHiddenState (:obj:`TextLastHiddenState`, `required`):
+            TextLastHiddenState instance adapter class.
+\end{DoxyVerb}
+ \mbox{\Hypertarget{classbittensor_1_1__synapse_1_1synapse_a6831a3a9bde3a314199338bab9994438}\label{classbittensor_1_1__synapse_1_1synapse_a6831a3a9bde3a314199338bab9994438}} 
+\index{bittensor.\_synapse.synapse@{bittensor.\_synapse.synapse}!TextSeq2Seq@{TextSeq2Seq}}
+\index{TextSeq2Seq@{TextSeq2Seq}!bittensor.\_synapse.synapse@{bittensor.\_synapse.synapse}}
+\doxysubsubsection{\texorpdfstring{TextSeq2Seq()}{TextSeq2Seq()}}
+{\footnotesize\ttfamily  \mbox{\hyperlink{classbittensor_1_1__synapse_1_1text__seq2seq__impl_1_1_text_seq2_seq}{Text\+Seq2\+Seq}} bittensor.\+\_\+synapse.\+synapse.\+Text\+Seq2\+Seq (\begin{DoxyParamCaption}\item[{int }]{topk = {\ttfamily 50},  }\item[{int }]{num\+\_\+to\+\_\+generate = {\ttfamily 256},  }\item[{int }]{num\+\_\+beams = {\ttfamily 5},  }\item[{int }]{no\+\_\+repeat\+\_\+ngram\+\_\+size = {\ttfamily 2},  }\item[{bool }]{early\+\_\+stopping = {\ttfamily False},  }\item[{int }]{num\+\_\+return\+\_\+sequences = {\ttfamily 1},  }\item[{bool }]{do\+\_\+sample = {\ttfamily False},  }\item[{float }]{top\+\_\+p = {\ttfamily 0.95},  }\item[{float }]{temperature = {\ttfamily 1.0},  }\item[{float }]{repetition\+\_\+penalty = {\ttfamily 1.0},  }\item[{float }]{length\+\_\+penalty = {\ttfamily 1.0},  }\item[{float }]{max\+\_\+time = {\ttfamily 150},  }\item[{int }]{num\+\_\+beam\+\_\+groups = {\ttfamily 1},  }\item[{\textquotesingle{}bittensor.\+proto.\+Serializer.\+Type\textquotesingle{} }]{forward\+\_\+request\+\_\+serializer\+\_\+type = {\ttfamily bittensor.proto.Serializer.MSGPACK},  }\item[{\textquotesingle{}bittensor.\+proto.\+Serializer.\+Type\textquotesingle{} }]{forward\+\_\+response\+\_\+serializer\+\_\+type = {\ttfamily bittensor.proto.Serializer.MSGPACK},  }\item[{\textquotesingle{}bittensor.\+proto.\+Serializer.\+Type\textquotesingle{} }]{backward\+\_\+request\+\_\+serializer\+\_\+type = {\ttfamily bittensor.proto.Serializer.MSGPACK},  }\item[{\textquotesingle{}bittensor.\+proto.\+Serializer.\+Type\textquotesingle{} }]{backward\+\_\+response\+\_\+serializer\+\_\+type = {\ttfamily bittensor.proto.Serializer.MSGPACK} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+\begin{DoxyVerb} Factory function which returns a TextSeq2Seq synapse adapter given arguments.
+Args:
+    Topk (:obj:int, :default: 50):
+        The number of highest probability vocabulary tokens to keep for top-k-filtering. 
+    num_to_generate (:obj: int, :default: 256):
+        The number of tokens to generate using the language model
+    num_beams (:obj: int, :default: 5):
+        The number of beams to keep during beam search
+    no_repeat_ngram_size (:obj: int, :default: 2):
+        The number of repeat n gram allowed
+    early_stopping: (:obj: bool, :default: True):
+        If the model should early stop if the probabilty drops a certain threshold
+    num_return_sequences: (:obj: int, :default: 1):
+        How many sequences should the model return
+    do_sample (:obj: bool, :default: False):
+        If the model should do sample its probablity during generation
+    top_p (:obj: float, :default: 0.95): 
+        probability cutoff for top p sampling
+    temperature: (:obj: float, :default: 1.0):
+        The value used to module the next token probabilities for the softmax calculation
+    repetition_penalty (:obj: float, :default: 1.0):
+        The parameter for repetition penalty. 1.0 means no penalty.
+    length_penalty (:obj: float, :default: 1.0): 
+        The parameter for length penalty. 0.0 means no penalty, <0 to encourage longer sequences.
+    num_beam_groups (:obj: int, :default: 1):
+        Number of groups to divide num_beams into in order to ensure diversity among different groups of beams. 
+    max_time (:obj: float, :default: 150): 
+        The maximum time that a server can use to generate
+    forward_request_serializer_type (:obj:`bittensor.proto.Serializer.Type` of shape :obj:`(1)`, `optional`, :default: `bittensor.proto.Serializer.MSGPACK`):
+        Serializer used to pack torch tensors on forward request.
+    forward_response_serializer_type (:obj:`bittensor.proto.Serializer.Type` of shape :obj:`(1)`, `optional`, :default: `bittensor.proto.Serializer.MSGPACK`):
+        Serializer used to pack torch tensors on forward response.
+    backward_request_serializer_type (:obj:`bittensor.proto.Serializer.Type` of shape :obj:`(1)`, `optional`, :default: `bittensor.proto.Serializer.MSGPACK`):
+        Serializer used to pack torch tensors on forward request.
+    backward_response_serializer_type (:obj:`bittensor.proto.Serializer.Type` of shape :obj:`(1)`, `optional`, :default: `bittensor.proto.Serializer.MSGPACK`):
+        Serialzer used to pack torch tensors on backward response.
+    Returns:
+        TextSeq2Seq (:obj:`TextSeq2Seq`, `required`):
+            TextSeq2Seq instance adapter class.
+\end{DoxyVerb}
+ 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+/\+Users/macthrasher/bittensor/bittensor/\+\_\+synapse/\+\_\+\+\_\+init\+\_\+\+\_\+.\+py\end{DoxyCompactItemize}

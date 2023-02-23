@@ -1,0 +1,34 @@
+\hypertarget{namespacebittensor_1_1__threadpool_1_1priority__thread__pool__impl}{}\doxysection{bittensor.\+\_\+threadpool.\+priority\+\_\+thread\+\_\+pool\+\_\+impl Namespace Reference}
+\label{namespacebittensor_1_1__threadpool_1_1priority__thread__pool__impl}\index{bittensor.\_threadpool.priority\_thread\_pool\_impl@{bittensor.\_threadpool.priority\_thread\_pool\_impl}}
+\doxysubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{classbittensor_1_1__threadpool_1_1priority__thread__pool__impl_1_1___work_item}{\+\_\+\+Work\+Item}}
+\item 
+class \mbox{\hyperlink{classbittensor_1_1__threadpool_1_1priority__thread__pool__impl_1_1_broken_thread_pool}{Broken\+Thread\+Pool}}
+\item 
+class \mbox{\hyperlink{classbittensor_1_1__threadpool_1_1priority__thread__pool__impl_1_1_priority_thread_pool_executor}{Priority\+Thread\+Pool\+Executor}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{namespacebittensor_1_1__threadpool_1_1priority__thread__pool__impl_a9b526def8ac95ec195ad707c693620b4}\label{namespacebittensor_1_1__threadpool_1_1priority__thread__pool__impl_a9b526def8ac95ec195ad707c693620b4}} 
+def {\bfseries \+\_\+worker} (executor\+\_\+reference, work\+\_\+queue, initializer, initargs)
+\end{DoxyCompactItemize}
+\doxysubsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{namespacebittensor_1_1__threadpool_1_1priority__thread__pool__impl_a8dfd867c52b49186c6f15a7c96edd2c4}\label{namespacebittensor_1_1__threadpool_1_1priority__thread__pool__impl_a8dfd867c52b49186c6f15a7c96edd2c4}} 
+weakref {\bfseries \+\_\+threads\+\_\+queues} = weakref.\+Weak\+Key\+Dictionary()
+\item 
+\mbox{\Hypertarget{namespacebittensor_1_1__threadpool_1_1priority__thread__pool__impl_a12e9cb6d09070f3d49f7af6161e70807}\label{namespacebittensor_1_1__threadpool_1_1priority__thread__pool__impl_a12e9cb6d09070f3d49f7af6161e70807}} 
+bool {\bfseries \+\_\+shutdown} = False
+\item 
+\mbox{\Hypertarget{namespacebittensor_1_1__threadpool_1_1priority__thread__pool__impl_ac44e6595b2d9dc9fcf31051fbdf98ff2}\label{namespacebittensor_1_1__threadpool_1_1priority__thread__pool__impl_ac44e6595b2d9dc9fcf31051fbdf98ff2}} 
+tuple {\bfseries NULL\+\_\+\+ENTRY} = (sys.\+maxsize, \mbox{\hyperlink{classbittensor_1_1__threadpool_1_1priority__thread__pool__impl_1_1___work_item}{\+\_\+\+Work\+Item}}(None, None, time.\+time(), (), \{\}))
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\begin{DoxyVerb}Implements ThreadPoolExecutor.\end{DoxyVerb}
+ 

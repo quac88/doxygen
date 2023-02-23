@@ -1,0 +1,94 @@
+\hypertarget{classbittensor_1_1__metagraph_1_1metagraph}{}\doxysection{bittensor.\+\_\+metagraph.\+metagraph Class Reference}
+\label{classbittensor_1_1__metagraph_1_1metagraph}\index{bittensor.\_metagraph.metagraph@{bittensor.\_metagraph.metagraph}}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+ \textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__metagraph_1_1metagraph__impl_1_1_metagraph}{bittensor.\+Metagraph}}\textquotesingle{} \mbox{\hyperlink{classbittensor_1_1__metagraph_1_1metagraph_ab5b2035d804bf82b025d8408980455c8}{\+\_\+\+\_\+new\+\_\+\+\_\+}} (cls, \textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__config_1_1config}{bittensor.\+config}}\textquotesingle{} \mbox{\hyperlink{classbittensor_1_1__config_1_1config}{config}}=None, \textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__subtensor_1_1subtensor__impl_1_1_subtensor}{bittensor.\+Subtensor}}\textquotesingle{} \mbox{\hyperlink{classbittensor_1_1__subtensor_1_1subtensor}{subtensor}}=None, str network=None, str chain\+\_\+endpoint=None, bool \+\_\+mock=None)
+\item 
+ \textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__config_1_1config__impl_1_1_config}{bittensor.\+Config}}\textquotesingle{} \mbox{\hyperlink{classbittensor_1_1__metagraph_1_1metagraph_a8b94e1702e4e0deb345284878f115dd9}{config}} (cls)
+\item 
+def \mbox{\hyperlink{classbittensor_1_1__metagraph_1_1metagraph_a60312264f9c16fd14d40fadceaf7cc3c}{help}} (cls)
+\item 
+def \mbox{\hyperlink{classbittensor_1_1__metagraph_1_1metagraph_a256c4780fd08c591fb2e630f7e4cff37}{add\+\_\+args}} (cls, argparse.\+Argument\+Parser parser, str prefix=None)
+\item 
+def \mbox{\hyperlink{classbittensor_1_1__metagraph_1_1metagraph_ab7eaaa11a5bbce23d8b0b428dcbff0cd}{check\+\_\+config}} (cls, \textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__config_1_1config__impl_1_1_config}{bittensor.\+Config}}\textquotesingle{} \mbox{\hyperlink{classbittensor_1_1__config_1_1config}{config}})
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\begin{DoxyVerb} Factory class for the bittensor.Metagraph class or the MockMetagraph
+The Metagraph object serves as the main storage unit for the chain state. 
+By default, it stores all chain information as a torch.nn.Module which can be
+synced using a subtensor connection.
+
+Examples:: 
+        >>> subtensor = bittensor.subtensor(network='nakamoto')
+        >>> metagraph = bittensor.metagraph(subtensor=subtensor)
+        >>> metagraph.sync()
+\end{DoxyVerb}
+ 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classbittensor_1_1__metagraph_1_1metagraph_ab5b2035d804bf82b025d8408980455c8}\label{classbittensor_1_1__metagraph_1_1metagraph_ab5b2035d804bf82b025d8408980455c8}} 
+\index{bittensor.\_metagraph.metagraph@{bittensor.\_metagraph.metagraph}!\_\_new\_\_@{\_\_new\_\_}}
+\index{\_\_new\_\_@{\_\_new\_\_}!bittensor.\_metagraph.metagraph@{bittensor.\_metagraph.metagraph}}
+\doxysubsubsection{\texorpdfstring{\_\_new\_\_()}{\_\_new\_\_()}}
+{\footnotesize\ttfamily  \textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__metagraph_1_1metagraph__impl_1_1_metagraph}{bittensor.\+Metagraph}}\textquotesingle{} bittensor.\+\_\+metagraph.\+metagraph.\+\_\+\+\_\+new\+\_\+\+\_\+ (\begin{DoxyParamCaption}\item[{}]{cls,  }\item[{\textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__config_1_1config}{bittensor.\+config}}\textquotesingle{} }]{config = {\ttfamily None},  }\item[{\textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__subtensor_1_1subtensor__impl_1_1_subtensor}{bittensor.\+Subtensor}}\textquotesingle{} }]{subtensor = {\ttfamily None},  }\item[{str }]{network = {\ttfamily None},  }\item[{str }]{chain\+\_\+endpoint = {\ttfamily None},  }\item[{bool}]{\+\_\+mock = {\ttfamily None} }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb} Creates a new bittensor.Metagraph object from passed arguments.
+        Args:
+            config (:obj:`bittensor.Config`, `optional`): 
+                bittensor.metagraph.config()
+            subtensor (:obj:`bittensor.Subtensor`, `optional`): 
+                bittensor subtensor chain connection.
+            network (default='local', type=str)
+                The subtensor network flag. The likely choices are:
+                        -- nobunaga (staging network)
+                        -- nakamoto (main network)
+                        -- local (local running network)
+                If this option is set it overloads subtensor.chain_endpoint with 
+                an entry point node from that network.
+            chain_endpoint (default=None, type=str)
+                The subtensor endpoint flag. If set, overrides the network argument.
+            _mock (:obj:`bool`, `optional`):
+                For testing, if true the metagraph returns mocked outputs.\end{DoxyVerb}
+ \mbox{\Hypertarget{classbittensor_1_1__metagraph_1_1metagraph_a256c4780fd08c591fb2e630f7e4cff37}\label{classbittensor_1_1__metagraph_1_1metagraph_a256c4780fd08c591fb2e630f7e4cff37}} 
+\index{bittensor.\_metagraph.metagraph@{bittensor.\_metagraph.metagraph}!add\_args@{add\_args}}
+\index{add\_args@{add\_args}!bittensor.\_metagraph.metagraph@{bittensor.\_metagraph.metagraph}}
+\doxysubsubsection{\texorpdfstring{add\_args()}{add\_args()}}
+{\footnotesize\ttfamily def bittensor.\+\_\+metagraph.\+metagraph.\+add\+\_\+args (\begin{DoxyParamCaption}\item[{}]{cls,  }\item[{argparse.\+Argument\+Parser}]{parser,  }\item[{str }]{prefix = {\ttfamily None} }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb} Add specific arguments from parser, 
+which is the identical to subtensor  
+\end{DoxyVerb}
+ \mbox{\Hypertarget{classbittensor_1_1__metagraph_1_1metagraph_ab7eaaa11a5bbce23d8b0b428dcbff0cd}\label{classbittensor_1_1__metagraph_1_1metagraph_ab7eaaa11a5bbce23d8b0b428dcbff0cd}} 
+\index{bittensor.\_metagraph.metagraph@{bittensor.\_metagraph.metagraph}!check\_config@{check\_config}}
+\index{check\_config@{check\_config}!bittensor.\_metagraph.metagraph@{bittensor.\_metagraph.metagraph}}
+\doxysubsubsection{\texorpdfstring{check\_config()}{check\_config()}}
+{\footnotesize\ttfamily def bittensor.\+\_\+metagraph.\+metagraph.\+check\+\_\+config (\begin{DoxyParamCaption}\item[{}]{cls,  }\item[{\textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__config_1_1config__impl_1_1_config}{bittensor.\+Config}}\textquotesingle{} }]{config }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb} Check config,
+which is identical to subtensor
+\end{DoxyVerb}
+ \mbox{\Hypertarget{classbittensor_1_1__metagraph_1_1metagraph_a8b94e1702e4e0deb345284878f115dd9}\label{classbittensor_1_1__metagraph_1_1metagraph_a8b94e1702e4e0deb345284878f115dd9}} 
+\index{bittensor.\_metagraph.metagraph@{bittensor.\_metagraph.metagraph}!config@{config}}
+\index{config@{config}!bittensor.\_metagraph.metagraph@{bittensor.\_metagraph.metagraph}}
+\doxysubsubsection{\texorpdfstring{config()}{config()}}
+{\footnotesize\ttfamily  \textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__config_1_1config__impl_1_1_config}{bittensor.\+Config}}\textquotesingle{} bittensor.\+\_\+metagraph.\+metagraph.\+config (\begin{DoxyParamCaption}\item[{}]{cls }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb} Get config from teh argument parser
+Return: bittensor.config object
+\end{DoxyVerb}
+ \mbox{\Hypertarget{classbittensor_1_1__metagraph_1_1metagraph_a60312264f9c16fd14d40fadceaf7cc3c}\label{classbittensor_1_1__metagraph_1_1metagraph_a60312264f9c16fd14d40fadceaf7cc3c}} 
+\index{bittensor.\_metagraph.metagraph@{bittensor.\_metagraph.metagraph}!help@{help}}
+\index{help@{help}!bittensor.\_metagraph.metagraph@{bittensor.\_metagraph.metagraph}}
+\doxysubsubsection{\texorpdfstring{help()}{help()}}
+{\footnotesize\ttfamily def bittensor.\+\_\+metagraph.\+metagraph.\+help (\begin{DoxyParamCaption}\item[{}]{cls }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb} Print help to stdout
+\end{DoxyVerb}
+ 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+/\+Users/macthrasher/bittensor/bittensor/\+\_\+metagraph/\+\_\+\+\_\+init\+\_\+\+\_\+.\+py\end{DoxyCompactItemize}

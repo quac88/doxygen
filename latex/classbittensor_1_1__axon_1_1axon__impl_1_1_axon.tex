@@ -1,0 +1,428 @@
+\hypertarget{classbittensor_1_1__axon_1_1axon__impl_1_1_axon}{}\doxysection{bittensor.\+\_\+axon.\+axon\+\_\+impl.\+Axon Class Reference}
+\label{classbittensor_1_1__axon_1_1axon__impl_1_1_axon}\index{bittensor.\_axon.axon\_impl.Axon@{bittensor.\_axon.axon\_impl.Axon}}
+Inheritance diagram for bittensor.\+\_\+axon.\+axon\+\_\+impl.\+Axon\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classbittensor_1_1__axon_1_1axon__impl_1_1_axon}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \mbox{\hyperlink{classbittensor_1_1__axon_1_1axon__impl_1_1_axon_ae26e7b802d3e514880155f6bc30e0929}{\+\_\+\+\_\+init\+\_\+\+\_\+}} (self, \textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__wallet_1_1wallet}{bittensor.\+wallet}}\textquotesingle{} \mbox{\hyperlink{classbittensor_1_1__wallet_1_1wallet}{wallet}}, str ip, int port, str external\+\_\+ip, int external\+\_\+port, \textquotesingle{}grpc.\+\_\+\+Server\textquotesingle{} server, \textquotesingle{}Callable\textquotesingle{} forward, \textquotesingle{}Callable\textquotesingle{} backward, dict synapses, \textquotesingle{}Callable\textquotesingle{} synapse\+\_\+checks, dict synapse\+\_\+timeouts, str prometheus\+\_\+level, \textquotesingle{}Callable\textquotesingle{} priority=None, \textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__threadpool_1_1prioritythreadpool}{bittensor.\+prioritythreadpool}}\textquotesingle{} priority\+\_\+threadpool=None, int forward\+\_\+timeout=None, int backward\+\_\+timeout=None)
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__axon_1_1axon__impl_1_1_axon_a7488fa71cd70daf3e8bec2d1a5b6a4de}\label{classbittensor_1_1__axon_1_1axon__impl_1_1_axon_a7488fa71cd70daf3e8bec2d1a5b6a4de}} 
+str {\bfseries \+\_\+\+\_\+str\+\_\+\+\_\+} (self)
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__axon_1_1axon__impl_1_1_axon_a042feb2c129dfc130363217cff2674d4}\label{classbittensor_1_1__axon_1_1axon__impl_1_1_axon_a042feb2c129dfc130363217cff2674d4}} 
+str {\bfseries \+\_\+\+\_\+repr\+\_\+\+\_\+} (self)
+\item 
+bittensor.\+proto.\+Tensor\+Message \mbox{\hyperlink{classbittensor_1_1__axon_1_1axon__impl_1_1_axon_a5a5e5a8ee71fd9038bf83f7a0ac5ddec}{Forward}} (self, bittensor.\+proto.\+Tensor\+Message request, grpc.\+Servicer\+Context context)
+\item 
+bittensor.\+proto.\+Tensor\+Message \mbox{\hyperlink{classbittensor_1_1__axon_1_1axon__impl_1_1_axon_acc5703beb6b5d5be24f7f7ecdd744f3e}{Backward}} (self, bittensor.\+proto.\+Tensor\+Message request, grpc.\+Servicer\+Context context)
+\item 
+def \mbox{\hyperlink{classbittensor_1_1__axon_1_1axon__impl_1_1_axon_aeb7638fed309a59fa8e464412f53ca2d}{default\+\_\+forward\+\_\+callback}} (self, torch.\+Float\+Tensor inputs\+\_\+x, synapses=\mbox{[}$\,$\mbox{]}, hotkey=None)
+\item 
+def \mbox{\hyperlink{classbittensor_1_1__axon_1_1axon__impl_1_1_axon_af83a7aa148ab6b2cb77ad3adcdba75c3}{default\+\_\+backward\+\_\+callback}} (self, torch.\+Float\+Tensor inputs\+\_\+x, torch.\+Float\+Tensor grads\+\_\+dy, synapses=\mbox{[}$\,$\mbox{]})
+\item 
+def \mbox{\hyperlink{classbittensor_1_1__axon_1_1axon__impl_1_1_axon_a0db9616b2dc78f8f9bfbede01ca9a76b}{attach\+\_\+forward\+\_\+callback}} (self, Callable\mbox{[}\mbox{[}str, torch.\+Tensor, int\mbox{]}, torch.\+Tensor\mbox{]} forward\+\_\+callback)
+\item 
+def \mbox{\hyperlink{classbittensor_1_1__axon_1_1axon__impl_1_1_axon_a6d1de6240ebbaf7fffc0d109f67929f0}{attach\+\_\+synapse\+\_\+callback}} (self, Callable\mbox{[}\mbox{[}str, torch.\+Tensor, int\mbox{]}, torch.\+Tensor\mbox{]} synapse\+\_\+callback, synapse\+\_\+type)
+\item 
+def \mbox{\hyperlink{classbittensor_1_1__axon_1_1axon__impl_1_1_axon_a97de5de0089fe20331aaf0fb3f100475}{attach\+\_\+backward\+\_\+callback}} (self, Callable\mbox{[}\mbox{[}str, torch.\+Tensor, torch.\+Tensor, int\mbox{]}, torch.\+Tensor\mbox{]} backward\+\_\+callback)
+\item 
+def \mbox{\hyperlink{classbittensor_1_1__axon_1_1axon__impl_1_1_axon_a0cbb67c54b3c01198a71c91b6bd37709}{\+\_\+\+\_\+del\+\_\+\+\_\+}} (self)
+\item 
+ \textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__axon_1_1axon__impl_1_1_axon}{Axon}}\textquotesingle{} \mbox{\hyperlink{classbittensor_1_1__axon_1_1axon__impl_1_1_axon_afd2275e5a1dd116d606f20194792e3fd}{serve}} (self, bool use\+\_\+upnpc=False, \textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__subtensor_1_1subtensor__impl_1_1_subtensor}{bittensor.\+Subtensor}}\textquotesingle{} \mbox{\hyperlink{classbittensor_1_1__subtensor_1_1subtensor}{subtensor}}=None, str network=None, str chain\+\_\+endpoint=None, bool prompt=False)
+\item 
+ \textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__axon_1_1axon__impl_1_1_axon}{Axon}}\textquotesingle{} \mbox{\hyperlink{classbittensor_1_1__axon_1_1axon__impl_1_1_axon_a14cd3634239dfa4ff55545ad06e58d94}{start}} (self)
+\item 
+ \textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__axon_1_1axon__impl_1_1_axon}{Axon}}\textquotesingle{} \mbox{\hyperlink{classbittensor_1_1__axon_1_1axon__impl_1_1_axon_a26628e7f324a051d11992b448fb41697}{stop}} (self)
+\item 
+def \mbox{\hyperlink{classbittensor_1_1__axon_1_1axon__impl_1_1_axon_af18aff445eeb45edd5ecfc07a2a8d486}{check}} (self)
+\item 
+def \mbox{\hyperlink{classbittensor_1_1__axon_1_1axon__impl_1_1_axon_a2b1e0f757a3ab4fa12e3d0d14f31fcd2}{update\+\_\+stats\+\_\+for\+\_\+request}} (self, request, response, time, code)
+\item 
+def \mbox{\hyperlink{classbittensor_1_1__axon_1_1axon__impl_1_1_axon_ad884f50599b221c68ca92c012453f041}{to\+\_\+dataframe}} (self, \mbox{\hyperlink{classbittensor_1_1__metagraph_1_1metagraph}{metagraph}})
+\item 
+def \mbox{\hyperlink{classbittensor_1_1__axon_1_1axon__impl_1_1_axon_a2dff79ece41fbfb43286460c76fcad67}{to\+\_\+wandb}} (self)
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__axon_1_1axon__impl_1_1_axon_a6cb60d31a29f1264dddd761eff914e9c}\label{classbittensor_1_1__axon_1_1axon__impl_1_1_axon_a6cb60d31a29f1264dddd761eff914e9c}} 
+{\bfseries ip}
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__axon_1_1axon__impl_1_1_axon_a495ee94db558d43cd783653bd6a794f3}\label{classbittensor_1_1__axon_1_1axon__impl_1_1_axon_a495ee94db558d43cd783653bd6a794f3}} 
+{\bfseries port}
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__axon_1_1axon__impl_1_1_axon_a0b5a02653940225229700fcafdc5ad67}\label{classbittensor_1_1__axon_1_1axon__impl_1_1_axon_a0b5a02653940225229700fcafdc5ad67}} 
+{\bfseries external\+\_\+ip}
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__axon_1_1axon__impl_1_1_axon_a925d4292bd65e6419610ddb24dc8c9a9}\label{classbittensor_1_1__axon_1_1axon__impl_1_1_axon_a925d4292bd65e6419610ddb24dc8c9a9}} 
+{\bfseries external\+\_\+port}
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__axon_1_1axon__impl_1_1_axon_a67619a6c0020220785a6e1894daa3268}\label{classbittensor_1_1__axon_1_1axon__impl_1_1_axon_a67619a6c0020220785a6e1894daa3268}} 
+{\bfseries wallet}
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__axon_1_1axon__impl_1_1_axon_a920ed8e7fc5a71ee32f1a0ca5eadb389}\label{classbittensor_1_1__axon_1_1axon__impl_1_1_axon_a920ed8e7fc5a71ee32f1a0ca5eadb389}} 
+{\bfseries server}
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__axon_1_1axon__impl_1_1_axon_a961a4c900afba0941aa37b0143629494}\label{classbittensor_1_1__axon_1_1axon__impl_1_1_axon_a961a4c900afba0941aa37b0143629494}} 
+{\bfseries forward\+\_\+callback}
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__axon_1_1axon__impl_1_1_axon_a2c96cc8208446ca2a3564701bf41e67b}\label{classbittensor_1_1__axon_1_1axon__impl_1_1_axon_a2c96cc8208446ca2a3564701bf41e67b}} 
+{\bfseries backward\+\_\+callback}
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__axon_1_1axon__impl_1_1_axon_a57a1b659ab9f6a9613c7780108fc6c7e}\label{classbittensor_1_1__axon_1_1axon__impl_1_1_axon_a57a1b659ab9f6a9613c7780108fc6c7e}} 
+{\bfseries forward\+\_\+timeout}
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__axon_1_1axon__impl_1_1_axon_a983910e2dec663cc4f6dd9a360c9ed20}\label{classbittensor_1_1__axon_1_1axon__impl_1_1_axon_a983910e2dec663cc4f6dd9a360c9ed20}} 
+{\bfseries backward\+\_\+timeout}
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__axon_1_1axon__impl_1_1_axon_a8cbc3cca071799ea2329a109898a41cc}\label{classbittensor_1_1__axon_1_1axon__impl_1_1_axon_a8cbc3cca071799ea2329a109898a41cc}} 
+{\bfseries synapse\+\_\+callbacks}
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__axon_1_1axon__impl_1_1_axon_a6b146bcf1d22f994ede30ad5f2e4c284}\label{classbittensor_1_1__axon_1_1axon__impl_1_1_axon_a6b146bcf1d22f994ede30ad5f2e4c284}} 
+{\bfseries synapse\+\_\+checks}
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__axon_1_1axon__impl_1_1_axon_a2bae7561960e52ff822fb6ac459f0554}\label{classbittensor_1_1__axon_1_1axon__impl_1_1_axon_a2bae7561960e52ff822fb6ac459f0554}} 
+{\bfseries synapse\+\_\+timeouts}
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__axon_1_1axon__impl_1_1_axon_a11d3d3007095ab6a786686709487d4ea}\label{classbittensor_1_1__axon_1_1axon__impl_1_1_axon_a11d3d3007095ab6a786686709487d4ea}} 
+{\bfseries prometheus\+\_\+level}
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__axon_1_1axon__impl_1_1_axon_a66f2e9f35f21b85dc3f6d99ab070fbf2}\label{classbittensor_1_1__axon_1_1axon__impl_1_1_axon_a66f2e9f35f21b85dc3f6d99ab070fbf2}} 
+{\bfseries stats}
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__axon_1_1axon__impl_1_1_axon_ac70c73c7cd11a94f93b539e6175dccdd}\label{classbittensor_1_1__axon_1_1axon__impl_1_1_axon_ac70c73c7cd11a94f93b539e6175dccdd}} 
+{\bfseries started}
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__axon_1_1axon__impl_1_1_axon_ad7bade056e01bb1841b1bb0d7ce2ae52}\label{classbittensor_1_1__axon_1_1axon__impl_1_1_axon_ad7bade056e01bb1841b1bb0d7ce2ae52}} 
+{\bfseries optimizer\+\_\+step}
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__axon_1_1axon__impl_1_1_axon_a74e47cfa3299310ed4a1d274be8db249}\label{classbittensor_1_1__axon_1_1axon__impl_1_1_axon_a74e47cfa3299310ed4a1d274be8db249}} 
+{\bfseries priority}
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__axon_1_1axon__impl_1_1_axon_a5612cc284d67a9a7e48ddd9ae1513f75}\label{classbittensor_1_1__axon_1_1axon__impl_1_1_axon_a5612cc284d67a9a7e48ddd9ae1513f75}} 
+{\bfseries priority\+\_\+threadpool}
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \mbox{\hyperlink{classbittensor_1_1__axon_1_1axon__impl_1_1_axon_a9e9ad24a48f3fd77dfedc6ea1c175485}{\+\_\+forward}} (self, request)
+\item 
+def \mbox{\hyperlink{classbittensor_1_1__axon_1_1axon__impl_1_1_axon_a86ed1f0b91bc07dabcffad70287d885b}{\+\_\+backward}} (self, request)
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__axon_1_1axon__impl_1_1_axon_a045773cfd3db614be3fb3e8af826c12a}\label{classbittensor_1_1__axon_1_1axon__impl_1_1_axon_a045773cfd3db614be3fb3e8af826c12a}} 
+def {\bfseries \+\_\+init\+\_\+stats} (self)
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__axon_1_1axon__impl_1_1_axon_aa1b4a6dae32c63b53eeb3c82411f9e61}\label{classbittensor_1_1__axon_1_1axon__impl_1_1_axon_aa1b4a6dae32c63b53eeb3c82411f9e61}} 
+{\bfseries \+\_\+prometheus\+\_\+uuid}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\begin{DoxyVerb} Services Forward and Backward requests from other neurons.
+\end{DoxyVerb}
+ 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classbittensor_1_1__axon_1_1axon__impl_1_1_axon_ae26e7b802d3e514880155f6bc30e0929}\label{classbittensor_1_1__axon_1_1axon__impl_1_1_axon_ae26e7b802d3e514880155f6bc30e0929}} 
+\index{bittensor.\_axon.axon\_impl.Axon@{bittensor.\_axon.axon\_impl.Axon}!\_\_init\_\_@{\_\_init\_\_}}
+\index{\_\_init\_\_@{\_\_init\_\_}!bittensor.\_axon.axon\_impl.Axon@{bittensor.\_axon.axon\_impl.Axon}}
+\doxysubsubsection{\texorpdfstring{\_\_init\_\_()}{\_\_init\_\_()}}
+{\footnotesize\ttfamily def bittensor.\+\_\+axon.\+axon\+\_\+impl.\+Axon.\+\_\+\+\_\+init\+\_\+\+\_\+ (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{\textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__wallet_1_1wallet}{bittensor.\+wallet}}\textquotesingle{}}]{wallet,  }\item[{str}]{ip,  }\item[{int}]{port,  }\item[{str}]{external\+\_\+ip,  }\item[{int}]{external\+\_\+port,  }\item[{\textquotesingle{}grpc.\+\_\+\+Server\textquotesingle{}}]{server,  }\item[{\textquotesingle{}Callable\textquotesingle{}}]{forward,  }\item[{\textquotesingle{}Callable\textquotesingle{}}]{backward,  }\item[{dict}]{synapses,  }\item[{\textquotesingle{}Callable\textquotesingle{}}]{synapse\+\_\+checks,  }\item[{dict}]{synapse\+\_\+timeouts,  }\item[{str}]{prometheus\+\_\+level,  }\item[{\textquotesingle{}Callable\textquotesingle{} }]{priority = {\ttfamily None},  }\item[{\textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__threadpool_1_1prioritythreadpool}{bittensor.\+prioritythreadpool}}\textquotesingle{} }]{priority\+\_\+threadpool = {\ttfamily None},  }\item[{int }]{forward\+\_\+timeout = {\ttfamily None},  }\item[{int }]{backward\+\_\+timeout = {\ttfamily None} }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb} Initializes a new Axon tensor processing endpoint.
+        
+        Args:
+            config (:obj:`bittensor.Config`, `required`): 
+                bittensor.axon.config()
+            wallet (:obj:`bittensor.wallet`, `required`):
+                bittensor wallet with hotkey and coldkeypub.
+            server (:obj:`grpc._Server`, `required`):
+                Grpc server endpoint.
+            forward (:obj:list of `callable`, `optional`):
+                list of functions which is called on forward requests.
+            backward (:obj:list of `callable`, `optional`):
+                list of functions which is called on backward requests.
+            prometheus_level (:obj:`str`, `required`):
+                Prometheus logging level.
+            priority (:obj:`callable`, `optional`):
+                function to assign priority on requests.
+            priority_threadpool (:obj:`bittensor.prioritythreadpool`, `optional`):
+                bittensor priority_threadpool.\end{DoxyVerb}
+ \mbox{\Hypertarget{classbittensor_1_1__axon_1_1axon__impl_1_1_axon_a0cbb67c54b3c01198a71c91b6bd37709}\label{classbittensor_1_1__axon_1_1axon__impl_1_1_axon_a0cbb67c54b3c01198a71c91b6bd37709}} 
+\index{bittensor.\_axon.axon\_impl.Axon@{bittensor.\_axon.axon\_impl.Axon}!\_\_del\_\_@{\_\_del\_\_}}
+\index{\_\_del\_\_@{\_\_del\_\_}!bittensor.\_axon.axon\_impl.Axon@{bittensor.\_axon.axon\_impl.Axon}}
+\doxysubsubsection{\texorpdfstring{\_\_del\_\_()}{\_\_del\_\_()}}
+{\footnotesize\ttfamily def bittensor.\+\_\+axon.\+axon\+\_\+impl.\+Axon.\+\_\+\+\_\+del\+\_\+\+\_\+ (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb} Called when this axon is deleted, ensures background threads shut down properly.
+\end{DoxyVerb}
+ 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classbittensor_1_1__axon_1_1axon__impl_1_1_axon_a86ed1f0b91bc07dabcffad70287d885b}\label{classbittensor_1_1__axon_1_1axon__impl_1_1_axon_a86ed1f0b91bc07dabcffad70287d885b}} 
+\index{bittensor.\_axon.axon\_impl.Axon@{bittensor.\_axon.axon\_impl.Axon}!\_backward@{\_backward}}
+\index{\_backward@{\_backward}!bittensor.\_axon.axon\_impl.Axon@{bittensor.\_axon.axon\_impl.Axon}}
+\doxysubsubsection{\texorpdfstring{\_backward()}{\_backward()}}
+{\footnotesize\ttfamily def bittensor.\+\_\+axon.\+axon\+\_\+impl.\+Axon.\+\_\+backward (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{request }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+\begin{DoxyVerb} Performs validity checks on the grpc request before piping the request to the backend queue.
+    Returns the outputs and synapses (with codes and messages from the backward call.)
+    Args:
+        request (:obj:`bittensor.proto`, `required`): 
+            Tensor request proto.
+    Returns:
+        response: (:obj:`bittensor.proto.Tensor, `required`): 
+            serialized tensor gradient responses. This is always an empty vector until gradients are allowed.
+        code (:obj:`bittensor.proto.ReturnCode`, `required`):
+            Code from the call. This specifies if the overall function call was a success. 
+            This is separate from the synapse returns codes which relate to the individual synapse call. 
+        synapses (:obj:`List[ 'bittensor.proto.Synapse' ]` of shape :obj:`(num_synapses)`, `required`):
+            Synapse wire protos with return codes from forward request.
+\end{DoxyVerb}
+ \mbox{\Hypertarget{classbittensor_1_1__axon_1_1axon__impl_1_1_axon_a9e9ad24a48f3fd77dfedc6ea1c175485}\label{classbittensor_1_1__axon_1_1axon__impl_1_1_axon_a9e9ad24a48f3fd77dfedc6ea1c175485}} 
+\index{bittensor.\_axon.axon\_impl.Axon@{bittensor.\_axon.axon\_impl.Axon}!\_forward@{\_forward}}
+\index{\_forward@{\_forward}!bittensor.\_axon.axon\_impl.Axon@{bittensor.\_axon.axon\_impl.Axon}}
+\doxysubsubsection{\texorpdfstring{\_forward()}{\_forward()}}
+{\footnotesize\ttfamily def bittensor.\+\_\+axon.\+axon\+\_\+impl.\+Axon.\+\_\+forward (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{request }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+\begin{DoxyVerb} Performs validity checks on the grpc request before passing the tensors to the forward queue.
+    Returns the outputs and synapses from the backend forward call.
+    
+    Args:
+        request (:obj:`bittensor.proto`, `required`): 
+            Tensor request proto.
+    Returns:
+        response (:obj:`bittensor.proto.Tensor, `required`): 
+            serialized tensor response from the nucleus call or None.
+        code (:obj:`bittensor.proto.ReturnCode`, `required`):
+            Code from the call. This specifies if the overall function call was a success. 
+            This is separate from the synapse returns codes which relate to the individual synapse call. 
+        synapses (:obj:`List[ 'bittensor.proto.Synapse' ]` of shape :obj:`(num_synapses)`, `required`):
+            Synapse wire protos with return codes from forward request.
+\end{DoxyVerb}
+ \mbox{\Hypertarget{classbittensor_1_1__axon_1_1axon__impl_1_1_axon_a97de5de0089fe20331aaf0fb3f100475}\label{classbittensor_1_1__axon_1_1axon__impl_1_1_axon_a97de5de0089fe20331aaf0fb3f100475}} 
+\index{bittensor.\_axon.axon\_impl.Axon@{bittensor.\_axon.axon\_impl.Axon}!attach\_backward\_callback@{attach\_backward\_callback}}
+\index{attach\_backward\_callback@{attach\_backward\_callback}!bittensor.\_axon.axon\_impl.Axon@{bittensor.\_axon.axon\_impl.Axon}}
+\doxysubsubsection{\texorpdfstring{attach\_backward\_callback()}{attach\_backward\_callback()}}
+{\footnotesize\ttfamily def bittensor.\+\_\+axon.\+axon\+\_\+impl.\+Axon.\+attach\+\_\+backward\+\_\+callback (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{Callable\mbox{[} \mbox{[}str, torch.\+Tensor, torch.\+Tensor, int\mbox{]}, torch.\+Tensor \mbox{]} }]{backward\+\_\+callback }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb} Assigns the backward_callback call to this neuron.
+
+    Returns:
+        backward_callback (:callabl:`Callable[ [torch.Tensor, torch.Tensor], torch.Tensor `, `required`): 
+             Backward callback called on recieving a backward request.
+\end{DoxyVerb}
+ \mbox{\Hypertarget{classbittensor_1_1__axon_1_1axon__impl_1_1_axon_a0db9616b2dc78f8f9bfbede01ca9a76b}\label{classbittensor_1_1__axon_1_1axon__impl_1_1_axon_a0db9616b2dc78f8f9bfbede01ca9a76b}} 
+\index{bittensor.\_axon.axon\_impl.Axon@{bittensor.\_axon.axon\_impl.Axon}!attach\_forward\_callback@{attach\_forward\_callback}}
+\index{attach\_forward\_callback@{attach\_forward\_callback}!bittensor.\_axon.axon\_impl.Axon@{bittensor.\_axon.axon\_impl.Axon}}
+\doxysubsubsection{\texorpdfstring{attach\_forward\_callback()}{attach\_forward\_callback()}}
+{\footnotesize\ttfamily def bittensor.\+\_\+axon.\+axon\+\_\+impl.\+Axon.\+attach\+\_\+forward\+\_\+callback (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{Callable\mbox{[} \mbox{[}str, torch.\+Tensor, int\mbox{]}, torch.\+Tensor \mbox{]}}]{forward\+\_\+callback }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb} Assigns the forward_callback.
+
+    Returns:
+        forward_callback (:callabl:`Callable[ [str, torch.Tensor, int], torch.Tensor `, `required`): 
+            Forward function called on recieving a forward request.
+\end{DoxyVerb}
+ \mbox{\Hypertarget{classbittensor_1_1__axon_1_1axon__impl_1_1_axon_a6d1de6240ebbaf7fffc0d109f67929f0}\label{classbittensor_1_1__axon_1_1axon__impl_1_1_axon_a6d1de6240ebbaf7fffc0d109f67929f0}} 
+\index{bittensor.\_axon.axon\_impl.Axon@{bittensor.\_axon.axon\_impl.Axon}!attach\_synapse\_callback@{attach\_synapse\_callback}}
+\index{attach\_synapse\_callback@{attach\_synapse\_callback}!bittensor.\_axon.axon\_impl.Axon@{bittensor.\_axon.axon\_impl.Axon}}
+\doxysubsubsection{\texorpdfstring{attach\_synapse\_callback()}{attach\_synapse\_callback()}}
+{\footnotesize\ttfamily def bittensor.\+\_\+axon.\+axon\+\_\+impl.\+Axon.\+attach\+\_\+synapse\+\_\+callback (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{Callable\mbox{[}\mbox{[}str, torch.\+Tensor, int\mbox{]},torch.\+Tensor\mbox{]}}]{synapse\+\_\+callback,  }\item[{}]{synapse\+\_\+type }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb} Assigns the callback to a specific synapse.
+
+    Args:
+        synapse_callback (:callabl:`Callable[ [str, torch.Tensor, int], torch.Tensor `, `required`): 
+            function called for a specific synapse.
+\end{DoxyVerb}
+ \mbox{\Hypertarget{classbittensor_1_1__axon_1_1axon__impl_1_1_axon_acc5703beb6b5d5be24f7f7ecdd744f3e}\label{classbittensor_1_1__axon_1_1axon__impl_1_1_axon_acc5703beb6b5d5be24f7f7ecdd744f3e}} 
+\index{bittensor.\_axon.axon\_impl.Axon@{bittensor.\_axon.axon\_impl.Axon}!Backward@{Backward}}
+\index{Backward@{Backward}!bittensor.\_axon.axon\_impl.Axon@{bittensor.\_axon.axon\_impl.Axon}}
+\doxysubsubsection{\texorpdfstring{Backward()}{Backward()}}
+{\footnotesize\ttfamily  bittensor.\+proto.\+Tensor\+Message bittensor.\+\_\+axon.\+axon\+\_\+impl.\+Axon.\+Backward (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{bittensor.\+proto.\+Tensor\+Message}]{request,  }\item[{grpc.\+Servicer\+Context }]{context }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb} The function called by remote GRPC Backward requests from other neurons.
+    Backward is equivalent to a 'backward' gradient descent pass through a neural network.
+    After checking request validity, passes the request to the nucleus for processing.
+    See :obj:`bittensor.proto.ReturnCode` for all possible return codes.
+    
+    Args:
+        request (:obj:`bittensor.proto`, `required`): 
+            Tensor request proto.
+        context (:obj:`grpc.ServicerContext`, `required`): 
+            grpc server context.
+    
+    Returns:
+        response (:obj:`bittensor.proto.TensorMessage`): 
+            proto response carring the nucleus backward output or None under failure.
+\end{DoxyVerb}
+ \mbox{\Hypertarget{classbittensor_1_1__axon_1_1axon__impl_1_1_axon_af18aff445eeb45edd5ecfc07a2a8d486}\label{classbittensor_1_1__axon_1_1axon__impl_1_1_axon_af18aff445eeb45edd5ecfc07a2a8d486}} 
+\index{bittensor.\_axon.axon\_impl.Axon@{bittensor.\_axon.axon\_impl.Axon}!check@{check}}
+\index{check@{check}!bittensor.\_axon.axon\_impl.Axon@{bittensor.\_axon.axon\_impl.Axon}}
+\doxysubsubsection{\texorpdfstring{check()}{check()}}
+{\footnotesize\ttfamily def bittensor.\+\_\+axon.\+axon\+\_\+impl.\+Axon.\+check (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb} Checks axon's forward and backward callbacks 
+\end{DoxyVerb}
+ \mbox{\Hypertarget{classbittensor_1_1__axon_1_1axon__impl_1_1_axon_af83a7aa148ab6b2cb77ad3adcdba75c3}\label{classbittensor_1_1__axon_1_1axon__impl_1_1_axon_af83a7aa148ab6b2cb77ad3adcdba75c3}} 
+\index{bittensor.\_axon.axon\_impl.Axon@{bittensor.\_axon.axon\_impl.Axon}!default\_backward\_callback@{default\_backward\_callback}}
+\index{default\_backward\_callback@{default\_backward\_callback}!bittensor.\_axon.axon\_impl.Axon@{bittensor.\_axon.axon\_impl.Axon}}
+\doxysubsubsection{\texorpdfstring{default\_backward\_callback()}{default\_backward\_callback()}}
+{\footnotesize\ttfamily def bittensor.\+\_\+axon.\+axon\+\_\+impl.\+Axon.\+default\+\_\+backward\+\_\+callback (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{torch.\+Float\+Tensor}]{inputs\+\_\+x,  }\item[{torch.\+Float\+Tensor}]{grads\+\_\+dy,  }\item[{}]{synapses = {\ttfamily \mbox{[}\mbox{]}} }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}    The default backward callback when no callback is attached: Is used to call specific synapse functions
+
+    Args:
+        inputs_x (:obj:`torch.FloatTensor`, `required`): 
+            The inputs that will be passed to the synapse functions
+        grads_dy (:obj:`torch.FloatTensor`, `required`):
+            The gradients that will be passed to the synapse functions
+        synapses (:obj: list of bittensor.proto.SynapseArgs, 'Optional')
+            The proto message that contains additional args for individual synapse functions
+
+    Returns:
+        response_tensors: (:obj: list of bittensor.proto.Tensor, `required`): 
+            serialized tensor response from the nucleus call or None.
+        response_codes: (:obj: list of bittensor.proto.ReturnCode, `required`)
+            return code associated with forward call i.e. Success of Timeout.
+        response_messages: (:obj: list of strings, `required`)
+            return message associated with synapse call
+\end{DoxyVerb}
+ \mbox{\Hypertarget{classbittensor_1_1__axon_1_1axon__impl_1_1_axon_aeb7638fed309a59fa8e464412f53ca2d}\label{classbittensor_1_1__axon_1_1axon__impl_1_1_axon_aeb7638fed309a59fa8e464412f53ca2d}} 
+\index{bittensor.\_axon.axon\_impl.Axon@{bittensor.\_axon.axon\_impl.Axon}!default\_forward\_callback@{default\_forward\_callback}}
+\index{default\_forward\_callback@{default\_forward\_callback}!bittensor.\_axon.axon\_impl.Axon@{bittensor.\_axon.axon\_impl.Axon}}
+\doxysubsubsection{\texorpdfstring{default\_forward\_callback()}{default\_forward\_callback()}}
+{\footnotesize\ttfamily def bittensor.\+\_\+axon.\+axon\+\_\+impl.\+Axon.\+default\+\_\+forward\+\_\+callback (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{torch.\+Float\+Tensor}]{inputs\+\_\+x,  }\item[{}]{synapses = {\ttfamily \mbox{[}\mbox{]}},  }\item[{}]{hotkey = {\ttfamily None} }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}    The default forward callback when no callback is attached: Is used to call specific synapse functions
+
+    Args:
+        inputs_x (:obj:`torch.FloatTensor`, `required`): 
+            The inputs that will be passed to the synapse functions
+        
+        synapses (:obj: list of bittensor.proto.SynapseArgs, 'Optional')
+            The proto message that contains additional args for individual synapse functions
+
+        hotkey (:obj: str of the hotkey, 'Optional')
+            The hotkey of the validator who sent the request
+
+    Returns:
+        response_tensors: (:obj: list of bittensor.proto.Tensor, `required`): 
+            serialized tensor response from the nucleus call or None.
+        response_codes: (:obj: list of bittensor.proto.ReturnCode, `required`)
+            return code associated with forward call i.e. Success of Timeout.
+        response_messages: (:obj: list of strings, `required`)
+            return message associated with synapse call
+\end{DoxyVerb}
+ \mbox{\Hypertarget{classbittensor_1_1__axon_1_1axon__impl_1_1_axon_a5a5e5a8ee71fd9038bf83f7a0ac5ddec}\label{classbittensor_1_1__axon_1_1axon__impl_1_1_axon_a5a5e5a8ee71fd9038bf83f7a0ac5ddec}} 
+\index{bittensor.\_axon.axon\_impl.Axon@{bittensor.\_axon.axon\_impl.Axon}!Forward@{Forward}}
+\index{Forward@{Forward}!bittensor.\_axon.axon\_impl.Axon@{bittensor.\_axon.axon\_impl.Axon}}
+\doxysubsubsection{\texorpdfstring{Forward()}{Forward()}}
+{\footnotesize\ttfamily  bittensor.\+proto.\+Tensor\+Message bittensor.\+\_\+axon.\+axon\+\_\+impl.\+Axon.\+Forward (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{bittensor.\+proto.\+Tensor\+Message}]{request,  }\item[{grpc.\+Servicer\+Context}]{context }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb} The function called by remote GRPC Forward requests from other neurons.
+    Forward is equivalent to a 'forward' pass through a neural network.
+    After checking request validity, this function passes the request to the nucleus for processing.
+    See :obj:`bittensor.proto.ReturnCode` for all possible return codes.
+    
+    Args:
+        request (:obj:`bittensor.proto`, `required`): 
+            Tensor request proto.
+        context (:obj:`grpc.ServicerContext`, `required`): 
+            grpc server context.
+    
+    Returns:
+        response (bittensor.proto.TensorMessage): 
+            proto response carring the nucleus forward output or None under failure.
+\end{DoxyVerb}
+ \mbox{\Hypertarget{classbittensor_1_1__axon_1_1axon__impl_1_1_axon_afd2275e5a1dd116d606f20194792e3fd}\label{classbittensor_1_1__axon_1_1axon__impl_1_1_axon_afd2275e5a1dd116d606f20194792e3fd}} 
+\index{bittensor.\_axon.axon\_impl.Axon@{bittensor.\_axon.axon\_impl.Axon}!serve@{serve}}
+\index{serve@{serve}!bittensor.\_axon.axon\_impl.Axon@{bittensor.\_axon.axon\_impl.Axon}}
+\doxysubsubsection{\texorpdfstring{serve()}{serve()}}
+{\footnotesize\ttfamily  \textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__axon_1_1axon__impl_1_1_axon}{Axon}}\textquotesingle{} bittensor.\+\_\+axon.\+axon\+\_\+impl.\+Axon.\+serve (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{bool }]{use\+\_\+upnpc = {\ttfamily False},  }\item[{\textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__subtensor_1_1subtensor__impl_1_1_subtensor}{bittensor.\+Subtensor}}\textquotesingle{} }]{subtensor = {\ttfamily None},  }\item[{str }]{network = {\ttfamily None},  }\item[{str }]{chain\+\_\+endpoint = {\ttfamily None},  }\item[{bool }]{prompt = {\ttfamily False} }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb} Subscribes this Axon servicing endpoint to the passed network using it's wallet.
+    Args:
+        use_upnpc (:type:bool, `optional`): 
+            If true, serves the axon attempts port forward through your router before 
+            subscribing.
+        subtensor (:obj:`bittensor.Subtensor`, `optional`): 
+            Chain connection through which to serve.
+        network (default='local', type=str)
+            If subtensor is not set, uses this network flag to create the subtensor connection.
+        chain_endpoint (default=None, type=str)
+            Overrides the network argument if not set.
+        prompt (bool):
+            If true, the call waits for confirmation from the user before proceeding.\end{DoxyVerb}
+ \mbox{\Hypertarget{classbittensor_1_1__axon_1_1axon__impl_1_1_axon_a14cd3634239dfa4ff55545ad06e58d94}\label{classbittensor_1_1__axon_1_1axon__impl_1_1_axon_a14cd3634239dfa4ff55545ad06e58d94}} 
+\index{bittensor.\_axon.axon\_impl.Axon@{bittensor.\_axon.axon\_impl.Axon}!start@{start}}
+\index{start@{start}!bittensor.\_axon.axon\_impl.Axon@{bittensor.\_axon.axon\_impl.Axon}}
+\doxysubsubsection{\texorpdfstring{start()}{start()}}
+{\footnotesize\ttfamily  \textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__axon_1_1axon__impl_1_1_axon}{Axon}}\textquotesingle{} bittensor.\+\_\+axon.\+axon\+\_\+impl.\+Axon.\+start (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb} Starts the standalone axon GRPC server thread.
+\end{DoxyVerb}
+ \mbox{\Hypertarget{classbittensor_1_1__axon_1_1axon__impl_1_1_axon_a26628e7f324a051d11992b448fb41697}\label{classbittensor_1_1__axon_1_1axon__impl_1_1_axon_a26628e7f324a051d11992b448fb41697}} 
+\index{bittensor.\_axon.axon\_impl.Axon@{bittensor.\_axon.axon\_impl.Axon}!stop@{stop}}
+\index{stop@{stop}!bittensor.\_axon.axon\_impl.Axon@{bittensor.\_axon.axon\_impl.Axon}}
+\doxysubsubsection{\texorpdfstring{stop()}{stop()}}
+{\footnotesize\ttfamily  \textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__axon_1_1axon__impl_1_1_axon}{Axon}}\textquotesingle{} bittensor.\+\_\+axon.\+axon\+\_\+impl.\+Axon.\+stop (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb} Stop the axon grpc server.
+\end{DoxyVerb}
+ \mbox{\Hypertarget{classbittensor_1_1__axon_1_1axon__impl_1_1_axon_ad884f50599b221c68ca92c012453f041}\label{classbittensor_1_1__axon_1_1axon__impl_1_1_axon_ad884f50599b221c68ca92c012453f041}} 
+\index{bittensor.\_axon.axon\_impl.Axon@{bittensor.\_axon.axon\_impl.Axon}!to\_dataframe@{to\_dataframe}}
+\index{to\_dataframe@{to\_dataframe}!bittensor.\_axon.axon\_impl.Axon@{bittensor.\_axon.axon\_impl.Axon}}
+\doxysubsubsection{\texorpdfstring{to\_dataframe()}{to\_dataframe()}}
+{\footnotesize\ttfamily def bittensor.\+\_\+axon.\+axon\+\_\+impl.\+Axon.\+to\+\_\+dataframe (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{metagraph }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb} Return a stats info as a pandas dataframe indexed by the metagraph or pubkey if not existend.
+    Args:
+        metagraph: (bittensor.Metagraph):
+            Indexes the stats data using uids.
+    Return:
+        dataframe (:obj:`pandas.Dataframe`)
+\end{DoxyVerb}
+ \mbox{\Hypertarget{classbittensor_1_1__axon_1_1axon__impl_1_1_axon_a2dff79ece41fbfb43286460c76fcad67}\label{classbittensor_1_1__axon_1_1axon__impl_1_1_axon_a2dff79ece41fbfb43286460c76fcad67}} 
+\index{bittensor.\_axon.axon\_impl.Axon@{bittensor.\_axon.axon\_impl.Axon}!to\_wandb@{to\_wandb}}
+\index{to\_wandb@{to\_wandb}!bittensor.\_axon.axon\_impl.Axon@{bittensor.\_axon.axon\_impl.Axon}}
+\doxysubsubsection{\texorpdfstring{to\_wandb()}{to\_wandb()}}
+{\footnotesize\ttfamily def bittensor.\+\_\+axon.\+axon\+\_\+impl.\+Axon.\+to\+\_\+wandb (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb} Return a dictionary of axon stat info for wandb logging
+Args:
+metagraph: (bittensor.Metagraph):
+If not None, indexes the wandb data using int uids rather than string pubkeys.
+Return:
+wandb_info (:obj:`Dict`)
+\end{DoxyVerb}
+ \mbox{\Hypertarget{classbittensor_1_1__axon_1_1axon__impl_1_1_axon_a2b1e0f757a3ab4fa12e3d0d14f31fcd2}\label{classbittensor_1_1__axon_1_1axon__impl_1_1_axon_a2b1e0f757a3ab4fa12e3d0d14f31fcd2}} 
+\index{bittensor.\_axon.axon\_impl.Axon@{bittensor.\_axon.axon\_impl.Axon}!update\_stats\_for\_request@{update\_stats\_for\_request}}
+\index{update\_stats\_for\_request@{update\_stats\_for\_request}!bittensor.\_axon.axon\_impl.Axon@{bittensor.\_axon.axon\_impl.Axon}}
+\doxysubsubsection{\texorpdfstring{update\_stats\_for\_request()}{update\_stats\_for\_request()}}
+{\footnotesize\ttfamily def bittensor.\+\_\+axon.\+axon\+\_\+impl.\+Axon.\+update\+\_\+stats\+\_\+for\+\_\+request (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{request,  }\item[{}]{response,  }\item[{}]{time,  }\item[{}]{code }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb} Updates statistics for this request and response.
+        Args:
+            requests ( bittensor.proto.TensorMessage, `required`):
+                The request.
+            response ( bittensor.proto.TensorMessage, `required`):
+                The response.
+            time (:type:`float`, `required`):
+                Length of call in seconds.
+            code (:obj:`bittensor.proto.ReturnCode, `required`)
+                Return code associated with the call i.e. Success of Timeout.\end{DoxyVerb}
+ 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+/\+Users/macthrasher/bittensor/bittensor/\+\_\+axon/axon\+\_\+impl.\+py\end{DoxyCompactItemize}

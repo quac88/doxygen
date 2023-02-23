@@ -1,0 +1,359 @@
+\hypertarget{classbittensor_1_1__neuron_1_1text_1_1core__server_1_1nucleus__impl_1_1server}{}\doxysection{bittensor.\+\_\+neuron.\+text.\+core\+\_\+server.\+nucleus\+\_\+impl.\+server Class Reference}
+\label{classbittensor_1_1__neuron_1_1text_1_1core__server_1_1nucleus__impl_1_1server}\index{bittensor.\_neuron.text.core\_server.nucleus\_impl.server@{bittensor.\_neuron.text.core\_server.nucleus\_impl.server}}
+Inheritance diagram for bittensor.\+\_\+neuron.\+text.\+core\+\_\+server.\+nucleus\+\_\+impl.\+server\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classbittensor_1_1__neuron_1_1text_1_1core__server_1_1nucleus__impl_1_1server}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \mbox{\hyperlink{classbittensor_1_1__neuron_1_1text_1_1core__server_1_1nucleus__impl_1_1server_a6132e85ef58f7a42c1fe91a77ce700d7}{\+\_\+\+\_\+init\+\_\+\+\_\+}} (self, \textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__config_1_1config}{bittensor.\+config}}\textquotesingle{} \mbox{\hyperlink{classbittensor_1_1__config_1_1config}{config}}=None, bool pretrained=None, str model\+\_\+name=None, bool padding=None, bool interpolate=None, str inter\+\_\+degree=None, model=None, \mbox{\hyperlink{classbittensor_1_1__tokenizer_1_1tokenizer}{tokenizer}}=None, mapping\+\_\+function=None, token\+\_\+remap=None, checking=None)
+\item 
+Tuple\mbox{[}bool, str\mbox{]} \mbox{\hyperlink{classbittensor_1_1__neuron_1_1text_1_1core__server_1_1nucleus__impl_1_1server_a614100716e4fce09e4e00b12ee6ef1f5}{set\+\_\+fine\+\_\+tuning\+\_\+params}} (self)
+\item 
+def \mbox{\hyperlink{classbittensor_1_1__neuron_1_1text_1_1core__server_1_1nucleus__impl_1_1server_a62d78b2d208bf64fb184ce6dff244949}{remapping\+\_\+token}} (self, token\+\_\+batch, std\+\_\+tokenizer=None, return\+\_\+offsets\+\_\+mapping=False)
+\item 
+def \mbox{\hyperlink{classbittensor_1_1__neuron_1_1text_1_1core__server_1_1nucleus__impl_1_1server_ae1bba88e9b29c127cc9086eafa8ccb38}{forward}} (self, inputs, \mbox{\hyperlink{classbittensor_1_1__tokenizer_1_1tokenizer}{tokenizer}}=None)
+\item 
+def \mbox{\hyperlink{classbittensor_1_1__neuron_1_1text_1_1core__server_1_1nucleus__impl_1_1server_a6638393fba593635bf489b0575b80752}{local\+\_\+forward}} (self, token\+\_\+batch, \mbox{\hyperlink{classbittensor_1_1__tokenizer_1_1tokenizer}{tokenizer}}=None, encode\+\_\+len=bittensor.\+\_\+\+\_\+network\+\_\+dim\+\_\+\+\_\+, model\+\_\+output=None)
+\item 
+def \mbox{\hyperlink{classbittensor_1_1__neuron_1_1text_1_1core__server_1_1nucleus__impl_1_1server_ab592da0bacc745c98011d8e064190570}{encode\+\_\+forward}} (self, inputs, \mbox{\hyperlink{classbittensor_1_1__tokenizer_1_1tokenizer}{tokenizer}}=None, model\+\_\+output=None)
+\item 
+def \mbox{\hyperlink{classbittensor_1_1__neuron_1_1text_1_1core__server_1_1nucleus__impl_1_1server_a9fe04678b6dcce05a3f9d3f25b31d65f}{encode\+\_\+forward\+\_\+causallm}} (self, token\+\_\+batch, \mbox{\hyperlink{classbittensor_1_1__tokenizer_1_1tokenizer}{tokenizer}}=None, encode\+\_\+len=bittensor.\+\_\+\+\_\+network\+\_\+dim\+\_\+\+\_\+, model\+\_\+output=None)
+\item 
+def \mbox{\hyperlink{classbittensor_1_1__neuron_1_1text_1_1core__server_1_1nucleus__impl_1_1server_aa75186146bb39740317a5476a71261ec}{encode\+\_\+forward\+\_\+causallmnext}} (self, token\+\_\+batch, std\+\_\+tokenizer=None, int topk=4096, model\+\_\+output=None)
+\item 
+torch.\+Float\+Tensor \mbox{\hyperlink{classbittensor_1_1__neuron_1_1text_1_1core__server_1_1nucleus__impl_1_1server_af1ec54d7eb69b55a7c551c37bcb01930}{get\+\_\+loss\+\_\+fct}} (self, torch.\+Float\+Tensor logits, torch.\+Long\+Tensor labels)
+\item 
+def \mbox{\hyperlink{classbittensor_1_1__neuron_1_1text_1_1core__server_1_1nucleus__impl_1_1server_a99bcd6cc84c562d1db5cac8e585576d7}{check}} (self)
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__neuron_1_1text_1_1core__server_1_1nucleus__impl_1_1server_a0f32537bd1c84dc6ddcdc2af36bbf093}\label{classbittensor_1_1__neuron_1_1text_1_1core__server_1_1nucleus__impl_1_1server_a0f32537bd1c84dc6ddcdc2af36bbf093}} 
+def {\bfseries save} (self, path)
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__neuron_1_1text_1_1core__server_1_1nucleus__impl_1_1server_a6b538863118440e2e0c708c9ecab5caa}\label{classbittensor_1_1__neuron_1_1text_1_1core__server_1_1nucleus__impl_1_1server_a6b538863118440e2e0c708c9ecab5caa}} 
+def {\bfseries load} (self, path)
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__neuron_1_1text_1_1core__server_1_1nucleus__impl_1_1server_ab73ed844f7bac4c98193de3a20df9779}\label{classbittensor_1_1__neuron_1_1text_1_1core__server_1_1nucleus__impl_1_1server_ab73ed844f7bac4c98193de3a20df9779}} 
+def {\bfseries config} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__neuron_1_1text_1_1core__server_1_1nucleus__impl_1_1server_a1fe51e3db9d34b727f1065d635974c4e}\label{classbittensor_1_1__neuron_1_1text_1_1core__server_1_1nucleus__impl_1_1server_a1fe51e3db9d34b727f1065d635974c4e}} 
+{\bfseries config}
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__neuron_1_1text_1_1core__server_1_1nucleus__impl_1_1server_a2ea0c9a2c94e7361a527199d06c2e7a7}\label{classbittensor_1_1__neuron_1_1text_1_1core__server_1_1nucleus__impl_1_1server_a2ea0c9a2c94e7361a527199d06c2e7a7}} 
+{\bfseries std\+\_\+tokenizer}
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__neuron_1_1text_1_1core__server_1_1nucleus__impl_1_1server_ae899ad3334d1974b0a39a10e30367abf}\label{classbittensor_1_1__neuron_1_1text_1_1core__server_1_1nucleus__impl_1_1server_ae899ad3334d1974b0a39a10e30367abf}} 
+{\bfseries device}
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__neuron_1_1text_1_1core__server_1_1nucleus__impl_1_1server_a58719232feeb83555ed82117b6fa0f0d}\label{classbittensor_1_1__neuron_1_1text_1_1core__server_1_1nucleus__impl_1_1server_a58719232feeb83555ed82117b6fa0f0d}} 
+{\bfseries model\+\_\+name}
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__neuron_1_1text_1_1core__server_1_1nucleus__impl_1_1server_a43a711aa5b2f3fb5f3e0444c0b348d2c}\label{classbittensor_1_1__neuron_1_1text_1_1core__server_1_1nucleus__impl_1_1server_a43a711aa5b2f3fb5f3e0444c0b348d2c}} 
+{\bfseries pretrained}
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__neuron_1_1text_1_1core__server_1_1nucleus__impl_1_1server_a19dd46f7b10bcf825fceef96966c5273}\label{classbittensor_1_1__neuron_1_1text_1_1core__server_1_1nucleus__impl_1_1server_a19dd46f7b10bcf825fceef96966c5273}} 
+{\bfseries pre\+\_\+model}
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__neuron_1_1text_1_1core__server_1_1nucleus__impl_1_1server_af2fb1f8356881cc49cc3d29e12ab5dfc}\label{classbittensor_1_1__neuron_1_1text_1_1core__server_1_1nucleus__impl_1_1server_af2fb1f8356881cc49cc3d29e12ab5dfc}} 
+{\bfseries tokenizer}
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__neuron_1_1text_1_1core__server_1_1nucleus__impl_1_1server_a9b2ffcddff2457f054c9a8defe165bea}\label{classbittensor_1_1__neuron_1_1text_1_1core__server_1_1nucleus__impl_1_1server_a9b2ffcddff2457f054c9a8defe165bea}} 
+{\bfseries to\+\_\+translation\+\_\+map}
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__neuron_1_1text_1_1core__server_1_1nucleus__impl_1_1server_a98a186d02407406e0600f46340c04cc0}\label{classbittensor_1_1__neuron_1_1text_1_1core__server_1_1nucleus__impl_1_1server_a98a186d02407406e0600f46340c04cc0}} 
+{\bfseries from\+\_\+translation\+\_\+map}
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__neuron_1_1text_1_1core__server_1_1nucleus__impl_1_1server_a21794b8b4d9c313aa791915cc710105d}\label{classbittensor_1_1__neuron_1_1text_1_1core__server_1_1nucleus__impl_1_1server_a21794b8b4d9c313aa791915cc710105d}} 
+{\bfseries split\+\_\+map\+\_\+cache}
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__neuron_1_1text_1_1core__server_1_1nucleus__impl_1_1server_ae8c3bbd769bb479e7ee08d86452f4115}\label{classbittensor_1_1__neuron_1_1text_1_1core__server_1_1nucleus__impl_1_1server_ae8c3bbd769bb479e7ee08d86452f4115}} 
+{\bfseries final\+\_\+dim}
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__neuron_1_1text_1_1core__server_1_1nucleus__impl_1_1server_a91f231d0ec2453812dbba74395ace7d5}\label{classbittensor_1_1__neuron_1_1text_1_1core__server_1_1nucleus__impl_1_1server_a91f231d0ec2453812dbba74395ace7d5}} 
+{\bfseries pre\+\_\+dimension}
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__neuron_1_1text_1_1core__server_1_1nucleus__impl_1_1server_aa8d8826166f382eb1e2d2f877010737e}\label{classbittensor_1_1__neuron_1_1text_1_1core__server_1_1nucleus__impl_1_1server_aa8d8826166f382eb1e2d2f877010737e}} 
+{\bfseries padding}
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__neuron_1_1text_1_1core__server_1_1nucleus__impl_1_1server_a8e361a0163795bb84e3ed0c0d8aea22a}\label{classbittensor_1_1__neuron_1_1text_1_1core__server_1_1nucleus__impl_1_1server_a8e361a0163795bb84e3ed0c0d8aea22a}} 
+{\bfseries interpolate}
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__neuron_1_1text_1_1core__server_1_1nucleus__impl_1_1server_a4b00d04e2efafcd5ab2ef09a0f6e95ec}\label{classbittensor_1_1__neuron_1_1text_1_1core__server_1_1nucleus__impl_1_1server_a4b00d04e2efafcd5ab2ef09a0f6e95ec}} 
+{\bfseries inter\+\_\+degree}
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__neuron_1_1text_1_1core__server_1_1nucleus__impl_1_1server_a0eb233826f22d6a7b03844043ea20102}\label{classbittensor_1_1__neuron_1_1text_1_1core__server_1_1nucleus__impl_1_1server_a0eb233826f22d6a7b03844043ea20102}} 
+{\bfseries checking}
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__neuron_1_1text_1_1core__server_1_1nucleus__impl_1_1server_a73c162f7a06d87ef824b2da7c1a1cdb0}\label{classbittensor_1_1__neuron_1_1text_1_1core__server_1_1nucleus__impl_1_1server_a73c162f7a06d87ef824b2da7c1a1cdb0}} 
+{\bfseries mapping\+\_\+function}
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__neuron_1_1text_1_1core__server_1_1nucleus__impl_1_1server_a3e684c0f6202d453f185afba381919be}\label{classbittensor_1_1__neuron_1_1text_1_1core__server_1_1nucleus__impl_1_1server_a3e684c0f6202d453f185afba381919be}} 
+{\bfseries token\+\_\+remap}
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__neuron_1_1text_1_1core__server_1_1nucleus__impl_1_1server_a24846bd379930a27372f3ae3f3254dc7}\label{classbittensor_1_1__neuron_1_1text_1_1core__server_1_1nucleus__impl_1_1server_a24846bd379930a27372f3ae3f3254dc7}} 
+{\bfseries mapping}
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__neuron_1_1text_1_1core__server_1_1nucleus__impl_1_1server_af9d0050ad9132134af85214098b41b8b}\label{classbittensor_1_1__neuron_1_1text_1_1core__server_1_1nucleus__impl_1_1server_af9d0050ad9132134af85214098b41b8b}} 
+{\bfseries decoder}
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__neuron_1_1text_1_1core__server_1_1nucleus__impl_1_1server_a499385f44e3a8639cb02a41a18adf969}\label{classbittensor_1_1__neuron_1_1text_1_1core__server_1_1nucleus__impl_1_1server_a499385f44e3a8639cb02a41a18adf969}} 
+{\bfseries loss\+\_\+fct}
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__neuron_1_1text_1_1core__server_1_1nucleus__impl_1_1server_afe16b8513b5fabcce755942de484b263}\label{classbittensor_1_1__neuron_1_1text_1_1core__server_1_1nucleus__impl_1_1server_afe16b8513b5fabcce755942de484b263}} 
+{\bfseries outputs\+\_\+cache}
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__neuron_1_1text_1_1core__server_1_1nucleus__impl_1_1server_aa712efaf2ecfee34c71ed605fa316533}\label{classbittensor_1_1__neuron_1_1text_1_1core__server_1_1nucleus__impl_1_1server_aa712efaf2ecfee34c71ed605fa316533}} 
+{\bfseries gradients\+\_\+cache}
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__neuron_1_1text_1_1core__server_1_1nucleus__impl_1_1server_a4bb4e0ae1dd2ad2978d301a89075b92b}\label{classbittensor_1_1__neuron_1_1text_1_1core__server_1_1nucleus__impl_1_1server_a4bb4e0ae1dd2ad2978d301a89075b92b}} 
+{\bfseries best\+\_\+loss}
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__neuron_1_1text_1_1core__server_1_1nucleus__impl_1_1server_a0ebc1b62937f368ec16fc15fba2e6731}\label{classbittensor_1_1__neuron_1_1text_1_1core__server_1_1nucleus__impl_1_1server_a0ebc1b62937f368ec16fc15fba2e6731}} 
+{\bfseries best\+\_\+remote\+\_\+loss}
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__neuron_1_1text_1_1core__server_1_1nucleus__impl_1_1server_a88e13af700b009f4414388f50bc03c1d}\label{classbittensor_1_1__neuron_1_1text_1_1core__server_1_1nucleus__impl_1_1server_a88e13af700b009f4414388f50bc03c1d}} 
+{\bfseries backward\+\_\+gradients\+\_\+count}
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__neuron_1_1text_1_1core__server_1_1nucleus__impl_1_1server_a896fad140124878a2ddf5d34f6467546}\label{classbittensor_1_1__neuron_1_1text_1_1core__server_1_1nucleus__impl_1_1server_a896fad140124878a2ddf5d34f6467546}} 
+{\bfseries remote\+\_\+losses}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classbittensor_1_1__neuron_1_1text_1_1core__server_1_1nucleus__impl_1_1server_a6132e85ef58f7a42c1fe91a77ce700d7}\label{classbittensor_1_1__neuron_1_1text_1_1core__server_1_1nucleus__impl_1_1server_a6132e85ef58f7a42c1fe91a77ce700d7}} 
+\index{bittensor.\_neuron.text.core\_server.nucleus\_impl.server@{bittensor.\_neuron.text.core\_server.nucleus\_impl.server}!\_\_init\_\_@{\_\_init\_\_}}
+\index{\_\_init\_\_@{\_\_init\_\_}!bittensor.\_neuron.text.core\_server.nucleus\_impl.server@{bittensor.\_neuron.text.core\_server.nucleus\_impl.server}}
+\doxysubsubsection{\texorpdfstring{\_\_init\_\_()}{\_\_init\_\_()}}
+{\footnotesize\ttfamily def bittensor.\+\_\+neuron.\+text.\+core\+\_\+server.\+nucleus\+\_\+impl.\+server.\+\_\+\+\_\+init\+\_\+\+\_\+ (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{\textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__config_1_1config}{bittensor.\+config}}\textquotesingle{} }]{config = {\ttfamily None},  }\item[{bool }]{pretrained = {\ttfamily None},  }\item[{str }]{model\+\_\+name = {\ttfamily None},  }\item[{bool }]{padding = {\ttfamily None},  }\item[{bool }]{interpolate = {\ttfamily None},  }\item[{str }]{inter\+\_\+degree = {\ttfamily None},  }\item[{}]{model = {\ttfamily None},  }\item[{}]{tokenizer = {\ttfamily None},  }\item[{}]{mapping\+\_\+function = {\ttfamily None},  }\item[{}]{token\+\_\+remap = {\ttfamily None},  }\item[{}]{checking = {\ttfamily None} }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}" Creates a server that serves up a pretrained miner on the bittensor network
+Args:
+        config (:obj:`bittensor.Config`, `required`): 
+            bittensor.server.config()
+        pretrained (:obj:bool , `optional`):
+            if the model should pretrained or not
+        model_name (:obj:string , `optional`):
+            name of the pretrained model from huggingface to use
+        padding (:obj:bool, `optional`):
+            If the server should pad out to match the hidden units that the bittensor network is using
+            If set to False, it will instead create a mapping layer to do the same thing.
+        interpolate (:obj:bool, `optional`):
+            If the server should interpolate between sequence length differences.
+            If set to false, there should be a mapping function that takes care of the differnces
+        inter_degree (:obj:str, `optional`):
+            The Interpolate algorithm (nearest | linear | bilinear | bicubic | trilinear | area)
+        model (:obj:torch.module, `optional`):
+            Overrides the huggingface pretrained model with your own pretrained model
+        tokenizer (:obj:huggingface.tokenizer, `optional`):
+            Overrides the huggingface tokenizer with your tokenizer
+        mapping_function (:obj:Callable, `optional`):
+            Custom mapping function that maps between sequence length differences between tokenizers
+        token_remap (:obj:Callable, `optional`):
+            Custom function that maps between tokenizers (defaults to self.remapping_token)
+\end{DoxyVerb}
+ 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classbittensor_1_1__neuron_1_1text_1_1core__server_1_1nucleus__impl_1_1server_a99bcd6cc84c562d1db5cac8e585576d7}\label{classbittensor_1_1__neuron_1_1text_1_1core__server_1_1nucleus__impl_1_1server_a99bcd6cc84c562d1db5cac8e585576d7}} 
+\index{bittensor.\_neuron.text.core\_server.nucleus\_impl.server@{bittensor.\_neuron.text.core\_server.nucleus\_impl.server}!check@{check}}
+\index{check@{check}!bittensor.\_neuron.text.core\_server.nucleus\_impl.server@{bittensor.\_neuron.text.core\_server.nucleus\_impl.server}}
+\doxysubsubsection{\texorpdfstring{check()}{check()}}
+{\footnotesize\ttfamily def bittensor.\+\_\+neuron.\+text.\+core\+\_\+server.\+nucleus\+\_\+impl.\+server.\+check (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Checks the server settings
+\end{DoxyVerb}
+ \mbox{\Hypertarget{classbittensor_1_1__neuron_1_1text_1_1core__server_1_1nucleus__impl_1_1server_ab592da0bacc745c98011d8e064190570}\label{classbittensor_1_1__neuron_1_1text_1_1core__server_1_1nucleus__impl_1_1server_ab592da0bacc745c98011d8e064190570}} 
+\index{bittensor.\_neuron.text.core\_server.nucleus\_impl.server@{bittensor.\_neuron.text.core\_server.nucleus\_impl.server}!encode\_forward@{encode\_forward}}
+\index{encode\_forward@{encode\_forward}!bittensor.\_neuron.text.core\_server.nucleus\_impl.server@{bittensor.\_neuron.text.core\_server.nucleus\_impl.server}}
+\doxysubsubsection{\texorpdfstring{encode\_forward()}{encode\_forward()}}
+{\footnotesize\ttfamily def bittensor.\+\_\+neuron.\+text.\+core\+\_\+server.\+nucleus\+\_\+impl.\+server.\+encode\+\_\+forward (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{inputs,  }\item[{}]{tokenizer = {\ttfamily None},  }\item[{}]{model\+\_\+output = {\ttfamily None} }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb} Forward pass through the pretrained model and possible mappings between hidden units. 
+     The response tensor should be the hidden units computed using the local context and with shape: [batch_size, sequence_len, __network_dim__].
+
+    Args:
+        inputs ( :obj:`torch.Tensor`, `required`):
+            torch inputs to be forward processed.
+        tokenizer ( huggingface.tokenizer, `optional`):
+            The tokenizer which was used to tokenize the inputs
+        model_outputs (:obj:`transformers.modeling_outputs.BaseModelOutputWithCrossAttentions`, `optional`):
+            The output of huggingface auto model.
+
+    Returns:
+        model_outputs (:obj:`transformers.modeling_outputs.BaseModelOutputWithCrossAttentions`, `required`):
+            The output of huggingface auto model.
+            
+        encoded_hidden (:type:`torch.Tensor`, `required`)
+            The hidden layer output as a torch tensor of shape [batch_size, sequence_len, __network_dim__ ]
+\end{DoxyVerb}
+ \mbox{\Hypertarget{classbittensor_1_1__neuron_1_1text_1_1core__server_1_1nucleus__impl_1_1server_a9fe04678b6dcce05a3f9d3f25b31d65f}\label{classbittensor_1_1__neuron_1_1text_1_1core__server_1_1nucleus__impl_1_1server_a9fe04678b6dcce05a3f9d3f25b31d65f}} 
+\index{bittensor.\_neuron.text.core\_server.nucleus\_impl.server@{bittensor.\_neuron.text.core\_server.nucleus\_impl.server}!encode\_forward\_causallm@{encode\_forward\_causallm}}
+\index{encode\_forward\_causallm@{encode\_forward\_causallm}!bittensor.\_neuron.text.core\_server.nucleus\_impl.server@{bittensor.\_neuron.text.core\_server.nucleus\_impl.server}}
+\doxysubsubsection{\texorpdfstring{encode\_forward\_causallm()}{encode\_forward\_causallm()}}
+{\footnotesize\ttfamily def bittensor.\+\_\+neuron.\+text.\+core\+\_\+server.\+nucleus\+\_\+impl.\+server.\+encode\+\_\+forward\+\_\+causallm (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{token\+\_\+batch,  }\item[{}]{tokenizer = {\ttfamily None},  }\item[{}]{encode\+\_\+len = {\ttfamily bittensor.\+\_\+\+\_\+network\+\_\+dim\+\_\+\+\_\+},  }\item[{}]{model\+\_\+output = {\ttfamily None} }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb} Forward pass through the pretrained model and possible mappings between hidden units.
+     The response tensor should be the hidden units computed using the local context and
+     with shape: [batch_size, sequence_len, __vocab_size__].
+
+    Args:
+        token_batch ( :obj:`torch.LongTensor`, `required`):
+            torch inputs to be forward processed, [batch_size, sequence_len]
+        tokenizer ( huggingface.tokenizer, `optional`):
+            The tokenizer which was used to tokenize the inputs
+        encode_len ( :obj:`int`, `optional`):
+            logit encoding length, default bittensor.__network_dim__ length
+        model_output (:obj:`transformers.modeling_outputs.BaseModelOutputWithCrossAttentions`, `optional`):
+            The output of huggingface auto model.
+
+    Returns:
+        model_outputs (:obj:`transformers.modeling_outputs.BaseModelOutputWithCrossAttentions`, `required`):
+            The output of huggingface auto model.
+        
+        logits_std (:obj:`torch.FloatTensor`):
+            The nucleus's logit outputs as a torch tensor of shape [batch_size, sequence_len, __vocab_size__]
+\end{DoxyVerb}
+ \mbox{\Hypertarget{classbittensor_1_1__neuron_1_1text_1_1core__server_1_1nucleus__impl_1_1server_aa75186146bb39740317a5476a71261ec}\label{classbittensor_1_1__neuron_1_1text_1_1core__server_1_1nucleus__impl_1_1server_aa75186146bb39740317a5476a71261ec}} 
+\index{bittensor.\_neuron.text.core\_server.nucleus\_impl.server@{bittensor.\_neuron.text.core\_server.nucleus\_impl.server}!encode\_forward\_causallmnext@{encode\_forward\_causallmnext}}
+\index{encode\_forward\_causallmnext@{encode\_forward\_causallmnext}!bittensor.\_neuron.text.core\_server.nucleus\_impl.server@{bittensor.\_neuron.text.core\_server.nucleus\_impl.server}}
+\doxysubsubsection{\texorpdfstring{encode\_forward\_causallmnext()}{encode\_forward\_causallmnext()}}
+{\footnotesize\ttfamily def bittensor.\+\_\+neuron.\+text.\+core\+\_\+server.\+nucleus\+\_\+impl.\+server.\+encode\+\_\+forward\+\_\+causallmnext (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{token\+\_\+batch,  }\item[{}]{std\+\_\+tokenizer = {\ttfamily None},  }\item[{int }]{topk = {\ttfamily 4096},  }\item[{}]{model\+\_\+output = {\ttfamily None} }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Forward pass through the pretrained model and select topk tokenizer logits and retokenize with std_tokenizer,
+then compact new token phrases and probabilities
+into 1-D tensor [ >= batch_size * (2 * topk + 1)] prob + at least 1 token per phrase + floor_prob.
+The floor probability is the mean probability of token phrases not captured in topk, required since
+the server tokenizer vocab_size may not be known to the receiver/validator.
+
+Args:
+    token_batch ( :obj:`torch.LongTensor`, `required`):
+        torch inputs to be forward processed, [batch_size, std_sequence_len].
+    std_tokenizer ( :obj:`PreTrainedTokenizerBase`, `optional`):
+        The standard tokenizer which was used to tokenize the inputs.
+    topk ( :obj:`int`, `optional`):
+        Amount of std_tokenized server phrases with highest probability to produce.
+    model_output (:obj:`transformers.modeling_outputs.BaseModelOutputWithCrossAttentions`, `optional`):
+        The output of transformers AutoModel.
+
+Returns:
+    model_outputs (:obj:`transformers.modeling_outputs.BaseModelOutputWithCrossAttentions`, `required`):
+        The output of transformers AutoModel.
+    topk_tensor (:obj:`torch.Tensor`, `required`):
+        [batch_size, (topk + 1), max_len] tensor includes topk token probabilities (prob_k) + floor_prob
+        in first column with gradients attached, with std_tokens in remaining columns with ignore_index padding.
+        Content structure:
+        [[[prob_k=0_b=0, tok_0_k=0_b=0, tok_1_k=0_b=0, ..., ignore_index?],
+          [prob_k=1_b=0, tok_0_k=1_b=0, tok_1_k=1_b=0, ..., ignore_index?],
+          [...],
+          [prob_floor_b=0, ignore_index, ..., ignore_index]],
+         [[prob_k=0_b=1, tok_0_k=0_b=1, tok_1_k=0_b=1, ..., ignore_index?],
+          [prob_k=1_b=1, tok_0_k=1_b=1, tok_1_k=1_b=1, ..., ignore_index?],
+          [...],
+          [prob_floor_b=1, ignore_index, ..., ignore_index]],
+         [...]]
+\end{DoxyVerb}
+ \mbox{\Hypertarget{classbittensor_1_1__neuron_1_1text_1_1core__server_1_1nucleus__impl_1_1server_ae1bba88e9b29c127cc9086eafa8ccb38}\label{classbittensor_1_1__neuron_1_1text_1_1core__server_1_1nucleus__impl_1_1server_ae1bba88e9b29c127cc9086eafa8ccb38}} 
+\index{bittensor.\_neuron.text.core\_server.nucleus\_impl.server@{bittensor.\_neuron.text.core\_server.nucleus\_impl.server}!forward@{forward}}
+\index{forward@{forward}!bittensor.\_neuron.text.core\_server.nucleus\_impl.server@{bittensor.\_neuron.text.core\_server.nucleus\_impl.server}}
+\doxysubsubsection{\texorpdfstring{forward()}{forward()}}
+{\footnotesize\ttfamily def bittensor.\+\_\+neuron.\+text.\+core\+\_\+server.\+nucleus\+\_\+impl.\+server.\+forward (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{inputs,  }\item[{}]{tokenizer = {\ttfamily None} }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}    Forward pass through the whole server model. Returns the loss and decoded predictions.
+
+    Args:
+        inputs ( :obj:`torch.Tensor`, `required`):
+            torch inputs to be forward processed.
+        tokenizer (:obj:'huggingface.tokenizer', optional):
+            The tokenizer which was used to tokenize the inputs
+     Returns:
+        loss (:obj:`torch.FloatTensor`):
+            MLM loss from the inputs
+        decoded_targets (:obj:`torch.FloatTensor`):
+            Decoded predictions of the next token in the sentence.\end{DoxyVerb}
+ \mbox{\Hypertarget{classbittensor_1_1__neuron_1_1text_1_1core__server_1_1nucleus__impl_1_1server_af1ec54d7eb69b55a7c551c37bcb01930}\label{classbittensor_1_1__neuron_1_1text_1_1core__server_1_1nucleus__impl_1_1server_af1ec54d7eb69b55a7c551c37bcb01930}} 
+\index{bittensor.\_neuron.text.core\_server.nucleus\_impl.server@{bittensor.\_neuron.text.core\_server.nucleus\_impl.server}!get\_loss\_fct@{get\_loss\_fct}}
+\index{get\_loss\_fct@{get\_loss\_fct}!bittensor.\_neuron.text.core\_server.nucleus\_impl.server@{bittensor.\_neuron.text.core\_server.nucleus\_impl.server}}
+\doxysubsubsection{\texorpdfstring{get\_loss\_fct()}{get\_loss\_fct()}}
+{\footnotesize\ttfamily  torch.\+Float\+Tensor bittensor.\+\_\+neuron.\+text.\+core\+\_\+server.\+nucleus\+\_\+impl.\+server.\+get\+\_\+loss\+\_\+fct (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{torch.\+Float\+Tensor}]{logits,  }\item[{torch.\+Long\+Tensor}]{labels }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Calculate loss_fct, CausalLM loss, next-token prediction loss.
+    Args:
+        logits (:obj:`torch.FloatTensor`, `required`):
+            [batch_size, sequence_len, bittensor.__network_dim__]
+        labels (:obj:`torch.LongTensor`, `required`):
+            [batch_size, sequence_len]
+
+    Returns:
+        loss (:obj:`torch.FloatTensor`):
+            scalar
+\end{DoxyVerb}
+ \mbox{\Hypertarget{classbittensor_1_1__neuron_1_1text_1_1core__server_1_1nucleus__impl_1_1server_a6638393fba593635bf489b0575b80752}\label{classbittensor_1_1__neuron_1_1text_1_1core__server_1_1nucleus__impl_1_1server_a6638393fba593635bf489b0575b80752}} 
+\index{bittensor.\_neuron.text.core\_server.nucleus\_impl.server@{bittensor.\_neuron.text.core\_server.nucleus\_impl.server}!local\_forward@{local\_forward}}
+\index{local\_forward@{local\_forward}!bittensor.\_neuron.text.core\_server.nucleus\_impl.server@{bittensor.\_neuron.text.core\_server.nucleus\_impl.server}}
+\doxysubsubsection{\texorpdfstring{local\_forward()}{local\_forward()}}
+{\footnotesize\ttfamily def bittensor.\+\_\+neuron.\+text.\+core\+\_\+server.\+nucleus\+\_\+impl.\+server.\+local\+\_\+forward (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{token\+\_\+batch,  }\item[{}]{tokenizer = {\ttfamily None},  }\item[{}]{encode\+\_\+len = {\ttfamily bittensor.\+\_\+\+\_\+network\+\_\+dim\+\_\+\+\_\+},  }\item[{}]{model\+\_\+output = {\ttfamily None} }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb} Forward pass through the pretrained model and possible mappings between hidden units.
+     The response tensor should be the hidden units computed using the local context and
+     with shape: [batch_size, sequence_len, __vocab_size__].
+
+    Args:
+        token_batch ( :obj:`torch.LongTensor`, `required`):
+            torch inputs to be forward processed, [batch_size, sequence_len]
+        tokenizer ( huggingface.tokenizer, `optional`):
+            The tokenizer which was used to tokenize the inputs
+        encode_len ( :obj:`int`, `optional`):
+            logit encoding length, default bittensor.__network_dim__ length
+        model_output (:obj:`transformers.modeling_outputs.BaseModelOutputWithCrossAttentions`, `optional`):
+            The output of huggingface auto model.
+
+    Returns:
+        model_outputs (:obj:`transformers.modeling_outputs.BaseModelOutputWithCrossAttentions`, `required`):
+            The output of huggingface auto model.
+        
+        logits (:obj:`torch.FloatTensor`):
+            The nucleus's logit outputs as a torch tensor of shape [batch_size, sequence_len, __vocab_size__]
+\end{DoxyVerb}
+ \mbox{\Hypertarget{classbittensor_1_1__neuron_1_1text_1_1core__server_1_1nucleus__impl_1_1server_a62d78b2d208bf64fb184ce6dff244949}\label{classbittensor_1_1__neuron_1_1text_1_1core__server_1_1nucleus__impl_1_1server_a62d78b2d208bf64fb184ce6dff244949}} 
+\index{bittensor.\_neuron.text.core\_server.nucleus\_impl.server@{bittensor.\_neuron.text.core\_server.nucleus\_impl.server}!remapping\_token@{remapping\_token}}
+\index{remapping\_token@{remapping\_token}!bittensor.\_neuron.text.core\_server.nucleus\_impl.server@{bittensor.\_neuron.text.core\_server.nucleus\_impl.server}}
+\doxysubsubsection{\texorpdfstring{remapping\_token()}{remapping\_token()}}
+{\footnotesize\ttfamily def bittensor.\+\_\+neuron.\+text.\+core\+\_\+server.\+nucleus\+\_\+impl.\+server.\+remapping\+\_\+token (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{token\+\_\+batch,  }\item[{}]{std\+\_\+tokenizer = {\ttfamily None},  }\item[{}]{return\+\_\+offsets\+\_\+mapping = {\ttfamily False} }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb} Tokenizer remapping; decodes the message and then remaps the message using a new tokenizer
+    Args:
+        token_batch ( :obj:`torch.LongTensor`, `required`):
+            token_batch to be retokenized, [batch_size, sequence_len]
+        std_tokenizer ( :obj:`transformers.Tokenizer`, `optional`):
+            The standard tokenizer which was used to tokenize the input.
+        return_offsets_mapping ( :obj:`bool`, `required`):
+            Return offsets_mapping in tokenization to delineate token segment positions.
+\end{DoxyVerb}
+ \mbox{\Hypertarget{classbittensor_1_1__neuron_1_1text_1_1core__server_1_1nucleus__impl_1_1server_a614100716e4fce09e4e00b12ee6ef1f5}\label{classbittensor_1_1__neuron_1_1text_1_1core__server_1_1nucleus__impl_1_1server_a614100716e4fce09e4e00b12ee6ef1f5}} 
+\index{bittensor.\_neuron.text.core\_server.nucleus\_impl.server@{bittensor.\_neuron.text.core\_server.nucleus\_impl.server}!set\_fine\_tuning\_params@{set\_fine\_tuning\_params}}
+\index{set\_fine\_tuning\_params@{set\_fine\_tuning\_params}!bittensor.\_neuron.text.core\_server.nucleus\_impl.server@{bittensor.\_neuron.text.core\_server.nucleus\_impl.server}}
+\doxysubsubsection{\texorpdfstring{set\_fine\_tuning\_params()}{set\_fine\_tuning\_params()}}
+{\footnotesize\ttfamily  Tuple\mbox{[}bool, str\mbox{]} bittensor.\+\_\+neuron.\+text.\+core\+\_\+server.\+nucleus\+\_\+impl.\+server.\+set\+\_\+fine\+\_\+tuning\+\_\+params (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb} Set to tune only the parameter of the last layer
+    Returns: 
+        reached_last_layer (:type:`bool`):
+            If we have set partial of the model to requires grad.
+        
+        last_layer_name (:type:`string`):
+            The name of the last layer that user specified or we found.
+            None if the user did not specify and we couldnt find it. 
+\end{DoxyVerb}
+ 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+/\+Users/macthrasher/bittensor/bittensor/\+\_\+neuron/text/core\+\_\+server/nucleus\+\_\+impl.\+py\end{DoxyCompactItemize}

@@ -1,0 +1,438 @@
+\hypertarget{classbittensor_1_1__synapse_1_1text__seq2seq__impl_1_1_text_seq2_seq}{}\doxysection{bittensor.\+\_\+synapse.\+text\+\_\+seq2seq\+\_\+impl.\+Text\+Seq2\+Seq Class Reference}
+\label{classbittensor_1_1__synapse_1_1text__seq2seq__impl_1_1_text_seq2_seq}\index{bittensor.\_synapse.text\_seq2seq\_impl.TextSeq2Seq@{bittensor.\_synapse.text\_seq2seq\_impl.TextSeq2Seq}}
+Inheritance diagram for bittensor.\+\_\+synapse.\+text\+\_\+seq2seq\+\_\+impl.\+Text\+Seq2\+Seq\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classbittensor_1_1__synapse_1_1text__seq2seq__impl_1_1_text_seq2_seq}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+ \textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__synapse_1_1text__seq2seq__impl_1_1_text_seq2_seq}{Text\+Seq2\+Seq}}\textquotesingle{} \mbox{\hyperlink{classbittensor_1_1__synapse_1_1text__seq2seq__impl_1_1_text_seq2_seq_a96d78de687b7c70aa26afa9ba5002519}{\+\_\+\+\_\+init\+\_\+\+\_\+}} (self, int topk=50, int num\+\_\+to\+\_\+generate=256, int num\+\_\+beams=5, int no\+\_\+repeat\+\_\+ngram\+\_\+size=2, bool early\+\_\+stopping=False, int num\+\_\+return\+\_\+sequences=1, bool do\+\_\+sample=False, float top\+\_\+p=0.\+95, float temperature=1.\+0, float repetition\+\_\+penalty=1.\+0, float length\+\_\+penalty=1.\+0, float max\+\_\+time=150, int num\+\_\+beam\+\_\+groups=1, \textquotesingle{}bittensor.\+proto.\+Serializer.\+Type\textquotesingle{} forward\+\_\+request\+\_\+serializer\+\_\+type=bittensor.\+proto.\+Serializer.\+MSGPACK, \textquotesingle{}bittensor.\+proto.\+Serializer.\+Type\textquotesingle{} forward\+\_\+response\+\_\+serializer\+\_\+type=bittensor.\+proto.\+Serializer.\+MSGPACK, \textquotesingle{}bittensor.\+proto.\+Serializer.\+Type\textquotesingle{} backward\+\_\+request\+\_\+serializer\+\_\+type=bittensor.\+proto.\+Serializer.\+MSGPACK, \textquotesingle{}bittensor.\+proto.\+Serializer.\+Type\textquotesingle{} backward\+\_\+response\+\_\+serializer\+\_\+type=bittensor.\+proto.\+Serializer.\+MSGPACK)
+\item 
+str \mbox{\hyperlink{classbittensor_1_1__synapse_1_1text__seq2seq__impl_1_1_text_seq2_seq_a0929558f19ff951c78c93bf1514c9671}{\+\_\+\+\_\+repr\+\_\+\+\_\+}} (self)
+\item 
+str \mbox{\hyperlink{classbittensor_1_1__synapse_1_1text__seq2seq__impl_1_1_text_seq2_seq_afa18f97dd2947194eb1235237d748640}{\+\_\+\+\_\+str\+\_\+\+\_\+}} (self)
+\item 
+ \textquotesingle{}bittensor.\+proto.\+Synapse.\+Text\+Seq2\+Seq\textquotesingle{} \mbox{\hyperlink{classbittensor_1_1__synapse_1_1text__seq2seq__impl_1_1_text_seq2_seq_a8e90219bc776312f507575dea907c302}{serialize\+\_\+to\+\_\+instance\+\_\+proto}} (self)
+\item 
+bittensor.\+proto.\+Synapse \mbox{\hyperlink{classbittensor_1_1__synapse_1_1text__seq2seq__impl_1_1_text_seq2_seq_a017c5036826ffb2d75d963d2fe3f5be5}{serialize\+\_\+to\+\_\+wire\+\_\+proto}} (self, \textquotesingle{}bittensor.\+proto.\+Return\+Code\textquotesingle{} code=0, str message=\textquotesingle{}\textquotesingle{})
+\item 
+def \mbox{\hyperlink{classbittensor_1_1__synapse_1_1text__seq2seq__impl_1_1_text_seq2_seq_a5a63364c2887517c57eb7df0498dea54}{check\+\_\+forward\+\_\+request\+\_\+tensor}} (self, forward\+\_\+request\+\_\+tensor)
+\item 
+def \mbox{\hyperlink{classbittensor_1_1__synapse_1_1text__seq2seq__impl_1_1_text_seq2_seq_a0b7faeaa47748cc897d45af9b776b971}{check\+\_\+forward\+\_\+response\+\_\+tensor}} (self, forward\+\_\+request\+\_\+tensor, forward\+\_\+response\+\_\+tensor)
+\item 
+def \mbox{\hyperlink{classbittensor_1_1__synapse_1_1text__seq2seq__impl_1_1_text_seq2_seq_a10c99cc2ab3f0516ce80f0b42bc50e3b}{check\+\_\+backward\+\_\+request\+\_\+gradient}} (self, forward\+\_\+request\+\_\+tensor, backward\+\_\+request\+\_\+gradient)
+\item 
+torch.\+Tensor \mbox{\hyperlink{classbittensor_1_1__synapse_1_1text__seq2seq__impl_1_1_text_seq2_seq_a4493401dea0a50e6d8c0811a1d8cde1f}{encode\+\_\+forward\+\_\+request\+\_\+tensor}} (self, torch.\+Tensor forward\+\_\+request\+\_\+tensor)
+\item 
+torch.\+Tensor \mbox{\hyperlink{classbittensor_1_1__synapse_1_1text__seq2seq__impl_1_1_text_seq2_seq_ad711b70aa2fd466630fd4bc5391e3904}{decode\+\_\+forward\+\_\+request\+\_\+tensor}} (self, torch.\+Tensor forward\+\_\+request\+\_\+tensor)
+\item 
+torch.\+Tensor \mbox{\hyperlink{classbittensor_1_1__synapse_1_1text__seq2seq__impl_1_1_text_seq2_seq_a27f884510f8450ece3d08698abc0eb00}{encode\+\_\+forward\+\_\+response\+\_\+tensor}} (self, torch.\+Tensor forward\+\_\+response\+\_\+tensor)
+\item 
+torch.\+Tensor \mbox{\hyperlink{classbittensor_1_1__synapse_1_1text__seq2seq__impl_1_1_text_seq2_seq_acd5aeb67464dd247534bf97ddae8be24}{decode\+\_\+forward\+\_\+response\+\_\+tensor}} (self, torch.\+Tensor forward\+\_\+response\+\_\+tensor)
+\item 
+torch.\+Tensor \mbox{\hyperlink{classbittensor_1_1__synapse_1_1text__seq2seq__impl_1_1_text_seq2_seq_a6192bb763a8d05a765ef372be142e37e}{encode\+\_\+backward\+\_\+request\+\_\+gradient}} (self, torch.\+Tensor backward\+\_\+request\+\_\+gradient)
+\item 
+torch.\+Tensor \mbox{\hyperlink{classbittensor_1_1__synapse_1_1text__seq2seq__impl_1_1_text_seq2_seq_a8032301232cdeb9463b0dc10c381d5e2}{decode\+\_\+backward\+\_\+request\+\_\+gradient}} (self, torch.\+Tensor backward\+\_\+request\+\_\+gradient)
+\item 
+torch.\+Tensor \mbox{\hyperlink{classbittensor_1_1__synapse_1_1text__seq2seq__impl_1_1_text_seq2_seq_acb278fe90909c5e8a637c0894b8932af}{nill\+\_\+forward\+\_\+response\+\_\+tensor}} (self, torch.\+Tensor forward\+\_\+request\+\_\+tensor)
+\item 
+torch.\+Tensor \mbox{\hyperlink{classbittensor_1_1__synapse_1_1text__seq2seq__impl_1_1_text_seq2_seq_ab2e52dd9f183a89315e5bc8e3fe9fad0}{nill\+\_\+backward\+\_\+response\+\_\+tensor}} (self, torch.\+Tensor forward\+\_\+request\+\_\+tensor)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Member Functions inherited from \mbox{\hyperlink{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse}{bittensor.\+\_\+synapse.\+synapse\+\_\+impl.\+Synapse}}}
+\begin{DoxyCompactItemize}
+\item 
+ \textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse}{Synapse}}\textquotesingle{} \mbox{\hyperlink{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse_a43f83b557416a8a3936d5ddc175b5e6f}{\+\_\+\+\_\+init\+\_\+\+\_\+}} (self, \textquotesingle{}bittensor.\+proto.\+Serializer.\+Type\textquotesingle{} forward\+\_\+request\+\_\+serializer\+\_\+type=bittensor.\+proto.\+Serializer.\+MSGPACK, \textquotesingle{}bittensor.\+proto.\+Serializer.\+Type\textquotesingle{} forward\+\_\+response\+\_\+serializer\+\_\+type=bittensor.\+proto.\+Serializer.\+MSGPACK, \textquotesingle{}bittensor.\+proto.\+Serializer.\+Type\textquotesingle{} backward\+\_\+request\+\_\+serializer\+\_\+type=bittensor.\+proto.\+Serializer.\+MSGPACK, \textquotesingle{}bittensor.\+proto.\+Serializer.\+Type\textquotesingle{} backward\+\_\+response\+\_\+serializer\+\_\+type=bittensor.\+proto.\+Serializer.\+MSGPACK)
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse_a33b86030b6dc0f28aba3b1c7070de48e}\label{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse_a33b86030b6dc0f28aba3b1c7070de48e}} 
+str {\bfseries \+\_\+\+\_\+repr\+\_\+\+\_\+} (self)
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse_a49b7378ad62c7b9dd4aae80f81703234}\label{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse_a49b7378ad62c7b9dd4aae80f81703234}} 
+str {\bfseries \+\_\+\+\_\+str\+\_\+\+\_\+} (self)
+\item 
+ \textquotesingle{}bittensor.\+proto.\+Synapse\textquotesingle{} \mbox{\hyperlink{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse_a9e2c93dbd788e9fb778997874f6429fb}{serialize\+\_\+to\+\_\+instance\+\_\+proto}} (self, $\ast$$\ast$kwargs)
+\item 
+ \textquotesingle{}bittensor.\+proto.\+Synapse\textquotesingle{} \mbox{\hyperlink{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse_a9fd871f88280feb461379b7d957ef368}{serialize\+\_\+to\+\_\+wire\+\_\+proto}} (self, $\ast$$\ast$kwargs)
+\item 
+torch.\+Tensor \mbox{\hyperlink{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse_a29704899ae87600748e464fa7823a04e}{nill\+\_\+forward\+\_\+response\+\_\+tensor}} (self, torch.\+Tensor forward\+\_\+request\+\_\+tensor)
+\item 
+torch.\+Tensor \mbox{\hyperlink{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse_a28f55eb21a6e304a690594db9edc4922}{nill\+\_\+backward\+\_\+response\+\_\+tensor}} (self, torch.\+Tensor forward\+\_\+request\+\_\+tensor)
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse_acc3a89c693c501b031ec130b399a0931}\label{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse_acc3a89c693c501b031ec130b399a0931}} 
+def {\bfseries check\+\_\+forward\+\_\+request\+\_\+tensor} (self, forward\+\_\+request\+\_\+tensor)
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse_acb6d69d2b432bde2495df6b668f17c40}\label{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse_acb6d69d2b432bde2495df6b668f17c40}} 
+def {\bfseries check\+\_\+forward\+\_\+response\+\_\+tensor} (self, forward\+\_\+request\+\_\+tensor, forward\+\_\+response\+\_\+tensor)
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse_a7ba717d9b34e08826d484c5ec8853fbb}\label{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse_a7ba717d9b34e08826d484c5ec8853fbb}} 
+def {\bfseries check\+\_\+backward\+\_\+request\+\_\+gradient} (self, forward\+\_\+request\+\_\+tensor, backward\+\_\+request\+\_\+gradient)
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse_a2056e1a33e038afb6348c5848538276d}\label{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse_a2056e1a33e038afb6348c5848538276d}} 
+def {\bfseries check\+\_\+backward\+\_\+response\+\_\+gradient} (self, forward\+\_\+request\+\_\+tensor, backward\+\_\+request\+\_\+gradient)
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse_ab0f074f5045e9ca075605c1f9e1664d2}\label{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse_ab0f074f5045e9ca075605c1f9e1664d2}} 
+torch.\+Tensor {\bfseries encode\+\_\+forward\+\_\+request\+\_\+tensor} (self, torch.\+Tensor forward\+\_\+request\+\_\+tensor)
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse_a054c4ee0bc9b2d26b0ffde2f5e6c6d6d}\label{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse_a054c4ee0bc9b2d26b0ffde2f5e6c6d6d}} 
+torch.\+Tensor {\bfseries decode\+\_\+forward\+\_\+request\+\_\+tensor} (self, torch.\+Tensor forward\+\_\+request\+\_\+tensor)
+\item 
+torch.\+Tensor \mbox{\hyperlink{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse_a652c329c4cfa85daf0c250a0e8547ac5}{encode\+\_\+forward\+\_\+response\+\_\+tensor}} (self, torch.\+Tensor forward\+\_\+response\+\_\+tensor)
+\item 
+torch.\+Tensor \mbox{\hyperlink{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse_a25615a9c2971459105fc13b81e942dd1}{decode\+\_\+forward\+\_\+response\+\_\+tensor}} (self, torch.\+Tensor forward\+\_\+response\+\_\+tensor)
+\item 
+torch.\+Tensor \mbox{\hyperlink{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse_a6877da80a2e6f46224cc1679149a1683}{encode\+\_\+backward\+\_\+request\+\_\+gradient}} (self, torch.\+Tensor backward\+\_\+request\+\_\+gradient)
+\item 
+torch.\+Tensor \mbox{\hyperlink{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse_a9964345c43f2dd70ad9bace134f367cb}{decode\+\_\+backward\+\_\+request\+\_\+gradient}} (self, torch.\+Tensor backward\+\_\+request\+\_\+gradient)
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse_abf013ae6c8a55b22a3951abe095f5ef0}\label{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse_abf013ae6c8a55b22a3951abe095f5ef0}} 
+torch.\+Tensor {\bfseries encode\+\_\+backward\+\_\+response\+\_\+gradient} (self, torch.\+Tensor backward\+\_\+response\+\_\+gradient)
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse_a626bd9a586b62c9be3fc34577356f574}\label{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse_a626bd9a586b62c9be3fc34577356f574}} 
+torch.\+Tensor {\bfseries decode\+\_\+backward\+\_\+response\+\_\+gradient} (self, torch.\+Tensor backward\+\_\+response\+\_\+gradient)
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse_a730077888d77e91e8815e032d6756802}\label{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse_a730077888d77e91e8815e032d6756802}} 
+Tuple\mbox{[}\textquotesingle{}bittensor.\+proto.\+Tensor\textquotesingle{}, \textquotesingle{}bittensor.\+proto.\+Return\+Code\textquotesingle{}, str\mbox{]} {\bfseries serialize\+\_\+forward\+\_\+request\+\_\+tensor} (self, torch.\+Tensor forward\+\_\+request\+\_\+tensor)
+\item 
+Tuple\mbox{[}\textquotesingle{}torch.\+Tensor\textquotesingle{}, \textquotesingle{}bittensor.\+proto.\+Return\+Code\textquotesingle{}, str\mbox{]} \mbox{\hyperlink{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse_a5ea98d071967a34e4d0f5c3c2ab5b372}{deserialize\+\_\+forward\+\_\+request\+\_\+tensor}} (self, bittensor.\+proto.\+Tensor forward\+\_\+request\+\_\+proto)
+\item 
+Tuple\mbox{[}\textquotesingle{}bittensor.\+proto.\+Tensor\textquotesingle{}, \textquotesingle{}bittensor.\+proto.\+Return\+Code\textquotesingle{}, str\mbox{]} \mbox{\hyperlink{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse_ae38bd75b6fe681bb836de7616864fbfa}{serialize\+\_\+forward\+\_\+response\+\_\+tensor}} (self, torch.\+Tensor forward\+\_\+request\+\_\+tensor, torch.\+Tensor forward\+\_\+response\+\_\+tensor)
+\item 
+Tuple\mbox{[}\textquotesingle{}torch.\+Tensor\textquotesingle{}, \textquotesingle{}bittensor.\+proto.\+Return\+Code\textquotesingle{}, str\mbox{]} \mbox{\hyperlink{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse_a490c0eb46ee3b51c043f94c3e6f5a723}{deserialize\+\_\+forward\+\_\+response\+\_\+proto}} (self, torch.\+Tensor forward\+\_\+request\+\_\+tensor, bittensor.\+proto.\+Tensor forward\+\_\+response\+\_\+proto)
+\item 
+Tuple\mbox{[}\textquotesingle{}bittensor.\+proto.\+Tensor\textquotesingle{}, \textquotesingle{}bittensor.\+proto.\+Return\+Code\textquotesingle{}, str\mbox{]} \mbox{\hyperlink{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse_abee9c4ce6a720526a7c2917044708f08}{serialize\+\_\+backward\+\_\+request\+\_\+gradient}} (self, torch.\+Tensor forward\+\_\+request\+\_\+tensor, torch.\+Tensor backward\+\_\+request\+\_\+gradient)
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse_a4e5a849ed2b4541125e612900730ea5a}\label{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse_a4e5a849ed2b4541125e612900730ea5a}} 
+Tuple\mbox{[}\textquotesingle{}torch.\+Tensor\textquotesingle{}, \textquotesingle{}bittensor.\+proto.\+Return\+Code\textquotesingle{}, str\mbox{]} {\bfseries deserialize\+\_\+backward\+\_\+request\+\_\+gradient} (self, torch.\+Tensor forward\+\_\+request\+\_\+tensor, bittensor.\+proto.\+Tensor backward\+\_\+request\+\_\+proto)
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse_aa775729854c802d395cbf1fa6b5e1174}\label{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse_aa775729854c802d395cbf1fa6b5e1174}} 
+def {\bfseries empty} (self)
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+ \textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse}{Synapse}}\textquotesingle{} \mbox{\hyperlink{classbittensor_1_1__synapse_1_1text__seq2seq__impl_1_1_text_seq2_seq_ae2bfc37cd2b0bd39ea3f8363f67c39e6}{deserialize\+\_\+from\+\_\+instance\+\_\+proto}} (bittensor.\+proto.\+Synapse instance\+\_\+proto)
+\item 
+ \textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse}{Synapse}}\textquotesingle{} \mbox{\hyperlink{classbittensor_1_1__synapse_1_1text__seq2seq__impl_1_1_text_seq2_seq_abfbf96b4273b71029521bf4b6cae3e8a}{deserialize\+\_\+from\+\_\+wire\+\_\+proto}} (bittensor.\+proto.\+Synapse wire\+\_\+proto)
+\end{DoxyCompactItemize}
+\begin{DoxyCompactItemize}
+\item 
+ \textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse}{Synapse}}\textquotesingle{} \mbox{\hyperlink{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse_a93012de6476558437aac932fdafe7630}{deserialize\+\_\+from\+\_\+instance\+\_\+proto}} (bittensor.\+proto.\+Synapse isntance\+\_\+proto)
+\item 
+ \textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse}{Synapse}}\textquotesingle{} \mbox{\hyperlink{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse_aeb38ec002657d66a4e8e947b95e4a129}{deserialize\+\_\+from\+\_\+wire\+\_\+proto}} (bittensor.\+proto.\+Synapse wire\+\_\+proto)
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__synapse_1_1text__seq2seq__impl_1_1_text_seq2_seq_a79300706ca797fdc7e541fc25500e1f8}\label{classbittensor_1_1__synapse_1_1text__seq2seq__impl_1_1_text_seq2_seq_a79300706ca797fdc7e541fc25500e1f8}} 
+{\bfseries topk}
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__synapse_1_1text__seq2seq__impl_1_1_text_seq2_seq_a2cdffa91d54f4d242cc79cd5a724e5f0}\label{classbittensor_1_1__synapse_1_1text__seq2seq__impl_1_1_text_seq2_seq_a2cdffa91d54f4d242cc79cd5a724e5f0}} 
+{\bfseries num\+\_\+to\+\_\+generate}
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__synapse_1_1text__seq2seq__impl_1_1_text_seq2_seq_a40054098f40dcf894e5625b08176499a}\label{classbittensor_1_1__synapse_1_1text__seq2seq__impl_1_1_text_seq2_seq_a40054098f40dcf894e5625b08176499a}} 
+{\bfseries num\+\_\+beams}
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__synapse_1_1text__seq2seq__impl_1_1_text_seq2_seq_ae8ed47e09ec79f053c36cc7d0cf0fe85}\label{classbittensor_1_1__synapse_1_1text__seq2seq__impl_1_1_text_seq2_seq_ae8ed47e09ec79f053c36cc7d0cf0fe85}} 
+{\bfseries no\+\_\+repeat\+\_\+ngram\+\_\+size}
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__synapse_1_1text__seq2seq__impl_1_1_text_seq2_seq_aa53bf285708cdbcfad26136dae78e9ce}\label{classbittensor_1_1__synapse_1_1text__seq2seq__impl_1_1_text_seq2_seq_aa53bf285708cdbcfad26136dae78e9ce}} 
+{\bfseries early\+\_\+stopping}
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__synapse_1_1text__seq2seq__impl_1_1_text_seq2_seq_a14d2f0e7a7b451f7e1b2cddb5b4166f6}\label{classbittensor_1_1__synapse_1_1text__seq2seq__impl_1_1_text_seq2_seq_a14d2f0e7a7b451f7e1b2cddb5b4166f6}} 
+{\bfseries num\+\_\+return\+\_\+sequences}
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__synapse_1_1text__seq2seq__impl_1_1_text_seq2_seq_ab95d430b1b38156e8c2c1a78ef57fdb8}\label{classbittensor_1_1__synapse_1_1text__seq2seq__impl_1_1_text_seq2_seq_ab95d430b1b38156e8c2c1a78ef57fdb8}} 
+{\bfseries do\+\_\+sample}
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__synapse_1_1text__seq2seq__impl_1_1_text_seq2_seq_affea003c511d335b4e6f103753df951b}\label{classbittensor_1_1__synapse_1_1text__seq2seq__impl_1_1_text_seq2_seq_affea003c511d335b4e6f103753df951b}} 
+{\bfseries top\+\_\+p}
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__synapse_1_1text__seq2seq__impl_1_1_text_seq2_seq_aba82bcfa59d635c43a14645036be18b4}\label{classbittensor_1_1__synapse_1_1text__seq2seq__impl_1_1_text_seq2_seq_aba82bcfa59d635c43a14645036be18b4}} 
+{\bfseries temperature}
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__synapse_1_1text__seq2seq__impl_1_1_text_seq2_seq_a9f28f22aa4b69042b6460dda9c96b6a8}\label{classbittensor_1_1__synapse_1_1text__seq2seq__impl_1_1_text_seq2_seq_a9f28f22aa4b69042b6460dda9c96b6a8}} 
+{\bfseries repetition\+\_\+penalty}
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__synapse_1_1text__seq2seq__impl_1_1_text_seq2_seq_a336a09373e1ecbaf355acb7523026718}\label{classbittensor_1_1__synapse_1_1text__seq2seq__impl_1_1_text_seq2_seq_a336a09373e1ecbaf355acb7523026718}} 
+{\bfseries length\+\_\+penalty}
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__synapse_1_1text__seq2seq__impl_1_1_text_seq2_seq_a8cb1d3cf9e8125155e93d31e509aa6e9}\label{classbittensor_1_1__synapse_1_1text__seq2seq__impl_1_1_text_seq2_seq_a8cb1d3cf9e8125155e93d31e509aa6e9}} 
+{\bfseries num\+\_\+beam\+\_\+groups}
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__synapse_1_1text__seq2seq__impl_1_1_text_seq2_seq_a22866693878b718cfc754553ab2f3d95}\label{classbittensor_1_1__synapse_1_1text__seq2seq__impl_1_1_text_seq2_seq_a22866693878b718cfc754553ab2f3d95}} 
+{\bfseries max\+\_\+time}
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__synapse_1_1text__seq2seq__impl_1_1_text_seq2_seq_ac79082f5d5446deb95bf59aff137a3fe}\label{classbittensor_1_1__synapse_1_1text__seq2seq__impl_1_1_text_seq2_seq_ac79082f5d5446deb95bf59aff137a3fe}} 
+{\bfseries synapse\+\_\+type}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Attributes inherited from \mbox{\hyperlink{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse}{bittensor.\+\_\+synapse.\+synapse\+\_\+impl.\+Synapse}}}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse_ad3dd23864f4620b0622bea9777aa63b6}\label{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse_ad3dd23864f4620b0622bea9777aa63b6}} 
+{\bfseries forward\+\_\+request\+\_\+serializer\+\_\+type}
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse_af89940deb45bd9d18a7e1c15090a8466}\label{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse_af89940deb45bd9d18a7e1c15090a8466}} 
+{\bfseries forward\+\_\+response\+\_\+serializer\+\_\+type}
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse_a6ac9ff8fb2e6cf1d01b1d6fba4bead9e}\label{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse_a6ac9ff8fb2e6cf1d01b1d6fba4bead9e}} 
+{\bfseries backward\+\_\+request\+\_\+serializer\+\_\+type}
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse_a7a08c81b8b0a17e7913c52d17735aed5}\label{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse_a7a08c81b8b0a17e7913c52d17735aed5}} 
+{\bfseries backward\+\_\+response\+\_\+serializer\+\_\+type}
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__synapse_1_1text__seq2seq__impl_1_1_text_seq2_seq_a8fb73a61ecac84f325d88a1d35062693}\label{classbittensor_1_1__synapse_1_1text__seq2seq__impl_1_1_text_seq2_seq_a8fb73a61ecac84f325d88a1d35062693}} 
+bittensor {\bfseries synapse\+\_\+type} = bittensor.\+proto.\+Synapse.\+Synapse\+Type.\+TEXT\+\_\+\+SEQ\+\_\+2\+\_\+\+SEQ
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Static Public Attributes inherited from \mbox{\hyperlink{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse}{bittensor.\+\_\+synapse.\+synapse\+\_\+impl.\+Synapse}}}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse_af413630b0f381839eebcbf2c8431d181}\label{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse_af413630b0f381839eebcbf2c8431d181}} 
+bittensor {\bfseries synapse\+\_\+type} = None
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\begin{DoxyVerb} TextSeq2Seq Synapse type for sequence generation from language models.
+\end{DoxyVerb}
+ 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classbittensor_1_1__synapse_1_1text__seq2seq__impl_1_1_text_seq2_seq_a96d78de687b7c70aa26afa9ba5002519}\label{classbittensor_1_1__synapse_1_1text__seq2seq__impl_1_1_text_seq2_seq_a96d78de687b7c70aa26afa9ba5002519}} 
+\index{bittensor.\_synapse.text\_seq2seq\_impl.TextSeq2Seq@{bittensor.\_synapse.text\_seq2seq\_impl.TextSeq2Seq}!\_\_init\_\_@{\_\_init\_\_}}
+\index{\_\_init\_\_@{\_\_init\_\_}!bittensor.\_synapse.text\_seq2seq\_impl.TextSeq2Seq@{bittensor.\_synapse.text\_seq2seq\_impl.TextSeq2Seq}}
+\doxysubsubsection{\texorpdfstring{\_\_init\_\_()}{\_\_init\_\_()}}
+{\footnotesize\ttfamily  \textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__synapse_1_1text__seq2seq__impl_1_1_text_seq2_seq}{Text\+Seq2\+Seq}}\textquotesingle{} bittensor.\+\_\+synapse.\+text\+\_\+seq2seq\+\_\+impl.\+Text\+Seq2\+Seq.\+\_\+\+\_\+init\+\_\+\+\_\+ (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{int }]{topk = {\ttfamily 50},  }\item[{int }]{num\+\_\+to\+\_\+generate = {\ttfamily 256},  }\item[{int }]{num\+\_\+beams = {\ttfamily 5},  }\item[{int }]{no\+\_\+repeat\+\_\+ngram\+\_\+size = {\ttfamily 2},  }\item[{bool }]{early\+\_\+stopping = {\ttfamily False},  }\item[{int }]{num\+\_\+return\+\_\+sequences = {\ttfamily 1},  }\item[{bool }]{do\+\_\+sample = {\ttfamily False},  }\item[{float }]{top\+\_\+p = {\ttfamily 0.95},  }\item[{float }]{temperature = {\ttfamily 1.0},  }\item[{float }]{repetition\+\_\+penalty = {\ttfamily 1.0},  }\item[{float }]{length\+\_\+penalty = {\ttfamily 1.0},  }\item[{float }]{max\+\_\+time = {\ttfamily 150},  }\item[{int }]{num\+\_\+beam\+\_\+groups = {\ttfamily 1},  }\item[{\textquotesingle{}bittensor.\+proto.\+Serializer.\+Type\textquotesingle{} }]{forward\+\_\+request\+\_\+serializer\+\_\+type = {\ttfamily bittensor.proto.Serializer.MSGPACK},  }\item[{\textquotesingle{}bittensor.\+proto.\+Serializer.\+Type\textquotesingle{} }]{forward\+\_\+response\+\_\+serializer\+\_\+type = {\ttfamily bittensor.proto.Serializer.MSGPACK},  }\item[{\textquotesingle{}bittensor.\+proto.\+Serializer.\+Type\textquotesingle{} }]{backward\+\_\+request\+\_\+serializer\+\_\+type = {\ttfamily bittensor.proto.Serializer.MSGPACK},  }\item[{\textquotesingle{}bittensor.\+proto.\+Serializer.\+Type\textquotesingle{} }]{backward\+\_\+response\+\_\+serializer\+\_\+type = {\ttfamily bittensor.proto.Serializer.MSGPACK} }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb} TextSeq2Seq Synapse initializer.
+Args:
+    Topk (:obj:int, :default: 50):
+        The number of highest probability vocabulary tokens to keep for top-k-filtering. 
+    num_to_generate (:obj: int, :default: 256):
+        The number of tokens to generate using the language model
+    num_beams (:obj: int, :default: 5):
+        The number of beams to keep during beam search
+    no_repeat_ngram_size (:obj: int, :default: 2):
+        The number of repeat n gram allowed
+    early_stopping: (:obj: bool, :default: True):
+        If the model should early stop if the probabilty drops a certain threshold
+    num_return_sequences: (:obj: int, :default: 1):
+        How many sequences should the model return
+    do_sample (:obj: bool, :default: False):
+        If the model should do sample its probablity during generation
+    top_p (:obj: float, :default: 0.95): 
+        probability cutoff for top p sampling
+    temperature: (:obj: float, :default: 1.0):
+        The value used to module the next token probabilities for the softmax calculation
+    repetition_penalty (:obj: float, :default: 1.0):
+        The parameter for repetition penalty. 1.0 means no penalty.
+    length_penalty (:obj: float, :default: 1.0): 
+        The parameter for length penalty. 0.0 means no penalty, <0 to encourage longer sequences.
+    num_beam_groups (:obj: int, :default: 1):
+        Number of groups to divide num_beams into in order to ensure diversity among different groups of beams. 
+    max_time (:obj: float, :default: 150): 
+        The maximum time that a server can use to generate
+    forward_request_serializer_type (:obj:`bittensor.proto.Serializer.Type` of shape :obj:`(1)`, `optional`, :default: `bittensor.proto.Serializer.MSGPACK`):
+        Serializer used to pack torch tensors on forward request.
+    forward_response_serializer_type (:obj:`bittensor.proto.Serializer.Type` of shape :obj:`(1)`, `optional`, :default: `bittensor.proto.Serializer.MSGPACK`):
+        Serializer used to pack torch tensors on forward response.
+    backward_request_serializer_type (:obj:`bittensor.proto.Serializer.Type` of shape :obj:`(1)`, `optional`, :default: `bittensor.proto.Serializer.MSGPACK`):
+        Serializer used to pack torch tensors on forward request.
+    backward_response_serializer_type (:obj:`bittensor.proto.Serializer.Type` of shape :obj:`(1)`, `optional`, :default: `bittensor.proto.Serializer.MSGPACK`):
+        Serialzer used to pack torch tensors on backward response.
+Returns:
+    TextSeq2Seq (:obj:`TextSeq2Seq`, `required`):
+        TextSeq2Seq instance adapter class.
+\end{DoxyVerb}
+ 
+
+Reimplemented from \mbox{\hyperlink{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse_a43f83b557416a8a3936d5ddc175b5e6f}{bittensor.\+\_\+synapse.\+synapse\+\_\+impl.\+Synapse}}.
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classbittensor_1_1__synapse_1_1text__seq2seq__impl_1_1_text_seq2_seq_a0929558f19ff951c78c93bf1514c9671}\label{classbittensor_1_1__synapse_1_1text__seq2seq__impl_1_1_text_seq2_seq_a0929558f19ff951c78c93bf1514c9671}} 
+\index{bittensor.\_synapse.text\_seq2seq\_impl.TextSeq2Seq@{bittensor.\_synapse.text\_seq2seq\_impl.TextSeq2Seq}!\_\_repr\_\_@{\_\_repr\_\_}}
+\index{\_\_repr\_\_@{\_\_repr\_\_}!bittensor.\_synapse.text\_seq2seq\_impl.TextSeq2Seq@{bittensor.\_synapse.text\_seq2seq\_impl.TextSeq2Seq}}
+\doxysubsubsection{\texorpdfstring{\_\_repr\_\_()}{\_\_repr\_\_()}}
+{\footnotesize\ttfamily  str bittensor.\+\_\+synapse.\+text\+\_\+seq2seq\+\_\+impl.\+Text\+Seq2\+Seq.\+\_\+\+\_\+repr\+\_\+\+\_\+ (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+
+
+Reimplemented from \mbox{\hyperlink{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse}{bittensor.\+\_\+synapse.\+synapse\+\_\+impl.\+Synapse}}.
+
+\mbox{\Hypertarget{classbittensor_1_1__synapse_1_1text__seq2seq__impl_1_1_text_seq2_seq_afa18f97dd2947194eb1235237d748640}\label{classbittensor_1_1__synapse_1_1text__seq2seq__impl_1_1_text_seq2_seq_afa18f97dd2947194eb1235237d748640}} 
+\index{bittensor.\_synapse.text\_seq2seq\_impl.TextSeq2Seq@{bittensor.\_synapse.text\_seq2seq\_impl.TextSeq2Seq}!\_\_str\_\_@{\_\_str\_\_}}
+\index{\_\_str\_\_@{\_\_str\_\_}!bittensor.\_synapse.text\_seq2seq\_impl.TextSeq2Seq@{bittensor.\_synapse.text\_seq2seq\_impl.TextSeq2Seq}}
+\doxysubsubsection{\texorpdfstring{\_\_str\_\_()}{\_\_str\_\_()}}
+{\footnotesize\ttfamily  str bittensor.\+\_\+synapse.\+text\+\_\+seq2seq\+\_\+impl.\+Text\+Seq2\+Seq.\+\_\+\+\_\+str\+\_\+\+\_\+ (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+
+
+Reimplemented from \mbox{\hyperlink{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse}{bittensor.\+\_\+synapse.\+synapse\+\_\+impl.\+Synapse}}.
+
+\mbox{\Hypertarget{classbittensor_1_1__synapse_1_1text__seq2seq__impl_1_1_text_seq2_seq_a10c99cc2ab3f0516ce80f0b42bc50e3b}\label{classbittensor_1_1__synapse_1_1text__seq2seq__impl_1_1_text_seq2_seq_a10c99cc2ab3f0516ce80f0b42bc50e3b}} 
+\index{bittensor.\_synapse.text\_seq2seq\_impl.TextSeq2Seq@{bittensor.\_synapse.text\_seq2seq\_impl.TextSeq2Seq}!check\_backward\_request\_gradient@{check\_backward\_request\_gradient}}
+\index{check\_backward\_request\_gradient@{check\_backward\_request\_gradient}!bittensor.\_synapse.text\_seq2seq\_impl.TextSeq2Seq@{bittensor.\_synapse.text\_seq2seq\_impl.TextSeq2Seq}}
+\doxysubsubsection{\texorpdfstring{check\_backward\_request\_gradient()}{check\_backward\_request\_gradient()}}
+{\footnotesize\ttfamily def bittensor.\+\_\+synapse.\+text\+\_\+seq2seq\+\_\+impl.\+Text\+Seq2\+Seq.\+check\+\_\+backward\+\_\+request\+\_\+gradient (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{forward\+\_\+request\+\_\+tensor,  }\item[{}]{backward\+\_\+request\+\_\+gradient }\end{DoxyParamCaption})}
+
+
+
+Reimplemented from \mbox{\hyperlink{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse}{bittensor.\+\_\+synapse.\+synapse\+\_\+impl.\+Synapse}}.
+
+\mbox{\Hypertarget{classbittensor_1_1__synapse_1_1text__seq2seq__impl_1_1_text_seq2_seq_a5a63364c2887517c57eb7df0498dea54}\label{classbittensor_1_1__synapse_1_1text__seq2seq__impl_1_1_text_seq2_seq_a5a63364c2887517c57eb7df0498dea54}} 
+\index{bittensor.\_synapse.text\_seq2seq\_impl.TextSeq2Seq@{bittensor.\_synapse.text\_seq2seq\_impl.TextSeq2Seq}!check\_forward\_request\_tensor@{check\_forward\_request\_tensor}}
+\index{check\_forward\_request\_tensor@{check\_forward\_request\_tensor}!bittensor.\_synapse.text\_seq2seq\_impl.TextSeq2Seq@{bittensor.\_synapse.text\_seq2seq\_impl.TextSeq2Seq}}
+\doxysubsubsection{\texorpdfstring{check\_forward\_request\_tensor()}{check\_forward\_request\_tensor()}}
+{\footnotesize\ttfamily def bittensor.\+\_\+synapse.\+text\+\_\+seq2seq\+\_\+impl.\+Text\+Seq2\+Seq.\+check\+\_\+forward\+\_\+request\+\_\+tensor (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{forward\+\_\+request\+\_\+tensor }\end{DoxyParamCaption})}
+
+
+
+Reimplemented from \mbox{\hyperlink{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse}{bittensor.\+\_\+synapse.\+synapse\+\_\+impl.\+Synapse}}.
+
+\mbox{\Hypertarget{classbittensor_1_1__synapse_1_1text__seq2seq__impl_1_1_text_seq2_seq_a0b7faeaa47748cc897d45af9b776b971}\label{classbittensor_1_1__synapse_1_1text__seq2seq__impl_1_1_text_seq2_seq_a0b7faeaa47748cc897d45af9b776b971}} 
+\index{bittensor.\_synapse.text\_seq2seq\_impl.TextSeq2Seq@{bittensor.\_synapse.text\_seq2seq\_impl.TextSeq2Seq}!check\_forward\_response\_tensor@{check\_forward\_response\_tensor}}
+\index{check\_forward\_response\_tensor@{check\_forward\_response\_tensor}!bittensor.\_synapse.text\_seq2seq\_impl.TextSeq2Seq@{bittensor.\_synapse.text\_seq2seq\_impl.TextSeq2Seq}}
+\doxysubsubsection{\texorpdfstring{check\_forward\_response\_tensor()}{check\_forward\_response\_tensor()}}
+{\footnotesize\ttfamily def bittensor.\+\_\+synapse.\+text\+\_\+seq2seq\+\_\+impl.\+Text\+Seq2\+Seq.\+check\+\_\+forward\+\_\+response\+\_\+tensor (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{forward\+\_\+request\+\_\+tensor,  }\item[{}]{forward\+\_\+response\+\_\+tensor }\end{DoxyParamCaption})}
+
+
+
+Reimplemented from \mbox{\hyperlink{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse}{bittensor.\+\_\+synapse.\+synapse\+\_\+impl.\+Synapse}}.
+
+\mbox{\Hypertarget{classbittensor_1_1__synapse_1_1text__seq2seq__impl_1_1_text_seq2_seq_a8032301232cdeb9463b0dc10c381d5e2}\label{classbittensor_1_1__synapse_1_1text__seq2seq__impl_1_1_text_seq2_seq_a8032301232cdeb9463b0dc10c381d5e2}} 
+\index{bittensor.\_synapse.text\_seq2seq\_impl.TextSeq2Seq@{bittensor.\_synapse.text\_seq2seq\_impl.TextSeq2Seq}!decode\_backward\_request\_gradient@{decode\_backward\_request\_gradient}}
+\index{decode\_backward\_request\_gradient@{decode\_backward\_request\_gradient}!bittensor.\_synapse.text\_seq2seq\_impl.TextSeq2Seq@{bittensor.\_synapse.text\_seq2seq\_impl.TextSeq2Seq}}
+\doxysubsubsection{\texorpdfstring{decode\_backward\_request\_gradient()}{decode\_backward\_request\_gradient()}}
+{\footnotesize\ttfamily  torch.\+Tensor bittensor.\+\_\+synapse.\+text\+\_\+seq2seq\+\_\+impl.\+Text\+Seq2\+Seq.\+decode\+\_\+backward\+\_\+request\+\_\+gradient (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{torch.\+Tensor }]{backward\+\_\+request\+\_\+gradient }\end{DoxyParamCaption})}
+
+
+
+Reimplemented from \mbox{\hyperlink{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse}{bittensor.\+\_\+synapse.\+synapse\+\_\+impl.\+Synapse}}.
+
+\mbox{\Hypertarget{classbittensor_1_1__synapse_1_1text__seq2seq__impl_1_1_text_seq2_seq_ad711b70aa2fd466630fd4bc5391e3904}\label{classbittensor_1_1__synapse_1_1text__seq2seq__impl_1_1_text_seq2_seq_ad711b70aa2fd466630fd4bc5391e3904}} 
+\index{bittensor.\_synapse.text\_seq2seq\_impl.TextSeq2Seq@{bittensor.\_synapse.text\_seq2seq\_impl.TextSeq2Seq}!decode\_forward\_request\_tensor@{decode\_forward\_request\_tensor}}
+\index{decode\_forward\_request\_tensor@{decode\_forward\_request\_tensor}!bittensor.\_synapse.text\_seq2seq\_impl.TextSeq2Seq@{bittensor.\_synapse.text\_seq2seq\_impl.TextSeq2Seq}}
+\doxysubsubsection{\texorpdfstring{decode\_forward\_request\_tensor()}{decode\_forward\_request\_tensor()}}
+{\footnotesize\ttfamily  torch.\+Tensor bittensor.\+\_\+synapse.\+text\+\_\+seq2seq\+\_\+impl.\+Text\+Seq2\+Seq.\+decode\+\_\+forward\+\_\+request\+\_\+tensor (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{torch.\+Tensor }]{forward\+\_\+request\+\_\+tensor }\end{DoxyParamCaption})}
+
+
+
+Reimplemented from \mbox{\hyperlink{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse}{bittensor.\+\_\+synapse.\+synapse\+\_\+impl.\+Synapse}}.
+
+\mbox{\Hypertarget{classbittensor_1_1__synapse_1_1text__seq2seq__impl_1_1_text_seq2_seq_acd5aeb67464dd247534bf97ddae8be24}\label{classbittensor_1_1__synapse_1_1text__seq2seq__impl_1_1_text_seq2_seq_acd5aeb67464dd247534bf97ddae8be24}} 
+\index{bittensor.\_synapse.text\_seq2seq\_impl.TextSeq2Seq@{bittensor.\_synapse.text\_seq2seq\_impl.TextSeq2Seq}!decode\_forward\_response\_tensor@{decode\_forward\_response\_tensor}}
+\index{decode\_forward\_response\_tensor@{decode\_forward\_response\_tensor}!bittensor.\_synapse.text\_seq2seq\_impl.TextSeq2Seq@{bittensor.\_synapse.text\_seq2seq\_impl.TextSeq2Seq}}
+\doxysubsubsection{\texorpdfstring{decode\_forward\_response\_tensor()}{decode\_forward\_response\_tensor()}}
+{\footnotesize\ttfamily  torch.\+Tensor bittensor.\+\_\+synapse.\+text\+\_\+seq2seq\+\_\+impl.\+Text\+Seq2\+Seq.\+decode\+\_\+forward\+\_\+response\+\_\+tensor (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{torch.\+Tensor }]{forward\+\_\+response\+\_\+tensor }\end{DoxyParamCaption})}
+
+
+
+Reimplemented from \mbox{\hyperlink{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse}{bittensor.\+\_\+synapse.\+synapse\+\_\+impl.\+Synapse}}.
+
+\mbox{\Hypertarget{classbittensor_1_1__synapse_1_1text__seq2seq__impl_1_1_text_seq2_seq_ae2bfc37cd2b0bd39ea3f8363f67c39e6}\label{classbittensor_1_1__synapse_1_1text__seq2seq__impl_1_1_text_seq2_seq_ae2bfc37cd2b0bd39ea3f8363f67c39e6}} 
+\index{bittensor.\_synapse.text\_seq2seq\_impl.TextSeq2Seq@{bittensor.\_synapse.text\_seq2seq\_impl.TextSeq2Seq}!deserialize\_from\_instance\_proto@{deserialize\_from\_instance\_proto}}
+\index{deserialize\_from\_instance\_proto@{deserialize\_from\_instance\_proto}!bittensor.\_synapse.text\_seq2seq\_impl.TextSeq2Seq@{bittensor.\_synapse.text\_seq2seq\_impl.TextSeq2Seq}}
+\doxysubsubsection{\texorpdfstring{deserialize\_from\_instance\_proto()}{deserialize\_from\_instance\_proto()}}
+{\footnotesize\ttfamily  \textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse}{Synapse}}\textquotesingle{} bittensor.\+\_\+synapse.\+text\+\_\+seq2seq\+\_\+impl.\+Text\+Seq2\+Seq.\+deserialize\+\_\+from\+\_\+instance\+\_\+proto (\begin{DoxyParamCaption}\item[{bittensor.\+proto.\+Synapse }]{instance\+\_\+proto }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+\begin{DoxyVerb} Deserialzied the instance proto to an instance class.\end{DoxyVerb}
+ 
+
+Reimplemented from \mbox{\hyperlink{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse_a93012de6476558437aac932fdafe7630}{bittensor.\+\_\+synapse.\+synapse\+\_\+impl.\+Synapse}}.
+
+\mbox{\Hypertarget{classbittensor_1_1__synapse_1_1text__seq2seq__impl_1_1_text_seq2_seq_abfbf96b4273b71029521bf4b6cae3e8a}\label{classbittensor_1_1__synapse_1_1text__seq2seq__impl_1_1_text_seq2_seq_abfbf96b4273b71029521bf4b6cae3e8a}} 
+\index{bittensor.\_synapse.text\_seq2seq\_impl.TextSeq2Seq@{bittensor.\_synapse.text\_seq2seq\_impl.TextSeq2Seq}!deserialize\_from\_wire\_proto@{deserialize\_from\_wire\_proto}}
+\index{deserialize\_from\_wire\_proto@{deserialize\_from\_wire\_proto}!bittensor.\_synapse.text\_seq2seq\_impl.TextSeq2Seq@{bittensor.\_synapse.text\_seq2seq\_impl.TextSeq2Seq}}
+\doxysubsubsection{\texorpdfstring{deserialize\_from\_wire\_proto()}{deserialize\_from\_wire\_proto()}}
+{\footnotesize\ttfamily  \textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse}{Synapse}}\textquotesingle{} bittensor.\+\_\+synapse.\+text\+\_\+seq2seq\+\_\+impl.\+Text\+Seq2\+Seq.\+deserialize\+\_\+from\+\_\+wire\+\_\+proto (\begin{DoxyParamCaption}\item[{bittensor.\+proto.\+Synapse }]{wire\+\_\+proto }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+\begin{DoxyVerb} Deserialzied the wire proto to an instance class. \end{DoxyVerb}
+ 
+
+Reimplemented from \mbox{\hyperlink{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse_aeb38ec002657d66a4e8e947b95e4a129}{bittensor.\+\_\+synapse.\+synapse\+\_\+impl.\+Synapse}}.
+
+\mbox{\Hypertarget{classbittensor_1_1__synapse_1_1text__seq2seq__impl_1_1_text_seq2_seq_a6192bb763a8d05a765ef372be142e37e}\label{classbittensor_1_1__synapse_1_1text__seq2seq__impl_1_1_text_seq2_seq_a6192bb763a8d05a765ef372be142e37e}} 
+\index{bittensor.\_synapse.text\_seq2seq\_impl.TextSeq2Seq@{bittensor.\_synapse.text\_seq2seq\_impl.TextSeq2Seq}!encode\_backward\_request\_gradient@{encode\_backward\_request\_gradient}}
+\index{encode\_backward\_request\_gradient@{encode\_backward\_request\_gradient}!bittensor.\_synapse.text\_seq2seq\_impl.TextSeq2Seq@{bittensor.\_synapse.text\_seq2seq\_impl.TextSeq2Seq}}
+\doxysubsubsection{\texorpdfstring{encode\_backward\_request\_gradient()}{encode\_backward\_request\_gradient()}}
+{\footnotesize\ttfamily  torch.\+Tensor bittensor.\+\_\+synapse.\+text\+\_\+seq2seq\+\_\+impl.\+Text\+Seq2\+Seq.\+encode\+\_\+backward\+\_\+request\+\_\+gradient (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{torch.\+Tensor }]{backward\+\_\+request\+\_\+gradient }\end{DoxyParamCaption})}
+
+
+
+Reimplemented from \mbox{\hyperlink{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse}{bittensor.\+\_\+synapse.\+synapse\+\_\+impl.\+Synapse}}.
+
+\mbox{\Hypertarget{classbittensor_1_1__synapse_1_1text__seq2seq__impl_1_1_text_seq2_seq_a4493401dea0a50e6d8c0811a1d8cde1f}\label{classbittensor_1_1__synapse_1_1text__seq2seq__impl_1_1_text_seq2_seq_a4493401dea0a50e6d8c0811a1d8cde1f}} 
+\index{bittensor.\_synapse.text\_seq2seq\_impl.TextSeq2Seq@{bittensor.\_synapse.text\_seq2seq\_impl.TextSeq2Seq}!encode\_forward\_request\_tensor@{encode\_forward\_request\_tensor}}
+\index{encode\_forward\_request\_tensor@{encode\_forward\_request\_tensor}!bittensor.\_synapse.text\_seq2seq\_impl.TextSeq2Seq@{bittensor.\_synapse.text\_seq2seq\_impl.TextSeq2Seq}}
+\doxysubsubsection{\texorpdfstring{encode\_forward\_request\_tensor()}{encode\_forward\_request\_tensor()}}
+{\footnotesize\ttfamily  torch.\+Tensor bittensor.\+\_\+synapse.\+text\+\_\+seq2seq\+\_\+impl.\+Text\+Seq2\+Seq.\+encode\+\_\+forward\+\_\+request\+\_\+tensor (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{torch.\+Tensor }]{forward\+\_\+request\+\_\+tensor }\end{DoxyParamCaption})}
+
+
+
+Reimplemented from \mbox{\hyperlink{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse}{bittensor.\+\_\+synapse.\+synapse\+\_\+impl.\+Synapse}}.
+
+\mbox{\Hypertarget{classbittensor_1_1__synapse_1_1text__seq2seq__impl_1_1_text_seq2_seq_a27f884510f8450ece3d08698abc0eb00}\label{classbittensor_1_1__synapse_1_1text__seq2seq__impl_1_1_text_seq2_seq_a27f884510f8450ece3d08698abc0eb00}} 
+\index{bittensor.\_synapse.text\_seq2seq\_impl.TextSeq2Seq@{bittensor.\_synapse.text\_seq2seq\_impl.TextSeq2Seq}!encode\_forward\_response\_tensor@{encode\_forward\_response\_tensor}}
+\index{encode\_forward\_response\_tensor@{encode\_forward\_response\_tensor}!bittensor.\_synapse.text\_seq2seq\_impl.TextSeq2Seq@{bittensor.\_synapse.text\_seq2seq\_impl.TextSeq2Seq}}
+\doxysubsubsection{\texorpdfstring{encode\_forward\_response\_tensor()}{encode\_forward\_response\_tensor()}}
+{\footnotesize\ttfamily  torch.\+Tensor bittensor.\+\_\+synapse.\+text\+\_\+seq2seq\+\_\+impl.\+Text\+Seq2\+Seq.\+encode\+\_\+forward\+\_\+response\+\_\+tensor (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{torch.\+Tensor }]{forward\+\_\+response\+\_\+tensor }\end{DoxyParamCaption})}
+
+
+
+Reimplemented from \mbox{\hyperlink{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse}{bittensor.\+\_\+synapse.\+synapse\+\_\+impl.\+Synapse}}.
+
+\mbox{\Hypertarget{classbittensor_1_1__synapse_1_1text__seq2seq__impl_1_1_text_seq2_seq_ab2e52dd9f183a89315e5bc8e3fe9fad0}\label{classbittensor_1_1__synapse_1_1text__seq2seq__impl_1_1_text_seq2_seq_ab2e52dd9f183a89315e5bc8e3fe9fad0}} 
+\index{bittensor.\_synapse.text\_seq2seq\_impl.TextSeq2Seq@{bittensor.\_synapse.text\_seq2seq\_impl.TextSeq2Seq}!nill\_backward\_response\_tensor@{nill\_backward\_response\_tensor}}
+\index{nill\_backward\_response\_tensor@{nill\_backward\_response\_tensor}!bittensor.\_synapse.text\_seq2seq\_impl.TextSeq2Seq@{bittensor.\_synapse.text\_seq2seq\_impl.TextSeq2Seq}}
+\doxysubsubsection{\texorpdfstring{nill\_backward\_response\_tensor()}{nill\_backward\_response\_tensor()}}
+{\footnotesize\ttfamily  torch.\+Tensor bittensor.\+\_\+synapse.\+text\+\_\+seq2seq\+\_\+impl.\+Text\+Seq2\+Seq.\+nill\+\_\+backward\+\_\+response\+\_\+tensor (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{torch.\+Tensor }]{forward\+\_\+request\+\_\+tensor }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb} Returns a zeroed tensor used as response to a dendrite backward call when the call fails.\end{DoxyVerb}
+ 
+
+Reimplemented from \mbox{\hyperlink{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse_a28f55eb21a6e304a690594db9edc4922}{bittensor.\+\_\+synapse.\+synapse\+\_\+impl.\+Synapse}}.
+
+\mbox{\Hypertarget{classbittensor_1_1__synapse_1_1text__seq2seq__impl_1_1_text_seq2_seq_acb278fe90909c5e8a637c0894b8932af}\label{classbittensor_1_1__synapse_1_1text__seq2seq__impl_1_1_text_seq2_seq_acb278fe90909c5e8a637c0894b8932af}} 
+\index{bittensor.\_synapse.text\_seq2seq\_impl.TextSeq2Seq@{bittensor.\_synapse.text\_seq2seq\_impl.TextSeq2Seq}!nill\_forward\_response\_tensor@{nill\_forward\_response\_tensor}}
+\index{nill\_forward\_response\_tensor@{nill\_forward\_response\_tensor}!bittensor.\_synapse.text\_seq2seq\_impl.TextSeq2Seq@{bittensor.\_synapse.text\_seq2seq\_impl.TextSeq2Seq}}
+\doxysubsubsection{\texorpdfstring{nill\_forward\_response\_tensor()}{nill\_forward\_response\_tensor()}}
+{\footnotesize\ttfamily  torch.\+Tensor bittensor.\+\_\+synapse.\+text\+\_\+seq2seq\+\_\+impl.\+Text\+Seq2\+Seq.\+nill\+\_\+forward\+\_\+response\+\_\+tensor (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{torch.\+Tensor }]{forward\+\_\+request\+\_\+tensor }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb} Returns a zeroed tensor used as response to a dendrite forward call when the call fails.\end{DoxyVerb}
+ 
+
+Reimplemented from \mbox{\hyperlink{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse_a29704899ae87600748e464fa7823a04e}{bittensor.\+\_\+synapse.\+synapse\+\_\+impl.\+Synapse}}.
+
+\mbox{\Hypertarget{classbittensor_1_1__synapse_1_1text__seq2seq__impl_1_1_text_seq2_seq_a8e90219bc776312f507575dea907c302}\label{classbittensor_1_1__synapse_1_1text__seq2seq__impl_1_1_text_seq2_seq_a8e90219bc776312f507575dea907c302}} 
+\index{bittensor.\_synapse.text\_seq2seq\_impl.TextSeq2Seq@{bittensor.\_synapse.text\_seq2seq\_impl.TextSeq2Seq}!serialize\_to\_instance\_proto@{serialize\_to\_instance\_proto}}
+\index{serialize\_to\_instance\_proto@{serialize\_to\_instance\_proto}!bittensor.\_synapse.text\_seq2seq\_impl.TextSeq2Seq@{bittensor.\_synapse.text\_seq2seq\_impl.TextSeq2Seq}}
+\doxysubsubsection{\texorpdfstring{serialize\_to\_instance\_proto()}{serialize\_to\_instance\_proto()}}
+{\footnotesize\ttfamily  \textquotesingle{}bittensor.\+proto.\+Synapse.\+Text\+Seq2\+Seq\textquotesingle{} bittensor.\+\_\+synapse.\+text\+\_\+seq2seq\+\_\+impl.\+Text\+Seq2\+Seq.\+serialize\+\_\+to\+\_\+instance\+\_\+proto (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb} Serializes the class instance to a Synapse instance proto.\end{DoxyVerb}
+ 
+
+Reimplemented from \mbox{\hyperlink{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse_a9e2c93dbd788e9fb778997874f6429fb}{bittensor.\+\_\+synapse.\+synapse\+\_\+impl.\+Synapse}}.
+
+\mbox{\Hypertarget{classbittensor_1_1__synapse_1_1text__seq2seq__impl_1_1_text_seq2_seq_a017c5036826ffb2d75d963d2fe3f5be5}\label{classbittensor_1_1__synapse_1_1text__seq2seq__impl_1_1_text_seq2_seq_a017c5036826ffb2d75d963d2fe3f5be5}} 
+\index{bittensor.\_synapse.text\_seq2seq\_impl.TextSeq2Seq@{bittensor.\_synapse.text\_seq2seq\_impl.TextSeq2Seq}!serialize\_to\_wire\_proto@{serialize\_to\_wire\_proto}}
+\index{serialize\_to\_wire\_proto@{serialize\_to\_wire\_proto}!bittensor.\_synapse.text\_seq2seq\_impl.TextSeq2Seq@{bittensor.\_synapse.text\_seq2seq\_impl.TextSeq2Seq}}
+\doxysubsubsection{\texorpdfstring{serialize\_to\_wire\_proto()}{serialize\_to\_wire\_proto()}}
+{\footnotesize\ttfamily  bittensor.\+proto.\+Synapse bittensor.\+\_\+synapse.\+text\+\_\+seq2seq\+\_\+impl.\+Text\+Seq2\+Seq.\+serialize\+\_\+to\+\_\+wire\+\_\+proto (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{\textquotesingle{}bittensor.\+proto.\+Return\+Code\textquotesingle{} }]{code = {\ttfamily 0},  }\item[{str }]{message = {\ttfamily \textquotesingle{}\textquotesingle{}} }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb} Serializes the class instance to a Synapse wire proto. \end{DoxyVerb}
+ 
+
+Reimplemented from \mbox{\hyperlink{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse_a9fd871f88280feb461379b7d957ef368}{bittensor.\+\_\+synapse.\+synapse\+\_\+impl.\+Synapse}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+/\+Users/macthrasher/bittensor/bittensor/\+\_\+synapse/text\+\_\+seq2seq\+\_\+impl.\+py\end{DoxyCompactItemize}

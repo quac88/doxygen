@@ -1,0 +1,263 @@
+\hypertarget{classbittensor_1_1__receptor_1_1receptor__impl_1_1_receptor}{}\doxysection{bittensor.\+\_\+receptor.\+receptor\+\_\+impl.\+Receptor Class Reference}
+\label{classbittensor_1_1__receptor_1_1receptor__impl_1_1_receptor}\index{bittensor.\_receptor.receptor\_impl.Receptor@{bittensor.\_receptor.receptor\_impl.Receptor}}
+Inheritance diagram for bittensor.\+\_\+receptor.\+receptor\+\_\+impl.\+Receptor\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classbittensor_1_1__receptor_1_1receptor__impl_1_1_receptor}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \mbox{\hyperlink{classbittensor_1_1__receptor_1_1receptor__impl_1_1_receptor_a1ea7a065b3f3da6c3463eff3b757c918}{\+\_\+\+\_\+init\+\_\+\+\_\+}} (self, \textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__wallet_1_1wallet}{bittensor.\+wallet}}\textquotesingle{} \mbox{\hyperlink{classbittensor_1_1__wallet_1_1wallet}{wallet}}, \textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint}{bittensor.\+Endpoint}}\textquotesingle{} \mbox{\hyperlink{classbittensor_1_1__endpoint_1_1endpoint}{endpoint}}, \textquotesingle{}grpc.\+\_\+\+Channel\textquotesingle{} channel, \textquotesingle{}bittensor.\+grpc.\+Bittensor\+Stub\textquotesingle{} stub, int max\+\_\+processes)
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__receptor_1_1receptor__impl_1_1_receptor_a0731b3faac02c7495d5e1eeee63efc9e}\label{classbittensor_1_1__receptor_1_1receptor__impl_1_1_receptor_a0731b3faac02c7495d5e1eeee63efc9e}} 
+def {\bfseries \+\_\+\+\_\+str\+\_\+\+\_\+} (self)
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__receptor_1_1receptor__impl_1_1_receptor_a8ff0bc0c1c494c302bd2d31db4fdab9a}\label{classbittensor_1_1__receptor_1_1receptor__impl_1_1_receptor_a8ff0bc0c1c494c302bd2d31db4fdab9a}} 
+def {\bfseries \+\_\+\+\_\+repr\+\_\+\+\_\+} (self)
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__receptor_1_1receptor__impl_1_1_receptor_a9ba41a14a93d5a3688de27864964b85b}\label{classbittensor_1_1__receptor_1_1receptor__impl_1_1_receptor_a9ba41a14a93d5a3688de27864964b85b}} 
+def {\bfseries \+\_\+\+\_\+del\+\_\+\+\_\+} (self)
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__receptor_1_1receptor__impl_1_1_receptor_a80c6d7df4dca19b3199e4b7ae1cfd0c9}\label{classbittensor_1_1__receptor_1_1receptor__impl_1_1_receptor_a80c6d7df4dca19b3199e4b7ae1cfd0c9}} 
+def {\bfseries \+\_\+\+\_\+exit\+\_\+\+\_\+} (self)
+\item 
+def \mbox{\hyperlink{classbittensor_1_1__receptor_1_1receptor__impl_1_1_receptor_acd8055426f73356242c920345691acbc}{sign\+\_\+v1}} (self)
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__receptor_1_1receptor__impl_1_1_receptor_ad4911eccdc90a76ae6ca57f57134abbe}\label{classbittensor_1_1__receptor_1_1receptor__impl_1_1_receptor_ad4911eccdc90a76ae6ca57f57134abbe}} 
+def {\bfseries sign\+\_\+v2} (self)
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__receptor_1_1receptor__impl_1_1_receptor_a8c8577f492086b539670b97a8e2dc429}\label{classbittensor_1_1__receptor_1_1receptor__impl_1_1_receptor_a8c8577f492086b539670b97a8e2dc429}} 
+def {\bfseries sign} (self)
+\item 
+def \mbox{\hyperlink{classbittensor_1_1__receptor_1_1receptor__impl_1_1_receptor_a6bafdd8543cf31cf15248f6bc2267b24}{nonce}} (self)
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__receptor_1_1receptor__impl_1_1_receptor_aa73418a8067454e6543772c278609a09}\label{classbittensor_1_1__receptor_1_1receptor__impl_1_1_receptor_aa73418a8067454e6543772c278609a09}} 
+def {\bfseries state} (self)
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__receptor_1_1receptor__impl_1_1_receptor_a8f9f4a47c5226125cdf6d0f5719f818e}\label{classbittensor_1_1__receptor_1_1receptor__impl_1_1_receptor_a8f9f4a47c5226125cdf6d0f5719f818e}} 
+def {\bfseries close} (self)
+\item 
+Tuple\mbox{[}List\mbox{[}torch.\+Float\+Tensor\mbox{]}, List\mbox{[} \textquotesingle{}bittensor.\+proto.\+Return\+Code\textquotesingle{}\mbox{]}, List\mbox{[}float\mbox{]}\mbox{]} \mbox{\hyperlink{classbittensor_1_1__receptor_1_1receptor__impl_1_1_receptor_a9d1c0df7f4af927dccebd93dc421608d}{forward}} (self, List\mbox{[} \textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse}{bittensor.\+Synapse}}\textquotesingle{}\mbox{]} synapses, torch.\+Tensor inputs, int timeout)
+\item 
+Tuple\mbox{[}List\mbox{[}torch.\+Float\+Tensor\mbox{]}, List\mbox{[} \textquotesingle{}bittensor.\+proto.\+Return\+Code\textquotesingle{}\mbox{]}, List\mbox{[}float\mbox{]}\mbox{]} \mbox{\hyperlink{classbittensor_1_1__receptor_1_1receptor__impl_1_1_receptor_a491913657ab7aa2feca1460bc623a277}{backward}} (self, List\mbox{[} \textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse}{bittensor.\+Synapse}}\textquotesingle{}\mbox{]} synapses, torch.\+Tensor inputs, List\mbox{[}torch.\+Tensor\mbox{]} grads, int timeout)
+\item 
+Tuple\mbox{[}List\mbox{[}torch.\+Float\+Tensor\mbox{]}, List\mbox{[} \textquotesingle{}bittensor.\+proto.\+Return\+Code\textquotesingle{}\mbox{]}, List\mbox{[}float\mbox{]}\mbox{]} \mbox{\hyperlink{classbittensor_1_1__receptor_1_1receptor__impl_1_1_receptor_ad7be78b8e2a8c6e89eacf6aa266b7f60}{async\+\_\+forward}} (self, List\mbox{[} \textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse}{bittensor.\+Synapse}}\textquotesingle{}\mbox{]} synapses, torch.\+Tensor inputs, int timeout)
+\item 
+Tuple\mbox{[}List\mbox{[}torch.\+Float\+Tensor\mbox{]}, List\mbox{[} \textquotesingle{}bittensor.\+proto.\+Return\+Code\textquotesingle{}\mbox{]}, List\mbox{[}float\mbox{]}\mbox{]} \mbox{\hyperlink{classbittensor_1_1__receptor_1_1receptor__impl_1_1_receptor_ad1c8c2bb7b196aebd87642d0f389a79c}{async\+\_\+backward}} (self, List\mbox{[} \textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse}{bittensor.\+Synapse}}\textquotesingle{}\mbox{]} synapses, torch.\+Tensor inputs, List\mbox{[}torch.\+Tensor\mbox{]} grads, int timeout)
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__receptor_1_1receptor__impl_1_1_receptor_acb236adfe96e9d032da962735352197a}\label{classbittensor_1_1__receptor_1_1receptor__impl_1_1_receptor_acb236adfe96e9d032da962735352197a}} 
+{\bfseries wallet}
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__receptor_1_1receptor__impl_1_1_receptor_a183278203928d3695b65f6ef2d37686b}\label{classbittensor_1_1__receptor_1_1receptor__impl_1_1_receptor_a183278203928d3695b65f6ef2d37686b}} 
+{\bfseries endpoint}
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__receptor_1_1receptor__impl_1_1_receptor_a068c11a1d1419ed9079ff85596ac70bb}\label{classbittensor_1_1__receptor_1_1receptor__impl_1_1_receptor_a068c11a1d1419ed9079ff85596ac70bb}} 
+{\bfseries channel}
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__receptor_1_1receptor__impl_1_1_receptor_a3f2f46a45a07a696d43388698956fd66}\label{classbittensor_1_1__receptor_1_1receptor__impl_1_1_receptor_a3f2f46a45a07a696d43388698956fd66}} 
+{\bfseries stub}
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__receptor_1_1receptor__impl_1_1_receptor_a8e03b825b6c2d7734eae1a3be2d3623f}\label{classbittensor_1_1__receptor_1_1receptor__impl_1_1_receptor_a8e03b825b6c2d7734eae1a3be2d3623f}} 
+{\bfseries receptor\+\_\+uid}
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__receptor_1_1receptor__impl_1_1_receptor_ad0bb731aa76428c57458de7321782244}\label{classbittensor_1_1__receptor_1_1receptor__impl_1_1_receptor_ad0bb731aa76428c57458de7321782244}} 
+{\bfseries semaphore}
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__receptor_1_1receptor__impl_1_1_receptor_a8c7dd319bbac922f7b3f1d8fd80c6013}\label{classbittensor_1_1__receptor_1_1receptor__impl_1_1_receptor_a8c7dd319bbac922f7b3f1d8fd80c6013}} 
+{\bfseries state\+\_\+dict}
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__receptor_1_1receptor__impl_1_1_receptor_ae167db146c945676922b2e010da735c1}\label{classbittensor_1_1__receptor_1_1receptor__impl_1_1_receptor_ae167db146c945676922b2e010da735c1}} 
+{\bfseries stats}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classbittensor_1_1__receptor_1_1receptor__impl_1_1_receptor_a1ea7a065b3f3da6c3463eff3b757c918}\label{classbittensor_1_1__receptor_1_1receptor__impl_1_1_receptor_a1ea7a065b3f3da6c3463eff3b757c918}} 
+\index{bittensor.\_receptor.receptor\_impl.Receptor@{bittensor.\_receptor.receptor\_impl.Receptor}!\_\_init\_\_@{\_\_init\_\_}}
+\index{\_\_init\_\_@{\_\_init\_\_}!bittensor.\_receptor.receptor\_impl.Receptor@{bittensor.\_receptor.receptor\_impl.Receptor}}
+\doxysubsubsection{\texorpdfstring{\_\_init\_\_()}{\_\_init\_\_()}}
+{\footnotesize\ttfamily def bittensor.\+\_\+receptor.\+receptor\+\_\+impl.\+Receptor.\+\_\+\+\_\+init\+\_\+\+\_\+ (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{\textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__wallet_1_1wallet}{bittensor.\+wallet}}\textquotesingle{}}]{wallet,  }\item[{\textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint}{bittensor.\+Endpoint}}\textquotesingle{}}]{endpoint,  }\item[{\textquotesingle{}grpc.\+\_\+\+Channel\textquotesingle{}}]{channel,  }\item[{\textquotesingle{}bittensor.\+grpc.\+Bittensor\+Stub\textquotesingle{}}]{stub,  }\item[{int}]{max\+\_\+processes }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb} Initializes a receptor grpc connection.
+
+    Args:
+        wallet (:obj:`bittensor.Wallet`, `required`):
+            bittensor wallet with hotkey and coldkeypub.
+        endpoint (:obj:`bittensor.Endpoint`, `required`):
+            neuron endpoint descriptor proto.
+        channel (:obj:`grpc._Channel`, `required`):
+            grpc TCP channel.
+        endpoint (:obj:`bittensor.grpc.BittensorStub`, `required`):
+            bittensor protocol stub created from channel.
+\end{DoxyVerb}
+ 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classbittensor_1_1__receptor_1_1receptor__impl_1_1_receptor_ad1c8c2bb7b196aebd87642d0f389a79c}\label{classbittensor_1_1__receptor_1_1receptor__impl_1_1_receptor_ad1c8c2bb7b196aebd87642d0f389a79c}} 
+\index{bittensor.\_receptor.receptor\_impl.Receptor@{bittensor.\_receptor.receptor\_impl.Receptor}!async\_backward@{async\_backward}}
+\index{async\_backward@{async\_backward}!bittensor.\_receptor.receptor\_impl.Receptor@{bittensor.\_receptor.receptor\_impl.Receptor}}
+\doxysubsubsection{\texorpdfstring{async\_backward()}{async\_backward()}}
+{\footnotesize\ttfamily  Tuple\mbox{[} List\mbox{[} torch.\+Float\+Tensor \mbox{]}, List\mbox{[}\textquotesingle{}bittensor.\+proto.\+Return\+Code\textquotesingle{}\mbox{]}, List\mbox{[}float\mbox{]} \mbox{]} bittensor.\+\_\+receptor.\+receptor\+\_\+impl.\+Receptor.\+async\+\_\+backward (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{List\mbox{[} \textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse}{bittensor.\+Synapse}}\textquotesingle{} \mbox{]}}]{synapses,  }\item[{torch.\+Tensor}]{inputs,  }\item[{List\mbox{[}torch.\+Tensor\mbox{]}}]{grads,  }\item[{int     }]{timeout }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb} Triggers the grpc backward call to the remote endpoint.
+    This triggers the synapse's backward calls with arguments.
+    Call returns a list of output gradient tensors one per synapse with corresponding time and bittensor.proto.ReturnCode.
+
+    Args:
+        synapses (:obj:`List[ 'bittensor.Synapse' ]` of shape :obj:`(num_synapses)`, `required`):
+            Bittensor synapse objects with arguments. Each corresponds to a synapse function on the axon.
+            Responses are packed in this ordering. 
+
+        inputs (:obj:`torch.Tensor` of shape :obj:`(shape)`, `required`):
+            Single torch tensor input corresponding to the linked forward call.
+            TODO(const): Make this multi-forward tensor.
+
+        grads (:obj:`List[torch.FloatTensor]` of shape :obj:`num_synapses * (shape_of_synapse_output_i)`, `required`):
+            List of torch tensor gradients associated with each synapse.
+     
+        timeout (:obj:`int`, `required`):
+            Request max timeout
+    Returns:
+        output (:obj:`torch.FloatTensor`, `required`):
+            Result tensors (likely zero) from the backward call each corresponding to a single forward input.
+            NOTE(const) Always zeros because responses are not waited.
+            TODO(const): Make this multi-forward tensor.
+
+        codes (:obj:`bittensor.proto.ReturnCode`, `required`):
+            List of return codes associated with each passed synapse enum.
+            Connection failures return all the same code, otherwise a unique code per synapse. 
+
+        times (:obj:`float`, `required`):
+            List of times for each call associated with each passed synapse enum. 
+            Success responses all get the same time.
+\end{DoxyVerb}
+ \mbox{\Hypertarget{classbittensor_1_1__receptor_1_1receptor__impl_1_1_receptor_ad7be78b8e2a8c6e89eacf6aa266b7f60}\label{classbittensor_1_1__receptor_1_1receptor__impl_1_1_receptor_ad7be78b8e2a8c6e89eacf6aa266b7f60}} 
+\index{bittensor.\_receptor.receptor\_impl.Receptor@{bittensor.\_receptor.receptor\_impl.Receptor}!async\_forward@{async\_forward}}
+\index{async\_forward@{async\_forward}!bittensor.\_receptor.receptor\_impl.Receptor@{bittensor.\_receptor.receptor\_impl.Receptor}}
+\doxysubsubsection{\texorpdfstring{async\_forward()}{async\_forward()}}
+{\footnotesize\ttfamily  Tuple\mbox{[} List\mbox{[} torch.\+Float\+Tensor \mbox{]}, List\mbox{[}\textquotesingle{}bittensor.\+proto.\+Return\+Code\textquotesingle{}\mbox{]}, List\mbox{[}float\mbox{]} \mbox{]} bittensor.\+\_\+receptor.\+receptor\+\_\+impl.\+Receptor.\+async\+\_\+forward (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{List\mbox{[} \textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse}{bittensor.\+Synapse}}\textquotesingle{} \mbox{]}}]{synapses,  }\item[{torch.\+Tensor}]{inputs,  }\item[{int}]{timeout }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb} Triggers the grpc call to the remote endpoint.
+    This triggers the synapse calls with arguments.
+    Call returns a list of output tensors one per synapse with corresponding time and bittensor.proto.ReturnCode.
+
+    Args:
+        synapses (:obj:`List[ 'bittensor.Synapse' ]` of shape :obj:`(num_synapses)`, `required`):
+            Bittensor synapse objects with arguments. Each corresponds to a synapse function on the axon.
+            Responses are packed in this ordering. 
+
+        inputs (:obj:`torch.Tensor` of shape :obj:`(shape)`, `required`):
+            Single torch tensor to be sent to the remote endpoint.
+            TODO(const): Make this a multi-forward tensor.
+
+        timeout (:obj:`int`, `required`):
+            Request max timeout
+    Returns:
+        outputs (:obj:`List[ Union[torch.FloatTensor, torch.LongTensor] ]`, `required`):
+            outputs.shape = [batch_size, synapse_length, response] 
+            List of result tensors from the forward call each corresponding to a passed synapse enum.
+
+        codes (:obj:`bittensor.proto.ReturnCode`, `required`):
+            List of return codes associated with each passed synapse enum.
+            Connection failures return all the same code, otherwise a unique code per synapse. 
+
+        times (:obj:`float`, `required`):
+            List of times for each call associated with each passed synapse enum. 
+            Success responses all get the same time.\end{DoxyVerb}
+ \mbox{\Hypertarget{classbittensor_1_1__receptor_1_1receptor__impl_1_1_receptor_a491913657ab7aa2feca1460bc623a277}\label{classbittensor_1_1__receptor_1_1receptor__impl_1_1_receptor_a491913657ab7aa2feca1460bc623a277}} 
+\index{bittensor.\_receptor.receptor\_impl.Receptor@{bittensor.\_receptor.receptor\_impl.Receptor}!backward@{backward}}
+\index{backward@{backward}!bittensor.\_receptor.receptor\_impl.Receptor@{bittensor.\_receptor.receptor\_impl.Receptor}}
+\doxysubsubsection{\texorpdfstring{backward()}{backward()}}
+{\footnotesize\ttfamily  Tuple\mbox{[} List\mbox{[} torch.\+Float\+Tensor \mbox{]}, List\mbox{[}\textquotesingle{}bittensor.\+proto.\+Return\+Code\textquotesingle{}\mbox{]}, List\mbox{[}float\mbox{]} \mbox{]} bittensor.\+\_\+receptor.\+receptor\+\_\+impl.\+Receptor.\+backward (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{List\mbox{[} \textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse}{bittensor.\+Synapse}}\textquotesingle{} \mbox{]}}]{synapses,  }\item[{torch.\+Tensor}]{inputs,  }\item[{List\mbox{[}torch.\+Tensor\mbox{]}}]{grads,  }\item[{int     }]{timeout }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb} Triggers the grpc backward call to the remote endpoint.
+    This triggers the synapse's backward calls with arguments.
+    Call returns a list of output gradient tensors one per synapse with corresponding time and bittensor.proto.ReturnCode.
+
+    Args:
+        synapses (:obj:`List[ 'bittensor.Synapse' ]` of shape :obj:`(num_synapses)`, `required`):
+            Bittensor synapse objects with arguments. Each corresponds to a synapse function on the axon.
+            Responses are packed in this ordering. 
+
+        inputs (:obj:`torch.Tensor` of shape :obj:`(shape)`, `required`):
+            Single torch tensor input corresponding to the linked forward call.
+            TODO(const): Make this multi-forward tensor.
+
+        grads (:obj:`List[torch.FloatTensor]` of shape :obj:`num_synapses * (shape_of_synapse_output_i)`, `required`):
+            List of torch tensor gradients associated with each synapse.
+     
+        timeout (:obj:`int`, `required`):
+            Request max timeout
+    Returns:
+        output (:obj:`torch.FloatTensor`, `required`):
+            Result tensors (likely zero) from the backward call each corresponding to a single forward input.
+            NOTE(const) Always zeros because responses are not waited.
+            TODO(const): Make this multi-forward tensor.
+
+        codes (:obj:`bittensor.proto.ReturnCode`, `required`):
+            List of return codes associated with each passed synapse enum.
+            Connection failures return all the same code, otherwise a unique code per synapse. 
+
+        times (:obj:`float`, `required`):
+            List of times for each call associated with each passed synapse enum. 
+            Success responses all get the same time.
+\end{DoxyVerb}
+ \mbox{\Hypertarget{classbittensor_1_1__receptor_1_1receptor__impl_1_1_receptor_a9d1c0df7f4af927dccebd93dc421608d}\label{classbittensor_1_1__receptor_1_1receptor__impl_1_1_receptor_a9d1c0df7f4af927dccebd93dc421608d}} 
+\index{bittensor.\_receptor.receptor\_impl.Receptor@{bittensor.\_receptor.receptor\_impl.Receptor}!forward@{forward}}
+\index{forward@{forward}!bittensor.\_receptor.receptor\_impl.Receptor@{bittensor.\_receptor.receptor\_impl.Receptor}}
+\doxysubsubsection{\texorpdfstring{forward()}{forward()}}
+{\footnotesize\ttfamily  Tuple\mbox{[} List\mbox{[} torch.\+Float\+Tensor \mbox{]}, List\mbox{[}\textquotesingle{}bittensor.\+proto.\+Return\+Code\textquotesingle{}\mbox{]}, List\mbox{[}float\mbox{]} \mbox{]} bittensor.\+\_\+receptor.\+receptor\+\_\+impl.\+Receptor.\+forward (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{List\mbox{[} \textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse}{bittensor.\+Synapse}}\textquotesingle{} \mbox{]}}]{synapses,  }\item[{torch.\+Tensor}]{inputs,  }\item[{int}]{timeout }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb} Triggers the grpc call to the remote endpoint.
+    This triggers the synapse calls with arguments.
+    Call returns a list of output tensors one per synapse with corresponding time and bittensor.proto.ReturnCode.
+
+    Args:
+        synapses (:obj:`List[ 'bittensor.Synapse' ]` of shape :obj:`(num_synapses)`, `required`):
+            Bittensor synapse objects with arguments. Each corresponds to a synapse function on the axon.
+            Responses are packed in this ordering. 
+
+        inputs (:obj:`torch.Tensor` of shape :obj:`(shape)`, `required`):
+            Single torch tensor to be sent to the remote endpoint.
+            TODO(const): Make this a multi-forward tensor.
+
+        timeout (:obj:`int`, `required`):
+            Request max timeout
+    Returns:
+        outputs (:obj:`List[ Union[torch.FloatTensor, torch.LongTensor] ]`, `required`):
+            outputs.shape = [batch_size, synapse_length, response] 
+            List of result tensors from the forward call each corresponding to a passed synapse enum.
+
+        codes (:obj:`bittensor.proto.ReturnCode`, `required`):
+            List of return codes associated with each passed synapse enum.
+            Connection failures return all the same code, otherwise a unique code per synapse. 
+
+        times (:obj:`float`, `required`):
+            List of times for each call associated with each passed synapse enum. 
+            Success responses all get the same time.\end{DoxyVerb}
+ \mbox{\Hypertarget{classbittensor_1_1__receptor_1_1receptor__impl_1_1_receptor_a6bafdd8543cf31cf15248f6bc2267b24}\label{classbittensor_1_1__receptor_1_1receptor__impl_1_1_receptor_a6bafdd8543cf31cf15248f6bc2267b24}} 
+\index{bittensor.\_receptor.receptor\_impl.Receptor@{bittensor.\_receptor.receptor\_impl.Receptor}!nonce@{nonce}}
+\index{nonce@{nonce}!bittensor.\_receptor.receptor\_impl.Receptor@{bittensor.\_receptor.receptor\_impl.Receptor}}
+\doxysubsubsection{\texorpdfstring{nonce()}{nonce()}}
+{\footnotesize\ttfamily def bittensor.\+\_\+receptor.\+receptor\+\_\+impl.\+Receptor.\+nonce (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}creates a string representation of the time
+\end{DoxyVerb}
+ \mbox{\Hypertarget{classbittensor_1_1__receptor_1_1receptor__impl_1_1_receptor_acd8055426f73356242c920345691acbc}\label{classbittensor_1_1__receptor_1_1receptor__impl_1_1_receptor_acd8055426f73356242c920345691acbc}} 
+\index{bittensor.\_receptor.receptor\_impl.Receptor@{bittensor.\_receptor.receptor\_impl.Receptor}!sign\_v1@{sign\_v1}}
+\index{sign\_v1@{sign\_v1}!bittensor.\_receptor.receptor\_impl.Receptor@{bittensor.\_receptor.receptor\_impl.Receptor}}
+\doxysubsubsection{\texorpdfstring{sign\_v1()}{sign\_v1()}}
+{\footnotesize\ttfamily def bittensor.\+\_\+receptor.\+receptor\+\_\+impl.\+Receptor.\+sign\+\_\+v1 (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb} Uses the wallet pubkey to sign a message containing the pubkey and the time
+\end{DoxyVerb}
+ 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+/\+Users/macthrasher/bittensor/bittensor/\+\_\+receptor/receptor\+\_\+impl.\+py\end{DoxyCompactItemize}

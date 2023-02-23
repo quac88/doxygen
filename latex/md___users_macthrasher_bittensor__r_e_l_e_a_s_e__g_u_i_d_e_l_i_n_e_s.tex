@@ -1,0 +1,96 @@
+The release manager in charge can release a Bittensor version using two scripts\+:
+\begin{DoxyItemize}
+\item \href{./scripts/release/versioning.sh}{\texttt{ ./scripts/release/versioning.sh}}
+\item \href{./scripts/release/release.sh}{\texttt{ ./scripts/release/release.sh}}
+\end{DoxyItemize}
+
+The release manager will need the right permissions for\+:
+\begin{DoxyItemize}
+\item github.\+com
+\item pypi.\+org
+\item hub.\+docker.\+com
+\end{DoxyItemize}
+
+If you are new in this role, ask for the proper setup you need to run this process manually.\hypertarget{md___users_macthrasher_bittensor__r_e_l_e_a_s_e__g_u_i_d_e_l_i_n_e_s_autotoc_md89}{}\doxysection{Process of release}\label{md___users_macthrasher_bittensor__r_e_l_e_a_s_e__g_u_i_d_e_l_i_n_e_s_autotoc_md89}
+
+\begin{DoxyEnumerate}
+\item Create a branch called {\ttfamily release/\+VERSION}, having VERSION with the version to release.
+\end{DoxyEnumerate}
+\begin{DoxyEnumerate}
+\item Within the release branch; Update the version using the versioning script\+:
+\begin{DoxyEnumerate}
+\item {\ttfamily ./scripts/release/versioning.sh -\/-\/update UPDATE\+\_\+\+TYPE}, UPDATE\+\_\+\+TYPE could be major, minor or patch.
+\end{DoxyEnumerate}
+\end{DoxyEnumerate}
+\begin{DoxyEnumerate}
+\item Test the release branch and verify that it meets the requirements.
+\end{DoxyEnumerate}
+\begin{DoxyEnumerate}
+\item After merging the release branch; Run the release script
+\end{DoxyEnumerate}\hypertarget{md___users_macthrasher_bittensor__r_e_l_e_a_s_e__g_u_i_d_e_l_i_n_e_s_autotoc_md90}{}\doxysection{Versioning script usage}\label{md___users_macthrasher_bittensor__r_e_l_e_a_s_e__g_u_i_d_e_l_i_n_e_s_autotoc_md90}
+Options\+:
+\begin{DoxyItemize}
+\item -\/U, --update\+: type of update. It could be major, minor, patch or rc (release candidate).
+\item -\/A, --apply\+: This specify to apply the release. Without this the versioning will just show a dry run with no changes.
+\end{DoxyItemize}\hypertarget{md___users_macthrasher_bittensor__r_e_l_e_a_s_e__g_u_i_d_e_l_i_n_e_s_autotoc_md91}{}\doxysection{Release script usage}\label{md___users_macthrasher_bittensor__r_e_l_e_a_s_e__g_u_i_d_e_l_i_n_e_s_autotoc_md91}
+Options\+:
+\begin{DoxyItemize}
+\item -\/A, --apply\+: This specify to apply the release. Without this the release will just show a dry run with no changes.
+\item -\/T,--github-\/token\+: A github personal access token to interact with the Github API.
+\end{DoxyItemize}\hypertarget{md___users_macthrasher_bittensor__r_e_l_e_a_s_e__g_u_i_d_e_l_i_n_e_s_autotoc_md92}{}\doxysubsection{Github token}\label{md___users_macthrasher_bittensor__r_e_l_e_a_s_e__g_u_i_d_e_l_i_n_e_s_autotoc_md92}
+Since you need to use a secret when releasing bittensor (github personal access token), I encourage you to use \href{https://www.passwordstore.org/}{\texttt{ pass}} or a similar tool that allows you to store the secret safely and not expose it in the history of the machine you use.
+
+So you can have\+: 
+\begin{DoxyCode}{0}
+\DoxyCodeLine{GITHUB\_ACCESS\_TOKEN=\$(pass\ github/your\_personal\_token\_with\_permisions)}
+
+\end{DoxyCode}
+
+
+or 
+\begin{DoxyCode}{0}
+\DoxyCodeLine{GITHUB\_ACCESS\_TOKEN=\$(whatever\ you\ need\ to\ get\ the\ token\ safely)}
+
+\end{DoxyCode}
+\hypertarget{md___users_macthrasher_bittensor__r_e_l_e_a_s_e__g_u_i_d_e_l_i_n_e_s_autotoc_md93}{}\doxysubsection{Executions}\label{md___users_macthrasher_bittensor__r_e_l_e_a_s_e__g_u_i_d_e_l_i_n_e_s_autotoc_md93}
+So, executing the script to release a minor version will be\+:
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\#\ For\ a\ dry\ run}
+\DoxyCodeLine{./scripts/release/release.sh\ -\/-\/version\ minor\ -\/-\/github-\/token\ \$GITHUB\_ACCESS\_TOKEN`}
+
+\end{DoxyCode}
+
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\#\ Applying\ changes}
+\DoxyCodeLine{./scripts/release/release.sh\ -\/-\/apply\ -\/-\/version\ minor\ -\/-\/github-\/token\ \$GITHUB\_ACCESS\_TOKEN`}
+
+\end{DoxyCode}
+\hypertarget{md___users_macthrasher_bittensor__r_e_l_e_a_s_e__g_u_i_d_e_l_i_n_e_s_autotoc_md94}{}\doxysection{Checking release}\label{md___users_macthrasher_bittensor__r_e_l_e_a_s_e__g_u_i_d_e_l_i_n_e_s_autotoc_md94}
+After the execution of the release script we would have generated\+:
+\begin{DoxyItemize}
+\item A new git tag in \href{https://github.com/opentensor/bittensor/tags}{\texttt{ github.\+com}}
+\item A new github release in \href{https://github.com/opentensor/bittensor/releases}{\texttt{ github.\+com}}
+\item A new pip package in \href{https://pypi.org/project/bittensor/\#history}{\texttt{ pypi.\+org}}
+\item A new docker image in \href{https://hub.docker.com/r/opentensorfdn/bittensor/tags}{\texttt{ hub.\+docker.\+com}}
+\end{DoxyItemize}\hypertarget{md___users_macthrasher_bittensor__r_e_l_e_a_s_e__g_u_i_d_e_l_i_n_e_s_autotoc_md95}{}\doxysection{After release}\label{md___users_macthrasher_bittensor__r_e_l_e_a_s_e__g_u_i_d_e_l_i_n_e_s_autotoc_md95}
+After a Bittensor release we have to
+\begin{DoxyItemize}
+\item Update \href{https://github.com/opentensor/cubit}{\texttt{ cubit}}.
+\end{DoxyItemize}\hypertarget{md___users_macthrasher_bittensor__r_e_l_e_a_s_e__g_u_i_d_e_l_i_n_e_s_autotoc_md96}{}\doxysubsection{Updating cubit}\label{md___users_macthrasher_bittensor__r_e_l_e_a_s_e__g_u_i_d_e_l_i_n_e_s_autotoc_md96}
+
+\begin{DoxyEnumerate}
+\item Updating the \href{https://github.com/opentensor/cubit/blob/master/docker/Dockerfile}{\texttt{ Dockerfile}}
+\end{DoxyEnumerate}
+\begin{DoxyEnumerate}
+\item Building its docker image (follow its README instructions)
+\end{DoxyEnumerate}
+\begin{DoxyEnumerate}
+\item Push it to hub.\+docker.\+com
+\begin{DoxyEnumerate}
+\item The generated name will be the same but with {\ttfamily -\/cubit} in its name 
+\end{DoxyEnumerate}
+\end{DoxyEnumerate}

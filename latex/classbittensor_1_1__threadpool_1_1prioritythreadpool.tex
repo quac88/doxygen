@@ -1,0 +1,85 @@
+\hypertarget{classbittensor_1_1__threadpool_1_1prioritythreadpool}{}\doxysection{bittensor.\+\_\+threadpool.\+prioritythreadpool Class Reference}
+\label{classbittensor_1_1__threadpool_1_1prioritythreadpool}\index{bittensor.\_threadpool.prioritythreadpool@{bittensor.\_threadpool.prioritythreadpool}}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \mbox{\hyperlink{classbittensor_1_1__threadpool_1_1prioritythreadpool_a81bc97e03580dd43fb7820feed73cd02}{\+\_\+\+\_\+new\+\_\+\+\_\+}} (cls, \textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__config_1_1config}{bittensor.\+config}}\textquotesingle{} \mbox{\hyperlink{classbittensor_1_1__config_1_1config}{config}}=None, int max\+\_\+workers=None, int maxsize=None)
+\item 
+def \mbox{\hyperlink{classbittensor_1_1__threadpool_1_1prioritythreadpool_a2d01eebce7b20b5afd1cf74b092dcbc2}{add\+\_\+args}} (cls, argparse.\+Argument\+Parser parser, str prefix=None)
+\item 
+def \mbox{\hyperlink{classbittensor_1_1__threadpool_1_1prioritythreadpool_a06abea6a5f23ff327501536eda597e60}{help}} (cls)
+\item 
+def \mbox{\hyperlink{classbittensor_1_1__threadpool_1_1prioritythreadpool_adfadcd4b1d3e35f5802630d5b6ac4891}{add\+\_\+defaults}} (cls, defaults)
+\item 
+ \textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__config_1_1config__impl_1_1_config}{bittensor.\+Config}}\textquotesingle{} \mbox{\hyperlink{classbittensor_1_1__threadpool_1_1prioritythreadpool_a197d82d514a20af96c5f4c847e9944fb}{config}} (cls)
+\item 
+def \mbox{\hyperlink{classbittensor_1_1__threadpool_1_1prioritythreadpool_a21f0cd838ad30b96e28563a418d27d58}{check\+\_\+config}} (cls, \textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__config_1_1config__impl_1_1_config}{bittensor.\+Config}}\textquotesingle{} \mbox{\hyperlink{classbittensor_1_1__config_1_1config}{config}})
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\begin{DoxyVerb} Factory method for creating priority threadpool
+\end{DoxyVerb}
+ 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classbittensor_1_1__threadpool_1_1prioritythreadpool_a81bc97e03580dd43fb7820feed73cd02}\label{classbittensor_1_1__threadpool_1_1prioritythreadpool_a81bc97e03580dd43fb7820feed73cd02}} 
+\index{bittensor.\_threadpool.prioritythreadpool@{bittensor.\_threadpool.prioritythreadpool}!\_\_new\_\_@{\_\_new\_\_}}
+\index{\_\_new\_\_@{\_\_new\_\_}!bittensor.\_threadpool.prioritythreadpool@{bittensor.\_threadpool.prioritythreadpool}}
+\doxysubsubsection{\texorpdfstring{\_\_new\_\_()}{\_\_new\_\_()}}
+{\footnotesize\ttfamily def bittensor.\+\_\+threadpool.\+prioritythreadpool.\+\_\+\+\_\+new\+\_\+\+\_\+ (\begin{DoxyParamCaption}\item[{}]{cls,  }\item[{\textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__config_1_1config}{bittensor.\+config}}\textquotesingle{} }]{config = {\ttfamily None},  }\item[{int }]{max\+\_\+workers = {\ttfamily None},  }\item[{int }]{maxsize = {\ttfamily None} }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb} Initializes a priority thread pool.
+        Args:
+            config (:obj:`bittensor.Config`, `optional`): 
+                bittensor.subtensor.config()
+            max_workers (default=10, type=int)
+.                   The maximum number of threads in thread pool
+            maxsize (default=-1, type=int)
+                The maximum number of tasks in the priority queue\end{DoxyVerb}
+ \mbox{\Hypertarget{classbittensor_1_1__threadpool_1_1prioritythreadpool_a2d01eebce7b20b5afd1cf74b092dcbc2}\label{classbittensor_1_1__threadpool_1_1prioritythreadpool_a2d01eebce7b20b5afd1cf74b092dcbc2}} 
+\index{bittensor.\_threadpool.prioritythreadpool@{bittensor.\_threadpool.prioritythreadpool}!add\_args@{add\_args}}
+\index{add\_args@{add\_args}!bittensor.\_threadpool.prioritythreadpool@{bittensor.\_threadpool.prioritythreadpool}}
+\doxysubsubsection{\texorpdfstring{add\_args()}{add\_args()}}
+{\footnotesize\ttfamily def bittensor.\+\_\+threadpool.\+prioritythreadpool.\+add\+\_\+args (\begin{DoxyParamCaption}\item[{}]{cls,  }\item[{argparse.\+Argument\+Parser}]{parser,  }\item[{str }]{prefix = {\ttfamily None} }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb} Accept specific arguments from parser
+\end{DoxyVerb}
+ \mbox{\Hypertarget{classbittensor_1_1__threadpool_1_1prioritythreadpool_adfadcd4b1d3e35f5802630d5b6ac4891}\label{classbittensor_1_1__threadpool_1_1prioritythreadpool_adfadcd4b1d3e35f5802630d5b6ac4891}} 
+\index{bittensor.\_threadpool.prioritythreadpool@{bittensor.\_threadpool.prioritythreadpool}!add\_defaults@{add\_defaults}}
+\index{add\_defaults@{add\_defaults}!bittensor.\_threadpool.prioritythreadpool@{bittensor.\_threadpool.prioritythreadpool}}
+\doxysubsubsection{\texorpdfstring{add\_defaults()}{add\_defaults()}}
+{\footnotesize\ttfamily def bittensor.\+\_\+threadpool.\+prioritythreadpool.\+add\+\_\+defaults (\begin{DoxyParamCaption}\item[{}]{cls,  }\item[{}]{defaults }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb} Adds parser defaults to object from enviroment variables.
+\end{DoxyVerb}
+ \mbox{\Hypertarget{classbittensor_1_1__threadpool_1_1prioritythreadpool_a21f0cd838ad30b96e28563a418d27d58}\label{classbittensor_1_1__threadpool_1_1prioritythreadpool_a21f0cd838ad30b96e28563a418d27d58}} 
+\index{bittensor.\_threadpool.prioritythreadpool@{bittensor.\_threadpool.prioritythreadpool}!check\_config@{check\_config}}
+\index{check\_config@{check\_config}!bittensor.\_threadpool.prioritythreadpool@{bittensor.\_threadpool.prioritythreadpool}}
+\doxysubsubsection{\texorpdfstring{check\_config()}{check\_config()}}
+{\footnotesize\ttfamily def bittensor.\+\_\+threadpool.\+prioritythreadpool.\+check\+\_\+config (\begin{DoxyParamCaption}\item[{}]{cls,  }\item[{\textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__config_1_1config__impl_1_1_config}{bittensor.\+Config}}\textquotesingle{} }]{config }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb} Check config for threadpool worker number and size
+\end{DoxyVerb}
+ \mbox{\Hypertarget{classbittensor_1_1__threadpool_1_1prioritythreadpool_a197d82d514a20af96c5f4c847e9944fb}\label{classbittensor_1_1__threadpool_1_1prioritythreadpool_a197d82d514a20af96c5f4c847e9944fb}} 
+\index{bittensor.\_threadpool.prioritythreadpool@{bittensor.\_threadpool.prioritythreadpool}!config@{config}}
+\index{config@{config}!bittensor.\_threadpool.prioritythreadpool@{bittensor.\_threadpool.prioritythreadpool}}
+\doxysubsubsection{\texorpdfstring{config()}{config()}}
+{\footnotesize\ttfamily  \textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__config_1_1config__impl_1_1_config}{bittensor.\+Config}}\textquotesingle{} bittensor.\+\_\+threadpool.\+prioritythreadpool.\+config (\begin{DoxyParamCaption}\item[{}]{cls }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb} Get config from the argument parser
+    Return: bittensor.config object 
+\end{DoxyVerb}
+ \mbox{\Hypertarget{classbittensor_1_1__threadpool_1_1prioritythreadpool_a06abea6a5f23ff327501536eda597e60}\label{classbittensor_1_1__threadpool_1_1prioritythreadpool_a06abea6a5f23ff327501536eda597e60}} 
+\index{bittensor.\_threadpool.prioritythreadpool@{bittensor.\_threadpool.prioritythreadpool}!help@{help}}
+\index{help@{help}!bittensor.\_threadpool.prioritythreadpool@{bittensor.\_threadpool.prioritythreadpool}}
+\doxysubsubsection{\texorpdfstring{help()}{help()}}
+{\footnotesize\ttfamily def bittensor.\+\_\+threadpool.\+prioritythreadpool.\+help (\begin{DoxyParamCaption}\item[{}]{cls }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb} Print help to stdout
+\end{DoxyVerb}
+ 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+/\+Users/macthrasher/bittensor/bittensor/\+\_\+threadpool/\+\_\+\+\_\+init\+\_\+\+\_\+.\+py\end{DoxyCompactItemize}

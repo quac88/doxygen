@@ -1,0 +1,251 @@
+\hypertarget{classbittensor_1_1__receptor_1_1receptor__pool__impl_1_1_receptor_pool}{}\doxysection{bittensor.\+\_\+receptor.\+receptor\+\_\+pool\+\_\+impl.\+Receptor\+Pool Class Reference}
+\label{classbittensor_1_1__receptor_1_1receptor__pool__impl_1_1_receptor_pool}\index{bittensor.\_receptor.receptor\_pool\_impl.ReceptorPool@{bittensor.\_receptor.receptor\_pool\_impl.ReceptorPool}}
+Inheritance diagram for bittensor.\+\_\+receptor.\+receptor\+\_\+pool\+\_\+impl.\+Receptor\+Pool\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classbittensor_1_1__receptor_1_1receptor__pool__impl_1_1_receptor_pool}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__receptor_1_1receptor__pool__impl_1_1_receptor_pool_a3709517c3f8ac24e769d659ec6e42689}\label{classbittensor_1_1__receptor_1_1receptor__pool__impl_1_1_receptor_pool_a3709517c3f8ac24e769d659ec6e42689}} 
+def {\bfseries \+\_\+\+\_\+init\+\_\+\+\_\+} (self, \textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet}{bittensor.\+Wallet}}\textquotesingle{} \mbox{\hyperlink{classbittensor_1_1__wallet_1_1wallet}{wallet}}, int max\+\_\+active\+\_\+receptors, str compression)
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__receptor_1_1receptor__pool__impl_1_1_receptor_pool_a209eb1a361508e0c246daacb77d4ccec}\label{classbittensor_1_1__receptor_1_1receptor__pool__impl_1_1_receptor_pool_a209eb1a361508e0c246daacb77d4ccec}} 
+def {\bfseries \+\_\+\+\_\+str\+\_\+\+\_\+} (self)
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__receptor_1_1receptor__pool__impl_1_1_receptor_pool_a721d632ac5c15949a87b0403ad73dc0a}\label{classbittensor_1_1__receptor_1_1receptor__pool__impl_1_1_receptor_pool_a721d632ac5c15949a87b0403ad73dc0a}} 
+def {\bfseries \+\_\+\+\_\+repr\+\_\+\+\_\+} (self)
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__receptor_1_1receptor__pool__impl_1_1_receptor_pool_a0d246fe4eb61cbb15c7f654d94619b66}\label{classbittensor_1_1__receptor_1_1receptor__pool__impl_1_1_receptor_pool_a0d246fe4eb61cbb15c7f654d94619b66}} 
+def {\bfseries \+\_\+\+\_\+exit\+\_\+\+\_\+} (self)
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__receptor_1_1receptor__pool__impl_1_1_receptor_pool_a0d211ca694724a1ed99274328e4521c9}\label{classbittensor_1_1__receptor_1_1receptor__pool__impl_1_1_receptor_pool_a0d211ca694724a1ed99274328e4521c9}} 
+def {\bfseries get\+\_\+total\+\_\+requests} (self)
+\item 
+def \mbox{\hyperlink{classbittensor_1_1__receptor_1_1receptor__pool__impl_1_1_receptor_pool_ab0dd45c88883ca6a7789dcff7eb2e84b}{get\+\_\+receptors\+\_\+state}} (self)
+\item 
+Tuple\mbox{[}List\mbox{[}torch.\+Tensor\mbox{]}, List\mbox{[}int\mbox{]}, List\mbox{[}float\mbox{]}\mbox{]} \mbox{\hyperlink{classbittensor_1_1__receptor_1_1receptor__pool__impl_1_1_receptor_pool_aeb67555e04b59bf03f89613bf05be1d8}{forward}} (self, List\mbox{[} \textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint}{bittensor.\+Endpoint}}\textquotesingle{}\mbox{]} endpoints, List\mbox{[} \textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse}{bittensor.\+Synapse}}\textquotesingle{}\mbox{]} synapses, List\mbox{[}torch.\+Tensor\mbox{]} inputs, int timeout)
+\item 
+Tuple\mbox{[}List\mbox{[}torch.\+Tensor\mbox{]}, List\mbox{[}int\mbox{]}, List\mbox{[}float\mbox{]}\mbox{]} \mbox{\hyperlink{classbittensor_1_1__receptor_1_1receptor__pool__impl_1_1_receptor_pool_a313e28fb635ef661bfdd9bb2373b0266}{backward}} (self, List\mbox{[} \textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint}{bittensor.\+Endpoint}}\textquotesingle{}\mbox{]} endpoints, List\mbox{[} \textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse}{bittensor.\+Synapse}}\textquotesingle{}\mbox{]} synapses, List\mbox{[}torch.\+Tensor\mbox{]} inputs, List\mbox{[}List\mbox{[}torch.\+Float\+Tensor\mbox{]}\mbox{]} grads, int timeout)
+\item 
+Tuple\mbox{[}List\mbox{[}torch.\+Tensor\mbox{]}, List\mbox{[}int\mbox{]}, List\mbox{[}float\mbox{]}\mbox{]} \mbox{\hyperlink{classbittensor_1_1__receptor_1_1receptor__pool__impl_1_1_receptor_pool_a5ffe3b0110bc0e8b5b29dc1a9f0259df}{async\+\_\+forward}} (self, List\mbox{[} \textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint}{bittensor.\+Endpoint}}\textquotesingle{}\mbox{]} endpoints, List\mbox{[} \textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse}{bittensor.\+Synapse}}\textquotesingle{}\mbox{]} synapses, List\mbox{[}torch.\+Tensor\mbox{]} inputs, int timeout)
+\item 
+Tuple\mbox{[}List\mbox{[}torch.\+Tensor\mbox{]}, List\mbox{[}int\mbox{]}, List\mbox{[}float\mbox{]}\mbox{]} \mbox{\hyperlink{classbittensor_1_1__receptor_1_1receptor__pool__impl_1_1_receptor_pool_a51d3fb10cb6f4be3d0b356db8d6abbb3}{async\+\_\+backward}} (self, List\mbox{[} \textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint}{bittensor.\+Endpoint}}\textquotesingle{}\mbox{]} endpoints, List\mbox{[} \textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse}{bittensor.\+Synapse}}\textquotesingle{}\mbox{]} synapses, List\mbox{[}torch.\+Tensor\mbox{]} inputs, List\mbox{[}List\mbox{[}torch.\+Float\+Tensor\mbox{]}\mbox{]} grads, int timeout)
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__receptor_1_1receptor__pool__impl_1_1_receptor_pool_acf639707d565cd41a0cdb9d17d3cc37d}\label{classbittensor_1_1__receptor_1_1receptor__pool__impl_1_1_receptor_pool_acf639707d565cd41a0cdb9d17d3cc37d}} 
+{\bfseries wallet}
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__receptor_1_1receptor__pool__impl_1_1_receptor_pool_a44e76514430dc31d654db454fc4c1f47}\label{classbittensor_1_1__receptor_1_1receptor__pool__impl_1_1_receptor_pool_a44e76514430dc31d654db454fc4c1f47}} 
+{\bfseries max\+\_\+active\+\_\+receptors}
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__receptor_1_1receptor__pool__impl_1_1_receptor_pool_acfbffeb916cf9bd79d9b5b87addb1a3e}\label{classbittensor_1_1__receptor_1_1receptor__pool__impl_1_1_receptor_pool_acfbffeb916cf9bd79d9b5b87addb1a3e}} 
+{\bfseries receptors}
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__receptor_1_1receptor__pool__impl_1_1_receptor_pool_a991826337161647ddaad79c4803e6688}\label{classbittensor_1_1__receptor_1_1receptor__pool__impl_1_1_receptor_pool_a991826337161647ddaad79c4803e6688}} 
+{\bfseries cull\+\_\+mutex}
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__receptor_1_1receptor__pool__impl_1_1_receptor_pool_a73b6cee59969a85e921dc9de78454515}\label{classbittensor_1_1__receptor_1_1receptor__pool__impl_1_1_receptor_pool_a73b6cee59969a85e921dc9de78454515}} 
+{\bfseries max\+\_\+processes}
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__receptor_1_1receptor__pool__impl_1_1_receptor_pool_a6b2c021f0bbdd0ab6b066ed8a541d9be}\label{classbittensor_1_1__receptor_1_1receptor__pool__impl_1_1_receptor_pool_a6b2c021f0bbdd0ab6b066ed8a541d9be}} 
+{\bfseries compression}
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__receptor_1_1receptor__pool__impl_1_1_receptor_pool_ad2df3c47bef05a4abec45b10fa6dc76c}\label{classbittensor_1_1__receptor_1_1receptor__pool__impl_1_1_receptor_pool_ad2df3c47bef05a4abec45b10fa6dc76c}} 
+{\bfseries total\+\_\+requests}
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__receptor_1_1receptor__pool__impl_1_1_receptor_pool_a2c5eb42345f92cca3012b5564242d6cf}\label{classbittensor_1_1__receptor_1_1receptor__pool__impl_1_1_receptor_pool_a2c5eb42345f92cca3012b5564242d6cf}} 
+{\bfseries external\+\_\+ip}
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \mbox{\hyperlink{classbittensor_1_1__receptor_1_1receptor__pool__impl_1_1_receptor_pool_a8a292677792180d2442a329c4e9cf4cc}{\+\_\+destroy\+\_\+receptors\+\_\+over\+\_\+max\+\_\+allowed}} (self)
+\item 
+ \textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__receptor_1_1receptor__impl_1_1_receptor}{bittensor.\+Receptor}}\textquotesingle{} \mbox{\hyperlink{classbittensor_1_1__receptor_1_1receptor__pool__impl_1_1_receptor_pool_a56f40e3c307b90ccb4b1b7a00c4cf8f7}{\+\_\+get\+\_\+or\+\_\+create\+\_\+receptor\+\_\+for\+\_\+endpoint}} (self, \textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint}{bittensor.\+Endpoint}}\textquotesingle{} \mbox{\hyperlink{classbittensor_1_1__endpoint_1_1endpoint}{endpoint}})
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\begin{DoxyVerb} Manages a pool of grpc connections as receptors
+\end{DoxyVerb}
+ 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classbittensor_1_1__receptor_1_1receptor__pool__impl_1_1_receptor_pool_a8a292677792180d2442a329c4e9cf4cc}\label{classbittensor_1_1__receptor_1_1receptor__pool__impl_1_1_receptor_pool_a8a292677792180d2442a329c4e9cf4cc}} 
+\index{bittensor.\_receptor.receptor\_pool\_impl.ReceptorPool@{bittensor.\_receptor.receptor\_pool\_impl.ReceptorPool}!\_destroy\_receptors\_over\_max\_allowed@{\_destroy\_receptors\_over\_max\_allowed}}
+\index{\_destroy\_receptors\_over\_max\_allowed@{\_destroy\_receptors\_over\_max\_allowed}!bittensor.\_receptor.receptor\_pool\_impl.ReceptorPool@{bittensor.\_receptor.receptor\_pool\_impl.ReceptorPool}}
+\doxysubsubsection{\texorpdfstring{\_destroy\_receptors\_over\_max\_allowed()}{\_destroy\_receptors\_over\_max\_allowed()}}
+{\footnotesize\ttfamily def bittensor.\+\_\+receptor.\+receptor\+\_\+pool\+\_\+impl.\+Receptor\+Pool.\+\_\+destroy\+\_\+receptors\+\_\+over\+\_\+max\+\_\+allowed (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+\begin{DoxyVerb} Destroys receptors based on QPS until there are no more than max_active_receptors.
+\end{DoxyVerb}
+ \mbox{\Hypertarget{classbittensor_1_1__receptor_1_1receptor__pool__impl_1_1_receptor_pool_a56f40e3c307b90ccb4b1b7a00c4cf8f7}\label{classbittensor_1_1__receptor_1_1receptor__pool__impl_1_1_receptor_pool_a56f40e3c307b90ccb4b1b7a00c4cf8f7}} 
+\index{bittensor.\_receptor.receptor\_pool\_impl.ReceptorPool@{bittensor.\_receptor.receptor\_pool\_impl.ReceptorPool}!\_get\_or\_create\_receptor\_for\_endpoint@{\_get\_or\_create\_receptor\_for\_endpoint}}
+\index{\_get\_or\_create\_receptor\_for\_endpoint@{\_get\_or\_create\_receptor\_for\_endpoint}!bittensor.\_receptor.receptor\_pool\_impl.ReceptorPool@{bittensor.\_receptor.receptor\_pool\_impl.ReceptorPool}}
+\doxysubsubsection{\texorpdfstring{\_get\_or\_create\_receptor\_for\_endpoint()}{\_get\_or\_create\_receptor\_for\_endpoint()}}
+{\footnotesize\ttfamily  \textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__receptor_1_1receptor__impl_1_1_receptor}{bittensor.\+Receptor}}\textquotesingle{} bittensor.\+\_\+receptor.\+receptor\+\_\+pool\+\_\+impl.\+Receptor\+Pool.\+\_\+get\+\_\+or\+\_\+create\+\_\+receptor\+\_\+for\+\_\+endpoint (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{\textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint}{bittensor.\+Endpoint}}\textquotesingle{} }]{endpoint }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+\begin{DoxyVerb} Finds or creates a receptor TCP connection associated with the passed Neuron Endpoint
+Returns
+    receptor: (`bittensor.Receptor`):
+        receptor with tcp connection endpoint at endpoint.ip:endpoint.port
+\end{DoxyVerb}
+ \mbox{\Hypertarget{classbittensor_1_1__receptor_1_1receptor__pool__impl_1_1_receptor_pool_a51d3fb10cb6f4be3d0b356db8d6abbb3}\label{classbittensor_1_1__receptor_1_1receptor__pool__impl_1_1_receptor_pool_a51d3fb10cb6f4be3d0b356db8d6abbb3}} 
+\index{bittensor.\_receptor.receptor\_pool\_impl.ReceptorPool@{bittensor.\_receptor.receptor\_pool\_impl.ReceptorPool}!async\_backward@{async\_backward}}
+\index{async\_backward@{async\_backward}!bittensor.\_receptor.receptor\_pool\_impl.ReceptorPool@{bittensor.\_receptor.receptor\_pool\_impl.ReceptorPool}}
+\doxysubsubsection{\texorpdfstring{async\_backward()}{async\_backward()}}
+{\footnotesize\ttfamily  Tuple\mbox{[}List\mbox{[}torch.\+Tensor\mbox{]}, List\mbox{[}int\mbox{]}, List\mbox{[}float\mbox{]}\mbox{]} bittensor.\+\_\+receptor.\+receptor\+\_\+pool\+\_\+impl.\+Receptor\+Pool.\+async\+\_\+backward (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{List \mbox{[} \textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint}{bittensor.\+Endpoint}}\textquotesingle{} \mbox{]}}]{endpoints,  }\item[{List\mbox{[} \textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse}{bittensor.\+Synapse}}\textquotesingle{} \mbox{]}}]{synapses,  }\item[{List \mbox{[} torch.\+Tensor \mbox{]}}]{inputs,  }\item[{List \mbox{[} List\mbox{[} torch.\+Float\+Tensor \mbox{]} \mbox{]}}]{grads,  }\item[{int             }]{timeout }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb} Backward tensor inputs to endpoints.
+
+    Args:
+        endpoints (:obj:`List['bittensor.Endpoint']` of shape :obj:`(num_endpoints)`, `required`):
+            List of remote endpoints which match length of x. Tensors from x are sent backward to these endpoints.
+
+        synapses (:obj:`List[ 'bittensor.Synapse' ]` of shape :obj:`(num_synapses)`, `required`):
+            Bittensor synapse objects with arguments. Each corresponds to a synapse function on the axon.
+            Responses are packed in this ordering. 
+
+        inputs (:obj:`List[torch.Tensor]` of shape :obj:`(num_endpoints * [shape])`, `required`):
+            List of tensors to send to corresponsing endpoints. Tensors are of arbitrary type and shape depending on the
+            synapse.
+
+        grads (:obj:`List[torch.Tensor]` of shape :obj:`(num_endpoints * [shape])`, `required`):
+            List of list of grad tensors where each grad corresponds to a synapse call on an endpoint.
+        
+        timeout (int):
+            request timeout.
+
+    Returns:
+        backward_outputs (:obj:`List[ List[ torch.FloatTensor] ]` of shape :obj:`num_endpoints * (batch_size, sequence_len, -1)]`, `required`):
+            Gradients returned from the backward call one per endpoint.
+
+        backward_codes (:obj:`List[ List[ bittensor.proto.ReturnCodes ] ]` of shape :obj:`(num_endpoints)`, `required`):
+            List of list of Backward call return ops, one per endpoint and synapse.
+
+        backward_times (:obj:`List[float]` of shape :obj:`(num_endpoints)`, `required`):
+            List of list of Backward call times one per endpoint and synapse.
+\end{DoxyVerb}
+ \mbox{\Hypertarget{classbittensor_1_1__receptor_1_1receptor__pool__impl_1_1_receptor_pool_a5ffe3b0110bc0e8b5b29dc1a9f0259df}\label{classbittensor_1_1__receptor_1_1receptor__pool__impl_1_1_receptor_pool_a5ffe3b0110bc0e8b5b29dc1a9f0259df}} 
+\index{bittensor.\_receptor.receptor\_pool\_impl.ReceptorPool@{bittensor.\_receptor.receptor\_pool\_impl.ReceptorPool}!async\_forward@{async\_forward}}
+\index{async\_forward@{async\_forward}!bittensor.\_receptor.receptor\_pool\_impl.ReceptorPool@{bittensor.\_receptor.receptor\_pool\_impl.ReceptorPool}}
+\doxysubsubsection{\texorpdfstring{async\_forward()}{async\_forward()}}
+{\footnotesize\ttfamily  Tuple\mbox{[}List\mbox{[}torch.\+Tensor\mbox{]}, List\mbox{[}int\mbox{]}, List\mbox{[}float\mbox{]}\mbox{]} bittensor.\+\_\+receptor.\+receptor\+\_\+pool\+\_\+impl.\+Receptor\+Pool.\+async\+\_\+forward (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{List \mbox{[} \textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint}{bittensor.\+Endpoint}}\textquotesingle{} \mbox{]}}]{endpoints,  }\item[{List\mbox{[} \textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse}{bittensor.\+Synapse}}\textquotesingle{} \mbox{]}}]{synapses,  }\item[{List \mbox{[} torch.\+Tensor \mbox{]}}]{inputs,  }\item[{int}]{timeout }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb} Forward tensor inputs to endpoints.
+
+    Args:
+        endpoints (:obj:`List[ bittensor.Endpoint ]` of shape :obj:`(num_endpoints)`, `required`):
+            List of remote endpoints which match length of inputs. Tensors from x are sent forward to these endpoints.
+
+        synapses (:obj:`List[ 'bittensor.Synapse' ]` of shape :obj:`(num_synapses)`, `required`):
+            Bittensor synapse objects with arguments. Each corresponds to a synapse function on the axon.
+            Responses are packed in this ordering. 
+
+        inputs (:obj:`List[torch.Tensor]` of shape :obj:`(num_endpoints * [shape])`, `required`):
+            TODO(const): Allow multiple tensors.
+            List of tensors to send to corresponsing endpoints. Tensors are of arbitrary type and shape depending on the
+            modality.
+
+        timeout (int):
+            Request timeout.
+
+    Returns:
+        forward_outputs (:obj:`List[ List[ torch.FloatTensor ]]` of shape :obj:`(num_endpoints * (num_synapses * (shape)))`, `required`):
+            Output encodings of tensors produced by remote endpoints. Non-responses are zeroes of common shape.
+
+        forward_codes (:obj:`List[ List[bittensor.proto.ReturnCodes] ]` of shape :obj:`(num_endpoints * ( num_synapses ))`, `required`):
+            dendrite backward call return ops.
+
+        forward_times (:obj:`List[ List [float] ]` of shape :obj:`(num_endpoints * ( num_synapses ))`, `required`):
+            dendrite backward call times
+\end{DoxyVerb}
+ \mbox{\Hypertarget{classbittensor_1_1__receptor_1_1receptor__pool__impl_1_1_receptor_pool_a313e28fb635ef661bfdd9bb2373b0266}\label{classbittensor_1_1__receptor_1_1receptor__pool__impl_1_1_receptor_pool_a313e28fb635ef661bfdd9bb2373b0266}} 
+\index{bittensor.\_receptor.receptor\_pool\_impl.ReceptorPool@{bittensor.\_receptor.receptor\_pool\_impl.ReceptorPool}!backward@{backward}}
+\index{backward@{backward}!bittensor.\_receptor.receptor\_pool\_impl.ReceptorPool@{bittensor.\_receptor.receptor\_pool\_impl.ReceptorPool}}
+\doxysubsubsection{\texorpdfstring{backward()}{backward()}}
+{\footnotesize\ttfamily  Tuple\mbox{[}List\mbox{[}torch.\+Tensor\mbox{]}, List\mbox{[}int\mbox{]}, List\mbox{[}float\mbox{]}\mbox{]} bittensor.\+\_\+receptor.\+receptor\+\_\+pool\+\_\+impl.\+Receptor\+Pool.\+backward (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{List \mbox{[} \textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint}{bittensor.\+Endpoint}}\textquotesingle{} \mbox{]}}]{endpoints,  }\item[{List\mbox{[} \textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse}{bittensor.\+Synapse}}\textquotesingle{} \mbox{]}}]{synapses,  }\item[{List \mbox{[} torch.\+Tensor \mbox{]}}]{inputs,  }\item[{List \mbox{[} List\mbox{[} torch.\+Float\+Tensor \mbox{]} \mbox{]}}]{grads,  }\item[{int             }]{timeout }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb} Backward tensor inputs to endpoints.
+
+    Args:
+        endpoints (:obj:`List['bittensor.Endpoint']` of shape :obj:`(num_endpoints)`, `required`):
+            List of remote endpoints which match length of x. Tensors from x are sent backward to these endpoints.
+
+        synapses (:obj:`List[ 'bittensor.Synapse' ]` of shape :obj:`(num_synapses)`, `required`):
+            Bittensor synapse objects with arguments. Each corresponds to a synapse function on the axon.
+            Responses are packed in this ordering. 
+
+        inputs (:obj:`List[torch.Tensor]` of shape :obj:`(num_endpoints * [shape])`, `required`):
+            List of tensors to send to corresponsing endpoints. Tensors are of arbitrary type and shape depending on the
+            synapse.
+
+        grads (:obj:`List[torch.Tensor]` of shape :obj:`(num_endpoints * [shape])`, `required`):
+            List of list of grad tensors where each grad corresponds to a synapse call on an endpoint.
+        
+        timeout (int):
+            request timeout.
+
+    Returns:
+        backward_outputs (:obj:`List[ List[ torch.FloatTensor] ]` of shape :obj:`num_endpoints * (batch_size, sequence_len, -1)]`, `required`):
+            Gradients returned from the backward call one per endpoint.
+
+        backward_codes (:obj:`List[ List[ bittensor.proto.ReturnCodes ] ]` of shape :obj:`(num_endpoints)`, `required`):
+            List of list of Backward call return ops, one per endpoint and synapse.
+
+        backward_times (:obj:`List[float]` of shape :obj:`(num_endpoints)`, `required`):
+            List of list of Backward call times one per endpoint and synapse.
+\end{DoxyVerb}
+ \mbox{\Hypertarget{classbittensor_1_1__receptor_1_1receptor__pool__impl_1_1_receptor_pool_aeb67555e04b59bf03f89613bf05be1d8}\label{classbittensor_1_1__receptor_1_1receptor__pool__impl_1_1_receptor_pool_aeb67555e04b59bf03f89613bf05be1d8}} 
+\index{bittensor.\_receptor.receptor\_pool\_impl.ReceptorPool@{bittensor.\_receptor.receptor\_pool\_impl.ReceptorPool}!forward@{forward}}
+\index{forward@{forward}!bittensor.\_receptor.receptor\_pool\_impl.ReceptorPool@{bittensor.\_receptor.receptor\_pool\_impl.ReceptorPool}}
+\doxysubsubsection{\texorpdfstring{forward()}{forward()}}
+{\footnotesize\ttfamily  Tuple\mbox{[}List\mbox{[}torch.\+Tensor\mbox{]}, List\mbox{[}int\mbox{]}, List\mbox{[}float\mbox{]}\mbox{]} bittensor.\+\_\+receptor.\+receptor\+\_\+pool\+\_\+impl.\+Receptor\+Pool.\+forward (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{List \mbox{[} \textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint}{bittensor.\+Endpoint}}\textquotesingle{} \mbox{]}}]{endpoints,  }\item[{List\mbox{[} \textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse}{bittensor.\+Synapse}}\textquotesingle{} \mbox{]}}]{synapses,  }\item[{List \mbox{[} torch.\+Tensor \mbox{]}}]{inputs,  }\item[{int}]{timeout }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb} Forward tensor inputs to endpoints.
+
+        Args:
+            endpoints (:obj:`List[ bittensor.Endpoint ]` of shape :obj:`(num_endpoints)`, `required`):
+                List of remote endpoints which match length of inputs. Tensors from x are sent forward to these endpoints.
+
+            synapses (:obj:`List[ 'bittensor.Synapse' ]` of shape :obj:`(num_synapses)`, `required`):
+                Bittensor synapse objects with arguments. Each corresponds to a synapse function on the axon.
+                Responses are packed in this ordering. 
+
+            inputs (:obj:`List[torch.Tensor]` of shape :obj:`(num_endpoints * [shape])`, `required`):
+                TODO(const): Allow multiple tensors.
+                List of tensors to send to corresponsing endpoints. Tensors are of arbitrary type and shape depending on the
+                modality.
+
+            timeout (int):
+                Request timeout.
+
+        Returns:
+            forward_outputs (:obj:`List[ List[ torch.FloatTensor ]]` of shape :obj:`(num_endpoints * (num_synapses * (shape)))`, `required`):
+                Output encodings of tensors produced by remote endpoints. Non-responses are zeroes of common shape.
+
+            forward_codes (:obj:`List[ List[bittensor.proto.ReturnCodes] ]` of shape :obj:`(num_endpoints * ( num_synapses ))`, `required`):
+                dendrite backward call return ops.
+
+            forward_times (:obj:`List[ List [float] ]` of shape :obj:`(num_endpoints * ( num_synapses ))`, `required`):
+                dendrite backward call times\end{DoxyVerb}
+ \mbox{\Hypertarget{classbittensor_1_1__receptor_1_1receptor__pool__impl_1_1_receptor_pool_ab0dd45c88883ca6a7789dcff7eb2e84b}\label{classbittensor_1_1__receptor_1_1receptor__pool__impl_1_1_receptor_pool_ab0dd45c88883ca6a7789dcff7eb2e84b}} 
+\index{bittensor.\_receptor.receptor\_pool\_impl.ReceptorPool@{bittensor.\_receptor.receptor\_pool\_impl.ReceptorPool}!get\_receptors\_state@{get\_receptors\_state}}
+\index{get\_receptors\_state@{get\_receptors\_state}!bittensor.\_receptor.receptor\_pool\_impl.ReceptorPool@{bittensor.\_receptor.receptor\_pool\_impl.ReceptorPool}}
+\doxysubsubsection{\texorpdfstring{get\_receptors\_state()}{get\_receptors\_state()}}
+{\footnotesize\ttfamily def bittensor.\+\_\+receptor.\+receptor\+\_\+pool\+\_\+impl.\+Receptor\+Pool.\+get\+\_\+receptors\+\_\+state (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb} Return the state of each receptor.
+        Returns:
+            states (:obj:`List[grpc.channel.state]`)
+                The state of receptor.\end{DoxyVerb}
+ 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+/\+Users/macthrasher/bittensor/bittensor/\+\_\+receptor/receptor\+\_\+pool\+\_\+impl.\+py\end{DoxyCompactItemize}

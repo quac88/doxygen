@@ -1,0 +1,130 @@
+\hypertarget{namespacebittensor_1_1utils_1_1networking}{}\doxysection{bittensor.\+utils.\+networking Namespace Reference}
+\label{namespacebittensor_1_1utils_1_1networking}\index{bittensor.utils.networking@{bittensor.utils.networking}}
+\doxysubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{classbittensor_1_1utils_1_1networking_1_1_external_i_p_not_found}{External\+IPNot\+Found}}
+\item 
+class \mbox{\hyperlink{classbittensor_1_1utils_1_1networking_1_1_u_p_n_p_c_exception}{UPNPCException}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+str \mbox{\hyperlink{namespacebittensor_1_1utils_1_1networking_a3ce52d67459b626e292b0464b687e0db}{int\+\_\+to\+\_\+ip}} (int int\+\_\+val)
+\item 
+int \mbox{\hyperlink{namespacebittensor_1_1utils_1_1networking_a3e1260111799024e8a830c0028b37cfe}{ip\+\_\+to\+\_\+int}} (str str\+\_\+val)
+\item 
+int \mbox{\hyperlink{namespacebittensor_1_1utils_1_1networking_a9f4b2ed13a55ea16b6c2e8dc2c7abda7}{ip\+\_\+version}} (str str\+\_\+val)
+\item 
+def \mbox{\hyperlink{namespacebittensor_1_1utils_1_1networking_a189557a300dcc2a24c43883fd8f76146}{ip\+\_\+\+\_\+str\+\_\+\+\_\+}} (int ip\+\_\+type, str ip\+\_\+str, int port)
+\item 
+str \mbox{\hyperlink{namespacebittensor_1_1utils_1_1networking_a9f1c7ddcdfbc87b5341ad6d791204ac6}{get\+\_\+external\+\_\+ip}} ()
+\item 
+def \mbox{\hyperlink{namespacebittensor_1_1utils_1_1networking_a3ad6dda702f8ae7e306a169de58aee8b}{upnpc\+\_\+create\+\_\+port\+\_\+map}} (int port)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\begin{DoxyVerb} Utils for handling local network with ip and ports. 
+\end{DoxyVerb}
+ 
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{namespacebittensor_1_1utils_1_1networking_a9f1c7ddcdfbc87b5341ad6d791204ac6}\label{namespacebittensor_1_1utils_1_1networking_a9f1c7ddcdfbc87b5341ad6d791204ac6}} 
+\index{bittensor.utils.networking@{bittensor.utils.networking}!get\_external\_ip@{get\_external\_ip}}
+\index{get\_external\_ip@{get\_external\_ip}!bittensor.utils.networking@{bittensor.utils.networking}}
+\doxysubsubsection{\texorpdfstring{get\_external\_ip()}{get\_external\_ip()}}
+{\footnotesize\ttfamily  str bittensor.\+utils.\+networking.\+get\+\_\+external\+\_\+ip (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb} Checks CURL/URLLIB/IPIFY/AWS for your external ip.
+    Returns:
+        external_ip  (:obj:`str` `required`):
+            Your routers external facing ip as a string.
+
+    Raises:
+        ExternalIPNotFound (Exception):
+            Raised if all external ip attempts fail.
+\end{DoxyVerb}
+ \mbox{\Hypertarget{namespacebittensor_1_1utils_1_1networking_a3ce52d67459b626e292b0464b687e0db}\label{namespacebittensor_1_1utils_1_1networking_a3ce52d67459b626e292b0464b687e0db}} 
+\index{bittensor.utils.networking@{bittensor.utils.networking}!int\_to\_ip@{int\_to\_ip}}
+\index{int\_to\_ip@{int\_to\_ip}!bittensor.utils.networking@{bittensor.utils.networking}}
+\doxysubsubsection{\texorpdfstring{int\_to\_ip()}{int\_to\_ip()}}
+{\footnotesize\ttfamily  str bittensor.\+utils.\+networking.\+int\+\_\+to\+\_\+ip (\begin{DoxyParamCaption}\item[{int}]{int\+\_\+val }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb} Maps an integer to a unique ip-string 
+        Args:
+            int_val  (:type:`int128`, `required`):
+                The integer representation of an ip. Must be in the range (0, 3.4028237e+38).
+
+        Returns:
+            str_val (:tyep:`str`, `required):
+                The string representation of an ip. Of form *.*.*.* for ipv4 or *::*:*:*:* for ipv6
+
+        Raises:
+            netaddr.core.AddrFormatError (Exception):
+                Raised when the passed int_vals is not a valid ip int value.\end{DoxyVerb}
+ \mbox{\Hypertarget{namespacebittensor_1_1utils_1_1networking_a189557a300dcc2a24c43883fd8f76146}\label{namespacebittensor_1_1utils_1_1networking_a189557a300dcc2a24c43883fd8f76146}} 
+\index{bittensor.utils.networking@{bittensor.utils.networking}!ip\_\_str\_\_@{ip\_\_str\_\_}}
+\index{ip\_\_str\_\_@{ip\_\_str\_\_}!bittensor.utils.networking@{bittensor.utils.networking}}
+\doxysubsubsection{\texorpdfstring{ip\_\_str\_\_()}{ip\_\_str\_\_()}}
+{\footnotesize\ttfamily def bittensor.\+utils.\+networking.\+ip\+\_\+\+\_\+str\+\_\+\+\_\+ (\begin{DoxyParamCaption}\item[{int}]{ip\+\_\+type,  }\item[{str}]{ip\+\_\+str,  }\item[{int}]{port }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb} Return a formatted ip string
+\end{DoxyVerb}
+ \mbox{\Hypertarget{namespacebittensor_1_1utils_1_1networking_a3e1260111799024e8a830c0028b37cfe}\label{namespacebittensor_1_1utils_1_1networking_a3e1260111799024e8a830c0028b37cfe}} 
+\index{bittensor.utils.networking@{bittensor.utils.networking}!ip\_to\_int@{ip\_to\_int}}
+\index{ip\_to\_int@{ip\_to\_int}!bittensor.utils.networking@{bittensor.utils.networking}}
+\doxysubsubsection{\texorpdfstring{ip\_to\_int()}{ip\_to\_int()}}
+{\footnotesize\ttfamily  int bittensor.\+utils.\+networking.\+ip\+\_\+to\+\_\+int (\begin{DoxyParamCaption}\item[{str}]{str\+\_\+val }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb} Maps an ip-string to a unique integer.
+        arg:
+            str_val (:tyep:`str`, `required):
+                The string representation of an ip. Of form *.*.*.* for ipv4 or *::*:*:*:* for ipv6
+
+        Returns:
+            int_val  (:type:`int128`, `required`):
+                The integer representation of an ip. Must be in the range (0, 3.4028237e+38).
+
+        Raises:
+            netaddr.core.AddrFormatError (Exception):
+                Raised when the passed str_val is not a valid ip string value.\end{DoxyVerb}
+ \mbox{\Hypertarget{namespacebittensor_1_1utils_1_1networking_a9f4b2ed13a55ea16b6c2e8dc2c7abda7}\label{namespacebittensor_1_1utils_1_1networking_a9f4b2ed13a55ea16b6c2e8dc2c7abda7}} 
+\index{bittensor.utils.networking@{bittensor.utils.networking}!ip\_version@{ip\_version}}
+\index{ip\_version@{ip\_version}!bittensor.utils.networking@{bittensor.utils.networking}}
+\doxysubsubsection{\texorpdfstring{ip\_version()}{ip\_version()}}
+{\footnotesize\ttfamily  int bittensor.\+utils.\+networking.\+ip\+\_\+version (\begin{DoxyParamCaption}\item[{str}]{str\+\_\+val }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb} Returns the ip version (IPV4 or IPV6).
+        arg:
+            str_val (:tyep:`str`, `required):
+                The string representation of an ip. Of form *.*.*.* for ipv4 or *::*:*:*:* for ipv6
+
+        Returns:
+            int_val  (:type:`int128`, `required`):
+                The ip version (Either 4 or 6 for IPv4/IPv6)
+
+        Raises:
+            netaddr.core.AddrFormatError (Exception):
+                Raised when the passed str_val is not a valid ip string value.\end{DoxyVerb}
+ \mbox{\Hypertarget{namespacebittensor_1_1utils_1_1networking_a3ad6dda702f8ae7e306a169de58aee8b}\label{namespacebittensor_1_1utils_1_1networking_a3ad6dda702f8ae7e306a169de58aee8b}} 
+\index{bittensor.utils.networking@{bittensor.utils.networking}!upnpc\_create\_port\_map@{upnpc\_create\_port\_map}}
+\index{upnpc\_create\_port\_map@{upnpc\_create\_port\_map}!bittensor.utils.networking@{bittensor.utils.networking}}
+\doxysubsubsection{\texorpdfstring{upnpc\_create\_port\_map()}{upnpc\_create\_port\_map()}}
+{\footnotesize\ttfamily def bittensor.\+utils.\+networking.\+upnpc\+\_\+create\+\_\+port\+\_\+map (\begin{DoxyParamCaption}\item[{int}]{port }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb} Creates a upnpc port map on your router from passed external_port to local port.
+
+    Args: 
+        port (int, `required`):
+            The local machine port to map from your external port.
+
+    Return:
+        external_port (int, `required`):
+            The external port mapped to the local port on your machine.
+
+    Raises:
+        UPNPCException (Exception):
+            Raised if UPNPC port mapping fails, for instance, if upnpc is not enabled on your router.
+\end{DoxyVerb}
+ 

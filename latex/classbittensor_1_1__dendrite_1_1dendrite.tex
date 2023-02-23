@@ -1,0 +1,98 @@
+\hypertarget{classbittensor_1_1__dendrite_1_1dendrite}{}\doxysection{bittensor.\+\_\+dendrite.\+dendrite Class Reference}
+\label{classbittensor_1_1__dendrite_1_1dendrite}\index{bittensor.\_dendrite.dendrite@{bittensor.\_dendrite.dendrite}}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+ \textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__dendrite_1_1dendrite__impl_1_1_dendrite}{bittensor.\+Dendrite}}\textquotesingle{} \mbox{\hyperlink{classbittensor_1_1__dendrite_1_1dendrite_a9c3cf0cf1fdf57fb5054a30151f93cff}{\+\_\+\+\_\+new\+\_\+\+\_\+}} (cls, \textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__config_1_1config}{bittensor.\+config}}\textquotesingle{} \mbox{\hyperlink{classbittensor_1_1__config_1_1config}{config}}=None, \textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet}{bittensor.\+Wallet}}\textquotesingle{} \mbox{\hyperlink{classbittensor_1_1__wallet_1_1wallet}{wallet}}=None, int timeout=None, bool requires\+\_\+grad=None, int max\+\_\+active\+\_\+receptors=None, \textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__receptor_1_1receptor__pool__impl_1_1_receptor_pool}{bittensor.\+Receptor\+Pool}}\textquotesingle{} \mbox{\hyperlink{classbittensor_1_1__receptor_1_1receptor__pool}{receptor\+\_\+pool}}=None, bool multiprocess=None, str compression=None, bool \+\_\+mock=None)
+\item 
+ \textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__config_1_1config__impl_1_1_config}{bittensor.\+Config}}\textquotesingle{} \mbox{\hyperlink{classbittensor_1_1__dendrite_1_1dendrite_a43706005b1cc7469d979f937fde61893}{config}} (cls)
+\item 
+def \mbox{\hyperlink{classbittensor_1_1__dendrite_1_1dendrite_a8b814eba8737ed370882f117bffbf34b}{help}} (cls)
+\item 
+def \mbox{\hyperlink{classbittensor_1_1__dendrite_1_1dendrite_a9a3db91de971c48c1a50dd7fff04621a}{add\+\_\+args}} (cls, argparse.\+Argument\+Parser parser, str prefix=None)
+\item 
+def \mbox{\hyperlink{classbittensor_1_1__dendrite_1_1dendrite_a943cf38b63959d25a9bc3dfefd08b1f3}{add\+\_\+defaults}} (cls, defaults)
+\item 
+def \mbox{\hyperlink{classbittensor_1_1__dendrite_1_1dendrite_aae36ba43288a58731d5c65a4cd8f2abe}{check\+\_\+config}} (cls, \textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__config_1_1config__impl_1_1_config}{bittensor.\+Config}}\textquotesingle{} \mbox{\hyperlink{classbittensor_1_1__config_1_1config}{config}})
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\begin{DoxyVerb} This is the factory class for a bittensor.dendrite() or the mocked dendrite class.
+
+The dendrite class operates as a normal torch autograd friendly operation which accepts a list of bittensor.endpoints and a list of torch tensors. 
+The passed endpoints are queried with the passed inputs and either return results or zeros. The operation is fully differentiable with a torch 
+computation graph such that calls to loss.backward() produce Backward calls on the passed endpoints.\end{DoxyVerb}
+ 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classbittensor_1_1__dendrite_1_1dendrite_a9c3cf0cf1fdf57fb5054a30151f93cff}\label{classbittensor_1_1__dendrite_1_1dendrite_a9c3cf0cf1fdf57fb5054a30151f93cff}} 
+\index{bittensor.\_dendrite.dendrite@{bittensor.\_dendrite.dendrite}!\_\_new\_\_@{\_\_new\_\_}}
+\index{\_\_new\_\_@{\_\_new\_\_}!bittensor.\_dendrite.dendrite@{bittensor.\_dendrite.dendrite}}
+\doxysubsubsection{\texorpdfstring{\_\_new\_\_()}{\_\_new\_\_()}}
+{\footnotesize\ttfamily  \textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__dendrite_1_1dendrite__impl_1_1_dendrite}{bittensor.\+Dendrite}}\textquotesingle{} bittensor.\+\_\+dendrite.\+dendrite.\+\_\+\+\_\+new\+\_\+\+\_\+ (\begin{DoxyParamCaption}\item[{}]{cls,  }\item[{\textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__config_1_1config}{bittensor.\+config}}\textquotesingle{} }]{config = {\ttfamily None},  }\item[{\textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet}{bittensor.\+Wallet}}\textquotesingle{} }]{wallet = {\ttfamily None},  }\item[{int }]{timeout = {\ttfamily None},  }\item[{bool }]{requires\+\_\+grad = {\ttfamily None},  }\item[{int }]{max\+\_\+active\+\_\+receptors = {\ttfamily None},  }\item[{\textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__receptor_1_1receptor__pool__impl_1_1_receptor_pool}{bittensor.\+Receptor\+Pool}}\textquotesingle{} }]{receptor\+\_\+pool = {\ttfamily None},  }\item[{bool }]{multiprocess = {\ttfamily None},  }\item[{str }]{compression = {\ttfamily None},  }\item[{bool}]{\+\_\+mock = {\ttfamily None} }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb} Creates a new Dendrite object from passed arguments.
+        Args:
+            config (:obj:`bittensor.Config`, `optional`): 
+                Config namespace object created by calling bittensor.dendrite.config()
+            wallet (:obj:`bittensor.Wallet`, `optional`):
+                A bittensor wallet object containing a pair of cryptographic keys, the hot and coldkey, used for signing messages
+                on the wire.
+            timeout (:type:`int`, `optional`, default: bittensor.dendrite.config().dendrite.timeout ):
+                Default request timeout.
+            requires_grad (:type:`bool`, `optional`, default: bittensor.dendrite.config().dendrite.requires_grad):
+                If true, the dendrite passes gradients on the wire by default.
+            max_active_receptors (:type:`int`, `optional`, default: bittensor.dendrite.config().dendrite.max_active_receptors):
+                Maximum allowed active allocated TCP connections. Does not override the
+                optionally passed receptor pool.
+            receptor_pool (:obj:`bittensor.ReceptorPool`, `optional`):
+                A bittensor receptor pool object which maintains a set of connections to other peers in the network and operates as
+                a normal torch.nn.Module. By default this object is created with the dendrite config.
+            _mock (:obj:`bool`, `optional`):
+                For testing, if true the dendrite returns mocked outputs.\end{DoxyVerb}
+ \mbox{\Hypertarget{classbittensor_1_1__dendrite_1_1dendrite_a9a3db91de971c48c1a50dd7fff04621a}\label{classbittensor_1_1__dendrite_1_1dendrite_a9a3db91de971c48c1a50dd7fff04621a}} 
+\index{bittensor.\_dendrite.dendrite@{bittensor.\_dendrite.dendrite}!add\_args@{add\_args}}
+\index{add\_args@{add\_args}!bittensor.\_dendrite.dendrite@{bittensor.\_dendrite.dendrite}}
+\doxysubsubsection{\texorpdfstring{add\_args()}{add\_args()}}
+{\footnotesize\ttfamily def bittensor.\+\_\+dendrite.\+dendrite.\+add\+\_\+args (\begin{DoxyParamCaption}\item[{}]{cls,  }\item[{argparse.\+Argument\+Parser}]{parser,  }\item[{str }]{prefix = {\ttfamily None} }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb} Accept specific arguments from parser
+\end{DoxyVerb}
+ \mbox{\Hypertarget{classbittensor_1_1__dendrite_1_1dendrite_a943cf38b63959d25a9bc3dfefd08b1f3}\label{classbittensor_1_1__dendrite_1_1dendrite_a943cf38b63959d25a9bc3dfefd08b1f3}} 
+\index{bittensor.\_dendrite.dendrite@{bittensor.\_dendrite.dendrite}!add\_defaults@{add\_defaults}}
+\index{add\_defaults@{add\_defaults}!bittensor.\_dendrite.dendrite@{bittensor.\_dendrite.dendrite}}
+\doxysubsubsection{\texorpdfstring{add\_defaults()}{add\_defaults()}}
+{\footnotesize\ttfamily def bittensor.\+\_\+dendrite.\+dendrite.\+add\+\_\+defaults (\begin{DoxyParamCaption}\item[{}]{cls,  }\item[{}]{defaults }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb} Adds parser defaults to object from enviroment variables.
+\end{DoxyVerb}
+ \mbox{\Hypertarget{classbittensor_1_1__dendrite_1_1dendrite_aae36ba43288a58731d5c65a4cd8f2abe}\label{classbittensor_1_1__dendrite_1_1dendrite_aae36ba43288a58731d5c65a4cd8f2abe}} 
+\index{bittensor.\_dendrite.dendrite@{bittensor.\_dendrite.dendrite}!check\_config@{check\_config}}
+\index{check\_config@{check\_config}!bittensor.\_dendrite.dendrite@{bittensor.\_dendrite.dendrite}}
+\doxysubsubsection{\texorpdfstring{check\_config()}{check\_config()}}
+{\footnotesize\ttfamily def bittensor.\+\_\+dendrite.\+dendrite.\+check\+\_\+config (\begin{DoxyParamCaption}\item[{}]{cls,  }\item[{\textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__config_1_1config__impl_1_1_config}{bittensor.\+Config}}\textquotesingle{} }]{config }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb} Check config for dendrite worker and receptors
+\end{DoxyVerb}
+ \mbox{\Hypertarget{classbittensor_1_1__dendrite_1_1dendrite_a43706005b1cc7469d979f937fde61893}\label{classbittensor_1_1__dendrite_1_1dendrite_a43706005b1cc7469d979f937fde61893}} 
+\index{bittensor.\_dendrite.dendrite@{bittensor.\_dendrite.dendrite}!config@{config}}
+\index{config@{config}!bittensor.\_dendrite.dendrite@{bittensor.\_dendrite.dendrite}}
+\doxysubsubsection{\texorpdfstring{config()}{config()}}
+{\footnotesize\ttfamily  \textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__config_1_1config__impl_1_1_config}{bittensor.\+Config}}\textquotesingle{} bittensor.\+\_\+dendrite.\+dendrite.\+config (\begin{DoxyParamCaption}\item[{}]{cls }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb} Get config from the argument parser
+\end{DoxyVerb}
+ \mbox{\Hypertarget{classbittensor_1_1__dendrite_1_1dendrite_a8b814eba8737ed370882f117bffbf34b}\label{classbittensor_1_1__dendrite_1_1dendrite_a8b814eba8737ed370882f117bffbf34b}} 
+\index{bittensor.\_dendrite.dendrite@{bittensor.\_dendrite.dendrite}!help@{help}}
+\index{help@{help}!bittensor.\_dendrite.dendrite@{bittensor.\_dendrite.dendrite}}
+\doxysubsubsection{\texorpdfstring{help()}{help()}}
+{\footnotesize\ttfamily def bittensor.\+\_\+dendrite.\+dendrite.\+help (\begin{DoxyParamCaption}\item[{}]{cls }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb} Print help to stdout
+\end{DoxyVerb}
+ 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+/\+Users/macthrasher/bittensor/bittensor/\+\_\+dendrite/\+\_\+\+\_\+init\+\_\+\+\_\+.\+py\end{DoxyCompactItemize}

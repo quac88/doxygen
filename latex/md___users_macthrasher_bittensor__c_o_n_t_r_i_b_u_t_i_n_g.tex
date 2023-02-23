@@ -1,0 +1,154 @@
+The following is a set of guidelines for contributing to Bittensor, which are hosted in the \href{https://github.com/opentensor}{\texttt{ Opentensor Organization}} on Git\+Hub. These are mostly guidelines, not rules. Use your best judgment, and feel free to propose changes to this document in a pull request.\hypertarget{md___users_macthrasher_bittensor__c_o_n_t_r_i_b_u_t_i_n_g_autotoc_md39}{}\doxysection{Table Of Contents}\label{md___users_macthrasher_bittensor__c_o_n_t_r_i_b_u_t_i_n_g_autotoc_md39}
+
+\begin{DoxyEnumerate}
+\item I don\textquotesingle{}t want to read this whole thing, I just have a question!!!
+\end{DoxyEnumerate}
+\begin{DoxyEnumerate}
+\item What should I know before I get started?
+\end{DoxyEnumerate}
+\begin{DoxyEnumerate}
+\item How Can I Contribute?
+\begin{DoxyEnumerate}
+\item Reporting Bugs
+\end{DoxyEnumerate}
+\begin{DoxyEnumerate}
+\item Suggesting Enhancements
+\end{DoxyEnumerate}
+\begin{DoxyEnumerate}
+\item Your First Code Contribution
+\end{DoxyEnumerate}
+\begin{DoxyEnumerate}
+\item Pull Requests
+\begin{DoxyEnumerate}
+\item Development-\/\+Workflow
+\end{DoxyEnumerate}
+\end{DoxyEnumerate}
+\end{DoxyEnumerate}\hypertarget{md___users_macthrasher_bittensor__c_o_n_t_r_i_b_u_t_i_n_g_autotoc_md40}{}\doxysection{I don\textquotesingle{}t want to read this whole thing I just have a question!!!}\label{md___users_macthrasher_bittensor__c_o_n_t_r_i_b_u_t_i_n_g_autotoc_md40}
+\begin{quote}
+{\bfseries{Note\+:}} Please don\textquotesingle{}t file an issue to ask a question. You\textquotesingle{}ll get faster results by using the resources below. \end{quote}
+We have an official Discord server where the community chimes in with helpful advice if you have questions. This is the fastest way to get an answer is the development team is active on Discord.
+
+
+\begin{DoxyItemize}
+\item \href{https://discord.gg/7wvFuPJZgq}{\texttt{ Official Bittensor Discord}}
+\end{DoxyItemize}\hypertarget{md___users_macthrasher_bittensor__c_o_n_t_r_i_b_u_t_i_n_g_autotoc_md41}{}\doxysection{What should I know before I get started?}\label{md___users_macthrasher_bittensor__c_o_n_t_r_i_b_u_t_i_n_g_autotoc_md41}
+Bittensor is still in the Alpha stages, and as such you will likely run into some problems in deploying your model or installing Bittensor itself. If you run into an issue or resolve an issue yourself, feel free to create a pull request with a fix or with a fix to the documentation. The documentation repository can be found \href{https://github.com/opentensor/opentensor.github.io}{\texttt{ here}}.
+
+Additionally, note that the entire implementation of Bittensor cnosists of two separate repositories\+: \href{https://github.com/opentensor/bittensor}{\texttt{ The core Bittensor code}} and the Bittensor Blockchain \href{https://github.com/opentensor/subtensor}{\texttt{ subtensor}}.\hypertarget{md___users_macthrasher_bittensor__c_o_n_t_r_i_b_u_t_i_n_g_autotoc_md42}{}\doxysection{How Can I Contribute?}\label{md___users_macthrasher_bittensor__c_o_n_t_r_i_b_u_t_i_n_g_autotoc_md42}
+\hypertarget{md___users_macthrasher_bittensor__c_o_n_t_r_i_b_u_t_i_n_g_autotoc_md43}{}\doxysubsection{Reporting Bugs}\label{md___users_macthrasher_bittensor__c_o_n_t_r_i_b_u_t_i_n_g_autotoc_md43}
+This section guides you through submitting a bug report for Bittensor. Following these guidelines helps maintainers and the community understand your report \+:pencil\+:, reproduce the behavior \+:computer\+: \+:computer\+:, and find related reports \+:mag\+\_\+right\+:.
+
+Before creating bug reports, please check this list as you might find out that you don\textquotesingle{}t need to create one. When you are creating a bug report, please include as many details as possible. Fill out \href{https://github.com/opentensor/bittensor/blob/master/.github/ISSUE_TEMPLATE/bug_report.md}{\texttt{ the required template}}, the information it asks for helps us resolve issues faster.
+
+\begin{quote}
+{\bfseries{Note\+:}} If you find a {\bfseries{Closed}} issue that seems like it is the same thing that you\textquotesingle{}re experiencing, open a new issue and include a link to the original issue in the body of your new one. \end{quote}
+\hypertarget{md___users_macthrasher_bittensor__c_o_n_t_r_i_b_u_t_i_n_g_autotoc_md44}{}\doxysubsubsection{Before Submitting A Bug Report}\label{md___users_macthrasher_bittensor__c_o_n_t_r_i_b_u_t_i_n_g_autotoc_md44}
+
+\begin{DoxyItemize}
+\item {\bfseries{Check the \href{https://opentensor.github.io/bittensor/debugging.html}{\texttt{ debugging guide}}.}} You might be able to find the cause of the problem and fix things yourself. Most importantly, check if you can reproduce the problem in the latest version of Bittensor by updating to the latest Master branch changes.
+\item {\bfseries{Check the \href{https://discord.gg/7wvFuPJZgq}{\texttt{ Discord Server}}}} and ask in \#running-\/a-\/node channel or \#contributions.
+\item {\bfseries{Determine which repository the problem should be reported in}}\+: if it has to do with your ML model, then it\textquotesingle{}s likely \href{https://github.com/opentensor/bittensor}{\texttt{ Bittensor}}. If you are having problems with your emissions or Blockchain, then it is in \href{https://github.com/opentensor/subtensor}{\texttt{ subtensor}}
+\end{DoxyItemize}\hypertarget{md___users_macthrasher_bittensor__c_o_n_t_r_i_b_u_t_i_n_g_autotoc_md45}{}\doxysubsubsection{How Do I Submit A (\+Good) Bug Report?}\label{md___users_macthrasher_bittensor__c_o_n_t_r_i_b_u_t_i_n_g_autotoc_md45}
+Bugs are tracked as \href{https://guides.github.com/features/issues/}{\texttt{ Git\+Hub issues}}. After you\textquotesingle{}ve determined which repository (\href{https://github.com/opentensor/bittensor}{\texttt{ Bittensor}} or \href{https://github.com/opentensor/subtensor}{\texttt{ subtensor}}) your bug is related to, create an issue on that repository and provide the following information by filling in \href{https://github.com/opentensor/bittensor/blob/master/.github/ISSUE_TEMPLATE/bug_report.md}{\texttt{ the template}}.
+
+Explain the problem and include additional details to help maintainers reproduce the problem\+:
+
+
+\begin{DoxyItemize}
+\item {\bfseries{Use a clear and descriptive title}} for the issue to identify the problem.
+\item {\bfseries{Describe the exact steps which reproduce the problem}} in as many details as possible. For example, start by explaining how you started Bittensor, e.\+g. which command exactly you used in the terminal, or how you started Bittensor otherwise. When listing steps, {\bfseries{don\textquotesingle{}t just say what you did, but explain how you did it}}. For example, if you ran Bittensor with a set of custom configs, explain if you used a config file or command line arguments.
+\item {\bfseries{Provide specific examples to demonstrate the steps}}. Include links to files or Git\+Hub projects, or copy/pasteable snippets, which you use in those examples. If you\textquotesingle{}re providing snippets in the issue, use \href{https://help.github.com/articles/markdown-basics/\#multiple-lines}{\texttt{ Markdown code blocks}}.
+\item {\bfseries{Describe the behavior you observed after following the steps}} and point out what exactly is the problem with that behavior.
+\item {\bfseries{Explain which behavior you expected to see instead and why.}}
+\item {\bfseries{Include screenshots and animated GIFs}} which show you following the described steps and clearly demonstrate the problem. You can use \href{https://www.cockos.com/licecap/}{\texttt{ this tool}} to record GIFs on mac\+OS and Windows, and \href{https://github.com/colinkeenan/silentcast}{\texttt{ this tool}} or \href{https://github.com/GNOME/byzanz}{\texttt{ this tool}} on Linux.
+\item {\bfseries{If you\textquotesingle{}re reporting that Bittensor crashed}}, include a crash report with a stack trace from the operating system. On mac\+OS, the crash report will be available in {\ttfamily Console.\+app} under \char`\"{}\+Diagnostic and usage information\char`\"{} \texorpdfstring{$>$}{>} \char`\"{}\+User diagnostic reports\char`\"{}. Include the crash report in the issue in a \href{https://help.github.com/articles/markdown-basics/\#multiple-lines}{\texttt{ code block}}, a \href{https://help.github.com/articles/file-attachments-on-issues-and-pull-requests/}{\texttt{ file attachment}}, or put it in a \href{https://gist.github.com/}{\texttt{ gist}} and provide link to that gist.
+\item {\bfseries{If the problem is related to performance or memory}}, include a CPU profile capture with your report, if you\textquotesingle{}re using a GPU then include a GPU profile capture as well. Look into the \href{https://pytorch.org/tutorials/recipes/recipes/profiler_recipe.html}{\texttt{ Py\+Torch Profiler}} to look at memory usage of your model.
+\item {\bfseries{If the problem wasn\textquotesingle{}t triggered by a specific action}}, describe what you were doing before the problem happened and share more information using the guidelines below.
+\end{DoxyItemize}
+
+Provide more context by answering these questions\+:
+
+
+\begin{DoxyItemize}
+\item {\bfseries{Did the problem start happening recently}} (e.\+g. after updating to a new version of Bittensor) or was this always a problem?
+\item If the problem started happening recently, {\bfseries{can you reproduce the problem in an older version of Bittensor?}}
+\item {\bfseries{Can you reliably reproduce the issue?}} If not, provide details about how often the problem happens and under which conditions it normally happens.
+\end{DoxyItemize}
+
+Include details about your configuration and environment\+:
+
+
+\begin{DoxyItemize}
+\item {\bfseries{Which version of Bittensor are you using?}} You can get the exact version by checking for {\ttfamily \+\_\+\+\_\+version\+\_\+\+\_\+} in {\ttfamily \mbox{[}bittensor/bittensor/\+\_\+\+\_\+init.\+py}\mbox{]}(\href{https://github.com/opentensor/bittensor/blob/master/bittensor/__init__.py\#L9}{\texttt{ https\+://github.\+com/opentensor/bittensor/blob/master/bittensor/\+\_\+\+\_\+init\+\_\+\+\_\+.\+py\#\+L9}}).
+\item {\bfseries{What\textquotesingle{}s the name and version of the OS you\textquotesingle{}re using}}?
+\item {\bfseries{Are you running Bittensor in a virtual machine?}} If so, which VM software are you using and which operating systems and versions are used for the host and the guest?
+\item {\bfseries{Are you running Bittensor in a dockerized container?}} If so, have you made sure that your docker container contains your latest changes and is up to date with Master branch?
+\item {\bfseries{Are you using \href{https://opentensor.github.io/getting-started/configuration.html}{\texttt{ local configuration files}}}} {\ttfamily config.\+yaml} to customize your Bittensor experiment? If so, provide the contents of that config file, preferably in a \href{https://help.github.com/articles/markdown-basics/\#multiple-lines}{\texttt{ code block}} or with a link to a \href{https://gist.github.com/}{\texttt{ gist}}.
+\end{DoxyItemize}\hypertarget{md___users_macthrasher_bittensor__c_o_n_t_r_i_b_u_t_i_n_g_autotoc_md46}{}\doxysubsection{Suggesting Enhancements}\label{md___users_macthrasher_bittensor__c_o_n_t_r_i_b_u_t_i_n_g_autotoc_md46}
+This section guides you through submitting an enhancement suggestion for Bittensor, including completely new features and minor improvements to existing functionality. Following these guidelines helps maintainers and the community understand your suggestion \+:pencil\+: and find related suggestions \+:mag\+\_\+right\+:.
+
+Before creating enhancement suggestions, please check this list as you might find out that you don\textquotesingle{}t need to create one. When you are creating an enhancement suggestion, please include as many details as possible. Fill in \href{https://github.com/opentensor/bittensor/blob/master/.github/ISSUE_TEMPLATE/feature_request.md}{\texttt{ the template}}, including the steps that you imagine you would take if the feature you\textquotesingle{}re requesting existed.\hypertarget{md___users_macthrasher_bittensor__c_o_n_t_r_i_b_u_t_i_n_g_autotoc_md47}{}\doxysubsubsection{Before Submitting An Enhancement Suggestion}\label{md___users_macthrasher_bittensor__c_o_n_t_r_i_b_u_t_i_n_g_autotoc_md47}
+
+\begin{DoxyItemize}
+\item {\bfseries{Check the \href{https://opentensor.github.io/bittensor/debugging.html}{\texttt{ debugging guide}}.}} for tips — you might discover that the enhancement is already available. Most importantly, check if you\textquotesingle{}re using the latest version of Bittensor by pulling the latest changes from the Master branch and if you can get the desired behavior by changing \href{https://opentensor.github.io/getting-started/configuration.html}{\texttt{ Bittensor\textquotesingle{}s config settings}}.
+\item $\ast$$\ast$\+Determine which repository the problem should be reported in\+: if it has to do with your ML model, then it\textquotesingle{}s likely \href{https://github.com/opentensor/bittensor}{\texttt{ Bittensor}}. If you are having problems with your emissions or Blockchain, then it is in \href{https://github.com/opentensor/subtensor}{\texttt{ subtensor}}
+\end{DoxyItemize}\hypertarget{md___users_macthrasher_bittensor__c_o_n_t_r_i_b_u_t_i_n_g_autotoc_md48}{}\doxysubsubsection{How Do I Submit A (\+Good) Enhancement Suggestion?}\label{md___users_macthrasher_bittensor__c_o_n_t_r_i_b_u_t_i_n_g_autotoc_md48}
+Enhancement suggestions are tracked as \href{https://guides.github.com/features/issues/}{\texttt{ Git\+Hub issues}}. After you\textquotesingle{}ve determined which repository (\href{https://github.com/opentensor/bittensor}{\texttt{ Bittensor}} or \href{https://github.com/opentensor/subtensor}{\texttt{ subtensor}}) your enhancement suggestion is related to, create an issue on that repository and provide the following information\+:
+
+
+\begin{DoxyItemize}
+\item {\bfseries{Use a clear and descriptive title}} for the issue to identify the problem.
+\item {\bfseries{Provide a step-\/by-\/step description of the suggested enhancement}} in as many details as possible.
+\item {\bfseries{Provide specific examples to demonstrate the steps}}. Include copy/pasteable snippets which you use in those examples, as \href{https://help.github.com/articles/markdown-basics/\#multiple-lines}{\texttt{ Markdown code blocks}}.
+\item {\bfseries{Describe the current behavior}} and {\bfseries{explain which behavior you expected to see instead}} and why.
+\item {\bfseries{Include screenshots and animated GIFs}} which help you demonstrate the steps or point out the part of Bittensor which the suggestion is related to. You can use \href{https://www.cockos.com/licecap/}{\texttt{ this tool}} to record GIFs on mac\+OS and Windows, and \href{https://github.com/colinkeenan/silentcast}{\texttt{ this tool}} or \href{https://github.com/GNOME/byzanz}{\texttt{ this tool}} on Linux.
+\item {\bfseries{Explain why this enhancement would be useful}} to most Bittensor users.
+\item {\bfseries{List some other text editors or applications where this enhancement exists.}}
+\item {\bfseries{Specify which version of Bittensor are you using?}} You can get the exact version by checking for {\ttfamily \+\_\+\+\_\+version\+\_\+\+\_\+} in {\ttfamily \mbox{[}bittensor/bittensor/\+\_\+\+\_\+init.\+py}\mbox{]}(\href{https://github.com/opentensor/bittensor/blob/master/bittensor/__init__.py\#L18}{\texttt{ https\+://github.\+com/opentensor/bittensor/blob/master/bittensor/\+\_\+\+\_\+init\+\_\+\+\_\+.\+py\#\+L18}}).
+\item {\bfseries{Specify the name and version of the OS you\textquotesingle{}re using.}}
+\end{DoxyItemize}\hypertarget{md___users_macthrasher_bittensor__c_o_n_t_r_i_b_u_t_i_n_g_autotoc_md49}{}\doxysubsection{Your First Code Contribution}\label{md___users_macthrasher_bittensor__c_o_n_t_r_i_b_u_t_i_n_g_autotoc_md49}
+Unsure where to begin contributing to Bittensor? You can start by looking through these {\ttfamily beginner} and {\ttfamily help-\/wanted} issues\+:
+
+
+\begin{DoxyItemize}
+\item \mbox{[}Beginner issues\mbox{]}\mbox{[}beginner\mbox{]} -\/ issues which should only require a few lines of code, and a test or two.
+\item \mbox{[}Help wanted issues\mbox{]}\mbox{[}help-\/wanted\mbox{]} -\/ issues which should be a bit more involved than {\ttfamily beginner} issues.
+\end{DoxyItemize}
+
+Both issue lists are sorted by total number of comments. While not perfect, number of comments is a reasonable proxy for impact a given change will have.
+
+If you want to read about using Bittensor or developing models in Bittensor, the \href{https://opentensor.github.io}{\texttt{ Bittensor Documentation}} is free and available online. You can find the source to the manual in \href{http://github.com/opentensor/opentensor.github.io}{\texttt{ opentensor/opentensor.\+github.\+io}}.\hypertarget{md___users_macthrasher_bittensor__c_o_n_t_r_i_b_u_t_i_n_g_autotoc_md50}{}\doxysubsection{Pull Requests}\label{md___users_macthrasher_bittensor__c_o_n_t_r_i_b_u_t_i_n_g_autotoc_md50}
+The process described here has several goals\+:
+
+
+\begin{DoxyItemize}
+\item Maintain Bittensor\textquotesingle{}s quality
+\item Fix problems that are important to users
+\item Engage the community in working toward the best possible iteration of Bittensor
+\item Enable a sustainable system for Bittensor\textquotesingle{}s maintainers to review contributions
+\end{DoxyItemize}
+
+Please follow these steps to have your contribution considered by the maintainers\+:
+
+
+\begin{DoxyEnumerate}
+\item Before the PR.
+\begin{DoxyEnumerate}
+\item Read the \mbox{\hyperlink{md___users_macthrasher_bittensor__d_e_v_e_l_o_p_m_e_n_t__w_o_r_k_f_l_o_w}{development workflow}} defined for this repository in order to agree on the ways of working.
+\end{DoxyEnumerate}
+\end{DoxyEnumerate}
+\begin{DoxyEnumerate}
+\item While coding, please, add tests relevant to the fixed bug or new feature.
+\end{DoxyEnumerate}
+\begin{DoxyEnumerate}
+\item To create the PR follow all instructions in \href{https://github.com/opentensor/bittensor/blob/master/.github/PULL_REQUEST_TEMPLATE/pull_request_template.md}{\texttt{ the template}}
+\end{DoxyEnumerate}
+\begin{DoxyEnumerate}
+\item After you submit your pull request, verify that all \href{https://help.github.com/articles/about-status-checks/}{\texttt{ status checks}} are passing 
+
+{\bfseries{What if the status checks are failing?}}\begin{adjustwidth}{1em}{0em}
+If a status check is failing, and you believe that the failure is unrelated to your change, please leave a comment on the pull request explaining why you believe the failure is unrelated. A maintainer will re-\/run the status check for you. If we conclude that the failure was a false positive, then we will open an issue to track that problem with our status check suite.\end{adjustwidth}
+
+\end{DoxyEnumerate}
+
+While the prerequisites above must be satisfied prior to having your pull request reviewed, the reviewer(s) may ask you to complete additional design work, tests, or other changes before your pull request can be ultimately accepted. 

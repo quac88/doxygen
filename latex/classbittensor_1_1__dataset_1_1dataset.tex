@@ -1,0 +1,109 @@
+\hypertarget{classbittensor_1_1__dataset_1_1dataset}{}\doxysection{bittensor.\+\_\+dataset.\+dataset Class Reference}
+\label{classbittensor_1_1__dataset_1_1dataset}\index{bittensor.\_dataset.dataset@{bittensor.\_dataset.dataset}}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \mbox{\hyperlink{classbittensor_1_1__dataset_1_1dataset_a502cde6cc1ed2b5b439271374018142b}{\+\_\+\+\_\+new\+\_\+\+\_\+}} (cls, \textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__config_1_1config}{bittensor.\+config}}\textquotesingle{} \mbox{\hyperlink{classbittensor_1_1__config_1_1config}{config}}=None, int block\+\_\+size=None, int batch\+\_\+size=None, int num\+\_\+workers=None, list dataset\+\_\+name=\mbox{[}$\,$\mbox{]}, bool save\+\_\+dataset=None, bool no\+\_\+tokenizer=None, int num\+\_\+batches=None, bool \+\_\+mock=None)
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__dataset_1_1dataset_aecfa54098d68aef00750ce267ed8fe06}\label{classbittensor_1_1__dataset_1_1dataset_aecfa54098d68aef00750ce267ed8fe06}} 
+def {\bfseries mock} (cls)
+\item 
+ \textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__config_1_1config__impl_1_1_config}{bittensor.\+Config}}\textquotesingle{} \mbox{\hyperlink{classbittensor_1_1__dataset_1_1dataset_a87c59d83dcfd4887835558caeeb4a21d}{config}} (cls)
+\item 
+def \mbox{\hyperlink{classbittensor_1_1__dataset_1_1dataset_a4f9cc40ba3ff7638cc04a2511ac5c18c}{add\+\_\+args}} (cls, argparse.\+Argument\+Parser parser, str prefix=None)
+\item 
+def \mbox{\hyperlink{classbittensor_1_1__dataset_1_1dataset_a5289194bb435a98b4dc08f6fd21a1b31}{help}} (cls)
+\item 
+def \mbox{\hyperlink{classbittensor_1_1__dataset_1_1dataset_a9e1b50354cbdb8b12efd3812d154048b}{add\+\_\+defaults}} (cls, defaults)
+\item 
+def \mbox{\hyperlink{classbittensor_1_1__dataset_1_1dataset_a3622f12bfd150e7844096bdd440f6a79}{check\+\_\+config}} (cls, \textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__config_1_1config__impl_1_1_config}{bittensor.\+Config}}\textquotesingle{} \mbox{\hyperlink{classbittensor_1_1__config_1_1config}{config}})
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\begin{DoxyVerb} Factory class for the GenesisTextDataset class or the mocked GenesisTextDataset
+The GenesisTextDataset downloads text data from the bittensor mountain dataset. 
+The class makes http requests to bittensor's IPFS backend server which contains the full dataset.
+By default, the GenesisTextDataset class will return a fully functioning pytorch dataloader.
+
+Examples:: 
+        >>> dataset = bittensor.dataset(batch_size = 10, block_size=20)
+        >>> # data.shape[batch_size, block_size]
+        >>> data = next(dataset)
+\end{DoxyVerb}
+ 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classbittensor_1_1__dataset_1_1dataset_a502cde6cc1ed2b5b439271374018142b}\label{classbittensor_1_1__dataset_1_1dataset_a502cde6cc1ed2b5b439271374018142b}} 
+\index{bittensor.\_dataset.dataset@{bittensor.\_dataset.dataset}!\_\_new\_\_@{\_\_new\_\_}}
+\index{\_\_new\_\_@{\_\_new\_\_}!bittensor.\_dataset.dataset@{bittensor.\_dataset.dataset}}
+\doxysubsubsection{\texorpdfstring{\_\_new\_\_()}{\_\_new\_\_()}}
+{\footnotesize\ttfamily def bittensor.\+\_\+dataset.\+dataset.\+\_\+\+\_\+new\+\_\+\+\_\+ (\begin{DoxyParamCaption}\item[{}]{cls,  }\item[{\textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__config_1_1config}{bittensor.\+config}}\textquotesingle{} }]{config = {\ttfamily None},  }\item[{int }]{block\+\_\+size = {\ttfamily None},  }\item[{int }]{batch\+\_\+size = {\ttfamily None},  }\item[{int }]{num\+\_\+workers = {\ttfamily None},  }\item[{list }]{dataset\+\_\+name = {\ttfamily \mbox{[}\mbox{]}},  }\item[{bool}]{save\+\_\+dataset = {\ttfamily None},  }\item[{bool}]{no\+\_\+tokenizer = {\ttfamily None},  }\item[{int }]{num\+\_\+batches = {\ttfamily None},  }\item[{bool}]{\+\_\+mock = {\ttfamily None} }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb} Create and init the GenesisTextDataset class, which handles dataloading from ipfs.
+        Args:
+            config (:obj:`bittensor.Config`, `optional`): 
+                bittensor.dataset.config()
+            block_size (:obj:`int`, `optional`):
+                Number of text items to pull for each example.
+            batch_size (:obj:`int`, `optional`):
+                Batch size.
+            num_workers (:obj:`int`, `optional`):
+                Number of workers for data loader.
+            dataset_name (:obj:`list`, `optional`):
+                Which datasets to use (ArXiv, BookCorpus2, Books3, DMMathematics, EnronEmails, EuroParl, 
+                Gutenberg_PG, HackerNews, NIHExPorter, OpenSubtitles, PhilPapers, UbuntuIRC, YoutubeSubtitles)).
+            save_dataset (:obj:`bool`, `optional`):
+                Save the downloaded dataset or not.
+            no_tokenizer (:obj:`bool`, `optional`):
+                To return non-tokenized text (EXPERIMENTAL, DO NOT USE)
+            num_batches (:obj:`int`, `optional`):
+                The number of batches of data to prepare for the dataloader.
+            _mock (:obj:`bool`, `optional`):
+                For testing, if true the dataset if filled with fake text data.  \end{DoxyVerb}
+ \mbox{\Hypertarget{classbittensor_1_1__dataset_1_1dataset_a4f9cc40ba3ff7638cc04a2511ac5c18c}\label{classbittensor_1_1__dataset_1_1dataset_a4f9cc40ba3ff7638cc04a2511ac5c18c}} 
+\index{bittensor.\_dataset.dataset@{bittensor.\_dataset.dataset}!add\_args@{add\_args}}
+\index{add\_args@{add\_args}!bittensor.\_dataset.dataset@{bittensor.\_dataset.dataset}}
+\doxysubsubsection{\texorpdfstring{add\_args()}{add\_args()}}
+{\footnotesize\ttfamily def bittensor.\+\_\+dataset.\+dataset.\+add\+\_\+args (\begin{DoxyParamCaption}\item[{}]{cls,  }\item[{argparse.\+Argument\+Parser}]{parser,  }\item[{str }]{prefix = {\ttfamily None} }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb} Accept specific arguments from parser
+\end{DoxyVerb}
+ \mbox{\Hypertarget{classbittensor_1_1__dataset_1_1dataset_a9e1b50354cbdb8b12efd3812d154048b}\label{classbittensor_1_1__dataset_1_1dataset_a9e1b50354cbdb8b12efd3812d154048b}} 
+\index{bittensor.\_dataset.dataset@{bittensor.\_dataset.dataset}!add\_defaults@{add\_defaults}}
+\index{add\_defaults@{add\_defaults}!bittensor.\_dataset.dataset@{bittensor.\_dataset.dataset}}
+\doxysubsubsection{\texorpdfstring{add\_defaults()}{add\_defaults()}}
+{\footnotesize\ttfamily def bittensor.\+\_\+dataset.\+dataset.\+add\+\_\+defaults (\begin{DoxyParamCaption}\item[{}]{cls,  }\item[{}]{defaults }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb} Adds parser defaults to object from enviroment variables.
+\end{DoxyVerb}
+ \mbox{\Hypertarget{classbittensor_1_1__dataset_1_1dataset_a3622f12bfd150e7844096bdd440f6a79}\label{classbittensor_1_1__dataset_1_1dataset_a3622f12bfd150e7844096bdd440f6a79}} 
+\index{bittensor.\_dataset.dataset@{bittensor.\_dataset.dataset}!check\_config@{check\_config}}
+\index{check\_config@{check\_config}!bittensor.\_dataset.dataset@{bittensor.\_dataset.dataset}}
+\doxysubsubsection{\texorpdfstring{check\_config()}{check\_config()}}
+{\footnotesize\ttfamily def bittensor.\+\_\+dataset.\+dataset.\+check\+\_\+config (\begin{DoxyParamCaption}\item[{}]{cls,  }\item[{\textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__config_1_1config__impl_1_1_config}{bittensor.\+Config}}\textquotesingle{} }]{config }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb} Check config for batch size, block size, corpus size, num_workers and dataset
+\end{DoxyVerb}
+ \mbox{\Hypertarget{classbittensor_1_1__dataset_1_1dataset_a87c59d83dcfd4887835558caeeb4a21d}\label{classbittensor_1_1__dataset_1_1dataset_a87c59d83dcfd4887835558caeeb4a21d}} 
+\index{bittensor.\_dataset.dataset@{bittensor.\_dataset.dataset}!config@{config}}
+\index{config@{config}!bittensor.\_dataset.dataset@{bittensor.\_dataset.dataset}}
+\doxysubsubsection{\texorpdfstring{config()}{config()}}
+{\footnotesize\ttfamily  \textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__config_1_1config__impl_1_1_config}{bittensor.\+Config}}\textquotesingle{} bittensor.\+\_\+dataset.\+dataset.\+config (\begin{DoxyParamCaption}\item[{}]{cls }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb} Get config from the argument parser 
+    Return: bittensor.config object
+\end{DoxyVerb}
+ \mbox{\Hypertarget{classbittensor_1_1__dataset_1_1dataset_a5289194bb435a98b4dc08f6fd21a1b31}\label{classbittensor_1_1__dataset_1_1dataset_a5289194bb435a98b4dc08f6fd21a1b31}} 
+\index{bittensor.\_dataset.dataset@{bittensor.\_dataset.dataset}!help@{help}}
+\index{help@{help}!bittensor.\_dataset.dataset@{bittensor.\_dataset.dataset}}
+\doxysubsubsection{\texorpdfstring{help()}{help()}}
+{\footnotesize\ttfamily def bittensor.\+\_\+dataset.\+dataset.\+help (\begin{DoxyParamCaption}\item[{}]{cls }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb} Print help to stdout
+\end{DoxyVerb}
+ 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+/\+Users/macthrasher/bittensor/bittensor/\+\_\+dataset/\+\_\+\+\_\+init\+\_\+\+\_\+.\+py\end{DoxyCompactItemize}

@@ -1,0 +1,442 @@
+\hypertarget{classbittensor_1_1__synapse_1_1text__causallm__impl_1_1_text_causal_l_m}{}\doxysection{bittensor.\+\_\+synapse.\+text\+\_\+causallm\+\_\+impl.\+Text\+Causal\+LM Class Reference}
+\label{classbittensor_1_1__synapse_1_1text__causallm__impl_1_1_text_causal_l_m}\index{bittensor.\_synapse.text\_causallm\_impl.TextCausalLM@{bittensor.\_synapse.text\_causallm\_impl.TextCausalLM}}
+Inheritance diagram for bittensor.\+\_\+synapse.\+text\+\_\+causallm\+\_\+impl.\+Text\+Causal\+LM\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classbittensor_1_1__synapse_1_1text__causallm__impl_1_1_text_causal_l_m}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \mbox{\hyperlink{classbittensor_1_1__synapse_1_1text__causallm__impl_1_1_text_causal_l_m_af50c0ca9c674e3e4b1be481300766a62}{\+\_\+\+\_\+init\+\_\+\+\_\+}} (self, int topk=512, \textquotesingle{}bittensor.\+proto.\+Serializer.\+Type\textquotesingle{} forward\+\_\+request\+\_\+serializer\+\_\+type=bittensor.\+proto.\+Serializer.\+MSGPACK, \textquotesingle{}bittensor.\+proto.\+Serializer.\+Type\textquotesingle{} forward\+\_\+response\+\_\+serializer\+\_\+type=bittensor.\+proto.\+Serializer.\+MSGPACK, \textquotesingle{}bittensor.\+proto.\+Serializer.\+Type\textquotesingle{} backward\+\_\+request\+\_\+serializer\+\_\+type=bittensor.\+proto.\+Serializer.\+MSGPACK, \textquotesingle{}bittensor.\+proto.\+Serializer.\+Type\textquotesingle{} backward\+\_\+response\+\_\+serializer\+\_\+type=bittensor.\+proto.\+Serializer.\+MSGPACK)
+\item 
+str \mbox{\hyperlink{classbittensor_1_1__synapse_1_1text__causallm__impl_1_1_text_causal_l_m_a8fe6e3ffc7964ee28e84b21eb11eaa32}{\+\_\+\+\_\+repr\+\_\+\+\_\+}} (self)
+\item 
+str \mbox{\hyperlink{classbittensor_1_1__synapse_1_1text__causallm__impl_1_1_text_causal_l_m_ae25e8a3b0a2ce16819f68e7e79d5b16a}{\+\_\+\+\_\+str\+\_\+\+\_\+}} (self)
+\item 
+ \textquotesingle{}bittensor.\+proto.\+Synapse.\+Text\+Causal\+LM\textquotesingle{} \mbox{\hyperlink{classbittensor_1_1__synapse_1_1text__causallm__impl_1_1_text_causal_l_m_ac6bf14316d09415f75eb0a419635a8cc}{serialize\+\_\+to\+\_\+instance\+\_\+proto}} (self)
+\item 
+bittensor.\+proto.\+Synapse \mbox{\hyperlink{classbittensor_1_1__synapse_1_1text__causallm__impl_1_1_text_causal_l_m_ad9952f1aff2d650102cd64d9fc45d216}{serialize\+\_\+to\+\_\+wire\+\_\+proto}} (self, \textquotesingle{}bittensor.\+proto.\+Return\+Code\textquotesingle{} code=0, str message=\textquotesingle{}\textquotesingle{})
+\item 
+def \mbox{\hyperlink{classbittensor_1_1__synapse_1_1text__causallm__impl_1_1_text_causal_l_m_a5dc432638585ce3335a2d77d5f9815f2}{check\+\_\+forward\+\_\+request\+\_\+tensor}} (self, forward\+\_\+request\+\_\+tensor)
+\item 
+def \mbox{\hyperlink{classbittensor_1_1__synapse_1_1text__causallm__impl_1_1_text_causal_l_m_aa8258678931f1079df46b25effc7c6ae}{check\+\_\+forward\+\_\+response\+\_\+tensor}} (self, forward\+\_\+request\+\_\+tensor, forward\+\_\+response\+\_\+tensor)
+\item 
+def \mbox{\hyperlink{classbittensor_1_1__synapse_1_1text__causallm__impl_1_1_text_causal_l_m_a2e7724b38593acf0556d5e4788efe805}{check\+\_\+backward\+\_\+request\+\_\+gradient}} (self, forward\+\_\+request\+\_\+tensor, backward\+\_\+request\+\_\+gradient)
+\item 
+torch.\+Tensor \mbox{\hyperlink{classbittensor_1_1__synapse_1_1text__causallm__impl_1_1_text_causal_l_m_a59f0ee75b8e34af8db3c56e9dbd51239}{encode\+\_\+forward\+\_\+request\+\_\+tensor}} (self, torch.\+Tensor forward\+\_\+request\+\_\+tensor)
+\item 
+torch.\+Tensor \mbox{\hyperlink{classbittensor_1_1__synapse_1_1text__causallm__impl_1_1_text_causal_l_m_a7ed9c65e50fbc45b89d9238a0d211a5d}{decode\+\_\+forward\+\_\+request\+\_\+tensor}} (self, torch.\+Tensor forward\+\_\+request\+\_\+tensor)
+\item 
+torch.\+Tensor \mbox{\hyperlink{classbittensor_1_1__synapse_1_1text__causallm__impl_1_1_text_causal_l_m_a90e11dd8f72c4bbd0aa8a1fd71354ec8}{encode\+\_\+forward\+\_\+response\+\_\+tensor}} (self, torch.\+Tensor forward\+\_\+response\+\_\+tensor)
+\item 
+torch.\+Tensor \mbox{\hyperlink{classbittensor_1_1__synapse_1_1text__causallm__impl_1_1_text_causal_l_m_a9760176f469882d933dac28509894c2a}{decode\+\_\+forward\+\_\+response\+\_\+tensor}} (self, torch.\+Tensor forward\+\_\+response\+\_\+tensor)
+\item 
+torch.\+Tensor \mbox{\hyperlink{classbittensor_1_1__synapse_1_1text__causallm__impl_1_1_text_causal_l_m_abf9e7aa2b3f542094968a32bb015151b}{encode\+\_\+backward\+\_\+response\+\_\+gradient}} (self, torch.\+Tensor backward\+\_\+request\+\_\+gradient)
+\item 
+torch.\+Tensor \mbox{\hyperlink{classbittensor_1_1__synapse_1_1text__causallm__impl_1_1_text_causal_l_m_aead3f28e1678712ca9b6e55228d75953}{decode\+\_\+backward\+\_\+response\+\_\+gradient}} (self, torch.\+Tensor backward\+\_\+request\+\_\+gradient)
+\item 
+torch.\+Tensor \mbox{\hyperlink{classbittensor_1_1__synapse_1_1text__causallm__impl_1_1_text_causal_l_m_ab1cb80f4457880f4c0f5bfff3a793718}{encode\+\_\+backward\+\_\+request\+\_\+gradient}} (self, torch.\+Tensor backward\+\_\+response\+\_\+gradient)
+\item 
+torch.\+Tensor \mbox{\hyperlink{classbittensor_1_1__synapse_1_1text__causallm__impl_1_1_text_causal_l_m_a5e5b9fed3bc610895792ebcc94589562}{decode\+\_\+backward\+\_\+request\+\_\+gradient}} (self, torch.\+Tensor backward\+\_\+response\+\_\+gradient)
+\item 
+torch.\+Tensor \mbox{\hyperlink{classbittensor_1_1__synapse_1_1text__causallm__impl_1_1_text_causal_l_m_a23e462ed39d7abcd9457425903f82afd}{nill\+\_\+forward\+\_\+response\+\_\+tensor}} (self, torch.\+Tensor forward\+\_\+request\+\_\+tensor)
+\item 
+torch.\+Tensor \mbox{\hyperlink{classbittensor_1_1__synapse_1_1text__causallm__impl_1_1_text_causal_l_m_a01f706030bcf2ddb0b6d10adeca9893c}{nill\+\_\+backward\+\_\+response\+\_\+tensor}} (self, torch.\+Tensor forward\+\_\+request\+\_\+tensor)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Member Functions inherited from \mbox{\hyperlink{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse}{bittensor.\+\_\+synapse.\+synapse\+\_\+impl.\+Synapse}}}
+\begin{DoxyCompactItemize}
+\item 
+ \textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse}{Synapse}}\textquotesingle{} \mbox{\hyperlink{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse_a43f83b557416a8a3936d5ddc175b5e6f}{\+\_\+\+\_\+init\+\_\+\+\_\+}} (self, \textquotesingle{}bittensor.\+proto.\+Serializer.\+Type\textquotesingle{} forward\+\_\+request\+\_\+serializer\+\_\+type=bittensor.\+proto.\+Serializer.\+MSGPACK, \textquotesingle{}bittensor.\+proto.\+Serializer.\+Type\textquotesingle{} forward\+\_\+response\+\_\+serializer\+\_\+type=bittensor.\+proto.\+Serializer.\+MSGPACK, \textquotesingle{}bittensor.\+proto.\+Serializer.\+Type\textquotesingle{} backward\+\_\+request\+\_\+serializer\+\_\+type=bittensor.\+proto.\+Serializer.\+MSGPACK, \textquotesingle{}bittensor.\+proto.\+Serializer.\+Type\textquotesingle{} backward\+\_\+response\+\_\+serializer\+\_\+type=bittensor.\+proto.\+Serializer.\+MSGPACK)
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse_a33b86030b6dc0f28aba3b1c7070de48e}\label{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse_a33b86030b6dc0f28aba3b1c7070de48e}} 
+str {\bfseries \+\_\+\+\_\+repr\+\_\+\+\_\+} (self)
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse_a49b7378ad62c7b9dd4aae80f81703234}\label{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse_a49b7378ad62c7b9dd4aae80f81703234}} 
+str {\bfseries \+\_\+\+\_\+str\+\_\+\+\_\+} (self)
+\item 
+ \textquotesingle{}bittensor.\+proto.\+Synapse\textquotesingle{} \mbox{\hyperlink{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse_a9e2c93dbd788e9fb778997874f6429fb}{serialize\+\_\+to\+\_\+instance\+\_\+proto}} (self, $\ast$$\ast$kwargs)
+\item 
+ \textquotesingle{}bittensor.\+proto.\+Synapse\textquotesingle{} \mbox{\hyperlink{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse_a9fd871f88280feb461379b7d957ef368}{serialize\+\_\+to\+\_\+wire\+\_\+proto}} (self, $\ast$$\ast$kwargs)
+\item 
+torch.\+Tensor \mbox{\hyperlink{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse_a29704899ae87600748e464fa7823a04e}{nill\+\_\+forward\+\_\+response\+\_\+tensor}} (self, torch.\+Tensor forward\+\_\+request\+\_\+tensor)
+\item 
+torch.\+Tensor \mbox{\hyperlink{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse_a28f55eb21a6e304a690594db9edc4922}{nill\+\_\+backward\+\_\+response\+\_\+tensor}} (self, torch.\+Tensor forward\+\_\+request\+\_\+tensor)
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse_acc3a89c693c501b031ec130b399a0931}\label{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse_acc3a89c693c501b031ec130b399a0931}} 
+def {\bfseries check\+\_\+forward\+\_\+request\+\_\+tensor} (self, forward\+\_\+request\+\_\+tensor)
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse_acb6d69d2b432bde2495df6b668f17c40}\label{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse_acb6d69d2b432bde2495df6b668f17c40}} 
+def {\bfseries check\+\_\+forward\+\_\+response\+\_\+tensor} (self, forward\+\_\+request\+\_\+tensor, forward\+\_\+response\+\_\+tensor)
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse_a7ba717d9b34e08826d484c5ec8853fbb}\label{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse_a7ba717d9b34e08826d484c5ec8853fbb}} 
+def {\bfseries check\+\_\+backward\+\_\+request\+\_\+gradient} (self, forward\+\_\+request\+\_\+tensor, backward\+\_\+request\+\_\+gradient)
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse_a2056e1a33e038afb6348c5848538276d}\label{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse_a2056e1a33e038afb6348c5848538276d}} 
+def {\bfseries check\+\_\+backward\+\_\+response\+\_\+gradient} (self, forward\+\_\+request\+\_\+tensor, backward\+\_\+request\+\_\+gradient)
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse_ab0f074f5045e9ca075605c1f9e1664d2}\label{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse_ab0f074f5045e9ca075605c1f9e1664d2}} 
+torch.\+Tensor {\bfseries encode\+\_\+forward\+\_\+request\+\_\+tensor} (self, torch.\+Tensor forward\+\_\+request\+\_\+tensor)
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse_a054c4ee0bc9b2d26b0ffde2f5e6c6d6d}\label{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse_a054c4ee0bc9b2d26b0ffde2f5e6c6d6d}} 
+torch.\+Tensor {\bfseries decode\+\_\+forward\+\_\+request\+\_\+tensor} (self, torch.\+Tensor forward\+\_\+request\+\_\+tensor)
+\item 
+torch.\+Tensor \mbox{\hyperlink{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse_a652c329c4cfa85daf0c250a0e8547ac5}{encode\+\_\+forward\+\_\+response\+\_\+tensor}} (self, torch.\+Tensor forward\+\_\+response\+\_\+tensor)
+\item 
+torch.\+Tensor \mbox{\hyperlink{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse_a25615a9c2971459105fc13b81e942dd1}{decode\+\_\+forward\+\_\+response\+\_\+tensor}} (self, torch.\+Tensor forward\+\_\+response\+\_\+tensor)
+\item 
+torch.\+Tensor \mbox{\hyperlink{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse_a6877da80a2e6f46224cc1679149a1683}{encode\+\_\+backward\+\_\+request\+\_\+gradient}} (self, torch.\+Tensor backward\+\_\+request\+\_\+gradient)
+\item 
+torch.\+Tensor \mbox{\hyperlink{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse_a9964345c43f2dd70ad9bace134f367cb}{decode\+\_\+backward\+\_\+request\+\_\+gradient}} (self, torch.\+Tensor backward\+\_\+request\+\_\+gradient)
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse_abf013ae6c8a55b22a3951abe095f5ef0}\label{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse_abf013ae6c8a55b22a3951abe095f5ef0}} 
+torch.\+Tensor {\bfseries encode\+\_\+backward\+\_\+response\+\_\+gradient} (self, torch.\+Tensor backward\+\_\+response\+\_\+gradient)
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse_a626bd9a586b62c9be3fc34577356f574}\label{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse_a626bd9a586b62c9be3fc34577356f574}} 
+torch.\+Tensor {\bfseries decode\+\_\+backward\+\_\+response\+\_\+gradient} (self, torch.\+Tensor backward\+\_\+response\+\_\+gradient)
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse_a730077888d77e91e8815e032d6756802}\label{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse_a730077888d77e91e8815e032d6756802}} 
+Tuple\mbox{[}\textquotesingle{}bittensor.\+proto.\+Tensor\textquotesingle{}, \textquotesingle{}bittensor.\+proto.\+Return\+Code\textquotesingle{}, str\mbox{]} {\bfseries serialize\+\_\+forward\+\_\+request\+\_\+tensor} (self, torch.\+Tensor forward\+\_\+request\+\_\+tensor)
+\item 
+Tuple\mbox{[}\textquotesingle{}torch.\+Tensor\textquotesingle{}, \textquotesingle{}bittensor.\+proto.\+Return\+Code\textquotesingle{}, str\mbox{]} \mbox{\hyperlink{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse_a5ea98d071967a34e4d0f5c3c2ab5b372}{deserialize\+\_\+forward\+\_\+request\+\_\+tensor}} (self, bittensor.\+proto.\+Tensor forward\+\_\+request\+\_\+proto)
+\item 
+Tuple\mbox{[}\textquotesingle{}bittensor.\+proto.\+Tensor\textquotesingle{}, \textquotesingle{}bittensor.\+proto.\+Return\+Code\textquotesingle{}, str\mbox{]} \mbox{\hyperlink{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse_ae38bd75b6fe681bb836de7616864fbfa}{serialize\+\_\+forward\+\_\+response\+\_\+tensor}} (self, torch.\+Tensor forward\+\_\+request\+\_\+tensor, torch.\+Tensor forward\+\_\+response\+\_\+tensor)
+\item 
+Tuple\mbox{[}\textquotesingle{}torch.\+Tensor\textquotesingle{}, \textquotesingle{}bittensor.\+proto.\+Return\+Code\textquotesingle{}, str\mbox{]} \mbox{\hyperlink{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse_a490c0eb46ee3b51c043f94c3e6f5a723}{deserialize\+\_\+forward\+\_\+response\+\_\+proto}} (self, torch.\+Tensor forward\+\_\+request\+\_\+tensor, bittensor.\+proto.\+Tensor forward\+\_\+response\+\_\+proto)
+\item 
+Tuple\mbox{[}\textquotesingle{}bittensor.\+proto.\+Tensor\textquotesingle{}, \textquotesingle{}bittensor.\+proto.\+Return\+Code\textquotesingle{}, str\mbox{]} \mbox{\hyperlink{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse_abee9c4ce6a720526a7c2917044708f08}{serialize\+\_\+backward\+\_\+request\+\_\+gradient}} (self, torch.\+Tensor forward\+\_\+request\+\_\+tensor, torch.\+Tensor backward\+\_\+request\+\_\+gradient)
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse_a4e5a849ed2b4541125e612900730ea5a}\label{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse_a4e5a849ed2b4541125e612900730ea5a}} 
+Tuple\mbox{[}\textquotesingle{}torch.\+Tensor\textquotesingle{}, \textquotesingle{}bittensor.\+proto.\+Return\+Code\textquotesingle{}, str\mbox{]} {\bfseries deserialize\+\_\+backward\+\_\+request\+\_\+gradient} (self, torch.\+Tensor forward\+\_\+request\+\_\+tensor, bittensor.\+proto.\+Tensor backward\+\_\+request\+\_\+proto)
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse_aa775729854c802d395cbf1fa6b5e1174}\label{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse_aa775729854c802d395cbf1fa6b5e1174}} 
+def {\bfseries empty} (self)
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+ \textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__synapse_1_1text__causallm__impl_1_1_text_causal_l_m}{Text\+Causal\+LM}}\textquotesingle{} \mbox{\hyperlink{classbittensor_1_1__synapse_1_1text__causallm__impl_1_1_text_causal_l_m_ac64a9ee1f8031b6728b501c8a671dc19}{deserialize\+\_\+from\+\_\+instance\+\_\+proto}} (bittensor.\+proto.\+Synapse instance\+\_\+proto)
+\item 
+ \textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__synapse_1_1text__causallm__impl_1_1_text_causal_l_m}{Text\+Causal\+LM}}\textquotesingle{} \mbox{\hyperlink{classbittensor_1_1__synapse_1_1text__causallm__impl_1_1_text_causal_l_m_a0ae4722c9d175c1c3bf6f5b0b2e7908d}{deserialize\+\_\+from\+\_\+wire\+\_\+proto}} (bittensor.\+proto.\+Synapse wire\+\_\+proto)
+\end{DoxyCompactItemize}
+\begin{DoxyCompactItemize}
+\item 
+ \textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse}{Synapse}}\textquotesingle{} \mbox{\hyperlink{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse_a93012de6476558437aac932fdafe7630}{deserialize\+\_\+from\+\_\+instance\+\_\+proto}} (bittensor.\+proto.\+Synapse isntance\+\_\+proto)
+\item 
+ \textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse}{Synapse}}\textquotesingle{} \mbox{\hyperlink{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse_aeb38ec002657d66a4e8e947b95e4a129}{deserialize\+\_\+from\+\_\+wire\+\_\+proto}} (bittensor.\+proto.\+Synapse wire\+\_\+proto)
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__synapse_1_1text__causallm__impl_1_1_text_causal_l_m_ad84357b67f45a30d2bb8ed7052098d89}\label{classbittensor_1_1__synapse_1_1text__causallm__impl_1_1_text_causal_l_m_ad84357b67f45a30d2bb8ed7052098d89}} 
+{\bfseries topk}
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__synapse_1_1text__causallm__impl_1_1_text_causal_l_m_a95afbef81dd81c708626640bcbe59f98}\label{classbittensor_1_1__synapse_1_1text__causallm__impl_1_1_text_causal_l_m_a95afbef81dd81c708626640bcbe59f98}} 
+{\bfseries synapse\+\_\+type}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Attributes inherited from \mbox{\hyperlink{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse}{bittensor.\+\_\+synapse.\+synapse\+\_\+impl.\+Synapse}}}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse_ad3dd23864f4620b0622bea9777aa63b6}\label{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse_ad3dd23864f4620b0622bea9777aa63b6}} 
+{\bfseries forward\+\_\+request\+\_\+serializer\+\_\+type}
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse_af89940deb45bd9d18a7e1c15090a8466}\label{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse_af89940deb45bd9d18a7e1c15090a8466}} 
+{\bfseries forward\+\_\+response\+\_\+serializer\+\_\+type}
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse_a6ac9ff8fb2e6cf1d01b1d6fba4bead9e}\label{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse_a6ac9ff8fb2e6cf1d01b1d6fba4bead9e}} 
+{\bfseries backward\+\_\+request\+\_\+serializer\+\_\+type}
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse_a7a08c81b8b0a17e7913c52d17735aed5}\label{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse_a7a08c81b8b0a17e7913c52d17735aed5}} 
+{\bfseries backward\+\_\+response\+\_\+serializer\+\_\+type}
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__synapse_1_1text__causallm__impl_1_1_text_causal_l_m_ad948ccd27e2bb273b413ab372466a492}\label{classbittensor_1_1__synapse_1_1text__causallm__impl_1_1_text_causal_l_m_ad948ccd27e2bb273b413ab372466a492}} 
+bittensor {\bfseries synapse\+\_\+type} = bittensor.\+proto.\+Synapse.\+Synapse\+Type.\+TEXT\+\_\+\+CAUSAL\+\_\+\+LM
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Static Public Attributes inherited from \mbox{\hyperlink{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse}{bittensor.\+\_\+synapse.\+synapse\+\_\+impl.\+Synapse}}}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse_af413630b0f381839eebcbf2c8431d181}\label{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse_af413630b0f381839eebcbf2c8431d181}} 
+bittensor {\bfseries synapse\+\_\+type} = None
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\begin{DoxyVerb} TextCausalLM Synapse type for next token prediction from languge models.
+\end{DoxyVerb}
+ 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classbittensor_1_1__synapse_1_1text__causallm__impl_1_1_text_causal_l_m_af50c0ca9c674e3e4b1be481300766a62}\label{classbittensor_1_1__synapse_1_1text__causallm__impl_1_1_text_causal_l_m_af50c0ca9c674e3e4b1be481300766a62}} 
+\index{bittensor.\_synapse.text\_causallm\_impl.TextCausalLM@{bittensor.\_synapse.text\_causallm\_impl.TextCausalLM}!\_\_init\_\_@{\_\_init\_\_}}
+\index{\_\_init\_\_@{\_\_init\_\_}!bittensor.\_synapse.text\_causallm\_impl.TextCausalLM@{bittensor.\_synapse.text\_causallm\_impl.TextCausalLM}}
+\doxysubsubsection{\texorpdfstring{\_\_init\_\_()}{\_\_init\_\_()}}
+{\footnotesize\ttfamily def bittensor.\+\_\+synapse.\+text\+\_\+causallm\+\_\+impl.\+Text\+Causal\+LM.\+\_\+\+\_\+init\+\_\+\+\_\+ (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{int }]{topk = {\ttfamily 512},  }\item[{\textquotesingle{}bittensor.\+proto.\+Serializer.\+Type\textquotesingle{} }]{forward\+\_\+request\+\_\+serializer\+\_\+type = {\ttfamily bittensor.proto.Serializer.MSGPACK},  }\item[{\textquotesingle{}bittensor.\+proto.\+Serializer.\+Type\textquotesingle{} }]{forward\+\_\+response\+\_\+serializer\+\_\+type = {\ttfamily bittensor.proto.Serializer.MSGPACK},  }\item[{\textquotesingle{}bittensor.\+proto.\+Serializer.\+Type\textquotesingle{} }]{backward\+\_\+request\+\_\+serializer\+\_\+type = {\ttfamily bittensor.proto.Serializer.MSGPACK},  }\item[{\textquotesingle{}bittensor.\+proto.\+Serializer.\+Type\textquotesingle{} }]{backward\+\_\+response\+\_\+serializer\+\_\+type = {\ttfamily bittensor.proto.Serializer.MSGPACK} }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb} TextCausalLM Synapse initializer.
+Args:
+    Topk (:obj:int, :default: 512):
+        The top k number of logits to compress and send over the wire 
+    forward_request_serializer_type (:obj:`bittensor.proto.Serializer.Type` of shape :obj:`(1)`, `optional`, :default: `bittensor.proto.Serializer.MSGPACK`):
+        Serializer used to pack torch tensors on forward request.
+    forward_response_serializer_type (:obj:`bittensor.proto.Serializer.Type` of shape :obj:`(1)`, `optional`, :default: `bittensor.proto.Serializer.MSGPACK`):
+        Serializer used to pack torch tensors on forward response.
+    backward_request_serializer_type (:obj:`bittensor.proto.Serializer.Type` of shape :obj:`(1)`, `optional`, :default: `bittensor.proto.Serializer.MSGPACK`):
+        Serializer used to pack torch tensors on forward request.
+    backward_response_serializer_type (:obj:`bittensor.proto.Serializer.Type` of shape :obj:`(1)`, `optional`, :default: `bittensor.proto.Serializer.MSGPACK`):
+        Serialzer used to pack torch tensors on backward response.
+Returns:
+    TextLastHiddenState (:obj:`TextLastHiddenState`, `required`):
+        TextLastHiddenState instance adapter class.
+\end{DoxyVerb}
+ 
+
+Reimplemented from \mbox{\hyperlink{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse_a43f83b557416a8a3936d5ddc175b5e6f}{bittensor.\+\_\+synapse.\+synapse\+\_\+impl.\+Synapse}}.
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classbittensor_1_1__synapse_1_1text__causallm__impl_1_1_text_causal_l_m_a8fe6e3ffc7964ee28e84b21eb11eaa32}\label{classbittensor_1_1__synapse_1_1text__causallm__impl_1_1_text_causal_l_m_a8fe6e3ffc7964ee28e84b21eb11eaa32}} 
+\index{bittensor.\_synapse.text\_causallm\_impl.TextCausalLM@{bittensor.\_synapse.text\_causallm\_impl.TextCausalLM}!\_\_repr\_\_@{\_\_repr\_\_}}
+\index{\_\_repr\_\_@{\_\_repr\_\_}!bittensor.\_synapse.text\_causallm\_impl.TextCausalLM@{bittensor.\_synapse.text\_causallm\_impl.TextCausalLM}}
+\doxysubsubsection{\texorpdfstring{\_\_repr\_\_()}{\_\_repr\_\_()}}
+{\footnotesize\ttfamily  str bittensor.\+\_\+synapse.\+text\+\_\+causallm\+\_\+impl.\+Text\+Causal\+LM.\+\_\+\+\_\+repr\+\_\+\+\_\+ (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+
+
+Reimplemented from \mbox{\hyperlink{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse}{bittensor.\+\_\+synapse.\+synapse\+\_\+impl.\+Synapse}}.
+
+\mbox{\Hypertarget{classbittensor_1_1__synapse_1_1text__causallm__impl_1_1_text_causal_l_m_ae25e8a3b0a2ce16819f68e7e79d5b16a}\label{classbittensor_1_1__synapse_1_1text__causallm__impl_1_1_text_causal_l_m_ae25e8a3b0a2ce16819f68e7e79d5b16a}} 
+\index{bittensor.\_synapse.text\_causallm\_impl.TextCausalLM@{bittensor.\_synapse.text\_causallm\_impl.TextCausalLM}!\_\_str\_\_@{\_\_str\_\_}}
+\index{\_\_str\_\_@{\_\_str\_\_}!bittensor.\_synapse.text\_causallm\_impl.TextCausalLM@{bittensor.\_synapse.text\_causallm\_impl.TextCausalLM}}
+\doxysubsubsection{\texorpdfstring{\_\_str\_\_()}{\_\_str\_\_()}}
+{\footnotesize\ttfamily  str bittensor.\+\_\+synapse.\+text\+\_\+causallm\+\_\+impl.\+Text\+Causal\+LM.\+\_\+\+\_\+str\+\_\+\+\_\+ (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+
+
+Reimplemented from \mbox{\hyperlink{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse}{bittensor.\+\_\+synapse.\+synapse\+\_\+impl.\+Synapse}}.
+
+\mbox{\Hypertarget{classbittensor_1_1__synapse_1_1text__causallm__impl_1_1_text_causal_l_m_a2e7724b38593acf0556d5e4788efe805}\label{classbittensor_1_1__synapse_1_1text__causallm__impl_1_1_text_causal_l_m_a2e7724b38593acf0556d5e4788efe805}} 
+\index{bittensor.\_synapse.text\_causallm\_impl.TextCausalLM@{bittensor.\_synapse.text\_causallm\_impl.TextCausalLM}!check\_backward\_request\_gradient@{check\_backward\_request\_gradient}}
+\index{check\_backward\_request\_gradient@{check\_backward\_request\_gradient}!bittensor.\_synapse.text\_causallm\_impl.TextCausalLM@{bittensor.\_synapse.text\_causallm\_impl.TextCausalLM}}
+\doxysubsubsection{\texorpdfstring{check\_backward\_request\_gradient()}{check\_backward\_request\_gradient()}}
+{\footnotesize\ttfamily def bittensor.\+\_\+synapse.\+text\+\_\+causallm\+\_\+impl.\+Text\+Causal\+LM.\+check\+\_\+backward\+\_\+request\+\_\+gradient (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{forward\+\_\+request\+\_\+tensor,  }\item[{}]{backward\+\_\+request\+\_\+gradient }\end{DoxyParamCaption})}
+
+
+
+Reimplemented from \mbox{\hyperlink{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse}{bittensor.\+\_\+synapse.\+synapse\+\_\+impl.\+Synapse}}.
+
+\mbox{\Hypertarget{classbittensor_1_1__synapse_1_1text__causallm__impl_1_1_text_causal_l_m_a5dc432638585ce3335a2d77d5f9815f2}\label{classbittensor_1_1__synapse_1_1text__causallm__impl_1_1_text_causal_l_m_a5dc432638585ce3335a2d77d5f9815f2}} 
+\index{bittensor.\_synapse.text\_causallm\_impl.TextCausalLM@{bittensor.\_synapse.text\_causallm\_impl.TextCausalLM}!check\_forward\_request\_tensor@{check\_forward\_request\_tensor}}
+\index{check\_forward\_request\_tensor@{check\_forward\_request\_tensor}!bittensor.\_synapse.text\_causallm\_impl.TextCausalLM@{bittensor.\_synapse.text\_causallm\_impl.TextCausalLM}}
+\doxysubsubsection{\texorpdfstring{check\_forward\_request\_tensor()}{check\_forward\_request\_tensor()}}
+{\footnotesize\ttfamily def bittensor.\+\_\+synapse.\+text\+\_\+causallm\+\_\+impl.\+Text\+Causal\+LM.\+check\+\_\+forward\+\_\+request\+\_\+tensor (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{forward\+\_\+request\+\_\+tensor }\end{DoxyParamCaption})}
+
+
+
+Reimplemented from \mbox{\hyperlink{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse}{bittensor.\+\_\+synapse.\+synapse\+\_\+impl.\+Synapse}}.
+
+\mbox{\Hypertarget{classbittensor_1_1__synapse_1_1text__causallm__impl_1_1_text_causal_l_m_aa8258678931f1079df46b25effc7c6ae}\label{classbittensor_1_1__synapse_1_1text__causallm__impl_1_1_text_causal_l_m_aa8258678931f1079df46b25effc7c6ae}} 
+\index{bittensor.\_synapse.text\_causallm\_impl.TextCausalLM@{bittensor.\_synapse.text\_causallm\_impl.TextCausalLM}!check\_forward\_response\_tensor@{check\_forward\_response\_tensor}}
+\index{check\_forward\_response\_tensor@{check\_forward\_response\_tensor}!bittensor.\_synapse.text\_causallm\_impl.TextCausalLM@{bittensor.\_synapse.text\_causallm\_impl.TextCausalLM}}
+\doxysubsubsection{\texorpdfstring{check\_forward\_response\_tensor()}{check\_forward\_response\_tensor()}}
+{\footnotesize\ttfamily def bittensor.\+\_\+synapse.\+text\+\_\+causallm\+\_\+impl.\+Text\+Causal\+LM.\+check\+\_\+forward\+\_\+response\+\_\+tensor (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{forward\+\_\+request\+\_\+tensor,  }\item[{}]{forward\+\_\+response\+\_\+tensor }\end{DoxyParamCaption})}
+
+
+
+Reimplemented from \mbox{\hyperlink{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse}{bittensor.\+\_\+synapse.\+synapse\+\_\+impl.\+Synapse}}.
+
+\mbox{\Hypertarget{classbittensor_1_1__synapse_1_1text__causallm__impl_1_1_text_causal_l_m_a5e5b9fed3bc610895792ebcc94589562}\label{classbittensor_1_1__synapse_1_1text__causallm__impl_1_1_text_causal_l_m_a5e5b9fed3bc610895792ebcc94589562}} 
+\index{bittensor.\_synapse.text\_causallm\_impl.TextCausalLM@{bittensor.\_synapse.text\_causallm\_impl.TextCausalLM}!decode\_backward\_request\_gradient@{decode\_backward\_request\_gradient}}
+\index{decode\_backward\_request\_gradient@{decode\_backward\_request\_gradient}!bittensor.\_synapse.text\_causallm\_impl.TextCausalLM@{bittensor.\_synapse.text\_causallm\_impl.TextCausalLM}}
+\doxysubsubsection{\texorpdfstring{decode\_backward\_request\_gradient()}{decode\_backward\_request\_gradient()}}
+{\footnotesize\ttfamily  torch.\+Tensor bittensor.\+\_\+synapse.\+text\+\_\+causallm\+\_\+impl.\+Text\+Causal\+LM.\+decode\+\_\+backward\+\_\+request\+\_\+gradient (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{torch.\+Tensor }]{backward\+\_\+response\+\_\+gradient }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb} Return full gradients by decoding topk-encoding input. \end{DoxyVerb}
+ 
+
+Reimplemented from \mbox{\hyperlink{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse}{bittensor.\+\_\+synapse.\+synapse\+\_\+impl.\+Synapse}}.
+
+\mbox{\Hypertarget{classbittensor_1_1__synapse_1_1text__causallm__impl_1_1_text_causal_l_m_aead3f28e1678712ca9b6e55228d75953}\label{classbittensor_1_1__synapse_1_1text__causallm__impl_1_1_text_causal_l_m_aead3f28e1678712ca9b6e55228d75953}} 
+\index{bittensor.\_synapse.text\_causallm\_impl.TextCausalLM@{bittensor.\_synapse.text\_causallm\_impl.TextCausalLM}!decode\_backward\_response\_gradient@{decode\_backward\_response\_gradient}}
+\index{decode\_backward\_response\_gradient@{decode\_backward\_response\_gradient}!bittensor.\_synapse.text\_causallm\_impl.TextCausalLM@{bittensor.\_synapse.text\_causallm\_impl.TextCausalLM}}
+\doxysubsubsection{\texorpdfstring{decode\_backward\_response\_gradient()}{decode\_backward\_response\_gradient()}}
+{\footnotesize\ttfamily  torch.\+Tensor bittensor.\+\_\+synapse.\+text\+\_\+causallm\+\_\+impl.\+Text\+Causal\+LM.\+decode\+\_\+backward\+\_\+response\+\_\+gradient (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{torch.\+Tensor }]{backward\+\_\+request\+\_\+gradient }\end{DoxyParamCaption})}
+
+
+
+Reimplemented from \mbox{\hyperlink{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse}{bittensor.\+\_\+synapse.\+synapse\+\_\+impl.\+Synapse}}.
+
+\mbox{\Hypertarget{classbittensor_1_1__synapse_1_1text__causallm__impl_1_1_text_causal_l_m_a7ed9c65e50fbc45b89d9238a0d211a5d}\label{classbittensor_1_1__synapse_1_1text__causallm__impl_1_1_text_causal_l_m_a7ed9c65e50fbc45b89d9238a0d211a5d}} 
+\index{bittensor.\_synapse.text\_causallm\_impl.TextCausalLM@{bittensor.\_synapse.text\_causallm\_impl.TextCausalLM}!decode\_forward\_request\_tensor@{decode\_forward\_request\_tensor}}
+\index{decode\_forward\_request\_tensor@{decode\_forward\_request\_tensor}!bittensor.\_synapse.text\_causallm\_impl.TextCausalLM@{bittensor.\_synapse.text\_causallm\_impl.TextCausalLM}}
+\doxysubsubsection{\texorpdfstring{decode\_forward\_request\_tensor()}{decode\_forward\_request\_tensor()}}
+{\footnotesize\ttfamily  torch.\+Tensor bittensor.\+\_\+synapse.\+text\+\_\+causallm\+\_\+impl.\+Text\+Causal\+LM.\+decode\+\_\+forward\+\_\+request\+\_\+tensor (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{torch.\+Tensor }]{forward\+\_\+request\+\_\+tensor }\end{DoxyParamCaption})}
+
+
+
+Reimplemented from \mbox{\hyperlink{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse}{bittensor.\+\_\+synapse.\+synapse\+\_\+impl.\+Synapse}}.
+
+\mbox{\Hypertarget{classbittensor_1_1__synapse_1_1text__causallm__impl_1_1_text_causal_l_m_a9760176f469882d933dac28509894c2a}\label{classbittensor_1_1__synapse_1_1text__causallm__impl_1_1_text_causal_l_m_a9760176f469882d933dac28509894c2a}} 
+\index{bittensor.\_synapse.text\_causallm\_impl.TextCausalLM@{bittensor.\_synapse.text\_causallm\_impl.TextCausalLM}!decode\_forward\_response\_tensor@{decode\_forward\_response\_tensor}}
+\index{decode\_forward\_response\_tensor@{decode\_forward\_response\_tensor}!bittensor.\_synapse.text\_causallm\_impl.TextCausalLM@{bittensor.\_synapse.text\_causallm\_impl.TextCausalLM}}
+\doxysubsubsection{\texorpdfstring{decode\_forward\_response\_tensor()}{decode\_forward\_response\_tensor()}}
+{\footnotesize\ttfamily  torch.\+Tensor bittensor.\+\_\+synapse.\+text\+\_\+causallm\+\_\+impl.\+Text\+Causal\+LM.\+decode\+\_\+forward\+\_\+response\+\_\+tensor (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{torch.\+Tensor }]{forward\+\_\+response\+\_\+tensor }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb} Returns full logits by decoding topk-encoding input. \end{DoxyVerb}
+ 
+
+Reimplemented from \mbox{\hyperlink{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse}{bittensor.\+\_\+synapse.\+synapse\+\_\+impl.\+Synapse}}.
+
+\mbox{\Hypertarget{classbittensor_1_1__synapse_1_1text__causallm__impl_1_1_text_causal_l_m_ac64a9ee1f8031b6728b501c8a671dc19}\label{classbittensor_1_1__synapse_1_1text__causallm__impl_1_1_text_causal_l_m_ac64a9ee1f8031b6728b501c8a671dc19}} 
+\index{bittensor.\_synapse.text\_causallm\_impl.TextCausalLM@{bittensor.\_synapse.text\_causallm\_impl.TextCausalLM}!deserialize\_from\_instance\_proto@{deserialize\_from\_instance\_proto}}
+\index{deserialize\_from\_instance\_proto@{deserialize\_from\_instance\_proto}!bittensor.\_synapse.text\_causallm\_impl.TextCausalLM@{bittensor.\_synapse.text\_causallm\_impl.TextCausalLM}}
+\doxysubsubsection{\texorpdfstring{deserialize\_from\_instance\_proto()}{deserialize\_from\_instance\_proto()}}
+{\footnotesize\ttfamily  \textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__synapse_1_1text__causallm__impl_1_1_text_causal_l_m}{Text\+Causal\+LM}}\textquotesingle{} bittensor.\+\_\+synapse.\+text\+\_\+causallm\+\_\+impl.\+Text\+Causal\+LM.\+deserialize\+\_\+from\+\_\+instance\+\_\+proto (\begin{DoxyParamCaption}\item[{bittensor.\+proto.\+Synapse }]{isntance\+\_\+proto }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+\begin{DoxyVerb} Deserialzied the instance proto to an instance class.
+    Args:
+        isntance_proto (:obj:`bittensor.proto.Synapse` of shape :obj:`(1)`, `required`):
+            Synapse instance proto to be deserialized.
+    Returns:
+        synapse_instance_clasee (:obj:`torch.Tensor`, `required`):
+            Deserialized instance class.
+\end{DoxyVerb}
+ 
+
+Reimplemented from \mbox{\hyperlink{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse_a93012de6476558437aac932fdafe7630}{bittensor.\+\_\+synapse.\+synapse\+\_\+impl.\+Synapse}}.
+
+\mbox{\Hypertarget{classbittensor_1_1__synapse_1_1text__causallm__impl_1_1_text_causal_l_m_a0ae4722c9d175c1c3bf6f5b0b2e7908d}\label{classbittensor_1_1__synapse_1_1text__causallm__impl_1_1_text_causal_l_m_a0ae4722c9d175c1c3bf6f5b0b2e7908d}} 
+\index{bittensor.\_synapse.text\_causallm\_impl.TextCausalLM@{bittensor.\_synapse.text\_causallm\_impl.TextCausalLM}!deserialize\_from\_wire\_proto@{deserialize\_from\_wire\_proto}}
+\index{deserialize\_from\_wire\_proto@{deserialize\_from\_wire\_proto}!bittensor.\_synapse.text\_causallm\_impl.TextCausalLM@{bittensor.\_synapse.text\_causallm\_impl.TextCausalLM}}
+\doxysubsubsection{\texorpdfstring{deserialize\_from\_wire\_proto()}{deserialize\_from\_wire\_proto()}}
+{\footnotesize\ttfamily  \textquotesingle{}\mbox{\hyperlink{classbittensor_1_1__synapse_1_1text__causallm__impl_1_1_text_causal_l_m}{Text\+Causal\+LM}}\textquotesingle{} bittensor.\+\_\+synapse.\+text\+\_\+causallm\+\_\+impl.\+Text\+Causal\+LM.\+deserialize\+\_\+from\+\_\+wire\+\_\+proto (\begin{DoxyParamCaption}\item[{bittensor.\+proto.\+Synapse }]{wire\+\_\+proto }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+\begin{DoxyVerb} Deserialzied the wire proto to an instance class.
+    Args:
+        wire_proto (:obj:`bittensor.proto.Synapse` of shape :obj:`(1)`, `required`):
+            Synapse wire proto to be deserialized.
+    Returns:
+        synapse_instance_clasee (:obj:`torch.Tensor`, `required`):
+            Deserialized instance class.
+\end{DoxyVerb}
+ 
+
+Reimplemented from \mbox{\hyperlink{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse_aeb38ec002657d66a4e8e947b95e4a129}{bittensor.\+\_\+synapse.\+synapse\+\_\+impl.\+Synapse}}.
+
+\mbox{\Hypertarget{classbittensor_1_1__synapse_1_1text__causallm__impl_1_1_text_causal_l_m_ab1cb80f4457880f4c0f5bfff3a793718}\label{classbittensor_1_1__synapse_1_1text__causallm__impl_1_1_text_causal_l_m_ab1cb80f4457880f4c0f5bfff3a793718}} 
+\index{bittensor.\_synapse.text\_causallm\_impl.TextCausalLM@{bittensor.\_synapse.text\_causallm\_impl.TextCausalLM}!encode\_backward\_request\_gradient@{encode\_backward\_request\_gradient}}
+\index{encode\_backward\_request\_gradient@{encode\_backward\_request\_gradient}!bittensor.\_synapse.text\_causallm\_impl.TextCausalLM@{bittensor.\_synapse.text\_causallm\_impl.TextCausalLM}}
+\doxysubsubsection{\texorpdfstring{encode\_backward\_request\_gradient()}{encode\_backward\_request\_gradient()}}
+{\footnotesize\ttfamily  torch.\+Tensor bittensor.\+\_\+synapse.\+text\+\_\+causallm\+\_\+impl.\+Text\+Causal\+LM.\+encode\+\_\+backward\+\_\+request\+\_\+gradient (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{torch.\+Tensor }]{backward\+\_\+response\+\_\+gradient }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb} Return topk most negative token grads given full logit gradients. \end{DoxyVerb}
+ 
+
+Reimplemented from \mbox{\hyperlink{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse}{bittensor.\+\_\+synapse.\+synapse\+\_\+impl.\+Synapse}}.
+
+\mbox{\Hypertarget{classbittensor_1_1__synapse_1_1text__causallm__impl_1_1_text_causal_l_m_abf9e7aa2b3f542094968a32bb015151b}\label{classbittensor_1_1__synapse_1_1text__causallm__impl_1_1_text_causal_l_m_abf9e7aa2b3f542094968a32bb015151b}} 
+\index{bittensor.\_synapse.text\_causallm\_impl.TextCausalLM@{bittensor.\_synapse.text\_causallm\_impl.TextCausalLM}!encode\_backward\_response\_gradient@{encode\_backward\_response\_gradient}}
+\index{encode\_backward\_response\_gradient@{encode\_backward\_response\_gradient}!bittensor.\_synapse.text\_causallm\_impl.TextCausalLM@{bittensor.\_synapse.text\_causallm\_impl.TextCausalLM}}
+\doxysubsubsection{\texorpdfstring{encode\_backward\_response\_gradient()}{encode\_backward\_response\_gradient()}}
+{\footnotesize\ttfamily  torch.\+Tensor bittensor.\+\_\+synapse.\+text\+\_\+causallm\+\_\+impl.\+Text\+Causal\+LM.\+encode\+\_\+backward\+\_\+response\+\_\+gradient (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{torch.\+Tensor }]{backward\+\_\+request\+\_\+gradient }\end{DoxyParamCaption})}
+
+
+
+Reimplemented from \mbox{\hyperlink{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse}{bittensor.\+\_\+synapse.\+synapse\+\_\+impl.\+Synapse}}.
+
+\mbox{\Hypertarget{classbittensor_1_1__synapse_1_1text__causallm__impl_1_1_text_causal_l_m_a59f0ee75b8e34af8db3c56e9dbd51239}\label{classbittensor_1_1__synapse_1_1text__causallm__impl_1_1_text_causal_l_m_a59f0ee75b8e34af8db3c56e9dbd51239}} 
+\index{bittensor.\_synapse.text\_causallm\_impl.TextCausalLM@{bittensor.\_synapse.text\_causallm\_impl.TextCausalLM}!encode\_forward\_request\_tensor@{encode\_forward\_request\_tensor}}
+\index{encode\_forward\_request\_tensor@{encode\_forward\_request\_tensor}!bittensor.\_synapse.text\_causallm\_impl.TextCausalLM@{bittensor.\_synapse.text\_causallm\_impl.TextCausalLM}}
+\doxysubsubsection{\texorpdfstring{encode\_forward\_request\_tensor()}{encode\_forward\_request\_tensor()}}
+{\footnotesize\ttfamily  torch.\+Tensor bittensor.\+\_\+synapse.\+text\+\_\+causallm\+\_\+impl.\+Text\+Causal\+LM.\+encode\+\_\+forward\+\_\+request\+\_\+tensor (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{torch.\+Tensor }]{forward\+\_\+request\+\_\+tensor }\end{DoxyParamCaption})}
+
+
+
+Reimplemented from \mbox{\hyperlink{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse}{bittensor.\+\_\+synapse.\+synapse\+\_\+impl.\+Synapse}}.
+
+\mbox{\Hypertarget{classbittensor_1_1__synapse_1_1text__causallm__impl_1_1_text_causal_l_m_a90e11dd8f72c4bbd0aa8a1fd71354ec8}\label{classbittensor_1_1__synapse_1_1text__causallm__impl_1_1_text_causal_l_m_a90e11dd8f72c4bbd0aa8a1fd71354ec8}} 
+\index{bittensor.\_synapse.text\_causallm\_impl.TextCausalLM@{bittensor.\_synapse.text\_causallm\_impl.TextCausalLM}!encode\_forward\_response\_tensor@{encode\_forward\_response\_tensor}}
+\index{encode\_forward\_response\_tensor@{encode\_forward\_response\_tensor}!bittensor.\_synapse.text\_causallm\_impl.TextCausalLM@{bittensor.\_synapse.text\_causallm\_impl.TextCausalLM}}
+\doxysubsubsection{\texorpdfstring{encode\_forward\_response\_tensor()}{encode\_forward\_response\_tensor()}}
+{\footnotesize\ttfamily  torch.\+Tensor bittensor.\+\_\+synapse.\+text\+\_\+causallm\+\_\+impl.\+Text\+Causal\+LM.\+encode\+\_\+forward\+\_\+response\+\_\+tensor (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{torch.\+Tensor }]{forward\+\_\+response\+\_\+tensor }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb} Returns topk tokens/probabilities given unnormalized logits as input. \end{DoxyVerb}
+ 
+
+Reimplemented from \mbox{\hyperlink{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse}{bittensor.\+\_\+synapse.\+synapse\+\_\+impl.\+Synapse}}.
+
+\mbox{\Hypertarget{classbittensor_1_1__synapse_1_1text__causallm__impl_1_1_text_causal_l_m_a01f706030bcf2ddb0b6d10adeca9893c}\label{classbittensor_1_1__synapse_1_1text__causallm__impl_1_1_text_causal_l_m_a01f706030bcf2ddb0b6d10adeca9893c}} 
+\index{bittensor.\_synapse.text\_causallm\_impl.TextCausalLM@{bittensor.\_synapse.text\_causallm\_impl.TextCausalLM}!nill\_backward\_response\_tensor@{nill\_backward\_response\_tensor}}
+\index{nill\_backward\_response\_tensor@{nill\_backward\_response\_tensor}!bittensor.\_synapse.text\_causallm\_impl.TextCausalLM@{bittensor.\_synapse.text\_causallm\_impl.TextCausalLM}}
+\doxysubsubsection{\texorpdfstring{nill\_backward\_response\_tensor()}{nill\_backward\_response\_tensor()}}
+{\footnotesize\ttfamily  torch.\+Tensor bittensor.\+\_\+synapse.\+text\+\_\+causallm\+\_\+impl.\+Text\+Causal\+LM.\+nill\+\_\+backward\+\_\+response\+\_\+tensor (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{torch.\+Tensor }]{forward\+\_\+request\+\_\+tensor }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb} Returns a zeroed tensor used as response to a dendrite backward call when the call fails.
+    Args:
+        forward_request_tensor  (:obj:`torch.Tensor`, `required`):
+            Tensor being sent as forward request.
+    Returns:
+        nill_backward_response_tensor  (:obj:`torch.Tensor`, `required`):
+            Zeroed backward response gradient.
+\end{DoxyVerb}
+ 
+
+Reimplemented from \mbox{\hyperlink{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse_a28f55eb21a6e304a690594db9edc4922}{bittensor.\+\_\+synapse.\+synapse\+\_\+impl.\+Synapse}}.
+
+\mbox{\Hypertarget{classbittensor_1_1__synapse_1_1text__causallm__impl_1_1_text_causal_l_m_a23e462ed39d7abcd9457425903f82afd}\label{classbittensor_1_1__synapse_1_1text__causallm__impl_1_1_text_causal_l_m_a23e462ed39d7abcd9457425903f82afd}} 
+\index{bittensor.\_synapse.text\_causallm\_impl.TextCausalLM@{bittensor.\_synapse.text\_causallm\_impl.TextCausalLM}!nill\_forward\_response\_tensor@{nill\_forward\_response\_tensor}}
+\index{nill\_forward\_response\_tensor@{nill\_forward\_response\_tensor}!bittensor.\_synapse.text\_causallm\_impl.TextCausalLM@{bittensor.\_synapse.text\_causallm\_impl.TextCausalLM}}
+\doxysubsubsection{\texorpdfstring{nill\_forward\_response\_tensor()}{nill\_forward\_response\_tensor()}}
+{\footnotesize\ttfamily  torch.\+Tensor bittensor.\+\_\+synapse.\+text\+\_\+causallm\+\_\+impl.\+Text\+Causal\+LM.\+nill\+\_\+forward\+\_\+response\+\_\+tensor (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{torch.\+Tensor }]{forward\+\_\+request\+\_\+tensor }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb} Returns a zeroed tensor used as response to a dendrite forward call when the call fails.
+    Args:
+        forward_request_tensor (:obj:`torch.Tensor`, `required`):
+            Tensor being sent as forward request.
+    Returns:
+        nill_forward_response_tensor (:obj:`torch.Tensor`, `required`):
+            Zeroed forward response tensor.
+\end{DoxyVerb}
+ 
+
+Reimplemented from \mbox{\hyperlink{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse_a29704899ae87600748e464fa7823a04e}{bittensor.\+\_\+synapse.\+synapse\+\_\+impl.\+Synapse}}.
+
+\mbox{\Hypertarget{classbittensor_1_1__synapse_1_1text__causallm__impl_1_1_text_causal_l_m_ac6bf14316d09415f75eb0a419635a8cc}\label{classbittensor_1_1__synapse_1_1text__causallm__impl_1_1_text_causal_l_m_ac6bf14316d09415f75eb0a419635a8cc}} 
+\index{bittensor.\_synapse.text\_causallm\_impl.TextCausalLM@{bittensor.\_synapse.text\_causallm\_impl.TextCausalLM}!serialize\_to\_instance\_proto@{serialize\_to\_instance\_proto}}
+\index{serialize\_to\_instance\_proto@{serialize\_to\_instance\_proto}!bittensor.\_synapse.text\_causallm\_impl.TextCausalLM@{bittensor.\_synapse.text\_causallm\_impl.TextCausalLM}}
+\doxysubsubsection{\texorpdfstring{serialize\_to\_instance\_proto()}{serialize\_to\_instance\_proto()}}
+{\footnotesize\ttfamily  \textquotesingle{}bittensor.\+proto.\+Synapse.\+Text\+Causal\+LM\textquotesingle{} bittensor.\+\_\+synapse.\+text\+\_\+causallm\+\_\+impl.\+Text\+Causal\+LM.\+serialize\+\_\+to\+\_\+instance\+\_\+proto (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb} Serializes the class instance to a Synapse instance proto.
+    Returns:
+        serialized_synapse_as_instance_proto (:obj:`torch.Tensor`, `required`):
+            Instance class serialized to a instance proto.
+\end{DoxyVerb}
+ 
+
+Reimplemented from \mbox{\hyperlink{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse_a9e2c93dbd788e9fb778997874f6429fb}{bittensor.\+\_\+synapse.\+synapse\+\_\+impl.\+Synapse}}.
+
+\mbox{\Hypertarget{classbittensor_1_1__synapse_1_1text__causallm__impl_1_1_text_causal_l_m_ad9952f1aff2d650102cd64d9fc45d216}\label{classbittensor_1_1__synapse_1_1text__causallm__impl_1_1_text_causal_l_m_ad9952f1aff2d650102cd64d9fc45d216}} 
+\index{bittensor.\_synapse.text\_causallm\_impl.TextCausalLM@{bittensor.\_synapse.text\_causallm\_impl.TextCausalLM}!serialize\_to\_wire\_proto@{serialize\_to\_wire\_proto}}
+\index{serialize\_to\_wire\_proto@{serialize\_to\_wire\_proto}!bittensor.\_synapse.text\_causallm\_impl.TextCausalLM@{bittensor.\_synapse.text\_causallm\_impl.TextCausalLM}}
+\doxysubsubsection{\texorpdfstring{serialize\_to\_wire\_proto()}{serialize\_to\_wire\_proto()}}
+{\footnotesize\ttfamily  bittensor.\+proto.\+Synapse bittensor.\+\_\+synapse.\+text\+\_\+causallm\+\_\+impl.\+Text\+Causal\+LM.\+serialize\+\_\+to\+\_\+wire\+\_\+proto (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{\textquotesingle{}bittensor.\+proto.\+Return\+Code\textquotesingle{} }]{kwargs = {\ttfamily 0},  }\item[{str }]{message = {\ttfamily \textquotesingle{}\textquotesingle{}} }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb} Serializes the class instance to a Synapse wire proto.
+    Returns:
+        serialized_synapse_as_wire_proto (:obj:`torch.Tensor`, `required`):
+            Instance class serialized to a wire proto.
+\end{DoxyVerb}
+ 
+
+Reimplemented from \mbox{\hyperlink{classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse_a9fd871f88280feb461379b7d957ef368}{bittensor.\+\_\+synapse.\+synapse\+\_\+impl.\+Synapse}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+/\+Users/macthrasher/bittensor/bittensor/\+\_\+synapse/text\+\_\+causallm\+\_\+impl.\+py\end{DoxyCompactItemize}
