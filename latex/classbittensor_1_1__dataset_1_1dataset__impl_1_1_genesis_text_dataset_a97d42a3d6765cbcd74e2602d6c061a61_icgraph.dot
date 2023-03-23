@@ -1,0 +1,21 @@
+digraph "bittensor._dataset.dataset_impl.GenesisTextDataset.get_hashes_from_dataset"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [label="bittensor._dataset.dataset\l_impl.GenesisTextDataset.get\l_hashes_from_dataset",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="steelblue1",style="solid"];
+  Node2 [label="bittensor._dataset.dataset\l_impl.GenesisTextDataset.construct\l_text_corpus",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classbittensor_1_1__dataset_1_1dataset__impl_1_1_genesis_text_dataset.html#aae2d5b7ef612659ddabf117cf3c3d6ec",tooltip=" "];
+  Node2 -> Node3 [dir="back",color="steelblue1",style="solid"];
+  Node3 [label="bittensor._dataset.dataset\l_impl.GenesisTextDataset.reserve\l_multiple_data",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classbittensor_1_1__dataset_1_1dataset__impl_1_1_genesis_text_dataset.html#ad53bbb77e1b2fd0eaf6f0053050dbba5",tooltip=" "];
+  Node3 -> Node4 [dir="back",color="steelblue1",style="solid"];
+  Node4 [label="bittensor._dataset.dataset\l_impl.GenesisTextDataset.dataloader",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classbittensor_1_1__dataset_1_1dataset__impl_1_1_genesis_text_dataset.html#a1c63db6af8af3d632f30583123f6b48b",tooltip=" "];
+  Node4 -> Node5 [dir="back",color="steelblue1",style="solid"];
+  Node5 [label="bittensor._dataset.dataset\l_mock.MockGenesisTextDataset.\l__next__",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classbittensor_1_1__dataset_1_1dataset__mock_1_1_mock_genesis_text_dataset.html#ade55894c4d45f78dcf75c44448c85e50",tooltip=" "];
+  Node4 -> Node6 [dir="back",color="steelblue1",style="solid"];
+  Node6 [label="bittensor._dataset.dataset\l_impl.GenesisTextDataset.set\l_dataset_iterator",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classbittensor_1_1__dataset_1_1dataset__impl_1_1_genesis_text_dataset.html#ac57d432cdd0ca00255f87dacae40a2b1",tooltip=" "];
+  Node6 -> Node7 [dir="back",color="steelblue1",style="solid"];
+  Node7 [label="bittensor._dataset.dataset\l_impl.GenesisTextDataset.\l__next__",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classbittensor_1_1__dataset_1_1dataset__impl_1_1_genesis_text_dataset.html#a0b33886b2a6a7a8fa5738fc38f9ac91a",tooltip=" "];
+}

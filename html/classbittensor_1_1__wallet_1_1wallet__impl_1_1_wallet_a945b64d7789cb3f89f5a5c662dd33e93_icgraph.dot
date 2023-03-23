@@ -1,0 +1,22 @@
+digraph "bittensor._wallet.wallet_impl.Wallet.create_new_hotkey"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [label="bittensor._wallet.wallet\l_impl.Wallet.create_new_hotkey",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="steelblue1",style="solid"];
+  Node2 [label="bittensor._wallet.wallet\l_impl.Wallet.create",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet.html#ade65bf944db522de59a5958fafc9a94d",tooltip=" "];
+  Node2 -> Node3 [dir="back",color="steelblue1",style="solid"];
+  Node3 [label="bittensor._wallet.wallet\l_impl.Wallet.create_if\l_non_existent",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet.html#ad028e482d1c2dc3d8425aa4950a13afd",tooltip=" "];
+  Node1 -> Node4 [dir="back",color="steelblue1",style="solid"];
+  Node4 [label="bittensor._wallet.wallet\l_impl.Wallet.new_hotkey",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet.html#ad20b06a182600521a8feba305dc32339",tooltip=" "];
+  Node1 -> Node5 [dir="back",color="steelblue1",style="solid"];
+  Node5 [label="bittensor._wallet.wallet\l_impl.Wallet.recreate",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet.html#adbc68807f89e813217294033f8023cff",tooltip=" "];
+  Node1 -> Node6 [dir="back",color="steelblue1",style="solid"];
+  Node6 [label="bittensor._cli.cli\l_impl.CLI.run",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classbittensor_1_1__cli_1_1cli__impl_1_1_c_l_i.html#aefb4bb012305712b2dbbd29545c843ce",tooltip=" "];
+  Node6 -> Node7 [dir="back",color="steelblue1",style="solid"];
+  Node7 [label="bittensor._cli.cli\l_impl.CLI.inspect",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classbittensor_1_1__cli_1_1cli__impl_1_1_c_l_i.html#ae03172c94947caed1fdc0a5c0a0aa8c2",tooltip=" "];
+  Node7 -> Node6 [dir="back",color="steelblue1",style="solid"];
+}

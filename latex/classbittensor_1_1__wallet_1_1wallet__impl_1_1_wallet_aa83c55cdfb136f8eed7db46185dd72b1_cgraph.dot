@@ -1,0 +1,15 @@
+digraph "bittensor._wallet.wallet_impl.Wallet.regen_hotkey"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [label="bittensor._wallet.wallet\l_impl.Wallet.regen_hotkey",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="steelblue1",style="solid"];
+  Node2 [label="bittensor._wallet.wallet\l_impl.Wallet.regenerate_hotkey",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet.html#a3846d07c64fbd9c520a9c96ef4134a69",tooltip=" "];
+  Node2 -> Node3 [color="steelblue1",style="solid"];
+  Node3 [label="bittensor._wallet.wallet\l_impl.display_mnemonic_msg",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacebittensor_1_1__wallet_1_1wallet__impl.html#aa2d8330744b6047752e501baf54b9c7e",tooltip=" "];
+  Node2 -> Node4 [color="steelblue1",style="solid"];
+  Node4 [label="bittensor._wallet.wallet\l_impl.Wallet.set_hotkey",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet.html#a0da33a367dd58b3c190e2e5cd4c48a86",tooltip=" "];
+}

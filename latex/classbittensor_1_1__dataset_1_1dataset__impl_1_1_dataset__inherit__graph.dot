@@ -1,0 +1,13 @@
+digraph "bittensor._dataset.dataset_impl.Dataset"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [label="bittensor._dataset.dataset\l_impl.Dataset",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="steelblue1",style="solid"];
+  Node2 [label="bittensor._dataset.dataset\l_impl.GenesisTextDataset",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$classbittensor_1_1__dataset_1_1dataset__impl_1_1_genesis_text_dataset.html",tooltip=" "];
+  Node1 -> Node3 [dir="back",color="steelblue1",style="solid"];
+  Node3 [label="bittensor._dataset.dataset\l_mock.MockGenesisTextDataset",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",URL="$classbittensor_1_1__dataset_1_1dataset__mock_1_1_mock_genesis_text_dataset.html",tooltip=" "];
+}

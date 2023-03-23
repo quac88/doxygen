@@ -1,0 +1,14 @@
+digraph "bittensor.utils.tokenizer_utils.set_std_token_phrases"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [label="bittensor.utils.tokenizer\l_utils.set_std_token_phrases",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node1 [color="steelblue1",style="solid"];
+  Node1 -> Node2 [color="steelblue1",style="solid"];
+  Node2 [label="bittensor.utils.tokenizer\l_utils.set_vocab_len",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacebittensor_1_1utils_1_1tokenizer__utils.html#aef7aceb6bc8b3ad0d08f7fed25c876d8",tooltip=" "];
+  Node1 -> Node3 [color="steelblue1",style="solid"];
+  Node3 [label="bittensor.utils.tokenizer\l_utils.set_whitespace_preserving",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacebittensor_1_1utils_1_1tokenizer__utils.html#a558123e572c10af14c002993c9b04f36",tooltip=" "];
+}

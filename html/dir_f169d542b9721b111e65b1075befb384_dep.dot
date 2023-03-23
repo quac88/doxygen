@@ -1,0 +1,37 @@
+digraph "/Users/macthrasher/bittensor/bittensor"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  compound=true
+  subgraph clusterdir_b315721b901c5ce27cd8595c97000a26 {
+    graph [ bgcolor="#edf0f7", pencolor="grey25", label="bittensor", fontname=Helvetica,fontsize=10 style="filled,dashed", URL="dir_b315721b901c5ce27cd8595c97000a26.html",tooltip=""]
+  subgraph clusterdir_f169d542b9721b111e65b1075befb384 {
+    graph [ bgcolor="#edf0f7", pencolor="grey25", label="", fontname=Helvetica,fontsize=10 style="filled,bold", URL="dir_f169d542b9721b111e65b1075befb384.html",tooltip=""]
+    dir_f169d542b9721b111e65b1075befb384 [shape=plaintext, label="bittensor"];
+  dir_1920ca253748e024da8dea346576658b [label="_axon", fillcolor="#a2b4d6", color="grey25", style="filled", URL="dir_1920ca253748e024da8dea346576658b.html",tooltip=""];
+  dir_a00731e740fbce22eeff9bf720ce482a [label="_cli", fillcolor="#a2b4d6", color="grey25", style="filled", URL="dir_a00731e740fbce22eeff9bf720ce482a.html",tooltip=""];
+  dir_867b28a2b73777fcef677ddf799ebcab [label="_config", fillcolor="#a2b4d6", color="grey25", style="filled", URL="dir_867b28a2b73777fcef677ddf799ebcab.html",tooltip=""];
+  dir_defd091b1aa55cf85e063c2d756f9078 [label="_dataset", fillcolor="#a2b4d6", color="grey25", style="filled", URL="dir_defd091b1aa55cf85e063c2d756f9078.html",tooltip=""];
+  dir_803f4c833d37889a7cb6fe3c78d59c19 [label="_dendrite", fillcolor="#a2b4d6", color="grey25", style="filled", URL="dir_803f4c833d37889a7cb6fe3c78d59c19.html",tooltip=""];
+  dir_f6a62f16aaa32a911560c6f595c42778 [label="_endpoint", fillcolor="#a2b4d6", color="grey25", style="filled", URL="dir_f6a62f16aaa32a911560c6f595c42778.html",tooltip=""];
+  dir_d9ee512f55884345c7dcd50fa74bbf1d [label="_ipfs", fillcolor="#a2b4d6", color="grey25", style="filled", URL="dir_d9ee512f55884345c7dcd50fa74bbf1d.html",tooltip=""];
+  dir_da11686fe3fd864139a53e44540da9c1 [label="_keyfile", fillcolor="#a2b4d6", color="grey25", style="filled", URL="dir_da11686fe3fd864139a53e44540da9c1.html",tooltip=""];
+  dir_2cd40992c7007709411ad5ba96df87bf [label="_logging", fillcolor="#a2b4d6", color="grey25", style="filled", URL="dir_2cd40992c7007709411ad5ba96df87bf.html",tooltip=""];
+  dir_4b52690475591061af2228d4c45abdd1 [label="_metagraph", fillcolor="#a2b4d6", color="grey25", style="filled", URL="dir_4b52690475591061af2228d4c45abdd1.html",tooltip=""];
+  dir_a86f13a7b34109dbfa5dec4358a81623 [label="_neuron", fillcolor="#a2b4d6", color="grey25", style="filled", URL="dir_a86f13a7b34109dbfa5dec4358a81623.html",tooltip=""];
+  dir_e288f390c6922865915c362bf92c15e6 [label="_prometheus", fillcolor="#a2b4d6", color="grey25", style="filled", URL="dir_e288f390c6922865915c362bf92c15e6.html",tooltip=""];
+  dir_4cf1755dc32729081edf5fc4049566d0 [label="_proto", fillcolor="#a2b4d6", color="grey25", style="filled", URL="dir_4cf1755dc32729081edf5fc4049566d0.html",tooltip=""];
+  dir_a12150f39da991bb259e268af04ae13a [label="_receptor", fillcolor="#a2b4d6", color="grey25", style="filled", URL="dir_a12150f39da991bb259e268af04ae13a.html",tooltip=""];
+  dir_f0f41fc8c2e53e8c1f3d6a7533dbf935 [label="_serializer", fillcolor="#a2b4d6", color="grey25", style="filled", URL="dir_f0f41fc8c2e53e8c1f3d6a7533dbf935.html",tooltip=""];
+  dir_32d003f8fd6d4efae848c0196a927a40 [label="_subtensor", fillcolor="#a2b4d6", color="grey25", style="filled", URL="dir_32d003f8fd6d4efae848c0196a927a40.html",tooltip=""];
+  dir_197caefcdb22a1921198141c3d4b4b54 [label="_synapse", fillcolor="#a2b4d6", color="grey25", style="filled", URL="dir_197caefcdb22a1921198141c3d4b4b54.html",tooltip=""];
+  dir_0a21b6c814ca006ebe6e8df82e5ca538 [label="_threadpool", fillcolor="#a2b4d6", color="grey25", style="filled", URL="dir_0a21b6c814ca006ebe6e8df82e5ca538.html",tooltip=""];
+  dir_5c31170d7ced8076e05fe153c44e9eaf [label="_tokenizer", fillcolor="#a2b4d6", color="grey25", style="filled", URL="dir_5c31170d7ced8076e05fe153c44e9eaf.html",tooltip=""];
+  dir_f4bbf0deec7c95b9f873918d380a1050 [label="_wallet", fillcolor="#a2b4d6", color="grey25", style="filled", URL="dir_f4bbf0deec7c95b9f873918d380a1050.html",tooltip=""];
+  dir_5f3854695ba68de5050cf585be83081f [label="_wandb", fillcolor="#a2b4d6", color="grey25", style="filled", URL="dir_5f3854695ba68de5050cf585be83081f.html",tooltip=""];
+  dir_28e02eda22aeec525108624c7020609d [label="utils", fillcolor="#a2b4d6", color="grey25", style="filled", URL="dir_28e02eda22aeec525108624c7020609d.html",tooltip=""];
+  }
+  }
+}

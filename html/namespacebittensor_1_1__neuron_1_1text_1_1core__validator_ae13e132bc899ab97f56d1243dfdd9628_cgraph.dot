@@ -1,0 +1,29 @@
+digraph "bittensor._neuron.text.core_validator.textcausallmnext"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [label="bittensor._neuron.text.core\l_validator.textcausallmnext",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="steelblue1",style="solid"];
+  Node2 [label="bittensor._neuron.text.core\l_validator.format_predictions",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacebittensor_1_1__neuron_1_1text_1_1core__validator.html#ad73b7e74829f07cd55e096f14a9a39a8",tooltip=" "];
+  Node1 -> Node3 [color="steelblue1",style="solid"];
+  Node3 [label="bittensor._neuron.text.core\l_validator.logits_divergence",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacebittensor_1_1__neuron_1_1text_1_1core__validator.html#a3d48b0eacf487ad14a36ef50ef21df07",tooltip=" "];
+  Node1 -> Node4 [color="steelblue1",style="solid"];
+  Node4 [label="bittensor._neuron.text.core\l_validator.response_table",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacebittensor_1_1__neuron_1_1text_1_1core__validator.html#a0c000ee81cd21336cf103755b8ffbe89",tooltip=" "];
+  Node1 -> Node5 [color="steelblue1",style="solid"];
+  Node5 [label="bittensor._neuron.text.core\l_validator.shapley_base",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacebittensor_1_1__neuron_1_1text_1_1core__validator.html#a826517b0b4f17e635dafcc3076a57a43",tooltip=" "];
+  Node1 -> Node6 [color="steelblue1",style="solid"];
+  Node6 [label="bittensor._neuron.text.core\l_validator.shapley_synergy",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacebittensor_1_1__neuron_1_1text_1_1core__validator.html#a1bd51d8fbf1d03308c1beb60fd961dd1",tooltip=" "];
+  Node6 -> Node7 [color="steelblue1",style="solid"];
+  Node7 [label="bittensor._neuron.text.core\l_validator.scaling_law_loss\l_to_params",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacebittensor_1_1__neuron_1_1text_1_1core__validator.html#afbddc9ae968b91105cb4845cdec271d8",tooltip=" "];
+  Node1 -> Node8 [color="steelblue1",style="solid"];
+  Node8 [label="bittensor._neuron.text.core\l_validator.synapse_table",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacebittensor_1_1__neuron_1_1text_1_1core__validator.html#ac65c768421ed57928ee56b3da28e5cf8",tooltip=" "];
+  Node8 -> Node9 [color="steelblue1",style="solid"];
+  Node9 [label="bittensor._neuron.text.core\l_validator.stats_table",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacebittensor_1_1__neuron_1_1text_1_1core__validator.html#a3b98321f53ed9671d10985f26470e151",tooltip=" "];
+  Node1 -> Node10 [color="steelblue1",style="solid"];
+  Node10 [label="bittensor._neuron.text.core\l_validator.synergy_table",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacebittensor_1_1__neuron_1_1text_1_1core__validator.html#a6fd9748649f8e6a6f82cbbcb48b164a4",tooltip=" "];
+  Node1 -> Node11 [color="steelblue1",style="solid"];
+  Node11 [label="bittensor._neuron.text.core\l_validator.unsuccess",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacebittensor_1_1__neuron_1_1text_1_1core__validator.html#ab1b9785136040aef8a5a3e0588151ca1",tooltip=" "];
+}

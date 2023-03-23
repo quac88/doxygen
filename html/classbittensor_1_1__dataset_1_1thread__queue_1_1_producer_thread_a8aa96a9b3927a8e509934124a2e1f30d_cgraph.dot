@@ -1,0 +1,15 @@
+digraph "bittensor._dataset.thread_queue.ProducerThread.run"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [label="bittensor._dataset.thread\l_queue.ProducerThread.run",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="steelblue1",style="solid"];
+  Node2 [label="bittensor._dataset.thread\l_queue.ProducerThread.stopped",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classbittensor_1_1__dataset_1_1thread__queue_1_1_producer_thread.html#a38738d7884a0603912f8d8396b5ced7b",tooltip=" "];
+  Node1 -> Node3 [color="steelblue1",style="solid"];
+  Node3 [label="bittensor._dendrite.manager\l_server.StoppableThread.stopped",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classbittensor_1_1__dendrite_1_1manager__server_1_1_stoppable_thread.html#af9bac981c87c6d71f8c99e8e3856bc9d",tooltip=" "];
+  Node1 -> Node4 [color="steelblue1",style="solid"];
+  Node4 [label="bittensor._neuron.text.neuron\l_utilities.ThreadQueue.stopped",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classbittensor_1_1__neuron_1_1text_1_1neuron__utilities_1_1_thread_queue.html#ac5422175d489417272b881e1e05a5a68",tooltip=" "];
+}

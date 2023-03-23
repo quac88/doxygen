@@ -1,0 +1,17 @@
+digraph "bittensor._metagraph.metagraph_mock.MockMetagraph.save"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [label="bittensor._metagraph.metagraph\l_mock.MockMetagraph.save",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="steelblue1",style="solid"];
+  Node2 [label="bittensor._neuron.text.core\l_validator.neuron.metagraph_sync",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classbittensor_1_1__neuron_1_1text_1_1core__validator_1_1neuron.html#a59cae1a3b1a1775e13f4a0ca037b8216",tooltip=" "];
+  Node2 -> Node3 [dir="back",color="steelblue1",style="solid"];
+  Node3 [label="bittensor._neuron.text.core\l_validator.neuron.run",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classbittensor_1_1__neuron_1_1text_1_1core__validator_1_1neuron.html#a0ff541e6cbd41a29bec67566e2a31db3",tooltip=" "];
+  Node2 -> Node4 [dir="back",color="steelblue1",style="solid"];
+  Node4 [label="bittensor._neuron.text.core\l_validator.neuron.run_epoch",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classbittensor_1_1__neuron_1_1text_1_1core__validator_1_1neuron.html#ab45b9c37a17f218b1de1a3fe4e23e8c9",tooltip=" "];
+  Node4 -> Node3 [dir="back",color="steelblue1",style="solid"];
+  Node1 -> Node4 [dir="back",color="steelblue1",style="solid"];
+}

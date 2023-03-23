@@ -1,0 +1,29 @@
+digraph "bittensor._wallet.wallet_impl.Wallet.coldkeypub"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [label="bittensor._wallet.wallet\l_impl.Wallet.coldkeypub",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="steelblue1",style="solid"];
+  Node2 [label="bittensor._wallet.wallet\l_impl.Wallet.get_balance",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet.html#a0579a3e0363a793241486b0b556798bc",tooltip=" "];
+  Node2 -> Node3 [dir="back",color="steelblue1",style="solid"];
+  Node3 [label="bittensor._wallet.wallet\l_impl.Wallet.__init__",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet.html#aa7add4c474e3294236fd088017f02de5",tooltip=" "];
+  Node2 -> Node4 [dir="back",color="steelblue1",style="solid"];
+  Node4 [label="bittensor._subtensor.subtensor\l_impl.Subtensor.add_stake",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classbittensor_1_1__subtensor_1_1subtensor__impl_1_1_subtensor.html#a0748d536995b644ab4beecd637c7a312",tooltip=" "];
+  Node2 -> Node5 [dir="back",color="steelblue1",style="solid"];
+  Node5 [label="bittensor._subtensor.subtensor\l_impl.Subtensor.add_stake\l_multiple",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classbittensor_1_1__subtensor_1_1subtensor__impl_1_1_subtensor.html#aefa4f24e0b02afee00a2442358f5f1ff",tooltip=" "];
+  Node2 -> Node6 [dir="back",color="steelblue1",style="solid"];
+  Node6 [label="bittensor._subtensor.subtensor\l_impl.Subtensor.transfer",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classbittensor_1_1__subtensor_1_1subtensor__impl_1_1_subtensor.html#a2c4eaca27e152b751e38dfe6fd5510c7",tooltip=" "];
+  Node6 -> Node7 [dir="back",color="steelblue1",style="solid"];
+  Node7 [label="bittensor._cli.cli\l_impl.CLI.run",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classbittensor_1_1__cli_1_1cli__impl_1_1_c_l_i.html#aefb4bb012305712b2dbbd29545c843ce",tooltip=" "];
+  Node7 -> Node8 [dir="back",color="steelblue1",style="solid"];
+  Node8 [label="bittensor._cli.cli\l_impl.CLI.inspect",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classbittensor_1_1__cli_1_1cli__impl_1_1_c_l_i.html#ae03172c94947caed1fdc0a5c0a0aa8c2",tooltip=" "];
+  Node8 -> Node7 [dir="back",color="steelblue1",style="solid"];
+  Node2 -> Node9 [dir="back",color="steelblue1",style="solid"];
+  Node9 [label="bittensor._subtensor.subtensor\l_impl.Subtensor.unstake",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classbittensor_1_1__subtensor_1_1subtensor__impl_1_1_subtensor.html#a5df4679e01f901762b29c773e5ba8518",tooltip=" "];
+  Node9 -> Node7 [dir="back",color="steelblue1",style="solid"];
+  Node2 -> Node10 [dir="back",color="steelblue1",style="solid"];
+  Node10 [label="bittensor._subtensor.subtensor\l_impl.Subtensor.unstake_multiple",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classbittensor_1_1__subtensor_1_1subtensor__impl_1_1_subtensor.html#ac308c7f078a5391c06029d3c9a82f0b5",tooltip=" "];
+}

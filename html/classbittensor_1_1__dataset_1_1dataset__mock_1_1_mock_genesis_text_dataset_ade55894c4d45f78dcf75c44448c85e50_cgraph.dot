@@ -1,0 +1,58 @@
+digraph "bittensor._dataset.dataset_mock.MockGenesisTextDataset.__next__"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [label="bittensor._dataset.dataset\l_mock.MockGenesisTextDataset.\l__next__",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="steelblue1",style="solid"];
+  Node2 [label="bittensor._dataset.dataset\l_impl.GenesisTextDataset.dataloader",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classbittensor_1_1__dataset_1_1dataset__impl_1_1_genesis_text_dataset.html#a1c63db6af8af3d632f30583123f6b48b",tooltip=" "];
+  Node2 -> Node3 [color="steelblue1",style="solid"];
+  Node3 [label="bittensor._keyfile.keyfile\l_impl.Keyfile.data",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_keyfile.html#adef2640c132af5c43448d3da467b7ab3",tooltip=" "];
+  Node3 -> Node4 [color="steelblue1",style="solid"];
+  Node4 [label="bittensor._keyfile.keyfile\l_impl.Keyfile._read_keyfile\l_data_from_file",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_keyfile.html#a35a65736ecb1b571e571a27df0cde5e5",tooltip=" "];
+  Node4 -> Node5 [color="steelblue1",style="solid"];
+  Node5 [label="bittensor._keyfile.keyfile\l_impl.Keyfile.exists_on_device",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_keyfile.html#aae61dd8080aa8b20c16906bd55e40200",tooltip=" "];
+  Node4 -> Node6 [color="steelblue1",style="solid"];
+  Node6 [label="bittensor._keyfile.keyfile\l_impl.MockKeyfile.exists\l_on_device",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_mock_keyfile.html#ad2c8658adce5f7ec145d0078a4c78b31",tooltip=" "];
+  Node4 -> Node7 [color="steelblue1",style="solid"];
+  Node7 [label="bittensor._keyfile.keyfile\l_impl.Keyfile.is_readable",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_keyfile.html#ae89e29be6bb73f4c5d93f6dffe197886",tooltip=" "];
+  Node7 -> Node5 [color="steelblue1",style="solid"];
+  Node7 -> Node6 [color="steelblue1",style="solid"];
+  Node4 -> Node8 [color="steelblue1",style="solid"];
+  Node8 [label="bittensor._keyfile.keyfile\l_impl.MockKeyfile.is_readable",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_mock_keyfile.html#a366fa999c27a5f60845ae4ccdd412b5f",tooltip=" "];
+  Node2 -> Node9 [color="steelblue1",style="solid"];
+  Node9 [label="bittensor._keyfile.keyfile\l_impl.MockKeyfile.data",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_mock_keyfile.html#a287fd97ad94e6ca7a7692b5352390a17",tooltip=" "];
+  Node2 -> Node10 [color="steelblue1",style="solid"];
+  Node10 [label="bittensor._dataset.dataset\l_impl.GenesisTextDataset.reserve\l_multiple_data",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classbittensor_1_1__dataset_1_1dataset__impl_1_1_genesis_text_dataset.html#ad53bbb77e1b2fd0eaf6f0053050dbba5",tooltip=" "];
+  Node10 -> Node11 [color="steelblue1",style="solid"];
+  Node11 [label="bittensor._dataset.dataset\l_impl.GenesisTextDataset.construct\l_text_corpus",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classbittensor_1_1__dataset_1_1dataset__impl_1_1_genesis_text_dataset.html#aae2d5b7ef612659ddabf117cf3c3d6ec",tooltip=" "];
+  Node11 -> Node12 [color="steelblue1",style="solid"];
+  Node12 [label="bittensor._dataset.dataset\l_impl.GenesisTextDataset.get\l_hashes_from_dataset",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classbittensor_1_1__dataset_1_1dataset__impl_1_1_genesis_text_dataset.html#a97d42a3d6765cbcd74e2602d6c061a61",tooltip=" "];
+  Node12 -> Node13 [color="steelblue1",style="solid"];
+  Node13 [label="bittensor._dataset.dataset\l_impl.GenesisTextDataset.get\l_dataset",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classbittensor_1_1__dataset_1_1dataset__impl_1_1_genesis_text_dataset.html#a7b0f280512b1c0c032c714bd796cdb52",tooltip=" "];
+  Node13 -> Node14 [color="steelblue1",style="solid"];
+  Node14 [label="bittensor._dataset.dataset\l_impl.Dataset.get_ipfs_directory",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classbittensor_1_1__dataset_1_1dataset__impl_1_1_dataset.html#adac9d1df6c5460cadb940da9a735060e",tooltip=" "];
+  Node14 -> Node15 [color="steelblue1",style="solid"];
+  Node15 [label="bittensor._dataset.dataset\l_impl.Dataset.requests_retry\l_session",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classbittensor_1_1__dataset_1_1dataset__impl_1_1_dataset.html#a0610ebda290a3a7d1fc7cb59515370fa",tooltip=" "];
+  Node14 -> Node16 [color="steelblue1",style="solid"];
+  Node16 [label="bittensor._ipfs.ipfs\l_impl.Ipfs.requests_retry\l_session",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classbittensor_1_1__ipfs_1_1ipfs__impl_1_1_ipfs.html#a16cda134ae7787ea37f9718a9e260c64",tooltip=" "];
+  Node13 -> Node17 [color="steelblue1",style="solid"];
+  Node17 [label="bittensor._dataset.dataset\l_impl.GenesisTextDataset.load_hash",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classbittensor_1_1__dataset_1_1dataset__impl_1_1_genesis_text_dataset.html#a4bc6e43e25c766c4ba6bef92d135a8ed",tooltip=" "];
+  Node13 -> Node18 [color="steelblue1",style="solid"];
+  Node18 [label="bittensor._dataset.dataset\l_impl.GenesisTextDataset.save_hash",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classbittensor_1_1__dataset_1_1dataset__impl_1_1_genesis_text_dataset.html#aa97393167f9c4bd7be13e09d10f0685b",tooltip=" "];
+  Node12 -> Node17 [color="steelblue1",style="solid"];
+  Node11 -> Node19 [color="steelblue1",style="solid"];
+  Node19 [label="bittensor._dataset.dataset\l_impl.GenesisTextDataset.get_text",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classbittensor_1_1__dataset_1_1dataset__impl_1_1_genesis_text_dataset.html#acfa141b065ef47c5257bb90b488f9cd2",tooltip=" "];
+  Node19 -> Node14 [color="steelblue1",style="solid"];
+  Node19 -> Node18 [color="steelblue1",style="solid"];
+  Node11 -> Node20 [color="steelblue1",style="solid"];
+  Node20 [label="bittensor._dataset.dataset\l_impl.GenesisTextDataset.get\l_text_from_local",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classbittensor_1_1__dataset_1_1dataset__impl_1_1_genesis_text_dataset.html#a2e1e4ea7464bfc7db04bf85dbdf9f661",tooltip=" "];
+  Node10 -> Node21 [color="steelblue1",style="solid"];
+  Node21 [label="bittensor._dataset.dataset\l_mock.MockGenesisTextDataset.construct\l_text_corpus",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classbittensor_1_1__dataset_1_1dataset__mock_1_1_mock_genesis_text_dataset.html#a129e52b186d8e0c956881ac6cae6067e",tooltip=" "];
+  Node1 -> Node22 [color="steelblue1",style="solid"];
+  Node22 [label="bittensor._dataset.dataset\l_mock.MockGenesisTextDataset.dataloader",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classbittensor_1_1__dataset_1_1dataset__mock_1_1_mock_genesis_text_dataset.html#a472c4806ab9f4781027b5a340217efc7",tooltip=" "];
+  Node22 -> Node23 [color="steelblue1",style="solid"];
+  Node23 [label="bittensor._dataset.dataset\l_mock.MockGenesisTextDataset.\l_fill_data",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classbittensor_1_1__dataset_1_1dataset__mock_1_1_mock_genesis_text_dataset.html#afc63af802764f324b1240d54acd44c74",tooltip=" "];
+}

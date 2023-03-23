@@ -1,0 +1,25 @@
+digraph "bittensor._endpoint.endpoint_impl.Endpoint.assert_format"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [label="bittensor._endpoint.endpoint\l_impl.Endpoint.assert_format",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="steelblue1",style="solid"];
+  Node2 [label="bittensor._wallet.wallet\l_impl.Wallet.coldkey",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet.html#a10d1fe488398138edf1be82bb3847af9",tooltip=" "];
+  Node2 -> Node3 [color="steelblue1",style="solid"];
+  Node3 [label="bittensor._wallet.wallet\l_impl.Wallet.coldkey_file",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet.html#a69c1a8f249e4bf4e13b9ee63e39ac8e1",tooltip=" "];
+  Node2 -> Node4 [color="steelblue1",style="solid"];
+  Node4 [label="bittensor._wallet.wallet\l_mock.Wallet_mock.coldkey_file",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classbittensor_1_1__wallet_1_1wallet__mock_1_1_wallet__mock.html#a819bf8c13f70c196bbc23a388433b5d5",tooltip=" "];
+  Node1 -> Node5 [color="steelblue1",style="solid"];
+  Node5 [label="bittensor._wallet.wallet\l_impl.Wallet.hotkey",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet.html#a021381e72a3c4cb5284fb801724f2084",tooltip=" "];
+  Node5 -> Node6 [color="steelblue1",style="solid"];
+  Node6 [label="bittensor._wallet.wallet\l_impl.Wallet.hotkey_file",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet.html#a2cb735875ddc5f971cd45bfdebc98052",tooltip=" "];
+  Node5 -> Node7 [color="steelblue1",style="solid"];
+  Node7 [label="bittensor._wallet.wallet\l_mock.Wallet_mock.hotkey_file",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classbittensor_1_1__wallet_1_1wallet__mock_1_1_wallet__mock.html#aa0fb55aba0c5233efea28877026b969a",tooltip=" "];
+  Node1 -> Node8 [color="steelblue1",style="solid"];
+  Node8 [label="bittensor._wallet.wallet\l_impl.Wallet.ip",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet.html#a2eee19b8640c814e60631c5c5c1bd3e8",tooltip=" "];
+  Node1 -> Node9 [color="steelblue1",style="solid"];
+  Node9 [label="bittensor._wallet.wallet\l_impl.Wallet.uid",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet.html#a13f908b7fc19a043ab1194e597896651",tooltip=" "];
+}

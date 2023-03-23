@@ -1,0 +1,13 @@
+digraph "bittensor._subtensor.subtensor_impl.Subtensor.register"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [label="bittensor._subtensor.subtensor\l_impl.Subtensor.register",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="steelblue1",style="solid"];
+  Node2 [label="bittensor._subtensor.subtensor\l_impl.Subtensor.neuron_for_pubkey",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classbittensor_1_1__subtensor_1_1subtensor__impl_1_1_subtensor.html#a50f10ac1bdd91d9feb7b5f49de168aa7",tooltip=" "];
+  Node2 -> Node3 [color="steelblue1",style="solid"];
+  Node3 [label="bittensor._subtensor.subtensor\l_impl.Subtensor.neuron_for_uid",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classbittensor_1_1__subtensor_1_1subtensor__impl_1_1_subtensor.html#aedf9d44c58320641bd3a0d237159119d",tooltip=" "];
+}

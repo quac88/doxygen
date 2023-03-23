@@ -1,0 +1,18 @@
+digraph "bittensor._dataset.dataset_impl.GenesisTextDataset.get_root_text_hash"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [label="bittensor._dataset.dataset\l_impl.GenesisTextDataset.get\l_root_text_hash",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="steelblue1",style="solid"];
+  Node2 [label="bittensor._dataset.dataset\l_impl.Dataset.get_ipfs_directory",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classbittensor_1_1__dataset_1_1dataset__impl_1_1_dataset.html#adac9d1df6c5460cadb940da9a735060e",tooltip=" "];
+  Node2 -> Node3 [color="steelblue1",style="solid"];
+  Node3 [label="bittensor._dataset.dataset\l_impl.Dataset.requests_retry\l_session",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classbittensor_1_1__dataset_1_1dataset__impl_1_1_dataset.html#a0610ebda290a3a7d1fc7cb59515370fa",tooltip=" "];
+  Node2 -> Node4 [color="steelblue1",style="solid"];
+  Node4 [label="bittensor._ipfs.ipfs\l_impl.Ipfs.requests_retry\l_session",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classbittensor_1_1__ipfs_1_1ipfs__impl_1_1_ipfs.html#a16cda134ae7787ea37f9718a9e260c64",tooltip=" "];
+  Node1 -> Node1 [color="steelblue1",style="solid"];
+  Node1 -> Node5 [color="steelblue1",style="solid"];
+  Node5 [label="bittensor._dataset.dataset\l_impl.GenesisTextDataset.load_hash",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classbittensor_1_1__dataset_1_1dataset__impl_1_1_genesis_text_dataset.html#a4bc6e43e25c766c4ba6bef92d135a8ed",tooltip=" "];
+}

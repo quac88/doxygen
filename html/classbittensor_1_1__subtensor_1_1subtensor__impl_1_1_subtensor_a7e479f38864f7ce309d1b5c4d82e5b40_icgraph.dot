@@ -1,0 +1,18 @@
+digraph "bittensor._subtensor.subtensor_impl.Subtensor.get_n"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [label="bittensor._subtensor.subtensor\l_impl.Subtensor.get_n",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="steelblue1",style="solid"];
+  Node2 [label="bittensor._subtensor.subtensor\l_impl.Subtensor.neurons",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classbittensor_1_1__subtensor_1_1subtensor__impl_1_1_subtensor.html#ad5a4ed818af4a17332179cf08919494a",tooltip=" "];
+  Node2 -> Node3 [dir="back",color="steelblue1",style="solid"];
+  Node3 [label="bittensor._metagraph.metagraph\l_impl.Metagraph.clear",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classbittensor_1_1__metagraph_1_1metagraph__impl_1_1_metagraph.html#aec10f18d7e572a5014eb7f6c338ff0da",tooltip=" "];
+  Node3 -> Node4 [dir="back",color="steelblue1",style="solid"];
+  Node4 [label="bittensor._metagraph.metagraph\l_impl.Metagraph.__init__",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classbittensor_1_1__metagraph_1_1metagraph__impl_1_1_metagraph.html#ae140d5f6b82affffd1cdb4bc97843559",tooltip=" "];
+  Node4 -> Node4 [dir="back",color="steelblue1",style="solid"];
+  Node2 -> Node5 [dir="back",color="steelblue1",style="solid"];
+  Node5 [label="bittensor._metagraph.metagraph\l_impl.Metagraph.sync",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classbittensor_1_1__metagraph_1_1metagraph__impl_1_1_metagraph.html#a816742ccbc5bfe6f38f7feb1d2e137b0",tooltip=" "];
+}

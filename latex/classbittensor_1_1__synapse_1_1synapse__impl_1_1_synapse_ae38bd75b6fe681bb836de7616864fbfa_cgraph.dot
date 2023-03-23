@@ -1,0 +1,29 @@
+digraph "bittensor._synapse.synapse_impl.Synapse.serialize_forward_response_tensor"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [label="bittensor._synapse.synapse\l_impl.Synapse.serialize\l_forward_response_tensor",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="steelblue1",style="solid"];
+  Node2 [label="bittensor._synapse.synapse\l_impl.Synapse.check_forward\l_response_tensor",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse.html#acb6d69d2b432bde2495df6b668f17c40",tooltip=" "];
+  Node1 -> Node3 [color="steelblue1",style="solid"];
+  Node3 [label="bittensor._synapse.text\l_causallm_impl.TextCausalLM.check\l_forward_response_tensor",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classbittensor_1_1__synapse_1_1text__causallm__impl_1_1_text_causal_l_m.html#aa8258678931f1079df46b25effc7c6ae",tooltip=" "];
+  Node1 -> Node4 [color="steelblue1",style="solid"];
+  Node4 [label="bittensor._synapse.text\l_causallmnext_impl.TextCausal\lLMNext.check_forward_response_tensor",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classbittensor_1_1__synapse_1_1text__causallmnext__impl_1_1_text_causal_l_m_next.html#afc8e389fd4f4542a529c17015e4873c9",tooltip=" "];
+  Node1 -> Node5 [color="steelblue1",style="solid"];
+  Node5 [label="bittensor._synapse.text\l_lasthiddenstate_impl.TextLast\lHiddenState.check_forward_response_tensor",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classbittensor_1_1__synapse_1_1text__lasthiddenstate__impl_1_1_text_last_hidden_state.html#a0cddb0459ec9cf15108b44b8ebbff729",tooltip=" "];
+  Node1 -> Node6 [color="steelblue1",style="solid"];
+  Node6 [label="bittensor._synapse.text\l_seq2seq_impl.TextSeq2Seq.check\l_forward_response_tensor",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classbittensor_1_1__synapse_1_1text__seq2seq__impl_1_1_text_seq2_seq.html#a0b7faeaa47748cc897d45af9b776b971",tooltip=" "];
+  Node1 -> Node7 [color="steelblue1",style="solid"];
+  Node7 [label="bittensor._synapse.synapse\l_impl.Synapse.encode_forward\l_response_tensor",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse.html#a652c329c4cfa85daf0c250a0e8547ac5",tooltip=" "];
+  Node1 -> Node8 [color="steelblue1",style="solid"];
+  Node8 [label="bittensor._synapse.text\l_causallm_impl.TextCausalLM.encode\l_forward_response_tensor",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classbittensor_1_1__synapse_1_1text__causallm__impl_1_1_text_causal_l_m.html#a90e11dd8f72c4bbd0aa8a1fd71354ec8",tooltip=" "];
+  Node1 -> Node9 [color="steelblue1",style="solid"];
+  Node9 [label="bittensor._synapse.text\l_causallmnext_impl.TextCausal\lLMNext.encode_forward_response_tensor",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classbittensor_1_1__synapse_1_1text__causallmnext__impl_1_1_text_causal_l_m_next.html#aa09a1f4173c55a677c4de0e3cb7ffa2b",tooltip=" "];
+  Node1 -> Node10 [color="steelblue1",style="solid"];
+  Node10 [label="bittensor._synapse.text\l_lasthiddenstate_impl.TextLast\lHiddenState.encode_forward\l_response_tensor",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classbittensor_1_1__synapse_1_1text__lasthiddenstate__impl_1_1_text_last_hidden_state.html#a398bbb89b8450362ba1d43c0e60abd20",tooltip=" "];
+  Node1 -> Node11 [color="steelblue1",style="solid"];
+  Node11 [label="bittensor._synapse.text\l_seq2seq_impl.TextSeq2Seq.encode\l_forward_response_tensor",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classbittensor_1_1__synapse_1_1text__seq2seq__impl_1_1_text_seq2_seq.html#a27f884510f8450ece3d08698abc0eb00",tooltip=" "];
+}

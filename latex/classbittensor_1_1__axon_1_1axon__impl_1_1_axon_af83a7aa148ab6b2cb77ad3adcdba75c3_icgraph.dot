@@ -1,0 +1,11 @@
+digraph "bittensor._axon.axon_impl.Axon.default_backward_callback"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [label="bittensor._axon.axon\l_impl.Axon.default_backward\l_callback",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="steelblue1",style="solid"];
+  Node2 [label="bittensor._axon.axon\l_impl.Axon.__init__",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classbittensor_1_1__axon_1_1axon__impl_1_1_axon.html#ae26e7b802d3e514880155f6bc30e0929",tooltip=" "];
+}

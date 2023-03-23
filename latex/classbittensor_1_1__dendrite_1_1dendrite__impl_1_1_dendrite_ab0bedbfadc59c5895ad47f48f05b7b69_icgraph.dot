@@ -1,0 +1,29 @@
+digraph "bittensor._dendrite.dendrite_impl.Dendrite._forward"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [label="bittensor._dendrite.dendrite\l_impl.Dendrite._forward",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="steelblue1",style="solid"];
+  Node2 [label="bittensor._axon.axon\l_impl.Axon.Forward",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classbittensor_1_1__axon_1_1axon__impl_1_1_axon.html#a5a5e5a8ee71fd9038bf83f7a0ac5ddec",tooltip=" "];
+  Node2 -> Node3 [dir="back",color="steelblue1",style="solid"];
+  Node3 [label="bittensor._proto.bittensor\l_pb2_grpc.BittensorStub.\l__init__",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classbittensor_1_1__proto_1_1bittensor__pb2__grpc_1_1_bittensor_stub.html#a13767ccda8ea6061415bf9e589f135af",tooltip=" "];
+  Node1 -> Node4 [dir="back",color="steelblue1",style="solid"];
+  Node4 [label="bittensor._dendrite.dendrite\l_mock.DendriteMock.forward_image",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classbittensor_1_1__dendrite_1_1dendrite__mock_1_1_dendrite_mock.html#aba4861e1bd42622eced10ec450fddfb5",tooltip=" "];
+  Node1 -> Node5 [dir="back",color="steelblue1",style="solid"];
+  Node5 [label="bittensor._dendrite.dendrite\l_mock.DendriteMock.forward_tensor",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classbittensor_1_1__dendrite_1_1dendrite__mock_1_1_dendrite_mock.html#a596804548b4ab12580fa1ce97fe36e54",tooltip=" "];
+  Node1 -> Node6 [dir="back",color="steelblue1",style="solid"];
+  Node6 [label="bittensor._dendrite.dendrite\l_mock.DendriteMock.forward_text",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classbittensor_1_1__dendrite_1_1dendrite__mock_1_1_dendrite_mock.html#a05b1862d3fcc5a34924ff9d89424585d",tooltip=" "];
+  Node1 -> Node7 [dir="back",color="steelblue1",style="solid"];
+  Node7 [label="bittensor._dendrite.dendrite\l_impl.Dendrite.text",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classbittensor_1_1__dendrite_1_1dendrite__impl_1_1_dendrite.html#af64a1b06ea6d77b00c6b191f2b95daad",tooltip=" "];
+  Node7 -> Node8 [dir="back",color="steelblue1",style="solid"];
+  Node8 [label="bittensor._dendrite.dendrite\l_impl.Dendrite.generate",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classbittensor_1_1__dendrite_1_1dendrite__impl_1_1_dendrite.html#a13fd8cc44e4289f9662236107c6577b1",tooltip=" "];
+  Node1 -> Node9 [dir="back",color="steelblue1",style="solid"];
+  Node9 [label="bittensor._dendrite.dendrite\l_impl.Dendrite.text_causal_lm",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classbittensor_1_1__dendrite_1_1dendrite__impl_1_1_dendrite.html#ad12fdba0d1db1b1e0eb4cd5a8e209d5b",tooltip=" "];
+  Node1 -> Node10 [dir="back",color="steelblue1",style="solid"];
+  Node10 [label="bittensor._dendrite.dendrite\l_impl.Dendrite.text_causal\l_lm_next",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classbittensor_1_1__dendrite_1_1dendrite__impl_1_1_dendrite.html#a0cf9d7590cb94638a20627417b057c78",tooltip=" "];
+  Node1 -> Node11 [dir="back",color="steelblue1",style="solid"];
+  Node11 [label="bittensor._dendrite.dendrite\l_impl.Dendrite.text_last\l_hidden_state",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classbittensor_1_1__dendrite_1_1dendrite__impl_1_1_dendrite.html#a847c81a7312898dcca79439dab3e1420",tooltip=" "];
+}

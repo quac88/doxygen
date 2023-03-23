@@ -1,0 +1,13 @@
+digraph "bittensor.utils.tokenizer_utils.translate_one_to_many"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [label="bittensor.utils.tokenizer\l_utils.translate_one_to_many",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="steelblue1",style="solid"];
+  Node2 [label="bittensor.utils.tokenizer\l_utils.translate_tokenizer_probs",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacebittensor_1_1utils_1_1tokenizer__utils.html#ac2ac0a649cfc204c56ad13913288a4f4",tooltip=" "];
+  Node2 -> Node3 [dir="back",color="steelblue1",style="solid"];
+  Node3 [label="bittensor.utils.tokenizer\l_utils.translate_logits\l_to_probs_std",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacebittensor_1_1utils_1_1tokenizer__utils.html#a7c296be466fd118c374bf1480d26904b",tooltip=" "];
+}

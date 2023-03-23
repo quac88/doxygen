@@ -1,0 +1,14 @@
+digraph "bittensor._subtensor.subtensor_impl.Subtensor.transfer"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [label="bittensor._subtensor.subtensor\l_impl.Subtensor.transfer",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="steelblue1",style="solid"];
+  Node2 [label="bittensor._cli.cli\l_impl.CLI.run",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classbittensor_1_1__cli_1_1cli__impl_1_1_c_l_i.html#aefb4bb012305712b2dbbd29545c843ce",tooltip=" "];
+  Node2 -> Node3 [dir="back",color="steelblue1",style="solid"];
+  Node3 [label="bittensor._cli.cli\l_impl.CLI.inspect",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classbittensor_1_1__cli_1_1cli__impl_1_1_c_l_i.html#ae03172c94947caed1fdc0a5c0a0aa8c2",tooltip=" "];
+  Node3 -> Node2 [dir="back",color="steelblue1",style="solid"];
+}

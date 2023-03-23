@@ -1,0 +1,11 @@
+digraph "bittensor._metagraph.metagraph_impl.Metagraph.endpoint_objs"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [label="bittensor._metagraph.metagraph\l_impl.Metagraph.endpoint_objs",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="steelblue1",style="solid"];
+  Node2 [label="bittensor._subtensor.subtensor\l_impl.Subtensor.n",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classbittensor_1_1__subtensor_1_1subtensor__impl_1_1_subtensor.html#a11d10f99d0740e841a8ce47b67fdbc02",tooltip=" "];
+}

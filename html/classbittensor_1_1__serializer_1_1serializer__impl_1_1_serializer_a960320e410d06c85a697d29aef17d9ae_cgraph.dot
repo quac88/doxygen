@@ -1,0 +1,19 @@
+digraph "bittensor._serializer.serializer_impl.Serializer.serialize"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [label="bittensor._serializer.serializer\l_impl.Serializer.serialize",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="steelblue1",style="solid"];
+  Node2 [label="bittensor._serializer.serializer\l_impl.Serializer.serialize\l_from_numpy",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classbittensor_1_1__serializer_1_1serializer__impl_1_1_serializer.html#a939fa535f4b9a8ab4e8a4e825d15a9b1",tooltip=" "];
+  Node1 -> Node3 [color="steelblue1",style="solid"];
+  Node3 [label="bittensor._serializer.serializer\l_impl.Serializer.serialize\l_from_tensorflow",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classbittensor_1_1__serializer_1_1serializer__impl_1_1_serializer.html#aab5db416aedd9f4830077cb288c5887e",tooltip=" "];
+  Node1 -> Node4 [color="steelblue1",style="solid"];
+  Node4 [label="bittensor._serializer.serializer\l_impl.Serializer.serialize\l_from_torch",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classbittensor_1_1__serializer_1_1serializer__impl_1_1_serializer.html#a7997590b584332b04f5c3e98b5bfea46",tooltip=" "];
+  Node1 -> Node5 [color="steelblue1",style="solid"];
+  Node5 [label="bittensor._serializer.serializer\l_impl.MSGPackSerializer.serialize\l_from_torch",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classbittensor_1_1__serializer_1_1serializer__impl_1_1_m_s_g_pack_serializer.html#ad2491ba6c3a2722b0c48bf68f1e13e7b",tooltip=" "];
+  Node1 -> Node6 [color="steelblue1",style="solid"];
+  Node6 [label="bittensor._serializer.serializer\l_impl.CMPPackSerializer.serialize\l_from_torch",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classbittensor_1_1__serializer_1_1serializer__impl_1_1_c_m_p_pack_serializer.html#a124580b7d16f7b90bf093c517bac86dd",tooltip=" "];
+}

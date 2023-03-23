@@ -1,0 +1,11 @@
+digraph "bittensor._serializer.serializer_impl.MSGPackSerializer.serialize_from_torch"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [label="bittensor._serializer.serializer\l_impl.MSGPackSerializer.serialize\l_from_torch",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="steelblue1",style="solid"];
+  Node2 [label="bittensor._serializer.serializer\l_impl.Serializer.serialize",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classbittensor_1_1__serializer_1_1serializer__impl_1_1_serializer.html#a960320e410d06c85a697d29aef17d9ae",tooltip=" "];
+}

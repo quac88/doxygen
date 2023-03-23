@@ -1,0 +1,11 @@
+digraph "bittensor._synapse.text_causallm_impl.TextCausalLM.encode_forward_request_tensor"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [label="bittensor._synapse.text\l_causallm_impl.TextCausalLM.encode\l_forward_request_tensor",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="steelblue1",style="solid"];
+  Node2 [label="bittensor._synapse.synapse\l_impl.Synapse.nill_backward\l_response_tensor",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classbittensor_1_1__synapse_1_1synapse__impl_1_1_synapse.html#a28f55eb21a6e304a690594db9edc4922",tooltip=" "];
+}

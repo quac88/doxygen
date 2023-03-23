@@ -1,0 +1,108 @@
+\hypertarget{classbittensor_1_1__axon_1_1_auth_interceptor}{}\doxysection{bittensor.\+\_\+axon.\+Auth\+Interceptor Class Reference}
+\label{classbittensor_1_1__axon_1_1_auth_interceptor}\index{bittensor.\_axon.AuthInterceptor@{bittensor.\_axon.AuthInterceptor}}
+
+
+Inheritance diagram for bittensor.\+\_\+axon.\+Auth\+Interceptor\+:
+% FIG 0
+
+
+Collaboration diagram for bittensor.\+\_\+axon.\+Auth\+Interceptor\+:
+% FIG 1
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \mbox{\hyperlink{classbittensor_1_1__axon_1_1_auth_interceptor_a4302792745061f7573b98c23874b9fbb}{\+\_\+\+\_\+init\+\_\+\+\_\+}} (self, str receiver\+\_\+hotkey, Callable blacklist=None)
+\item 
+Union\mbox{[}Tuple\mbox{[}int, str, str, str, int\mbox{]}, None\mbox{]} \mbox{\hyperlink{classbittensor_1_1__axon_1_1_auth_interceptor_a7d0f746c174e0e5eebba6d9853afee75}{parse\+\_\+legacy\+\_\+signature}} (self, str signature)
+\item 
+Union\mbox{[}Tuple\mbox{[}int, str, str, str, int\mbox{]}, None\mbox{]} \mbox{\hyperlink{classbittensor_1_1__axon_1_1_auth_interceptor_a01f117fbf19991837482b6992b40d31a}{parse\+\_\+signature\+\_\+v2}} (self, str signature)
+\item 
+Tuple\mbox{[}int, str, str, str, int\mbox{]} \mbox{\hyperlink{classbittensor_1_1__axon_1_1_auth_interceptor_a162176a827332511e91448a209468601}{parse\+\_\+signature}} (self, Dict\mbox{[}str, str\mbox{]} metadata)
+\item 
+def \mbox{\hyperlink{classbittensor_1_1__axon_1_1_auth_interceptor_a8657847098be61620b26571072c5c48b}{check\+\_\+signature}} (self, int nonce, str sender\+\_\+hotkey, str signature, str receptor\+\_\+uuid, int format)
+\item 
+def \mbox{\hyperlink{classbittensor_1_1__axon_1_1_auth_interceptor_a3df81786f91fa9bc186b982e63aaa072}{black\+\_\+list\+\_\+checking}} (self, str hotkey, str method)
+\item 
+def \mbox{\hyperlink{classbittensor_1_1__axon_1_1_auth_interceptor_a17c9f62ecb7d3442e42cc90e8f8d1409}{intercept\+\_\+service}} (self, continuation, handler\+\_\+call\+\_\+details)
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__axon_1_1_auth_interceptor_ad8b55f31d2b853b62a3c48e558f28981}\label{classbittensor_1_1__axon_1_1_auth_interceptor_ad8b55f31d2b853b62a3c48e558f28981}} 
+{\bfseries nonces}
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__axon_1_1_auth_interceptor_acc81b5423ece8788f5ed4f0b580847d9}\label{classbittensor_1_1__axon_1_1_auth_interceptor_acc81b5423ece8788f5ed4f0b580847d9}} 
+{\bfseries blacklist}
+\item 
+\mbox{\Hypertarget{classbittensor_1_1__axon_1_1_auth_interceptor_af1ddf7ee197223329acdd7f76840c5a3}\label{classbittensor_1_1__axon_1_1_auth_interceptor_af1ddf7ee197223329acdd7f76840c5a3}} 
+{\bfseries receiver\+\_\+hotkey}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\begin{DoxyVerb}Creates a new server interceptor that authenticates incoming messages from passed arguments.\end{DoxyVerb}
+ 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classbittensor_1_1__axon_1_1_auth_interceptor_a4302792745061f7573b98c23874b9fbb}\label{classbittensor_1_1__axon_1_1_auth_interceptor_a4302792745061f7573b98c23874b9fbb}} 
+\index{bittensor.\_axon.AuthInterceptor@{bittensor.\_axon.AuthInterceptor}!\_\_init\_\_@{\_\_init\_\_}}
+\index{\_\_init\_\_@{\_\_init\_\_}!bittensor.\_axon.AuthInterceptor@{bittensor.\_axon.AuthInterceptor}}
+\doxysubsubsection{\texorpdfstring{\_\_init\_\_()}{\_\_init\_\_()}}
+{\footnotesize\ttfamily def bittensor.\+\_\+axon.\+Auth\+Interceptor.\+\_\+\+\_\+init\+\_\+\+\_\+ (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{str}]{receiver\+\_\+hotkey,  }\item[{Callable }]{blacklist = {\ttfamily None} }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Creates a new server interceptor that authenticates incoming messages from passed arguments.
+    Args:
+        receiver_hotkey(str):
+            the SS58 address of the hotkey which should be targeted by RPCs
+        black_list (Function, `optional`):
+            black list function that prevents certain pubkeys from sending messages\end{DoxyVerb}
+ 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classbittensor_1_1__axon_1_1_auth_interceptor_a3df81786f91fa9bc186b982e63aaa072}\label{classbittensor_1_1__axon_1_1_auth_interceptor_a3df81786f91fa9bc186b982e63aaa072}} 
+\index{bittensor.\_axon.AuthInterceptor@{bittensor.\_axon.AuthInterceptor}!black\_list\_checking@{black\_list\_checking}}
+\index{black\_list\_checking@{black\_list\_checking}!bittensor.\_axon.AuthInterceptor@{bittensor.\_axon.AuthInterceptor}}
+\doxysubsubsection{\texorpdfstring{black\_list\_checking()}{black\_list\_checking()}}
+{\footnotesize\ttfamily def bittensor.\+\_\+axon.\+Auth\+Interceptor.\+black\+\_\+list\+\_\+checking (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{str}]{hotkey,  }\item[{str}]{method }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Tries to call to blacklist function in the miner and checks if it should blacklist the pubkey\end{DoxyVerb}
+ \mbox{\Hypertarget{classbittensor_1_1__axon_1_1_auth_interceptor_a8657847098be61620b26571072c5c48b}\label{classbittensor_1_1__axon_1_1_auth_interceptor_a8657847098be61620b26571072c5c48b}} 
+\index{bittensor.\_axon.AuthInterceptor@{bittensor.\_axon.AuthInterceptor}!check\_signature@{check\_signature}}
+\index{check\_signature@{check\_signature}!bittensor.\_axon.AuthInterceptor@{bittensor.\_axon.AuthInterceptor}}
+\doxysubsubsection{\texorpdfstring{check\_signature()}{check\_signature()}}
+{\footnotesize\ttfamily def bittensor.\+\_\+axon.\+Auth\+Interceptor.\+check\+\_\+signature (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{int}]{nonce,  }\item[{str}]{sender\+\_\+hotkey,  }\item[{str}]{signature,  }\item[{str}]{receptor\+\_\+uuid,  }\item[{int}]{format }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}verification of signature in metadata. Uses the pubkey and nonce\end{DoxyVerb}
+ \mbox{\Hypertarget{classbittensor_1_1__axon_1_1_auth_interceptor_a17c9f62ecb7d3442e42cc90e8f8d1409}\label{classbittensor_1_1__axon_1_1_auth_interceptor_a17c9f62ecb7d3442e42cc90e8f8d1409}} 
+\index{bittensor.\_axon.AuthInterceptor@{bittensor.\_axon.AuthInterceptor}!intercept\_service@{intercept\_service}}
+\index{intercept\_service@{intercept\_service}!bittensor.\_axon.AuthInterceptor@{bittensor.\_axon.AuthInterceptor}}
+\doxysubsubsection{\texorpdfstring{intercept\_service()}{intercept\_service()}}
+{\footnotesize\ttfamily def bittensor.\+\_\+axon.\+Auth\+Interceptor.\+intercept\+\_\+service (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{continuation,  }\item[{}]{handler\+\_\+call\+\_\+details }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Authentication between bittensor nodes. Intercepts messages and checks them\end{DoxyVerb}
+ \mbox{\Hypertarget{classbittensor_1_1__axon_1_1_auth_interceptor_a7d0f746c174e0e5eebba6d9853afee75}\label{classbittensor_1_1__axon_1_1_auth_interceptor_a7d0f746c174e0e5eebba6d9853afee75}} 
+\index{bittensor.\_axon.AuthInterceptor@{bittensor.\_axon.AuthInterceptor}!parse\_legacy\_signature@{parse\_legacy\_signature}}
+\index{parse\_legacy\_signature@{parse\_legacy\_signature}!bittensor.\_axon.AuthInterceptor@{bittensor.\_axon.AuthInterceptor}}
+\doxysubsubsection{\texorpdfstring{parse\_legacy\_signature()}{parse\_legacy\_signature()}}
+{\footnotesize\ttfamily  Union\mbox{[}Tuple\mbox{[}int, str, str, str, int\mbox{]}, None\mbox{]} bittensor.\+\_\+axon.\+Auth\+Interceptor.\+parse\+\_\+legacy\+\_\+signature (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{str     }]{signature }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Attempts to parse a signature using the legacy format, using `bitxx` as a separator\end{DoxyVerb}
+ \mbox{\Hypertarget{classbittensor_1_1__axon_1_1_auth_interceptor_a162176a827332511e91448a209468601}\label{classbittensor_1_1__axon_1_1_auth_interceptor_a162176a827332511e91448a209468601}} 
+\index{bittensor.\_axon.AuthInterceptor@{bittensor.\_axon.AuthInterceptor}!parse\_signature@{parse\_signature}}
+\index{parse\_signature@{parse\_signature}!bittensor.\_axon.AuthInterceptor@{bittensor.\_axon.AuthInterceptor}}
+\doxysubsubsection{\texorpdfstring{parse\_signature()}{parse\_signature()}}
+{\footnotesize\ttfamily  Tuple\mbox{[}int, str, str, str, int\mbox{]} bittensor.\+\_\+axon.\+Auth\+Interceptor.\+parse\+\_\+signature (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{Dict\mbox{[}str, str\mbox{]}     }]{metadata }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Attempts to parse a signature from the metadata\end{DoxyVerb}
+ \mbox{\Hypertarget{classbittensor_1_1__axon_1_1_auth_interceptor_a01f117fbf19991837482b6992b40d31a}\label{classbittensor_1_1__axon_1_1_auth_interceptor_a01f117fbf19991837482b6992b40d31a}} 
+\index{bittensor.\_axon.AuthInterceptor@{bittensor.\_axon.AuthInterceptor}!parse\_signature\_v2@{parse\_signature\_v2}}
+\index{parse\_signature\_v2@{parse\_signature\_v2}!bittensor.\_axon.AuthInterceptor@{bittensor.\_axon.AuthInterceptor}}
+\doxysubsubsection{\texorpdfstring{parse\_signature\_v2()}{parse\_signature\_v2()}}
+{\footnotesize\ttfamily  Union\mbox{[}Tuple\mbox{[}int, str, str, str, int\mbox{]}, None\mbox{]} bittensor.\+\_\+axon.\+Auth\+Interceptor.\+parse\+\_\+signature\+\_\+v2 (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{str     }]{signature }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Attempts to parse a signature using the v2 format\end{DoxyVerb}
+ 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+/\+Users/macthrasher/bittensor/bittensor/\+\_\+axon/\+\_\+\+\_\+init\+\_\+\+\_\+.\+py\end{DoxyCompactItemize}

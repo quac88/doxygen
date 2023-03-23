@@ -1,0 +1,36 @@
+digraph "bittensor._wallet.wallet_impl.Wallet.hotkey"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [label="bittensor._wallet.wallet\l_impl.Wallet.hotkey",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="steelblue1",style="solid"];
+  Node2 [label="bittensor._endpoint.endpoint\l_impl.Endpoint.assert_format",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint.html#a3a8356af525e51486afb913e62d28cb6",tooltip=" "];
+  Node1 -> Node3 [dir="back",color="steelblue1",style="solid"];
+  Node3 [label="bittensor._endpoint.endpoint\l_impl.Endpoint.check_format",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint.html#a93fcc171a63deaa711b82900112af980",tooltip=" "];
+  Node1 -> Node4 [dir="back",color="steelblue1",style="solid"];
+  Node4 [label="bittensor._endpoint.endpoint\l_impl.Endpoint.dumps",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint.html#a63b1d4a87e336c520cb29a39c62cbbc3",tooltip=" "];
+  Node4 -> Node5 [dir="back",color="steelblue1",style="solid"];
+  Node5 [label="bittensor._endpoint.endpoint\l_impl.Endpoint.to_tensor",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint.html#a97cd40c5509f3153b227b10e1dbb89d4",tooltip=" "];
+  Node1 -> Node6 [dir="back",color="steelblue1",style="solid"];
+  Node6 [label="bittensor._endpoint.endpoint\l_impl.Endpoint.ip_str",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classbittensor_1_1__endpoint_1_1endpoint__impl_1_1_endpoint.html#a649e0672e7f9ef9e582e90b4f55d43cf",tooltip=" "];
+  Node6 -> Node6 [dir="back",color="steelblue1",style="solid"];
+  Node1 -> Node7 [dir="back",color="steelblue1",style="solid"];
+  Node7 [label="bittensor._wallet.wallet\l_impl.Wallet.is_registered",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet.html#a151661af87b341949438d02e93a84c45",tooltip=" "];
+  Node7 -> Node8 [dir="back",color="steelblue1",style="solid"];
+  Node8 [label="bittensor._wallet.wallet\l_impl.Wallet.get_neuron",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet.html#a6eb36dda6ef4ca591adb42e9d44afcce",tooltip=" "];
+  Node8 -> Node9 [dir="back",color="steelblue1",style="solid"];
+  Node9 [label="bittensor._wallet.wallet\l_impl.Wallet.__init__",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet.html#aa7add4c474e3294236fd088017f02de5",tooltip=" "];
+  Node8 -> Node10 [dir="back",color="steelblue1",style="solid"];
+  Node10 [label="bittensor._wallet.wallet\l_impl.Wallet.get_stake",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet.html#a5dd6425ae009b020ca7e044448526c27",tooltip=" "];
+  Node10 -> Node9 [dir="back",color="steelblue1",style="solid"];
+  Node8 -> Node11 [dir="back",color="steelblue1",style="solid"];
+  Node11 [label="bittensor._wallet.wallet\l_impl.Wallet.get_uid",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet.html#ae166a8f0522e96ff6cadfcc1449b9cd5",tooltip=" "];
+  Node11 -> Node9 [dir="back",color="steelblue1",style="solid"];
+  Node7 -> Node10 [dir="back",color="steelblue1",style="solid"];
+  Node7 -> Node11 [dir="back",color="steelblue1",style="solid"];
+  Node7 -> Node12 [dir="back",color="steelblue1",style="solid"];
+  Node12 [label="bittensor._wallet.wallet\l_impl.Wallet.reregister",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classbittensor_1_1__wallet_1_1wallet__impl_1_1_wallet.html#a74aa2a41661f2b53d246760c74437c00",tooltip=" "];
+}

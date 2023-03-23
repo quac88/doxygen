@@ -1,0 +1,15 @@
+digraph "bittensor._keyfile.keyfile_impl.Keyfile._write_keyfile_data_to_file"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [label="bittensor._keyfile.keyfile\l_impl.Keyfile._write_keyfile\l_data_to_file",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="steelblue1",style="solid"];
+  Node2 [label="bittensor._keyfile.keyfile\l_impl.Keyfile._may_overwrite",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_keyfile.html#ad1fc6e07b90a2ff78488d4a3b115b70f",tooltip=" "];
+  Node1 -> Node3 [color="steelblue1",style="solid"];
+  Node3 [label="bittensor._keyfile.keyfile\l_impl.Keyfile.exists_on_device",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_keyfile.html#aae61dd8080aa8b20c16906bd55e40200",tooltip=" "];
+  Node1 -> Node4 [color="steelblue1",style="solid"];
+  Node4 [label="bittensor._keyfile.keyfile\l_impl.MockKeyfile.exists\l_on_device",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_mock_keyfile.html#ad2c8658adce5f7ec145d0078a4c78b31",tooltip=" "];
+}

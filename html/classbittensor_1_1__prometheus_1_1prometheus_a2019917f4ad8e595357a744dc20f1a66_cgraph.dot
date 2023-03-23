@@ -1,0 +1,33 @@
+digraph "bittensor._prometheus.prometheus.config"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [label="bittensor._prometheus.prometheus.config",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="steelblue1",style="solid"];
+  Node2 [label="bittensor._axon.axon.add_args",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classbittensor_1_1__axon_1_1axon.html#ad1dcb057c01dbc6b554db2d12da3dfd5",tooltip=" "];
+  Node1 -> Node3 [color="steelblue1",style="solid"];
+  Node3 [label="bittensor._dataset.dataset.add_args",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classbittensor_1_1__dataset_1_1dataset.html#a4f9cc40ba3ff7638cc04a2511ac5c18c",tooltip=" "];
+  Node1 -> Node4 [color="steelblue1",style="solid"];
+  Node4 [label="bittensor._dendrite.dendrite.add_args",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classbittensor_1_1__dendrite_1_1dendrite.html#a9a3db91de971c48c1a50dd7fff04621a",tooltip=" "];
+  Node1 -> Node5 [color="steelblue1",style="solid"];
+  Node5 [label="bittensor._logging.logging.add_args",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classbittensor_1_1__logging_1_1logging.html#a2e003cfd2803110d2958b78006432176",tooltip=" "];
+  Node1 -> Node6 [color="steelblue1",style="solid"];
+  Node6 [label="bittensor._metagraph.metagraph.add_args",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classbittensor_1_1__metagraph_1_1metagraph.html#a256c4780fd08c591fb2e630f7e4cff37",tooltip=" "];
+  Node1 -> Node7 [color="steelblue1",style="solid"];
+  Node7 [label="bittensor._prometheus.prometheus.add_args",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classbittensor_1_1__prometheus_1_1prometheus.html#a2bcb633847d166730ec18afb875bec15",tooltip=" "];
+  Node1 -> Node8 [color="steelblue1",style="solid"];
+  Node8 [label="bittensor._subtensor.subtensor.add_args",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classbittensor_1_1__subtensor_1_1subtensor.html#ab2a96f88c69af04bf2f0cab8c46445d4",tooltip=" "];
+  Node1 -> Node9 [color="steelblue1",style="solid"];
+  Node9 [label="bittensor._threadpool.prioritythreadpool.add_args",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classbittensor_1_1__threadpool_1_1prioritythreadpool.html#a2d01eebce7b20b5afd1cf74b092dcbc2",tooltip=" "];
+  Node1 -> Node10 [color="steelblue1",style="solid"];
+  Node10 [label="bittensor._wallet.wallet.add_args",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classbittensor_1_1__wallet_1_1wallet.html#a72292bb31c5723a7956ddbb31cb25d35",tooltip=" "];
+  Node1 -> Node11 [color="steelblue1",style="solid"];
+  Node11 [label="bittensor._wandb.wandb.add_args",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classbittensor_1_1__wandb_1_1wandb.html#a3ed9e146339790d420f05893b6d3c01e",tooltip=" "];
+  Node1 -> Node12 [color="steelblue1",style="solid"];
+  Node12 [label="bittensor._neuron.text.core\l_validator.neuron.add_args",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classbittensor_1_1__neuron_1_1text_1_1core__validator_1_1neuron.html#a5542db2ddc40dd74753ff787bf69efe2",tooltip=" "];
+  Node1 -> Node13 [color="steelblue1",style="solid"];
+  Node13 [label="bittensor._neuron.text.core\l_validator.nucleus.add_args",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classbittensor_1_1__neuron_1_1text_1_1core__validator_1_1nucleus.html#afd2091dd63458b880907109b78c7912b",tooltip=" "];
+}

@@ -1,0 +1,11 @@
+digraph "bittensor._dendrite.dendrite_impl.Dendrite.text"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [label="bittensor._dendrite.dendrite\l_impl.Dendrite.text",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="steelblue1",style="solid"];
+  Node2 [label="bittensor._dendrite.dendrite\l_impl.Dendrite.generate",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classbittensor_1_1__dendrite_1_1dendrite__impl_1_1_dendrite.html#a13fd8cc44e4289f9662236107c6577b1",tooltip=" "];
+}

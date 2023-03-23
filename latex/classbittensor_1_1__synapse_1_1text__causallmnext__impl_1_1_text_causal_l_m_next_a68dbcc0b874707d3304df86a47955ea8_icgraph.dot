@@ -1,0 +1,17 @@
+digraph "bittensor._synapse.text_causallmnext_impl.TextCausalLMNext.serialize_to_instance_proto"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [label="bittensor._synapse.text\l_causallmnext_impl.TextCausal\lLMNext.serialize_to_instance_proto",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="steelblue1",style="solid"];
+  Node2 [label="bittensor._synapse.text\l_causallm_impl.TextCausalLM.serialize\l_to_wire_proto",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classbittensor_1_1__synapse_1_1text__causallm__impl_1_1_text_causal_l_m.html#ad9952f1aff2d650102cd64d9fc45d216",tooltip=" "];
+  Node1 -> Node3 [dir="back",color="steelblue1",style="solid"];
+  Node3 [label="bittensor._synapse.text\l_causallmnext_impl.TextCausal\lLMNext.serialize_to_wire_proto",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classbittensor_1_1__synapse_1_1text__causallmnext__impl_1_1_text_causal_l_m_next.html#a5e95672266c3ac309400b0daa7e19d8d",tooltip=" "];
+  Node1 -> Node4 [dir="back",color="steelblue1",style="solid"];
+  Node4 [label="bittensor._synapse.text\l_lasthiddenstate_impl.TextLast\lHiddenState.serialize_to_wire_proto",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classbittensor_1_1__synapse_1_1text__lasthiddenstate__impl_1_1_text_last_hidden_state.html#aac990de9b5ecbd45acd54c2116304a31",tooltip=" "];
+  Node1 -> Node5 [dir="back",color="steelblue1",style="solid"];
+  Node5 [label="bittensor._synapse.text\l_seq2seq_impl.TextSeq2Seq.serialize\l_to_wire_proto",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classbittensor_1_1__synapse_1_1text__seq2seq__impl_1_1_text_seq2_seq.html#a017c5036826ffb2d75d963d2fe3f5be5",tooltip=" "];
+}

@@ -1,0 +1,23 @@
+digraph "bittensor.utils.tokenizer_utils.translate_tokenizer_probs"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [label="bittensor.utils.tokenizer\l_utils.translate_tokenizer_probs",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="steelblue1",style="solid"];
+  Node2 [label="bittensor.utils.tokenizer\l_utils.align_tokenizer\l_sequences",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacebittensor_1_1utils_1_1tokenizer__utils.html#a8a5ed01b4d5f6883475c9db9f896edbe",tooltip=" "];
+  Node2 -> Node3 [color="steelblue1",style="solid"];
+  Node3 [label="bittensor.utils.tokenizer\l_utils.get_tokenizer_alignment_splits",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacebittensor_1_1utils_1_1tokenizer__utils.html#a31406026136d3c9b3ec5469bd1e0c0f7",tooltip=" "];
+  Node2 -> Node4 [color="steelblue1",style="solid"];
+  Node4 [label="bittensor.utils.tokenizer\l_utils.get_tokenizer_depth\l_split_map",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacebittensor_1_1utils_1_1tokenizer__utils.html#af76d2962aae10ddc4826d5f349fd9051",tooltip=" "];
+  Node2 -> Node5 [color="steelblue1",style="solid"];
+  Node5 [label="bittensor.utils.tokenizer\l_utils.split_probs",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacebittensor_1_1utils_1_1tokenizer__utils.html#af3a7513c8021247073b9f0f68d3e751a",tooltip=" "];
+  Node1 -> Node6 [color="steelblue1",style="solid"];
+  Node6 [label="bittensor.utils.tokenizer\l_utils.get_tokenizer_sequence\l_mappings",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacebittensor_1_1utils_1_1tokenizer__utils.html#a80673928d5022558ece6eb5cdc9e12be",tooltip=" "];
+  Node1 -> Node7 [color="steelblue1",style="solid"];
+  Node7 [label="bittensor.utils.tokenizer\l_utils.translate_many_to_one",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacebittensor_1_1utils_1_1tokenizer__utils.html#aacc9d76a7e49b18c20a5b44beafb8306",tooltip=" "];
+  Node1 -> Node8 [color="steelblue1",style="solid"];
+  Node8 [label="bittensor.utils.tokenizer\l_utils.translate_one_to_many",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacebittensor_1_1utils_1_1tokenizer__utils.html#a127face1324f46e879f92ee881771d90",tooltip=" "];
+}

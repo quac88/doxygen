@@ -1,0 +1,12 @@
+digraph "bittensor._axon.axon_impl.Axon.check"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [label="bittensor._axon.axon\l_impl.Axon.check",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="steelblue1",style="solid"];
+  Node2 [label="bittensor._neuron.text.core\l_server.nucleus_impl.server.\l__init__",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classbittensor_1_1__neuron_1_1text_1_1core__server_1_1nucleus__impl_1_1server.html#a6132e85ef58f7a42c1fe91a77ce700d7",tooltip=" "];
+  Node2 -> Node2 [dir="back",color="steelblue1",style="solid"];
+}

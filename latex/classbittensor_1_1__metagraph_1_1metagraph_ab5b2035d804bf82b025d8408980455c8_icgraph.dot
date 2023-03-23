@@ -1,0 +1,43 @@
+digraph "bittensor._metagraph.metagraph.__new__"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [label="bittensor._metagraph.metagraph.\l__new__",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="steelblue1",style="solid"];
+  Node2 [label="bittensor._axon.axon.help",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classbittensor_1_1__axon_1_1axon.html#a98606f3151d07d9e823ce4e2b752ca6f",tooltip=" "];
+  Node2 -> Node3 [dir="back",color="steelblue1",style="solid"];
+  Node3 [label="bittensor._cli.cli\l_impl.CLI.run",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classbittensor_1_1__cli_1_1cli__impl_1_1_c_l_i.html#aefb4bb012305712b2dbbd29545c843ce",tooltip=" "];
+  Node3 -> Node4 [dir="back",color="steelblue1",style="solid"];
+  Node4 [label="bittensor._cli.cli\l_impl.CLI.inspect",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classbittensor_1_1__cli_1_1cli__impl_1_1_c_l_i.html#ae03172c94947caed1fdc0a5c0a0aa8c2",tooltip=" "];
+  Node4 -> Node3 [dir="back",color="steelblue1",style="solid"];
+  Node1 -> Node5 [dir="back",color="steelblue1",style="solid"];
+  Node5 [label="bittensor._dataset.dataset.help",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classbittensor_1_1__dataset_1_1dataset.html#a5289194bb435a98b4dc08f6fd21a1b31",tooltip=" "];
+  Node5 -> Node3 [dir="back",color="steelblue1",style="solid"];
+  Node1 -> Node6 [dir="back",color="steelblue1",style="solid"];
+  Node6 [label="bittensor._dendrite.dendrite.help",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classbittensor_1_1__dendrite_1_1dendrite.html#a8b814eba8737ed370882f117bffbf34b",tooltip=" "];
+  Node6 -> Node3 [dir="back",color="steelblue1",style="solid"];
+  Node1 -> Node7 [dir="back",color="steelblue1",style="solid"];
+  Node7 [label="bittensor._logging.logging.help",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classbittensor_1_1__logging_1_1logging.html#a2ed6539be7f75fda81d7f82a8dd5f967",tooltip=" "];
+  Node7 -> Node3 [dir="back",color="steelblue1",style="solid"];
+  Node1 -> Node8 [dir="back",color="steelblue1",style="solid"];
+  Node8 [label="bittensor._metagraph.metagraph.help",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classbittensor_1_1__metagraph_1_1metagraph.html#a60312264f9c16fd14d40fadceaf7cc3c",tooltip=" "];
+  Node8 -> Node3 [dir="back",color="steelblue1",style="solid"];
+  Node1 -> Node9 [dir="back",color="steelblue1",style="solid"];
+  Node9 [label="bittensor._prometheus.prometheus.help",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classbittensor_1_1__prometheus_1_1prometheus.html#a286bff6021a40130f3630271e1f645b9",tooltip=" "];
+  Node9 -> Node3 [dir="back",color="steelblue1",style="solid"];
+  Node1 -> Node10 [dir="back",color="steelblue1",style="solid"];
+  Node10 [label="bittensor._subtensor.subtensor.help",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classbittensor_1_1__subtensor_1_1subtensor.html#aa334fe4e5112e8fa64a2bf255d02dd23",tooltip=" "];
+  Node10 -> Node3 [dir="back",color="steelblue1",style="solid"];
+  Node1 -> Node11 [dir="back",color="steelblue1",style="solid"];
+  Node11 [label="bittensor._threadpool.prioritythreadpool.help",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classbittensor_1_1__threadpool_1_1prioritythreadpool.html#a06abea6a5f23ff327501536eda597e60",tooltip=" "];
+  Node11 -> Node3 [dir="back",color="steelblue1",style="solid"];
+  Node1 -> Node12 [dir="back",color="steelblue1",style="solid"];
+  Node12 [label="bittensor._wallet.wallet.help",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classbittensor_1_1__wallet_1_1wallet.html#a5a8d7e908cf9a05d8c14ebdf09ae0bd2",tooltip=" "];
+  Node12 -> Node3 [dir="back",color="steelblue1",style="solid"];
+  Node1 -> Node13 [dir="back",color="steelblue1",style="solid"];
+  Node13 [label="bittensor._wandb.wandb.help",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classbittensor_1_1__wandb_1_1wandb.html#af78430acf92f52da4b03bf015ea72c57",tooltip=" "];
+  Node13 -> Node3 [dir="back",color="steelblue1",style="solid"];
+}

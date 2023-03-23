@@ -1,0 +1,12 @@
+digraph "bittensor._subtensor.subtensor_mock.Mock_Subtensor.optionally_kill_owned_mock_instance"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [label="bittensor._subtensor.subtensor\l_mock.Mock_Subtensor.optionally\l_kill_owned_mock_instance",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="steelblue1",style="solid"];
+  Node2 [label="bittensor._subtensor.subtensor\l_mock.Mock_Subtensor.__init__",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classbittensor_1_1__subtensor_1_1subtensor__mock_1_1_mock___subtensor.html#a08ffa4bf8fd61f9ac302f513ede65bf9",tooltip=" "];
+  Node2 -> Node2 [dir="back",color="steelblue1",style="solid"];
+}

@@ -1,0 +1,21 @@
+digraph "bittensor._logging.logging.__new__"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [label="bittensor._logging.logging.\l__new__",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="steelblue1",style="solid"];
+  Node2 [label="bittensor._logging.logging.log\l_filter",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classbittensor_1_1__logging_1_1logging.html#aadf0cb47f3aa973fc61da41a9c430a9a",tooltip=" "];
+  Node1 -> Node3 [color="steelblue1",style="solid"];
+  Node3 [label="bittensor._logging.logging.log\l_formatter",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classbittensor_1_1__logging_1_1logging.html#a9bbaaa7af91c6bd82c3071f2360fa856",tooltip=" "];
+  Node1 -> Node4 [color="steelblue1",style="solid"];
+  Node4 [label="bittensor._logging.logging.log\l_save_filter",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classbittensor_1_1__logging_1_1logging.html#ad02edaf38a0486123913fd2150856976",tooltip=" "];
+  Node1 -> Node5 [color="steelblue1",style="solid"];
+  Node5 [label="bittensor._logging.logging.log\l_save_formatter",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classbittensor_1_1__logging_1_1logging.html#a07c20365564888060e9dd1a58be16528",tooltip=" "];
+  Node1 -> Node6 [color="steelblue1",style="solid"];
+  Node6 [label="bittensor._logging.logging.set\l_debug",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classbittensor_1_1__logging_1_1logging.html#abf0e1a127d746978fca5a95bd9c59255",tooltip=" "];
+  Node1 -> Node7 [color="steelblue1",style="solid"];
+  Node7 [label="bittensor._logging.logging.set\l_trace",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classbittensor_1_1__logging_1_1logging.html#aaf642e633c12a2ab90f38e05e3a7ef5c",tooltip=" "];
+}

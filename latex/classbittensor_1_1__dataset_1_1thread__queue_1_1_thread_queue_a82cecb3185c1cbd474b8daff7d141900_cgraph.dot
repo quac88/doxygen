@@ -1,0 +1,19 @@
+digraph "bittensor._dataset.thread_queue.ThreadQueue.__init__"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [label="bittensor._dataset.thread\l_queue.ThreadQueue.__init__",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="steelblue1",style="solid"];
+  Node2 [label="bittensor._dataset.dataset\l_impl.GenesisTextDataset.close",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classbittensor_1_1__dataset_1_1dataset__impl_1_1_genesis_text_dataset.html#a732184249b00adfa4fa15151193e50d9",tooltip=" "];
+  Node1 -> Node3 [color="steelblue1",style="solid"];
+  Node3 [label="bittensor._dataset.dataset\l_mock.MockGenesisTextDataset.close",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classbittensor_1_1__dataset_1_1dataset__mock_1_1_mock_genesis_text_dataset.html#a157914b489048a1ff1cabc5bf3815748",tooltip=" "];
+  Node1 -> Node4 [color="steelblue1",style="solid"];
+  Node4 [label="bittensor._dataset.thread\l_queue.ThreadQueue.close",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classbittensor_1_1__dataset_1_1thread__queue_1_1_thread_queue.html#a716e14ea9630c59fc3069a6c13c49c92",tooltip=" "];
+  Node1 -> Node5 [color="steelblue1",style="solid"];
+  Node5 [label="bittensor._dendrite.manager\l_server.ManagerServer.close",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classbittensor_1_1__dendrite_1_1manager__server_1_1_manager_server.html#ad75ee5ba38bf07e63f1d8cab0e535804",tooltip=" "];
+  Node1 -> Node6 [color="steelblue1",style="solid"];
+  Node6 [label="bittensor._receptor.receptor\l_impl.Receptor.close",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classbittensor_1_1__receptor_1_1receptor__impl_1_1_receptor.html#a8f9f4a47c5226125cdf6d0f5719f818e",tooltip=" "];
+}

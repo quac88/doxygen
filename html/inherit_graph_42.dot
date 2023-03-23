@@ -1,0 +1,29 @@
+digraph "Graphical Class Hierarchy"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node0 [label="Exception",height=0.2,width=0.4,color="grey60", fillcolor="#E0E0E0", style="filled",tooltip=" "];
+  Node0 -> Node1 [dir="back",color="steelblue1",style="solid"];
+  Node1 [label="bittensor._cli.cli\l_impl.CacheException",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classbittensor_1_1__cli_1_1cli__impl_1_1_cache_exception.html",tooltip=" "];
+  Node0 -> Node2 [dir="back",color="steelblue1",style="solid"];
+  Node2 [label="bittensor._config.config.\lInvalidConfigFile",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classbittensor_1_1__config_1_1config_1_1_invalid_config_file.html",tooltip=" "];
+  Node0 -> Node3 [dir="back",color="steelblue1",style="solid"];
+  Node3 [label="bittensor._keyfile.keyfile\l_impl.KeyFileError",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classbittensor_1_1__keyfile_1_1keyfile__impl_1_1_key_file_error.html",tooltip=" "];
+  Node0 -> Node4 [dir="back",color="steelblue1",style="solid"];
+  Node4 [label="bittensor._serializer.serializer.\lDeserializationException",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classbittensor_1_1__serializer_1_1serializer_1_1_deserialization_exception.html",tooltip=" "];
+  Node0 -> Node5 [dir="back",color="steelblue1",style="solid"];
+  Node5 [label="bittensor._serializer.serializer.\lNoSerializerForEnum",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classbittensor_1_1__serializer_1_1serializer_1_1_no_serializer_for_enum.html",tooltip=" "];
+  Node0 -> Node6 [dir="back",color="steelblue1",style="solid"];
+  Node6 [label="bittensor._serializer.serializer.\lSerializationException",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classbittensor_1_1__serializer_1_1serializer_1_1_serialization_exception.html",tooltip=" "];
+  Node0 -> Node7 [dir="back",color="steelblue1",style="solid"];
+  Node7 [label="bittensor._serializer.serializer.\lSerializationTypeNotImplementedException",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classbittensor_1_1__serializer_1_1serializer_1_1_serialization_type_not_implemented_exception.html",tooltip=" "];
+  Node0 -> Node8 [dir="back",color="steelblue1",style="solid"];
+  Node8 [label="bittensor.utils.networking.\lExternalIPNotFound",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classbittensor_1_1utils_1_1networking_1_1_external_i_p_not_found.html",tooltip=" "];
+  Node0 -> Node9 [dir="back",color="steelblue1",style="solid"];
+  Node9 [label="bittensor.utils.networking.\lUPNPCException",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classbittensor_1_1utils_1_1networking_1_1_u_p_n_p_c_exception.html",tooltip=" "];
+  Node0 -> Node10 [dir="back",color="steelblue1",style="solid"];
+  Node10 [label="bittensor.utils.registration.\lCUDAException",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classbittensor_1_1utils_1_1registration_1_1_c_u_d_a_exception.html",tooltip=" "];
+}

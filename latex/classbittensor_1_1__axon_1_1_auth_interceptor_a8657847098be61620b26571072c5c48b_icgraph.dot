@@ -1,0 +1,11 @@
+digraph "bittensor._axon.AuthInterceptor.check_signature"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [label="bittensor._axon.AuthInterceptor.check\l_signature",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="steelblue1",style="solid"];
+  Node2 [label="bittensor._axon.AuthInterceptor.intercept\l_service",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classbittensor_1_1__axon_1_1_auth_interceptor.html#a17c9f62ecb7d3442e42cc90e8f8d1409",tooltip=" "];
+}
